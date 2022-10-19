@@ -45,7 +45,7 @@ It's a field that contains an array under the `content` key.
 
 The array contains either:
 
-- a call to action (CTA) that is a clickable image
+- an image (that can be clickable if `linkHref` field is provided)
 
   ```json
   {
@@ -54,7 +54,7 @@ The array contains either:
       "content": [
         ...,
         {
-          "cta": {
+          "image": {
             "imageSource": "https://resources.gdevelop-app.com/...",
             "linkHref": "https://gdevelop.io"
         }
@@ -106,12 +106,12 @@ Here is the structure of a step (all fields are optional):
 
 At the moment, only one trigger can be specified to go the next step. Here is the list of supported triggers:
 
-- `presenceOfElement`: the CSS selector of an element present in the DOM
-- `absenceOfElement`: the CSS selector of an element absent from the DOM
-- `elementIsFilled`: the CSS selector of an input whose value has changed
-- `instanceDraggedOnScene`: the name of an object for which an instance has been added on the scene
-- `previewLaunched`: a preview has been launched
-- `clickOnButton`: the user has clicked on the button displayed in the tooltip.
+- `presenceOfElement` (string): the CSS selector of an element present in the DOM
+- `absenceOfElement` (string): the CSS selector of an element absent from the DOM
+- `valueHasChanged` (true): the CSS selector of an input whose value has changed
+- `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene
+- `previewLaunched` (true): a preview has been launched
+- `clickOnTooltipButton` (string): the label of the button displayed in the tooltip that the user has to click to go to the next step.
 
 Notes:
 
