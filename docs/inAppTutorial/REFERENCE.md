@@ -101,6 +101,7 @@ Here is the structure of a step (all fields are optional):
   - `trigger`: DOM trigger (presence of absence of element)
 - `skippable` (true): if the step can be skipped (useful when the user interaction can result in this step not being mandatory)
 - `isOnClosableDialog` (true): if the step is on a closable dialog, if the element to highlight is missing (meaning the dialog has been closed), the flow will go back to the previous step that is not on a closable dialog.
+- `mapProjectData`: See [mapProjectData](#mapProjectData)
 
 #### **Triggers**
 
@@ -152,3 +153,14 @@ If your flow contains a step with id `ClickOnCreateObjectButton` (that should ha
 Notes:
 
 - The possible values for the expected editor are: `Scene`, `EventsSheet`, `Home` (other editors are not supported at the moment)
+
+### `mapProjectData`
+
+This can contain variables to use in the flow.
+For example, if a key `firstObject` is added with the value `lastProjectObjectName` the variable will contain the last object name added in the project.
+
+```json
+mapProjectData: {
+    firstObject: 'lastProjectObjectName',
+}
+```
