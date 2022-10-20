@@ -91,16 +91,17 @@ A step is more or less an element to highlight plus a trigger that can be detect
 
 Here is the structure of a step (all fields are optional):
 
-- `id` (string): Id of the step (useful for shortcuts and editor switches)
+- `id` (string): id of the step (useful for shortcuts and editor switches)
 - `elementToHighlightId` (string): the CSS selector of the element to highlight
-- `nextStepTrigger`: See [Triggers](#triggers)
-- `tooltip`: See [Tooltip](#tooltip)
-- `isTriggerFlickering`(true): Useful when a DOM mutation is not caught and the presence trigger is not fired.
-- `shortcuts`: List of steps that the flow can use as shortcuts.
+- `nextStepTrigger`: see [Triggers](#triggers)
+- `tooltip`: see [Tooltip](#tooltip)
+- `isTriggerFlickering`(true): useful when a DOM mutation is not caught and the presence trigger is not fired.
+- `shortcuts`: list of steps that the flow can use as shortcuts.
   - `stepId`: id of the step to jump to
   - `trigger`: DOM trigger (presence of absence of element)
 - `skippable` (true): if the step can be skipped (useful when the user interaction can result in this step not being mandatory)
 - `isOnClosableDialog` (true): if the step is on a closable dialog, if the element to highlight is missing (meaning the dialog has been closed), the flow will go back to the previous step that is not on a closable dialog.
+- `mapProjectData` (object): allow to read data in the GDevelop project object and store it during the duration of the tutorial. This data can then be used in the tooltips. See [Available Project Data](#available-project-data)
 
 #### **Triggers**
 
@@ -117,6 +118,27 @@ Notes:
 
 - You can learn about CSS selectors [here](https://www.w3schools.com/cssref/css_selectors.asp).
 
+#### **Available Project Data**
+
+Project data is read when the step is complete. Here is how to construct `mapProjectData`:
+
+- For each item of the object:
+  - the key of the object is the string under which to store the data
+  - the value is the "data accessor"
+- At the moment, there is only one available data accessor:
+  - `lastProjectObjectName` that will read the name of the last object added to the project.
+
+Example: This will store the name of the last object added to the project under the key `firstObject`:
+
+```json
+  {
+    ...,
+    "mapProjectData": {
+      "firstObject": "lastProjectObjectName",
+    }
+  }
+```
+
 #### **Tooltip**
 
 For each step, you can specify a tooltip to display next to the element you want to highlight. A tooltip contains the 3 following fields:
@@ -128,6 +150,8 @@ For each step, you can specify a tooltip to display next to the element you want
 Notes:
 
 - At least one field among `title` and `description` should be provided. If you don't want to display a tooltip, do not provide the `tooltip` field in your step.
+- To use data stored with `mapProjectData`, include the placeholder `$(...)` in your text.
+  - For example, the description `"Drag $(firstObject) to the scene"` will be displayed `"Drag Platformer to the scene"`.
 
 ### `editorSwitches`
 
