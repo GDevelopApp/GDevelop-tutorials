@@ -87,6 +87,11 @@ const processInAppTutorials = async () => {
  * Discover all tutorials and extract information from them.
  */
 (async () => {
-  generateFolderStructure();
-  await processInAppTutorials();
+  try {
+    generateFolderStructure();
+    await processInAppTutorials();
+  } catch (error) {
+    console.error('The script errored', error);
+    shell.exit(1);
+  }
 })();
