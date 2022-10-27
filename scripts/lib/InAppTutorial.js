@@ -1,5 +1,6 @@
 // @ts-check
 const fs = require('fs');
+const path = require('path');
 
 /**
  * @typedef {import("../types").InAppTutorialShortHeader} InAppTutorialShortHeader
@@ -12,16 +13,22 @@ class InAppTutorial {
   id;
 
   /**
-   * @param {string} path
+   * @param {string} sourcePath
    */
-  constructor(path) {
-    this.sourcePath = path;
+  constructor(sourcePath) {
+    this.sourcePath = sourcePath;
     try {
-      const tutorialContent = JSON.parse(fs.readFileSync(path, 'utf-8'));
+      const tutorialContent = JSON.parse(fs.readFileSync(sourcePath, 'utf-8'));
+      const sourceFileName = path.parse(this.sourcePath).name;
+      if (tutorialContent.id !== sourceFileName) {
+        throw new Error(
+          `the in app tutorial with ${tutorialContent.id} is saved under a file that does not share the same name (${sourceFileName})`
+        );
+      }
       this.id = tutorialContent.id;
     } catch (error) {
       console.error(
-        `An error occurred when reading tutorial file with path ${path}. The file might be corrupt.`,
+        `An error occurred when reading tutorial file with path ${sourcePath}. The file might be corrupt.`,
         error
       );
       throw error;
@@ -32,7 +39,10 @@ class InAppTutorial {
    * @returns {InAppTutorialShortHeader}
    */
   buildShortHeader() {
-    return { id: this.id };
+    return {
+      id: this.id,
+      contentUrl: `https://resources.gdevelop-app.com/in-app-tutorials/${this.id}.json`,
+    };
   }
 }
 

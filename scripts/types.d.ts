@@ -1,3 +1,4 @@
 export interface InAppTutorialShortHeader {
-  id: string,
+  id: string;
+  contentUrl: string;
 }

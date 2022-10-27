@@ -16,23 +16,22 @@ const inAppTutorialsSourceRootPath = path.join(
 );
 const distPath = path.join(__dirname, '../dist');
 const databasePath = path.join(distPath, 'database');
-const tutorialsDestinationRootPath = path.join(distPath, 'tutorials');
-const inAppTutorialsDestinationRootPath = path.join(
-  tutorialsDestinationRootPath,
-  'in-app'
-);
+const inAppTutorialsDestinationRootPath = path.join(distPath, 'tutorials');
 
 const generateFolderStructure = () => {
   // Clean current folders
-  shell.rm('-rf', inAppTutorialsDestinationRootPath);
+  shell.rm('-rf', databasePath);
 
   // Recreate destination folders
-  shell.mkdir('-p', tutorialsDestinationRootPath);
   shell.mkdir('-p', inAppTutorialsDestinationRootPath);
   shell.mkdir('-p', databasePath);
 
   // Copy tutorials in destination folders
-  shell.cp('-r', inAppTutorialsSourceRootPath, tutorialsDestinationRootPath);
+  shell.cp(
+    '-r',
+    inAppTutorialsSourceRootPath,
+    inAppTutorialsDestinationRootPath
+  );
 };
 
 /**
@@ -67,11 +66,12 @@ const readInAppTutorials = async (path) => {
 const buildAndWriteInAppTutorialsDatabase = (databasePath, inAppTutorials) => {
   const inAppTutorialShortHeadersPath = path.join(
     databasePath,
-    'inAppTutorialsShortHeaders.json'
+    'inAppTutorialShortHeaders.json'
   );
-  const inAppTutorialShortHeaders = inAppTutorials.map((inAppTutorial) =>
-    inAppTutorial.buildShortHeader()
-  );
+  const inAppTutorialShortHeaders = inAppTutorials.map((inAppTutorial) => {
+    const inAppTutorialShortHeader = inAppTutorial.buildShortHeader();
+    return inAppTutorialShortHeader;
+  });
   fs.writeFile(
     inAppTutorialShortHeadersPath,
     JSON.stringify(inAppTutorialShortHeaders)

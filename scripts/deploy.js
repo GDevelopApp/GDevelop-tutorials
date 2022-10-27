@@ -4,9 +4,12 @@ const { default: axios } = require('axios');
 const args = require('minimist')(process.argv.slice(2));
 
 const databasePath = path.join(__dirname, '../dist/database');
-const examplesPath = path.join(__dirname, '../dist/examples');
-const databaseDestination = `s3://resources.gdevelop-app.com/examples-database`;
-const examplesDestination = `s3://resources.gdevelop-app.com/examples`;
+const inAppTutorialsContentPath = path.join(
+  __dirname,
+  '../dist/tutorials/in-app'
+);
+const databaseDestination = `s3://resources.gdevelop-app.com/in-app-tutorials-database`;
+const inAppTutorialsDestination = `s3://resources.gdevelop-app.com/in-app-tutorials`;
 
 if (!args['cf-zoneid'] || !args['cf-token']) {
   shell.echo(
@@ -16,13 +19,15 @@ if (!args['cf-zoneid'] || !args['cf-token']) {
 }
 
 {
-  shell.echo('ℹ️ Uploading examples to resources.gdevelop-app.com/examples...');
+  shell.echo(
+    'ℹ️ Uploading in app tutorials to resources.gdevelop-app.com/in-app-tutorials...'
+  );
   const output = shell.exec(
-    `aws s3 sync ${examplesPath} ${examplesDestination} --acl public-read`
+    `aws s3 sync ${inAppTutorialsContentPath} ${inAppTutorialsDestination} --acl public-read`
   );
   if (output.code !== 0) {
     shell.echo(
-      '❌ Unable to upload database to resources.gdevelop-app.com/examples-database. Error is:'
+      '❌ Unable to upload in app tutorials to resources.gdevelop-app.com/in-app-tutorials. Error is:'
     );
     shell.echo(output.stdout);
     shell.echo(output.stderr);
@@ -32,14 +37,14 @@ if (!args['cf-zoneid'] || !args['cf-token']) {
 
 {
   shell.echo(
-    'ℹ️ Uploading database to resources.gdevelop-app.com/examples-database...'
+    'ℹ️ Uploading database to resources.gdevelop-app.com/in-app-tutorials-database...'
   );
   const output = shell.exec(
     `aws s3 sync ${databasePath} ${databaseDestination} --acl public-read`
   );
   if (output.code !== 0) {
     shell.echo(
-      '❌ Unable to upload database to resources.gdevelop-app.com/examples-database. Error is:'
+      '❌ Unable to upload database to resources.gdevelop-app.com/in-app-tutorials-database. Error is:'
     );
     shell.echo(output.stdout);
     shell.echo(output.stderr);
@@ -60,8 +65,9 @@ axios
     {
       files: [
         // Update the "database"
-        'https://resources.gdevelop-app.com/examples-database/exampleShortHeaders.json',
-        'https://resources.gdevelop-app.com/examples-database/filters.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials-database/inAppTutorialShortHeaders.json',
+        // Upload the tutorials
+        'https://resources.gdevelop-app.com/in-app-tutorials/flingGamePart1.json',
       ],
     },
     {
