@@ -10,6 +10,10 @@ jobs:
     steps:
       - checkout
       - run: npm install
+      - persist_to_workspace:
+          root: .
+          paths:
+            - node_modules # For npm install.
 
   tests:
     docker:
