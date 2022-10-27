@@ -112,7 +112,7 @@ At the moment, only one trigger can be specified to go the next step. Here is th
 - `valueHasChanged` (true): the CSS selector of an input whose value has changed
 - `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene
 - `previewLaunched` (true): a preview has been launched
-- `clickOnTooltipButton` (string): the label of the button displayed in the tooltip that the user has to click to go to the next step.
+- `clickOnTooltipButton` (`messageByLocale` object): the label of the button displayed in the tooltip that the user has to click to go to the next step.
 
 Notes:
 
@@ -152,6 +152,8 @@ Notes:
 - At least one field among `title` and `description` should be provided. If you don't want to display a tooltip, do not provide the `tooltip` field in your step.
 - To use data stored with `mapProjectData`, include the placeholder `$(...)` in your text.
   - For example, the description `"Drag $(firstObject) to the scene"` will be displayed `"Drag Platformer to the scene"`.
+- You can also use a function that will display dynamic data in your tooltip texts. Available functions:
+  - Use `$(instancesCount:firstObject)` to display the number of instances on the scene of the object saved under the key `firstObject`.
 
 ### `editorSwitches`
 
