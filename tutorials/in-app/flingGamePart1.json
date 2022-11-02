@@ -668,7 +668,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now click on $(projectile) and select “Edit behaviors”."
+            "en": "Now right click on $(projectile) and select “Edit behaviors”."
           }
         }
       }
@@ -779,7 +779,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now click on $(target) and select “Edit behaviors”."
+            "en": "Now right click on $(target) and select “Edit behaviors”."
           }
         }
       }
@@ -838,7 +838,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now click on $(block) and select “Edit behaviors”."
+            "en": "Now right click on $(block) and select “Edit behaviors”."
           }
         }
       }
@@ -940,7 +940,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search the draggable extension (for physics objects)."
+            "en": "Search for the **draggable** extension (for physics objects)."
           }
         }
       },
@@ -996,7 +996,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now click on $(projectile) and select “Edit behaviors”."
+            "en": "Now right click on $(projectile) and select “Edit behaviors”."
           }
         }
       }
