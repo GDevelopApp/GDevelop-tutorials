@@ -32,6 +32,10 @@
       "editor": "EventsSheet",
       "scene": "leaderboardScene"
     },
+    "SwitchToEvents7": {
+      "editor": "EventsSheet",
+      "scene": "playScene"
+    },
     "CreateNewScene": {
       "editor": "Scene",
       "scene": "startScene"
@@ -3874,7 +3878,8 @@
           "messageByLocale": {
             "en": "Select “$(startScene)”."
           }
-        }
+        },
+        "placement": "top"
       },
       "isOnClosableDialog": true,
       "placement": "top"
@@ -3907,6 +3912,7 @@
       }
     },
     {
+      "id": "SwitchToEvents7",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
