@@ -1688,7 +1688,7 @@
     {
       "elementToHighlightId": "editorTab:playScene:EventsSheet",
       "nextStepTrigger": {
-        "presenceOfElement": "#add-event-button"
+        "editorIsActive": "playScene:EventsSheet"
       },
       "tooltip": {
         "description": {
