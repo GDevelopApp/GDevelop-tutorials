@@ -95,6 +95,8 @@ Here is the structure of a step (all fields are optional):
 - `elementToHighlightId` (string): the CSS selector of the element to highlight
 - `nextStepTrigger`: see [Triggers](#triggers)
 - `tooltip`: see [Tooltip](#tooltip)
+- `dialog`: A dialog to display with the same structure as the [the end dialog](#enddialog)
+- `isCheckpoint` (true): Useful to divide a tutorial in different part. When there are checkpoint steps, the notion of progress is part-based.
 - `isTriggerFlickering`(true): useful when a DOM mutation is not caught and the presence trigger is not fired.
 - `shortcuts`: list of steps that the flow can use as shortcuts.
   - `stepId`: id of the step to jump to
@@ -107,16 +109,29 @@ Here is the structure of a step (all fields are optional):
 
 At the moment, only one trigger can be specified to go the next step. Here is the list of supported triggers:
 
-- `presenceOfElement` (string): the CSS selector of an element present in the DOM
-- `absenceOfElement` (string): the CSS selector of an element absent from the DOM
+- `presenceOfElement` (string): the CSS selector of an element present in the DOM or a custom selector
+- `absenceOfElement` (string): the CSS selector of an element absent from the DOM or a custom selector
 - `valueHasChanged` (true): the CSS selector of an input whose value has changed
 - `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene
 - `previewLaunched` (true): a preview has been launched
 - `clickOnTooltipButton` (`messageByLocale` object): the label of the button displayed in the tooltip that the user has to click to go to the next step.
+- `editorIsActive` (string `scene:editor`): to detect when a user switched editors
+  - `scene` is optional (if your tutorial only requires a single scene, no need to specify it). In that case, you can write `:EventsSheet` if you want to check the user is on the events sheet.
+  - The editor possible values are the same as for the [editor switches](#editorswitches).
+  - The scene is the key under which the scene name has been stored.
 
 Notes:
 
 - You can learn about CSS selectors [here](https://www.w3schools.com/cssref/css_selectors.asp).
+
+**Custom selector**
+
+There are a few custom selectors that you can use:
+
+- `objectInObjectsList:enemy`: to select an object in the objects list in the scene editor
+- `sceneInProjectManager:playScene`: to select a scene in the scene list in the project manager
+- `objectInObjectOrResourceSelector:enemy`: to select an object in the objects list that appears when opening the instruction editor
+- `editorTab:playScene:Scene`: to select the tab of an editor. The scene name is optional so if you don't need it, use `editorTab::Scene`.
 
 #### **Available Project Data**
 
@@ -125,8 +140,9 @@ Project data is read when the step is complete. Here is how to construct `mapPro
 - For each item of the object:
   - the key of the object is the string under which to store the data
   - the value is the "data accessor"
-- At the moment, there is only one available data accessor:
-  - `lastProjectObjectName` that will read the name of the last object added to the project.
+- At the moment, here are the available data accessors:
+  - `projectLastSceneName` that will read the name of the last scene added to the project.
+  - `sceneLastObjectName:scene` that will read the name of the last object added to the scene (scene is optional, if you don't mention it, the first project scene is used)
 
 Example: This will store the name of the last object added to the project under the key `firstObject`:
 
@@ -134,7 +150,7 @@ Example: This will store the name of the last object added to the project under 
   {
     ...,
     "mapProjectData": {
-      "firstObject": "lastProjectObjectName",
+      "firstObject": "projectLastSceneName",
     }
   }
 ```
@@ -161,15 +177,15 @@ The orchestrator detects when the user went into an editor (either the home page
 
 For this to work, you must provide the editor switches that happen during your tutorial. Here is how to do it:
 
-If your flow contains a step with id `ClickOnCreateObjectButton` (that should happen in the scene editor) and another step `ClickOnAddEventButton` (that should happen in the events sheet), here is what the field should look like:
+If your flow contains a step with id `ClickOnCreateObjectButton` (that should happen in the scene editor) and another step `ClickOnAddEventButton` (that should happen in the events sheet for scene `playScene`), here is what the field should look like:
 
 ```json
 {
   ...,
   "editorSwitches": {
     {
-      "ClickOnCreateObjectButton": "Scene",
-      "ClickOnAddEventButton": "EventsSheet",
+      "ClickOnCreateObjectButton": { "editor": "Scene" },
+      "ClickOnAddEventButton": { "editor": "EventsSheet", "scene": "playScene" },
     }
   }
 }
@@ -177,4 +193,5 @@ If your flow contains a step with id `ClickOnCreateObjectButton` (that should ha
 
 Notes:
 
-- The possible values for the expected editor are: `Scene`, `EventsSheet`, `Home` (other editors are not supported at the moment)
+- `playScene` is the key under which the name of the scene has been stored during the tutorial.
+- The possible values for the expected editor are: `Scene`, `EventsSheet`, `Home` (other editors are not supported at the moment).
