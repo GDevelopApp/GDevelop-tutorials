@@ -2946,7 +2946,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-parameters-container #scene-name",
+      "elementToHighlightId": "#instruction-parameters-container #parameter-1-scene-field",
       "nextStepTrigger": {
         "valueHasChanged": true
       },
@@ -3869,7 +3869,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-parameters-container #scene-name",
+      "elementToHighlightId": "#instruction-parameters-container #parameter-1-scene-field",
       "nextStepTrigger": {
         "valueHasChanged": true
       },
@@ -4137,7 +4137,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-parameters-container #scene-name",
+      "elementToHighlightId": "#instruction-parameters-container #parameter-1-scene-field",
       "nextStepTrigger": {
         "valueHasChanged": true
       },
