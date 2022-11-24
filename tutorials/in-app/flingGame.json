@@ -1702,7 +1702,7 @@
       "id": "SwitchToEvents1",
       "elementToHighlightId": "[data-active=\"true\"] #add-event-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#add-condition-button-empty"
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
       },
       "tooltip": {
         "title": {
@@ -2070,7 +2070,7 @@
       "id": "SwitchToEvents2",
       "elementToHighlightId": "#toolbar-add-event-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#add-condition-button-empty"
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
       },
       "isTriggerFlickering": true,
       "tooltip": {
@@ -3124,7 +3124,7 @@
       "id": "SwitchToEvents4",
       "elementToHighlightId": "#toolbar-add-event-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#add-condition-button-empty"
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
       },
       "tooltip": {
         "description": {
@@ -3263,7 +3263,7 @@
     {
       "elementToHighlightId": "#toolbar-add-event-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#add-condition-button-empty"
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
       },
       "tooltip": {
         "description": {
@@ -3499,7 +3499,8 @@
           "messageByLocale": {
             "en": "Select the option **Select the leaderboard from a list**."
           }
-        }
+        },
+        "placement": "top"
       },
       "isOnClosableDialog": true,
       "skippable": true
@@ -3564,7 +3565,7 @@
       "id": "SwitchToEvents5",
       "elementToHighlightId": "#toolbar-add-event-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#add-condition-button-empty"
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
       },
       "isTriggerFlickering": true,
       "tooltip": {
@@ -3748,7 +3749,7 @@
       "id": "SwitchToEvents6",
       "elementToHighlightId": "[data-active=\"true\"] #add-event-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#add-condition-button-empty"
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
       },
       "tooltip": {
         "description": {
