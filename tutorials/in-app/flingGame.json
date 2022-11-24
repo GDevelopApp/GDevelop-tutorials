@@ -1014,7 +1014,7 @@
     {
       "elementToHighlightId": "#extension-list-item-DraggablePhysics",
       "nextStepTrigger": {
-        "presenceOfElement": "#extension-install-dialog"
+        "presenceOfElement": "#install-extension-dialog"
       },
       "tooltip": {
         "description": {
@@ -1026,9 +1026,9 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#extension-install-dialog #install-extension-button",
+      "elementToHighlightId": "#install-extension-dialog #install-extension-button",
       "nextStepTrigger": {
-        "absenceOfElement": "#extension-install-dialog"
+        "absenceOfElement": "#install-extension-dialog"
       },
       "tooltip": {
         "description": {
@@ -2393,7 +2393,7 @@
     {
       "elementToHighlightId": "#open-online-export-button",
       "nextStepTrigger": {
-        "absenceOfElement": "#share-dialog"
+        "absenceOfElement": "#export-game-share-dialog"
       },
       "tooltip": {
         "description": {
@@ -3422,7 +3422,7 @@
     {
       "elementToHighlightId": "#add-new-leaderboard-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#leaderboard-admin"
+        "presenceOfElement": "#leaderboard-administration-panel"
       },
       "tooltip": {
         "description": {
@@ -3434,7 +3434,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#leaderboard-admin #edit-name-button",
+      "elementToHighlightId": "#leaderboard-administration-panel #edit-name-button",
       "nextStepTrigger": {
         "presenceOfElement": "#edit-name-field"
       },
@@ -3448,7 +3448,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#leaderboard-admin #edit-name-field",
+      "elementToHighlightId": "#leaderboard-administration-panel #edit-name-field",
       "nextStepTrigger": {
         "valueHasChanged": true
       },
@@ -3462,9 +3462,9 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#leaderboard-admin #save-name-button",
+      "elementToHighlightId": "#leaderboard-administration-panel #save-name-button",
       "nextStepTrigger": {
-        "absenceOfElement": "#leaderboard-admin #save-name-button"
+        "absenceOfElement": "#leaderboard-administration-panel #save-name-button"
       },
       "tooltip": {
         "description": {
