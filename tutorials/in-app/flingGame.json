@@ -4,10 +4,7 @@
     "GoToBuildSection": {
       "editor": "Home"
     },
-    "OpenPropertiesManager": {
-      "editor": "Scene",
-      "scene": "startScene"
-    },
+
     "SwitchToEvents1": {
       "editor": "EventsSheet",
       "scene": "playScene"
