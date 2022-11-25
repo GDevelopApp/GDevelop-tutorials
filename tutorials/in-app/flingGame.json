@@ -61,7 +61,7 @@
     "content": [
       {
         "messageByLocale": {
-          "en": "## Congratulations"
+          "en": "## Congratulations!"
         }
       },
       {
@@ -95,7 +95,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's create a new project for this tutorial!"
+            "en": "Let's create a new **project** for this tutorial!"
           }
         }
       }
@@ -154,7 +154,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Open the game properties."
+            "en": "Open the game **properties**."
           }
         }
       },
@@ -225,7 +225,7 @@
         "placement": "left",
         "description": {
           "messageByLocale": {
-            "en": "First, let's find a border for our ring."
+            "en": "First, let's find a border for our **scene**."
           }
         }
       }
@@ -238,7 +238,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's choose an object from the asset store"
+            "en": "Let's choose an **object** from the asset store"
           }
         },
         "placement": "bottom"
@@ -259,7 +259,7 @@
         },
         "description": {
           "messageByLocale": {
-            "en": "Tip: search for “tiled sprite”."
+            "en": "Tip: search for “**tiled sprite**”."
           }
         }
       },
@@ -350,7 +350,7 @@
         "placement": "left",
         "description": {
           "messageByLocale": {
-            "en": "Now let's find an object that we can throw."
+            "en": "Now let's find an **object** that we can throw."
           }
         }
       }
@@ -379,7 +379,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select a circular sprite object that you'd like to throw (try **ball**)."
+            "en": "Select a rounded object that you'd like to throw (try **ball**)."
           }
         }
       },
@@ -433,7 +433,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add 3 instances of $(projectile) inside the frame."
+            "en": "Add 3 **instances** of the **object** *$(projectile)* inside the frame."
           }
         }
       }
@@ -461,7 +461,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's choose an object from the asset store."
+            "en": "Let's choose a new **object** from the asset store."
           }
         },
         "placement": "bottom"
@@ -518,7 +518,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Perfect, let's add it to the scene."
+            "en": "Perfect, let's add it to the **scene**."
           }
         }
       }
@@ -559,7 +559,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's choose an object from the asset store."
+            "en": "Let's choose a new object from the asset store."
           }
         },
         "placement": "bottom"
@@ -616,7 +616,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Perfect, let's add it to the scene."
+            "en": "Perfect, let's add it to the **scene**."
           }
         }
       }
@@ -642,7 +642,7 @@
       "tooltip": {
         "title": {
           "messageByLocale": {
-            "en": "Let's add some sense of physics now."
+            "en": "Now, let's add some physics to our **objects**."
           }
         },
         "placement": "left",
@@ -661,7 +661,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "See the behaviors of the object here."
+            "en": "See the **behaviors** of the object here."
           }
         },
         "placement": "bottom"
@@ -688,7 +688,7 @@
       },
       "tooltip": {
         "description": {
-          "messageByLocale": "Select the Physics behavior."
+          "messageByLocale": "Select the **Physics behavior**."
         }
       },
       "isOnClosableDialog": true
@@ -743,7 +743,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "See the behaviors of the object here."
+            "en": "See the **behaviors** of the **object** here."
           }
         },
         "placement": "bottom"
@@ -855,7 +855,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "See the behaviors of the object here."
+            "en": "See the **behaviors** of the **object** here."
           }
         },
         "placement": "bottom"
@@ -915,7 +915,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "See the behaviors of the object here."
+            "en": "See the **behaviors** of the **object** here."
           }
         },
         "placement": "bottom"
@@ -1074,7 +1074,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "See the behaviors of the object here."
+            "en": "See the **behaviors** of the **object** here."
           }
         },
         "placement": "bottom"
@@ -1152,22 +1152,29 @@
         "content": [
           {
             "messageByLocale": {
-              "en": "## Congratulations"
+              "en": "## Congratulations!"
             }
           },
           {
             "messageByLocale": {
-              "en": "You just finished the first part of the fling game tutorial."
+              "en": "You have finished the first part of your Fling Game."
             }
           },
           {
             "messageByLocale": {
-              "en": "We built together the foundations for a fling game."
+              "en": "Now you've discovered the basics of GDevelop:
+              - Objects (https://wiki.gdevelop.io/gdevelop5/objects#:~:text=In%20GDevelop%2C%20everything%20on%20the,add%20text%20to%20a%20game.)
+              - Instances (https://wiki.gdevelop.io/gdevelop5/objects#:~:text=After%20creating%20an%20object%2C%20GDevelop,an%20instance%20of%20the%20object.)
+              - Behaviors (https://wiki.gdevelop.io/gdevelop5/behaviors#:~:text=In%20GDevelop%2C%20behaviors%20add%20significant,following%20the%20laws%20of%20physics.)
+              - Scenes (https://wiki.gdevelop.io/gdevelop5/interface/scene-editor#:~:text=The%20Scene%20Editor%20is%20where,events%20in%20the%20Events%20Editor.)
+              "
             }
           },
           {
             "messageByLocale": {
-              "en": "Start the next part to improve your game visually."
+              "en": "You can take a break, or continue with the next chapter:
+              - Primary: Start next chapter
+              - Secondary: Take a Break <- ideally, this button closes the project tabs (so the user doesn't mess around with the project)"
             }
           }
         ]
@@ -1196,7 +1203,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's choose an object from the asset store."
+            "en": "Let's choose an **object** from the asset store."
           }
         },
         "placement": "bottom"
@@ -1253,7 +1260,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Perfect, let's use it in our scene."
+            "en": "Perfect, let's use it in our **scene**."
           }
         }
       }
@@ -1314,7 +1321,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Change the z order of $(background) to **-1** so that it is behind all other instances on the scene."
+            "en": "Change the z order of $(background) to **-1** so that it is behind all other **instances** on the **scene**."
           }
         },
         "placement": "right"
@@ -1343,7 +1350,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's choose an object from the asset store."
+            "en": "Let's choose an **object** from the asset store."
           }
         },
         "placement": "bottom"
@@ -1400,7 +1407,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Perfect, let's add them to the scene."
+            "en": "Perfect, let's add them to the **scene**."
           }
         }
       }
@@ -1432,7 +1439,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "See the behaviors of the object here."
+            "en": "See the **behaviors** of the **object** here."
           }
         },
         "placement": "bottom"
@@ -1500,7 +1507,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add a few $(obstacle) to the scene to protect $(target)."
+            "en": "Add a few $(obstacle) to the **scene** to protect $(target)."
           }
         }
       }
@@ -1558,7 +1565,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Change the object name to “YouWin”."
+            "en": "Change the object name to “**YouWin**”."
           }
         },
         "placement": "bottom"
@@ -1588,7 +1595,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Change the text to “You Win!”"
+            "en": "Change the text to “**You Win!**”"
           }
         },
         "placement": "bottom"
@@ -1619,7 +1626,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Drag $(youWinText) into the scene, and center it as well as possible."
+            "en": "Drag $(youWinText) into the **scene**, and center it as well as possible."
           }
         },
         "placement": "left"
@@ -1633,7 +1640,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Open the layers panel."
+            "en": "Open the **Layers** panel."
           }
         },
         "placement": "bottom"
@@ -1676,7 +1683,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Hide the layer."
+            "en": "Hide the **layer**."
           }
         },
         "placement": "top"
@@ -1693,7 +1700,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now select the $(youWinText) instance on the scene and change its layer using the properties panel.\n\nIt should have disappeared!"
+            "en": "Now select the $(youWinText) **instance** on the **scene** and change its **layer** using the **properties panel**.\n\nIt should have disappeared!"
           }
         },
         "standalone": true
@@ -1721,7 +1728,7 @@
       "tooltip": {
         "title": {
           "messageByLocale": {
-            "en": "Let's add our first event!"
+            "en": "Let's add our first **Event**!"
           }
         }
       }
@@ -1734,7 +1741,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add a condition."
+            "en": "Add a **condition**."
           }
         }
       }
@@ -1790,7 +1797,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, the condition is all set."
+            "en": "Alright, the **condition** is all set."
           }
         },
         "placement": "top"
@@ -1804,7 +1811,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add an action now."
+            "en": "Let's add an **action** now."
           }
         }
       }
@@ -1859,7 +1866,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add another action that will be executed for the same condition."
+            "en": "Let's add another **action** that will be executed for the same **condition**."
           }
         }
       }
@@ -1900,7 +1907,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the layer you created."
+            "en": "Select the **layer** you created."
           }
         },
         "placement": "top"
@@ -1929,7 +1936,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's get back to the scene to create some constraints for the player."
+            "en": "Let's get back to the **scene** to create some constraints for the player."
           }
         }
       }
@@ -1957,7 +1964,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's choose an object from the asset store"
+            "en": "Let's choose an **object** from the asset store"
           }
         },
         "placement": "bottom"
@@ -2075,7 +2082,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's deactivate the draggable behavior when outside of the $(grabArea)."
+            "en": "Let's deactivate the draggable **behavior** when outside of the $(grabArea)."
           }
         }
       }
@@ -2103,7 +2110,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add a condition."
+            "en": "Add a **condition**."
           }
         }
       }
@@ -2159,7 +2166,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, the condition is all set."
+            "en": "Alright, the **condition** is all set."
           }
         },
         "placement": "top"
@@ -2173,7 +2180,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Right click on this newly created condition and select “Invert condition”."
+            "en": "Right click on this newly created **condition** and select “Invert condition”."
           }
         },
         "placement": "right"
@@ -2214,7 +2221,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the action that releases the $(projectile) from the player drag."
+            "en": "Select the **action** that releases the $(projectile) from the player drag."
           }
         }
       },
@@ -2242,7 +2249,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's get back to the scene to place the $(projectile)s correctly."
+            "en": "Let's get back to the **scene** to place the $(projectile)s correctly."
           }
         }
       }
@@ -2266,7 +2273,7 @@
         },
         "description": {
           "messageByLocale": {
-            "en": "Drag all instances of $(projectile) within the boundaries of $(background)."
+            "en": "Drag all **instances** of $(projectile) within the boundaries of $(background)."
           }
         }
       }
@@ -2391,7 +2398,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click here to publish your game."
+            "en": "Click here to **publish** your game."
           }
         },
         "placement": "bottom"
@@ -2425,22 +2432,30 @@
         "content": [
           {
             "messageByLocale": {
-              "en": "## Congratulations"
+              "en": "## Congratulations!"
             }
           },
           {
             "messageByLocale": {
-              "en": "You just finished the second part of the fling game tutorial."
+              "en": "You have finished the second part of your Fling Game."
             }
           },
           {
             "messageByLocale": {
-              "en": "We improved your game visually and even published it so that anyone can play with it!"
+              "en": "Use your recent discoveries to tweak your game:
+              - Events (https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor.) 
+              - Text objects (https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events.)
+              - Layers (https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers.)
+              - Actions and Conditions (https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable.)
+              "
             }
           },
           {
             "messageByLocale": {
-              "en": "Start the next part that will show you how to have your players compare themselves thanks to leaderboards."
+              "en": "You can use the "Publish" button to update your game on Liluo.io once you're done!
+              Now take a break to work on your game, or add leaderboards on the next chapter:.
+              - Primary: Start next chapter
+              - Secondary: Take a Break <- this button DOESN'T close the project tabs (so the user can tweak their game)"
             }
           }
         ]
@@ -2454,7 +2469,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Right click on your $(background), and click “set as global object”."
+            "en": "Right click on your $(background), and click “set as **global object**”."
           }
         },
         "placement": "left"
@@ -2468,7 +2483,7 @@
       "tooltip": {
         "title": {
           "messageByLocale": {
-            "en": "Now let's create a new scene for our start screen."
+            "en": "Now let's create a new **scene** for our start screen."
           }
         },
         "placement": "right"
@@ -2499,7 +2514,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Right click on the new scene and change its name to “StartScreen”.\n\nOnce you're done, click on the item to open the new scene."
+            "en": "Right click on the new scene and change its name to “**StartScreen**”.\n\nOnce you're done, click on the item to open the new scene."
           }
         },
         "placement": "right"
@@ -2654,7 +2669,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Drag $(title) into the scene where you'd like your title to be."
+            "en": "Drag $(title) into the **scene** where you'd like your title to be."
           }
         },
         "placement": "left"
@@ -2699,7 +2714,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Change the object name to “Start”."
+            "en": "Change the **object** name to “**Start**”."
           }
         },
         "placement": "bottom"
@@ -2760,7 +2775,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Drag $(startText) into the scene where you'd like the start button to be."
+            "en": "Drag $(startText) into the **scene** where you'd like the start button to be."
           }
         },
         "placement": "left"
@@ -2788,7 +2803,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's create a new event!"
+            "en": "Let's create a new **event**!"
           }
         }
       }
@@ -2801,7 +2816,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add a condition."
+            "en": "Add a **condition**."
           }
         }
       }
@@ -2842,7 +2857,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, the condition is all set."
+            "en": "Alright, the **condition** is all set."
           }
         },
         "placement": "top"
@@ -2856,7 +2871,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add another condition."
+            "en": "Add another **condition**."
           }
         }
       }
@@ -2912,7 +2927,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, the condition is all set."
+            "en": "Alright, the **condition** is all set."
           }
         },
         "placement": "top"
@@ -2926,7 +2941,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add an action now."
+            "en": "Let's add an **action** now."
           }
         }
       }
@@ -2953,7 +2968,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select “Change the scene”."
+            "en": "Select “**Change the scene**”."
           }
         }
       },
@@ -2982,7 +2997,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, the action is all set."
+            "en": "Alright, the **action** is all set."
           }
         },
         "placement": "top"
@@ -2996,7 +3011,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's get back to the scene to add a score."
+            "en": "Let's get back to the **scene** to add a score."
           }
         }
       }
@@ -3054,7 +3069,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Change the object name to “Score”."
+            "en": "Change the object name to “**Score**”."
           }
         },
         "placement": "bottom"
@@ -3143,7 +3158,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We will create a timer that will start when the scene starts."
+            "en": "We will create a timer that will start when the **scene** starts."
           }
         }
       },
@@ -3157,7 +3172,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add a condition."
+            "en": "Add a **condition**."
           }
         }
       }
@@ -3170,7 +3185,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “Scene”."
+            "en": "Search for “**Scene**”."
           }
         }
       },
@@ -3184,7 +3199,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the **At the beginning of the scene** condition."
+            "en": "Select the *At the beginning of the scene** condition.*"
           }
         }
       },
@@ -3212,7 +3227,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Create an action."
+            "en": "Create an **action**."
           }
         }
       }
@@ -3239,7 +3254,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the **Start (or reset) a scene timer** action."
+            "en": "Select the *Start (or reset) a scene timer* action."
           }
         }
       },
@@ -3253,7 +3268,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type “Score” (in quotations)."
+            "en": "Type **“Score”** (in quotations)."
           }
         }
       },
@@ -3386,7 +3401,7 @@
         },
         "description": {
           "messageByLocale": {
-            "en": "In the event where $(target) gets deleted, click on “Add action”."
+            "en": "In the **event** where $(target) gets deleted, click on “Add action”."
           }
         }
       }
@@ -3399,7 +3414,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “leaderboard”."
+            "en": "Search for “**leaderboard**”."
           }
         }
       },
@@ -3413,7 +3428,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the **Display leaderboard** action."
+            "en": "Select the *Display leaderboard* action."
           }
         }
       },
@@ -3469,7 +3484,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type “Score”."
+            "en": "Type “*Score*”."
           }
         }
       },
@@ -3511,7 +3526,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the option **Select the leaderboard from a list**."
+            "en": "Select the option *Select the leaderboard from a list*."
           }
         },
         "placement": "top"
@@ -3585,7 +3600,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's create an event!"
+            "en": "Let's create an **event**!"
           }
         }
       }
@@ -3611,7 +3626,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “Scene”."
+            "en": "Search for “**Scene**”."
           }
         }
       },
@@ -3625,7 +3640,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the **At the beginning of the scene** condition."
+            "en": "Select the *At the beginning of the scene* condition."
           }
         }
       },
@@ -3653,7 +3668,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's choose an action."
+            "en": "Let's choose an **action**."
           }
         }
       }
@@ -3666,7 +3681,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “Authentication”."
+            "en": "Search for “**Authentication**”."
           }
         }
       },
@@ -3680,7 +3695,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select **Display authentication banner**."
+            "en": "Select *Display authentication banner*."
           }
         }
       },
@@ -3708,7 +3723,7 @@
       "tooltip": {
         "title": {
           "messageByLocale": {
-            "en": "Now let's create a new scene that will be used to display the leaderboard."
+            "en": "Now let's create a new **scene** that will be used to display the **leaderboard**."
           }
         },
         "placement": "right"
@@ -3739,7 +3754,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Right click on the new scene and change its name to “Leaderboard”.\n\nOnce you're done, click on the item to open the new scene."
+            "en": "Right click on the new **scene** and change its name to “Leaderboard”.\n\nOnce you're done, click on the item to open the new scene."
           }
         },
         "placement": "right"
@@ -3754,7 +3769,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Go to the events."
+            "en": "Go to the **events**."
           }
         }
       }
@@ -3768,7 +3783,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add an event that makes sure the player comes back to the start screen after closing the leaderboard."
+            "en": "Let's add an **event** that makes sure the player comes back to the start screen after closing the **leaderboard**."
           }
         }
       }
@@ -3794,7 +3809,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “Leaderboard”."
+            "en": "Search for “**Leaderboard**”."
           }
         }
       },
@@ -3808,7 +3823,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the **Leaderboard display has loaded** condition."
+            "en": "Select the *Leaderboard display has loaded* condition."
           }
         }
       },
@@ -3836,7 +3851,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Right-click on the condition and select **Invert Condition**."
+            "en": "Right-click on the condition and select *Invert Condition*."
           }
         },
         "placement": "bottom"
@@ -3850,7 +3865,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the action to come back to the start screen."
+            "en": "Let's add the **action** to come back to the start screen."
           }
         }
       }
@@ -3863,7 +3878,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type “Scene”."
+            "en": "Type “*Scene*”."
           }
         }
       },
@@ -3990,7 +4005,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click on the expression builder."
+            "en": "Click on the **expression** builder."
           }
         }
       },
@@ -4004,7 +4019,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “Timer”."
+            "en": "Search for “*Timer*”."
           }
         }
       },
@@ -4062,7 +4077,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click on the expression builder."
+            "en": "Click on the **expression** builder."
           }
         }
       },
@@ -4076,7 +4091,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “Username”."
+            "en": "Search for “**Username**”."
           }
         }
       },
@@ -4118,7 +4133,7 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Let's change the scene to the leaderboard one (so that the play scene is closed).\n\nIn the event where $(target) gets deleted, click on “Add action”."
+            "en": "Let's change the **scene** to the **leaderboard** one (so that the play scene is closed).\n\nIn the **event** where $(target) gets deleted, click on “Add action”."
           }
         }
       }
@@ -4131,7 +4146,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type “Scene”."
+            "en": "Type “**Scene**”."
           }
         }
       },
@@ -4174,7 +4189,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, the action is all set."
+            "en": "Alright, the **action** is all set."
           }
         },
         "placement": "top"
@@ -4202,7 +4217,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Right-click on the start scene and select **Set as start scene**."
+            "en": "Right-click on the start **scene** and select **Set as start scene**."
           }
         },
         "placement": "right"
