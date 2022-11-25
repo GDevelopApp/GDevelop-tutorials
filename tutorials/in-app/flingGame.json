@@ -1293,6 +1293,20 @@
       }
     },
     {
+      "nextStepTrigger": {
+        "presenceOfElement": "#instance-properties-editor [id=\"Z Order\"]"
+      },
+      "skippable": true,
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "Select the instance of $(background) on the scene"
+          }
+        }
+      }
+    },
+    {
       "elementToHighlightId": "#instance-properties-editor [id=\"Z Order\"]",
       "nextStepTrigger": {
         "valueHasChanged": true
@@ -1300,7 +1314,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Make sure that $(background) is selected and change this value to **-1**."
+            "en": "Change the z order of $(background) to **-1** so that it is behind all other instances on the scene."
           }
         },
         "placement": "right"
