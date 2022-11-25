@@ -6,7 +6,7 @@
     },
     "OpenPropertiesManager": {
       "editor": "Scene",
-      "scene": "playScene"
+      "scene": "startScene"
     },
     "SwitchToEvents1": {
       "editor": "EventsSheet",
