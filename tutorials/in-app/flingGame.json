@@ -1162,19 +1162,12 @@
           },
           {
             "messageByLocale": {
-              "en": "Now you've discovered the basics of GDevelop:
-              - Objects (https://wiki.gdevelop.io/gdevelop5/objects#:~:text=In%20GDevelop%2C%20everything%20on%20the,add%20text%20to%20a%20game.)
-              - Instances (https://wiki.gdevelop.io/gdevelop5/objects#:~:text=After%20creating%20an%20object%2C%20GDevelop,an%20instance%20of%20the%20object.)
-              - Behaviors (https://wiki.gdevelop.io/gdevelop5/behaviors#:~:text=In%20GDevelop%2C%20behaviors%20add%20significant,following%20the%20laws%20of%20physics.)
-              - Scenes (https://wiki.gdevelop.io/gdevelop5/interface/scene-editor#:~:text=The%20Scene%20Editor%20is%20where,events%20in%20the%20Events%20Editor.)
-              "
+              "en": "Now you've discovered the basics of GDevelop:\n- [Objects](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=In%20GDevelop%2C%20everything%20on%20the,add%20text%20to%20a%20game)\n- [Instances](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=After%20creating%20an%20object%2C%20GDevelop,an%20instance%20of%20the%20object)\n- [Behaviors](https://wiki.gdevelop.io/gdevelop5/behaviors#:~:text=In%20GDevelop%2C%20behaviors%20add%20significant,following%20the%20laws%20of%20physics)\n- [Scenes](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor#:~:text=The%20Scene%20Editor%20is%20where,events%20in%20the%20Events%20Editor)"
             }
           },
           {
             "messageByLocale": {
-              "en": "You can take a break, or continue with the next chapter:
-              - Primary: Start next chapter
-              - Secondary: Take a Break <- ideally, this button closes the project tabs (so the user doesn't mess around with the project)"
+              "en": "You can take a break, or continue with the next chapter."
             }
           }
         ]
@@ -2442,20 +2435,17 @@
           },
           {
             "messageByLocale": {
-              "en": "Use your recent discoveries to tweak your game:
-              - Events (https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor.) 
-              - Text objects (https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events.)
-              - Layers (https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers.)
-              - Actions and Conditions (https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable.)
-              "
+              "en": "Use your recent discoveries to tweak your game:\n- [Events](https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor)\n- [Text objects](https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events)\n- [Layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers)\n- [Actions and Conditions](https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable)"
             }
           },
           {
             "messageByLocale": {
-              "en": "You can use the "Publish" button to update your game on Liluo.io once you're done!
-              Now take a break to work on your game, or add leaderboards on the next chapter:.
-              - Primary: Start next chapter
-              - Secondary: Take a Break <- this button DOESN'T close the project tabs (so the user can tweak their game)"
+              "en": "You can use the “Publish” button to update your game on Liluo.io once you're done!"
+            }
+          },
+          {
+            "messageByLocale": {
+              "en": "Now take a break to work on your game, or add leaderboards on the next chapter."
             }
           }
         ]
