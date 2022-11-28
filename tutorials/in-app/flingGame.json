@@ -1219,7 +1219,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type “background”."
+            "en": "Type “**background**”."
           }
         }
       },
@@ -1980,7 +1980,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type **background**."
+            "en": "Type “**background**”."
           }
         }
       },
@@ -2884,7 +2884,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type “Mouse”."
+            "en": "Type “**Mouse**”."
           }
         }
       },
@@ -2954,7 +2954,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type “Scene”."
+            "en": "Type “**Scene**”."
           }
         }
       },
@@ -3268,7 +3268,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Type **“Score”** (in quotations)."
+            "en": "Type **\"Score\"** (in quotations)."
           }
         }
       },
@@ -3640,7 +3640,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the *At the beginning of the scene* condition."
+            "en": "Select the **At the beginning of the scene** condition."
           }
         }
       },
