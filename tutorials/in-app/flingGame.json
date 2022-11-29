@@ -1131,19 +1131,6 @@
       }
     },
     {
-      "elementToHighlightId": "#object-editor-dialog #apply-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#object-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "That's it!"
-          }
-        }
-      }
-    },
-    {
       "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
         "previewLaunched": true
@@ -3612,7 +3599,15 @@
             "en": "Add a condition."
           }
         }
-      }
+      },
+      "shortcuts": [
+        {
+          "stepId": "SwitchToEvents5",
+          "trigger": {
+            "absenceOfElement": "[data-active=\"true\"]  #add-condition-button-empty"
+          }
+        }
+      ]
     },
     {
       "elementToHighlightId": "#instruction-editor-dialog #search-bar",
