@@ -4534,6 +4534,22 @@
       "isOnClosableDialog": true
     },
     {
+      "elementToHighlightId": "editorTab:startScene:Scene",
+      "nextStepTrigger": {
+        "editorIsActive": "startScene:Scene"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Come back to the start scene *$(startScene)*.",
+            "fr-FR": "Retournons à la scène d'ouverture *$(startScene)*."
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
         "previewLaunched": true
