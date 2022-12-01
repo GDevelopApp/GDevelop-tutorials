@@ -1869,7 +1869,7 @@
         "description": {
           "messageByLocale": {
             "en": "Add a **condition**.",
-            "fr-fr": ""
+            "fr-fr": "Créez une **condition**."
           }
         }
       }
@@ -1883,7 +1883,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(projectile).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(projectile)."
           }
         }
       },
@@ -1898,7 +1898,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select the collision condition.",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur la condition collision."
           }
         }
       },
@@ -1913,7 +1913,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(target).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(target)."
           }
         },
         "placement": "top"
@@ -1929,7 +1929,7 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **condition** is all set.",
-            "fr-fr": ""
+            "fr-fr": "La condition est maintenant configurée."
           }
         },
         "placement": "top"
@@ -1944,7 +1944,7 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add an **action** now.",
-            "fr-fr": ""
+            "fr-fr": "Créez une **action** maintenant."
           }
         }
       }
@@ -1958,7 +1958,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(target).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(target)."
           }
         }
       },
@@ -1973,7 +1973,7 @@
         "description": {
           "messageByLocale": {
             "en": "We will make $(target) disappear on collision.",
-            "fr-fr": ""
+            "fr-fr": "Nous allons faire disparaître $(target) au moment de la collision."
           }
         }
       },
@@ -1988,7 +1988,7 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, $(target) will now disappear when $(projectile) hits it.",
-            "fr-fr": ""
+            "fr-fr": "Parfait, $(target) va disparaître quand un $(projectile) l'atteindra."
           }
         },
         "placement": "top"
@@ -2003,7 +2003,7 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add another **action** that will be executed for the same **condition**.",
-            "fr-fr": ""
+            "fr-fr": "Créons une autre **action** qui sera exécutée pour la même **condition**."
           }
         }
       }
@@ -2017,7 +2017,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “layer”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “calque”."
           }
         }
       },
@@ -2032,7 +2032,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **Show a layer** action.",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur l'action **Afficher un calque**."
           }
         }
       },
@@ -2047,7 +2047,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **layer** you created.",
-            "fr-fr": ""
+            "fr-fr": "Sélectionnez le **calque** que vous avez créé."
           }
         },
         "placement": "top"
@@ -2063,7 +2063,7 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, now the title should appear when the player hits $(target) with $(projectile).",
-            "fr-fr": ""
+            "fr-fr": "Maintenant, le titre de victoire devrait apparaître quand le joueur touche $(target) avec $(projectile)."
           }
         },
         "placement": "top"
@@ -2078,7 +2078,7 @@
         "description": {
           "messageByLocale": {
             "en": "Let's get back to the **scene** to create some constraints for the player.",
-            "fr-fr": ""
+            "fr-fr": "Retournons à la **scène** pour ajouter des contraintes au joueur ou à la joueuse."
           }
         }
       }
@@ -2094,7 +2094,7 @@
         "description": {
           "messageByLocale": {
             "en": "We'll define an area where the player can grab $(projectile). Outside of this area, the $(projectile)s will be free.",
-            "fr-fr": ""
+            "fr-fr": "Nous allons définir une zone où le joueur ou la joueuse peut attraper les $(projectile)s. En dehors de cette zone, les $(projectile)s seront en mouvement libre."
           }
         }
       }
@@ -2125,7 +2125,7 @@
         "description": {
           "messageByLocale": {
             "en": "Type “**background**”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “**background**”."
           }
         }
       },
@@ -2167,7 +2167,7 @@
         "description": {
           "messageByLocale": {
             "en": "Let's use it now!",
-            "fr-fr": ""
+            "fr-fr": "Mettons la zone en place."
           }
         }
       }
@@ -2181,7 +2181,7 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(grabArea) from the menu to the canvas.",
-            "fr-fr": ""
+            "fr-fr": "Faites glisser $(grabArea) du menu à au canvas."
           }
         },
         "placement": "left"
@@ -2201,7 +2201,7 @@
         "description": {
           "messageByLocale": {
             "en": "Drag and resize $(grabArea) until it covers the lower left side of the game screen.",
-            "fr-fr": ""
+            "fr-fr": "Placez et redimensionnez $(grabArea) de telle sorte à ce qu'il couvre le coin en bas à gauche de l'écran de jeu."
           }
         },
         "image": {
@@ -2217,8 +2217,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Make sure that $(background) is selected and change this value to **0**.",
-            "fr-fr": ""
+            "en": "Make sure that $(grabArea) is selected and change this value to **0**.",
+            "fr-fr": "Sélectionnez l'instance de $(grabArea) et définissez son ordre sur l'axe z à **0**."
           }
         },
         "placement": "right"
@@ -2232,8 +2232,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's deactivate the draggable **behavior** when outside of the $(grabArea).",
-            "fr-fr": ""
+            "en": "Let's deactivate the draggable **behavior** of $(projectile) when outside of the $(grabArea).",
+            "fr-fr": "Maintenant, désactivons le **comportement** “draggable” quand les $(projectile)s sont en dehors de la zone $(grabArea)."
           }
         }
       }
@@ -2249,7 +2249,7 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create a new event!",
-            "fr-fr": ""
+            "fr-fr": "Créez un nouvel évènement."
           }
         }
       }
@@ -2263,7 +2263,7 @@
         "description": {
           "messageByLocale": {
             "en": "Add a **condition**.",
-            "fr-fr": ""
+            "fr-fr": "Ajoutez une **condition**."
           }
         }
       }
@@ -2277,7 +2277,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(projectile).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(projectile)."
           }
         }
       },
@@ -2292,7 +2292,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select the collision condition.",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur la condition collision."
           }
         }
       },
@@ -2307,7 +2307,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(grabArea).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(grabArea)."
           }
         },
         "placement": "top"
@@ -2323,7 +2323,7 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **condition** is all set.",
-            "fr-fr": ""
+            "fr-fr": "La **condition** est maintenant sécurisée."
           }
         },
         "placement": "top"
@@ -2338,7 +2338,7 @@
         "description": {
           "messageByLocale": {
             "en": "Right click on this newly created **condition** and select “Invert condition”.",
-            "fr-fr": ""
+            "fr-fr": "Faites un clic droit sur la nouvelle **condition** et sélectionnez “Inverser une condition”."
           }
         },
         "placement": "right"
@@ -2352,8 +2352,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add an action",
-            "fr-fr": ""
+            "en": "Add an action.",
+            "fr-fr": "Ajoutez une action."
           }
         }
       }
@@ -2367,7 +2367,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(projectile).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(projectile)."
           }
         }
       },
@@ -2382,7 +2382,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **action** that releases the $(projectile) from the player drag.",
-            "fr-fr": ""
+            "fr-fr": "Sélectionnez **l'action** qui libère le $(projectile) de la souris du joueur ou de la joueuse."
           }
         }
       },
@@ -2412,7 +2412,7 @@
         "description": {
           "messageByLocale": {
             "en": "Let's get back to the **scene** to place the $(projectile)s correctly.",
-            "fr-fr": ""
+            "fr-fr": "Revenons à la **scène** pour placer les $(projectile)s correctement."
           }
         }
       }
@@ -2432,14 +2432,14 @@
         "placement": "top",
         "title": {
           "messageByLocale": {
-            "en": "Rearrange $(projectile)s.",
-            "fr-fr": ""
+            "en": "Rearrange the $(projectile)s.",
+            "fr-fr": "Repositionnez les $(projectile)s."
           }
         },
         "description": {
           "messageByLocale": {
             "en": "Drag all **instances** of $(projectile) within the boundaries of $(background).",
-            "fr-fr": ""
+            "fr-fr": "Faites glisser les **instances** de $(projectile) à l'intérieur de $(background)."
           }
         }
       }
@@ -2459,13 +2459,13 @@
         "title": {
           "messageByLocale": {
             "en": "Set up $(target) protection.",
-            "fr-fr": ""
+            "fr-fr": "Créez une protection pour $(target)."
           }
         },
         "description": {
           "messageByLocale": {
             "en": "Arrange both $(block) and $(obstacle) in a way to protect $(target).",
-            "fr-fr": ""
+            "fr-fr": "Positionnez les instances de $(block) et de $(obstacle) de manière à protéger $(target)."
           }
         }
       }
@@ -2479,7 +2479,7 @@
         "description": {
           "messageByLocale": {
             "en": "**Preview** the game and make sure it's winnable.",
-            "fr-fr": ""
+            "fr-fr": "Lancer un **Aperçu** du jeu et assurez-vous qu'il est possible de toucher $(target)."
           }
         },
         "placement": "bottom"
@@ -2493,8 +2493,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Once you're ready, we'll generate a link to share it.",
-            "fr-fr": ""
+            "en": "Once you're ready, we'll generate a link to share your game.",
+            "fr-fr": "Une fois que c'est bon, nous allons générer un lien pour partager votre jeu."
           }
         },
         "placement": "bottom"
@@ -2509,7 +2509,7 @@
         "description": {
           "messageByLocale": {
             "en": "First, you need to create an account.",
-            "fr-fr": ""
+            "fr-fr": "Tout d'abord, vous devez vous créer un compte."
           }
         },
         "placement": "bottom"
@@ -2539,7 +2539,7 @@
         "description": {
           "messageByLocale": {
             "en": "Fill in the form and then click here.",
-            "fr-fr": ""
+            "fr-fr": "Remplissez le formulaire et cliquez ici."
           }
         },
         "placement": "bottom"
@@ -2556,7 +2556,7 @@
         "description": {
           "messageByLocale": {
             "en": "After filling your info, click here.",
-            "fr-fr": ""
+            "fr-fr": "Après avoir rempli le formulaire, cliquez ici."
           }
         },
         "placement": "bottom"
@@ -2573,7 +2573,7 @@
         "description": {
           "messageByLocale": {
             "en": "Click here to **publish** your game.",
-            "fr-fr": ""
+            "fr-fr": "Cliquez ici pour **publier** votre jeu."
           }
         },
         "placement": "bottom"
@@ -2595,7 +2595,7 @@
         "description": {
           "messageByLocale": {
             "en": "Click here to open your game in your browser. Remember to share the link so that others can play your game!\n\nOnce you're done, close this dialog.",
-            "fr-fr": ""
+            "fr-fr": "Cliquez ici pour ouvrir votre jeu dans votre navigateur. Pensez à partager le lien pour que d'autres puissent y jouer!\n\nUne fois que vous avez terminé, fermez cette fenêtre."
           }
         },
         "placement": "top"
@@ -2615,19 +2615,19 @@
           {
             "messageByLocale": {
               "en": "You have finished the second part of your Fling Game.",
-              "fr-fr": ""
+              "fr-fr": "Vous avez terminé la seconde partie de votre jeu."
             }
           },
           {
             "messageByLocale": {
               "en": "You've discovered other basics of GDevelop:\n- [Events](https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor)\n- [Text objects](https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events)\n- [Layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers)\n- [Actions and Conditions](https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable)",
-              "fr-fr": ""
+              "fr-fr": "Vous avez découvert de nouveaux concepts de GDevelop:\n- [les évènements](https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor)\n- [les objets texte](https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events)\n- [les calques](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers)\n- [les actions et les conditions](https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable)"
             }
           },
           {
             "messageByLocale": {
-              "en": "Now you can take a break from the tutorial, or add leaderboards on the next chapter.",
-              "fr-fr": ""
+              "en": "Now you can take a break from the tutorial, or add a leaderboard on the next chapter.",
+              "fr-fr": "Vous pouvez maintenant faire une pause avant de commencer le prochain chapitre pour ajouter un tableau de score."
             }
           }
         ]
@@ -3027,7 +3027,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(startText).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(startText)."
           }
         }
       },
@@ -3408,7 +3408,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Scene**”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “**Scene**”"
           }
         }
       },
@@ -3467,7 +3467,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “Scene timer”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “Scene timer”"
           }
         }
       },
@@ -3557,7 +3557,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(scoreText).",
-            "fr-fr": ""
+            "fr-fr": "Cliquez sur $(scoreText)."
           }
         }
       },
@@ -3654,7 +3654,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**leaderboard**”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “**leaderboard**”"
           }
         }
       },
@@ -3889,7 +3889,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Scene**”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “**Scene**”"
           }
         }
       },
@@ -3948,7 +3948,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Authentication**”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “**Authentication**”"
           }
         }
       },
@@ -4085,7 +4085,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Leaderboard**”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “**Leaderboard**”"
           }
         }
       },
@@ -4130,7 +4130,7 @@
         "description": {
           "messageByLocale": {
             "en": "Right-click on the condition and select *Invert Condition*.",
-            "fr-fr": ""
+            "fr-fr": "Faites un clic droit sur la **condition** et sélectionnez “Inverser une condition”."
           }
         },
         "placement": "bottom"
@@ -4250,7 +4250,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “leaderboard”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “leaderboard”"
           }
         }
       },
@@ -4310,7 +4310,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “*Timer*”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “*Timer*”"
           }
         }
       },
@@ -4387,7 +4387,7 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Username**”.",
-            "fr-fr": ""
+            "fr-fr": "Cherchez “**Username**”"
           }
         }
       },
