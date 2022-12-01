@@ -73,4 +73,5 @@ export type InAppTutorial = {
   flow: Array<InAppTutorialFlowStep>;
   editorSwitches: Record<string, EditorIdentifier>;
   endDialog: InAppTutorialEndDialog;
+  availableLocales: Array<string>;
 };
