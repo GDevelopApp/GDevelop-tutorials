@@ -1716,7 +1716,7 @@
         "description": {
           "messageByLocale": {
             "en": "Change the text to “**You Win!**”",
-            "fr-FR": "Cet objet texte devra afficher “**Vous avez gagné !**”"
+            "fr-FR": "Cet objet texte devra afficher “**Gagné !**”"
           }
         },
         "placement": "bottom"
@@ -2222,7 +2222,7 @@
         "description": {
           "messageByLocale": {
             "en": "Make sure that $(grabArea) is selected and change this value to **0**.",
-            "fr-FR": "Sélectionnez l'instance de $(grabArea) et définissez son ordre sur l'axe z à **0**."
+            "fr-FR": "Sélectionnez l'instance de $(grabArea) et définissez sa position sur l'axe z à **0**."
           }
         },
         "placement": "right"
@@ -2327,7 +2327,7 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **condition** is all set.",
-            "fr-FR": "La **condition** est maintenant sécurisée."
+            "fr-FR": "La **condition** est maintenant prête."
           }
         },
         "placement": "top"
@@ -3442,7 +3442,7 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create the timer now.",
-            "fr-FR": "Nous allons maintenant créer le minuteur."
+            "fr-FR": "Nous allons maintenant créer le chronomètre."
           }
         },
         "placement": "top"
