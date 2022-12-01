@@ -1,6 +1,7 @@
 export interface InAppTutorialShortHeader {
   id: string;
   contentUrl: string;
+  availableLocales: Array<string>;
 }
 
 export type MessageByLocale = Record<string, string>;
