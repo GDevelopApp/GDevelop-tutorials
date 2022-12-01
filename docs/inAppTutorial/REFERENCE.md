@@ -12,7 +12,7 @@ For example, this will be the description of a tooltip:
   "description": {
     "messageByLocale": {
       "en": "Click on the button",
-      "fr-fr": "Cliquez sur le bouton"
+      "fr-FR": "Cliquez sur le bouton"
     }
   }
 }
