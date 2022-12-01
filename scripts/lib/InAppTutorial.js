@@ -11,6 +11,8 @@ class InAppTutorial {
   sourcePath;
   /** @type {string} */
   id;
+  /** @type {Array<string>} */
+  availableLocales;
 
   /**
    * @param {string} sourcePath
@@ -26,6 +28,7 @@ class InAppTutorial {
         );
       }
       this.id = tutorialContent.id;
+      this.availableLocales = tutorialContent.availableLocales;
     } catch (error) {
       console.error(
         `An error occurred when reading tutorial file with path ${sourcePath}. The file might be corrupt.`,
@@ -42,6 +45,7 @@ class InAppTutorial {
     return {
       id: this.id,
       contentUrl: `https://resources.gdevelop-app.com/in-app-tutorials/${this.id}.json`,
+      availableLocales: this.availableLocales,
     };
   }
 }
