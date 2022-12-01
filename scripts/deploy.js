@@ -67,7 +67,7 @@ axios
         // Update the "database"
         'https://resources.gdevelop-app.com/in-app-tutorials-database/inAppTutorialShortHeaders.json',
         // Upload the tutorials
-        'https://resources.gdevelop-app.com/in-app-tutorials/flingGamePart1.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/flingGame.json',
       ],
     },
     {
