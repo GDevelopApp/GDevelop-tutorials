@@ -1130,7 +1130,8 @@
             "en": "Install the extension in your project.",
             "fr-FR": "Installez l'extension dans votre projet."
           }
-        }
+        },
+        "placement": "left"
       },
       "isOnClosableDialog": true
     },
