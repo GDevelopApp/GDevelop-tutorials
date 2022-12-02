@@ -28,10 +28,6 @@
       "editor": "EventsSheet",
       "scene": "startScene"
     },
-    "SwitchToEvents6": {
-      "editor": "EventsSheet",
-      "scene": "leaderboardScene"
-    },
     "SwitchToEvents7": {
       "editor": "EventsSheet",
       "scene": "playScene"
@@ -48,13 +44,13 @@
       "editor": "Scene",
       "scene": "playScene"
     },
-    "openLeaderboardScene": {
-      "editor": "Scene",
-      "scene": "leaderboardScene"
-    },
     "ClickOnNewObjectButtonForScore": {
       "editor": "Scene",
       "scene": "playScene"
+    },
+    "SwitchToStartScene": {
+      "editor": "Scene",
+      "scene": "startScene"
     }
   },
   "availableLocales": [
@@ -625,7 +621,7 @@
         "description": {
           "messageByLocale": {
             "en": "Select a **block** object you would like to use as an obstacle for your $(projectile).",
-            "fr-FR": "Cherchez un objet qui servira d'obstacle aux $(projectile)."
+            "fr-FR": "Cherchez un objet qui servira d'obstacle aux $(projectile) (cherchez **block**)."
           }
         }
       },
@@ -1234,7 +1230,7 @@
         "description": {
           "messageByLocale": {
             "en": "Click on the **Preview** button to see how you can click and drag your $(projectile) around the scene!",
-            "fr-FR": "Cliquez sur **Aperçu** pour voitre votre jeu. Cliquez et faites glisser $(projectile) dans la scène!"
+            "fr-FR": "Cliquez sur **Aperçu** pour tester votre jeu. Cliquez et faites glisser $(projectile) dans la scène !"
           }
         },
         "placement": "bottom"
@@ -1658,6 +1654,7 @@
         },
         "placement": "bottom"
       },
+      "skippable": true,
       "isOnClosableDialog": true
     },
     {
@@ -1830,7 +1827,7 @@
         "description": {
           "messageByLocale": {
             "en": "Now select the $(youWinText) **instance** on the **scene** and change its **layer** using the **properties panel**.\n\nIt should have disappeared!",
-            "fr-FR": "Sélectionnez **l'instance** de $(youWinText) sur la **scène** et changez son **calque** en utilisant le **panneau des propriétés**.\n\nIl devrait maintenant être caché."
+            "fr-FR": "Sélectionnez l'instance de $(youWinText) sur la **scène** et changez son **calque** en utilisant le **panneau des propriétés**.\n\nIl devrait maintenant être caché."
           }
         },
         "standalone": true
@@ -2769,6 +2766,7 @@
         },
         "placement": "bottom"
       },
+      "skippable": true,
       "isOnClosableDialog": true
     },
     {
@@ -3262,6 +3260,7 @@
         },
         "placement": "bottom"
       },
+      "skippable": true,
       "isOnClosableDialog": true
     },
     {
@@ -3321,7 +3320,7 @@
         "description": {
           "messageByLocale": {
             "en": "Change the initial text to display “Time: 0”.",
-            "fr-FR": "Utilisez comme texte initial “Temps: 0”."
+            "fr-FR": "Utilisez comme texte initial “Temps : 0”."
           }
         },
         "placement": "bottom"
@@ -3607,8 +3606,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Copy this line and paste it here: `\"Milliseconds: \" + ToString(round(10*(TimerElapsedTime(\"Score\"))))`.",
-            "fr-FR": "Copier cette ligne et collez-là ici : `\"Milliseconds: \" + ToString(round(10*(TimerElapsedTime(\"Score\"))))`."
+            "en": "Copy this line and paste it here: `\"Time: \" + ToString(round( TimerElapsedTime(\"Score\")))`.",
+            "fr-FR": "Copier cette ligne et collez-là ici : `\"Temps : \" + ToString(round( TimerElapsedTime(\"Score\")))`."
           }
         }
       },
@@ -3638,13 +3637,13 @@
         "standalone": true,
         "title": {
           "messageByLocale": {
-            "en": "Now we will display the other players scores.",
-            "fr-FR": "Maintenant, nous allons afficher le score des autres joueurs et joueuses."
+            "en": "Now let's save the score of the player.",
+            "fr-FR": "Maintenant, sauvegardons le score du joueur ou de la joueuse."
           }
         },
         "description": {
           "messageByLocale": {
-            "en": "In the **event** where $(target) gets deleted, click on “Add action”.",
+            "en": "In the event where $(target) gets deleted, click on “Add action”.",
             "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
           }
         }
@@ -3653,12 +3652,12 @@
     {
       "elementToHighlightId": "#instruction-editor-dialog #search-bar",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-Leaderboards--DisplayLeaderboard"
+        "presenceOfElement": "#instruction-item-Leaderboards--SaveConnectedPlayerScore"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for “**leaderboard**”.",
+            "en": "Search for “leaderboard”.",
             "fr-FR": "Cherchez “**classement**”."
           }
         }
@@ -3666,15 +3665,15 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-Leaderboards--DisplayLeaderboard",
+      "elementToHighlightId": "#instruction-item-Leaderboards--SaveConnectedPlayerScore",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the *Display leaderboard* action.",
-            "fr-FR": "Cliquez sur l'action *Afficher le classement*."
+            "en": "Select the **Save connected player score** action.",
+            "fr-FR": "Sélectionnez l'action **Enregistrer le score du joueur connecté**."
           }
         }
       },
@@ -3786,6 +3785,243 @@
       },
       "isOnClosableDialog": true,
       "skippable": true
+    },
+    {
+      "elementToHighlightId": "#instruction-parameters-container select",
+      "nextStepTrigger": {
+        "valueHasChanged": true
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the leaderboard named “Score”.",
+            "fr-FR": "Sélectionnez le classement qui s'appelle “Score”."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-parameters-container #open-number-expression-popover-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#expression-selector"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **expression** builder.",
+            "fr-FR": "Ouvrez le constructeur **d'expression**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#expression-selector input",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-or-expression-TimerElapsedTime"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Search for “*Timer*”.",
+            "fr-FR": "Cherchez “*chrono*”."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-or-expression-TimerElapsedTime",
+      "nextStepTrigger": {
+        "presenceOfElement": "#expression-parameters-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select **Scene timer value**.",
+            "fr-FR": "Cliquez sur **Valeur du chronomètre de scène**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#expression-parameters-editor-dialog textarea",
+      "nextStepTrigger": {
+        "valueHasChanged": true
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select timer “Score”.",
+            "fr-FR": "Sélectionnez le chronomètre “Score”."
+          }
+        },
+        "placement": "top"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#expression-parameters-editor-dialog #apply-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#expression-parameters-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "This parameter is all set.",
+            "fr-FR": "C'est terminé."
+          }
+        },
+        "placement": "top"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "The action is ready.",
+            "fr-FR": "L'action est prête."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "standalone": true,
+        "title": {
+          "messageByLocale": {
+            "en": "Now we will display the other players scores after a 2 seconds delay.",
+            "fr-FR": "Maintenant, nous allons afficher le score des autres joueurs et joueuses après un délai de 2 secondes."
+          }
+        },
+        "description": {
+          "messageByLocale": {
+            "en": "In the **event** where $(target) gets deleted, click on “Add action”.",
+            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "#instruction-editor-dialog #search-bar",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-item-Wait"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Search for “**Wait**”.",
+            "fr-FR": "Cherchez “**Attendre**”."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-item-Wait",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-parameters-container"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the *Wait X seconds* action.",
+            "fr-FR": "Cliquez sur l'action *Attendre X secondes*."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-parameters-container textarea",
+      "nextStepTrigger": {
+        "valueHasChanged": true
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Type in **2**.",
+            "fr-FR": "Tapez **2**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Now the game will wait 2 seconds before going to next **action** in the **event**.",
+            "fr-FR": "Maintenant, le jeu va attendre 2 secondes avant de passer à **l'action** suivante dans **l'évènement**."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "standalone": true,
+        "title": {
+          "messageByLocale": {
+            "en": "Now we will display a leaderboard.",
+            "fr-FR": "Maintenant, nous allons afficher un classement des scores."
+          }
+        },
+        "description": {
+          "messageByLocale": {
+            "en": "In the **event** where $(target) gets deleted, click on “Add action”.",
+            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "#instruction-editor-dialog #search-bar",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-item-Leaderboards--DisplayLeaderboard"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Search for “**leaderboard**”.",
+            "fr-FR": "Cherchez “**classement**”."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-item-Leaderboards--DisplayLeaderboard",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-parameters-container"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the *Display leaderboard* action.",
+            "fr-FR": "Cliquez sur l'action *Afficher le classement*."
+          }
+        }
+      },
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#instruction-parameters-container select",
@@ -3983,174 +4219,37 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, now players will be asked to login.",
-            "fr-FR": "Maintenant, les joueurs et les joueurs pourront s'identifier."
+            "fr-FR": "Maintenant, les joueurs et les joueuses pourront s'identifier."
           }
         },
         "placement": "top"
       }
     },
     {
-      "elementToHighlightId": "#main-toolbar-project-manager-button",
+      "elementToHighlightId": "editorTab:playScene:EventsSheet",
       "nextStepTrigger": {
-        "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-game-settings"
-      },
-      "tooltip": {
-        "title": {
-          "messageByLocale": {
-            "en": "Now let's create a new **scene** that will be used to display the **leaderboard**.",
-            "fr-FR": "Maintenant, nous allons créer une **scène** qui sera utilisée pour afficher le **classement**."
-          }
-        },
-        "placement": "right"
-      }
-    },
-    {
-      "elementToHighlightId": "#project-manager #add-new-scene-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#scene-item-2"
+        "editorIsActive": "playScene:EventsSheet"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click here.",
-            "fr-FR": "Cliquez ici."
-          }
-        },
-        "placement": "right"
-      },
-      "mapProjectData": {
-        "leaderboardScene": "projectLastSceneName"
-      }
-    },
-    {
-      "elementToHighlightId": "#project-manager #scene-item-2",
-      "nextStepTrigger": {
-        "presenceOfElement": "editorTab:leaderboardScene:EventsSheet"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Right click on the new **scene** and change its name to “Leaderboard”.\n\nOnce you're done, click on the item to open the new scene.",
-            "fr-FR": "Faites un clic droit sur la nouvelle **scène** et changez son nom pour “**Classement**”.\n\nUne fois terminé, cliquez sur l'élément pour ouvrir la scène."
-          }
-        },
-        "placement": "right"
-      }
-    },
-    {
-      "id": "openLeaderboardScene",
-      "elementToHighlightId": "editorTab:leaderboardScene:EventsSheet",
-      "nextStepTrigger": {
-        "editorIsActive": "leaderboardScene:EventsSheet"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Go to the **events**.",
-            "fr-FR": "Ouvrez les **évènements**."
+            "en": "Let's make sure the player comes back to the start screen after closing the **leaderboard**.",
+            "fr-FR": "Faisons en sorte que le joueur ou la joueuse revienne à l'écran d'ouverture après avoir fermé le **classement**."
           }
         }
       }
     },
     {
-      "id": "SwitchToEvents6",
-      "elementToHighlightId": "[data-active=\"true\"] #add-event-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's add an **event** that makes sure the player comes back to the start screen after closing the **leaderboard**.",
-            "fr-FR": "Ajoutons un **évènement** pour que le joueur ou la joueuse revienne à l'écran d'ouverture après avoir fermé le **classement**."
-          }
-        }
-      }
-    },
-    {
-      "elementToHighlightId": "[data-active=\"true\"]  #add-condition-button-empty",
+      "id": "SwitchToEvents7",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
       "tooltip": {
+        "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Click here.",
-            "fr-FR": "Cliquez ici."
-          }
-        }
-      }
-    },
-    {
-      "elementToHighlightId": "#instruction-editor-dialog #search-bar",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-Leaderboards--IsLeaderboardViewLoaded"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Search for “**Leaderboard**”.",
-            "fr-FR": "Cherchez “**classement**”."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-item-Leaderboards--IsLeaderboardViewLoaded",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-parameters-container"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select the *Leaderboard display has loaded* condition.",
-            "fr-FR": "Cliquez sur la condition *L'affichage du classement a été chargé*."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We're done.",
-            "fr-FR": "Nous avons terminé."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "span[data-instruction=\"Leaderboards::IsLeaderboardViewLoaded\"]",
-      "nextStepTrigger": {
-        "presenceOfElement": "span[data-instruction=\"Leaderboards::IsLeaderboardViewLoaded\"][data-instruction-inverted=true]"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Right-click on the condition and select *Invert Condition*.",
-            "fr-FR": "Faites un clic droit sur la **condition** et sélectionnez “Inverser une condition”."
-          }
-        },
-        "placement": "bottom"
-      }
-    },
-    {
-      "elementToHighlightId": "[data-active=\"true\"] #add-action-button-empty",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's add the **action** to come back to the start screen.",
-            "fr-FR": "Ajoutez une action pour revenir à l'écran d'ouverture."
+            "en": "In the event where $(target) gets deleted, click on “Add action”.",
+            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
           }
         }
       }
@@ -4218,292 +4317,6 @@
       }
     },
     {
-      "elementToHighlightId": "editorTab:playScene:EventsSheet",
-      "nextStepTrigger": {
-        "editorIsActive": "playScene:EventsSheet"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Now let's save the score of the player.",
-            "fr-FR": "Maintenant, sauvegardons le score du joueur ou de la joueuse."
-          }
-        }
-      }
-    },
-    {
-      "id": "SwitchToEvents7",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "standalone": true,
-        "description": {
-          "messageByLocale": {
-            "en": "In the event where $(target) gets deleted, click on “Add action”.",
-            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
-          }
-        }
-      }
-    },
-    {
-      "elementToHighlightId": "#instruction-editor-dialog #search-bar",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-Leaderboards--SavePlayerScore"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Search for “leaderboard”.",
-            "fr-FR": "Cherchez “**classement**”."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-item-Leaderboards--SavePlayerScore",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-parameters-container"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select the **Save player score** action.",
-            "fr-FR": "Sélectionnez l'action **Sauver le score du joueur**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-parameters-container select",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select the leaderboard named “Score”.",
-            "fr-FR": "Sélectionnez le classement qui s'appelle “Score”."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-parameters-container #open-number-expression-popover-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#expression-selector"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open the **expression** builder.",
-            "fr-FR": "Ouvrez le constructeur **d'expression**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#expression-selector input",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-or-expression-TimerElapsedTime"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Search for “*Timer*”.",
-            "fr-FR": "Cherchez “*chrono*”."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-or-expression-TimerElapsedTime",
-      "nextStepTrigger": {
-        "presenceOfElement": "#expression-parameters-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select **Scene timer value**.",
-            "fr-FR": "Cliquez sur **Valeur du chronomètre de scène**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#expression-parameters-editor-dialog textarea",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select timer “Score”.",
-            "fr-FR": "Sélectionnez le chronomètre “Score”."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#expression-parameters-editor-dialog #apply-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#expression-parameters-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "This parameter is all set.",
-            "fr-FR": "C'est terminé."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-parameters-container #open-string-expression-popover-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#expression-selector"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open the **expression** builder.",
-            "fr-FR": "Ouvrez le constructeur **d'expression**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#expression-selector input",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-or-expression-PlayerAuthentication--Username"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Search for “**Username**”.",
-            "fr-FR": "Cherchez “**Nom**”."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-or-expression-PlayerAuthentication--Username",
-      "nextStepTrigger": {
-        "absenceOfElement": "#expression-selector"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select **Username**.",
-            "fr-FR": "Cliquez sur **Nom d'utilisateur**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "The action is ready.",
-            "fr-FR": "L'action est prête."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "standalone": true,
-        "description": {
-          "messageByLocale": {
-            "en": "Let's change the **scene** to the **leaderboard** one (so that the play scene is closed).\n\nIn the **event** where $(target) gets deleted, click on “Add action”.",
-            "fr-FR": "Changeons la **scène** pour afficher celle du **classement** (de telle sorte que la scène de jeu est fermée).\n\nDans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
-          }
-        }
-      }
-    },
-    {
-      "elementToHighlightId": "#instruction-editor-dialog #search-bar",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-Scene"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Type “**Scene**”.",
-            "fr-FR": "Cherchez “**Scène**”."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-item-Scene",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-parameters-container"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select “Change the scene”.",
-            "fr-FR": "Cliquez sur “**Changer la scène**”."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-parameters-container #parameter-1-scene-field",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select “$(leaderboardScene)”.",
-            "fr-FR": "Sélectionnez “$(leaderboardScene)”."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Alright, the **action** is all set.",
-            "fr-FR": "Parfait, l'action est prête."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
       "elementToHighlightId": "#main-toolbar-project-manager-button",
       "nextStepTrigger": {
         "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-game-settings"
@@ -4551,6 +4364,7 @@
       "skippable": true
     },
     {
+      "id": "SwitchToStartScene",
       "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
         "previewLaunched": true
