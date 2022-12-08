@@ -1409,6 +1409,22 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-properties-panel-button",
+      "skippable": true,
+      "nextStepTrigger": {
+        "presenceOfElement": "#instance-properties-editor"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **instance** properties editor panel.",
+            "fr-FR": "Ouvrez le panneau d'édition des propriétés de **l'instance**."
+          }
+        },
+        "placement": "bottom"
+      }
+    },
+    {
       "elementToHighlightId": "#instance-properties-editor [id=\"Z Order\"]",
       "nextStepTrigger": {
         "valueHasChanged": true
