@@ -101,6 +101,7 @@ Here is the structure of a step (all fields are optional):
 - `nextStepTrigger`: see [Triggers](#triggers)
 - `tooltip`: see [Tooltip](#tooltip)
 - `dialog`: A dialog to display with the same structure as the [the end dialog](#enddialog)
+- `deprecated` (true): Useful to discard a step that is not useful anymore in order to not change the count of step of the tutorial and impact progress save on user side.
 - `isCheckpoint` (true): Useful to divide a tutorial in different part. When there are checkpoint steps, the notion of progress is part-based.
 - `isTriggerFlickering`(true): useful when a DOM mutation is not caught and the presence trigger is not fired.
 - `shortcuts`: list of steps that the flow can use as shortcuts.
