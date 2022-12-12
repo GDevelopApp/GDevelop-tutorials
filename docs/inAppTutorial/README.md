@@ -10,3 +10,39 @@ You can have a look at the components in [the editor storybook](https://gdevelop
 ## How To Create An In-App Tutorial
 
 Have a look at the [documentation](./REFERENCE.md) to learn how to build your JSON.
+
+## Add a New Language to an In-App Tutorial
+
+> Make sure you're comfortable with editing [JSON files](https://docs.fileformat.com/web/json/).
+
+To help us translate the in-app tutorials, please follow these steps:
+
+- Git and GitHub manipulations:
+  - Fork the repository
+  - Create a new branch in your new repository
+
+Once the repository is installed, open the JSON file with your favorite IDE (VSCode or else.) and begin the translation work:
+
+- Find all the lines corresponding to a field with key `"en"` and duplicate those lines
+  - with VSCode, select `"en"` and then hit Ctrl+Shift+L to select all identical occurrences.
+- Translate each new line you created with the above instruction
+- Add the locale you added to field `availableLocales`
+
+**Notes**
+
+- There are a few things to know, you can have a look at the other translations if you're not sure:
+  - We're using markdown to format the text. For instance:
+    - **\*\*bold\*\***
+    - \*_italic_\*
+    - `` `code` ``
+  - There shall not be empty translations
+  - Don't translate placeholders such as `$(character)`
+
+And finally:
+
+- Git and GitHub manipulations:
+  - Commit your changes
+  - Push your branch
+  - Open the PR from your branch to our `main` branch.
+
+Once you do this, a few automated checks will be run to make sure a few basic verifications are made.
