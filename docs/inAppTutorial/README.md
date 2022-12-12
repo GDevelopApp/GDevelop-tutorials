@@ -11,6 +11,8 @@ You can have a look at the components in [the editor storybook](https://gdevelop
 
 Have a look at the [documentation](./REFERENCE.md) to learn how to build your JSON.
 
+> Note: At the moment, there isn't a no-code approach to building/modifying an in-app tutorial. You should have GDevelop running and inspect its HTML to be able to specify the CSS selectors to use. If there are missing HTML tag ids, please tell us or open a PR on [GDevelop main repository](https://github.com/4ian/GDevelop).
+
 ## Add a New Language to an In-App Tutorial
 
 > Make sure you're comfortable with editing [JSON files](https://docs.fileformat.com/web/json/).
