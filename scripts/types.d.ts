@@ -77,3 +77,6 @@ export type InAppTutorial = {
   endDialog: InAppTutorialEndDialog;
   availableLocales: Array<string>;
 };
+
+export type libGDevelop = any;
+export type gdProject = any;
