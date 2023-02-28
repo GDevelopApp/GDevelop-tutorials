@@ -51,9 +51,9 @@ describe('In app tutorials content checks', () => {
   const { children: allInAppTutorialFiles } = allInAppTutorialFolder;
   if (!allInAppTutorialFiles) throw new Error('No tutorial file found.');
   /** @type {InAppTutorial[]} */
-  const allInAppTutorials = allInAppTutorialFiles.map((file) => {
-    return JSON.parse(fs.readFileSync(file.path, 'utf-8'));
-  });
+  const allInAppTutorials = allInAppTutorialFiles
+    .filter((file) => file.type === dree.Type.FILE)
+    .map((file) => JSON.parse(fs.readFileSync(file.path, 'utf-8')));
 
   test('there is no empty translation', () => {
     /** @type {Record<string, Array<Record<string, string>>>} */
