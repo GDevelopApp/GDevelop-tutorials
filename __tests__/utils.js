@@ -32,6 +32,7 @@ const getAllMessagesByLocale = (tutorial) => {
       return;
     }
     if (typeof value === 'object') {
+      // @ts-ignore
       localMessagesByLocale.push(...getAllMessagesByLocale(value));
       return;
     }

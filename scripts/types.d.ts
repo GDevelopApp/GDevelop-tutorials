@@ -78,6 +78,8 @@ export type InAppTutorial = {
   editorSwitches: Record<string, EditorIdentifier>;
   endDialog: InAppTutorialEndDialog;
   availableLocales: Array<string>;
+  initialTemplateUrl?: string;
+  initialTemplateData?: Record<string, string>;
 };
 
 export type libGDevelop = any;
