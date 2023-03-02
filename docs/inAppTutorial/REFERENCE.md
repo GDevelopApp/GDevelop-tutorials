@@ -118,7 +118,9 @@ At the moment, only one trigger can be specified to go the next step. Here is th
 - `presenceOfElement` (string): the CSS selector of an element present in the DOM or a custom selector
 - `absenceOfElement` (string): the CSS selector of an element absent from the DOM or a custom selector
 - `valueHasChanged` (true): the CSS selector of an input whose value has changed
+- `valueEquals` (string): the CSS selector of an input whose value is equal to the string (even for numbers, it has to be a string, ex: "2")
 - `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene
+  - `instancesCount` (number): the number of instances that should be present on the scene (to be used with `instanceAddedOnScene`)
 - `previewLaunched` (true): a preview has been launched
 - `clickOnTooltipButton` (`messageByLocale` object): the label of the button displayed in the tooltip that the user has to click to go to the next step.
 - `editorIsActive` (string `scene:editor`): to detect when a user switched editors
@@ -201,3 +203,27 @@ Notes:
 
 - `playScene` is the key under which the name of the scene has been stored during the tutorial.
 - The possible values for the expected editor are: `Scene`, `EventsSheet`, `Home` (other editors are not supported at the moment).
+
+## `initialTemplateUrl` & `initialProjectData`
+
+If the tutorial does not start from scratch, we can provide a template URL to download the project from with `initialTemplateUrl`. This should match the URL of the template in the GDevelop templates S3 bucket (https://resources.gdevelop-app.com/in-app-tutorials/templates/{gameName}/game.json)
+This template should be available inside the `templates` folder, with the same name as the tutorial. It will get deployed to the S3 bucket when merging to master.
+
+Inside the app, when a tutorial is running, all objects or scenes added are tracked, so they can be re-used.
+However, if we start from a template, we need to know which objects or scenes are already present so they can be tracked.
+Ideally, we should be able to detect them automatically, but for now, we need to provide the list of objects and scenes that are already present in the template.
+To do so, we can provide the `initialProjectData` field.
+
+Ex:
+
+```json
+{
+  ...,
+  "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/plinkoMultiplier/game.json",
+  "initialProjectData": {
+    "gameScene": "GameScene",
+    "multiplier": "Multiplier",
+    "particles": "PegStar_Particle"
+  },
+}
+```

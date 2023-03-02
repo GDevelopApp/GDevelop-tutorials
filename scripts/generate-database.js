@@ -150,8 +150,6 @@ const updateTemplateFiles = async () => {
   const allFiles = getAllFiles(fileTreeWithParsedContent);
   const allTemplateFiles = getAllTemplateFiles(allFiles);
 
-  console.info('read all files.');
-
   await Promise.all(
     allTemplateFiles.map(async (fileWithParsedContent) => {
       const projectObject = fileWithParsedContent.parsedContent;

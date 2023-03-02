@@ -13,6 +13,10 @@ class InAppTutorial {
   id;
   /** @type {Array<string>} */
   availableLocales;
+  /** @type {string | undefined} */
+  initialTemplateUrl;
+  /** @type { Record<string, string> | undefined} */
+  initialTemplateData;
 
   /**
    * @param {string} sourcePath
@@ -29,6 +33,8 @@ class InAppTutorial {
       }
       this.id = tutorialContent.id;
       this.availableLocales = tutorialContent.availableLocales;
+      this.initialTemplateUrl = tutorialContent.initialTemplateUrl;
+      this.initialTemplateData = tutorialContent.initialProjectData;
     } catch (error) {
       console.error(
         `An error occurred when reading tutorial file with path ${sourcePath}. The file might be corrupt.`,
@@ -46,6 +52,8 @@ class InAppTutorial {
       id: this.id,
       contentUrl: `https://resources.gdevelop-app.com/in-app-tutorials/${this.id}.json`,
       availableLocales: this.availableLocales,
+      initialTemplateUrl: this.initialTemplateUrl,
+      initialTemplateData: this.initialTemplateData,
     };
   }
 }
