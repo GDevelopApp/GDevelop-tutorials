@@ -173,7 +173,8 @@
             "en": "Open the $(gameScene) options and select **Edit scene variables**."
           }
         }
-      }
+      },
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#scene-variables-dialog #add-variable",
@@ -186,7 +187,8 @@
             "en": "Let's add our first **variable**!"
           }
         }
-      }
+      },
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#scene-variables-dialog #variable-0-name",
@@ -200,7 +202,8 @@
           }
         },
         "placement": "bottom"
-      }
+      },
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#scene-variables-dialog #variable-0-type",
@@ -214,7 +217,8 @@
           }
         },
         "placement": "bottom"
-      }
+      },
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#scene-variables-dialog #variable-0-text-value",
@@ -228,7 +232,8 @@
           }
         },
         "placement": "bottom"
-      }
+      },
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#scene-variables-dialog #apply-button",

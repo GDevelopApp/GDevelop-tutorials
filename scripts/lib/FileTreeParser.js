@@ -22,8 +22,7 @@ const sanitizeJSONContent = (content) => {
 
 /**
  * Create a "file tree" by browsing all the files of the specified folder,
- * ignoring some specific folder names and only listing files with extensions
- * that we know are useful.
+ * only listing files with extensions that we know are useful.
  *
  * @param {string} rootPath
  * @returns {Promise<Dree>}
@@ -35,15 +34,6 @@ const readFileTree = async (rootPath) => {
     followLinks: true,
     size: false,
     hash: false,
-    exclude: [
-      /Default size/,
-      /Spritesheet/,
-      /Tilesheet/,
-      /Vector/,
-      /Unimplemented/i,
-      /TODO/i,
-      /Preview\.png/,
-    ],
     extensions: ['png', 'md', 'txt', 'json', 'ttf', 'otf', 'wav', 'aac', 'svg'],
   });
 };
@@ -67,22 +57,23 @@ const enhanceFileTreeWithParsedContent = async (fileTree) => {
     // Make a first pass on the directory to create the contents of the project files.
     await Promise.all(
       fileTree.children.map(async (childFileTree) => {
-        if (childFileTree.type === 'file') {
-          if (childFileTree.name.endsWith('.json')) {
-            try {
-              const content = await fs.readFile(childFileTree.path, 'utf-8');
-              const sanitizedContent = sanitizeJSONContent(content);
-              const parsedContent = JSON.parse(sanitizedContent);
-              parsedContents[childFileTree.name] = parsedContent;
-            } catch (error) {
-              errors.push(
-                new Error(
-                  'Unable to read the content of ' +
-                    childFileTree.path +
-                    ' - is it valid JSON?'
-                )
-              );
-            }
+        if (
+          childFileTree.type === 'file' &&
+          childFileTree.name.endsWith('.json')
+        ) {
+          try {
+            const content = await fs.readFile(childFileTree.path, 'utf-8');
+            const sanitizedContent = sanitizeJSONContent(content);
+            const parsedContent = JSON.parse(sanitizedContent);
+            parsedContents[childFileTree.name] = parsedContent;
+          } catch (error) {
+            errors.push(
+              new Error(
+                'Unable to read the content of ' +
+                  childFileTree.path +
+                  ' - is it valid JSON?'
+              )
+            );
           }
         }
       })

@@ -59,7 +59,6 @@ const getResourceUrl = (filePath) => {
   const relativeFilePath = normalizePathSeparators(
     path.relative(templatesDestinationRootPath, filePath)
   );
-  console.log(filePath, templatesDestinationRootPath, relativeFilePath);
   return `https://resources.gdevelop-app.com/in-app-tutorials/${relativeFilePath}`;
 };
 
