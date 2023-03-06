@@ -264,7 +264,7 @@
     },
     {
       "id": "SwitchToEvents1",
-      "elementToHighlightId": "#events-editor[data-active] #add-condition-button-empty",
+      "elementToHighlightId": "#events-editor[data-active] #event-2-1-conditions #add-condition-button-empty",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -334,7 +334,7 @@
       }
     },
     {
-      "elementToHighlightId": "[data-active=\"true\"] #add-action-button-empty",
+      "elementToHighlightId": "[data-active=\"true\"] #event-2-1-actions #add-action-button-empty",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -389,7 +389,7 @@
       }
     },
     {
-      "elementToHighlightId": "[data-active=\"true\"] #add-action-button",
+      "elementToHighlightId": "[data-active=\"true\"] #event-2-1-actions #add-action-button",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -459,7 +459,7 @@
       }
     },
     {
-      "elementToHighlightId": "[data-active=\"true\"] #add-action-button",
+      "elementToHighlightId": "[data-active=\"true\"] #event-2-1-actions #add-action-button",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -559,7 +559,7 @@
       }
     },
     {
-      "elementToHighlightId": "[data-active=\"true\"] #add-action-button",
+      "elementToHighlightId": "[data-active=\"true\"] #event-2-1-actions #add-action-button",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -659,7 +659,7 @@
       }
     },
     {
-      "elementToHighlightId": "[data-active=\"true\"] #add-action-button",
+      "elementToHighlightId": "[data-active=\"true\"] #event-2-1-actions #add-action-button",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -759,9 +759,9 @@
       }
     },
     {
-      "elementToHighlightId": "[id=\"**Score multiplier-unfolded\"]",
+      "elementToHighlightId": "#event-2-group-unfolded",
       "nextStepTrigger": {
-        "presenceOfElement": "[id=\"**Score multiplier-folded\"]"
+        "presenceOfElement": "#event-2-group-folded"
       },
       "tooltip": {
         "description": {
@@ -773,9 +773,9 @@
       }
     },
     {
-      "elementToHighlightId": "[id=\"**Hitting pegs-folded\"]",
+      "elementToHighlightId": "#event-1-group-folded",
       "nextStepTrigger": {
-        "presenceOfElement": "[id=\"**Hitting pegs-unfolded\"]"
+        "presenceOfElement": "#event-1-group-unfolded"
       },
       "tooltip": {
         "description": {
@@ -787,7 +787,7 @@
       }
     },
     {
-      "elementToHighlightId": "#event-3-action-0",
+      "elementToHighlightId": "#event-1-1-action-0",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
@@ -829,7 +829,7 @@
       }
     },
     {
-      "elementToHighlightId": "#event-7-action-0",
+      "elementToHighlightId": "#event-1-3-action-0",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
