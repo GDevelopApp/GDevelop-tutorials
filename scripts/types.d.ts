@@ -3,7 +3,7 @@ export interface InAppTutorialShortHeader {
   contentUrl: string;
   availableLocales: Array<string>;
   initialTemplateUrl?: string;
-  initialTemplateData?: Record<string, string>;
+  initialProjectData?: Record<string, string>;
 }
 
 export type MessageByLocale = Record<string, string>;
@@ -79,7 +79,7 @@ export type InAppTutorial = {
   endDialog: InAppTutorialEndDialog;
   availableLocales: Array<string>;
   initialTemplateUrl?: string;
-  initialTemplateData?: Record<string, string>;
+  initialProjectData?: Record<string, string>;
 };
 
 export type libGDevelop = any;
