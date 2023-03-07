@@ -400,7 +400,7 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, our **condition** is ready and will be **true** when the **$(ball) touches the $(multiplier)**.",
-            "fr": "Bien, notre **condition** est prête et sera **vraie** quand le **$(ball) touche le $(multiplier)**.",
+            "fr": "Bien, notre **condition** est prête et sera **vraie** quand **$(ball) touche le $(multiplier)**.",
             "es": "Bien, nuestra **condición** está lista y será **verdadera** cuando el **$(ball) golpee el $(multiplier)**.",
             "pt": "Bem, nossa **condição** está pronta e será **verdadeira** quando o **$(ball) bater no $(multiplier)**."
           }
@@ -552,7 +552,7 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, now the sound will play when the $(ball) collects a $(multiplier)!",
-            "fr": "Bien, maintenant le son sera joué quand le $(ball) collecte un $(multiplier) !",
+            "fr": "Bien, maintenant le son sera joué quand $(ball) collecte un $(multiplier) !",
             "es": "¡Bien, ahora el sonido se reproducirá cuando la $(ball) recolecte un $(multiplier)!",
             "pt": "Ótimo, agora o som será reproduzido quando a $(ball) coletar um $(multiplier)!"
           }
