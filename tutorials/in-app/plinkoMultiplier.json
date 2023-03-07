@@ -198,7 +198,15 @@
           }
         },
         "placement": "right"
-      }
+      },
+      "shortcuts": [
+        {
+          "stepId": "SceneVariablesOpen",
+          "trigger": {
+            "presenceOfElement": "#scene-variables-dialog"
+          }
+        }
+      ]
     },
     {
       "elementToHighlightId": "sceneInProjectManager:gameScene",
@@ -206,7 +214,7 @@
         "presenceOfElement": "#scene-variables-dialog #add-variable"
       },
       "tooltip": {
-        "placement": "left",
+        "placement": "right",
         "description": {
           "messageByLocale": {
             "en": "Open the $(gameScene) options and select **Edit scene variables**.",
@@ -219,6 +227,7 @@
       "isOnClosableDialog": true
     },
     {
+      "id": "SceneVariablesOpen",
       "elementToHighlightId": "#scene-variables-dialog #add-variable",
       "nextStepTrigger": {
         "presenceOfElement": "#variable-0-name"
