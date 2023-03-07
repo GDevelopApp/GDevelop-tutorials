@@ -2,6 +2,8 @@ export interface InAppTutorialShortHeader {
   id: string;
   contentUrl: string;
   availableLocales: Array<string>;
+  initialTemplateUrl?: string;
+  initialProjectData?: Record<string, string>;
 }
 
 export type MessageByLocale = Record<string, string>;
@@ -76,4 +78,9 @@ export type InAppTutorial = {
   editorSwitches: Record<string, EditorIdentifier>;
   endDialog: InAppTutorialEndDialog;
   availableLocales: Array<string>;
+  initialTemplateUrl?: string;
+  initialProjectData?: Record<string, string>;
 };
+
+export type libGDevelop = any;
+export type gdProject = any;

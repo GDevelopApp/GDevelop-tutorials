@@ -23,7 +23,7 @@ describe('In app tutorials control figures', () => {
   );
 
   test('there is the right number of in app tutorials', () => {
-    expect(shortHeaders).toHaveLength(1); // To change when adding new in app tutorials
+    expect(shortHeaders.length).toMatchInlineSnapshot(`2`); // To change when adding new in app tutorials
   });
 
   test('all in app tutorials have a different id', () => {
@@ -51,9 +51,9 @@ describe('In app tutorials content checks', () => {
   const { children: allInAppTutorialFiles } = allInAppTutorialFolder;
   if (!allInAppTutorialFiles) throw new Error('No tutorial file found.');
   /** @type {InAppTutorial[]} */
-  const allInAppTutorials = allInAppTutorialFiles.map((file) => {
-    return JSON.parse(fs.readFileSync(file.path, 'utf-8'));
-  });
+  const allInAppTutorials = allInAppTutorialFiles
+    .filter((file) => file.type === dree.Type.FILE)
+    .map((file) => JSON.parse(fs.readFileSync(file.path, 'utf-8')));
 
   test('there is no empty translation', () => {
     /** @type {Record<string, Array<Record<string, string>>>} */
@@ -84,44 +84,47 @@ describe('In app tutorials content checks', () => {
     /** @type {Record<string, Array<string>>} */
     const messagesWithCorruptProjectDataByTutorial = {};
 
-    allInAppTutorials.forEach((tutorial) => {
-      const { flow } = tutorial;
-      const projectData = flow.reduce(
-        /**
-         * @param {string[]} acc
-         * @param {{mapProjectData?: Record<string, string>}} step
-         */
-        (acc, step) => {
-          if (step.mapProjectData) {
-            acc.push(Object.keys(step.mapProjectData)[0]);
-          }
-          return acc;
-        },
+    allInAppTutorials
+      // We don't check the tutorials with initial template, because they already have project data.
+      .filter((tutorial) => !tutorial.initialTemplateUrl)
+      .forEach((tutorial) => {
+        const { flow } = tutorial;
+        const projectData = flow.reduce(
+          /**
+           * @param {string[]} acc
+           * @param {{mapProjectData?: Record<string, string>}} step
+           */
+          (acc, step) => {
+            if (step.mapProjectData) {
+              acc.push(Object.keys(step.mapProjectData)[0]);
+            }
+            return acc;
+          },
+          /** @type {string[]} */
+          []
+        );
+
+        const allMessagesByLocale = getAllMessagesByLocale(tutorial);
+
         /** @type {string[]} */
-        []
-      );
-
-      const allMessagesByLocale = getAllMessagesByLocale(tutorial);
-
-      /** @type {string[]} */
-      const messagesWithCorruptProjectData = [];
-      allMessagesByLocale.forEach((messageByLocale) => {
-        Object.values(messageByLocale).forEach((value) => {
-          const allPlaceholders = getAllPlaceholdersInMessage(value);
-          if (
-            allPlaceholders.some(
-              (placeholder) => !projectData.includes(placeholder)
-            )
-          ) {
-            messagesWithCorruptProjectData.push(value);
-          }
+        const messagesWithCorruptProjectData = [];
+        allMessagesByLocale.forEach((messageByLocale) => {
+          Object.values(messageByLocale).forEach((value) => {
+            const allPlaceholders = getAllPlaceholdersInMessage(value);
+            if (
+              allPlaceholders.some(
+                (placeholder) => !projectData.includes(placeholder)
+              )
+            ) {
+              messagesWithCorruptProjectData.push(value);
+            }
+          });
         });
+        if (messagesWithCorruptProjectData.length > 0) {
+          messagesWithCorruptProjectDataByTutorial[tutorial.id] =
+            messagesWithCorruptProjectData;
+        }
       });
-      if (messagesWithCorruptProjectData.length > 0) {
-        messagesWithCorruptProjectDataByTutorial[tutorial.id] =
-          messagesWithCorruptProjectData;
-      }
-    });
     if (Object.keys(messagesWithCorruptProjectDataByTutorial).length > 0) {
       console.error(messagesWithCorruptProjectDataByTutorial);
       throw new Error(

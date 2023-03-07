@@ -4,27 +4,72 @@ const dree = require('dree');
 const path = require('path');
 const fs = require('fs').promises;
 const { InAppTutorial } = require('./lib/InAppTutorial');
+const { loadGDevelopCoreAndExtensions } = require('./lib/GDevelopCoreLoader');
+const { loadSerializedProject } = require('./lib/LocalProjectOpener');
+const {
+  readFileTree,
+  enhanceFileTreeWithParsedContent,
+  getAllFiles,
+  getAllTemplateFiles,
+} = require('./lib/FileTreeParser');
+const { writeProjectJSONFile } = require('./lib/LocalProjectWriter');
+const args = require('minimist')(process.argv.slice(2));
 
-/**
- * @typedef {import("./types").InAppTutorialShortHeader} InAppTutorialShortHeader
- */
+/** @typedef {import("./types").InAppTutorialShortHeader} InAppTutorialShortHeader */
+/** @typedef {import("./types").libGDevelop} libGDevelop */
+/** @typedef {import('./types').gdProject} gdProject */
+
+if (!args['gdevelop-root-path']) {
+  shell.echo(
+    '❌ You must pass --gdevelop-root-path with the path to GDevelop repository with `npm install` ran in `newIDE/app`.'
+  );
+  shell.exit(1);
+}
+
+const distPath = path.join(__dirname, '../dist');
+const gdevelopRootPath = path.resolve(
+  process.cwd(),
+  args['gdevelop-root-path']
+);
 
 const tutorialsSourceRootPath = path.join(__dirname, '../tutorials');
 const inAppTutorialsSourceRootPath = path.join(
   tutorialsSourceRootPath,
   'in-app'
 );
-const distPath = path.join(__dirname, '../dist');
-const databasePath = path.join(distPath, 'database');
 const inAppTutorialsDestinationRootPath = path.join(distPath, 'tutorials');
+const tutorialsDatabasePath = path.join(distPath, 'database');
+
+const templatesSourceRootPath = path.join(__dirname, '../templates');
+const templatesDestinationRootPath = path.join(
+  inAppTutorialsDestinationRootPath,
+  'in-app'
+);
+
+/** @param {string} fileOrFolderPath */
+const normalizePathSeparators = (fileOrFolderPath) => {
+  return fileOrFolderPath.replace(/\\/g, '/');
+};
+
+/**
+ * Generate the URL used after deployment for a file in the templates folder.
+ * @param {string} filePath
+ */
+const getResourceUrl = (filePath) => {
+  const relativeFilePath = normalizePathSeparators(
+    path.relative(templatesDestinationRootPath, filePath)
+  );
+  return `https://resources.gdevelop-app.com/in-app-tutorials/${relativeFilePath}`;
+};
 
 const generateFolderStructure = () => {
   // Clean current folders
-  shell.rm('-rf', databasePath);
+  shell.rm('-rf', inAppTutorialsDestinationRootPath);
+  shell.rm('-rf', tutorialsDatabasePath);
 
   // Recreate destination folders
   shell.mkdir('-p', inAppTutorialsDestinationRootPath);
-  shell.mkdir('-p', databasePath);
+  shell.mkdir('-p', tutorialsDatabasePath);
 
   // Copy tutorials in destination folders
   shell.cp(
@@ -32,6 +77,108 @@ const generateFolderStructure = () => {
     inAppTutorialsSourceRootPath,
     inAppTutorialsDestinationRootPath
   );
+  shell.cp('-r', templatesSourceRootPath, templatesDestinationRootPath);
+};
+
+/**
+ *
+ * @param {libGDevelop} gd
+ * @param {gdProject} project
+ * @param {string} baseUrl
+ */
+const updateResources = (gd, project, baseUrl) => {
+  const worker = new gd.ArbitraryResourceWorkerJS();
+  /** @param {string} file */
+  worker.exposeImage = (file) => {
+    // Don't do anything
+    return file;
+  };
+  /** @param {string} shader */
+  worker.exposeShader = (shader) => {
+    // Don't do anything
+    return shader;
+  };
+  /** @param {string} file */
+  worker.exposeFile = (file) => {
+    if (file.length === 0) return '';
+    return baseUrl + '/' + file;
+  };
+
+  project.exposeResources(worker);
+};
+
+/**
+ * Update the template game files to use resources on resources.gdevelop-app.com
+ * @returns {Promise<{errors: Error[]}>}
+ */
+const updateTemplateFiles = async () => {
+  const loadedGDevelop = await loadGDevelopCoreAndExtensions({
+    gdevelopRootPath,
+  });
+  const { gd } = loadedGDevelop;
+  if (!gd || loadedGDevelop.errors.length) {
+    console.error(
+      'Unable to load GDevelop core and the extensions:',
+      loadedGDevelop.errors
+    );
+    shell.exit(1);
+  }
+  console.info(
+    'Loaded GDevelop and extensions',
+    loadedGDevelop.extensionLoadingResults
+  );
+
+  /** @type {Error[]} */
+  const errors = [];
+  console.info('updating template files.');
+
+  const fileTree = await readFileTree(templatesDestinationRootPath);
+  if (!fileTree) throw new Error('Expected fileTree not to be null');
+
+  const enhancedTree = await enhanceFileTreeWithParsedContent(fileTree);
+  const { fileTreeWithParsedContent } = enhancedTree;
+  if (enhancedTree.errors.length) {
+    console.error(
+      'There were errors while parsing templates files:',
+      enhancedTree.errors
+    );
+    console.info('Aborting because of these errors.');
+    shell.exit(1);
+  }
+
+  const allFiles = getAllFiles(fileTreeWithParsedContent);
+  const allTemplateFiles = getAllTemplateFiles(allFiles);
+
+  await Promise.all(
+    allTemplateFiles.map(async (fileWithParsedContent) => {
+      const projectObject = fileWithParsedContent.parsedContent;
+      if (!projectObject) {
+        errors.push(
+          new Error(
+            `Expected valid JSON content in ${fileWithParsedContent.path}.`
+          )
+        );
+        return;
+      }
+
+      const project = loadSerializedProject(gd, projectObject);
+      const gameFolderPath = path.dirname(fileWithParsedContent.path);
+      updateResources(gd, project, getResourceUrl(gameFolderPath));
+
+      try {
+        await writeProjectJSONFile(gd, project, fileWithParsedContent.path);
+      } catch (error) {
+        errors.push(
+          new Error(
+            `Error while writing the updated project file at ${fileWithParsedContent.path}: ` +
+              error
+          )
+        );
+      }
+    })
+  );
+
+  return { errors };
 };
 
 /**
@@ -80,7 +227,7 @@ const buildAndWriteInAppTutorialsDatabase = (databasePath, inAppTutorials) => {
 
 const processInAppTutorials = async () => {
   const inAppTutorials = await readInAppTutorials(inAppTutorialsSourceRootPath);
-  buildAndWriteInAppTutorialsDatabase(databasePath, inAppTutorials);
+  buildAndWriteInAppTutorialsDatabase(tutorialsDatabasePath, inAppTutorials);
 };
 
 /**
@@ -89,6 +236,7 @@ const processInAppTutorials = async () => {
 (async () => {
   try {
     generateFolderStructure();
+    await updateTemplateFiles();
     await processInAppTutorials();
   } catch (error) {
     console.error('The script errored', error);
