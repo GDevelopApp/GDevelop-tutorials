@@ -217,10 +217,10 @@
         "placement": "right",
         "description": {
           "messageByLocale": {
-            "en": "Open the $(gameScene) options and select **Edit scene variables**.",
-            "fr": "Ouvrez les options de $(gameScene) et sélectionnez **Modifier les variables de la scène**.",
-            "es": "Abre las opciones de $(gameScene) y selecciona **Editar variables de escena**.",
-            "pt": "Abra as opções de $(gameScene) e selecione **Editar variáveis de cena**."
+            "en": "**Right click** on $(gameScene) or tap the **triple dot button** and select **Edit scene variables**.",
+            "fr": "Faites un **clic droit** sur $(gameScene) ou appuyez sur le **bouton à trois points** et sélectionnez **Modifier les variables de scène**.",
+            "es": "Haga **clic derecho** en $(gameScene) o toque el **botón de tres puntos** y seleccione **Editar variables de escena**.",
+            "pt": "Clique com o **botão direito** em $(gameScene) ou toque no **botão de três pontos** e selecione **Editar variáveis de cena**."
           }
         }
       },
