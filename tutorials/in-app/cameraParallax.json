@@ -1,0 +1,642 @@
+{
+  "id": "cameraParallax",
+  "editorSwitches": {
+    "Start": {
+      "editor": "Scene",
+      "scene": "cameraScene"
+    },
+    "SwitchToEvents1": {
+      "editor": "EventsSheet",
+      "scene": "cameraScene"
+    }
+  },
+  "availableLocales": ["en", "fr", "es", "pt"],
+  "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/cameraParallax/game.json",
+  "initialProjectData": {
+    "cameraScene": "CameraScene",
+    "player": "PlayerObject",
+    "farBackground": "FarBackground",
+    "midBackground": "MidBackground"
+  },
+  "endDialog": {
+    "content": [
+      {
+        "messageByLocale": {
+          "en": "# You've finished this lesson!",
+          "fr": "# Vous avez terminé cette leçon !",
+          "es": "# ¡Has terminado esta lección!",
+          "pt": "# Você terminou esta lição!"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "Well done, in this tutorial you've learned:",
+          "fr": "Bien joué, dans ce tutoriel vous avez appris :",
+          "es": "¡Bien hecho, en este tutorial aprendiste:",
+          "pt": "Bem feito, neste tutorial você aprendeu:"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "- How to create a layer",
+          "fr": "- Comment créer une calque",
+          "es": "- Cómo crear una capa",
+          "pt": "- Como criar uma camada"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "- How to add an extension",
+          "fr": "- Comment ajouter une extension",
+          "es": "- Cómo agregar una extensión",
+          "pt": "- Como adicionar uma extensão"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "- How to use make Tiled Sprites move at different speeds",
+          "fr": "- Comment utiliser les Tiled Sprites pour faire bouger des objets à différentes vitesses",
+          "es": "- Cómo usar los Tiled Sprites para hacer que los objetos se muevan a diferentes velocidades",
+          "pt": "- Como usar os Tiled Sprites para fazer com que os objetos se movam a diferentes velocidades"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "You can keep adding stuff to this game or publish it!",
+          "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !",
+          "es": "¡Puedes seguir agregando cosas a este juego o publicarlo !",
+          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!"
+        }
+      }
+    ]
+  },
+  "flow": [
+    {
+      "id": "Start",
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Let's go!",
+            "fr-FR": "C'est parti !"
+          }
+        }
+      },
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "This game is a simple platformer.\nYou can move the player with the arrow keys.\n\n**Test it out** with the **preview** button.\n\nWhen you're ready, click on this button to continue."
+          }
+        },
+        "placement": "right"
+      }
+    },
+    {
+      "id": "OpenPropertiesManagerForExtension",
+      "elementToHighlightId": "#main-toolbar-project-manager-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-extensions"
+      },
+      "tooltip": {
+        "title": {
+          "messageByLocale": {
+            "en": "First, let's improve this game by adding a nice camera effect when the character moves."
+          }
+        },
+        "description": {
+          "messageByLocale": {
+            "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**."
+          }
+        },
+        "placement": "right"
+      }
+    },
+    {
+      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-extensions",
+      "nextStepTrigger": {
+        "presenceOfElement": "#project-manager-extension-search-or-create"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Extensions** tab.",
+            "fr-FR": "Ouvrez l'onglet **Extensions**."
+          }
+        }
+      },
+      "isOnClosableDialog": true,
+      "skippable": true
+    },
+    {
+      "elementToHighlightId": "#project-manager-extension-search-or-create",
+      "nextStepTrigger": {
+        "presenceOfElement": "#extension-search-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the extension store",
+            "fr-FR": "Ouvrez le **Magasin d'extension**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#extension-search-bar",
+      "nextStepTrigger": {
+        "presenceOfElement": "#extension-list-item-SmoothCamera"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Search for the **smooth camera** extension.",
+            "fr-FR": "Cherchez l'extension **smooth camera**."
+          }
+        }
+      },
+      "isOnClosableDialog": true,
+      "skippable": true
+    },
+    {
+      "elementToHighlightId": "#extension-list-item-SmoothCamera",
+      "nextStepTrigger": {
+        "presenceOfElement": "#install-extension-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Click on the extension.",
+            "fr-FR": "Cliquez sur l'extension."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#install-extension-dialog #install-extension-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#install-extension-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Install the extension in your project.",
+            "fr-FR": "Installez l'extension dans votre projet."
+          }
+        },
+        "placement": "left"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#extension-search-dialog #close-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#extension-search-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Close the store.",
+            "fr-FR": "Fermez le magasin."
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectsList:player",
+      "nextStepTrigger": {
+        "presenceOfElement": "#object-editor-dialog"
+      },
+      "tooltip": {
+        "placement": "left",
+        "description": {
+          "messageByLocale": {
+            "en": "Now let's add it to our player. Right click on **$(player)** or use the 3-dots menu and select “Edit behaviors”."
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "#behaviors-tab",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-behavior-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "See the **behaviors** of the **object** here.",
+            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true,
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#add-behavior-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#behavior-item-SmoothCamera--SmoothCamera"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add the **Smooth Camera** behavior we just installed."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#behavior-item-SmoothCamera--SmoothCamera",
+      "nextStepTrigger": {
+        "presenceOfElement": "#behavior-parameters-SmoothCamera"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the **Smooth Camera** behavior.",
+            "fr-FR": "Sélectionnez le comportement **Smooth Camera**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#behavior-parameters-SmoothCamera #FollowOnY",
+      "nextStepTrigger": {
+        "valueHasChanged": true
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's make it only follow the X axis (Horizontal) by **unchecking** this checkbox."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#object-editor-dialog #apply-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#object-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "That's it! The camera will **follow our player horizontally**!"
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-layers-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-layer-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Next we will add the background. Open the **Layers** panel.",
+            "fr-FR": "Ensuite, nous allons ajouter le background, ouvrez le panneau des **calques*."
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
+      "elementToHighlightId": "#add-layer-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#layer-1"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's **add a new layer** for our background.",
+            "fr-FR": "Créons un **nouveau calque** pour notre fond d'écran."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "elementToHighlightId": "#layer-1 #layer-name",
+      "nextStepTrigger": {
+        "valueEquals": "Background"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Change the name to **Background**.",
+            "fr-FR": "Changeons son nom en **Background**."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "elementToHighlightId": "#layer-1 #layer-selected-unchecked",
+      "nextStepTrigger": {
+        "presenceOfElement": "#layer-1 #layer-selected-checked"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's select this layer as the **default layer** to add objects to."
+          }
+        },
+        "placement": "left"
+      }
+    },
+    {
+      "elementToHighlightId": "#layer-1 #layer-drag-handle",
+      "nextStepTrigger": {
+        "presenceOfElement": "#layer-0 #layer-selected-checked"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Now let's **move** this layer **below the Base Layer**, so that the background elements will appear behind the player.\n\n**Drag the handle below**"
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectsList:farBackground",
+      "nextStepTrigger": {
+        "instanceAddedOnScene": "farBackground"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Perfect! Now let's add **$(farBackground)** to our game by dragging it to the center."
+          }
+        },
+        "placement": "left"
+      }
+    },
+    {
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "I'm done",
+            "fr-FR": "J'ai terminé"
+          }
+        }
+      },
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "See the black square in the middle of the scene? This is the **camera view**.\nIt's the point of view from which the player will see the game.\n\nLet's resize the **$(farBackground)** object so that it covers the whole black square\n\nWhen you're done, click below."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectsList:midBackground",
+      "nextStepTrigger": {
+        "instanceAddedOnScene": "midBackground"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's do the same with another background to give a parallax effect! Drag **$(midBackground)** from the menu to the canvas."
+          }
+        },
+        "placement": "left"
+      }
+    },
+    {
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "I'm done",
+            "fr-FR": "J'ai terminé"
+          }
+        }
+      },
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "Same as for the **$(farBackground)** object, resize the **$(midBackground)** object so that it covers the whole black square.\n\nWhen you're done, click below."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "elementToHighlightId": "editorTab:cameraScene:EventsSheet",
+      "nextStepTrigger": {
+        "presenceOfElement": "#events-editor[data-active]"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Now let's make those **Backgrounds move**! Let's **open the Events Sheet** of the $(cameraScene) scene."
+          }
+        },
+        "placement": "bottom"
+      }
+    },
+    {
+      "id": "SwitchToEvents1",
+      "elementToHighlightId": "#events-editor[data-active] #event-1-actions #add-action-button-empty",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add an action to make the first background move. "
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectOrResourceSelector:farBackground",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-item-TiledSpriteObject--XOffset"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select **$(farBackground)**.",
+            "fr": "Sélectionnez **$(farBackground)**.",
+            "es": "Seleccione **$(farBackground)**.",
+            "pt": "Selecione **$(farBackground)**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-item-TiledSpriteObject--XOffset",
+      "nextStepTrigger": {
+        "presenceOfElement": "#parameter-1-operator-field"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the action **Image X offset**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-1-operator-field",
+      "nextStepTrigger": {
+        "valueHasChanged": true
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "We want the background to follow the camera, so let's select **= (set to)**."
+          }
+        },
+        "placement": "left"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-2-expression-field",
+      "nextStepTrigger": {
+        "valueEquals": "CameraCenterX()/8"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's make the far background move way **slower** than the camera,\n\n Enter `CameraCenterX()/8`."
+          }
+        },
+        "placement": "top"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Nice! Now let's save this."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "elementToHighlightId": "#events-editor[data-active] #event-1-actions #add-action-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's create the same action for **$(midBackground)**!"
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectOrResourceSelector:midBackground",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-item-TiledSpriteObject--XOffset"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select **$(midBackground)**.",
+            "fr": "Sélectionnez **$(midBackground)**.",
+            "es": "Seleccione **$(midBackground)**.",
+            "pt": "Selecione **$(midBackground)**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-item-TiledSpriteObject--XOffset",
+      "nextStepTrigger": {
+        "presenceOfElement": "#parameter-1-operator-field"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the action **Image X offset**."
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-1-operator-field",
+      "nextStepTrigger": {
+        "valueHasChanged": true
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "We want the background to follow the camera, so let's select **= (set to)**."
+          }
+        },
+        "placement": "left"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-2-expression-field",
+      "nextStepTrigger": {
+        "valueEquals": "CameraCenterX()/3"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "This time let's make this background move **faster**, to give the effect that it is closer to the player,\n\n Enter `CameraCenterX()/3`."
+          }
+        },
+        "placement": "top"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Nice! Let's close this."
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "elementToHighlightId": "#toolbar-preview-button",
+      "nextStepTrigger": {
+        "previewLaunched": true
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
+            "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
+            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**."
+          }
+        },
+        "placement": "bottom"
+      }
+    }
+  ]
+}
