@@ -934,6 +934,7 @@
           "colorG": 116,
           "colorR": 116,
           "creationTime": 0,
+          "folded": true,
           "name": "Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -958,9 +959,7 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [
-                    ""
-                  ]
+                  "parameters": [""]
                 }
               ],
               "actions": [
@@ -968,10 +967,7 @@
                   "type": {
                     "value": "SceneBackground"
                   },
-                  "parameters": [
-                    "",
-                    "\"24;18;32\""
-                  ]
+                  "parameters": ["", "\"24;18;32\""]
                 }
               ]
             },
@@ -995,10 +991,7 @@
                   "type": {
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "PlatformerObject"
-                  ]
+                  "parameters": ["PlayerObject", "PlatformerObject"]
                 }
               ],
               "actions": [],
@@ -1010,10 +1003,7 @@
                       "type": {
                         "value": "PlatformBehavior::IsOnFloor"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "PlatformerObject"
-                      ]
+                      "parameters": ["PlayerObject", "PlatformerObject"]
                     }
                   ],
                   "actions": [
@@ -1021,10 +1011,7 @@
                       "type": {
                         "value": "SetAnimationName"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "\"Run\""
-                      ]
+                      "parameters": ["PlayerObject", "\"Run\""]
                     }
                   ]
                 },
@@ -1035,10 +1022,7 @@
                       "type": {
                         "value": "PlatformBehavior::IsJumping"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "PlatformerObject"
-                      ]
+                      "parameters": ["PlayerObject", "PlatformerObject"]
                     }
                   ],
                   "actions": [
@@ -1046,10 +1030,7 @@
                       "type": {
                         "value": "SetAnimationName"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "\"Jump\""
-                      ]
+                      "parameters": ["PlayerObject", "\"Jump\""]
                     }
                   ]
                 }
@@ -1063,10 +1044,7 @@
                     "inverted": true,
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "PlatformerObject"
-                  ]
+                  "parameters": ["PlayerObject", "PlatformerObject"]
                 }
               ],
               "actions": [
@@ -1074,10 +1052,7 @@
                   "type": {
                     "value": "SetAnimationName"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "\"Idle\""
-                  ]
+                  "parameters": ["PlayerObject", "\"Idle\""]
                 }
               ]
             },
@@ -1088,10 +1063,7 @@
                   "type": {
                     "value": "KeyPressed"
                   },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
+                  "parameters": ["", "Left"]
                 },
                 {
                   "type": {
@@ -1105,10 +1077,7 @@
                   "type": {
                     "value": "FlipX"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "yes"
-                  ]
+                  "parameters": ["PlayerObject", "yes"]
                 }
               ]
             },
@@ -1119,10 +1088,7 @@
                   "type": {
                     "value": "KeyPressed"
                   },
-                  "parameters": [
-                    "",
-                    "Right"
-                  ]
+                  "parameters": ["", "Right"]
                 },
                 {
                   "type": {
@@ -1136,10 +1102,7 @@
                   "type": {
                     "value": "FlipX"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "no"
-                  ]
+                  "parameters": ["PlayerObject", "no"]
                 }
               ]
             },
