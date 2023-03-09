@@ -77,7 +77,9 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "Let's go!",
-            "fr-FR": "C'est parti !"
+            "fr": "C'est parti !",
+            "es": "¡Vamos!",
+            "pt": "Vamos!"
           }
         }
       },
@@ -85,7 +87,10 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "This game is a simple platformer.\nYou can move the player with the arrow keys.\n\n**Test it out** with the **preview** button.\n\nWhen you're ready, click on this button to continue."
+            "en": "This game is a simple platformer.\nYou can move the player with the arrow keys and jump with space.\n\n**Test it out** with the **preview** button.\n\nWhen you're ready, click on this button to continue.",
+            "fr": "Ce jeu est un simple jeu de plateforme.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.\n\n**Testez-le** avec le bouton **Aperçu**.\n\nQuand vous êtes prêt, cliquez sur ce bouton pour continuer.",
+            "es": "Este juego es un simple plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruebalo** con el botón **Previsualizar**.\n\nCuando estés listo, haz clic en este botón para continuar.",
+            "pt": "Este jogo é um simples plataforma.\nVocê pode mover o jogador com as setas e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.\n\nQuando estiver pronto, clique neste botão para continuar."
           }
         },
         "placement": "right"
@@ -100,12 +105,18 @@
       "tooltip": {
         "title": {
           "messageByLocale": {
-            "en": "First, let's improve this game by adding a nice camera effect when the character moves."
+            "en": "First, let's improve this game by adding a nice camera effect when the character moves.",
+            "fr": "Tout d'abord, améliorons ce jeu en ajoutant un joli effet de caméra quand le personnage se déplace.",
+            "es": "Primero, mejoremos este juego agregando un bonito efecto de cámara cuando el personaje se mueve.",
+            "pt": "Primeiro, vamos melhorar este jogo adicionando um efeito de câmera legal quando o personagem se move."
           }
         },
         "description": {
           "messageByLocale": {
-            "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**."
+            "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**.",
+            "fr": "Pour cela, nous allons installer une **extension**.\n\nOuvrez le **Gestionnaire de projet**.",
+            "es": "Para esto, instalaremos una **extensión**.\n\nAbre el **Administrador de proyectos**.",
+            "pt": "Para isso, instalaremos uma **extensão**.\n\nAbra o **Gerenciador de projetos**."
           }
         },
         "placement": "right"
@@ -120,7 +131,9 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Extensions** tab.",
-            "fr-FR": "Ouvrez l'onglet **Extensions**."
+            "fr": "Ouvrez l'onglet **Extensions**.",
+            "es": "Abre la pestaña **Extensiones**.",
+            "pt": "Abra a guia **Extensões**."
           }
         }
       },
@@ -136,7 +149,9 @@
         "description": {
           "messageByLocale": {
             "en": "Open the extension store",
-            "fr-FR": "Ouvrez le **Magasin d'extension**."
+            "fr": "Ouvrez le **Magasin d'extension**.",
+            "es": "Abre la **tienda de extensiones**",
+            "pt": "Abra a **loja de extensões**"
           }
         }
       },
@@ -151,7 +166,9 @@
         "description": {
           "messageByLocale": {
             "en": "Search for the **smooth camera** extension.",
-            "fr-FR": "Cherchez l'extension **smooth camera**."
+            "fr": "Cherchez l'extension **smooth camera**.",
+            "es": "Busca la extensión **smooth camera**.",
+            "pt": "Procure pela extensão **smooth camera**."
           }
         }
       },
@@ -166,8 +183,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click on the extension.",
-            "fr-FR": "Cliquez sur l'extension."
+            "en": "Click on the extension **Smooth Camera**.",
+            "fr": "Cliquez sur l'extension **Smooth Camera**.",
+            "es": "Haz clic en la extensión **Smooth Camera**.",
+            "pt": "Clique na extensão **Smooth Camera**."
           }
         }
       },
@@ -182,7 +201,9 @@
         "description": {
           "messageByLocale": {
             "en": "Install the extension in your project.",
-            "fr-FR": "Installez l'extension dans votre projet."
+            "fr": "Installez l'extension au projet.",
+            "es": "Instala la extensión en tu proyecto.",
+            "pt": "Instale a extensão no seu projeto."
           }
         },
         "placement": "left"
@@ -197,8 +218,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Close the store.",
-            "fr-FR": "Fermez le magasin."
+            "en": "Let's close this dialog.",
+            "fr": "Fermons cette fenêtre.",
+            "es": "Cerramos esta ventana.",
+            "pt": "Vamos fechar esta janela."
           }
         }
       }
@@ -212,7 +235,10 @@
         "placement": "left",
         "description": {
           "messageByLocale": {
-            "en": "Now let's add it to our player. Right click on **$(player)** or use the 3-dots menu and select “Edit behaviors”."
+            "en": "Now let's add it to our player.\n\nRight click on **$(player)** or use the 3-dots menu and select **Edit behaviors**.",
+            "fr": "Ajoutons maintenant l'extension à notre joueur.\n\nCliquez droit sur **$(player)** ou utilisez le menu à 3 points et sélectionnez **Modifier les comportements**.",
+            "es": "Añadamos ahora la extensión a nuestro jugador.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
+            "pt": "Agora vamos adicioná-lo ao nosso jogador.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**."
           }
         }
       }
@@ -226,7 +252,9 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+            "fr": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "es": "Los **comportamientos** del **objeto** se encuentran en esta pestaña.",
+            "pt": "Os **comportamentos** do **objeto** estão nesta guia."
           }
         },
         "placement": "bottom"
@@ -242,7 +270,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the **Smooth Camera** behavior we just installed."
+            "en": "Let's add the **Smooth Camera** behavior we just installed.",
+            "fr": "Ajoutons le comportement **Smooth Camera** que nous venons d'installer.",
+            "es": "Añadamos el comportamiento **Smooth Camera** que acabamos de instalar.",
+            "pt": "Vamos adicionar o comportamento **Smooth Camera** que acabamos de instalar."
           }
         }
       },
@@ -257,7 +288,9 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **Smooth Camera** behavior.",
-            "fr-FR": "Sélectionnez le comportement **Smooth Camera**."
+            "fr": "Sélectionnez le comportement **Smooth Camera**.",
+            "es": "Selecciona el comportamiento **Smooth Camera**.",
+            "pt": "Selecione o comportamento **Smooth Camera**."
           }
         }
       },
@@ -271,7 +304,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's make it only follow the X axis (Horizontal) by **unchecking** this checkbox."
+            "en": "Let's make it only follow the X axis (Horizontal) by **unchecking** this checkbox.",
+            "fr": "Faisons en sorte qu'il ne suive que l'axe X (Horizontal) en **désélectionnant** cette case.",
+            "es": "Hagamos que solo siga el eje X (Horizontal) **desmarcando** esta casilla.",
+            "pt": "Vamos fazer com que ele siga apenas o eixo X (Horizontal) **desmarcando** esta caixa."
           }
         }
       },
@@ -285,7 +321,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "That's it! The camera will **follow our player horizontally**!"
+            "en": "That's it! The camera will **follow our player horizontally**!",
+            "fr": "C'est tout ! La caméra va **suivre notre joueur horizontalement** !",
+            "es": "¡Eso es todo! ¡La cámara **seguirá a nuestro jugador horizontalmente**!",
+            "pt": "É isso aí! A câmera **seguirá nosso jogador horizontalmente**!"
           }
         }
       }
@@ -299,7 +338,9 @@
         "description": {
           "messageByLocale": {
             "en": "Next we will add the background. Open the **Layers** panel.",
-            "fr-FR": "Ensuite, nous allons ajouter le background, ouvrez le panneau des **calques*."
+            "fr": "Ensuite, nous allons ajouter le background, ouvrez le panneau des **calques**.",
+            "es": "A continuación, agregaremos el fondo. Abre el panel de **Capas**.",
+            "pt": "Em seguida, vamos adicionar o fundo. Abra o painel de **Camadas**."
           }
         },
         "placement": "bottom"
@@ -315,7 +356,9 @@
         "description": {
           "messageByLocale": {
             "en": "Let's **add a new layer** for our background.",
-            "fr-FR": "Créons un **nouveau calque** pour notre fond d'écran."
+            "fr": "Créons un **nouveau calque** pour notre fond.",
+            "es": "Vamos a **agregar una nueva capa** para nuestro fondo.",
+            "pt": "Vamos **adicionar uma nova camada** para nosso fundo."
           }
         },
         "placement": "top"
@@ -330,7 +373,9 @@
         "description": {
           "messageByLocale": {
             "en": "Change the name to **Background**.",
-            "fr-FR": "Changeons son nom en **Background**."
+            "fr": "Changeons son nom en **Background**.",
+            "es": "Cambiar el nombre a **Background**.",
+            "pt": "Mude o nome para **Background**."
           }
         },
         "placement": "top"
@@ -344,7 +389,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's select this layer as the **default layer** to add objects to."
+            "en": "Let's select this layer as the **default layer** to add objects to.",
+            "fr": "Sélectionnons ce calque comme **calque par défaut** pour ajouter des objets.",
+            "es": "Seleccionemos esta capa como la **capa predeterminada** para agregar objetos.",
+            "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos."
           }
         },
         "placement": "left"
@@ -358,7 +406,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's **move** this layer **below the Base Layer**, so that the background elements will appear behind the player.\n\n**Drag the handle below**"
+            "en": "Now let's **move** this layer **below the Base Layer**, so that the background elements will appear behind the player.\n\n**Drag the handle below**",
+            "fr": "Maintenant, **déplaçons** ce calque **en dessous du calque de base**, de sorte que les éléments de fond apparaissent derrière le joueur.\n\n**Glissez le curseur en dessous**",
+            "es": "Ahora, **mueva** esta capa **debajo de la capa base**, para que los elementos de fondo aparezcan detrás del jugador.\n\n**Arrastre el control hacia abajo**",
+            "pt": "Agora, **mova** esta camada **abaixo da camada base**, para que os elementos de fundo apareçam atrás do jogador.\n\n**Arraste o controle para baixo**"
           }
         },
         "placement": "top"
@@ -372,7 +423,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Perfect! Now let's add **$(farBackground)** to our game by dragging it to the center."
+            "en": "Perfect! Now let's add **$(farBackground)** to our game by dragging it to the center.",
+            "fr": "Parfait ! Ajoutons maintenant **$(farBackground)** à notre jeu en le faisant glisser au centre.",
+            "es": "¡Perfecto! Ahora agreguemos **$(farBackground)** a nuestro juego arrastrándolo al centro.",
+            "pt": "Perfeito! Agora vamos adicionar **$(farBackground)** ao nosso jogo, arrastando-o para o centro."
           }
         },
         "placement": "left"
@@ -383,7 +437,9 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr": "J'ai terminé",
+            "es": "Ya terminé",
+            "pt": "Terminei"
           }
         }
       },
@@ -391,7 +447,10 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "See the black square in the middle of the scene? This is the **camera view**.\nIt's the point of view from which the player will see the game.\n\nLet's resize the **$(farBackground)** object so that it covers the whole black square\n\nWhen you're done, click below."
+            "en": "See the **black square** in the middle of the scene? This is the **camera view**. It's the point of view from which the player will see the game.\n\nLet's resize the **$(farBackground)** object so that it covers the whole black square\n\nWhen you're done, click below.",
+            "fr": "Vous voyez le **carré noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nRedimensionnons maintenant l'objet **$(farBackground)** de sorte qu'il couvre tout le carré noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
+            "es": "¿Ves el **cuadrado negro** en medio del escenario? Es la vista de la cámara. Este es el punto de vista desde el que el jugador verá el juego.\n\nAhora vamos a redimensionar el objeto **$(farBackground)** para que cubra todo el cuadrado negro.\n\nCuando hayas terminado, haz clic abajo.",
+            "pt": "Você vê o **quadrado preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o quadrado preto.\n\nQuando terminar, clique abaixo."
           }
         },
         "placement": "top"
@@ -405,7 +464,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's do the same with another background to give a parallax effect! Drag **$(midBackground)** from the menu to the canvas."
+            "en": "Let's do the same with another background to give a parallax effect! Drag **$(midBackground)** from the menu to the canvas.",
+            "fr": "Faisons la même chose avec un autre fond pour donner un effet de parallaxe ! Glissez **$(midBackground)** depuis le menu vers la scène.",
+            "es": "¡Hagamos lo mismo con otro fondo para dar un efecto de paralaje! Arrastre **$(midBackground)** desde el menú a la escena.",
+            "pt": "Vamos fazer o mesmo com outro fundo para dar um efeito de paralaxe! Arraste **$(midBackground)** do menu para a cena."
           }
         },
         "placement": "left"
@@ -416,7 +478,9 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr": "J'ai terminé",
+            "es": "Ya terminé",
+            "pt": "Terminei"
           }
         }
       },
@@ -424,7 +488,10 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Same as for the **$(farBackground)** object, resize the **$(midBackground)** object so that it covers the whole black square.\n\nWhen you're done, click below."
+            "en": "Same as for the $(farBackground) object, resize the **$(midBackground)** object so that it covers the whole black square.\n\nWhen you're done, click below.",
+            "fr": "Comme pour l'objet $(farBackground), redimensionnez l'objet **$(midBackground)** de sorte qu'il couvre tout le carré noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
+            "es": "Al igual que con el objeto $(farBackground), redimensiona el objeto **$(midBackground)** para que cubra todo el cuadrado negro.\n\nCuando haya terminado, haga clic abajo.",
+            "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o quadrado preto.\n\nQuando terminar, clique abaixo."
           }
         },
         "placement": "top"
@@ -438,7 +505,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's make those **Backgrounds move**! Let's **open the Events Sheet** of the $(cameraScene) scene."
+            "en": "Now let's make those **Backgrounds move**! Let's **open the Events Sheet** of the $(cameraScene) scene.",
+            "fr": "Maintenant, faisons en sorte que ces **fonds se déplacent** ! Ouvrons la **feuille d'événements** de la scène $(cameraScene).",
+            "es": "¡Ahora hagamos que esos **fondos se muevan**! Abramos la **hoja de eventos** de la escena $(cameraScene).",
+            "pt": "Agora vamos fazer com que esses **fundos se movam**! Vamos **abrir a Folha de Eventos** da cena $(cameraScene)."
           }
         },
         "placement": "bottom"
@@ -453,7 +523,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add an action to make the first background move. "
+            "en": "Let's **add an action** to make the first background move.",
+            "fr": "**Ajoutons une action** pour faire bouger le premier fond.",
+            "es": "**Agreguemos una acción** para hacer que el primer fondo se mueva.",
+            "pt": "**Adicione uma ação** para fazer o primeiro plano de fundo se mover."
           }
         }
       }
@@ -483,7 +556,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the action **Image X offset**."
+            "en": "Select the action **Image X offset**.",
+            "fr": "Sélectionnez l'action **Décalage X de l'image**.",
+            "es": "Seleccione la acción **Desplazamiento X de la imagen**.",
+            "pt": "Selecione a ação **Deslocamento X da imagem**."
           }
         }
       },
@@ -497,7 +573,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We want the background to follow the camera, so let's select **= (set to)**."
+            "en": "We want the background to follow the camera, so let's select **= (set to)**.",
+            "fr": "Nous voulons que le fond suive la caméra, donc sélectionnons **= (définir à)**.",
+            "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
+            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**."
           }
         },
         "placement": "left"
@@ -512,7 +591,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's make the far background move way **slower** than the camera,\n\n Enter `CameraCenterX()/8`."
+            "en": "Let's make the far background move way **slower** than the camera,\n\n Enter `CameraCenterX()/8`.",
+            "fr": "Faisons en sorte que le fond lointain se déplace beaucoup **plus lentement** que la caméra,\n\n Entrez `CameraCenterX()/8`.",
+            "es": "Hagamos que el fondo lejano se mueva mucho **más lentamente** que la cámara,\n\n Ingrese `CameraCenterX()/8`.",
+            "pt": "Vamos fazer com que o plano de fundo distante se mova muito **mais devagar** que a câmera,\n\n Digite `CameraCenterX()/8`."
           }
         },
         "placement": "top"
@@ -527,7 +609,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Nice! Now let's save this."
+            "en": "Nice! Now let's save this.",
+            "fr": "Bien ! Enregistrons maintenant cela.",
+            "es": "¡Bien! Ahora guardemos esto.",
+            "pt": "Legal! Agora vamos salvar isso."
           }
         },
         "placement": "top"
@@ -541,7 +626,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's create the same action for **$(midBackground)**!"
+            "en": "Let's create the same action for **$(midBackground)**!",
+            "fr": "Créons la même action pour **$(midBackground)** !",
+            "es": "¡Creemos la misma acción para **$(midBackground)**!",
+            "pt": "Vamos criar a mesma ação para **$(midBackground)**!"
           }
         }
       }
@@ -571,7 +659,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the action **Image X offset**."
+            "en": "Select the action **Image X offset**.",
+            "fr": "Sélectionnez l'action **Décalage X de l'image**.",
+            "es": "Seleccione la acción **Desplazamiento X de la imagen**.",
+            "pt": "Selecione a ação **Deslocamento X da imagem**."
           }
         }
       },
@@ -585,7 +676,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We want the background to follow the camera, so let's select **= (set to)**."
+            "en": "We want the background to follow the camera, so let's select **= (set to)**.",
+            "fr": "Nous voulons que le fond suive la caméra, donc sélectionnons **= (définir à)**.",
+            "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
+            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**."
           }
         },
         "placement": "left"
@@ -600,7 +694,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This time let's make this background move **faster**, to give the effect that it is closer to the player,\n\n Enter `CameraCenterX()/3`."
+            "en": "This time let's make this background move **faster**, to give the effect that it is closer to the player,\n\n Enter `CameraCenterX()/3`.",
+            "fr": "Cette fois, faisons en sorte que ce fond se déplace **plus vite**, pour donner l'effet qu'il est plus proche du joueur,\n\n Entrez `CameraCenterX()/3`.",
+            "es": "Esta vez hagamos que este fondo se mueva **más rápido**, para dar el efecto de que está más cerca del jugador,\n\n Ingrese `CameraCenterX()/3`.",
+            "pt": "Desta vez vamos fazer com que este plano de fundo se mova **mais rápido**, para dar o efeito de que está mais perto do jogador,\n\n Digite `CameraCenterX()/3`."
           }
         },
         "placement": "top"
@@ -615,7 +712,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Nice! Let's close this."
+            "en": "Nice! Let's close this.",
+            "fr": "Bien ! Fermons cela.",
+            "es": "¡Bien! Cerrémoslo.",
+            "pt": "Legal! Vamos fechar isso."
           }
         },
         "placement": "top"
