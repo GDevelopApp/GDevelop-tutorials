@@ -54,10 +54,18 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to use make Tiled Sprites move at different speeds",
-          "fr": "- Comment utiliser les Tiled Sprites pour faire bouger des objets à différentes vitesses",
-          "es": "- Cómo usar los Tiled Sprites para hacer que los objetos se muevan a diferentes velocidades",
-          "pt": "- Como usar os Tiled Sprites para fazer com que os objetos se movam a diferentes velocidades"
+          "en": "- How to control the camera",
+          "fr": "- Comment contrôler la caméra",
+          "es": "- Cómo controlar la cámara",
+          "pt": "- Como controlar a câmera"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "- How to make Tiled Sprites move at different speeds",
+          "fr": "- Comment faire bouger des Tiled Sprites à différentes vitesses",
+          "es": "- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
+          "pt": "- Como fazer Tiled Sprites se movem a diferentes velocidades"
         }
       },
       {
