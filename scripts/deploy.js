@@ -66,8 +66,13 @@ axios
       files: [
         // Update the "database"
         'https://resources.gdevelop-app.com/in-app-tutorials-database/inAppTutorialShortHeaders.json',
-        // Upload the tutorials
+        // Update the full tutorials
         'https://resources.gdevelop-app.com/in-app-tutorials/flingGame.json',
+        // Update the guided lessons and their templates.
+        'https://resources.gdevelop-app.com/in-app-tutorials/plinkoMultiplier.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/templates/plinkoMultiplier/game.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/cameraParallax.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/templates/cameraParallax/game.json',
       ],
     },
     {
