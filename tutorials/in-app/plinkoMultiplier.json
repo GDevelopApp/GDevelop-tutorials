@@ -43,26 +43,10 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to create a scene variable",
-          "fr": "- Comment créer une variable de scène",
-          "es": "- Cómo crear una variable de escena",
-          "pt": "- Como criar uma variável de cena"
-        }
-      },
-      {
-        "messageByLocale": {
-          "en": "- How to update a scene variable",
-          "fr": "- Comment mettre à jour une variable de scène",
-          "es": "- Cómo actualizar una variable de escena",
-          "pt": "- Como atualizar uma variável de cena"
-        }
-      },
-      {
-        "messageByLocale": {
-          "en": "- How to use a scene variable in an expression",
-          "fr": "- Comment utiliser une variable de scène dans une expression",
-          "es": "- Cómo usar una variable de escena en una expresión",
-          "pt": "- Como usar uma variável de cena em uma expressão"
+          "en": "- How to create a scene variable\n\n- How to update a scene variable\n\n- How to use a scene variable in an expression",
+          "fr": "- Comment créer une variable de scène\n\n- Comment mettre à jour une variable de scène\n\n- Comment utiliser une variable de scène dans une expression",
+          "es": "- Cómo crear una variable de escena\n\n- Cómo actualizar una variable de escena\n\n- Cómo usar una variable de escena en una expresión",
+          "pt": "- Como criar uma variável de cena\n\n- Como atualizar uma variável de cena\n\n- Como usar uma variável de cena em uma expressão"
         }
       },
       {

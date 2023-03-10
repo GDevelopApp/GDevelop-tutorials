@@ -38,34 +38,10 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to create a layer",
-          "fr": "- Comment créer une calque",
-          "es": "- Cómo crear una capa",
-          "pt": "- Como criar uma camada"
-        }
-      },
-      {
-        "messageByLocale": {
-          "en": "- How to add an extension",
-          "fr": "- Comment ajouter une extension",
-          "es": "- Cómo agregar una extensión",
-          "pt": "- Como adicionar uma extensão"
-        }
-      },
-      {
-        "messageByLocale": {
-          "en": "- How to control the camera",
-          "fr": "- Comment contrôler la caméra",
-          "es": "- Cómo controlar la cámara",
-          "pt": "- Como controlar a câmera"
-        }
-      },
-      {
-        "messageByLocale": {
-          "en": "- How to make Tiled Sprites move at different speeds",
-          "fr": "- Comment faire bouger des Tiled Sprites à différentes vitesses",
-          "es": "- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
-          "pt": "- Como fazer Tiled Sprites se movem a diferentes velocidades"
+          "en": "- How to create a layer\n\n- How to add an extension\n\n- How to control the camera\n\n- How to make Tiled Sprites move at different speeds",
+          "fr": "- Comment créer une calque\n\n- Comment ajouter une extension\n\n- Comment contrôler la caméra\n\n- Comment faire bouger des Tiled Sprites à différentes vitesses",
+          "es": "- Cómo crear una capa\n\n- Cómo agregar una extensión\n\n- Cómo controlar la cámara\n\n- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
+          "pt": "- Como criar uma camada\n\n- Como adicionar uma extensão\n\n- Como controlar a câmera\n\n- Como fazer Tiled Sprites se movem a diferentes velocidades"
         }
       },
       {
@@ -100,8 +76,7 @@
             "es": "Este juego es un simple plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruebalo** con el botón **Previsualizar**.\n\nCuando estés listo, haz clic en este botón para continuar.",
             "pt": "Este jogo é um simples plataforma.\nVocê pode mover o jogador com as setas e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.\n\nQuando estiver pronto, clique neste botão para continuar."
           }
-        },
-        "placement": "right"
+        }
       }
     },
     {
@@ -455,13 +430,16 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "See the **black square** in the middle of the scene? This is the **camera view**. It's the point of view from which the player will see the game.\n\nLet's resize the **$(farBackground)** object so that it covers the whole black square\n\nWhen you're done, click below.",
-            "fr": "Vous voyez le **carré noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nRedimensionnons maintenant l'objet **$(farBackground)** de sorte qu'il couvre tout le carré noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
-            "es": "¿Ves el **cuadrado negro** en medio del escenario? Es la vista de la cámara. Este es el punto de vista desde el que el jugador verá el juego.\n\nAhora vamos a redimensionar el objeto **$(farBackground)** para que cubra todo el cuadrado negro.\n\nCuando hayas terminado, haz clic abajo.",
-            "pt": "Você vê o **quadrado preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o quadrado preto.\n\nQuando terminar, clique abaixo."
+            "en": "See the **black rectangle** in the middle of the scene? This is the **camera view**. It's the point of view from which the player will see the game.\n\nLet's resize the **$(farBackground)** object so that it covers the whole black rectangle\n\nWhen you're done, click below.",
+            "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nRedimensionnons maintenant l'objet **$(farBackground)** de sorte qu'il couvre tout le rectangle noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
+            "es": "¿Ves el **rectángulo negro** en medio del escenario? Es la vista de la cámara. Este es el punto de vista desde el que el jugador verá el juego.\n\nAhora vamos a redimensionar el objeto **$(farBackground)** para que cubra todo el rectángulo negro.\n\nCuando hayas terminado, haz clic abajo.",
+            "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo."
           }
         },
-        "placement": "top"
+        "placement": "top",
+        "image": {
+          "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSI1Ni4yODcgMTc3LjEyMSA0MDIuNTczIDEyNC4zMzkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3QgeD0iNTYuMzY2IiB5PSIyODguNjg1IiB3aWR0aD0iNDAyLjQ5NCIgaGVpZ2h0PSIxMi43NzUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSI1Ni4yODciIHk9IjE3OC4yNSIgd2lkdGg9IjExLjEwMiIgaGVpZ2h0PSIxMTAuMzU5IiBzdHlsZT0ic3Ryb2tlOiByZ2IoMCwgMCwgMCk7IGZpbGw6IHJnYigxMjIsIDk1LCA5NSk7Ii8+CiAgPHJlY3QgeD0iNDQ3LjIzMyIgeT0iMTc4LjM0IiB3aWR0aD0iMTEuMjA5IiBoZWlnaHQ9IjExMC4zNTkiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSIxNDMuNTcyIiB5PSIxNzcuMTIxIiB3aWR0aD0iMjE3LjM2NyIgaGVpZ2h0PSIxMjMuOTM5IiBzdHlsZT0iZmlsbDogcmdiKDIxNiwgMjE2LCAyMTYpOyBzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbC1vcGFjaXR5OiAwOyIvPgogIDxyZWN0IHg9IjE0My45ODQiIHk9IjE3Ny40MDYiIHdpZHRoPSIyMTYuNTIxIiBoZWlnaHQ9IjEyMy41MjUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDQ3LCAyNDIsIDQzKTsiLz4KPC9zdmc+"
+        }
       }
     },
     {
@@ -496,13 +474,16 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Same as for the $(farBackground) object, resize the **$(midBackground)** object so that it covers the whole black square.\n\nWhen you're done, click below.",
-            "fr": "Comme pour l'objet $(farBackground), redimensionnez l'objet **$(midBackground)** de sorte qu'il couvre tout le carré noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
-            "es": "Al igual que con el objeto $(farBackground), redimensiona el objeto **$(midBackground)** para que cubra todo el cuadrado negro.\n\nCuando haya terminado, haga clic abajo.",
-            "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o quadrado preto.\n\nQuando terminar, clique abaixo."
+            "en": "Same as for the $(farBackground) object, resize the **$(midBackground)** object so that it covers the whole black rectangle.\n\nWhen you're done, click below.",
+            "fr": "Comme pour l'objet $(farBackground), redimensionnez l'objet **$(midBackground)** de sorte qu'il couvre tout le rectangle noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
+            "es": "Al igual que con el objeto $(farBackground), redimensiona el objeto **$(midBackground)** para que cubra todo el rectángulo negro.\n\nCuando haya terminado, haga clic abajo.",
+            "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo."
           }
         },
-        "placement": "top"
+        "placement": "top",
+        "image": {
+          "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSI1Ni4yODcgMTc3LjEyMSA0MDIuNTczIDEyNC4zMzkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3QgeD0iNTYuMzY2IiB5PSIyODguNjg1IiB3aWR0aD0iNDAyLjQ5NCIgaGVpZ2h0PSIxMi43NzUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSI1Ni4yODciIHk9IjE3OC4yNSIgd2lkdGg9IjExLjEwMiIgaGVpZ2h0PSIxMTAuMzU5IiBzdHlsZT0ic3Ryb2tlOiByZ2IoMCwgMCwgMCk7IGZpbGw6IHJnYigxMjIsIDk1LCA5NSk7Ii8+CiAgPHJlY3QgeD0iNDQ3LjIzMyIgeT0iMTc4LjM0IiB3aWR0aD0iMTEuMjA5IiBoZWlnaHQ9IjExMC4zNTkiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSIxNDMuNTcyIiB5PSIxNzcuMTIxIiB3aWR0aD0iMjE3LjM2NyIgaGVpZ2h0PSIxMjMuOTM5IiBzdHlsZT0iZmlsbDogcmdiKDIxNiwgMjE2LCAyMTYpOyBzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbC1vcGFjaXR5OiAwOyIvPgogIDxyZWN0IHg9IjE0My45ODQiIHk9IjE3Ny40MDYiIHdpZHRoPSIyMTYuNTIxIiBoZWlnaHQ9IjEyMy41MjUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDQ3LCAyNDIsIDQzKTsiLz4KPC9zdmc+"
+        }
       }
     },
     {
