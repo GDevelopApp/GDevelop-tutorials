@@ -73,6 +73,8 @@ axios
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/plinkoMultiplier/game.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/cameraParallax.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/cameraParallax/game.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/healthBar.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/templates/healthBar/game.json',
       ],
     },
     {
