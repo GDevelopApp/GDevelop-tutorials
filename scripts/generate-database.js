@@ -238,6 +238,10 @@ const processInAppTutorials = async () => {
     generateFolderStructure();
     await updateTemplateFiles();
     await processInAppTutorials();
+    console.info('✅ Asset packs were successfully generated.');
+    console.info(
+      'ℹ️  Make sure you run the command \x1b[1mnpm run check-post-build\x1b[0m'
+    );
   } catch (error) {
     console.error('The script errored', error);
     shell.exit(1);
