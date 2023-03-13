@@ -10,7 +10,7 @@
       "scene": "cameraScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt"],
+  "availableLocales": ["en", "fr", "es", "pt", "th"],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/cameraParallax/game.json",
   "initialProjectData": {
     "cameraScene": "CameraScene",
@@ -25,7 +25,8 @@
           "en": "# You've finished this lesson!",
           "fr": "# Vous avez terminé cette leçon !",
           "es": "# ¡Has terminado esta lección!",
-          "pt": "# Você terminou esta lição!"
+          "pt": "# Você terminou esta lição!",
+          "th": "# คุณเรียนบทเรียนนี้จบแล้ว!"
         }
       },
       {
@@ -33,7 +34,8 @@
           "en": "Well done, in this tutorial you've learned:",
           "fr": "Bien joué, dans ce tutoriel vous avez appris :",
           "es": "¡Bien hecho, en este tutorial aprendiste:",
-          "pt": "Bem feito, neste tutorial você aprendeu:"
+          "pt": "Bem feito, neste tutorial você aprendeu:",
+          "th": "ทำได้ดีเยี่ยม, สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:"
         }
       },
       {
@@ -41,7 +43,8 @@
           "en": "- How to create a layer\n\n- How to add an extension\n\n- How to control the camera\n\n- How to make Tiled Sprites move at different speeds",
           "fr": "- Comment créer une calque\n\n- Comment ajouter une extension\n\n- Comment contrôler la caméra\n\n- Comment faire bouger des Tiled Sprites à différentes vitesses",
           "es": "- Cómo crear una capa\n\n- Cómo agregar una extensión\n\n- Cómo controlar la cámara\n\n- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
-          "pt": "- Como criar uma camada\n\n- Como adicionar uma extensão\n\n- Como controlar a câmera\n\n- Como fazer Tiled Sprites se movem a diferentes velocidades"
+          "pt": "- Como criar uma camada\n\n- Como adicionar uma extensão\n\n- Como controlar a câmera\n\n- Como fazer Tiled Sprites se movem a diferentes velocidades",
+          "th": "- วิธีสร้างเลเยอร์\n\n- วิธีเพิ่ม extension\n\n- วิธีควบคุมกล้อง\n\n- วิธีทำให้ Tiled Sprites เคลื่อนที่ด้วยค่าความเร็วต่างๆ"
         }
       },
       {
@@ -49,7 +52,8 @@
           "en": "You can keep adding stuff to this game or publish it!",
           "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !",
           "es": "¡Puedes seguir agregando cosas a este juego o publicarlo !",
-          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!"
+          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่เลยก็ได้!"
         }
       }
     ]
@@ -67,7 +71,8 @@
             "en": "Let's improve this platformer game by following the character with the camera!",
             "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra !",
             "es": "¡Mejoremos este juego de plataformas siguiendo al personaje con la cámara!",
-            "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera!"
+            "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera!",
+            "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ!"
           }
         },
         "description": {
@@ -75,7 +80,8 @@
             "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**.",
             "fr": "Pour cela, nous allons installer une **extension**.\n\nOuvrez le **Gestionnaire de projet**.",
             "es": "Para esto, instalaremos una **extensión**.\n\nAbre el **Administrador de proyectos**.",
-            "pt": "Para isso, instalaremos uma **extensão**.\n\nAbra o **Gerenciador de projetos**."
+            "pt": "Para isso, instalaremos uma **extensão**.\n\nAbra o **Gerenciador de projetos**.",
+            "th": "โดยเราจะติดตั้ง **extension**.\n\nเปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
         "placement": "right"
@@ -92,7 +98,8 @@
             "en": "Open the **Extensions** tab.",
             "fr": "Ouvrez l'onglet **Extensions**.",
             "es": "Abre la pestaña **Extensiones**.",
-            "pt": "Abra a guia **Extensões**."
+            "pt": "Abra a guia **Extensões**.",
+            "th": "เปิด **แท็บ Extensions**"
           }
         }
       },
@@ -110,7 +117,8 @@
             "en": "Open the extension store",
             "fr": "Ouvrez le **Magasin d'extension**.",
             "es": "Abre la **tienda de extensiones**",
-            "pt": "Abra a **loja de extensões**"
+            "pt": "Abra a **loja de extensões**",
+            "th": "เปิด **ร้านค้า extension**"
           }
         }
       },
@@ -127,7 +135,8 @@
             "en": "Search for the **smooth camera** extension.",
             "fr": "Cherchez l'extension **smooth camera**.",
             "es": "Busca la extensión **smooth camera**.",
-            "pt": "Procure pela extensão **smooth camera**."
+            "pt": "Procure pela extensão **smooth camera**.",
+            "th": "ค้นหา extension **smooth camera**"
           }
         }
       },
@@ -145,7 +154,8 @@
             "en": "Click on the extension **Smooth Camera**.",
             "fr": "Cliquez sur l'extension **Smooth Camera**.",
             "es": "Haz clic en la extensión **Smooth Camera**.",
-            "pt": "Clique na extensão **Smooth Camera**."
+            "pt": "Clique na extensão **Smooth Camera**.",
+            "th": "คลิกที่ extension **Smooth Camera**"
           }
         }
       },
@@ -162,7 +172,8 @@
             "en": "Install the extension in your project.",
             "fr": "Installez l'extension au projet.",
             "es": "Instala la extensión en tu proyecto.",
-            "pt": "Instale a extensão no seu projeto."
+            "pt": "Instale a extensão no seu projeto.",
+            "th": "ติดตั้ง extension ในโปรเจกต์ของคุณ"
           }
         },
         "placement": "left"
@@ -180,7 +191,8 @@
             "en": "Let's close this dialog.",
             "fr": "Fermons cette fenêtre.",
             "es": "Cerramos esta ventana.",
-            "pt": "Vamos fechar esta janela."
+            "pt": "Vamos fechar esta janela.",
+            "th": "ปิดหน้าต่างนี้"
           }
         }
       }
@@ -197,7 +209,8 @@
             "en": "Now let's add it to our player.\n\nRight click on **$(player)** or use the 3-dots menu and select **Edit behaviors**.",
             "fr": "Ajoutons maintenant l'extension à notre joueur.\n\nCliquez droit sur **$(player)** ou utilisez le menu à 3 points et sélectionnez **Modifier les comportements**.",
             "es": "Añadamos ahora la extensión a nuestro jugador.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
-            "pt": "Agora vamos adicioná-lo ao nosso jogador.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**."
+            "pt": "Agora vamos adicioná-lo ao nosso jogador.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
+            "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nคลิกขวาที่ **$(player)** หรือกดเมนู 3 จุด แล้วเลือก **แก้ไขพฤติกรรม**"
           }
         }
       }
@@ -213,7 +226,8 @@
             "en": "See the **behaviors** of the **object** here.",
             "fr": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
             "es": "Los **comportamientos** del **objeto** se encuentran en esta pestaña.",
-            "pt": "Os **comportamentos** do **objeto** estão nesta guia."
+            "pt": "Os **comportamentos** do **objeto** estão nesta guia.",
+            "th": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่"
           }
         },
         "placement": "bottom"
@@ -232,7 +246,8 @@
             "en": "Let's add the **Smooth Camera** behavior we just installed.",
             "fr": "Ajoutons le comportement **Smooth Camera** que nous venons d'installer.",
             "es": "Añadamos el comportamiento **Smooth Camera** que acabamos de instalar.",
-            "pt": "Vamos adicionar o comportamento **Smooth Camera** que acabamos de instalar."
+            "pt": "Vamos adicionar o comportamento **Smooth Camera** que acabamos de instalar.",
+            "th": "เพิ่มพฤติกรรม **Smooth Camera** ที่เพิ่งได้ติดตั้ง"
           }
         }
       },
@@ -249,7 +264,8 @@
             "en": "Select the **Smooth Camera** behavior.",
             "fr": "Sélectionnez le comportement **Smooth Camera**.",
             "es": "Selecciona el comportamiento **Smooth Camera**.",
-            "pt": "Selecione o comportamento **Smooth Camera**."
+            "pt": "Selecione o comportamento **Smooth Camera**.",
+            "th": "เลือกพฤติกรรม **Smooth Camera**"
           }
         }
       },
@@ -266,7 +282,8 @@
             "en": "Let's make it only follow the X axis (Horizontal) by **unchecking** this checkbox.",
             "fr": "Faisons en sorte qu'il ne suive que l'axe X (Horizontal) en **désélectionnant** cette case.",
             "es": "Hagamos que solo siga el eje X (Horizontal) **desmarcando** esta casilla.",
-            "pt": "Vamos fazer com que ele siga apenas o eixo X (Horizontal) **desmarcando** esta caixa."
+            "pt": "Vamos fazer com que ele siga apenas o eixo X (Horizontal) **desmarcando** esta caixa.",
+            "th": "ทำให้กล้องติดตามเฉพาะแกน X (แนวนอน) เท่านั้น โดย **เอาเครื่องหมายเช็คออก** จาก checkbox นี้"
           }
         }
       },
@@ -283,7 +300,8 @@
             "en": "That's it! The camera will **follow our player horizontally**!",
             "fr": "C'est tout ! La caméra va **suivre notre joueur horizontalement** !",
             "es": "¡Eso es todo! ¡La cámara **seguirá a nuestro jugador horizontalmente**!",
-            "pt": "É isso aí! A câmera **seguirá nosso jogador horizontalmente**!"
+            "pt": "É isso aí! A câmera **seguirá nosso jogador horizontalmente**!",
+            "th": "เรียบร้อยแล้ว! กล้องจะ **ติดตามผู้เล่นในแนวนอน**!"
           }
         }
       }
@@ -299,7 +317,8 @@
             "en": "Next we will add the background. Open the **Layers** panel.",
             "fr": "Ensuite, nous allons ajouter le background, ouvrez le panneau des **calques**.",
             "es": "A continuación, agregaremos el fondo. Abre el panel de **Capas**.",
-            "pt": "Em seguida, vamos adicionar o fundo. Abra o painel de **Camadas**."
+            "pt": "Em seguida, vamos adicionar o fundo. Abra o painel de **Camadas**.",
+            "th": "ต่อไปเราจะเพิ่มพื้นหลัง เปิดแผงควบคุม **Layers**"
           }
         },
         "placement": "bottom"
@@ -317,7 +336,8 @@
             "en": "Let's **add a new layer** for our background.",
             "fr": "Créons un **nouveau calque** pour notre fond.",
             "es": "Vamos a **agregar una nueva capa** para nuestro fondo.",
-            "pt": "Vamos **adicionar uma nova camada** para nosso fundo."
+            "pt": "Vamos **adicionar uma nova camada** para nosso fundo.",
+            "th": "**เพิ่มเลเยอร์ใหม่** สำหรับพื้นหลัง"
           }
         },
         "placement": "top"
@@ -334,7 +354,8 @@
             "en": "Change the name to **Background**.",
             "fr": "Changeons son nom en **Background**.",
             "es": "Cambiar el nombre a **Background**.",
-            "pt": "Mude o nome para **Background**."
+            "pt": "Mude o nome para **Background**.",
+            "th": "เปลี่ยนชื่อเป็น **Background**"
           }
         },
         "placement": "top"
@@ -351,7 +372,8 @@
             "en": "Let's select this layer as the **default layer** to add objects to.",
             "fr": "Sélectionnons ce calque comme **calque par défaut** pour ajouter des objets.",
             "es": "Seleccionemos esta capa como la **capa predeterminada** para agregar objetos.",
-            "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos."
+            "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos.",
+            "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป"
           }
         },
         "placement": "left"
@@ -368,7 +390,8 @@
             "en": "Now let's **move** this layer **below the Base Layer**, so that the background elements will appear behind the player.\n\n**Drag the handle below**",
             "fr": "Maintenant, **déplaçons** ce calque **en dessous du calque de base**, de sorte que les éléments de fond apparaissent derrière le joueur.\n\n**Glissez le curseur en dessous**",
             "es": "Ahora, **mueva** esta capa **debajo de la capa base**, para que los elementos de fondo aparezcan detrás del jugador.\n\n**Arrastre el control hacia abajo**",
-            "pt": "Agora, **mova** esta camada **abaixo da camada base**, para que os elementos de fundo apareçam atrás do jogador.\n\n**Arraste o controle para baixo**"
+            "pt": "Agora, **mova** esta camada **abaixo da camada base**, para que os elementos de fundo apareçam atrás do jogador.\n\n**Arraste o controle para baixo**",
+            "th": "ทีนี้ **ย้าย** เลเยอร์นี้ไป **ใต้เลเยอร์หลัก** เพื่อให้องค์ประกอบในพื้นหลังปรากฏอยู่ข้างหลังผู้เล่น\n\n**ลากตัวควบคุมลง**"
           }
         },
         "placement": "top"
@@ -385,7 +408,8 @@
             "en": "Perfect! Now let's add **$(farBackground)** to our game by dragging it to the center.",
             "fr": "Parfait ! Ajoutons maintenant **$(farBackground)** à notre jeu en le faisant glisser au centre.",
             "es": "¡Perfecto! Ahora agreguemos **$(farBackground)** a nuestro juego arrastrándolo al centro.",
-            "pt": "Perfeito! Agora vamos adicionar **$(farBackground)** ao nosso jogo, arrastando-o para o centro."
+            "pt": "Perfeito! Agora vamos adicionar **$(farBackground)** ao nosso jogo, arrastando-o para o centro.",
+            "th": "สมบูรณ์แบบ! ทีนี้เพิ่ม **$(farBackground)** ไปยังเกมของเราโดยลากมันไปวางตรงกลาง"
           }
         },
         "placement": "left"
@@ -398,7 +422,8 @@
             "en": "I'm done",
             "fr": "J'ai terminé",
             "es": "Ya terminé",
-            "pt": "Terminei"
+            "pt": "Terminei",
+            "th": "ฉันทำเสร็จแล้ว"
           }
         }
       },
@@ -409,7 +434,8 @@
             "en": "See the **black rectangle** in the middle of the scene? This is the **camera view**. It's the point of view from which the player will see the game.\n\nLet's resize the **$(farBackground)** object so that it covers the whole black rectangle\n\nWhen you're done, click below.",
             "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nRedimensionnons maintenant l'objet **$(farBackground)** de sorte qu'il couvre tout le rectangle noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
             "es": "¿Ves el **rectángulo negro** en medio del escenario? Es la vista de la cámara. Este es el punto de vista desde el que el jugador verá el juego.\n\nAhora vamos a redimensionar el objeto **$(farBackground)** para que cubra todo el rectángulo negro.\n\nCuando hayas terminado, haz clic abajo.",
-            "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo."
+            "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo.",
+            "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nปรับขนาดวัตถุ **$(farBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง"
           }
         },
         "placement": "top",
@@ -429,7 +455,8 @@
             "en": "Let's do the same with another background to give a parallax effect! Drag **$(midBackground)** from the menu to the canvas.",
             "fr": "Faisons la même chose avec un autre fond pour donner un effet de parallaxe ! Glissez **$(midBackground)** depuis le menu vers la scène.",
             "es": "¡Hagamos lo mismo con otro fondo para dar un efecto de paralaje! Arrastre **$(midBackground)** desde el menú a la escena.",
-            "pt": "Vamos fazer o mesmo com outro fundo para dar um efeito de paralaxe! Arraste **$(midBackground)** do menu para a cena."
+            "pt": "Vamos fazer o mesmo com outro fundo para dar um efeito de paralaxe! Arraste **$(midBackground)** do menu para a cena.",
+            "th": "ทำอย่างเดียวกันกับพื้นหลังอื่นจะทำให้เกิดเอฟเฟกต์พารัลแลกซ์! ลาก **$(midBackground)** จากเมนูไปยัง scene"
           }
         },
         "placement": "left"
@@ -442,7 +469,8 @@
             "en": "I'm done",
             "fr": "J'ai terminé",
             "es": "Ya terminé",
-            "pt": "Terminei"
+            "pt": "Terminei",
+            "th": "ฉันทำเสร็จแล้ว"
           }
         }
       },
@@ -453,7 +481,8 @@
             "en": "Same as for the $(farBackground) object, resize the **$(midBackground)** object so that it covers the whole black rectangle.\n\nWhen you're done, click below.",
             "fr": "Comme pour l'objet $(farBackground), redimensionnez l'objet **$(midBackground)** de sorte qu'il couvre tout le rectangle noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
             "es": "Al igual que con el objeto $(farBackground), redimensiona el objeto **$(midBackground)** para que cubra todo el rectángulo negro.\n\nCuando haya terminado, haga clic abajo.",
-            "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo."
+            "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo.",
+            "th": "เช่นเดียวกันกับวัตถุ $(farBackground), ปรับขนาดวัตถุ **$(midBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง"
           }
         },
         "placement": "top",
@@ -473,7 +502,8 @@
             "en": "Now let's make those **Backgrounds move**! Let's **open the Events Sheet** of the $(cameraScene) scene.",
             "fr": "Maintenant, faisons en sorte que ces **fonds se déplacent** ! Ouvrons la **feuille d'événements** de la scène $(cameraScene).",
             "es": "¡Ahora hagamos que esos **fondos se muevan**! Abramos la **hoja de eventos** de la escena $(cameraScene).",
-            "pt": "Agora vamos fazer com que esses **fundos se movam**! Vamos **abrir a Folha de Eventos** da cena $(cameraScene)."
+            "pt": "Agora vamos fazer com que esses **fundos se movam**! Vamos **abrir a Folha de Eventos** da cena $(cameraScene).",
+            "th": "ทีนี้มาทำให้ **พึ้นหลังเคลื่อนที่** กันเถอะ! โดย **เปิดชี้ทอีเวนต์** ของ scene $(cameraScene)"
           }
         },
         "placement": "bottom"
@@ -491,7 +521,8 @@
             "en": "Let's **add an action** to make the first background move.",
             "fr": "**Ajoutons une action** pour faire bouger le premier fond.",
             "es": "**Agreguemos una acción** para hacer que el primer fondo se mueva.",
-            "pt": "**Adicione uma ação** para fazer o primeiro plano de fundo se mover."
+            "pt": "**Adicione uma ação** para fazer o primeiro plano de fundo se mover.",
+            "th": "**เพิ่มการกระทำ** เพื่อทำให้พื้นหลังแรกเคลื่อนที่"
           }
         }
       }
@@ -507,7 +538,8 @@
             "en": "Select **$(farBackground)**.",
             "fr": "Sélectionnez **$(farBackground)**.",
             "es": "Seleccione **$(farBackground)**.",
-            "pt": "Selecione **$(farBackground)**."
+            "pt": "Selecione **$(farBackground)**.",
+            "th": "เลือก **$(farBackground)**"
           }
         }
       },
@@ -524,7 +556,8 @@
             "en": "Select the action **Image X offset**.",
             "fr": "Sélectionnez l'action **Décalage X de l'image**.",
             "es": "Seleccione la acción **Desplazamiento X de la imagen**.",
-            "pt": "Selecione a ação **Deslocamento X da imagem**."
+            "pt": "Selecione a ação **Deslocamento X da imagem**.",
+            "th": "เลือกการกระทำ **Image X ออฟเซ็ท**"
           }
         }
       },
@@ -541,7 +574,8 @@
             "en": "We want the background to follow the camera, so let's select **= (set to)**.",
             "fr": "Nous voulons que le fond suive la caméra, donc sélectionnons **= (définir à)**.",
             "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
-            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**."
+            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**.",
+            "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**"
           }
         },
         "placement": "left"
@@ -559,7 +593,8 @@
             "en": "Let's make the far background move way **slower** than the camera,\n\n Enter `CameraCenterX()/8`.",
             "fr": "Faisons en sorte que le fond lointain se déplace beaucoup **plus lentement** que la caméra,\n\n Entrez `CameraCenterX()/8`.",
             "es": "Hagamos que el fondo lejano se mueva mucho **más lentamente** que la cámara,\n\n Ingrese `CameraCenterX()/8`.",
-            "pt": "Vamos fazer com que o plano de fundo distante se mova muito **mais devagar** que a câmera,\n\n Digite `CameraCenterX()/8`."
+            "pt": "Vamos fazer com que o plano de fundo distante se mova muito **mais devagar** que a câmera,\n\n Digite `CameraCenterX()/8`.",
+            "th": "ทำให้พื้นหลังเคลื่อนที่ **ช้ากว่า** กล้อง\n\n ใส่ `CameraCenterX()/8`"
           }
         },
         "placement": "top"
@@ -577,7 +612,8 @@
             "en": "Nice! Now let's save this.",
             "fr": "Bien ! Enregistrons maintenant cela.",
             "es": "¡Bien! Ahora guardemos esto.",
-            "pt": "Legal! Agora vamos salvar isso."
+            "pt": "Legal! Agora vamos salvar isso.",
+            "th": "ดีมาก! บันทึกกันเถอะ"
           }
         },
         "placement": "top"
@@ -594,7 +630,8 @@
             "en": "Let's create the same action for **$(midBackground)**!",
             "fr": "Créons la même action pour **$(midBackground)** !",
             "es": "¡Creemos la misma acción para **$(midBackground)**!",
-            "pt": "Vamos criar a mesma ação para **$(midBackground)**!"
+            "pt": "Vamos criar a mesma ação para **$(midBackground)**!",
+            "th": "สร้างการกระทำเหมือนเดิมสำหรับ **$(midBackground)**!"
           }
         }
       }
@@ -610,7 +647,8 @@
             "en": "Select **$(midBackground)**.",
             "fr": "Sélectionnez **$(midBackground)**.",
             "es": "Seleccione **$(midBackground)**.",
-            "pt": "Selecione **$(midBackground)**."
+            "pt": "Selecione **$(midBackground)**.",
+            "th": "เลือก **$(midBackground)**"
           }
         }
       },
@@ -627,7 +665,8 @@
             "en": "Select the action **Image X offset**.",
             "fr": "Sélectionnez l'action **Décalage X de l'image**.",
             "es": "Seleccione la acción **Desplazamiento X de la imagen**.",
-            "pt": "Selecione a ação **Deslocamento X da imagem**."
+            "pt": "Selecione a ação **Deslocamento X da imagem**.",
+            "th": "เลือกการกระทำ **Image X ออฟเซ็ท**"
           }
         }
       },
@@ -644,7 +683,8 @@
             "en": "We want the background to follow the camera, so let's select **= (set to)**.",
             "fr": "Nous voulons que le fond suive la caméra, donc sélectionnons **= (définir à)**.",
             "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
-            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**."
+            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**.",
+            "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**"
           }
         },
         "placement": "left"
@@ -662,7 +702,8 @@
             "en": "This time let's make this background move **faster**, to give the effect that it is closer to the player,\n\n Enter `CameraCenterX()/3`.",
             "fr": "Cette fois, faisons en sorte que ce fond se déplace **plus vite**, pour donner l'effet qu'il est plus proche du joueur,\n\n Entrez `CameraCenterX()/3`.",
             "es": "Esta vez hagamos que este fondo se mueva **más rápido**, para dar el efecto de que está más cerca del jugador,\n\n Ingrese `CameraCenterX()/3`.",
-            "pt": "Desta vez vamos fazer com que este plano de fundo se mova **mais rápido**, para dar o efeito de que está mais perto do jogador,\n\n Digite `CameraCenterX()/3`."
+            "pt": "Desta vez vamos fazer com que este plano de fundo se mova **mais rápido**, para dar o efeito de que está mais perto do jogador,\n\n Digite `CameraCenterX()/3`.",
+            "th": "ทำให้พื้นหลังเคลื่อนที่ **เร็วกว่า** เพื่อทำเอฟเฟกต์ให้ดูเหมือนกับว่าอยู่ใกล้กับผู้เล่น\n\n ใส่ `CameraCenterX()/3`"
           }
         },
         "placement": "top"
@@ -680,7 +721,8 @@
             "en": "Nice! Let's close this.",
             "fr": "Bien ! Fermons cela.",
             "es": "¡Bien! Cerrémoslo.",
-            "pt": "Legal! Vamos fechar isso."
+            "pt": "Legal! Vamos fechar isso.",
+            "th": "ดีมาก! มาปิดกันเถอะ"
           }
         },
         "placement": "top"
@@ -697,7 +739,8 @@
             "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
             "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
-            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**."
+            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "th": "เอาล่ะ เสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**"
           }
         },
         "placement": "bottom"
