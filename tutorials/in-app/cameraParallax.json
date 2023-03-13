@@ -57,30 +57,6 @@
   "flow": [
     {
       "id": "Start",
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Let's go!",
-            "fr": "C'est parti !",
-            "es": "¡Vamos!",
-            "pt": "Vamos!"
-          }
-        }
-      },
-      "tooltip": {
-        "standalone": true,
-        "description": {
-          "messageByLocale": {
-            "en": "This game is a simple platformer.\nYou can move the player with the arrow keys and jump with space.\n\n**Test it out** with the **preview** button.\n\nWhen you're ready, click on this button to continue.",
-            "fr": "Ce jeu est un simple jeu de plateforme.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.\n\n**Testez-le** avec le bouton **Aperçu**.\n\nQuand vous êtes prêt, cliquez sur ce bouton pour continuer.",
-            "es": "Este juego es un simple plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruebalo** con el botón **Previsualizar**.\n\nCuando estés listo, haz clic en este botón para continuar.",
-            "pt": "Este jogo é um simples plataforma.\nVocê pode mover o jogador com as setas e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.\n\nQuando estiver pronto, clique neste botão para continuar."
-          }
-        }
-      }
-    },
-    {
-      "id": "OpenPropertiesManagerForExtension",
       "elementToHighlightId": "#main-toolbar-project-manager-button",
       "nextStepTrigger": {
         "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-extensions"
@@ -88,10 +64,10 @@
       "tooltip": {
         "title": {
           "messageByLocale": {
-            "en": "First, let's improve this game by adding a nice camera effect when the character moves.",
-            "fr": "Tout d'abord, améliorons ce jeu en ajoutant un joli effet de caméra quand le personnage se déplace.",
-            "es": "Primero, mejoremos este juego agregando un bonito efecto de cámara cuando el personaje se mueve.",
-            "pt": "Primeiro, vamos melhorar este jogo adicionando um efeito de câmera legal quando o personagem se move."
+            "en": "Let's improve this platformer game by following the character with the camera!",
+            "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra !",
+            "es": "¡Mejoremos este juego de plataformas siguiendo al personaje con la cámara!",
+            "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera!"
           }
         },
         "description": {
