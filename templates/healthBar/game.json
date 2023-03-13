@@ -542,8 +542,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "HealthBarScene",
-      "name": "HealthBarScene",
+      "mangledName": "Level",
+      "name": "Level",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -2837,7 +2837,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",

@@ -3,11 +3,11 @@
   "editorSwitches": {
     "Start": {
       "editor": "Scene",
-      "scene": "cameraScene"
+      "scene": "Level"
     },
     "SwitchToEvents1": {
       "editor": "EventsSheet",
-      "scene": "cameraScene"
+      "scene": "Level"
     }
   },
   "availableLocales": [
@@ -29,13 +29,13 @@
       {
         "messageByLocale": {
           "en": "Well done, in this tutorial you've learned:",
-          "fr": "Bien joué, dans ce tutoriel vous avez appris :"
+          "fr": "Bien joué, voici ce que vous avez appris :"
         }
       },
       {
         "messageByLocale": {
-          "en": "- How to create a layer\n\n- How to add an extension\n\n- How to control the camera\n\n- How to make Tiled Sprites move at different speeds",
-          "fr": "- Comment créer une calque\n\n- Comment ajouter une extension\n\n- Comment contrôler la caméra\n\n- Comment faire bouger des Tiled Sprites à différentes vitesses"
+          "en": "- How to create a layer\n\n- How to add a prefab to your scene",
+          "fr": "- Comment créer un calque\n\n- Comment ajouter un objet préfabriqué à votre scène"
         }
       },
       {
@@ -67,120 +67,7 @@
         }
       }
     },
-    {
-      "id": "OpenPropertiesManagerForExtension",
-      "elementToHighlightId": "#main-toolbar-project-manager-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-extensions"
-      },
-      "tooltip": {
-        "title": {
-          "messageByLocale": {
-            "en": "First, let's improve this game by adding a nice camera effect when the character moves.",
-            "fr": "Tout d'abord, améliorons ce jeu en ajoutant un joli effet de caméra quand le personnage se déplace."
-          }
-        },
-        "description": {
-          "messageByLocale": {
-            "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**.",
-            "fr": "Pour cela, nous allons installer une **extension**.\n\nOuvrez le **Gestionnaire de projet**."
-          }
-        },
-        "placement": "right"
-      }
-    },
-    {
-      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-extensions",
-      "nextStepTrigger": {
-        "presenceOfElement": "#project-manager-extension-search-or-create"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open the **Extensions** tab.",
-            "fr": "Ouvrez l'onglet **Extensions**."
-          }
-        }
-      },
-      "isOnClosableDialog": true,
-      "skippable": true
-    },
-    {
-      "elementToHighlightId": "#project-manager-extension-search-or-create",
-      "nextStepTrigger": {
-        "presenceOfElement": "#extension-search-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open the extension store",
-            "fr": "Ouvrez le **Magasin d'extension**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#extension-search-bar",
-      "nextStepTrigger": {
-        "presenceOfElement": "#extension-list-item-SmoothCamera"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Search for the **smooth camera** extension.",
-            "fr": "Cherchez l'extension **smooth camera**."
-          }
-        }
-      },
-      "isOnClosableDialog": true,
-      "skippable": true
-    },
-    {
-      "elementToHighlightId": "#extension-list-item-SmoothCamera",
-      "nextStepTrigger": {
-        "presenceOfElement": "#install-extension-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Click on the extension **Smooth Camera**.",
-            "fr": "Cliquez sur l'extension **Smooth Camera**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#install-extension-dialog #install-extension-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#install-extension-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Install the extension in your project.",
-            "fr": "Installez l'extension au projet."
-          }
-        },
-        "placement": "left"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#extension-search-dialog #close-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#extension-search-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's close this dialog.",
-            "fr": "Fermons cette fenêtre."
-          }
-        }
-      }
-    },
+
     {
       "elementToHighlightId": "objectInObjectsList:player",
       "nextStepTrigger": {
