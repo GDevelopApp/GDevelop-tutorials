@@ -39,7 +39,7 @@
       {
         "messageByLocale": {
           "en": "- How to create a layer\n\n- How to add an extension\n\n- How to control the camera\n\n- How to make Tiled Sprites move at different speeds",
-          "fr": "- Comment créer une calque\n\n- Comment ajouter une extension\n\n- Comment contrôler la caméra\n\n- Comment faire bouger des Tiled Sprites à différentes vitesses",
+          "fr": "- Comment créer un calque\n\n- Comment ajouter une extension\n\n- Comment contrôler la caméra\n\n- Comment faire bouger des Tiled Sprites à différentes vitesses",
           "es": "- Cómo crear una capa\n\n- Cómo agregar una extensión\n\n- Cómo controlar la cámara\n\n- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
           "pt": "- Como criar uma camada\n\n- Como adicionar uma extensão\n\n- Como controlar a câmera\n\n- Como fazer Tiled Sprites se movem a diferentes velocidades"
         }
