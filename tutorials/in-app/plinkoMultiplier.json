@@ -14,7 +14,7 @@
       "scene": "gameScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt"],
+  "availableLocales": ["en", "fr", "es", "pt", "th"],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/plinkoMultiplier/game.json",
   "initialProjectData": {
     "gameScene": "GameScene",
@@ -30,7 +30,8 @@
           "en": "# You've finished adding a score multiplier to your game!",
           "fr": "# Vous avez terminé d'ajouter un multiplicateur de score à votre jeu !",
           "es": "# ¡Has terminado de agregar un multiplicador de puntuación a tu juego!",
-          "pt": "# Você terminou de adicionar um multiplicador de pontuação ao seu jogo!"
+          "pt": "# Você terminou de adicionar um multiplicador de pontuação ao seu jogo!",
+          "th": "คุณได้เพิ่ม score multiplier ในเกมของคุณสำเร็จแล้ว!"
         }
       },
       {
@@ -38,7 +39,8 @@
           "en": "Well done, in this tutorial you've learned:",
           "fr": "Bien joué, dans ce tutoriel vous avez appris :",
           "es": "¡Bien hecho, en este tutorial aprendiste:",
-          "pt": "Bem feito, neste tutorial você aprendeu:"
+          "pt": "Bem feito, neste tutorial você aprendeu:",
+          "th": "ทำได้ดีเยี่ยม สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:"
         }
       },
       {
@@ -46,7 +48,8 @@
           "en": "- How to create a scene variable\n\n- How to update a scene variable\n\n- How to use a scene variable in an expression",
           "fr": "- Comment créer une variable de scène\n\n- Comment mettre à jour une variable de scène\n\n- Comment utiliser une variable de scène dans une expression",
           "es": "- Cómo crear una variable de escena\n\n- Cómo actualizar una variable de escena\n\n- Cómo usar una variable de escena en una expresión",
-          "pt": "- Como criar uma variável de cena\n\n- Como atualizar uma variável de cena\n\n- Como usar uma variável de cena em uma expressão"
+          "pt": "- Como criar uma variável de cena\n\n- Como atualizar uma variável de cena\n\n- Como usar uma variável de cena em uma expressão",
+          "th": "- วิธีสร้างตัวแปรของ scene\n\n- วิธีอัพเดทตัวแปรของ scene\n\n- วิธีใช้ตัวแปรของ scene ใน expression"
         }
       },
       {
@@ -54,7 +57,8 @@
           "en": "You can keep adding stuff to this game or publish it and share it with your friends to see who gets the highest score!",
           "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier et le partager avec vos amis pour voir qui obtient le meilleur score !",
           "es": "¡Puedes seguir agregando cosas a este juego o publicarlo y compartirlo con tus amigos para ver quién obtiene la puntuación más alta!",
-          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo e compartilhá-lo com seus amigos para ver quem obtém a pontuação mais alta!"
+          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo e compartilhá-lo com seus amigos para ver quem obtém a pontuação mais alta!",
+          "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่กับเพื่อนๆของคุณเลยก็ได้ แล้วมาดูกัน ใครจะทำคะแนนได้สูงที่สุด!"
         }
       }
     ]
@@ -72,7 +76,8 @@
             "en": "This game uses a leaderboard! let's **login** so we can set it up automatically!",
             "fr": "Ce jeu utilise un classement ! **Connectez-vous** pour que nous puissions le configurer automatiquement !",
             "es": "¡Este juego usa una tabla de clasificación! ¡Vamos a **iniciar sesión** para que podamos configurarlo automáticamente!",
-            "pt": "Este jogo usa uma tabela de classificação! Vamos **entrar** para que possamos configurá-lo automaticamente!"
+            "pt": "Este jogo usa uma tabela de classificação! Vamos **entrar** para que possamos configurá-lo automaticamente!",
+            "th": "เกมนี้มี leaderboard! **เข้าสู่ระบบ** เพื่อตั้งให้เป็นอัตโนมัติกันเถอะ!"
           }
         },
         "placement": "right"
@@ -90,7 +95,8 @@
             "en": "First, let's **create a leaderboard** as this game will need it. You're lucky, everything will be automatically set up for you!",
             "fr": "Tout d'abord, créons un **classement** car ce jeu en aura besoin. Vous avez de la chance, tout sera automatiquement configuré pour vous !",
             "es": "Primero, **creemos una tabla de clasificación** porque este juego la necesitará. ¡Tienes suerte, todo se configurará automáticamente para ti!",
-            "pt": "Primeiro, vamos **criar uma tabela de classificação** porque este jogo precisará dela. Você tem sorte, tudo será configurado automaticamente para você!"
+            "pt": "Primeiro, vamos **criar uma tabela de classificação** porque este jogo precisará dela. Você tem sorte, tudo será configurado automaticamente para você!",
+            "th": "ขั้นแรก **สร้าง leaderboard** ให้เกมนี้เพราะเป็นเกมที่จำเป็นต้องมี เราจะติดตั้งให้คุณอัตโนมัติทั้งหมดเอง คุณโชคดีจริง!"
           }
         },
         "placement": "right"
@@ -107,7 +113,8 @@
             "en": "This game is called Plinko! You let a ball fall inside a maze and gather points depending on how many pegs you hit. Click on the **Preview** button to test it out.",
             "fr": "Ce jeu s'appelle Plinko ! Vous laissez une balle tomber dans un labyrinthe et gagnez des points en fonction du nombre de plots que vous touchez. Cliquez sur le bouton **Aperçu** pour le tester.",
             "es": "¡Este juego se llama Plinko! Deja caer una bola en un laberinto y gana puntos dependiendo de cuántos clavos golpees. Haz clic en el botón **Vista previa** para probarlo.",
-            "pt": "Este jogo se chama Plinko! Você deixa uma bola cair em um labirinto e ganha pontos dependendo de quantos pinos você acerta. Clique no botão **Visualizar** para testá-lo."
+            "pt": "Este jogo se chama Plinko! Você deixa uma bola cair em um labirinto e ganha pontos dependendo de quantos pinos você acerta. Clique no botão **Visualizar** para testá-lo.",
+            "th": "เกมนี้มีชื่อว่า Plinko! คุณปล่อยลูกบอลหล่นลงมาในเขาวงกตและทำคะแนนได้เมื่อลูกบอลชนกับเป๊ก กดปุ่ม **ดูตัวอย่าง** เพื่อทดลองเล่นเกม"
           }
         },
         "placement": "bottom"
@@ -125,7 +132,8 @@
             "en": "Let's add a few **$(multiplier)** to spice up the game! Drag 3 from the menu to the canvas and place them so they can be collected by the ball through the maze.",
             "fr": "Ajoutons quelques **$(multiplier)** pour pimenter le jeu ! Faites glisser 3 depuis le menu sur le canvas et placez-les de sorte qu'ils puissent être collectés par la balle à travers le labyrinthe.",
             "es": "¡Agreguemos algunos **$(multiplier)** para darle un poco de sabor al juego! Arrastra 3 desde el menú al lienzo y colócalos de manera que puedan ser recogidos por la bola a través del laberinto.",
-            "pt": "Vamos adicionar alguns **$(multiplier)** para dar um pouco de sabor ao jogo! Arraste 3 do menu para a tela e coloque-os de modo que possam ser coletados pela bola através do labirinto."
+            "pt": "Vamos adicionar alguns **$(multiplier)** para dar um pouco de sabor ao jogo! Arraste 3 do menu para a tela e coloque-os de modo que possam ser coletados pela bola através do labirinto.",
+            "th": "มาเพิ่ม **$(multiplier)** เพื่อทำให้เกมสนุกขึ้นกันเถอะ! ลาก 3 ชิ้น จากเมนูไปใส่ในแคนวาส และจัดวางให้พวกมันสามารถถูกลูกบอลเก็บไปได้ขณะที่กำลังผ่านเขาวงกต"
           }
         },
         "placement": "top"
@@ -142,7 +150,8 @@
             "en": "Once you're done, let's position a **$(scoreMultiplier)** to display the current multiplier score. Let's place it just below the score!",
             "fr": "Une fois que vous avez terminé, positionnons un **$(scoreMultiplier)** pour afficher le multiplicateur de score actuel. Plaçons-le juste en dessous du score !",
             "es": "Una vez que hayas terminado, coloquemos un **$(scoreMultiplier)** para mostrar la puntuación actual del multiplicador. ¡Colóquelo justo debajo de la puntuación!",
-            "pt": "Uma vez que você terminou, vamos posicionar um **$(scoreMultiplier)** para exibir a pontuação atual do multiplicador. Vamos colocá-lo logo abaixo da pontuação!"
+            "pt": "Uma vez que você terminou, vamos posicionar um **$(scoreMultiplier)** para exibir a pontuação atual do multiplicador. Vamos colocá-lo logo abaixo da pontuação!",
+            "th": "เมื่อทำเสร็จแล้ว ให้ใส่ **$(scoreMultiplier)** เพื่อแสดงคะแนน multiplier score ที่เวลาปัจจุบัน ใส่และจัดวางไว้ข้างล่างคะแนนเลย!"
           }
         },
         "placement": "bottom"
@@ -160,7 +169,8 @@
             "en": "We now need to store the score somewhere. Let's create a **scene variable**! Open the **Project Manager**",
             "fr": "Nous devons maintenant stocker le score quelque part. Créons une **variable de scène** ! Ouvrez le **Project Manager**",
             "es": "Ahora necesitamos almacenar la puntuación en algún lugar. ¡Creemos una **variable de escena**! Abre el **Project Manager**",
-            "pt": "Agora precisamos armazenar a pontuação em algum lugar. Vamos criar uma **variável de cena**! Abra o **Project Manager**"
+            "pt": "Agora precisamos armazenar a pontuação em algum lugar. Vamos criar uma **variável de cena**! Abra o **Project Manager**",
+            "th": "ทีนี้เราจะทำให้ข้อมูลคะแนนถูกจัดเก็บไว้ที่ไหนสักแห่ง เรามาสร้าง **ตัวแปรของ scene** กันเถอะ! เปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
         "placement": "right"
@@ -178,7 +188,8 @@
             "en": "We now need to store the score somewhere. Let's create a scene variable! Open the **Project Manager**",
             "fr": "Nous devons maintenant stocker le score quelque part. Créons une variable de scène ! Ouvrez le **Project Manager**",
             "es": "Ahora necesitamos almacenar la puntuación en algún lugar. ¡Creemos una variable de escena! Abre el **Project Manager**",
-            "pt": "Agora precisamos armazenar a pontuação em algum lugar. Vamos criar uma variável de cena! Abra o **Project Manager**"
+            "pt": "Agora precisamos armazenar a pontuação em algum lugar. Vamos criar uma variável de cena! Abra o **Project Manager**",
+            "th": "ทีนี้เราจะทำให้ข้อมูลคะแนนถูกจัดเก็บไว้ที่ไหนสักแห่ง เรามาสร้าง **ตัวแปรของ scene** กันเถอะ! เปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
         "placement": "right"
@@ -204,7 +215,8 @@
             "en": "**Right click** on $(gameScene) or tap the **triple dot button** and select **Edit scene variables**.",
             "fr": "Faites un **clic droit** sur $(gameScene) ou appuyez sur le **bouton à trois points** et sélectionnez **Modifier les variables de scène**.",
             "es": "Haga **clic derecho** en $(gameScene) o toque el **botón de tres puntos** y seleccione **Editar variables de escena**.",
-            "pt": "Clique com o **botão direito** em $(gameScene) ou toque no **botão de três pontos** e selecione **Editar variáveis de cena**."
+            "pt": "Clique com o **botão direito** em $(gameScene) ou toque no **botão de três pontos** e selecione **Editar variáveis de cena**.",
+            "th": "**คลิกขวา** ที่ $(gameScene) หรือกดที่ **ปุ่ม 3 จุด** และเลือก **แก้ไขตัวแปรของ scene**"
           }
         }
       },
@@ -222,7 +234,8 @@
             "en": "Let's add our first **variable**!",
             "fr": "Ajoutons notre première **variable** !",
             "es": "¡Agreguemos nuestra primera **variable**!",
-            "pt": "Vamos adicionar nossa primeira **variável**!"
+            "pt": "Vamos adicionar nossa primeira **variável**!",
+            "th": "มาเพิ่ม **ตัวแปร** แรกของเรากันเถอะ!"
           }
         }
       },
@@ -239,7 +252,8 @@
             "en": "Let's name this variable `Multiplier`.",
             "fr": "Nommons cette variable `Multiplier`.",
             "es": "Nombramos esta variable `Multiplier`.",
-            "pt": "Vamos nomear esta variável `Multiplier`."
+            "pt": "Vamos nomear esta variável `Multiplier`.",
+            "th": "ตั้งชื่อให้กับตัวแปรนี้ว่า `Multiplier`"
           }
         },
         "placement": "bottom"
@@ -257,7 +271,8 @@
             "en": "Let's change its type to **Number**.",
             "fr": "Changeons son type en **Nombre**.",
             "es": "Cambiamos su tipo a **Número**.",
-            "pt": "Vamos mudar seu tipo para **Número**."
+            "pt": "Vamos mudar seu tipo para **Número**.",
+            "th": "เปลี่ยนประเภทเป็น **ตัวเลข**"
           }
         },
         "placement": "bottom"
@@ -275,7 +290,8 @@
             "en": "And finally let's change its initial value to **1**.",
             "fr": "Et enfin, changeons sa valeur initiale en **1**.",
             "es": "Y finalmente, cambiemos su valor inicial a **1**.",
-            "pt": "E finalmente, vamos mudar seu valor inicial para **1**."
+            "pt": "E finalmente, vamos mudar seu valor inicial para **1**.",
+            "th": "และสุดท้าย เปลี่ยนค่าเริ่มต้นเป็น **1**"
           }
         },
         "placement": "bottom"
@@ -293,7 +309,8 @@
             "en": "And we're done! Let's close this dialog.",
             "fr": "Et c'est tout ! Fermons cette boîte de dialogue.",
             "es": "¡Y listo! Cerramos esta ventana.",
-            "pt": "E acabamos! Vamos fechar esta janela."
+            "pt": "E acabamos! Vamos fechar esta janela.",
+            "th": "เสร็จแล้ว! ปิดหน้าต่างได้เลย"
           }
         }
       }
@@ -309,7 +326,8 @@
             "en": "Now let's make those multipliers active. Let's open the **Events Sheet** of the $(gameScene) scene.",
             "fr": "Maintenant, rendons ces multiplicateurs actifs. Ouvrons la **Feuille d'événements** de la scène $(gameScene).",
             "es": "Ahora hagamos que esos multiplicadores estén activos. Abramos la **Hoja de eventos** de la escena $(gameScene).",
-            "pt": "Agora vamos deixar esses multiplicadores ativos. Vamos abrir a **Folha de eventos** da cena $(gameScene)."
+            "pt": "Agora vamos deixar esses multiplicadores ativos. Vamos abrir a **Folha de eventos** da cena $(gameScene).",
+            "th": "ทีนี้มาทำให้ multiplier ทำงานกัน เปิด **ชี้ทอีเวนต์** ของ scene $(gameScene)"
           }
         },
         "placement": "bottom"
@@ -327,7 +345,8 @@
             "en": "First we will make $(multiplier) disappear when $(ball) hits one. An event is ready for you, let's **add a condition** to it.",
             "fr": "Tout d'abord, nous ferons disparaître $(multiplier) quand $(ball) touche un. Un événement est prêt pour vous, ajoutons-y une **condition**.",
             "es": "Primero haremos que $(multiplier) desaparezca cuando $(ball) golpee uno. Un evento está listo para usted, agreguemosle una **condición**.",
-            "pt": "Primeiro vamos fazer com que $(multiplier) desapareça quando $(ball) bater em um. Um evento está pronto para você, vamos **adicionar uma condição** a ele."
+            "pt": "Primeiro vamos fazer com que $(multiplier) desapareça quando $(ball) bater em um. Um evento está pronto para você, vamos **adicionar uma condição** a ele.",
+            "th": "ขั้นแรก เราจะทำให้ $(multiplier) หายไป เมื่อถูก $(ball) ชนครั้งหนึ่ง อีเวนท์พร้อมแล้ว ให้ **เพิ่มเงื่อนไข** ลงไป"
           }
         }
       }
@@ -343,7 +362,8 @@
             "en": "Select **$(ball)**.",
             "fr": "Sélectionnez **$(ball)**.",
             "es": "Seleccione **$(ball)**.",
-            "pt": "Selecione **$(ball)**."
+            "pt": "Selecione **$(ball)**.",
+            "th": "เลือก **$(ball)**"
           }
         }
       },
@@ -360,7 +380,8 @@
             "en": "Select the **Collision** condition.",
             "fr": "Sélectionnez la condition **Collision**.",
             "es": "Seleccione la condición **Colisión**.",
-            "pt": "Selecione a condição **Colisão**."
+            "pt": "Selecione a condição **Colisão**.",
+            "th": "เลือกเงื่อนไข **การชนกัน**"
           }
         }
       },
@@ -377,7 +398,8 @@
             "en": "And select our **$(multiplier)**.",
             "fr": "Et sélectionnez notre **$(multiplier)**.",
             "es": "Y seleccione nuestro **$(multiplier)**.",
-            "pt": "E selecione nosso **$(multiplier)**."
+            "pt": "E selecione nosso **$(multiplier)**.",
+            "th": "เลือก **$(multiplier)**"
           }
         },
         "placement": "top"
@@ -395,7 +417,8 @@
             "en": "Alright, our **condition** is ready and will be **true** when the **$(ball) touches the $(multiplier)**.",
             "fr": "Bien, notre **condition** est prête et sera **vraie** quand **$(ball) touche le $(multiplier)**.",
             "es": "Bien, nuestra **condición** está lista y será **verdadera** cuando el **$(ball) golpee el $(multiplier)**.",
-            "pt": "Bem, nossa **condição** está pronta e será **verdadeira** quando o **$(ball) bater no $(multiplier)**."
+            "pt": "Bem, nossa **condição** está pronta e será **verdadeira** quando o **$(ball) bater no $(multiplier)**.",
+            "th": "เอาล่ะ **เงื่อนไข** ของเราพร้อมแล้วและจะให้ค่า **จริง** เมื่อ **$(ball) สัมผัสกับ $(multiplier)**"
           }
         },
         "placement": "top"
@@ -412,7 +435,8 @@
             "en": "Let's make our multiplier disappear with an **action** now.",
             "fr": "Faisons disparaître notre multiplicateur avec une **action** maintenant.",
             "es": "Hagamos que nuestro multiplicador desaparezca con una **acción** ahora.",
-            "pt": "Vamos fazer nosso multiplicador desaparecer com uma **ação** agora."
+            "pt": "Vamos fazer nosso multiplicador desaparecer com uma **ação** agora.",
+            "th": "ทำให้ multiplier หายไป โดยใช้ **การกระทำ**"
           }
         }
       }
@@ -428,7 +452,8 @@
             "en": "Select **$(multiplier)**.",
             "fr": "Sélectionnez **$(multiplier)**.",
             "es": "Seleccione **$(multiplier)**.",
-            "pt": "Selecione **$(multiplier)**."
+            "pt": "Selecione **$(multiplier)**.",
+            "th": "เลือก **$(multiplier)**"
           }
         }
       },
@@ -445,7 +470,8 @@
             "en": "We will make **$(multiplier)** disappear on collision.",
             "fr": "Nous allons faire disparaître **$(multiplier)** en cas de collision.",
             "es": "Haremos que **$(multiplier)** desaparezca en caso de colisión.",
-            "pt": "Vamos fazer com que **$(multiplier)** desapareça em caso de colisão."
+            "pt": "Vamos fazer com que **$(multiplier)** desapareça em caso de colisão.",
+            "th": "เราจะทำให้ **$(multiplier)** หายไปเมื่อมีการชนกัน"
           }
         }
       },
@@ -462,7 +488,8 @@
             "en": "It is important to note that only the $(multiplier) that match the condition will be deleted. This is called **Object picking**. Let's close this dialog.",
             "fr": "Il est important de noter que seul le $(multiplier) qui correspond à la condition sera supprimé. C'est ce qu'on appelle le **choix d'objet**. Fermons cette boîte de dialogue.",
             "es": "Es importante tener en cuenta que solo el $(multiplier) que coincida con la condición será eliminado. Esto se llama **elección de objeto**. Cerraremos esta ventana.",
-            "pt": "É importante notar que apenas o $(multiplier) que corresponder à condição será excluído. Isso é chamado de **escolha de objeto**. Vamos fechar esta janela."
+            "pt": "É importante notar que apenas o $(multiplier) que corresponder à condição será excluído. Isso é chamado de **escolha de objeto**. Vamos fechar esta janela.",
+            "th": "สิ่งสำคัญที่คุณควรจดจำไว้คือ มีเพียง $(multiplier) ที่ตรงกับเงื่อนไขเท่านั้นที่ถูกลบ เรียกว่า **การเลือกวัตถุ** ปิดหน้าต่างนี้"
           }
         },
         "placement": "top"
@@ -479,7 +506,8 @@
             "en": "Now let's **play a sound** when it is collected!.",
             "fr": "Maintenant, **jouons un son** quand il est collecté !",
             "es": "¡Ahora, **reproducimos un sonido** cuando se recolecta!",
-            "pt": "Agora, **reproduzimos um som** quando é coletado!"
+            "pt": "Agora, **reproduzimos um som** quando é coletado!",
+            "th": "ทีนี้มาเพิ่มการ **เล่นเสียง** เมื่อมีการเก็บ!"
           }
         }
       }
@@ -495,7 +523,8 @@
             "en": "Search for **sound**.",
             "fr": "Recherchez **son**.",
             "es": "Busque **sonido**.",
-            "pt": "Procure **som**."
+            "pt": "Procure **som**.",
+            "th": "ค้นหา **sound**"
           }
         }
       },
@@ -512,7 +541,8 @@
             "en": "Select the **Play a sound** action.",
             "fr": "Sélectionnez l'action **Jouer un son**.",
             "es": "Seleccione la acción **Reproducir un sonido**.",
-            "pt": "Selecione a ação **Reproduzir um som**."
+            "pt": "Selecione a ação **Reproduzir um som**.",
+            "th": "เลือกการกระทำ **เล่นเสียง**"
           }
         }
       },
@@ -529,7 +559,8 @@
             "en": "Click on the field to see the options, and select **ClickerBeep2.wav**.",
             "fr": "Cliquez sur le champ pour voir les options, et sélectionnez **ClickerBeep2.wav**.",
             "es": "Haga clic en el campo para ver las opciones y seleccione **ClickerBeep2.wav**.",
-            "pt": "Clique no campo para ver as opções e selecione **ClickerBeep2.wav**."
+            "pt": "Clique no campo para ver as opções e selecione **ClickerBeep2.wav**.",
+            "th": "คลิกที่ field เพื่อดูตัวเลือก แล้วเลือก **ClickerBeep2.wav**"
           }
         },
         "placement": "top"
@@ -547,7 +578,8 @@
             "en": "Alright, now the sound will play when the $(ball) collects a $(multiplier)!",
             "fr": "Bien, maintenant le son sera joué quand $(ball) collecte un $(multiplier) !",
             "es": "¡Bien, ahora el sonido se reproducirá cuando la $(ball) recolecte un $(multiplier)!",
-            "pt": "Ótimo, agora o som será reproduzido quando a $(ball) coletar um $(multiplier)!"
+            "pt": "Ótimo, agora o som será reproduzido quando a $(ball) coletar um $(multiplier)!",
+            "th": "เอาล่ะ ทีนี้เสียงก็จะเล่นเมื่อ $(ball) เก็บ $(multiplier) แล้ว!"
           }
         },
         "placement": "top"
@@ -564,7 +596,8 @@
             "en": "Let's **update our variable** accordingly.",
             "fr": "Mettons à jour notre **variable** en conséquence.",
             "es": "Actualicemos nuestra **variable** en consecuencia.",
-            "pt": "Atualizemos nossa **variável** em conformidade."
+            "pt": "Atualizemos nossa **variável** em conformidade.",
+            "th": "ทำการ **อัพเดทตัวแปร**"
           }
         }
       }
@@ -580,7 +613,8 @@
             "en": "Search for **scene variable**.",
             "fr": "Recherchez **variable de scène**.",
             "es": "Busque **variable de escena**.",
-            "pt": "Procure **variável de cena**."
+            "pt": "Procure **variável de cena**.",
+            "th": "ค้นหา **ตัวแปรของ scene"
           }
         }
       },
@@ -597,7 +631,8 @@
             "en": "Our multiplier is a number, so let's select **Change number variable** action.",
             "fr": "Notre multiplicateur est un nombre, donc sélectionnons l'action **Modifier une variable numérique**.",
             "es": "Nuestro multiplicador es un número, por lo que seleccionemos la acción **Cambiar variable numérica**.",
-            "pt": "Nosso multiplicador é um número, então vamos selecionar a ação **Alterar variável numérica**."
+            "pt": "Nosso multiplicador é um número, então vamos selecionar a ação **Alterar variável numérica**.",
+            "th": "multiplier ของเราเป็นตัวเลข ดังนั้นเลือกการกระทำ **เปลี่ยนตัวเลขตัวแปร**"
           }
         }
       },
@@ -614,7 +649,8 @@
             "en": "Select the variable we created earlier, **Multiplier**.",
             "fr": "Sélectionnez la variable que nous avons créée précédemment, **Multiplier**.",
             "es": "Seleccione la variable que creamos anteriormente, **Multiplier**.",
-            "pt": "Selecione a variável que criamos anteriormente, **Multiplier**."
+            "pt": "Selecione a variável que criamos anteriormente, **Multiplier**.",
+            "th": "เลือกตัวแปรที่เราสร้าง **Multiplier**"
           }
         },
         "placement": "top"
@@ -632,7 +668,8 @@
             "en": "We want to increase the multiplier, so let's select **+ (add)**.",
             "fr": "Nous voulons augmenter le multiplicateur, donc sélectionnons **+ (ajouter)**.",
             "es": "Queremos aumentar el multiplicador, así que seleccionemos **+ (agregar)**.",
-            "pt": "Queremos aumentar o multiplicador, então vamos selecionar **+ (adicionar)**."
+            "pt": "Queremos aumentar o multiplicador, então vamos selecionar **+ (adicionar)**.",
+            "th": "เราต้องการเพิ่ม multiplier จึงเลือก **+ (เพิ่ม)**"
           }
         },
         "placement": "left"
@@ -650,7 +687,8 @@
             "en": "Let's enter **1**.",
             "fr": "Entrez **1**.",
             "es": "Ingrese **1**.",
-            "pt": "Digite **1**."
+            "pt": "Digite **1**.",
+            "th": "ใส่ **1**"
           }
         },
         "placement": "left"
@@ -668,7 +706,8 @@
             "en": "Alright, now our scene variable **Multiplier** will **increase by 1** every time **$(ball) collects a $(multiplier)**.",
             "fr": "Bien, maintenant notre variable de scène **Multiplier** **augmentera de 1** à chaque fois que $(ball) collecte un $(multiplier).",
             "es": "¡Bien, ahora nuestra variable de escena **Multiplier** **aumentará en 1** cada vez que la $(ball) recolecte un $(multiplier)!",
-            "pt": "Ótimo, agora nossa variável de cena **Multiplier** **aumentará em 1** toda vez que a $(ball) coletar um $(multiplier)!"
+            "pt": "Ótimo, agora nossa variável de cena **Multiplier** **aumentará em 1** toda vez que a $(ball) coletar um $(multiplier)!",
+            "th": "เอาล่ะ ทีนี้ตัวแปร scene **Multiplier** ก็จะ **เพิ่มขึ้นทีละ 1** ทุกครั้งที่ **$(ball) เก็บ $(multiplier)**"
           }
         },
         "placement": "top"
@@ -685,7 +724,8 @@
             "en": "Let's add some juice and **create particles** when the **$(multiplier)** is collected.",
             "fr": "Ajoutons un peu de piquant et **créons des particules** quand le **$(multiplier)** est collecté.",
             "es": "Agreguemos un poco de sabor y **creemos partículas** cuando el **$(multiplier)** es recolectado.",
-            "pt": "Vamos adicionar um pouco de sabor e **criar partículas** quando o **$(multiplier)** for coletado."
+            "pt": "Vamos adicionar um pouco de sabor e **criar partículas** quando o **$(multiplier)** for coletado.",
+            "th": "เพิ่มความน่าตื่นเต้นโดย **สร้าง particles** เมื่อ **$(multiplier)** ถูกเก็บ"
           }
         }
       }
@@ -701,7 +741,8 @@
             "en": "Search for **Create**.",
             "fr": "Recherchez **Créer**.",
             "es": "Busque **Crear**.",
-            "pt": "Procure por **Criar**."
+            "pt": "Procure por **Criar**.",
+            "th": "ค้นหา **สร้าง**"
           }
         }
       },
@@ -718,7 +759,8 @@
             "en": "We will **create some particles** we've prepared for you, pick the **Create an object** action.",
             "fr": "Nous allons **créer des particules** que nous avons préparées pour vous, choisissez l'action **Créer un objet**.",
             "es": "Vamos a **crear algunas partículas** que hemos preparado para usted, elija la acción **Crear un objeto**.",
-            "pt": "Vamos **criar algumas partículas** que preparamos para você, escolha a ação **Criar um objeto**."
+            "pt": "Vamos **criar algumas partículas** que preparamos para você, escolha a ação **Criar um objeto**.",
+            "th": "เราจะ **สร้าง some particles** เราเตรียมเอาไว้ให้คุณแล้ว เลือกการกระทำ **สร้างวัตถุ**"
           }
         }
       },
@@ -735,7 +777,8 @@
             "en": "Select the particles we've prepared, **$(particles)**.",
             "fr": "Sélectionnez les particules que nous avons préparées, **$(particles)**.",
             "es": "Seleccione las partículas que hemos preparado, **$(particles)**.",
-            "pt": "Selecione as partículas que preparamos, **$(particles)**."
+            "pt": "Selecione as partículas que preparamos, **$(particles)**.",
+            "th": "เลือก **$(particles)** ที่เตรียมไว้"
           }
         },
         "placement": "top"
@@ -753,7 +796,8 @@
             "en": "Let's make it spawn where the multiplier was,\n\nenter `$(multiplier).X()`.",
             "fr": "Faisons en sorte qu'elles apparaissent là où le multiplicateur était,\n\nentrez `$(multiplier).X()`.",
             "es": "Hagamos que aparezcan donde estaba el multiplicador,\n\ningrese `$(multiplier).X()`.",
-            "pt": "Vamos fazer com que elas apareçam onde o multiplicador estava,\n\ndigite `$(multiplier).X()`."
+            "pt": "Vamos fazer com que elas apareçam onde o multiplicador estava,\n\ndigite `$(multiplier).X()`.",
+            "th": "ตั้งจุดกำเนิดไว้ที่ตำแหน่งของ multiplier\n\nใส่ `$(multiplier).X()`"
           }
         },
         "placement": "left"
@@ -771,7 +815,8 @@
             "en": "And `$(multiplier).Y()`.",
             "fr": "Et `$(multiplier).Y()`.",
             "es": "Y `$(multiplier).Y()`.",
-            "pt": "E `$(multiplier).Y()`."
+            "pt": "E `$(multiplier).Y()`.",
+            "th": "และ `$(multiplier).Y()`"
           }
         },
         "placement": "left"
@@ -789,7 +834,8 @@
             "en": "Nice! Our **$(particles)** will be **created** exactly where the **$(multiplier)** was, giving a nice effect!",
             "fr": "Bien! Nos **$(particles)** seront **créées** exactement là où se trouvait le **$(multiplier)**, ce qui donnera un bel effet !",
             "es": "¡Bien! Nuestras **$(particles)** serán **creadas** exactamente donde estaba el **$(multiplier)**, ¡lo que dará un buen efecto!",
-            "pt": "Legal! Nossas **$(particles)** serão **criadas** exatamente onde o **$(multiplier)** estava, dando um efeito legal!"
+            "pt": "Legal! Nossas **$(particles)** serão **criadas** exatamente onde o **$(multiplier)** estava, dando um efeito legal!",
+            "th": "ดีมาก! **$(particles)** ของเราจะ **ถูกสร้าง** ที่ตำแหน่งของ **$(multiplier)** เป็นเอฟเฟกต์ที่เพิ่มคุณภาพกราฟฟิกได้!"
           }
         },
         "placement": "top"
@@ -806,7 +852,8 @@
             "en": "Finally, we need to ensure that the **$(scoreMultiplier)** we've placed on the scene gets updated accordingly!",
             "fr": "Enfin, nous devons nous assurer que le **$(scoreMultiplier)** que nous avons placé sur la scène est mis à jour en conséquence !",
             "es": "¡Finalmente, debemos asegurarnos de que el **$(scoreMultiplier)** que hemos colocado en la escena se actualice en consecuencia!",
-            "pt": "Finalmente, precisamos nos certificar de que o **$(scoreMultiplier)** que colocamos na cena seja atualizado de acordo!"
+            "pt": "Finalmente, precisamos nos certificar de que o **$(scoreMultiplier)** que colocamos na cena seja atualizado de acordo!",
+            "th": "ขั้นสุดท้าย เราต้องการที่จะแน่ใจว่า **$(scoreMultiplier)** ที่เราใส่ใน scene จะต้องอัพเดทอย่างสอดคล้อง!"
           }
         }
       }
@@ -822,7 +869,8 @@
             "en": "Search for **Modify**.",
             "fr": "Recherchez **Modifier**.",
             "es": "Busque **Modificar**.",
-            "pt": "Procure por **Modificar**."
+            "pt": "Procure por **Modificar**.",
+            "th": "ค้นหา **แก้ไข**"
           }
         }
       },
@@ -839,7 +887,8 @@
             "en": "We will **Modify the text** that we placed on the screen earlier.",
             "fr": "Nous allons **Modifier le texte** que nous avons placé à l'écran plus tôt.",
             "es": "Vamos a **Modificar el texto** que colocamos en la pantalla anteriormente.",
-            "pt": "Vamos **Modificar o texto** que colocamos na tela anteriormente."
+            "pt": "Vamos **Modificar o texto** que colocamos na tela anteriormente.",
+            "th": "เราจะ **แก้ไขข้อความ** ที่เราวางไว้ใน scene ก่อนหน้านี้"
           }
         }
       },
@@ -854,7 +903,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the text object **$(scoreMultiplier)**.",
-            "fr": "Sélectionnez l'objet texte **$(scoreMultiplier)**."
+            "fr": "Sélectionnez l'objet texte **$(scoreMultiplier)**.",
+            "th": "เลือกวัตถุข้อความ **$(scoreMultiplier)**"
           }
         },
         "placement": "top"
@@ -872,7 +922,8 @@
             "en": "We want to update the text completely, so let's select **= (set to)**.",
             "fr": "Nous voulons mettre à jour le texte complètement, alors sélectionnons **= (définir à)**.",
             "es": "Queremos actualizar el texto por completo, así que seleccionemos **= (establecer en)**.",
-            "pt": "Queremos atualizar o texto completamente, então vamos selecionar **= (definir como)**."
+            "pt": "Queremos atualizar o texto completamente, então vamos selecionar **= (definir como)**.",
+            "th": "เราต้องการอัพเดทข้อความใหม่ทั้งหมด ดังนั้นเลือก **= (ตั้งเป็น)**"
           }
         },
         "placement": "left"
@@ -890,7 +941,8 @@
             "en": "Now, we need to ensure the text displayed will show x1, x2, etc... so let's use our variable to do so.\n\nEnter `\"x\"+VariableString(Multiplier)`.",
             "fr": "Maintenant, nous devons nous assurer que le texte affiché affichera x1, x2, etc ... alors utilisons notre variable pour cela.\n\nEntrez `\"x\"+VariableString(Multiplier)`.",
             "es": "Ahora, debemos asegurarnos de que el texto que se muestra muestre x1, x2, etc ... así que usemos nuestra variable para ello.\n\nIngrese `\"x\"+VariableString(Multiplier)`.",
-            "pt": "Agora, precisamos nos certificar de que o texto exibido exiba x1, x2, etc ... então vamos usar nossa variável para isso.\n\nDigite `\"x\"+VariableString(Multiplier)`."
+            "pt": "Agora, precisamos nos certificar de que o texto exibido exiba x1, x2, etc ... então vamos usar nossa variável para isso.\n\nDigite `\"x\"+VariableString(Multiplier)`.",
+            "th": "ทีนี้เราแน่ใจแล้วว่าข้อความจะแสดง x1, x2, ... ไปเรื่อยๆ ใช้ตัวแปรเพื่อทำเช่นนั้น\n\nใส่ `\"x\"+VariableString(Multiplier)`"
           }
         },
         "placement": "left"
@@ -908,7 +960,8 @@
             "en": "Nice! our **$(scoreMultiplier)** will now be updated thanks to the **Multiplier variable** that we converted to a text!",
             "fr": "Bien ! notre **$(scoreMultiplier)** sera maintenant mis à jour grâce à la **variable Multiplier** que nous avons convertie en texte !",
             "es": "¡Bien! ¡nuestra **$(scoreMultiplier)** ahora se actualizará gracias a la **variable Multiplicador** que convertimos en texto!",
-            "pt": "Legal! nosso **$(scoreMultiplier)** agora será atualizado graças à **variável Multiplicador** que convertemos em texto!"
+            "pt": "Legal! nosso **$(scoreMultiplier)** agora será atualizado graças à **variável Multiplicador** que convertemos em texto!",
+            "th": "ดีมาก! **$(scoreMultiplier)** ของเราจะอัพเดทได้อย่างที่ควรจะเป็นเพราะว่าเราได้แปลง **ตัวแปร Multiplier** เป็นข้อความ"
           }
         },
         "placement": "top"
@@ -925,7 +978,8 @@
             "en": "Finally, we need to take our multiplier into account when calculating the score. Let's **fold the Score multiplier** group with the arrow on the left.",
             "fr": "Enfin, nous devons prendre en compte notre multiplicateur lors du calcul du score. Laissons **replier le groupe Multiplicateur de score** avec la flèche à gauche.",
             "es": "Finalmente, debemos tener en cuenta nuestro multiplicador al calcular la puntuación. Dejemos **replegar el grupo Multiplicador de puntuación** con la flecha a la izquierda.",
-            "pt": "Finalmente, precisamos levar em conta nosso multiplicador ao calcular a pontuação. Vamos **recolher o grupo Multiplicador de pontuação** com a seta à esquerda."
+            "pt": "Finalmente, precisamos levar em conta nosso multiplicador ao calcular a pontuação. Vamos **recolher o grupo Multiplicador de pontuação** com a seta à esquerda.",
+            "th": "ขั้นสุดท้าย เราจะต้องในการคำนวณคะแนนเราต้องคำนวณ multiplier ด้วย ให้ **รวบรวมตัวแปร คะแนน multiplier** เอาไว้เป็นกลุ่มโดยลูกศรที่อยู่ทางซ้าย"
           }
         },
         "placement": "bottom"
@@ -942,7 +996,8 @@
             "en": "And let's **unfold the Hitting pegs** group with the arrow on the left.",
             "fr": "Et laissons **déplier le groupe Toucher des plots** avec la flèche à gauche.",
             "es": "Y dejemos **desplegar el grupo Tocando plots** con la flecha a la izquierda.",
-            "pt": "E vamos **desdobrar o grupo Tocando plots** com a seta à esquerda."
+            "pt": "E vamos **desdobrar o grupo Tocando plots** com a seta à esquerda.",
+            "th": "และ **ยกเลิกการรวมกลุ่มของเป๊กที่ถูกชน** โดยลูกศรที่อยู่ทางซ้าย"
           }
         },
         "placement": "bottom"
@@ -959,7 +1014,8 @@
             "en": "This first event manages the logic when the player hits a peg. Let's modify the score action by **double-clicking on it**!",
             "fr": "Cet événement gère la logique lorsque le joueur touche un plot. Modifions l'action de score en **double-cliquant dessus** !",
             "es": "Este primer evento gestiona la lógica cuando el jugador toca un plot. ¡Modifiquemos la acción de puntuación **dando doble clic en ella**!",
-            "pt": "Este primeiro evento gerencia a lógica quando o jogador toca um plot. Vamos modificar a ação de pontuação **clicando duas vezes nela**!"
+            "pt": "Este primeiro evento gerencia a lógica quando o jogador toca um plot. Vamos modificar a ação de pontuação **clicando duas vezes nela**!",
+            "th": "อีเวนท์แรกนี้ จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก มาแก้ไขการกระทำของคะแนนโดย **ดับเบิลคลิก** กันเถอะ!"
           }
         }
       }
@@ -975,7 +1031,8 @@
             "en": "We want to multiply the score added by the multiplier,\n\nlet's enter `1*Variable(Multiplier)`.",
             "fr": "Nous voulons multiplier le score ajouté par le multiplicateur,\n\nentrons `1*Variable(Multiplier)`.",
             "es": "Queremos multiplicar la puntuación agregada por el multiplicador,\n\ningresamos `1*Variable(Multiplier)`.",
-            "pt": "Queremos multiplicar a pontuação adicionada pelo multiplicador,\n\ndigitar `1*Variable(Multiplier)`."
+            "pt": "Queremos multiplicar a pontuação adicionada pelo multiplicador,\n\ndigitar `1*Variable(Multiplier)`.",
+            "th": "เราต้องการคูณคะแนนที่ถูกเพิ่มโดย multiplier \n\nใส่ `1*Variable(Multiplier)`"
           }
         },
         "placement": "left"
@@ -993,7 +1050,8 @@
             "en": "This will make our score update according to the multiplier! Let's save.",
             "fr": "Cela fera en sorte que notre score se mette à jour en fonction du multiplicateur ! Enregistrons.",
             "es": "¡Esto hará que nuestra puntuación se actualice de acuerdo con el multiplicador! Guardemos.",
-            "pt": "Isso fará com que nossa pontuação seja atualizada de acordo com o multiplicador! Salve."
+            "pt": "Isso fará com que nossa pontuação seja atualizada de acordo com o multiplicador! Salve.",
+            "th": "ทีนี้คะแนนของเราจะอัพเดทได้อย่างสอดคล้องแล้ว! มาบันทึกกันเถอะ"
           }
         },
         "placement": "top"
@@ -1010,7 +1068,8 @@
             "en": "This event here manages the logic when the player hits a bigger peg. Let's modify the score action by **double-clicking on it** again.",
             "fr": "Cet événement gère la logique lorsque le joueur touche un plot plus gros. Modifions l'action de score en **double-cliquant dessus** à nouveau.",
             "es": "Este evento gestiona la lógica cuando el jugador toca un plot más grande. Modifiquemos la acción de puntuación **dando doble clic en ella** nuevamente.",
-            "pt": "Este evento gerencia a lógica quando o jogador toca um plot maior. Vamos modificar a ação de pontuação **clicando duas vezes nela** novamente."
+            "pt": "Este evento gerencia a lógica quando o jogador toca um plot maior. Vamos modificar a ação de pontuação **clicando duas vezes nela** novamente.",
+            "th": "อีเวนท์นี้จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก แก้ไขการกระทำของคะแนนโดย **ดับเบิลคลิก** อีกครั้ง"
           }
         }
       }
@@ -1026,7 +1085,8 @@
             "en": "We want to do exactly the same, except that the score given is 2,\n\nenter `2 * Variable(Multiplier)`.",
             "fr": "Nous voulons faire exactement la même chose, sauf que le score donné est 2,\n\nentrons `2 * Variable(Multiplier)`.",
             "es": "Queremos hacer exactamente lo mismo, excepto que la puntuación dada es 2,\n\ningresamos `2 * Variable(Multiplier)`.",
-            "pt": "Queremos fazer exatamente a mesma coisa, exceto que a pontuação dada é 2,\n\ndigitar `2 * Variable(Multiplier)`."
+            "pt": "Queremos fazer exatamente a mesma coisa, exceto que a pontuação dada é 2,\n\ndigitar `2 * Variable(Multiplier)`.",
+            "th": "เราจะทำเหมือนเดิม ยกเว้นอย่างหนึ่ง คะแนนจะใส่เป็น 2\n\nใส่ `2 * Variable(Multiplier)`"
           }
         },
         "placement": "left"
@@ -1044,7 +1104,8 @@
             "en": "Now let's close this!.",
             "fr": "Maintenant, fermons ceci !",
             "es": "¡Ahora cerramos esto!",
-            "pt": "Agora vamos fechar isso!"
+            "pt": "Agora vamos fechar isso!",
+            "th": "ปิดหน้าต่างได้เลย!"
           }
         },
         "placement": "top"
@@ -1061,7 +1122,8 @@
             "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
             "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
-            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**."
+            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**"
           }
         },
         "placement": "bottom"

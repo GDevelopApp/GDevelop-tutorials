@@ -55,26 +55,30 @@
   },
   "availableLocales": [
     "en",
-    "fr-FR"
+    "fr-FR",
+    "th-TH"
   ],
   "endDialog": {
     "content": [
       {
         "messageByLocale": {
           "en": "# You've finished your Fling Game!",
-          "fr-FR": "# Votre jeu est terminé !"
+          "fr-FR": "# Votre jeu est terminé !",
+          "th-TH": "เกม Fling ของคุณเสร็จแล้ว"
         }
       },
       {
         "messageByLocale": {
           "en": "Share it with your friends and see who gets the highest score!",
-          "fr-FR": "Partagez le avec vos amis pour voir qui obtiendra le meilleur score !"
+          "fr-FR": "Partagez le avec vos amis pour voir qui obtiendra le meilleur score !",
+          "th-TH": "แชร์กับเพื่อนของคุณ และมาลองดูกันว่าใครจะทำคะแนนได้สูงที่สุด!"
         }
       },
       {
         "messageByLocale": {
           "en": "Ready to make a new game? Click to discover what GDevelop can do!",
-          "fr-FR": "Prêt à créer un nouveau jeu ? Cliquez sur l'image pour découvrir de quoi GDevelop est capable !"
+          "fr-FR": "Prêt à créer un nouveau jeu ? Cliquez sur l'image pour découvrir de quoi GDevelop est capable !",
+          "th-TH": "พร้อมสร้างเกมใหม่แล้ว? คลิกเพื่อสำรวจดูว่า GDevelop สามารถทำอะไรได้บ้าง"
         }
       },
       {
@@ -96,7 +100,8 @@
         "description": {
           "messageByLocale": {
             "en": "Head over to the **Build section**.",
-            "fr-FR": "Commençons par aller dans l'onglet **Créer**."
+            "fr-FR": "Commençons par aller dans l'onglet **Créer**.",
+            "th-TH": "ไปยัง **Build section**"
           }
         },
         "placement": "right"
@@ -111,7 +116,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create a new **project** for this tutorial!",
-            "fr-FR": "Créons un nouveau **projet** pour ce tutoriel."
+            "fr-FR": "Créons un nouveau **projet** pour ce tutoriel.",
+            "th-TH": "มาสร้าง **โปรเจกต์** ใหม่ สำหรับบทเรียนนี้กันเถอะ!"
           }
         }
       }
@@ -125,7 +131,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's go!",
-            "fr-FR": "C'est parti !"
+            "fr-FR": "C'est parti !",
+            "th-TH": "ไปกันเลย!"
           }
         }
       },
@@ -144,7 +151,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Project Manager**.",
-            "fr-FR": "Ouvrez le **Gestionnaire de projet**."
+            "fr-FR": "Ouvrez le **Gestionnaire de projet**.",
+            "th-TH": "เปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
         "placement": "right"
@@ -159,7 +167,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Game Settings** tab.",
-            "fr-FR": "Ouvrez les **Paramètres du jeu**."
+            "fr-FR": "Ouvrez les **Paramètres du jeu**.",
+            "th-TH": "เปิดแท็บ **ตั้งค่าเกม**"
           }
         }
       },
@@ -175,7 +184,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the game **properties**.",
-            "fr-FR": "Ouvrez les **Propriétés** du jeu."
+            "fr-FR": "Ouvrez les **Propriétés** du jeu.",
+            "th-TH": "เปิด **คุณสมบัติ** ของเกม"
           }
         }
       },
@@ -191,7 +201,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the width to **1280** pixels.",
-            "fr-FR": "Définissez une largeur de **1280** pixels."
+            "fr-FR": "Définissez une largeur de **1280** pixels.",
+            "th-TH": "เปลี่ยนความกว้างเป็น **1280** พิกเซล"
           }
         }
       },
@@ -207,7 +218,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the height to **720** pixels.",
-            "fr-FR": "Et une hauteur de **720** pixels."
+            "fr-FR": "Et une hauteur de **720** pixels.",
+            "th-TH": "เปลี่ยนความสูงเป็น **720** พิกเซล"
           }
         }
       },
@@ -222,7 +234,8 @@
         "description": {
           "messageByLocale": {
             "en": "Set this to **no changes to the game size**.",
-            "fr-FR": "Choisissez l'option **Aucune modification de la taille du jeu**."
+            "fr-FR": "Choisissez l'option **Aucune modification de la taille du jeu**.",
+            "th-TH": "ตั้งค่าเป็น **ไม่เปลี่ยนแปลงขนาดของเกม**"
           }
         }
       },
@@ -237,7 +250,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're done.",
-            "fr-FR": "On a terminé."
+            "fr-FR": "On a terminé.",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       }
@@ -253,7 +267,8 @@
         "description": {
           "messageByLocale": {
             "en": "First, let's find a border for our **scene**.",
-            "fr-FR": "Commençons par trouver une bordure à notre **scène**."
+            "fr-FR": "Commençons par trouver une bordure à notre **scène**.",
+            "th-TH": "ขั้นแรก หาขอบเขตของ **scene**"
           }
         }
       }
@@ -267,7 +282,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose an **object** from the asset store",
-            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**."
+            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**.",
+            "th-TH": "เลือก **วัตถุ** จาก ร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -284,13 +300,15 @@
         "title": {
           "messageByLocale": {
             "en": "We're looking for a tiled sprite that we can resize easily",
-            "fr-FR": "Nous allons chercher une mosaïque que nous pouvons facilement redimensionner"
+            "fr-FR": "Nous allons chercher une mosaïque que nous pouvons facilement redimensionner",
+            "th-TH": "เรากำลังมองหา tiled sprite ที่สามารถปรับขนาดได้ง่าย"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "Tip: search for “**tiled sprite**”.",
-            "fr-FR": "Un conseil, cherchez la traduction en anglais: “**tiled sprite**”."
+            "fr-FR": "Un conseil, cherchez la traduction en anglais: “**tiled sprite**”.",
+            "th-TH": "แนะนำ: ค้นหาเป็นภาษาอังกฤษ “**tiled sprite**”"
           }
         }
       },
@@ -314,7 +332,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add this asset to your project.",
-            "fr-FR": "Ajoutez cette ressource à votre projet."
+            "fr-FR": "Ajoutez cette ressource à votre projet.",
+            "th-TH": "เพิ่ม asset ไปยังโปรเจกต์ของคุณ"
           }
         }
       },
@@ -333,7 +352,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add the $(border) to our game!",
-            "fr-FR": "Ajoutons $(border) à notre projet !"
+            "fr-FR": "Ajoutons $(border) à notre projet !",
+            "th-TH": "มาใส่ $(border) ในเกมกันเถอะ!"
           }
         }
       }
@@ -347,7 +367,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(border) from the menu to the canvas.",
-            "fr-FR": "Faites glisser $(border) du menu au canvas."
+            "fr-FR": "Faites glisser $(border) du menu au canvas.",
+            "th-TH": "ลาก $(border) จากเมนูไปยังแคนวาส"
           }
         },
         "placement": "left"
@@ -358,7 +379,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr-FR": "J'ai terminé",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -367,7 +389,8 @@
         "description": {
           "messageByLocale": {
             "en": "Place and resize at least 4 instances of $(border) to create a closed frame around the screen ($(instancesCount:border)/4).",
-            "fr-FR": "Ajoutez et redimensionnez 4 instances de $(border) de manière à créer un cadre fermé autour de l'écran ($(instancesCount:border)/4)."
+            "fr-FR": "Ajoutez et redimensionnez 4 instances de $(border) de manière à créer un cadre fermé autour de l'écran ($(instancesCount:border)/4).",
+            "th-TH": "วางและปรับขนาดอย่างน้อย 4 อินสแตนซ์ ของ $(border) เพื่อสร้างกรอบรอบหน้าจอ ($(instancesCount:border)/4)"
           }
         },
         "placement": "top",
@@ -387,7 +410,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's find an **object** that we can throw.",
-            "fr-FR": "Maintenant, trouvons un **objet** que nous allons lancer."
+            "fr-FR": "Maintenant, trouvons un **objet** que nous allons lancer.",
+            "th-TH": "ทีนี้เราจะหา **วัตถุ** ที่เราจะใช้สำหรับโยน"
           }
         }
       }
@@ -401,7 +425,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose an object from the **asset store**.",
-            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**."
+            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**.",
+            "th-TH": "เลือก **วัตถุ** จาก ร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -418,7 +443,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select a rounded object that you'd like to throw (try **ball**).",
-            "fr-FR": "Ajoutez un objet rond que vous aimeriez lancer (essayez **ball**)."
+            "fr-FR": "Ajoutez un objet rond que vous aimeriez lancer (essayez **ball**).",
+            "th-TH": "เลือกวัตถุที่กลมที่คุณอยากจะโยน (ลอง **ball**)"
           }
         }
       },
@@ -460,7 +486,8 @@
         "description": {
           "messageByLocale": {
             "en": "Perfect, let's see how to throw it easily.",
-            "fr-FR": "Parfait, voyons maintenant comment le lancer."
+            "fr-FR": "Parfait, voyons maintenant comment le lancer.",
+            "th-TH": "สมบูรณ์แบบ ลองมาดูวิธีโยนมันแบบง่ายๆกัน"
           }
         }
       }
@@ -474,7 +501,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add 3 **instances** of the **object** *$(projectile)* inside the frame.",
-            "fr-FR": "Ajoutez 3 **instances** de **l'objet** *$(projectile)* dans le cadre."
+            "fr-FR": "Ajoutez 3 **instances** de **l'objet** *$(projectile)* dans le cadre.",
+            "th-TH": "เพิ่ม 3 **instances** ของ **วัตถุ** *$(projectile)* ภายในเฟรม"
           }
         }
       }
@@ -490,7 +518,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's find a target to aim.",
-            "fr-FR": "Maintenant trouvons une cible à atteindre."
+            "fr-FR": "Maintenant trouvons une cible à atteindre.",
+            "th-TH": "ทีนี้เราจะหาเป้าสำหรับโยนวัตถุใส่"
           }
         }
       }
@@ -504,7 +533,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose a new **object** from the asset store.",
-            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**."
+            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**.",
+            "th-TH": "เลือก **วัตถุ** จาก ร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -521,7 +551,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select an object that you would like to use as a target to throw $(projectile) at.",
-            "fr-FR": "Cherchez une cible qui vous plaît (essayez **target**)."
+            "fr-FR": "Cherchez une cible qui vous plaît (essayez **target**).",
+            "th-TH": "เลือกวัตถุที่คุณอยากจะโยน $(projectile) ใส่ (ลอง **target**)"
           }
         }
       },
@@ -563,7 +594,8 @@
         "description": {
           "messageByLocale": {
             "en": "Perfect, let's add it to the **scene**.",
-            "fr-FR": "Ajoutez cet objet à votre **scène**."
+            "fr-FR": "Ajoutez cet objet à votre **scène**.",
+            "th-TH": "สมบูรณ์แบบ ใส่มันลงไปใน **scene**"
           }
         }
       }
@@ -577,7 +609,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add $(target) inside the frame.",
-            "fr-FR": "Ajoutez $(target) dans le cadre."
+            "fr-FR": "Ajoutez $(target) dans le cadre.",
+            "th-TH": "เพิ่ม $(target) เข้าไปภายในเฟรม"
           }
         }
       }
@@ -593,7 +626,8 @@
         "description": {
           "messageByLocale": {
             "en": "Finally let's find something to protect $(target).",
-            "fr-FR": "Finalement, trouvons quelque chose pour protéger $(target)."
+            "fr-FR": "Finalement, trouvons quelque chose pour protéger $(target).",
+            "th-TH": "ขั้นสุดท้าย เราจะหาอะไรมาป้องกัน $(target)"
           }
         }
       }
@@ -607,7 +641,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose a new object from the asset store.",
-            "fr-FR": "Nous allons choisir un objet dans le **Magasin de ressources**."
+            "fr-FR": "Nous allons choisir un objet dans le **Magasin de ressources**.",
+            "th-TH": "เลือก **วัตถุ** จาก ร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -624,7 +659,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select a **block** object you would like to use as an obstacle for your $(projectile).",
-            "fr-FR": "Cherchez un objet qui servira d'obstacle aux $(projectile) (cherchez **block**)."
+            "fr-FR": "Cherchez un objet qui servira d'obstacle aux $(projectile) (cherchez **block**).",
+            "th-TH": "เลือกวัตถุ **block** ที่คุณอยากจะใช้เป็นสิ่งกีดขวาง $(projectile) (ลอง **block**)"
           }
         }
       },
@@ -666,7 +702,8 @@
         "description": {
           "messageByLocale": {
             "en": "Perfect, let's add it to the **scene**.",
-            "fr-FR": "Parfait, ajoutez le à la **scène**."
+            "fr-FR": "Parfait, ajoutez le à la **scène**.",
+            "th-TH": "สมบูรณ์แบบ ใส่มันลงไปใน **scene**"
           }
         }
       }
@@ -680,7 +717,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add multiple $(block)s inside the frame.",
-            "fr-FR": "Ajoutez plusieurs instances de $(block) dans le cadre."
+            "fr-FR": "Ajoutez plusieurs instances de $(block) dans le cadre.",
+            "th-TH": "เพิ่ม $(block) ปริมาณมากใส่ลงไปในเฟรม"
           }
         }
       }
@@ -694,14 +732,16 @@
         "title": {
           "messageByLocale": {
             "en": "Now, let's add some physics to our **objects**.",
-            "fr-FR": "Maintenant, ajoutons un moteur physique à nos **objets**."
+            "fr-FR": "Maintenant, ajoutons un moteur physique à nos **objets**.",
+            "th-TH": "ทีนี้เราจะเพิ่มฟิสิกส์ให้ **objects**"
           }
         },
         "placement": "left",
         "description": {
           "messageByLocale": {
             "en": "Right click on $(border) and select “Edit behaviors”.",
-            "fr-FR": "Faites un clic droit sur $(border) et cliquez sur “Modifier les comportements”."
+            "fr-FR": "Faites un clic droit sur $(border) et cliquez sur “Modifier les comportements”.",
+            "th-TH": "คลิกขวา $(border) และเลือก “แก้ไขพฤติกรรม”"
           }
         }
       }
@@ -715,7 +755,8 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "th-TH": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่"
           }
         },
         "placement": "bottom"
@@ -732,7 +773,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a new behavior.",
-            "fr-FR": "Ajoutez un nouveau comportement."
+            "fr-FR": "Ajoutez un nouveau comportement.",
+            "th-TH": "เพิ่มพฤติกรรมใหม่"
           }
         }
       },
@@ -747,7 +789,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **Physics behavior**.",
-            "fr-FR": "Sélectionnez le comportement **Moteur physique**."
+            "fr-FR": "Sélectionnez le comportement **Moteur physique**.",
+            "th-TH": "เลือก **พฤติกรรมฟิสิกส์**"
           }
         }
       },
@@ -762,7 +805,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **static**.",
-            "fr-FR": "Choisissez l'option **Fixe**."
+            "fr-FR": "Choisissez l'option **Fixe**.",
+            "th-TH": "เลือก **คงที่**"
           }
         },
         "placement": "top"
@@ -778,7 +822,8 @@
         "description": {
           "messageByLocale": {
             "en": "We'll see later how to use the other parameters. We're good now.",
-            "fr-FR": "Nous verrons plus tard à quoi servent les autres paramètres. C'est tout pour le moment."
+            "fr-FR": "Nous verrons plus tard à quoi servent les autres paramètres. C'est tout pour le moment.",
+            "th-TH": "สำหรับพารามิเตอร์อื่นๆเดี๋ยวจะกลับมาดูอีกครั้ง ตอนนี้ยังไม่ต้องไปสนใจ"
           }
         }
       }
@@ -793,7 +838,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now right click on $(projectile) and select “Edit behaviors”.",
-            "fr-FR": "Faites un clic droit sur $(projectile) et cliquez sur “Modifier les comportements”."
+            "fr-FR": "Faites un clic droit sur $(projectile) et cliquez sur “Modifier les comportements”.",
+            "th-TH": "คลิกขวาที่ $(projectile) และเลือก “แก้ไขพฤติกรรม”"
           }
         }
       }
@@ -807,7 +853,8 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "th-TH": "ดู **พฤติกรรม** จาก **วัตถุ** ที่นี่"
           }
         },
         "placement": "bottom"
@@ -824,7 +871,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a new behavior.",
-            "fr-FR": "Ajoutez un nouveau comportement."
+            "fr-FR": "Ajoutez un nouveau comportement.",
+            "th-TH": "เพิ่มพฤติกรรมใหม่"
           }
         }
       },
@@ -839,7 +887,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the Physics behavior.",
-            "fr-FR": "Sélectionnez le comportement Moteur physique."
+            "fr-FR": "Sélectionnez le comportement Moteur physique.",
+            "th-TH": "เลือกพฤติกรรมฟิสิกส์"
           }
         }
       },
@@ -854,7 +903,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **Circle**.",
-            "fr-FR": "Choisissez l'option **Cercle**."
+            "fr-FR": "Choisissez l'option **Cercle**.",
+            "th-TH": "เลือก **วงกลม**"
           }
         },
         "placement": "top"
@@ -870,7 +920,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the density to 5.",
-            "fr-FR": "Utilisez une densité de 5."
+            "fr-FR": "Utilisez une densité de 5.",
+            "th-TH": "ปรับความหนาแน่นเป็น 5"
           }
         },
         "placement": "top"
@@ -886,7 +937,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the angular damping to 15.",
-            "fr-FR": "Utilisez un amortissement angulaire de 15."
+            "fr-FR": "Utilisez un amortissement angulaire de 15.",
+            "th-TH": "ปรับการลดแรงสั่นสะเทือนเชิงมุมเป็น 15"
           }
         },
         "placement": "top"
@@ -902,7 +954,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're good.",
-            "fr-FR": "C'est bon."
+            "fr-FR": "C'est bon.",
+            "th-TH": "เรียบร้อยแล้ว"
           }
         }
       }
@@ -917,7 +970,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now right click on $(target) and select “Edit behaviors”.",
-            "fr-FR": "Faites un clic droit sur $(target) et cliquez sur “Modifier les comportements”."
+            "fr-FR": "Faites un clic droit sur $(target) et cliquez sur “Modifier les comportements”.",
+            "th-TH": "คลิกขวาที่ $(target) และเลือก “แก้ไขพฤติกรรม”"
           }
         }
       }
@@ -931,7 +985,8 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "th-TH": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่"
           }
         },
         "placement": "bottom"
@@ -955,7 +1010,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the Physics behavior.",
-            "fr-FR": "Sélectionnez le comportement Moteur physique."
+            "fr-FR": "Sélectionnez le comportement Moteur physique.",
+            "th-TH": "เลือกพฤติกรรมฟิสิกส์"
           }
         }
       },
@@ -970,7 +1026,8 @@
         "description": {
           "messageByLocale": {
             "en": "No need to change anything.",
-            "fr-FR": "La configuration de base suffit. Continuons."
+            "fr-FR": "La configuration de base suffit. Continuons.",
+            "th-TH": "ไม่ต้องเปลี่ยนแปลงอะไร"
           }
         }
       }
@@ -985,7 +1042,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now right click on $(block) and select “Edit behaviors”.",
-            "fr-FR": "Faites un clic droit sur $(block) et cliquez sur “Modifier les comportements”."
+            "fr-FR": "Faites un clic droit sur $(block) et cliquez sur “Modifier les comportements”.",
+            "th-TH": "คลิกขวาที่ $(block) และเลือก “แก้ไขพฤติกรรม”"
           }
         }
       }
@@ -999,7 +1057,8 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "th-TH": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่"
           }
         },
         "placement": "bottom"
@@ -1023,7 +1082,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the Physics behavior.",
-            "fr-FR": "Sélectionnez le comportement Moteur physique."
+            "fr-FR": "Sélectionnez le comportement Moteur physique.",
+            "th-TH": "เลือกพฤติกรรมฟิสิกส์"
           }
         }
       },
@@ -1045,13 +1105,15 @@
         "title": {
           "messageByLocale": {
             "en": "Now we'll make it possible for the player to drag the $(projectile).",
-            "fr-FR": "Maintenant, nous allons faire en sorte que le joueur puisse faire glisser $(projectile) avec sa souris."
+            "fr-FR": "Maintenant, nous allons faire en sorte que le joueur puisse faire glisser $(projectile) avec sa souris.",
+            "th-TH": "ทีนี้เราจะทำให้ผู้เล่นสามารถลาก $(projectile)"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**.",
-            "fr-FR": "Pour cela, nous allons installer un **extension**.\n\nOuvrez le **Gestionnaire de projet**."
+            "fr-FR": "Pour cela, nous allons installer un **extension**.\n\nOuvrez le **Gestionnaire de projet**.",
+            "th-TH": "โดยเราจะติดตั้ง **extension**\n\nเปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
         "placement": "right"
@@ -1066,7 +1128,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Extensions** tab.",
-            "fr-FR": "Ouvrez l'onglet **Extensions**."
+            "fr-FR": "Ouvrez l'onglet **Extensions**.",
+            "th-TH": "เปิดแท็บ **Extensions**"
           }
         }
       },
@@ -1082,7 +1145,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the extension store",
-            "fr-FR": "Ouvrez le **Magasin d'extension**."
+            "fr-FR": "Ouvrez le **Magasin d'extension**.",
+            "th-TH": "เปิดร้านค้า extension"
           }
         }
       },
@@ -1097,7 +1161,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for the **draggable** extension (for physics objects).",
-            "fr-FR": "Cherchez l'extension **draggable**."
+            "fr-FR": "Cherchez l'extension **draggable**.",
+            "th-TH": "ค้นหา **draggable** extension (สำหรับวัตถุฟิสิกส์)"
           }
         }
       },
@@ -1113,7 +1178,8 @@
         "description": {
           "messageByLocale": {
             "en": "Click on the extension.",
-            "fr-FR": "Cliquez sur l'extension."
+            "fr-FR": "Cliquez sur l'extension.",
+            "th-TH": "คลิกที่ extension"
           }
         }
       },
@@ -1128,7 +1194,8 @@
         "description": {
           "messageByLocale": {
             "en": "Install the extension in your project.",
-            "fr-FR": "Installez l'extension dans votre projet."
+            "fr-FR": "Installez l'extension dans votre projet.",
+            "th-TH": "ติดตั้ง extension ในโปรเจกต์ของคุณ"
           }
         },
         "placement": "left"
@@ -1144,7 +1211,8 @@
         "description": {
           "messageByLocale": {
             "en": "Close the store.",
-            "fr-FR": "Fermez le magasin."
+            "fr-FR": "Fermez le magasin.",
+            "th-TH": "ปิดหน้าต่างของร้านค้า"
           }
         }
       }
@@ -1159,7 +1227,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now right click on $(projectile) and select “Edit behaviors”.",
-            "fr-FR": "Faites un clic droit sur $(projectile) et cliquez sur “Modifier les comportements”."
+            "fr-FR": "Faites un clic droit sur $(projectile) et cliquez sur “Modifier les comportements”.",
+            "th-TH": "คลิกขวาที่ $(projectile) และเลือก “แก้ไขพฤติกรรม”"
           }
         }
       }
@@ -1173,7 +1242,8 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "th-TH": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่"
           }
         },
         "placement": "bottom"
@@ -1190,7 +1260,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a new behavior.",
-            "fr-FR": "Ajoutez un nouveau comportement."
+            "fr-FR": "Ajoutez un nouveau comportement.",
+            "th-TH": "เพิ่มพฤติกรรมใหม่"
           }
         }
       },
@@ -1205,7 +1276,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the Draggable behavior.",
-            "fr-FR": "Sélectionnez le comportement Draggable."
+            "fr-FR": "Sélectionnez le comportement Draggable.",
+            "th-TH": "เลือกพฤติกรรม Draggable"
           }
         }
       },
@@ -1220,7 +1292,8 @@
         "description": {
           "messageByLocale": {
             "en": "That's it!",
-            "fr-FR": "C'est tout !"
+            "fr-FR": "C'est tout !",
+            "th-TH": "เรียบร้อยแล้ว!"
           }
         }
       }
@@ -1234,7 +1307,8 @@
         "description": {
           "messageByLocale": {
             "en": "Click on the **Preview** button to see how you can click and drag your $(projectile) around the scene!",
-            "fr-FR": "Cliquez sur **Aperçu** pour tester votre jeu. Cliquez et faites glisser $(projectile) dans la scène !"
+            "fr-FR": "Cliquez sur **Aperçu** pour tester votre jeu. Cliquez et faites glisser $(projectile) dans la scène !",
+            "th-TH": "ลองคลิกที่ **ดูตัวอย่าง** แล้วทำการคลิกและลาก $(projectile) ไปมาเพื่อทดสอบกันเถอะ!"
           }
         },
         "placement": "bottom"
@@ -1248,24 +1322,28 @@
             "messageByLocale": {
               "en": "## Congratulations!",
               "fr-FR": "## Félicitations !"
+ ,             "th-TH": "## ยินดีด้วย!"
             }
           },
           {
             "messageByLocale": {
               "en": "You have finished the first part of your Fling Game.",
               "fr-FR": "Vous avez terminé la première partie de votre jeu."
+ ,             "th-TH": "ส่วนแรกของเกม Fling ของคุณเสร็จแล้ว"
             }
           },
           {
             "messageByLocale": {
               "en": "You've discovered the basics of GDevelop:\n- [Objects](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=In%20GDevelop%2C%20everything%20on%20the,add%20text%20to%20a%20game)\n- [Instances](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=After%20creating%20an%20object%2C%20GDevelop,an%20instance%20of%20the%20object)\n- [Behaviors](https://wiki.gdevelop.io/gdevelop5/behaviors#:~:text=In%20GDevelop%2C%20behaviors%20add%20significant,following%20the%20laws%20of%20physics)\n- [Scenes](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor#:~:text=The%20Scene%20Editor%20is%20where,events%20in%20the%20Events%20Editor)",
               "fr-FR": "Vous avez découvert les bases de GDevelop:\n- [les objets](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=In%20GDevelop%2C%20everything%20on%20the,add%20text%20to%20a%20game)\n- [les instances](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=After%20creating%20an%20object%2C%20GDevelop,an%20instance%20of%20the%20object)\n- [les comportements](https://wiki.gdevelop.io/gdevelop5/behaviors#:~:text=In%20GDevelop%2C%20behaviors%20add%20significant,following%20the%20laws%20of%20physics)\n- [les scènes](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor#:~:text=The%20Scene%20Editor%20is%20where,events%20in%20the%20Events%20Editor)"
+ ,             "th-TH": "คุณได้เรียนรู้พื้นฐานของ GDevelop:\n- [Objects](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=In%20GDevelop%2C%20everything%20on%20the,add%20text%20to%20a%20game)\n- [Instances](https://wiki.gdevelop.io/gdevelop5/objects#:~:text=After%20creating%20an%20object%2C%20GDevelop,an%20instance%20of%20the%20object)\n- [Behaviors](https://wiki.gdevelop.io/gdevelop5/behaviors#:~:text=In%20GDevelop%2C%20behaviors%20add%20significant,following%20the%20laws%20of%20physics)\n- [Scenes](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor#:~:text=The%20Scene%20Editor%20is%20where,events%20in%20the%20Events%20Editor"
             }
           },
           {
             "messageByLocale": {
               "en": "Now you can take a break from the tutorial, or continue to the next chapter.",
               "fr-FR": "Vous pouvez maintenant faire une pause avant de commencer le prochain chapitre."
+ ,             "th-TH": "คุณสามารถหยุดพักบทเรียนตรงนี้ หรือเข้าสู่บทเรียนถัดไปเลยก็ได้"
             }
           }
         ]
@@ -1282,7 +1360,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's find a background for our game.",
-            "fr-FR": "Cherchons un arrière-plan pour notre jeu."
+            "fr-FR": "Cherchons un arrière-plan pour notre jeu.",
+            "th-TH": "หาพื้นหลังสำหรับเกม"
           }
         }
       }
@@ -1296,7 +1375,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose an **object** from the asset store.",
-            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**."
+            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**.",
+            "th-TH": "ค้นหา **วัตถุ** จาก ร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -1313,7 +1393,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type “**background**”.",
-            "fr-FR": "Cherchez “**background**”."
+            "fr-FR": "Cherchez “**background**”.",
+            "th-TH": "ประเภท “**background**”"
           }
         }
       },
@@ -1355,7 +1436,8 @@
         "description": {
           "messageByLocale": {
             "en": "Perfect, let's use it in our **scene**.",
-            "fr-FR": "Parfait, ajoutez le à la **scène**."
+            "fr-FR": "Parfait, ajoutez le à la **scène**.",
+            "th-TH": "สมบูรณ์แบบ ใส่มันลงไปใน **scene**"
           }
         }
       }
@@ -1369,7 +1451,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(background) from the menu to the canvas.",
-            "fr-FR": "Faites glisser $(background) du menu au canvas."
+            "fr-FR": "Faites glisser $(background) du menu au canvas.",
+            "th-TH": "ลาก $(background) จากเมนูไปยังแคนวาส"
           }
         },
         "placement": "left"
@@ -1380,7 +1463,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr-FR": "J'ai terminé",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -1389,7 +1473,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag to expand the size of $(background) until it stretches over your entire game area.",
-            "fr-FR": "Redimensionnez $(background) de façon à ce qu'il couvre toute la zone de jeu."
+            "fr-FR": "Redimensionnez $(background) de façon à ce qu'il couvre toute la zone de jeu.",
+            "th-TH": "ลากเพื่อปรับขนาด $(background) จนมันครอบคลุมบริเวณทั้งหมดในเกมของคุณ"
           }
         },
         "image": {
@@ -1407,7 +1492,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **instance** properties editor panel and select the instance of $(background) on the scene.",
-            "fr-FR": "Ouvrez le panneau d'édition des propriétés de **l'instance** et sélectionnez l'instance de $(background) sur la scène."
+            "fr-FR": "Ouvrez le panneau d'édition des propriétés de **l'instance** et sélectionnez l'instance de $(background) sur la scène.",
+            "th-TH": "เปิดแผงควบคุมสำหรับแก้ไขคุณสมบัติ **instance** และเลือก instance ของ $(background) ใน scence"
           }
         },
         "placement": "bottom"
@@ -1423,7 +1509,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the instance of $(background) on the scene.",
-            "fr-FR": "Sélectionnez l'instance de $(background) sur la scène."
+            "fr-FR": "Sélectionnez l'instance de $(background) sur la scène.",
+            "th-TH": "เลือก instance ของ $(background) ใน scence"
           }
         }
       }
@@ -1437,7 +1524,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the z order of $(background) to **-1** so that it is behind all other **instances** on the **scene**.",
-            "fr-FR": "Définissez la position sur l'axe z de $(background) à -1 pour qu'il soit derrière toutes les autres **instances** de la scène."
+            "fr-FR": "Définissez la position sur l'axe z de $(background) à -1 pour qu'il soit derrière toutes les autres **instances** de la scène.",
+            "th-TH": "ปรับค่าลำดับ z ของ $(background) เป็น **-1** เพื่อให้พื้นหลังปรากฏอยู่ข้างหลัง **instances** อื่น"
           }
         },
         "placement": "right"
@@ -1454,7 +1542,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add some protection for $(target).",
-            "fr-FR": "Ajoutons un objet pour protéger $(target)."
+            "fr-FR": "Ajoutons un objet pour protéger $(target).",
+            "th-TH": "เพิ่มวัตถุป้องกันให้ $(target)"
           }
         }
       }
@@ -1468,7 +1557,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose an **object** from the asset store.",
-            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**."
+            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**.",
+            "th-TH": "เพิ่ม **วัตถุ** จาก ร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -1485,7 +1575,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for **block**.",
-            "fr-FR": "Cherchez “**block**”."
+            "fr-FR": "Cherchez “**block**”.",
+            "th-TH": "ค้นหา “**block**”"
           }
         }
       },
@@ -1527,7 +1618,8 @@
         "description": {
           "messageByLocale": {
             "en": "Perfect, let's add it to the **scene**.",
-            "fr-FR": "Parfait, ajoutez le à la **scène**."
+            "fr-FR": "Parfait, ajoutez le à la **scène**.",
+            "th-TH": "สมบูรณ์แบบ ใส่มันลงไปใน **scene**"
           }
         }
       }
@@ -1542,13 +1634,15 @@
         "title": {
           "messageByLocale": {
             "en": "Let's make them static so that they act as a wall.",
-            "fr-FR": "Faisons en sorte qu'il reste fixe comme un mur."
+            "fr-FR": "Faisons en sorte qu'il reste fixe comme un mur.",
+            "th-TH": "ทำให้คงที่เพื่อใช้ทำหน้าที่เป็นผนัง"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "Right click on $(obstacle) and select “Edit behaviors”.",
-            "fr-FR": "Faites un clic droit sur $(obstacle) et cliquez sur “Modifier les comportements”."
+            "fr-FR": "Faites un clic droit sur $(obstacle) et cliquez sur “Modifier les comportements”.",
+            "th-TH": "คลิกขวาที่ $(obstacle) และเลือก “แก้ไขพฤติกรรม”"
           }
         }
       }
@@ -1562,7 +1656,8 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet."
+            "fr-FR": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "th-TH": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่"
           }
         },
         "placement": "bottom"
@@ -1579,7 +1674,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a new behavior.",
-            "fr-FR": "Ajoutez un nouveau comportement."
+            "fr-FR": "Ajoutez un nouveau comportement.",
+            "th-TH": "เพิ่มพฤติกรรมใหม่"
           }
         }
       },
@@ -1594,7 +1690,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the Physics behavior.",
-            "fr-FR": "Sélectionnez le comportement Moteur physique."
+            "fr-FR": "Sélectionnez le comportement Moteur physique.",
+            "th-TH": "เลือกพฤติกรรมฟิสิกส์"
           }
         }
       },
@@ -1609,7 +1706,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **static**.",
-            "fr-FR": "Choisissez l'option **Fixe**."
+            "fr-FR": "Choisissez l'option **Fixe**.",
+            "th-TH": "เลือก **คงที่**"
           }
         },
         "placement": "top"
@@ -1625,7 +1723,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're good.",
-            "fr-FR": "C'est bon."
+            "fr-FR": "C'est bon.",
+            "th-TH": "เรียบร้อยแล้ว"
           }
         }
       }
@@ -1639,7 +1738,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a few $(obstacle) to the **scene** to protect $(target).",
-            "fr-FR": "Ajoutez quelques $(obstacle) à la **scène** pour protéger $(target)."
+            "fr-FR": "Ajoutez quelques $(obstacle) à la **scène** pour protéger $(target).",
+            "th-TH": "เพิ่ม $(obstacle) ปริมาณนิดหน่อยลงใน **scene** เพื่อป้องกัน $(target)"
           }
         }
       }
@@ -1655,7 +1755,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's create a winning message!",
-            "fr-FR": "Maintenant, nous allons ajouter un message quand le joueur atteint la cible."
+            "fr-FR": "Maintenant, nous allons ajouter un message quand le joueur atteint la cible.",
+            "th-TH": "ทีนี้เราจะสร้างข้อความแสดงชัยชนะ!"
           }
         }
       }
@@ -1669,7 +1770,8 @@
         "description": {
           "messageByLocale": {
             "en": "This time, we'll create a text from scratch.",
-            "fr-FR": "Cette fois-ci, nous allons créer un texte de zéro."
+            "fr-FR": "Cette fois-ci, nous allons créer un texte de zéro.",
+            "th-TH": "คราวนี้ เราจะสร้างข้อความโดยทำขึ้นมาเอง"
           }
         },
         "placement": "bottom"
@@ -1686,7 +1788,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **Text** object",
-            "fr-FR": "Sélectionnez l'objet **Texte**"
+            "fr-FR": "Sélectionnez l'objet **Texte**",
+            "th-TH": "เลือกวัตถุ **ข้อความ**"
           }
         },
         "placement": "bottom"
@@ -1702,7 +1805,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the object name to “**YouWin**”.",
-            "fr-FR": "Utilisez “**Victoire**” comme nom d'objet."
+            "fr-FR": "Utilisez “**Victoire**” comme nom d'objet.",
+            "th-TH": "แก้ไขชื่อของวัตถุเป็น “**YouWin**”"
           }
         },
         "placement": "bottom"
@@ -1718,7 +1822,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the font size to **200**.",
-            "fr-FR": "Utilisez une taille de **200**."
+            "fr-FR": "Utilisez une taille de **200**.",
+            "th-TH": "แก้ไขขนาดฟอนต์เป็น **200**"
           }
         },
         "placement": "bottom"
@@ -1734,7 +1839,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the text to “**You Win!**”",
-            "fr-FR": "Cet objet texte devra afficher “**Gagné !**”"
+            "fr-FR": "Cet objet texte devra afficher “**Gagné !**”",
+            "th-TH": "แก้ไขข้อความเป็น “**คุณชนะ!**”"
           }
         },
         "placement": "bottom"
@@ -1750,7 +1856,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're done.",
-            "fr-FR": "Nous avons terminé."
+            "fr-FR": "Nous avons terminé.",
+            "th-TH": "เรียบร้อยแล้ว"
           }
         }
       },
@@ -1767,7 +1874,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(youWinText) into the **scene**, and center it as well as possible.",
-            "fr-FR": "Faites glisser $(youWinText) du menu au canvas et centrez le sur la scène."
+            "fr-FR": "Faites glisser $(youWinText) du menu au canvas et centrez le sur la scène.",
+            "th-TH": "ลาก $(youWinText) ไปยัง **scene** และพยายามจัดตำแหน่งให้อยู่ตรงกลาง"
           }
         },
         "placement": "left"
@@ -1782,7 +1890,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Layers** panel.",
-            "fr-FR": "Ouvrez le panneau des **calques*."
+            "fr-FR": "Ouvrez le panneau des **calques*.",
+            "th-TH": "เปิดแผงควบคุม **Layers**"
           }
         },
         "placement": "bottom"
@@ -1798,7 +1907,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a new layer.",
-            "fr-FR": "Créez un nouveau calque."
+            "fr-FR": "Créez un nouveau calque.",
+            "th-TH": "เพิ่มเลเยอร์ใหม่"
           }
         },
         "placement": "top"
@@ -1813,7 +1923,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the name to **WinLayer**.",
-            "fr-FR": "Utlisez le nom **CalqueVictoire**."
+            "fr-FR": "Utlisez le nom **CalqueVictoire**.",
+            "th-TH": "เปลี่ยนชื่อเป็น **WinLayer**"
           }
         },
         "placement": "top"
@@ -1828,7 +1939,8 @@
         "description": {
           "messageByLocale": {
             "en": "Hide the **layer**.",
-            "fr-FR": "Cachez le **calque**."
+            "fr-FR": "Cachez le **calque**.",
+            "th-TH": "ซ่อน *เลเยอร์*"
           }
         },
         "placement": "top"
@@ -1839,7 +1951,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr-FR": "J'ai terminé",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -1847,7 +1960,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now select the $(youWinText) **instance** on the **scene** and change its **layer** using the **properties panel**.\n\nIt should have disappeared!",
-            "fr-FR": "Sélectionnez l'instance de $(youWinText) sur la **scène** et changez son **calque** en utilisant le **panneau des propriétés**.\n\nIl devrait maintenant être caché."
+            "fr-FR": "Sélectionnez l'instance de $(youWinText) sur la **scène** et changez son **calque** en utilisant le **panneau des propriétés**.\n\nIl devrait maintenant être caché.",
+            "th-TH": "ทีนี้เลือก $(youWinText) **instance** บน **scence** และเปลี่ยน **เลเยอร์** โดยใช้ **แผงควบคุมคุณสมบัติ**\n\nมันควรจะหายไป!"
           }
         },
         "standalone": true
@@ -1862,7 +1976,8 @@
         "description": {
           "messageByLocale": {
             "en": "We are now going to add some logic to our game.",
-            "fr-FR": "Nous allons maintenant ajouter de la logique à notre jeu."
+            "fr-FR": "Nous allons maintenant ajouter de la logique à notre jeu.",
+            "th-TH": "เราจะเพิ่มโลจิกบางอย่างเข้าไปในเกม"
           }
         }
       }
@@ -1877,7 +1992,8 @@
         "title": {
           "messageByLocale": {
             "en": "Let's add our first **Event**!",
-            "fr-FR": "Créons notre premier **évènement** !"
+            "fr-FR": "Créons notre premier **évènement** !",
+            "th-TH": "มาเพิ่ม **อีเวนท์** แรกกันเถอะ!"
           }
         }
       }
@@ -1891,7 +2007,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a **condition**.",
-            "fr-FR": "Créez une **condition**."
+            "fr-FR": "Créez une **condition**.",
+            "th-TH": "เพิ่ม **เงื่อนไข**"
           }
         }
       }
@@ -1905,7 +2022,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(projectile).",
-            "fr-FR": "Cliquez sur $(projectile)."
+            "fr-FR": "Cliquez sur $(projectile).",
+            "th-TH": "เลือก $(projectile)"
           }
         }
       },
@@ -1920,7 +2038,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the collision condition.",
-            "fr-FR": "Cliquez sur la condition collision."
+            "fr-FR": "Cliquez sur la condition collision.",
+            "th-TH": "เลือกเงื่อนไขการชนกัน"
           }
         }
       },
@@ -1935,7 +2054,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(target).",
-            "fr-FR": "Cliquez sur $(target)."
+            "fr-FR": "Cliquez sur $(target).",
+            "th-TH": "เลือก $(target)"
           }
         },
         "placement": "top"
@@ -1951,7 +2071,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **condition** is all set.",
-            "fr-FR": "La condition est maintenant configurée."
+            "fr-FR": "La condition est maintenant configurée.",
+            "th-TH": "เอาล่ะ **เงื่อนไข** ได้ถูกกำหนดเอาไว้เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -1966,7 +2087,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add an **action** now.",
-            "fr-FR": "Créez une **action** maintenant."
+            "fr-FR": "Créez une **action** maintenant.",
+            "th-TH": "เพิ่ม **การกระทำ**"
           }
         }
       }
@@ -1980,7 +2102,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(target).",
-            "fr-FR": "Cliquez sur $(target)."
+            "fr-FR": "Cliquez sur $(target).",
+            "th-TH": "เลือก $(target)"
           }
         }
       },
@@ -1995,7 +2118,8 @@
         "description": {
           "messageByLocale": {
             "en": "We will make $(target) disappear on collision.",
-            "fr-FR": "Nous allons faire disparaître $(target) au moment de la collision."
+            "fr-FR": "Nous allons faire disparaître $(target) au moment de la collision.",
+            "th-TH": "เราจะทำให้ $(target) หายไปหลังจากชน"
           }
         }
       },
@@ -2010,7 +2134,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, $(target) will now disappear when $(projectile) hits it.",
-            "fr-FR": "Parfait, $(target) va disparaître quand un $(projectile) l'atteindra."
+            "fr-FR": "Parfait, $(target) va disparaître quand un $(projectile) l'atteindra.",
+            "th-TH": "เอาล่ะ ทีนี้ $(target) จะหายไปเมื่อถูก $(projectile) ชน"
           }
         },
         "placement": "top"
@@ -2025,7 +2150,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add another **action** that will be executed for the same **condition**.",
-            "fr-FR": "Créons une autre **action** qui sera exécutée pour la même **condition**."
+            "fr-FR": "Créons une autre **action** qui sera exécutée pour la même **condition**.",
+            "th-TH": "สร้าง **การกระทำ** เพิ่มอีก ซึ่งจะใช้ในกรณี **เงื่อนไข** เดียวกัน"
           }
         }
       }
@@ -2039,7 +2165,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “layer”.",
-            "fr-FR": "Cherchez “calque”."
+            "fr-FR": "Cherchez “calque”.",
+            "th-TH": "ค้นหา “layer”"
           }
         }
       },
@@ -2054,7 +2181,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **Show a layer** action.",
-            "fr-FR": "Cliquez sur l'action **Afficher un calque**."
+            "fr-FR": "Cliquez sur l'action **Afficher un calque**.",
+            "th-TH": "เลือกการกระทำ **แสดงเลเยอร์**"
           }
         }
       },
@@ -2069,7 +2197,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **layer** you created.",
-            "fr-FR": "Sélectionnez le **calque** que vous avez créé."
+            "fr-FR": "Sélectionnez le **calque** que vous avez créé.",
+            "th-TH": "เลือก **เลเยอร์** ที่คุณสร้าง"
           }
         },
         "placement": "top"
@@ -2085,7 +2214,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, now the title should appear when the player hits $(target) with $(projectile).",
-            "fr-FR": "Maintenant, le titre de victoire devrait apparaître quand le joueur touche $(target) avec $(projectile)."
+            "fr-FR": "Maintenant, le titre de victoire devrait apparaître quand le joueur touche $(target) avec $(projectile).",
+            "th-TH": "เอาล่ะ ทีนี้ข้อความควรจะปรากฎเมื่อผู้เล่นโยน $(projectile) ชน $(target)"
           }
         },
         "placement": "top"
@@ -2100,7 +2230,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's get back to the **scene** to create some constraints for the player.",
-            "fr-FR": "Retournons à la **scène** pour ajouter des contraintes au joueur ou à la joueuse."
+            "fr-FR": "Retournons à la **scène** pour ajouter des contraintes au joueur ou à la joueuse.",
+            "th-TH": "กลับไปยัง **scene** เพื่อสร้างขีดจำกัดให้ผู้เล่น "
           }
         }
       }
@@ -2116,7 +2247,8 @@
         "description": {
           "messageByLocale": {
             "en": "We'll define an area where the player can grab $(projectile). Outside of this area, the $(projectile)s will be free.",
-            "fr-FR": "Nous allons définir une zone où le joueur ou la joueuse peut attraper les $(projectile)s. En dehors de cette zone, les $(projectile)s seront en mouvement libre."
+            "fr-FR": "Nous allons définir une zone où le joueur ou la joueuse peut attraper les $(projectile)s. En dehors de cette zone, les $(projectile)s seront en mouvement libre.",
+            "th-TH": "เราจะกำหนดพื้นที่ที่ผู้เล่นจะสามารถจับ $(projectile) นอกเหนือจากพื้นที่ดังกล่าวนั้น $(projectile) จะเป็นอิสระ"
           }
         }
       }
@@ -2130,7 +2262,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose an object from the asset store",
-            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**."
+            "fr-FR": "Nous allons choisir un objet dans le **magasin de ressources**.",
+            "th-TH": "เลือกวัตถุจากร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -2147,7 +2280,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type “**background**”.",
-            "fr-FR": "Cherchez “**background**”."
+            "fr-FR": "Cherchez “**background**”.",
+            "th-TH": "พิมพ์ “**background**”"
           }
         }
       },
@@ -2189,7 +2323,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's use it now!",
-            "fr-FR": "Mettons la zone en place."
+            "fr-FR": "Mettons la zone en place.",
+            "th-TH": "เอาไปใช้เลย!"
           }
         }
       }
@@ -2203,7 +2338,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(grabArea) from the menu to the canvas.",
-            "fr-FR": "Faites glisser $(grabArea) du menu à au canvas."
+            "fr-FR": "Faites glisser $(grabArea) du menu à au canvas.",
+            "th-TH": "ลาก $(grabArea) จากเมนูไปยังแคนวาส"
           }
         },
         "placement": "left"
@@ -2214,7 +2350,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr-FR": "J'ai terminé",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -2223,7 +2360,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag and resize $(grabArea) until it covers the lower left side of the game screen.",
-            "fr-FR": "Placez et redimensionnez $(grabArea) de telle sorte à ce qu'il couvre le coin en bas à gauche de l'écran de jeu."
+            "fr-FR": "Placez et redimensionnez $(grabArea) de telle sorte à ce qu'il couvre le coin en bas à gauche de l'écran de jeu.",
+            "th-TH": "ลากและปรับขนาด $(grabArea) จนมันครอบคลุมบริเวณซ้ายล่างในหน้าจอเกมของคุณ"
           }
         },
         "image": {
@@ -2240,7 +2378,8 @@
         "description": {
           "messageByLocale": {
             "en": "Make sure that $(grabArea) is selected and change this value to **0**.",
-            "fr-FR": "Sélectionnez l'instance de $(grabArea) et définissez sa position sur l'axe z à **0**."
+            "fr-FR": "Sélectionnez l'instance de $(grabArea) et définissez sa position sur l'axe z à **0**.",
+            "th-TH": "ดูให้แน่ใจว่า $(grabArea) ถูกเลือกอยู่ และปรับค่านี้เป็น **0**"
           }
         },
         "placement": "right"
@@ -2255,7 +2394,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's deactivate the draggable **behavior** of $(projectile) when outside of the $(grabArea).",
-            "fr-FR": "Maintenant, désactivons le **comportement** “draggable” quand les $(projectile)s sont en dehors de la zone $(grabArea)."
+            "fr-FR": "Maintenant, désactivons le **comportement** “draggable” quand les $(projectile)s sont en dehors de la zone $(grabArea).",
+            "th-TH": "ปิดฟังก์ชันในการสามารถถูกลาก **พฤติกรรม** ของ $(projectile) เมื่ออยู่ภายนอก $(grabArea)"
           }
         }
       }
@@ -2271,7 +2411,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create a new event!",
-            "fr-FR": "Créez un nouvel évènement."
+            "fr-FR": "Créez un nouvel évènement.",
+            "th-TH": "สร้างอีเวนท์ใหม่กันเถอะ!"
           }
         }
       }
@@ -2285,7 +2426,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a **condition**.",
-            "fr-FR": "Ajoutez une **condition**."
+            "fr-FR": "Ajoutez une **condition**.",
+            "th-TH": "เพิ่ม **เงื่อนไข**"
           }
         }
       }
@@ -2299,7 +2441,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(projectile).",
-            "fr-FR": "Cliquez sur $(projectile)."
+            "fr-FR": "Cliquez sur $(projectile).",
+            "th-TH": "เลือก $(projectile)"
           }
         }
       },
@@ -2314,7 +2457,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the collision condition.",
-            "fr-FR": "Cliquez sur la condition collision."
+            "fr-FR": "Cliquez sur la condition collision.",
+            "th-TH": "เลือกเงื่อนไขการชนกัน"
           }
         }
       },
@@ -2329,7 +2473,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(grabArea).",
-            "fr-FR": "Cliquez sur $(grabArea)."
+            "fr-FR": "Cliquez sur $(grabArea).",
+            "th-TH": "เลือก $(grabArea)"
           }
         },
         "placement": "top"
@@ -2345,7 +2490,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **condition** is all set.",
-            "fr-FR": "La **condition** est maintenant prête."
+            "fr-FR": "La **condition** est maintenant prête.",
+            "th-TH": "เอาล่ะ เงื่อนไขถูกกำหนดเอาไว้เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -2360,7 +2506,8 @@
         "description": {
           "messageByLocale": {
             "en": "Right click on this newly created **condition** and select “Invert condition”.",
-            "fr-FR": "Faites un clic droit sur la nouvelle **condition** et sélectionnez “Inverser une condition”."
+            "fr-FR": "Faites un clic droit sur la nouvelle **condition** et sélectionnez “Inverser une condition”.",
+            "th-TH": "คลิกขวาที่ **เงื่อนไข** ที่เพิ่งสร้างขึ้นมาและเลือก “เงื่อนไขแบบตรงกันข้าม”"
           }
         },
         "placement": "right"
@@ -2375,7 +2522,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add an action.",
-            "fr-FR": "Ajoutez une action."
+            "fr-FR": "Ajoutez une action.",
+            "th-TH": "เพิ่มการกระทำ"
           }
         }
       }
@@ -2389,7 +2537,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(projectile).",
-            "fr-FR": "Cliquez sur $(projectile)."
+            "fr-FR": "Cliquez sur $(projectile).",
+            "th-TH": "เลือก $(projectile)"
           }
         }
       },
@@ -2404,7 +2553,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **action** that releases the $(projectile) from the player drag.",
-            "fr-FR": "Sélectionnez **l'action** qui libère le $(projectile) de la souris du joueur ou de la joueuse."
+            "fr-FR": "Sélectionnez **l'action** qui libère le $(projectile) de la souris du joueur ou de la joueuse.",
+            "th-TH": "เลือก **การกระทำ** ที่ปล่อย $(projectile) จากการถูกผู้เล่นจับลาก"
           }
         }
       },
@@ -2419,7 +2569,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're good.",
-            "fr-FR": "C'est bon."
+            "fr-FR": "C'est bon.",
+            "th-TH": "มาถูกทางแล้ว"
           }
         },
         "placement": "top"
@@ -2434,7 +2585,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's get back to the **scene** to place the $(projectile)s correctly.",
-            "fr-FR": "Revenons à la **scène** pour placer les $(projectile)s correctement."
+            "fr-FR": "Revenons à la **scène** pour placer les $(projectile)s correctement.",
+            "th-TH": "กลับไปยัง **scene** เพื่อวาง $(projectile) ให้ถูกต้อง"
           }
         }
       }
@@ -2445,7 +2597,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr-FR": "J'ai terminé",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -2455,13 +2608,15 @@
         "title": {
           "messageByLocale": {
             "en": "Rearrange the $(projectile)s.",
-            "fr-FR": "Repositionnez les $(projectile)s."
+            "fr-FR": "Repositionnez les $(projectile)s.",
+            "th-TH": "จัดระเบียบ $(projectile)"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "Drag all **instances** of $(projectile) within the boundaries of $(background).",
-            "fr-FR": "Faites glisser les **instances** de $(projectile) à l'intérieur de $(background)."
+            "fr-FR": "Faites glisser les **instances** de $(projectile) à l'intérieur de $(background).",
+            "th-TH": "ลาก **instances** ของ $(projectile) ภายในขอบเขต $(background)"
           }
         }
       }
@@ -2471,7 +2626,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr-FR": "J'ai terminé",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -2481,13 +2637,15 @@
         "title": {
           "messageByLocale": {
             "en": "Set up $(target) protection.",
-            "fr-FR": "Créez une protection pour $(target)."
+            "fr-FR": "Créez une protection pour $(target).",
+            "th-TH": "ตั้งที่ป้องกัน $(target)"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "Arrange both $(block) and $(obstacle) in a way to protect $(target).",
-            "fr-FR": "Positionnez les instances de $(block) et de $(obstacle) de manière à protéger $(target)."
+            "fr-FR": "Positionnez les instances de $(block) et de $(obstacle) de manière à protéger $(target).",
+            "th-TH": "จัดวาง $(block) และ $(obstacle) โดยมีเป้าหมายเพื่อปกป้อง $(target)"
           }
         }
       }
@@ -2501,7 +2659,8 @@
         "description": {
           "messageByLocale": {
             "en": "**Preview** the game and make sure it's winnable.",
-            "fr-FR": "Lancez un **Aperçu** du jeu et assurez-vous qu'il est possible de toucher $(target)."
+            "fr-FR": "Lancez un **Aperçu** du jeu et assurez-vous qu'il est possible de toucher $(target).",
+            "th-TH": "ลองเล่น **ดูตัวอย่าง** เพื่อให้มั่นใจว่าสามารถเล่นเกมชนะได้"
           }
         },
         "placement": "bottom"
@@ -2516,7 +2675,8 @@
         "description": {
           "messageByLocale": {
             "en": "Once you're ready, we'll generate a link to share your game.",
-            "fr-FR": "Une fois que c'est bon, nous allons générer un lien pour partager votre jeu."
+            "fr-FR": "Une fois que c'est bon, nous allons générer un lien pour partager votre jeu.",
+            "th-TH": "เมื่อพร้อมแล้ว เราจะสร้างลิงค์สำหรับแชร์เกม"
           }
         },
         "placement": "bottom"
@@ -2531,7 +2691,8 @@
         "description": {
           "messageByLocale": {
             "en": "First, you need to create an account.",
-            "fr-FR": "Tout d'abord, vous devez vous créer un compte."
+            "fr-FR": "Tout d'abord, vous devez vous créer un compte.",
+            "th-TH": "ก่อนอื่น คุณจะต้องมีบัญชี"
           }
         },
         "placement": "bottom"
@@ -2561,7 +2722,8 @@
         "description": {
           "messageByLocale": {
             "en": "Fill in the form and then click here.",
-            "fr-FR": "Remplissez le formulaire et cliquez ici."
+            "fr-FR": "Remplissez le formulaire et cliquez ici.",
+            "th-TH": "กรอกฟอร์มแล้วกดตรงนี้"
           }
         },
         "placement": "bottom"
@@ -2578,7 +2740,8 @@
         "description": {
           "messageByLocale": {
             "en": "After filling your info, click here.",
-            "fr-FR": "Après avoir rempli le formulaire, cliquez ici."
+            "fr-FR": "Après avoir rempli le formulaire, cliquez ici.",
+            "th-TH": "หลังจากกรอกข้อมูลของคุณแล้ว กดตรงนี้"
           }
         },
         "placement": "bottom"
@@ -2595,7 +2758,8 @@
         "description": {
           "messageByLocale": {
             "en": "Click here to **publish** your game.",
-            "fr-FR": "Cliquez ici pour **publier** votre jeu."
+            "fr-FR": "Cliquez ici pour **publier** votre jeu.",
+            "th-TH": "กดที่นี่เพื่อ **เผยแพร่** เกมของคุณ"
           }
         },
         "placement": "bottom"
@@ -2617,7 +2781,8 @@
         "description": {
           "messageByLocale": {
             "en": "Click here to open your game in your browser. Remember to share the link so that others can play your game!\n\nOnce you're done, close this dialog.",
-            "fr-FR": "Cliquez ici pour ouvrir votre jeu dans votre navigateur. Pensez à partager le lien pour que d'autres puissent y jouer!\n\nUne fois que vous avez terminé, fermez cette fenêtre."
+            "fr-FR": "Cliquez ici pour ouvrir votre jeu dans votre navigateur. Pensez à partager le lien pour que d'autres puissent y jouer!\n\nUne fois que vous avez terminé, fermez cette fenêtre.",
+            "th-TH": "คลิกที่นี่เพื่อเปิดเกมของคุณบนเบราวเซอร์ อย่าลืมแชร์ลิงค์เพื่อให้ผู้เล่นคนอื่นสามารถเล่นเกมของคุณได้!\n\nหลังจากเสร็จแล้ว ปิดหน้าต่างนี้"
           }
         },
         "placement": "top"
@@ -2632,24 +2797,28 @@
             "messageByLocale": {
               "en": "## Congratulations!",
               "fr-FR": "## Félicitations !"
+ ,            "th-TH": "## ยินดีด้วย!"
             }
           },
           {
             "messageByLocale": {
               "en": "You have finished the second part of your Fling Game.",
               "fr-FR": "Vous avez terminé la seconde partie de votre jeu."
+ ,            "th-TH": "ส่วนแรกของเกม Fling ของคุณเสร็จแล้ว"
             }
           },
           {
             "messageByLocale": {
               "en": "You've discovered other basics of GDevelop:\n- [Events](https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor)\n- [Text objects](https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events)\n- [Layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers)\n- [Actions and Conditions](https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable)",
               "fr-FR": "Vous avez découvert de nouveaux concepts de GDevelop:\n- [les évènements](https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor)\n- [les objets texte](https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events)\n- [les calques](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers)\n- [les actions et les conditions](https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable)"
+ ,            "th-TH": "คุณได้เรียนรู้พื้นฐานของ GDevelop:\n- [Events](https://wiki.gdevelop.io/gdevelop5/events#:~:text=In%20GDevelop%2C%20events%20define%20the,events%20via%20the%20Events%20editor)\n- [Text objects](https://wiki.gdevelop.io/gdevelop5/objects/text#:~:text=Text%20objects%20display%20text%20on,properties%20during%20gameplay%20using%20events)\n- [Layers](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layers-and-cameras#:~:text=A%20layer%20acts%20as%20a,scene%20can%20have%20multiple%20layers)\n- [Actions and Conditions](https://wiki.gdevelop.io/gdevelop5/events#:~:text=If%20an%20event%20does%20not,the%20value%20of%20a%20variable)"
             }
           },
           {
             "messageByLocale": {
               "en": "Now you can take a break from the tutorial, or add a leaderboard on the next chapter.",
               "fr-FR": "Vous pouvez maintenant faire une pause avant de commencer le prochain chapitre pour ajouter un tableau de score."
+ ,            "th-TH": "คุณสามารถหยุดพักบทเรียนตรงนี้ หรือเข้าสู่บทเรียนถัดไปเพื่อเพิ่มกระดานคะแนนเลยก็ได้"
             }
           }
         ]
@@ -2664,7 +2833,8 @@
         "description": {
           "messageByLocale": {
             "en": "Right click on your $(background) and click “set as **global object**”.",
-            "fr-FR": "Faites un clic droit sur $(background) et sélectionnez “Définir comme **objet global**”."
+            "fr-FR": "Faites un clic droit sur $(background) et sélectionnez “Définir comme **objet global**”.",
+            "th-TH": "คลิกขวาที่ $(background) และเลือก “ตั้งเป็น **วัตถุโกลบอล**”"
           }
         },
         "placement": "left"
@@ -2679,7 +2849,8 @@
         "title": {
           "messageByLocale": {
             "en": "Now let's create a new **scene** for our start screen.",
-            "fr-FR": "Créons une scène qui servira d'écran d'ouverture du jeu."
+            "fr-FR": "Créons une scène qui servira d'écran d'ouverture du jeu.",
+            "th-TH": "ทีนี้สร้าง **scene** ใหม่ สำหรับฉากเริ่มต้น"
           }
         },
         "placement": "right"
@@ -2694,7 +2865,8 @@
         "description": {
           "messageByLocale": {
             "en": "Click here.",
-            "fr-FR": "Cliquez ici."
+            "fr-FR": "Cliquez ici.",
+            "th-TH": "คลิกที่นี่"
           }
         },
         "placement": "right"
@@ -2712,7 +2884,8 @@
         "description": {
           "messageByLocale": {
             "en": "Right click on the new scene and change its name to “**StartScreen**”.\n\nOnce you're done, click on the item to open the new scene.",
-            "fr-FR": "Faites un clic droit sur la nouvelle scène et changez son nom pour “**EcranOuverture**”.\n\nUne fois terminé, cliquez sur l'élément pour ouvrir la scène."
+            "fr-FR": "Faites un clic droit sur la nouvelle scène et changez son nom pour “**EcranOuverture**”.\n\nUne fois terminé, cliquez sur l'élément pour ouvrir la scène.",
+            "th-TH": "คลิกขวาที่ scene ใหม่และเปลี่ยนชื่อเป็น “**StartScreen**”\n\nเมื่อเสร็จแล้ว คลิกที่ไอเทมเพื่อเปิด scene ใหม่"
           }
         },
         "placement": "right"
@@ -2728,7 +2901,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(background) into the scene.",
-            "fr-FR": "Faites glisser $(background) du menu au canvas."
+            "fr-FR": "Faites glisser $(background) du menu au canvas.",
+            "th-TH": "ลาก $(background) มาใส่ใน scene"
           }
         },
         "placement": "left"
@@ -2739,7 +2913,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr-FR": "J'ai terminé"
+            "fr-FR": "J'ai terminé",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -2748,7 +2923,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag to expand the size $(background) until it stretches over your entire game area.",
-            "fr-FR": "Positionnez et redimensionnez $(background) de telle sorte qu'il recouvre l'écran de jeu."
+            "fr-FR": "Positionnez et redimensionnez $(background) de telle sorte qu'il recouvre l'écran de jeu.",
+            "th-TH": "ลากเพื่อปรับขนาด $(background) จนมันครอบคลุมบริเวณทั้งหมดในเกมของคุณ"
           }
         },
         "image": {
@@ -2767,7 +2943,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's create a title!",
-            "fr-FR": "Maintenant, créons un titre!"
+            "fr-FR": "Maintenant, créons un titre!",
+            "th-TH": "ทีนี้ได้เวลาสร้าง title!"
           }
         }
       }
@@ -2781,7 +2958,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create a text from scratch.",
-            "fr-FR": "Nous allons créer un objet texte de zéro."
+            "fr-FR": "Nous allons créer un objet texte de zéro.",
+            "th-TH": "สร้างข้อความเอง"
           }
         },
         "placement": "bottom"
@@ -2798,7 +2976,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **Text** object",
-            "fr-FR": "Sélectionnez l'objet **Texte**"
+            "fr-FR": "Sélectionnez l'objet **Texte**",
+            "th-TH": "เลือกวัตถุ **ข้อความ**"
           }
         },
         "placement": "bottom"
@@ -2814,7 +2993,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the object name to “Title”.",
-            "fr-FR": "Changez le nom de l'objet pour “Titre”."
+            "fr-FR": "Changez le nom de l'objet pour “Titre”.",
+            "th-TH": "เปลี่ยนชื่อวัตถุเป็น “Title”"
           }
         },
         "placement": "bottom"
@@ -2830,7 +3010,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the font size to **200**.",
-            "fr-FR": "Utilisez une taille de **200**."
+            "fr-FR": "Utilisez une taille de **200**.",
+            "th-TH": "แก้ไขขนาดฟอนต์เป็น **200**"
           }
         },
         "placement": "bottom"
@@ -2846,7 +3027,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the initial text to display whatever you want the title of your game to be.",
-            "fr-FR": "Entrez le nom que vous avez choisi pour votre jeu."
+            "fr-FR": "Entrez le nom que vous avez choisi pour votre jeu.",
+            "th-TH": "เปลี่ยนข้อความเริ่มต้นเป็นชื่อเกมของคุณ อะไรก็ได้"
           }
         },
         "placement": "bottom"
@@ -2862,7 +3044,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're done.",
-            "fr-FR": "Nous avons terminé."
+            "fr-FR": "Nous avons terminé.",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -2879,7 +3062,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(title) into the **scene** where you'd like your title to be.",
-            "fr-FR": "Faites glisser $(title) du menu au canvas et placez le où vous voulez dans l'écran de jeu.."
+            "fr-FR": "Faites glisser $(title) du menu au canvas et placez le où vous voulez dans l'écran de jeu..",
+            "th-TH": "ลาก $(title) ไปยัง **scene** ที่คุณต้องการใส่ชื่อเกม"
           }
         },
         "placement": "left"
@@ -2894,7 +3078,8 @@
         "description": {
           "messageByLocale": {
             "en": "Right-click on $(title) and select “Duplicate”.",
-            "fr-FR": "Faites un clic droit sur $(title) et sélectionnez “Dupliquer”."
+            "fr-FR": "Faites un clic droit sur $(title) et sélectionnez “Dupliquer”.",
+            "th-TH": "คลิกขวาที่ $(title) และเลือก “คัดลอกซ้ำ”"
           }
         },
         "placement": "left"
@@ -2912,7 +3097,8 @@
         "description": {
           "messageByLocale": {
             "en": "Double click on $(startText).",
-            "fr-FR": "Double-cliquez sur $(startText)."
+            "fr-FR": "Double-cliquez sur $(startText).",
+            "th-TH": "ดับเบิ้ลคลิกที่ $(startText)"
           }
         },
         "placement": "left"
@@ -2927,7 +3113,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the **object** name to “**Start**”.",
-            "fr-FR": "Changez le nom de **l'objet** pour “**Jouer**”."
+            "fr-FR": "Changez le nom de **l'objet** pour “**Jouer**”.",
+            "th-TH": "เปลี่ยนชื่อ **วัตถุ** เป็น “**Start**”"
           }
         },
         "placement": "bottom"
@@ -2943,7 +3130,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the font size to **50**.",
-            "fr-FR": "Utilisez une taille de **50**."
+            "fr-FR": "Utilisez une taille de **50**.",
+            "th-TH": "แก้ไขขนาดฟอนต์เป็น **50**"
           }
         },
         "placement": "bottom"
@@ -2959,7 +3147,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the initial text to “Start Game”.",
-            "fr-FR": "Définissez le texte de l'objet à “Jouer”."
+            "fr-FR": "Définissez le texte de l'objet à “Jouer”.",
+            "th-TH": "เปลี่ยนข้อความเริ่มต้นเป็น “Start Game”"
           }
         },
         "placement": "bottom"
@@ -2975,7 +3164,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're done.",
-            "fr-FR": "Nous avons terminé."
+            "fr-FR": "Nous avons terminé.",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -2992,7 +3182,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(startText) into the **scene** where you'd like the start button to be.",
-            "fr-FR": "Faites glisser $(startText) du menu au canvas à l'endroit où vous voulez."
+            "fr-FR": "Faites glisser $(startText) du menu au canvas à l'endroit où vous voulez.",
+            "th-TH": "ลาก $(startText) ไปยัง **scene** ที่คุณต้องการใส่ปุ่มเริ่มเกม"
           }
         },
         "placement": "left"
@@ -3007,7 +3198,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's interact with those titles.",
-            "fr-FR": "Maintenant, faisons en sorte de pouvoir cliquer sur le texte."
+            "fr-FR": "Maintenant, faisons en sorte de pouvoir cliquer sur le texte.",
+            "th-TH": "โต้ตอบกับข้อความ"
           }
         }
       }
@@ -3022,7 +3214,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create a new **event**.",
-            "fr-FR": "Créez un nouvel **évènement**."
+            "fr-FR": "Créez un nouvel **évènement**.",
+            "th-TH": "สร้าง **event** ใหม่"
           }
         }
       }
@@ -3036,7 +3229,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a **condition**.",
-            "fr-FR": "Ajoutez une **condition**."
+            "fr-FR": "Ajoutez une **condition**.",
+            "th-TH": "เพิ่ม **เงื่อนไข**"
           }
         }
       }
@@ -3050,7 +3244,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(startText).",
-            "fr-FR": "Cliquez sur $(startText)."
+            "fr-FR": "Cliquez sur $(startText).",
+            "th-TH": "เลือก $(startText)"
           }
         }
       },
@@ -3065,7 +3260,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the cursor condition.",
-            "fr-FR": "Cliquez sur cette condition de position du curseur."
+            "fr-FR": "Cliquez sur cette condition de position du curseur.",
+            "th-TH": "เลือกเงื่อนไขเคอร์เซอร์"
           }
         }
       },
@@ -3080,7 +3276,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **condition** is all set.",
-            "fr-FR": "Rien de plus à configurer."
+            "fr-FR": "Rien de plus à configurer.",
+            "th-TH": "เอาล่ะ เงื่อนไขถูกกำหนดเอาไว้เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -3095,7 +3292,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add another **condition**.",
-            "fr-FR": "Ajoutez une autre **condition**."
+            "fr-FR": "Ajoutez une autre **condition**.",
+            "th-TH": "เพิ่ม **เงื่อนไข** อีก"
           }
         }
       }
@@ -3109,7 +3307,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type “**Mouse**”.",
-            "fr-FR": "Cherchez “**Souris**”"
+            "fr-FR": "Cherchez “**Souris**”",
+            "th-TH": "พิมพ์ “**Mouse**”"
           }
         }
       },
@@ -3124,7 +3323,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select “Mouse button released”.",
-            "fr-FR": "Cliquez sur “Bouton de la souris relâché”."
+            "fr-FR": "Cliquez sur “Bouton de la souris relâché”.",
+            "th-TH": "เลือก “ปุ่มจากเมาส์ถูกปล่อย”"
           }
         }
       },
@@ -3139,7 +3339,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select “left (primary)”.",
-            "fr-FR": "Sélectionnez “Gauche (principal)”."
+            "fr-FR": "Sélectionnez “Gauche (principal)”.",
+            "th-TH": "เลือก “ซ้าย (หลัก)”"
           }
         },
         "placement": "top"
@@ -3155,7 +3356,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **condition** is all set.",
-            "fr-FR": "C'est bon pour cette condition."
+            "fr-FR": "C'est bon pour cette condition.",
+            "th-TH": "เอาล่ะ เงื่อนไขถูกกำหนดเอาไว้เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -3170,7 +3372,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add an **action** now.",
-            "fr-FR": "Ajoutons une **action** maintenant."
+            "fr-FR": "Ajoutons une **action** maintenant.",
+            "th-TH": "เพิ่ม **การกระทำ**"
           }
         }
       }
@@ -3184,7 +3387,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type “**Scene**”.",
-            "fr-FR": "Cherchez “**scène**”."
+            "fr-FR": "Cherchez “**scène**”.",
+            "th-TH": "พิมพ์ “**Scene**”"
           }
         }
       },
@@ -3199,7 +3403,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select “**Change the scene**”.",
-            "fr-FR": "Cliquez sur “**Changer la scène**”."
+            "fr-FR": "Cliquez sur “**Changer la scène**”.",
+            "th-TH": "เลือก “**Change the scene**”"
           }
         }
       },
@@ -3214,7 +3419,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select “$(playScene)”.",
-            "fr-FR": "Sélectionnez “$(playScene)”."
+            "fr-FR": "Sélectionnez “$(playScene)”.",
+            "th-TH": "เลือก “$(playScene)”"
           }
         },
         "placement": "top"
@@ -3230,7 +3436,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the **action** is all set.",
-            "fr-FR": "L'action est bien configurée."
+            "fr-FR": "L'action est bien configurée.",
+            "th-TH": "เอาล่ะ การกระทำถูกกำหนดเอาไว้เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -3245,7 +3452,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's get back to the **scene** to add a score.",
-            "fr-FR": "Retournons à la **scène** pour afficher le score."
+            "fr-FR": "Retournons à la **scène** pour afficher le score.",
+            "th-TH": "กลับไปยัง **scene** เพื่อเพิ่มคะแนน"
           }
         }
       }
@@ -3261,7 +3469,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create a text that will display the player score.",
-            "fr-FR": "Créez un object texte qui affichera le score du joueur ou de la joueuse."
+            "fr-FR": "Créez un object texte qui affichera le score du joueur ou de la joueuse.",
+            "th-TH": "สร้างข้อความสำหรับแสดงคะแนนผู้เล่น"
           }
         }
       }
@@ -3275,7 +3484,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create a text from scratch.",
-            "fr-FR": "Nous allons créer un objet texte de zéro."
+            "fr-FR": "Nous allons créer un objet texte de zéro.",
+            "th-TH": "สร้างข้อความเอง"
           }
         },
         "placement": "bottom"
@@ -3292,7 +3502,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **Text** object",
-            "fr-FR": "Sélectionnez l'objet **Texte**"
+            "fr-FR": "Sélectionnez l'objet **Texte**",
+            "th-TH": "เลือกวัตถุ **ข้อความ**"
           }
         },
         "placement": "bottom"
@@ -3308,7 +3519,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the object name to “**Score**”.",
-            "fr-FR": "Changez le nom de l'objet pour “**Score**”."
+            "fr-FR": "Changez le nom de l'objet pour “**Score**”.",
+            "th-TH": "เปลี่ยนชื่อวัตถุเป็น “**Score**”"
           }
         },
         "placement": "bottom"
@@ -3324,7 +3536,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the font size to **50**.",
-            "fr-FR": "Utilisez une taille de **50**."
+            "fr-FR": "Utilisez une taille de **50**.",
+            "th-TH": "แก้ไขขนาดฟอนต์เป็น **50**"
           }
         },
         "placement": "bottom"
@@ -3340,7 +3553,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the initial text to display “Time: 0”.",
-            "fr-FR": "Utilisez comme texte initial “Temps : 0”."
+            "fr-FR": "Utilisez comme texte initial “Temps : 0”.",
+            "th-TH": "เปลี่ยนข้อความเริ่มต้นเป็น “Time: 0”"
           }
         },
         "placement": "bottom"
@@ -3356,7 +3570,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're done.",
-            "fr-FR": "Nous avons terminé."
+            "fr-FR": "Nous avons terminé.",
+            "th-TH": "เสร็จแล้ว"
           }
         }
       },
@@ -3373,7 +3588,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag $(scoreText) into the top left corner of the screen.",
-            "fr-FR": "Faites glisser $(scoreText) du menu au canvas et mettez le en haut à droite de l'écran de jeu."
+            "fr-FR": "Faites glisser $(scoreText) du menu au canvas et mettez le en haut à droite de l'écran de jeu.",
+            "th-TH": "ลาก $(scoreText) ไปยังมุมซ้ายบนของหน้าจอ"
           }
         },
         "placement": "left"
@@ -3388,7 +3604,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's change the score dynamically.",
-            "fr-FR": "Maintenant, changeons le score du joueur ou de la joueuse en fonction du temps écoulé."
+            "fr-FR": "Maintenant, changeons le score du joueur ou de la joueuse en fonction du temps écoulé.",
+            "th-TH": "เปลี่ยนแปลงคะแนนแบบไดนามิก"
           }
         }
       }
@@ -3403,7 +3620,8 @@
         "description": {
           "messageByLocale": {
             "en": "We will create a timer that will start when the **scene** starts.",
-            "fr-FR": "Nous allons créer un chronomètre qui commencera au moment où la **scène** démarre."
+            "fr-FR": "Nous allons créer un chronomètre qui commencera au moment où la **scène** démarre.",
+            "th-TH": "เราจะสร้างนาฬิกาจับเวลาโดยเริ่มจับเวลาเมื่อ **scene** เริ่มต้น"
           }
         }
       },
@@ -3418,7 +3636,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a **condition**.",
-            "fr-FR": "Ajoutez une **condition**."
+            "fr-FR": "Ajoutez une **condition**.",
+            "th-TH": "เพิ่ม **เงื่อนไข**"
           }
         }
       }
@@ -3432,7 +3651,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Scene**”.",
-            "fr-FR": "Cherchez “**Scène**”."
+            "fr-FR": "Cherchez “**Scène**”.",
+            "th-TH": "ค้นหา “**Scene**”"
           }
         }
       },
@@ -3447,7 +3667,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the *At the beginning of the scene** condition.*",
-            "fr-FR": "Cliquez sur la condition *Au lancement de la scène*."
+            "fr-FR": "Cliquez sur la condition *Au lancement de la scène*.",
+            "th-TH": "เลือก *เงื่อนไข** ขณะที่เริ่มฉาก*"
           }
         }
       },
@@ -3462,7 +3683,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create the timer now.",
-            "fr-FR": "Nous allons maintenant créer le chronomètre."
+            "fr-FR": "Nous allons maintenant créer le chronomètre.",
+            "th-TH": "สร้างนาฬืกาจับเวลา"
           }
         },
         "placement": "top"
@@ -3477,7 +3699,8 @@
         "description": {
           "messageByLocale": {
             "en": "Create an **action**.",
-            "fr-FR": "Créez une **action**."
+            "fr-FR": "Créez une **action**.",
+            "th-TH": "สร้าง **การกระทำ**"
           }
         }
       }
@@ -3491,7 +3714,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “Scene timer”.",
-            "fr-FR": "Cherchez “chrono”."
+            "fr-FR": "Cherchez “chrono”.",
+            "th-TH": "ค้นหา “ตัวจับเวลา Scene”"
           }
         }
       },
@@ -3506,7 +3730,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the *Start (or reset) a scene timer* action.",
-            "fr-FR": "Cliquez sur l'action *Démarrer (ou réinitialiser) un chronomètre de scène*."
+            "fr-FR": "Cliquez sur l'action *Démarrer (ou réinitialiser) un chronomètre de scène*.",
+            "th-TH": "เลือกการกระทำ *เริ่มต้น (หรือรีเซ็ต) ตัวจับเวลา*"
           }
         }
       },
@@ -3521,7 +3746,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type **\"Score\"** (in quotations).",
-            "fr-FR": "Entrez **\"Score\"** (entre guillements)."
+            "fr-FR": "Entrez **\"Score\"** (entre guillements).",
+            "th-TH": "พิมพ์ **\"Score\"** (ใส่ quotations ด้วย)"
           }
         }
       },
@@ -3537,7 +3763,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're done.",
-            "fr-FR": "Nous avons terminé."
+            "fr-FR": "Nous avons terminé.",
+            "th-TH": "เสร็จแล้ว"
           }
         },
         "placement": "top"
@@ -3552,7 +3779,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's display the score.",
-            "fr-FR": "Maintenant, affichons le score."
+            "fr-FR": "Maintenant, affichons le score.",
+            "th-TH": "แสดงคะแนน"
           }
         }
       },
@@ -3567,7 +3795,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's make the score dynamic.",
-            "fr-FR": "Nous allons rendre le score dynamique."
+            "fr-FR": "Nous allons rendre le score dynamique.",
+            "th-TH": "เปลี่ยนแปลงคะแนนให้เป็นแบบไดนามิก"
           }
         }
       }
@@ -3581,7 +3810,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select $(scoreText).",
-            "fr-FR": "Cliquez sur $(scoreText)."
+            "fr-FR": "Cliquez sur $(scoreText).",
+            "th-TH": "เลือก $(scoreText)"
           }
         }
       },
@@ -3596,7 +3826,8 @@
         "description": {
           "messageByLocale": {
             "en": "We will change the text.",
-            "fr-FR": "Nous allons changer le contenu du texte."
+            "fr-FR": "Nous allons changer le contenu du texte.",
+            "th-TH": "เราจะแก้ไขข้อความ"
           }
         }
       },
@@ -3611,7 +3842,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select “= (set to)”.",
-            "fr-FR": "Cliquez sur “= (définir à)”."
+            "fr-FR": "Cliquez sur “= (définir à)”.",
+            "th-TH": "เลือก “= (ตั้งเป็น)”"
           }
         }
       },
@@ -3627,7 +3859,8 @@
         "description": {
           "messageByLocale": {
             "en": "Double click to highlight this line, then copy and paste it here: `\"Time: \" + ToString(round( TimerElapsedTime(\"Score\")))`.",
-            "fr-FR": "Double cliquez sur cette ligne pour la sélectionner et copiez-collez là ici : `\"Temps : \" + ToString(round( TimerElapsedTime(\"Score\")))`."
+            "fr-FR": "Double cliquez sur cette ligne pour la sélectionner et copiez-collez là ici : `\"Temps : \" + ToString(round( TimerElapsedTime(\"Score\")))`.",
+            "th-TH": "ดับเบิ้ลคลิกเพื่อไฮไลต์ จากนั้นคัดลองและวางที่นี่: `\"Time: \" + ToString(round( TimerElapsedTime(\"Score\")))`"
           }
         }
       },
@@ -3643,7 +3876,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're all set.",
-            "fr-FR": "On est tout bon."
+            "fr-FR": "On est tout bon.",
+            "th-TH": "เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -3658,13 +3892,15 @@
         "title": {
           "messageByLocale": {
             "en": "Now let's save the score of the player.",
-            "fr-FR": "Maintenant, sauvegardons le score du joueur ou de la joueuse."
+            "fr-FR": "Maintenant, sauvegardons le score du joueur ou de la joueuse.",
+            "th-TH": "ทีนี้ เราจะบันทึกคะแนนของผู้เล่น"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "In the event where $(target) gets deleted, click on “Add action”.",
-            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
+            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”.",
+            "th-TH": "ในอีเวนท์ที่ $(target) ถูกลบ กด “เพิ่มการกระทำ”"
           }
         }
       }
@@ -3678,7 +3914,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “leaderboard”.",
-            "fr-FR": "Cherchez “**classement**”."
+            "fr-FR": "Cherchez “**classement**”.",
+            "th-TH": "ค้นหา “leaderboard”"
           }
         }
       },
@@ -3693,7 +3930,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **Save connected player score** action.",
-            "fr-FR": "Sélectionnez l'action **Enregistrer le score du joueur connecté**."
+            "fr-FR": "Sélectionnez l'action **Enregistrer le score du joueur connecté**.",
+            "th-TH": "เลือกการกระทำ **บันทึกคะแนนผู้เล่นที่เชื่อมต่อ**"
           }
         }
       },
@@ -3708,7 +3946,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Leaderboard admin**.",
-            "fr-FR": "Ouvrez le panneau de gestion des classements."
+            "fr-FR": "Ouvrez le panneau de gestion des classements.",
+            "th-TH": "เปิด **Leaderboard admin**"
           }
         }
       },
@@ -3723,7 +3962,8 @@
         "description": {
           "messageByLocale": {
             "en": "Create a leaderboard.",
-            "fr-FR": "Créez un nouveau classement."
+            "fr-FR": "Créez un nouveau classement.",
+            "th-TH": "สร้าง leaderboard"
           }
         }
       },
@@ -3738,7 +3978,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's change its name.",
-            "fr-FR": "Changez son nom."
+            "fr-FR": "Changez son nom.",
+            "th-TH": "เปลี่ยนชื่อ"
           }
         }
       },
@@ -3753,7 +3994,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type “*Score*”.",
-            "fr-FR": "Entrez “*Score*”."
+            "fr-FR": "Entrez “*Score*”.",
+            "th-TH": "พิมพ์ “*Score*”"
           }
         }
       },
@@ -3768,7 +4010,8 @@
         "description": {
           "messageByLocale": {
             "en": "Save changes when you're done.",
-            "fr-FR": "Sauvegardez quand vous avez terminé."
+            "fr-FR": "Sauvegardez quand vous avez terminé.",
+            "th-TH": "บันทึกการเปลี่ยนแปลงหลังจากเสร็จแล้ว"
           }
         }
       },
@@ -3783,7 +4026,8 @@
         "description": {
           "messageByLocale": {
             "en": "Our leaderboard is ready.",
-            "fr-FR": "Notre classement est bien configuré, vous pouvez fermer."
+            "fr-FR": "Notre classement est bien configuré, vous pouvez fermer.",
+            "th-TH": "leaderboard ของเราพร้อมแล้ว"
           }
         }
       },
@@ -3798,7 +4042,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the option *Select the leaderboard from a list*.",
-            "fr-FR": "Sélectionnez l'option *Sélectionnez le classement dans une liste*."
+            "fr-FR": "Sélectionnez l'option *Sélectionnez le classement dans une liste*.",
+            "th-TH": "เลือกตัวเลือก *เลือก leaderboard จากในลิสต์*"
           }
         },
         "placement": "top"
@@ -3815,7 +4060,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the leaderboard named “Score”.",
-            "fr-FR": "Sélectionnez le classement qui s'appelle “Score”."
+            "fr-FR": "Sélectionnez le classement qui s'appelle “Score”.",
+            "th-TH": "เลือก leaderboard ที่ชื่อ “Score”"
           }
         }
       },
@@ -3830,7 +4076,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **expression** builder.",
-            "fr-FR": "Ouvrez le constructeur **d'expression**."
+            "fr-FR": "Ouvrez le constructeur **d'expression**.",
+            "th-TH": "เปิด เมนูสร้าง **expression**"
           }
         }
       },
@@ -3845,7 +4092,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “*Timer*”.",
-            "fr-FR": "Cherchez “*chrono*”."
+            "fr-FR": "Cherchez “*chrono*”.",
+            "th-TH": "ค้นหา “*Timer*”"
           }
         }
       },
@@ -3860,7 +4108,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **Scene timer value**.",
-            "fr-FR": "Cliquez sur **Valeur du chronomètre de scène**."
+            "fr-FR": "Cliquez sur **Valeur du chronomètre de scène**.",
+            "th-TH": "เลือก **ค่าจากตัวจับเวลา**"
           }
         }
       },
@@ -3875,7 +4124,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select timer “Score”.",
-            "fr-FR": "Sélectionnez le chronomètre “Score”."
+            "fr-FR": "Sélectionnez le chronomètre “Score”.",
+            "th-TH": "เลือกตัวจับเวลา “Score”"
           }
         },
         "placement": "top"
@@ -3891,7 +4141,8 @@
         "description": {
           "messageByLocale": {
             "en": "This parameter is all set.",
-            "fr-FR": "C'est terminé."
+            "fr-FR": "C'est terminé.",
+            "th-TH": "พารามิเตอร์ได้ถูกกำหนดเอาไว้เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -3907,7 +4158,8 @@
         "description": {
           "messageByLocale": {
             "en": "The action is ready.",
-            "fr-FR": "L'action est prête."
+            "fr-FR": "L'action est prête.",
+            "th-TH": "การกระทำพร้อมแล้ว"
           }
         },
         "placement": "top"
@@ -3922,13 +4174,15 @@
         "title": {
           "messageByLocale": {
             "en": "Now we will display the other players scores after a 2 seconds delay.",
-            "fr-FR": "Maintenant, nous allons afficher le score des autres joueurs et joueuses après un délai de 2 secondes."
+            "fr-FR": "Maintenant, nous allons afficher le score des autres joueurs et joueuses après un délai de 2 secondes.",
+            "th-TH": "ทีนี้เราจะแสดงคะแนนผู้เล่นคนอื่นโดยดีเลย์ 2 วินาที"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "In the **event** where $(target) gets deleted, click on “Add action”.",
-            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
+            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”.",
+            "th-TH": "ใน **อีเวนท์** ที่ $(target) ถูกลบ กด “เพิ่มการกระทำ”"
           }
         }
       }
@@ -3942,7 +4196,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Wait**”.",
-            "fr-FR": "Cherchez “**Attendre**”."
+            "fr-FR": "Cherchez “**Attendre**”.",
+            "th-TH": "ค้นหา “**รอ**”"
           }
         }
       },
@@ -3957,7 +4212,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the *Wait X seconds* action.",
-            "fr-FR": "Cliquez sur l'action *Attendre X secondes*."
+            "fr-FR": "Cliquez sur l'action *Attendre X secondes*.",
+            "th-TH": "เลือกการกระทำ *รอ X วินาที*"
           }
         }
       },
@@ -3972,7 +4228,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type in **2**.",
-            "fr-FR": "Tapez **2**."
+            "fr-FR": "Tapez **2**.",
+            "th-TH": "พิมพ์ **2**"
           }
         }
       },
@@ -3987,7 +4244,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now the game will wait 2 seconds before going to next **action** in the **event**.",
-            "fr-FR": "Maintenant, le jeu va attendre 2 secondes avant de passer à **l'action** suivante dans **l'évènement**."
+            "fr-FR": "Maintenant, le jeu va attendre 2 secondes avant de passer à **l'action** suivante dans **l'évènement**.",
+            "th-TH": "ทีนี้เกมจะรอ 2 วินาที ก่อนจะทำ **การกระทำ** ใน **อีเวนท์**"
           }
         },
         "placement": "top"
@@ -4002,13 +4260,15 @@
         "title": {
           "messageByLocale": {
             "en": "Now we will display a leaderboard.",
-            "fr-FR": "Maintenant, nous allons afficher un classement des scores."
+            "fr-FR": "Maintenant, nous allons afficher un classement des scores.",
+            "th-TH": "แสดง leaderboard"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "In the **event** where $(target) gets deleted, click on “Add action”.",
-            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
+            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”.",
+            "th-TH": "ใน **อีเวนท์** ที่ $(target) ถูกลบ กด “เพิ่มการกระทำ”"
           }
         }
       }
@@ -4022,7 +4282,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**leaderboard**”.",
-            "fr-FR": "Cherchez “**classement**”."
+            "fr-FR": "Cherchez “**classement**”.",
+            "th-TH": "ค้นหา “**leaderboard**”"
           }
         }
       },
@@ -4037,7 +4298,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the *Display leaderboard* action.",
-            "fr-FR": "Cliquez sur l'action *Afficher le classement*."
+            "fr-FR": "Cliquez sur l'action *Afficher le classement*.",
+            "th-TH": "เลือกการกระทำ *แสดง leaderboard*"
           }
         }
       },
@@ -4052,7 +4314,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the leaderboard named “Score”.",
-            "fr-FR": "Sélectionnez le classement qui s'appelle “Score”."
+            "fr-FR": "Sélectionnez le classement qui s'appelle “Score”.",
+            "th-TH": "เลือก leaderboard ที่ชื่อ “Score”"
           }
         }
       },
@@ -4067,7 +4330,8 @@
         "description": {
           "messageByLocale": {
             "en": "We'll use the built-in loader.",
-            "fr-FR": "Nous allons utiliser l'écran de chargement intégré par défaut."
+            "fr-FR": "Nous allons utiliser l'écran de chargement intégré par défaut.",
+            "th-TH": "เราจะใช้โหลดเดอร์ built-in"
           }
         }
       },
@@ -4083,7 +4347,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now the leaderboard should be displayed when $(projectile) reaches $(target).",
-            "fr-FR": "Maintenant, le classement devrait s'afficher quand les $(projectile)s atteignent $(target)."
+            "fr-FR": "Maintenant, le classement devrait s'afficher quand les $(projectile)s atteignent $(target).",
+            "th-TH": "leaderboard ควรจะแสดง เมื่อ $(projectile) ไปถึง $(target)"
           }
         },
         "placement": "top"
@@ -4098,7 +4363,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now we will ask the player to authenticate at game opening.",
-            "fr-FR": "Maintenant, nous allons demander au joueur ou à la joueuse de s'identifier à l'ouverture du jeu."
+            "fr-FR": "Maintenant, nous allons demander au joueur ou à la joueuse de s'identifier à l'ouverture du jeu.",
+            "th-TH": "ทีนี้เราจะถามผู้เล่นให้ยืนยันตอนที่เปิดเกม"
           }
         }
       }
@@ -4114,7 +4380,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's create an **event**!",
-            "fr-FR": "Créez un nouvel **évènement**."
+            "fr-FR": "Créez un nouvel **évènement**.",
+            "th-TH": "สร้าง **อีเวนท์** กันเถอะ!"
           }
         }
       }
@@ -4128,7 +4395,8 @@
         "description": {
           "messageByLocale": {
             "en": "Add a condition.",
-            "fr-FR": "Ajoutez une condition."
+            "fr-FR": "Ajoutez une condition.",
+            "th-TH": "เพิ่มเงื่อนไข"
           }
         }
       },
@@ -4150,7 +4418,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Scene**”.",
-            "fr-FR": "Cherchez “**Scène**”."
+            "fr-FR": "Cherchez “**Scène**”.",
+            "th-TH": "ค้นหา “**Scene**”"
           }
         }
       },
@@ -4165,7 +4434,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **At the beginning of the scene** condition.",
-            "fr-FR": "Cliquez sur la condition *Au lancement de la scène*."
+            "fr-FR": "Cliquez sur la condition *Au lancement de la scène*.",
+            "th-TH": "เลือกเงื่อนไข **ขณะที่เริ่มฉาก**"
           }
         }
       },
@@ -4180,7 +4450,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're done.",
-            "fr-FR": "Nous avons terminé."
+            "fr-FR": "Nous avons terminé.",
+            "th-TH": "เสร็จแล้ว"
           }
         },
         "placement": "top"
@@ -4195,7 +4466,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose an **action**.",
-            "fr-FR": "Choisissons une **action**."
+            "fr-FR": "Choisissons une **action**.",
+            "th-TH": "เลือก **การกระทำ**"
           }
         }
       }
@@ -4209,7 +4481,8 @@
         "description": {
           "messageByLocale": {
             "en": "Search for “**Authentication**”.",
-            "fr-FR": "Cherchez “**Authentification**”."
+            "fr-FR": "Cherchez “**Authentification**”.",
+            "th-TH": "ค้นหา “**Authentication**”"
           }
         }
       },
@@ -4224,7 +4497,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select *Display authentication banner*.",
-            "fr-FR": "Cliquez sur *Afficher la bannière d'authentification*."
+            "fr-FR": "Cliquez sur *Afficher la bannière d'authentification*.",
+            "th-TH": "เลือก *แสดงแบนเนอร์ authentication*"
           }
         }
       },
@@ -4239,7 +4513,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, now players will be asked to login.",
-            "fr-FR": "Maintenant, les joueurs et les joueuses pourront s'identifier."
+            "fr-FR": "Maintenant, les joueurs et les joueuses pourront s'identifier.",
+            "th-TH": "เอาล่ะ ทีนี้ผู้เล่นจะถูกขอให้ล็อกอิน"
           }
         },
         "placement": "top"
@@ -4254,7 +4529,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's make sure the player comes back to the start screen after closing the **leaderboard**.",
-            "fr-FR": "Faisons en sorte que le joueur ou la joueuse revienne à l'écran d'ouverture après avoir fermé le **classement**."
+            "fr-FR": "Faisons en sorte que le joueur ou la joueuse revienne à l'écran d'ouverture après avoir fermé le **classement**.",
+            "th-TH": "ทำให้มั่นใจว่าผู้เล่นจะกลับมาที่หน้าเริ่มต้นหลังกดปิด **leaderboard**"
           }
         }
       }
@@ -4269,7 +4545,8 @@
         "description": {
           "messageByLocale": {
             "en": "In the event where $(target) gets deleted, click on “Add action”.",
-            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”."
+            "fr-FR": "Dans **l'évènement** où $(target) est supprimé, cliquez sur “Ajouter une action”.",
+            "th-TH": "ในอีเวนท์ที่ $(target) ถูกลบ กด “เพิ่มการกระทำ”"
           }
         }
       }
@@ -4283,7 +4560,8 @@
         "description": {
           "messageByLocale": {
             "en": "Type “*Scene*”.",
-            "fr-FR": "Cherchez “**Scène**”."
+            "fr-FR": "Cherchez “**Scène**”.",
+            "th-TH": "พิมพ์ “*Scene*”"
           }
         }
       },
@@ -4298,7 +4576,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select “Change the scene”.",
-            "fr-FR": "Cliquez sur “**Changer la scène**”."
+            "fr-FR": "Cliquez sur “**Changer la scène**”.",
+            "th-TH": "เลือก “เปลี่ยน scene”"
           }
         }
       },
@@ -4313,7 +4592,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select “$(startScene)”.",
-            "fr-FR": "Sélectionnez “$(startScene)”."
+            "fr-FR": "Sélectionnez “$(startScene)”.",
+            "th-TH": "เลือก “$(startScene)”"
           }
         },
         "placement": "top"
@@ -4330,7 +4610,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, the action is all set.",
-            "fr-FR": "L'action est bien configurée."
+            "fr-FR": "L'action est bien configurée.",
+            "th-TH": "เอาล่ะ การกระทำถูกกำหนดเอาไว้เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -4345,7 +4626,8 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Project Manager**.",
-            "fr-FR": "Ouvrez le **Gestionnaire de projet**."
+            "fr-FR": "Ouvrez le **Gestionnaire de projet**.",
+            "th-TH": "เปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
         "placement": "right"
@@ -4360,7 +4642,8 @@
         "description": {
           "messageByLocale": {
             "en": "Right-click on $(startScene) and select **Set as start scene**.",
-            "fr-FR": "Faites un clic droit sur $(startScene) et sélectionnez **Définir comme scène de départ**."
+            "fr-FR": "Faites un clic droit sur $(startScene) et sélectionnez **Définir comme scène de départ**.",
+            "th-TH": "คลิกขวาที่ $(startScene) และเลือก **ตั้งเป็น scene เริ่มต้น**"
           }
         },
         "placement": "right"
@@ -4376,7 +4659,8 @@
         "description": {
           "messageByLocale": {
             "en": "Come back to the start scene *$(startScene)*.",
-            "fr-FR": "Retournons à la scène d'ouverture *$(startScene)*."
+            "fr-FR": "Retournons à la scène d'ouverture *$(startScene)*.",
+            "th-TH": "กลับไปยัง scene เริ่มต้น *$(startScene)*"
           }
         },
         "placement": "bottom"
@@ -4393,7 +4677,8 @@
         "description": {
           "messageByLocale": {
             "en": "Click on the **Preview** button.",
-            "fr-FR": "Lancez un **Aperçu** de votre jeu."
+            "fr-FR": "Lancez un **Aperçu** de votre jeu.",
+            "th-TH": "คลิกปุ่ม **ดูตัวอย่าง**"
           }
         },
         "placement": "bottom"
