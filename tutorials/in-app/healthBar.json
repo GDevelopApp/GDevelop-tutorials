@@ -12,7 +12,8 @@
   },
   "availableLocales": [
     "en",
-    "fr"
+    "fr",
+    "th"
   ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/healthBar/game.json",
   "initialProjectData": {
@@ -24,25 +25,29 @@
       {
         "messageByLocale": {
           "en": "# You've finished this lesson!",
-          "fr": "# Vous avez terminé cette leçon !"
+          "fr": "# Vous avez terminé cette leçon !",
+          "th": "# คุณเรียนบทเรียนนี้จบแล้ว!"
         }
       },
       {
         "messageByLocale": {
           "en": "Well done, in this tutorial you've learned:",
-          "fr": "Bien joué, voici ce que vous avez appris :"
+          "fr": "Bien joué, voici ce que vous avez appris :",
+          "th": "ทำได้ดีเยี่ยม, สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:"
         }
       },
       {
         "messageByLocale": {
           "en": "- How to create a layer\n\n- How to add and use a prefab object",
-          "fr": "- Comment créer un calque\n\n- Comment ajouter et utiliser un objet préfabriqué"
+          "fr": "- Comment créer un calque\n\n- Comment ajouter et utiliser un objet préfabriqué",
+          "th": "- วิธีสร้างเลเยอร์\n\n- วิธีเพิ่มและวิธีใช้วัตถุ prefab"
         }
       },
       {
         "messageByLocale": {
           "en": "You can keep adding stuff to this game or publish it!",
-          "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !"
+          "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !",
+          "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่เลยก็ได้!"
         }
       }
     ]
@@ -54,7 +59,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "Let's go!",
-            "fr": "C'est parti !"
+            "fr": "C'est parti !",
+            "th": "ไปกันเลย!"
           }
         }
       },
@@ -63,7 +69,8 @@
         "description": {
           "messageByLocale": {
             "en": "This game is a simple platformer.\nYou can move the player with the arrow keys and jump with space.\n\n**Test it out** with the **preview** button.\n\nWhen you're ready, click on this button to continue.",
-            "fr": "Ce jeu est un simple jeu de plateforme.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.\n\n**Testez-le** avec le bouton **Aperçu**.\n\nQuand vous êtes prêt, cliquez sur ce bouton pour continuer."
+            "fr": "Ce jeu est un simple jeu de plateforme.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.\n\n**Testez-le** avec le bouton **Aperçu**.\n\nQuand vous êtes prêt, cliquez sur ce bouton pour continuer.",
+            "th": "นี่เป็นเกม platformer แบบเรียบง่าย\nคุณสามารถเคลื่อนที่ผู้เล่นด้วยปุ่มลูกศรและกระโดดด้วย space bar\n\n**ลดลองเล่นเกม** โดยกดปุ่ม **ดูตัวอย่าง**\n\nเมื่อพร้อมแล้ว กดปุ่มนี้เพื่อไปต่อ"
           }
         }
       }
@@ -78,7 +85,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add a health bar for the player to see how much of their health is left.",
-            "fr": "Ajoutons une barre de vie pour que le joueur ou la joueuse puisse voir combien de vie il lui reste."
+            "fr": "Ajoutons une barre de vie pour que le joueur ou la joueuse puisse voir combien de vie il lui reste.",
+            "th": "เพิ่ม health bar ให้กับผู้เล่น เพื่อให้สามารถดูได้ว่าเหลือเลือดอยู่เท่าไร"
           }
         }
       }
@@ -92,7 +100,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose a **prefab object** from the asset store",
-            "fr-FR": "Nous allons choisir un **objet préfabriqué** dans le magasin de ressources."
+            "fr-FR": "Nous allons choisir un **objet préfabriqué** dans le magasin de ressources.",
+            "th-TH": "เลือก **วัตถุ prefab** จากร้านค้า asset"
           }
         },
         "placement": "bottom"
@@ -109,7 +118,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's go back to the store home page.",
-            "fr-FR": "Retournons à la page d'accueil du magasin."
+            "fr-FR": "Retournons à la page d'accueil du magasin.",
+            "th-TH": "กลับไปยังหน้าโฮมเพจของร้านค้า"
           }
         },
         "placement": "bottom"
@@ -127,7 +137,8 @@
         "description": {
           "messageByLocale": {
             "en": "We will use a prefab object. It's an object that comes with specific actions and conditions to simplify its use.",
-            "fr": "Nous allons utilisé un objet préfabriqué. C'est un objet qui vient avec ses propres actions et conditions, ce qui simplifie son utilisation."
+            "fr": "Nous allons utilisé un objet préfabriqué. C'est un objet qui vient avec ses propres actions et conditions, ce qui simplifie son utilisation.",
+            "th": "เราจะใช้วัตถุ prefab มันเป็นวัตถุที่มีการกระทำและเงื่อนไขแบบพิเศษ"
           }
         }
       },
@@ -142,7 +153,8 @@
         "description": {
           "messageByLocale": {
             "en": "We will use a resource bar that can be filled or emptied.",
-            "fr": "Nous allons utiliser une barre de ressource. Elle peut être remplie ou vidée."
+            "fr": "Nous allons utiliser une barre de ressource. Elle peut être remplie ou vidée.",
+            "th": "เราจะใช้ resource bar ที่สามารถเติมให้เต็มหรือล้างให้เกลี้ยงได้"
           }
         }
       },
@@ -157,7 +169,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose the hearts bar.",
-            "fr": "Choisissons la barre de coeurs."
+            "fr": "Choisissons la barre de coeurs.",
+            "th": "มาเลือก hearts bar กัน"
           }
         }
       }
@@ -174,7 +187,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add it to the scene.",
-            "fr": "Ajoutons la à la scène."
+            "fr": "Ajoutons la à la scène.",
+            "th": "เพิ่มลงไปใน scene"
           }
         },
         "placement": "top"
@@ -189,7 +203,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's close the asset store.",
-            "fr": "Fermons le magasin de ressources"
+            "fr": "Fermons le magasin de ressources",
+            "th": "ปิดร้านค้า asset"
           }
         },
         "placement": "top"
@@ -205,6 +220,7 @@
           "messageByLocale": {
             "en": "Open the **Layers** panel.",
             "fr": "Ouvrez le panneau des **calques**.",
+            "th": "เปิดแผงควบคุม **เลเยอร์**",
             "es": "Abre el panel de **Capas**.",
             "pt": "Abra o painel de **Camadas**."
           }
@@ -222,7 +238,8 @@
         "description": {
           "messageByLocale": {
             "en": "We will create a layer that will holds the User Interface (UI) elements.",
-            "fr": "Nous allons créer un calque qui contiendra l'interface utilisateur (IU)."
+            "fr": "Nous allons créer un calque qui contiendra l'interface utilisateur (IU).",
+            "th": "เราจะสร้างเลเยอร์ที่จะประกอบไปด้วย User Interface (UI) ต่างๆ"
           }
         },
         "placement": "top"
@@ -237,7 +254,8 @@
         "description": {
           "messageByLocale": {
             "en": "Change the name to **Interface**.",
-            "fr": "Changeons son nom en **Interface**."
+            "fr": "Changeons son nom en **Interface**.",
+            "th": "เปลี่ยนชื่อเป็น **Interface**"
           }
         },
         "placement": "top"
@@ -252,7 +270,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's select this layer as the **default layer** to add objects to.",
-            "fr": "Sélectionnons ce calque comme **calque par défaut** pour ajouter des objets."
+            "fr": "Sélectionnons ce calque comme **calque par défaut** pour ajouter des objets.",
+            "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป"
           }
         },
         "placement": "left"
@@ -267,7 +286,8 @@
         "description": {
           "messageByLocale": {
             "en": "Drag the **$(resourceBar)** on the scene.",
-            "fr-FR": "Faites glisser **$(resourceBar)** du menu à la scène."
+            "fr-FR": "Faites glisser **$(resourceBar)** du menu à la scène.",
+            "th-TH": "ลาก **$(resourceBar)** ใส่ลงใน scene"
           }
         }
       }
@@ -277,7 +297,8 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "fr": "J'ai terminé"
+            "fr": "J'ai terminé",
+            "th": "เสร็จแล้ว"
           }
         }
       },
@@ -286,7 +307,8 @@
         "description": {
           "messageByLocale": {
             "en": "See the **black rectangle** in the middle of the scene? This is the **camera view**. It's the point of view from which the player will see the game.\n\nPlace $(resourceBar) so that it's in the top left corner of the rectangle.\n\nWhen you're done, click below.",
-            "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nPlacez $(resourceBar) dans le coin en haut à gauche du rectangle.\n\nQuand vous aurez terminé, cliquez ci-dessous."
+            "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nPlacez $(resourceBar) dans le coin en haut à gauche du rectangle.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
+            "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nจัดวาง $(resourceBar) ให้อยู่ในมุมซ้ายบนของสี่เหลี่ยม\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง"
           }
         },
         "placement": "top",
@@ -304,7 +326,8 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's plug the health of the **$(player)** with **$(resourceBar)**! Let's **open the Events Sheet** of the $(level) scene.",
-            "fr": "Maintenant, branchons la vie du **$(player)** avec **$(resourceBar)** ! Ouvrons la **feuille d'événements** de la scène $(level)."
+            "fr": "Maintenant, branchons la vie du **$(player)** avec **$(resourceBar)** ! Ouvrons la **feuille d'événements** de la scène $(level).",
+            "th": "ทีนี้ มาเชื่อมเลือดของ **$(player)** กับ **$(resourceBar)**กันเถอะ! ให้ **เปิดชี้ทอีเวนต์** จาก scene $(level)"
           }
         },
         "placement": "bottom"
@@ -320,7 +343,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's **add an action** to change the filling value of $(resourceBar).",
-            "fr": "**Ajoutons une action** pour changer la valeur de remplissage de $(resourceBar)."
+            "fr": "**Ajoutons une action** pour changer la valeur de remplissage de $(resourceBar).",
+            "th": "ให้ **เพิ่มการกระทำ** เพื่อเปลี่ยนค่าที่จะเพิ่มขึ้นของ $(resourceBar)"
           }
         }
       }
@@ -334,7 +358,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **$(resourceBar)**.",
-            "fr": "Sélectionnez **$(resourceBar)**."
+            "fr": "Sélectionnez **$(resourceBar)**.",
+            "th": "เลือก **$(resourceBar)**"
           }
         }
       },
@@ -349,7 +374,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select the action **Value**.",
-            "fr": "Sélectionnez l'action **Value**."
+            "fr": "Sélectionnez l'action **Value**.",
+            "th": "เลือกการกระทำ **Value**"
           }
         }
       },
@@ -364,7 +390,8 @@
         "description": {
           "messageByLocale": {
             "en": "We want the value of the bar to match the health of $(player), so let's select **= (set to)**.",
-            "fr": "Nous voulons que la barre de vie représente la santé de $(player), donc sélectionnons **= (définir à)**."
+            "fr": "Nous voulons que la barre de vie représente la santé de $(player), donc sélectionnons **= (définir à)**.",
+            "th": "เราต้องการให้ค่าของ bar เชื่อมกันกับเลือกของ $(player) ดังนั้นเลือก **= (ตั้งเป็น)**"
           }
         },
         "placement": "left"
@@ -380,7 +407,8 @@
         "description": {
           "messageByLocale": {
             "en": "Let's find where is stored the health of $(player).",
-            "fr": "Trouvons où est stockée la santé de $(player)."
+            "fr": "Trouvons où est stockée la santé de $(player).",
+            "th": "มาดูกันว่าค่าเลือดของผู้เล่นเก็บไว้ที่ไหน"
           }
         },
         "placement": "bottom"
@@ -396,7 +424,8 @@
         "description": {
           "messageByLocale": {
             "en": "$(player) is set up to use the **Health extension**. Search **Health**.",
-            "fr": "$(player) utiliser l'**extension Health**. Cherchez **Health**."
+            "fr": "$(player) utiliser l'**extension Health**. Cherchez **Health**.",
+            "th": "$(player) ตั้งค่าให้ใช้ **Health extension** ค้นหา **Health**"
           }
         },
         "placement": "top"
@@ -412,7 +441,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **Health points**.",
-            "fr": "Sélectionnez **Health points**."
+            "fr": "Sélectionnez **Health points**.",
+            "th": "เลือก **Health points**"
           }
         },
         "placement": "bottom"
@@ -428,7 +458,8 @@
         "description": {
           "messageByLocale": {
             "en": "Select **$(player)**.",
-            "fr": "Sélectionnez **$(player)**."
+            "fr": "Sélectionnez **$(player)**.",
+            "th": "เลือก **$(player)**"
           }
         },
         "placement": "top"
@@ -444,7 +475,8 @@
         "description": {
           "messageByLocale": {
             "en": "We're good.",
-            "fr": "On est bon."
+            "fr": "On est bon.",
+            "th": "เรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -460,7 +492,8 @@
         "description": {
           "messageByLocale": {
             "en": "Everything is all set.",
-            "fr": "Tout est bien configuré."
+            "fr": "Tout est bien configuré.",
+            "th": "ทุกอย่างเรียบร้อยแล้ว"
           }
         },
         "placement": "top"
@@ -475,7 +508,8 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
-            "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**."
+            "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**"
           }
         },
         "placement": "bottom"
