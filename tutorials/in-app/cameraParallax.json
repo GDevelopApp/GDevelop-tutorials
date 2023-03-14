@@ -70,7 +70,7 @@
           "messageByLocale": {
             "en": "Let's improve this platformer game by following the character with the camera!",
             "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra !",
-            "es": "¡Mejoremos este juego de plataformas siguiendo al personaje con la cámara!",
+            "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara!",
             "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera!",
             "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ!"
           }
@@ -206,10 +206,10 @@
         "placement": "left",
         "description": {
           "messageByLocale": {
-            "en": "Now let's add it to our player.\n\nRight click on **$(player)** or use the 3-dots menu and select **Edit behaviors**.",
+            "en": "Let's attach the Camera to our player with the help of **behaviors*:\n\nclick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
             "fr": "Ajoutons maintenant l'extension à notre joueur.\n\nCliquez droit sur **$(player)** ou utilisez le menu à 3 points et sélectionnez **Modifier les comportements**.",
-            "es": "Añadamos ahora la extensión a nuestro jugador.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
-            "pt": "Agora vamos adicioná-lo ao nosso jogador.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
+            "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
+            "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
             "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nคลิกขวาที่ **$(player)** หรือกดเมนู 3 จุด แล้วเลือก **แก้ไขพฤติกรรม**"
           }
         }
@@ -243,7 +243,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the **Smooth Camera** behavior we just installed.",
+            "en": "Let's add the **Smooth Camera** behavior that we've just installed.",
             "fr": "Ajoutons le comportement **Smooth Camera** que nous venons d'installer.",
             "es": "Añadamos el comportamiento **Smooth Camera** que acabamos de instalar.",
             "pt": "Vamos adicionar o comportamento **Smooth Camera** que acabamos de instalar.",
@@ -279,10 +279,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's make it only follow the X axis (Horizontal) by **unchecking** this checkbox.",
-            "fr": "Faisons en sorte qu'il ne suive que l'axe X (Horizontal) en **désélectionnant** cette case.",
-            "es": "Hagamos que solo siga el eje X (Horizontal) **desmarcando** esta casilla.",
-            "pt": "Vamos fazer com que ele siga apenas o eixo X (Horizontal) **desmarcando** esta caixa.",
+            "en": "**Uncheck** the Y axis (vertical) checkbox, to make the camera follow the character only horizontally (X axis).",
+            "fr": "**Décochez** la case de l'axe Y (vertical), pour que la caméra suive le personnage uniquement horizontalement (axe X).",
+            "es": "**Desactiva** la casilla del eje Y (vertical) para que la cámara siga el personaje solamente de manera horizontal (eje X).",
+            "pt": "Desmarque** a caixa do eixo Y (vertical), para que a câmera siga o personagem apenas na horizontal (eixo X).",
             "th": "ทำให้กล้องติดตามเฉพาะแกน X (แนวนอน) เท่านั้น โดย **เอาเครื่องหมายเช็คออก** จาก checkbox นี้"
           }
         }
@@ -297,10 +297,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "That's it! The camera will **follow our player horizontally**!",
+            "en": "That's it! Now the camera will **follow our player only horizontally**!",
             "fr": "C'est tout ! La caméra va **suivre notre joueur horizontalement** !",
-            "es": "¡Eso es todo! ¡La cámara **seguirá a nuestro jugador horizontalmente**!",
-            "pt": "É isso aí! A câmera **seguirá nosso jogador horizontalmente**!",
+            "es": "¡Eso es todo! ¡Ahora la cámara **seguirá a nuestro jugador unicamente de manera horizontal**!",
+            "pt": "É isso aí! Agora a câmera **seguirá nosso jogador unicamente de jeito horizontal**!",
             "th": "เรียบร้อยแล้ว! กล้องจะ **ติดตามผู้เล่นในแนวนอน**!"
           }
         }
@@ -351,10 +351,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Change the name to **Background**.",
-            "fr": "Changeons son nom en **Background**.",
-            "es": "Cambiar el nombre a **Background**.",
-            "pt": "Mude o nome para **Background**.",
+            "en": "Change the name of the layer to **Background**.",
+            "fr": "Changez le nom du calque pour **Background**.",
+            "es": "Cambia el nombre de la capa por **Background**.",
+            "pt": "Mude o nome da camada para **Background**.",
             "th": "เปลี่ยนชื่อเป็น **Background**"
           }
         },
@@ -369,10 +369,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's select this layer as the **default layer** to add objects to.",
-            "fr": "Sélectionnons ce calque comme **calque par défaut** pour ajouter des objets.",
-            "es": "Seleccionemos esta capa como la **capa predeterminada** para agregar objetos.",
-            "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos.",
+            "en": "Now select this Background **layer** so we can start adding objects to it.",
+            "fr": "Sélectionnez maintenant le **calque** Background afin que nous puissions commencer à y ajouter des objets.",
+            "es": "Ahora selecciona la **capa** Background para que podamos empezar a agregarle objetos.",
+            "pt": "Agora selecione a **camada** Background para que possamos começar a adicionar objetos a ela.",
             "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป"
           }
         },
@@ -387,10 +387,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's **move** this layer **below the Base Layer**, so that the background elements will appear behind the player.\n\n**Drag the handle below**",
-            "fr": "Maintenant, **déplaçons** ce calque **en dessous du calque de base**, de sorte que les éléments de fond apparaissent derrière le joueur.\n\n**Glissez le curseur en dessous**",
-            "es": "Ahora, **mueva** esta capa **debajo de la capa base**, para que los elementos de fondo aparezcan detrás del jugador.\n\n**Arrastre el control hacia abajo**",
-            "pt": "Agora, **mova** esta camada **abaixo da camada base**, para que os elementos de fundo apareçam atrás do jogador.\n\n**Arraste o controle para baixo**",
+            "en": "Now let's make sure the background decoration will appear behind the player. **Drag** this Background layer **under** Base Layer. \n\nUse this handle to **drag it**",
+            "fr": "Assurons-nous maintenant que l'arrière-plan apparaîtra derrière le personnage. **Faites glisser** ce calque d'arrière-plan **sous** Couche de base.\n\n**Glissez le curseur en dessous**",
+            "es": "Ahora asegurémonos de que la decoración de fondo aparezca detrás del player. **Arrastra** esta capa Background **debajo** de la Base Layer. \n\nUsa este controlador para **arrastrarlo**",
+            "pt": "Agora vamos garantir que a decoração de fundo apareça atrás do player. **Arraste** esta camada Background **em baixo** da Base Layer. \n\nUse esta alça para **arrastá-lo**",
             "th": "ทีนี้ **ย้าย** เลเยอร์นี้ไป **ใต้เลเยอร์หลัก** เพื่อให้องค์ประกอบในพื้นหลังปรากฏอยู่ข้างหลังผู้เล่น\n\n**ลากตัวควบคุมลง**"
           }
         },
@@ -431,10 +431,10 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "See the **black rectangle** in the middle of the scene? This is the **camera view**. It's the point of view from which the player will see the game.\n\nLet's resize the **$(farBackground)** object so that it covers the whole black rectangle\n\nWhen you're done, click below.",
-            "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nRedimensionnons maintenant l'objet **$(farBackground)** de sorte qu'il couvre tout le rectangle noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
-            "es": "¿Ves el **rectángulo negro** en medio del escenario? Es la vista de la cámara. Este es el punto de vista desde el que el jugador verá el juego.\n\nAhora vamos a redimensionar el objeto **$(farBackground)** para que cubra todo el rectángulo negro.\n\nCuando hayas terminado, haz clic abajo.",
-            "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo.",
+            "en": "See the **black rectangular frame** in the middle of the scene? That is the **camera view**. It frames the part of the game that the player will see.\n\nResize the **$(farBackground)** object so it covers the whole camera view\n\nWhen you're done, click below.",
+            "fr": "Vous voyez le **cadre rectangulaire noir** au milieu de la scène ? C'est la **vue de la caméra**. Il encadre la partie du jeu que le joueur verra.\n\nRedimensionnez l'objet **$(farBackground)** afin qu'il couvre toute la vue de la caméra\n\nQuand vous aurez terminé, cliquez ci-dessous.",
+            "es": "¿Ves el **marco rectangular negro** en el medio de la escena? Esa es la **vista de la cámara**. Sirve para enmarcar la parte del juego que verá el jugador.\n\nCambia el tamaño del objeto **$(farBackground)** para que cubra toda la vista de la cámara.\n\nCuando hayas terminado, haz clic abajo.",
+            "pt": "Você ve a **moldura retangular preta** no meio da cena? Essa é a **visão da câmera**. Ela enquadra a parte do jogo que o jogador verá.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo.",
             "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nปรับขนาดวัตถุ **$(farBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง"
           }
         },
@@ -499,10 +499,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's make those **Backgrounds move**! Let's **open the Events Sheet** of the $(cameraScene) scene.",
+            "en": "Now let's make those **Backgrounds move**! Let's **open the Events Sheet** of your scene $(cameraScene).",
             "fr": "Maintenant, faisons en sorte que ces **fonds se déplacent** ! Ouvrons la **feuille d'événements** de la scène $(cameraScene).",
-            "es": "¡Ahora hagamos que esos **fondos se muevan**! Abramos la **hoja de eventos** de la escena $(cameraScene).",
-            "pt": "Agora vamos fazer com que esses **fundos se movam**! Vamos **abrir a Folha de Eventos** da cena $(cameraScene).",
+            "es": "¡Ahora hagamos que esos **fondos se muevan**! Abramos la **hoja de eventos** de tu escena $(cameraScene).",
+            "pt": "Agora vamos fazer com que esses **fundos se movam**! Vamos **abrir a Folha de Eventos** de tua cena $(cameraScene).",
             "th": "ทีนี้มาทำให้ **พึ้นหลังเคลื่อนที่** กันเถอะ! โดย **เปิดชี้ทอีเวนต์** ของ scene $(cameraScene)"
           }
         },
@@ -590,10 +590,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's make the far background move way **slower** than the camera,\n\n Enter `CameraCenterX()/8`.",
-            "fr": "Faisons en sorte que le fond lointain se déplace beaucoup **plus lentement** que la caméra,\n\n Entrez `CameraCenterX()/8`.",
-            "es": "Hagamos que el fondo lejano se mueva mucho **más lentamente** que la cámara,\n\n Ingrese `CameraCenterX()/8`.",
-            "pt": "Vamos fazer com que o plano de fundo distante se mova muito **mais devagar** que a câmera,\n\n Digite `CameraCenterX()/8`.",
+            "en": "Let's make the far background move way **slower** than the camera,\n\n Type the formula `CameraCenterX()/8`.",
+            "fr": "Faisons en sorte que le fond le plus an arrière se déplace beaucoup **plus lentement** que la caméra,\n\n Entrez la formule `CameraCenterX()/8`.",
+            "es": "Hagamos que el fondo lejano se mueva mucho **más lento** que la cámara,\n\n Escribe la fórmula `CameraCenterX()/8`.",
+            "pt": "Vamos fazer com que o plano de fundo distante se mova muito **mais devagar** que a câmera,\n\n Digite a formula `CameraCenterX()/8`.",
             "th": "ทำให้พื้นหลังเคลื่อนที่ **ช้ากว่า** กล้อง\n\n ใส่ `CameraCenterX()/8`"
           }
         },
@@ -646,7 +646,7 @@
           "messageByLocale": {
             "en": "Select **$(midBackground)**.",
             "fr": "Sélectionnez **$(midBackground)**.",
-            "es": "Seleccione **$(midBackground)**.",
+            "es": "Selecciona **$(midBackground)**.",
             "pt": "Selecione **$(midBackground)**.",
             "th": "เลือก **$(midBackground)**"
           }
@@ -664,7 +664,7 @@
           "messageByLocale": {
             "en": "Select the action **Image X offset**.",
             "fr": "Sélectionnez l'action **Décalage X de l'image**.",
-            "es": "Seleccione la acción **Desplazamiento X de la imagen**.",
+            "es": "Selecciona la acción **Desplazamiento X de la imagen**.",
             "pt": "Selecione a ação **Deslocamento X da imagem**.",
             "th": "เลือกการกระทำ **Image X ออฟเซ็ท**"
           }
