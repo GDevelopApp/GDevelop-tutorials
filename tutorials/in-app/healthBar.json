@@ -29,7 +29,7 @@
       },
       {
         "messageByLocale": {
-          "en": "Well done, in this tutorial you've learned:",
+          "en": "Well done, in this tutorial you've learned how to:",
           "fr": "Bien joué, voici ce que vous avez appris :",
           "es": "¡Bien hecho! En este tutorial, has aprendido:",
           "pt": "Bom trabalho, neste tutorial você aprendeu:",
@@ -38,7 +38,7 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to create a layer\n\n- How to add and use a prefab object",
+          "en": "- Create a layer\n\n- Add and use a prefab object",
           "fr": "- Comment créer un calque\n\n- Comment ajouter et utiliser un objet préfabriqué",
           "es": "- Cómo crear una capa\n\n- Cómo agregar y usar un objeto prefab",
           "pt": "- Como criar uma camada\n\n- Como adicionar e usar um objeto prefab",
@@ -74,10 +74,10 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "This game is a simple platformer.\nYou can move the player with the arrow keys and jump with space.\n\n**Test it out** with the **preview** button.\n\nWhen you're ready, click on this button to continue.",
-            "fr": "Ce jeu est un simple jeu de plateforme.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.\n\n**Testez-le** avec le bouton **Aperçu**.\n\nQuand vous êtes prêt, cliquez sur ce bouton pour continuer.",
-            "es": "Este juego es un simple plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruébalo** con el botón de **Previsualización**.\n\nCuando estés listo, haz clic en este botón para continuar.",
-            "pt": "Este jogo é um simples plataforma.\nVocê pode mover o jogador com as teclas de seta e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.\n\nQuando estiver pronto, clique neste botão para continuar.",
+            "en": "This game is a Platformer. Click on the **preview** button to play.\nYou can move the player with the arrow keys, and jump with space.\n\nOnce you're done, click on this button to continue.",
+            "fr": "Ce jeu est un jeu de plateforme. Cliquez sur le bouton **Aperçu** pour y jouer.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.\n\nQuand vous êtes prêt, cliquez sur ce bouton pour continuer.",
+            "es": "Este juego es un plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruébalo** con el botón de **Previsualización**.\n\nCuando estés listo, haz clic en este botón para continuar.",
+            "pt": "Este jogo é um plataforma.\nVocê pode mover o jogador com as teclas de seta e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.\n\nQuando estiver pronto, clique neste botão para continuar.",
             "th": "นี่เป็นเกม platformer แบบเรียบง่าย\nคุณสามารถเคลื่อนที่ผู้เล่นด้วยปุ่มลูกศรและกระโดดด้วย space bar\n\n**ลดลองเล่นเกม** โดยกดปุ่ม **ดูตัวอย่าง**\n\nเมื่อพร้อมแล้ว กดปุ่มนี้เพื่อไปต่อ"
           }
         }
@@ -92,7 +92,7 @@
         "placement": "left",
         "description": {
           "messageByLocale": {
-            "en": "Let's add a health bar for the player to see how much of their health is left.",
+            "en": "Let's show players how much health they have left with a health bar.",
             "fr": "Ajoutons une barre de vie pour que le joueur ou la joueuse puisse voir combien de vie il lui reste.",
             "es": "Agreguemos una barra de salud para que el jugador pueda ver cuánta salud le queda.",
             "pt": "Vamos adicionar uma barra de saúde para que o jogador veja quanto de sua saúde resta.",
@@ -150,7 +150,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We will use a prefab object. It's an object that comes with specific actions and conditions to simplify its use.",
+            "en": "We will use an object that comes with pre-made actions and conditions. We call this a **Ready to use object**.",
             "fr": "Nous allons utilisé un objet préfabriqué. C'est un objet qui vient avec ses propres actions et conditions, ce qui simplifie son utilisation.",
             "es": "Vamos a usar un objeto prefab. Es un objeto que viene con sus propias acciones y condiciones, lo que simplifica su uso.",
             "pt": "Vamos usar um objeto prefab. É um objeto que vem com suas próprias ações e condições, o que simplifica seu uso.",
@@ -261,7 +261,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We will create a layer that will holds the User Interface (UI) elements.",
+            "en": "We will create a layer for the User Interface (UI) elements.",
             "fr": "Nous allons créer un calque qui contiendra l'interface utilisateur (IU).",
             "es": "Vamos a crear una capa que contendrá los elementos de la interfaz de usuario (IU).",
             "pt": "Vamos criar uma camada que conterá os elementos da interface do usuário (IU).",
@@ -297,8 +297,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's select this layer as the **default layer** to add objects to.",
-            "fr": "Sélectionnons ce calque comme **calque par défaut** pour ajouter des objets.",
+            "en": "Select this **layer** so we can place our hearts inside of it.",
+            "fr": "Sélectionnons ce **calque** pour y placer $(resourceBar).",
             "es": "Seleccionemos esta capa como la **capa predeterminada** para agregar objetos.",
             "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos.",
             "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป"
@@ -315,7 +315,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Drag the **$(resourceBar)** on the scene.",
+            "en": "Drag the **$(resourceBar)** to the scene.",
             "fr": "Faites glisser **$(resourceBar)** du menu à la scène.",
             "es": "Arrastra **$(resourceBar)** desde el menú a la escena.",
             "pt": "Arraste **$(resourceBar)** do menu para a cena.",
@@ -338,8 +338,8 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "See the **black rectangle** in the middle of the scene? This is the **camera view**. It's the point of view from which the player will see the game.\n\nPlace $(resourceBar) so that it's in the top left corner of the rectangle.\n\nWhen you're done, click below.",
-            "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nPlacez $(resourceBar) dans le coin en haut à gauche du rectangle.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
+            "en": "See the **black rectangular frame** in the middle of the scene? That is the **camera view**. It frames the part of the game that the player will see.\n\nPlace the $(resourceBar) on the top left corner of the **camera view**.\n\nWhen you're done, click on the button below.",
+            "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nPlacez $(resourceBar) dans le coin en haut à gauche du rectangle.\n\nQuand vous aurez terminé, cliquez sur le bouton ci-dessous.",
             "es": "¿Ves el **rectángulo negro** en el centro de la escena? Esta es la **vista de la cámara**. Es el punto de vista desde el que el jugador verá el juego.\n\nColoca $(resourceBar) en la esquina superior izquierda del rectángulo.\n\nCuando hayas terminado, haz clic abajo.",
             "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nColoque $(resourceBar) no canto superior esquerdo do retângulo.\n\nQuando você terminar, clique abaixo.",
             "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nจัดวาง $(resourceBar) ให้อยู่ในมุมซ้ายบนของสี่เหลี่ยม\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง"
@@ -359,8 +359,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's plug the health of the **$(player)** with **$(resourceBar)**! Let's **open the Events Sheet** of the $(level) scene.",
-            "fr": "Maintenant, branchons la vie du **$(player)** avec **$(resourceBar)** ! Ouvrons la **feuille d'événements** de la scène $(level).",
+            "en": "Now we'll link the health of the **$(player)** to **$(resourceBar)**! Click on the tab Events to go to the **Events Sheet** of your $(level) scene.",
+            "fr": "Maintenant, branchons la vie du **$(player)** avec **$(resourceBar)** ! Cliquez sur l'onglet Évènements de la scène $(level) pour accéder à la **feuille d'événements**.",
             "es": "Ahora, conectemos la vida del **$(player)** con **$(resourceBar)**! Abramos la **hoja de eventos** de la escena $(level).",
             "pt": "Agora, vamos conectar a vida do **$(player)** com **$(resourceBar)**! Vamos **abrir a Folha de Eventos** da cena $(level).",
             "th": "ทีนี้ มาเชื่อมเลือดของ **$(player)** กับ **$(resourceBar)**กันเถอะ! ให้ **เปิดชี้ทอีเวนต์** จาก scene $(level)"
@@ -378,8 +378,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's **add an action** to change the filling value of $(resourceBar).",
-            "fr": "**Ajoutons une action** pour changer la valeur de remplissage de $(resourceBar).",
+            "en": "Let's **add an action** to define the number of lifes that will be displayed on $(resourceBar).",
+            "fr": "**Ajoutons une action** pour changer le nombre de vies affichées par $(resourceBar).",
             "es": "**Agreguemos una acción** para cambiar el valor de relleno de $(resourceBar).",
             "pt": "**Adicionemos uma ação** para alterar o valor de preenchimento de $(resourceBar).",
             "th": "ให้ **เพิ่มการกระทำ** เพื่อเปลี่ยนค่าที่จะเพิ่มขึ้นของ $(resourceBar)"
@@ -450,7 +450,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's find where is stored the health of $(player).",
+            "en": "Now, let's use the value where the health of $(player) is saved.",
             "fr": "Trouvons où est stockée la santé de $(player).",
             "es": "Encontremos dónde está almacenada la salud de $(player).",
             "pt": "Vamos encontrar onde está armazenada a saúde de $(player).",
@@ -469,8 +469,8 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "$(player) is set up to use the **Health extension**. Search **Health**.",
-            "fr": "$(player) utiliser l'**extension Health**. Cherchez **Health**.",
+            "en": "A **Health extension** has been applied to $(player) to store its lives. Search **Health** to use that value.",
+            "fr": "L'**extension Health** (Santé) a été appliquée à $(player) pour stocker son nombre de vies. Cherchez **Health** pour utiliser cette valeur.",
             "es": "$(player) está configurado para usar la **extensión Health**. Busque **Health**.",
             "pt": "$(player) está configurado para usar a **extensão Health**. Procure por **Health**.",
             "th": "$(player) ตั้งค่าให้ใช้ **Health extension** ค้นหา **Health**"
