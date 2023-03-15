@@ -110,10 +110,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This game is called Plinko! You let a ball fall inside a maze and gather points depending on how many pegs you hit. Click on the **Preview** button to test it out.",
-            "fr": "Ce jeu s'appelle Plinko ! Vous laissez une balle tomber dans un labyrinthe et gagnez des points en fonction du nombre de plots que vous touchez. Cliquez sur le bouton **Aperçu** pour le tester.",
-            "es": "¡Este juego se llama Plinko! Deja caer una bola en un laberinto y gana puntos dependiendo de cuántos clavos golpees. Haz clic en el botón **Vista previa** para probarlo.",
-            "pt": "Este jogo se chama Plinko! Você deixa uma bola cair em um labirinto e ganha pontos dependendo de quantos pinos você acerta. Clique no botão **Visualizar** para testá-lo.",
+            "en": "This game is called Plinko! Click on the **Preview** button to test it out and gather points depending on how many pegs you hit.",
+            "fr": "Ce jeu s'appelle Plinko! Cliquez sur le bouton **Aperçu** pour le tester et accumuler des points en fonction du nombre de piquets que vous frappez.",
+            "es": "¡Este juego se llama Plinko!Haz clic en el botón **Vista previa** para probarlo y gana puntos dependiendo de cuántos clavos golpees.",
+            "pt": "Este jogo se chama Plinko! Clique no botão **Visualizar** para testá-lo e ganhe pontos dependendo de quantos pinos você acerta.",
             "th": "เกมนี้มีชื่อว่า Plinko! คุณปล่อยลูกบอลหล่นลงมาในเขาวงกตและทำคะแนนได้เมื่อลูกบอลชนกับเป๊ก กดปุ่ม **ดูตัวอย่าง** เพื่อทดลองเล่นเกม"
           }
         },
@@ -129,10 +129,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add a few **$(multiplier)** to spice up the game! Drag 3 from the menu to the canvas and place them so they can be collected by the ball through the maze.",
-            "fr": "Ajoutons quelques **$(multiplier)** pour pimenter le jeu ! Faites glisser 3 depuis le menu sur le canvas et placez-les de sorte qu'ils puissent être collectés par la balle à travers le labyrinthe.",
-            "es": "¡Agreguemos algunos **$(multiplier)** para darle un poco de sabor al juego! Arrastra 3 desde el menú al lienzo y colócalos de manera que puedan ser recogidos por la bola a través del laberinto.",
-            "pt": "Vamos adicionar alguns **$(multiplier)** para dar um pouco de sabor ao jogo! Arraste 3 do menu para a tela e coloque-os de modo que possam ser coletados pela bola através do labirinto.",
+            "en": "Drag 3 **$(multiplier)** objects to the canvas and place them where they can be hit by the ball.",
+            "fr": "Faites glisser 3 objets **$(multiplier)** sur le canevas et placez-les là où ils peuvent être touchés par la balle.",
+            "es": "¡Arrastra 3 objetos **$(multiplier)** al lienzo y colócalos donde puedan ser golpeados por la pelota.",
+            "pt": "Arraste 3 objetos **$(multiplier)** para a tela e coloque-os onde possam ser atingidos pela bola.",
             "th": "มาเพิ่ม **$(multiplier)** เพื่อทำให้เกมสนุกขึ้นกันเถอะ! ลาก 3 ชิ้น จากเมนูไปใส่ในแคนวาส และจัดวางให้พวกมันสามารถถูกลูกบอลเก็บไปได้ขณะที่กำลังผ่านเขาวงกต"
           }
         },
@@ -147,10 +147,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Once you're done, let's position a **$(scoreMultiplier)** to display the current multiplier score. Let's place it just below the score!",
-            "fr": "Une fois que vous avez terminé, positionnons un **$(scoreMultiplier)** pour afficher le multiplicateur de score actuel. Plaçons-le juste en dessous du score !",
-            "es": "Una vez que hayas terminado, coloquemos un **$(scoreMultiplier)** para mostrar la puntuación actual del multiplicador. ¡Colóquelo justo debajo de la puntuación!",
-            "pt": "Uma vez que você terminou, vamos posicionar um **$(scoreMultiplier)** para exibir a pontuação atual do multiplicador. Vamos colocá-lo logo abaixo da pontuação!",
+            "en": "Once you're done, place a **$(scoreMultiplier)** under *Score* to display the point multiplier!",
+            "fr": "Une fois que vous avez terminé, placez un **$(scoreMultiplier)** juste en dessous du *Score* pour afficher le multiplicateur de points !",
+            "es": "Una vez que hayas terminado, coloca un **$(scoreMultiplier)** debajo de *Score* para mostrar el multiplicador de puntos.",
+            "pt": "Uma vez que você terminou, coloque um **$(scoreMultiplier)** embaixo do *Score* para exibir a pontuação atual do multiplicador.",
             "th": "เมื่อทำเสร็จแล้ว ให้ใส่ **$(scoreMultiplier)** เพื่อแสดงคะแนน multiplier score ที่เวลาปัจจุบัน ใส่และจัดวางไว้ข้างล่างคะแนนเลย!"
           }
         },
@@ -166,10 +166,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We now need to store the score somewhere. Let's create a **scene variable**! Open the **Project Manager**",
-            "fr": "Nous devons maintenant stocker le score quelque part. Créons une **variable de scène** ! Ouvrez le **Project Manager**",
-            "es": "Ahora necesitamos almacenar la puntuación en algún lugar. ¡Creemos una **variable de escena**! Abre el **Project Manager**",
-            "pt": "Agora precisamos armazenar a pontuação em algum lugar. Vamos criar uma **variável de cena**! Abra o **Project Manager**",
+            "en": "Now we'll store the game score: open the **Project Manager** and create a **scene variable**! ",
+            "fr": "Maintenant nous allons stocker le score quelque part: ouvrez le **Project Manager** et créons une **variable de scène** !",
+            "es": "Ahora vamos a guardar la puntuación en algún lugar: abre el **Project Manager** y crea una **variable de escena**!",
+            "pt": "Agora vamos armazenar a pontuação em algum lugar: abra o **Project Manager** et vamos criar uma **variável de cena**!",
             "th": "ทีนี้เราจะทำให้ข้อมูลคะแนนถูกจัดเก็บไว้ที่ไหนสักแห่ง เรามาสร้าง **ตัวแปรของ scene** กันเถอะ! เปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
@@ -212,10 +212,10 @@
         "placement": "right",
         "description": {
           "messageByLocale": {
-            "en": "**Right click** on $(gameScene) or tap the **triple dot button** and select **Edit scene variables**.",
-            "fr": "Faites un **clic droit** sur $(gameScene) ou appuyez sur le **bouton à trois points** et sélectionnez **Modifier les variables de scène**.",
-            "es": "Haga **clic derecho** en $(gameScene) o toque el **botón de tres puntos** y seleccione **Editar variables de escena**.",
-            "pt": "Clique com o **botão direito** em $(gameScene) ou toque no **botão de três pontos** e selecione **Editar variáveis de cena**.",
+            "en": "**Right click** (or clck the *3 dot menu*) on $(gameScene) and select **Edit scene variables**.",
+            "fr": "Faites un **clic droit** (ou appuyez sur le *bouton à trois points*) sur $(gameScene) et sélectionnez **Modifier les variables de scène**.",
+            "es": "Haz **clic derecho** (o clic en el **botón de tres puntos**) sobre $(gameScene) y selecciona **Editar variables de escena**.",
+            "pt": "Clique com o **botão direito** (ou toque no *botão de três pontos*) na $(gameScene) e selecione **Editar variáveis de cena**.",
             "th": "**คลิกขวา** ที่ $(gameScene) หรือกดที่ **ปุ่ม 3 จุด** และเลือก **แก้ไขตัวแปรของ scene**"
           }
         }
@@ -323,10 +323,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's make those multipliers active. Let's open the **Events Sheet** of the $(gameScene) scene.",
-            "fr": "Maintenant, rendons ces multiplicateurs actifs. Ouvrons la **Feuille d'événements** de la scène $(gameScene).",
-            "es": "Ahora hagamos que esos multiplicadores estén activos. Abramos la **Hoja de eventos** de la escena $(gameScene).",
-            "pt": "Agora vamos deixar esses multiplicadores ativos. Vamos abrir a **Folha de eventos** da cena $(gameScene).",
+              "en": "Now let's activate those multipliers. Open the **Events Sheet** of the $(gameScene) scene.",
+            "fr": "Maintenant, activons ces multiplicateurs. Ouvrons la **Feuille d'événements** de la scène $(gameScene).",
+            "es": "Ahora activemos esos multiplicadores. Abre la **Hoja de eventos** de la escena $(gameScene).",
+            "pt": "Agora vamos ativar esses multiplicadores. Vamos abra a **Folha de eventos** da cena $(gameScene).",
             "th": "ทีนี้มาทำให้ multiplier ทำงานกัน เปิด **ชี้ทอีเวนต์** ของ scene $(gameScene)"
           }
         },
@@ -342,10 +342,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "First we will make $(multiplier) disappear when $(ball) hits one. An event is ready for you, let's **add a condition** to it.",
-            "fr": "Tout d'abord, nous ferons disparaître $(multiplier) quand $(ball) touche un. Un événement est prêt pour vous, ajoutons-y une **condition**.",
-            "es": "Primero haremos que $(multiplier) desaparezca cuando $(ball) golpee uno. Un evento está listo para usted, agreguemosle una **condición**.",
-            "pt": "Primeiro vamos fazer com que $(multiplier) desapareça quando $(ball) bater em um. Um evento está pronto para você, vamos **adicionar uma condição** a ele.",
+            "en": "We'll start by making the $(multiplier) disappear when it gets hitted by a $(ball). Click **add a condition** to begin.",
+            "fr": "Nous allons commencer par faire disparaître le $(multiplier) lorsqu'il est touché par une $(ball). Cliquez sur **ajouter une condition** pour commencer.",
+            "es": "Comenzaremos haciendo que el $(multiplier) desaparezca cuando sea golpeado por una $(ball). Haz clic en **agregar una condición** para empezar.",
+            "pt": "Começaremos fazendo o $(multiplier) desaparecer ao ser atingido por uma $(ball). Clique em **adicionar uma condição** para iniciar.",
             "th": "ขั้นแรก เราจะทำให้ $(multiplier) หายไป เมื่อถูก $(ball) ชนครั้งหนึ่ง อีเวนท์พร้อมแล้ว ให้ **เพิ่มเงื่อนไข** ลงไป"
           }
         }
@@ -414,10 +414,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, our **condition** is ready and will be **true** when the **$(ball) touches the $(multiplier)**.",
-            "fr": "Bien, notre **condition** est prête et sera **vraie** quand **$(ball) touche le $(multiplier)**.",
-            "es": "Bien, nuestra **condición** está lista y será **verdadera** cuando el **$(ball) golpee el $(multiplier)**.",
-            "pt": "Bem, nossa **condição** está pronta e será **verdadeira** quando o **$(ball) bater no $(multiplier)**.",
+            "en": "Alright, our **condition** is ready. This **condition** will be **true** when the **$(ball) touches the $(multiplier)**.",
+            "fr": "Bien, notre **condition** est prête. Elle sera **vraie** quand **$(ball) touche le $(multiplier)**.",
+            "es": "Bien, nuestra **condición** está lista. Será **verdadera** cuando **$(ball) golpee el $(multiplier)**.",
+            "pt": "Bem, nossa **condição** está pronta. Ela será **verdadeira** quando **$(ball) bater no $(multiplier)**.",
             "th": "เอาล่ะ **เงื่อนไข** ของเราพร้อมแล้วและจะให้ค่า **จริง** เมื่อ **$(ball) สัมผัสกับ $(multiplier)**"
           }
         },
@@ -485,10 +485,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "It is important to note that only the $(multiplier) that match the condition will be deleted. This is called **Object picking**. Let's close this dialog.",
-            "fr": "Il est important de noter que seul le $(multiplier) qui correspond à la condition sera supprimé. C'est ce qu'on appelle le **choix d'objet**. Fermons cette boîte de dialogue.",
-            "es": "Es importante tener en cuenta que solo el $(multiplier) que coincida con la condición será eliminado. Esto se llama **elección de objeto**. Cerraremos esta ventana.",
-            "pt": "É importante notar que apenas o $(multiplier) que corresponder à condição será excluído. Isso é chamado de **escolha de objeto**. Vamos fechar esta janela.",
+            "en": "It is important to note that only the $(multiplier) that is hitted by the $(ball) (matches our condition) will be deleted. This principle is called **Object picking**.\n\nLet's close this dialog.",
+            "fr": "Il est important de noter que seul le $(multiplier) qui est touché par la $(ball) (qui correspond à notre condition) sera supprimé. On appelle ce principe le **choix d'objet**.\n\nFermons cette boîte de dialogue.",
+            "es": "Es importante tomar en cuenta que solo el $(multiplier) que sea tocado por la $(ball) (coincida con nuestra condición) será eliminado. Este principio se llama **elección de objeto**.\n\nCerraremos esta ventana.",
+            "pt": "É importante notar que apenas o $(multiplier) que for atingido pela $(ball) (que corresponder à nossa condição) será excluído. Esse princípio é chamado de **escolha de objeto**.\n\nVamos fechar esta janela.",
             "th": "สิ่งสำคัญที่คุณควรจดจำไว้คือ มีเพียง $(multiplier) ที่ตรงกับเงื่อนไขเท่านั้นที่ถูกลบ เรียกว่า **การเลือกวัตถุ** ปิดหน้าต่างนี้"
           }
         },
@@ -1065,10 +1065,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This event here manages the logic when the player hits a bigger peg. Let's modify the score action by **double-clicking on it** again.",
-            "fr": "Cet événement gère la logique lorsque le joueur touche un plot plus gros. Modifions l'action de score en **double-cliquant dessus** à nouveau.",
-            "es": "Este evento gestiona la lógica cuando el jugador toca un plot más grande. Modifiquemos la acción de puntuación **dando doble clic en ella** nuevamente.",
-            "pt": "Este evento gerencia a lógica quando o jogador toca um plot maior. Vamos modificar a ação de pontuação **clicando duas vezes nela** novamente.",
+            "en": "This event here manages the logic when the player hits a *bigger* peg. Let's modify the score action by **double-clicking on it** again.",
+            "fr": "Cet événement gère la logique lorsque le joueur touche un plot *plus gros*. Modifions l'action de score en **double-cliquant dessus** à nouveau.",
+            "es": "Este evento gestiona la lógica cuando el jugador toca un plot *más grande*. Modifiquemos la acción de puntuación **dando doble clic en ella** nuevamente.",
+            "pt": "Este evento gerencia a lógica quando o jogador toca um plot *maior*. Vamos modificar a ação de pontuação **clicando duas vezes nela** novamente.",
             "th": "อีเวนท์นี้จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก แก้ไขการกระทำของคะแนนโดย **ดับเบิลคลิก** อีกครั้ง"
           }
         }
@@ -1082,10 +1082,10 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We want to do exactly the same, except that the score given is 2,\n\nenter `2 * Variable(Multiplier)`.",
-            "fr": "Nous voulons faire exactement la même chose, sauf que le score donné est 2,\n\nentrons `2 * Variable(Multiplier)`.",
-            "es": "Queremos hacer exactamente lo mismo, excepto que la puntuación dada es 2,\n\ningresamos `2 * Variable(Multiplier)`.",
-            "pt": "Queremos fazer exatamente a mesma coisa, exceto que a pontuação dada é 2,\n\ndigitar `2 * Variable(Multiplier)`.",
+            "en": "Now we'll do exactly the same, except that the score given will be 2,\n\nenter `2 * Variable(Multiplier)`.",
+            "fr": "Nous allons faire exactement la même chose, sauf que le score donné sera 2,\n\nentrons `2 * Variable(Multiplier)`.",
+            "es": "Ahora vamos a hacer exactamente lo mismo, excepto que la puntuación dada sera 2,\n\ningresamos `2 * Variable(Multiplier)`.",
+            "pt": "Hora faremos exatamente a mesma coisa, exceto que a pontuação dada sera 2,\n\ndigitar `2 * Variable(Multiplier)`.",
             "th": "เราจะทำเหมือนเดิม ยกเว้นอย่างหนึ่ง คะแนนจะใส่เป็น 2\n\nใส่ `2 * Variable(Multiplier)`"
           }
         },
