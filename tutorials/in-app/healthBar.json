@@ -330,6 +330,8 @@
           "messageByLocale": {
             "en": "I'm done",
             "fr": "J'ai terminé",
+            "es": "He terminado",
+            "pt": "Terminei",
             "th": "เสร็จแล้ว"
           }
         }
