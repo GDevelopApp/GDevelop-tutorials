@@ -206,7 +206,7 @@
         "placement": "left",
         "description": {
           "messageByLocale": {
-            "en": "Let's attach the Camera to our player with the help of **behaviors*:\n\nclick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
+            "en": "Let's attach the Camera to our player with the help of **behaviors**:\n\nclick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
             "fr": "Ajoutons maintenant l'extension à notre joueur.\n\nCliquez droit sur **$(player)** ou utilisez le menu à 3 points et sélectionnez **Modifier les comportements**.",
             "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
             "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
@@ -590,11 +590,11 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's make the far background move way **slower** than the camera,\n\n Type the formula `CameraCenterX()/8`.",
-            "fr": "Faisons en sorte que le fond le plus an arrière se déplace beaucoup **plus lentement** que la caméra,\n\n Entrez la formule `CameraCenterX()/8`.",
-            "es": "Hagamos que el fondo lejano se mueva mucho **más lento** que la cámara,\n\n Escribe la fórmula `CameraCenterX()/8`.",
-            "pt": "Vamos fazer com que o plano de fundo distante se mova muito **mais devagar** que a câmera,\n\n Digite a formula `CameraCenterX()/8`.",
-            "th": "ทำให้พื้นหลังเคลื่อนที่ **ช้ากว่า** กล้อง\n\n ใส่ `CameraCenterX()/8`"
+            "en": "Let's make the far background move,\n\n The way we do it is by making it move relatively to the position of the camera.\n\n If the player moves, the camera moves too, so we make the background follow the camera center horizontally (X), but **way slower** to give an effect of depth.\n\n Type the formula `CameraCenterX()/8`.",
+            "fr": "Faisons bouger le fond lointain,\n\n La façon de le faire est de le faire bouger par rapport à la position de la caméra.\n\n Si le joueur se déplace, la caméra se déplace aussi, donc nous faisons en sorte que le fond suive le centre de la caméra horizontalement (X), mais **beaucoup plus lentement** pour donner un effet de profondeur.\n\n Tapez la formule `CameraCenterX()/8`.",
+            "es": "Hagamos que el fondo lejano se mueva,\n\n La forma de hacerlo es hacer que se mueva en relación con la posición de la cámara.\n\n Si el jugador se mueve, la cámara también se mueve, por lo que hacemos que el fondo siga el centro de la cámara horizontalmente (X), pero **mucho más lento** para dar un efecto de profundidad.\n\n Escribe la fórmula `CameraCenterX()/8`.",
+            "pt": "Vamos fazer o fundo distante se mover,\n\n A maneira como fazemos isso é fazendo com que ele se mova em relação à posição da câmera.\n\n Se o jogador se mover, a câmera também se move, então fazemos o fundo seguir o centro da câmera horizontalmente (X), mas **muito mais devagar** para dar um efeito de profundidade.\n\n Digite a fórmula `CameraCenterX()/8`.",
+            "th": "มาทำให้พื้นหลังไกลเคลื่อนที่\n\nวิธีที่เราทำคือทำให้พื้นหลังเคลื่อนที่เทียบเท่ากับตำแหน่งของกล้อง\n\nถ้าผู้เล่นเคลื่อนที่กล้องก็จะเคลื่อนที่ด้วย ดังนั้นเราจึงทำให้พื้นหลังติดตามตำแหน่งกล้องแนวนอน (X) แต่**เร็วมากกว่า** เพื่อให้มีความลึกลับ\n\nพิมพ์สูตร `CameraCenterX()/8`"
           }
         },
         "placement": "top"
@@ -699,11 +699,11 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This time let's make this background move **faster**, to give the effect that it is closer to the player,\n\n Enter `CameraCenterX()/3`.",
-            "fr": "Cette fois, faisons en sorte que ce fond se déplace **plus vite**, pour donner l'effet qu'il est plus proche du joueur,\n\n Entrez `CameraCenterX()/3`.",
-            "es": "Esta vez hagamos que este fondo se mueva **más rápido**, para dar el efecto de que está más cerca del jugador,\n\n Ingrese `CameraCenterX()/3`.",
-            "pt": "Desta vez vamos fazer com que este plano de fundo se mova **mais rápido**, para dar o efeito de que está mais perto do jogador,\n\n Digite `CameraCenterX()/3`.",
-            "th": "ทำให้พื้นหลังเคลื่อนที่ **เร็วกว่า** เพื่อทำเอฟเฟกต์ให้ดูเหมือนกับว่าอยู่ใกล้กับผู้เล่น\n\n ใส่ `CameraCenterX()/3`"
+            "en": "This time let's make this background move **faster**, to give the effect that it is closer to the player,\n\nso let's make the background move **3 times slower** than the camera.\n\n Enter `CameraCenterX()/3`.",
+            "fr": "Cette fois, faisons en sorte que ce fond se déplace **plus vite**, pour donner l'effet qu'il est plus proche du joueur,\n\nalors faisons en sorte que le fond se déplace **3 fois plus lentement** que la caméra.\n\nEntrez `CameraCenterX()/3`.",
+            "es": "Esta vez, hagamos que este fondo se mueva **más rápido**, para dar el efecto de que está más cerca del jugador,\n\nasí que hagamos que el fondo se mueva **3 veces más lento** que la cámara.\n\nIngrese `CameraCenterX()/3`.",
+            "pt": "Desta vez, vamos fazer com que este fundo se mova **mais rápido**, para dar o efeito de que está mais perto do jogador,\n\nentão vamos fazer com que o fundo se mova **3 vezes mais devagar** que a câmera.\n\nDigite `CameraCenterX()/3`.",
+            "th": "ในครั้งนี้เราจะทำให้พื้นหลังเคลื่อนที่ **เร็วขึ้น** เพื่อให้มีผลลัพธ์ที่เห็นได้ชัดว่ามันอยู่ใกล้กับผู้เล่นมากขึ้น\n\nดังนั้นเราจะทำให้พื้นหลังเคลื่อนที่ **ช้าลง 3 เท่า** กว่ากล้อง\n\nใส่ `CameraCenterX()/3`"
           }
         },
         "placement": "top"
