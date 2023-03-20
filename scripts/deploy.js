@@ -75,6 +75,8 @@ axios
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/cameraParallax/game.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/healthBar.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/healthBar/game.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/joystick.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/templates/joystick/game.json',
       ],
     },
     {
