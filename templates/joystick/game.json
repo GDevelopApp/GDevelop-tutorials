@@ -150,32 +150,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Shaded dark joystick border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Shaded dark joystick border.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/dd6e3c2d11ba02bd5a052cd47908e851b656d0fb492b52006afa4843e597d0cc_Shaded dark joystick border.png",
-          "name": "Shaded dark joystick border.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Shaded dark joystick thumb.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Shaded dark joystick thumb.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/13d8225be69d0f11b6de965cac0d840e7e63e2510a638af89ae42b052caa2460_Shaded dark joystick thumb.png",
-          "name": "Shaded dark joystick thumb.png"
-        }
-      },
-      {
         "file": "assets/Crash.wav",
         "kind": "audio",
         "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.13,\\\"sustainPunch\\\":70,\\\"decay\\\":0.22,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":5,\\\"frequency\\\":7200,\\\"frequencySweep\\\":-2600,\\\"frequencyDeltaSweep\\\":-2200,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":-5,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.53,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":0,\\\"squareDuty\\\":55,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":5,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":-1,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":-900,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Crash\"},\"localFilePath\":\"assets/Crash.wav\"}",
@@ -184,32 +158,6 @@
         "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Flat light joystick border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat light joystick border.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/ab72105ef4577d93b002f4b6f9b6095f7db7e346da37bcffa2977edf61ac231d_Flat light joystick border.png",
-          "name": "Flat light joystick border.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Flat light joystick thumb.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat light joystick thumb.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/0acabda67390a4e4aa8b1023454400432c202efb1a525070784c756f61de7e81_Flat light joystick thumb.png",
-          "name": "Flat light joystick thumb.png"
-        }
       }
     ],
     "resourceFolders": []
@@ -571,11 +519,11 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 200,
               "deceleration": 900,
               "maxSpeed": 300,
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
