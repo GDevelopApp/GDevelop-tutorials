@@ -18,7 +18,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "JoystickLesson",
+    "name": "Joystick Lesson",
     "description": "A game example where you add a joystick to control the movement of a ship in space.",
     "author": "",
     "windowWidth": 720,
