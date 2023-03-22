@@ -77,6 +77,8 @@ axios
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/healthBar/game.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/joystick.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/joystick/game.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/timer.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/templates/timer/game.json',
       ],
     },
     {
