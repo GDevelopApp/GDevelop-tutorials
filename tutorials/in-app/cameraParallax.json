@@ -83,8 +83,7 @@
             "pt": "Para isso, instalaremos uma **extensão**.\n\nAbra o **Gerenciador de projetos**.",
             "th": "โดยเราจะติดตั้ง **extension**.\n\nเปิด **โปรเจกต์เมเนเจอร์**"
           }
-        },
-        "placement": "right"
+        }
       }
     },
     {
@@ -120,7 +119,8 @@
             "pt": "Abra a **loja de extensões**",
             "th": "เปิด **ร้านค้า extension**"
           }
-        }
+        },
+        "placement": "top"
       },
       "isOnClosableDialog": true
     },
@@ -176,7 +176,7 @@
             "th": "ติดตั้ง extension ในโปรเจกต์ของคุณ"
           }
         },
-        "placement": "left"
+        "placement": "top"
       },
       "isOnClosableDialog": true
     },
@@ -195,7 +195,45 @@
             "th": "ปิดหน้าต่างนี้"
           }
         }
-      }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close",
+      "nextStepTrigger": {
+        "absenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's close the menu.",
+            "fr": "Fermons le menu.",
+            "es": "Cerramos el menú.",
+            "pt": "Vamos fechar o menu.",
+            "th": "ปิดเมนู"
+          }
+        }
+      },
+      "skippable": true
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "es": "Abre el panel de **objetos**.",
+            "pt": "Abra o painel de **objetos**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:player",
@@ -203,7 +241,7 @@
         "presenceOfElement": "#object-editor-dialog"
       },
       "tooltip": {
-        "placement": "left",
+        "placement": "top",
         "description": {
           "messageByLocale": {
             "en": "Let's attach the Camera to our player with the help of **behaviors**:\n\nclick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
@@ -211,6 +249,15 @@
             "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
             "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
             "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nคลิกขวาที่ **$(player)** หรือกดเมนู 3 จุด แล้วเลือก **แก้ไขพฤติกรรม**"
+          }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "Let's attach the Camera to our player with the help of **behaviors**:\n\nSelect then long-press **$(player)**, and select **Edit behaviors**.",
+            "fr": "Ajoutons maintenant l'extension à notre joueur.\n\nSélectionnez puis appuyez longuement sur **$(player)** et sélectionnez **Modifier les comportements**.",
+            "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nSelecciona y pulsa largo **$(player)** y selecciona **Editar comportamientos**.",
+            "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nSelecione e pressione por um longo tempo **$(player)** e selecione **Editar comportamentos**.",
+            "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nเลือกแล้วกดค้างที่ **$(player)** แล้วเลือก **แก้ไขพฤติกรรม**"
           }
         }
       }
@@ -376,7 +423,7 @@
             "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป"
           }
         },
-        "placement": "left"
+        "placement": "top"
       }
     },
     {
@@ -398,6 +445,25 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "es": "Abre el panel de **objetos**.",
+            "pt": "Abra o painel de **objetos**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:farBackground",
       "nextStepTrigger": {
         "instanceAddedOnScene": "farBackground"
@@ -412,7 +478,16 @@
             "th": "สมบูรณ์แบบ! ทีนี้เพิ่ม **$(farBackground)** ไปยังเกมของเราโดยลากมันไปวางตรงกลาง"
           }
         },
-        "placement": "left"
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "Perfect! Now let's add **$(farBackground)** to our game by **selecting** then **dragging** it to the center.",
+            "fr": "Parfait ! Ajoutons maintenant **$(farBackground)** à notre jeu en le **sélectionnant** puis en le faisant glisser au centre.",
+            "es": "¡Perfecto! Ahora agreguemos **$(farBackground)** a nuestro juego **seleccionándolo** y luego arrastrándolo al centro.",
+            "pt": "Perfeito! Agora vamos adicionar **$(farBackground)** ao nosso jogo, **selecionando** e depois arrastando-o para o centro.",
+            "th": "สมบูรณ์แบบ! ทีนี้เพิ่ม **$(farBackground)** ไปยังเกมของเราโดย **เลือก** แล้ว **ลาก** มันไปวางตรงกลาง"
+          }
+        },
+        "placement": "top"
       }
     },
     {
@@ -431,11 +506,11 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "See the **black rectangular frame** in the middle of the scene? That is the **camera view**. It frames the part of the game that the player will see.\n\nResize the **$(farBackground)** object so it covers the whole camera view\n\nWhen you're done, click below.",
-            "fr": "Vous voyez le **cadre rectangulaire noir** au milieu de la scène ? C'est la **vue de la caméra**. Il encadre la partie du jeu que le joueur verra.\n\nRedimensionnez l'objet **$(farBackground)** afin qu'il couvre toute la vue de la caméra\n\nQuand vous aurez terminé, cliquez ci-dessous.",
-            "es": "¿Ves el **marco rectangular negro** en el medio de la escena? Esa es la **vista de la cámara**. Sirve para enmarcar la parte del juego que verá el jugador.\n\nCambia el tamaño del objeto **$(farBackground)** para que cubra toda la vista de la cámara.\n\nCuando hayas terminado, haz clic abajo.",
-            "pt": "Você ve a **moldura retangular preta** no meio da cena? Essa é a **visão da câmera**. Ela enquadra a parte do jogo que o jogador verá.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo.",
-            "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nปรับขนาดวัตถุ **$(farBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง"
+            "en": "See the **black rectangular frame** in the middle of the scene? That is the **camera view**. It frames the part of the game that the player will see.\n\nResize the **$(farBackground)** object so it covers the whole camera view.",
+            "fr": "Vous voyez le **cadre rectangulaire noir** au milieu de la scène ? C'est la **vue de la caméra**. Il encadre la partie du jeu que le joueur verra.\n\nRedimensionnez l'objet **$(farBackground)** afin qu'il couvre toute la vue de la caméra.",
+            "es": "¿Ves el **marco rectangular negro** en el medio de la escena? Esa es la **vista de la cámara**. Sirve para enmarcar la parte del juego que verá el jugador.\n\nCambia el tamaño del objeto **$(farBackground)** para que cubra toda la vista de la cámara.",
+            "pt": "Você ve a **moldura retangular preta** no meio da cena? Essa é a **visão da câmera**. Ela enquadra a parte do jogo que o jogador verá.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.",
+            "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nปรับขนาดวัตถุ **$(farBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด"
           }
         },
         "placement": "top",
@@ -443,6 +518,25 @@
           "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSI1Ni4yODcgMTc3LjEyMSA0MDIuNTczIDEyNC4zMzkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3QgeD0iNTYuMzY2IiB5PSIyODguNjg1IiB3aWR0aD0iNDAyLjQ5NCIgaGVpZ2h0PSIxMi43NzUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSI1Ni4yODciIHk9IjE3OC4yNSIgd2lkdGg9IjExLjEwMiIgaGVpZ2h0PSIxMTAuMzU5IiBzdHlsZT0ic3Ryb2tlOiByZ2IoMCwgMCwgMCk7IGZpbGw6IHJnYigxMjIsIDk1LCA5NSk7Ii8+CiAgPHJlY3QgeD0iNDQ3LjIzMyIgeT0iMTc4LjM0IiB3aWR0aD0iMTEuMjA5IiBoZWlnaHQ9IjExMC4zNTkiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSIxNDMuNTcyIiB5PSIxNzcuMTIxIiB3aWR0aD0iMjE3LjM2NyIgaGVpZ2h0PSIxMjMuOTM5IiBzdHlsZT0iZmlsbDogcmdiKDIxNiwgMjE2LCAyMTYpOyBzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbC1vcGFjaXR5OiAwOyIvPgogIDxyZWN0IHg9IjE0My45ODQiIHk9IjE3Ny40MDYiIHdpZHRoPSIyMTYuNTIxIiBoZWlnaHQ9IjEyMy41MjUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDQ3LCAyNDIsIDQzKTsiLz4KPC9zdmc+"
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "es": "Abre el panel de **objetos**.",
+            "pt": "Abra o painel de **objetos**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:midBackground",
@@ -459,7 +553,16 @@
             "th": "ทำอย่างเดียวกันกับพื้นหลังอื่นจะทำให้เกิดเอฟเฟกต์พารัลแลกซ์! ลาก **$(midBackground)** จากเมนูไปยัง scene"
           }
         },
-        "placement": "left"
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "Let's do the same with another background to give a parallax effect! **Select**, then **drag** **$(midBackground)** from the menu to the canvas.",
+            "fr": "Faisons la même chose avec un autre fond pour donner un effet de parallaxe ! **Sélectionnez**, puis **glissez** **$(midBackground)** depuis le menu vers la scène.",
+            "es": "¡Hagamos lo mismo con otro fondo para dar un efecto de paralaje! **Seleccione**, luego **arrastre** **$(midBackground)** desde el menú a la escena.",
+            "pt": "Vamos fazer o mesmo com outro fundo para dar um efeito de paralaxe! **Selecione**, em seguida, **arraste** **$(midBackground)** do menu para a cena.",
+            "th": "ทำอย่างเดียวกันกับพื้นหลังอื่นจะทำให้เกิดเอฟเฟกต์พารัลแลกซ์! **เลือก** แล้ว **ลาก** **$(midBackground)** จากเมนูไปยัง scene"
+          }
+        },
+        "placement": "top"
       }
     },
     {
@@ -478,11 +581,11 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Same as for the $(farBackground) object, resize the **$(midBackground)** object so that it covers the whole black rectangle.\n\nWhen you're done, click below.",
-            "fr": "Comme pour l'objet $(farBackground), redimensionnez l'objet **$(midBackground)** de sorte qu'il couvre tout le rectangle noir.\n\nQuand vous aurez terminé, cliquez ci-dessous.",
-            "es": "Al igual que con el objeto $(farBackground), redimensiona el objeto **$(midBackground)** para que cubra todo el rectángulo negro.\n\nCuando haya terminado, haga clic abajo.",
-            "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o retângulo preto.\n\nQuando terminar, clique abaixo.",
-            "th": "เช่นเดียวกันกับวัตถุ $(farBackground), ปรับขนาดวัตถุ **$(midBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง"
+            "en": "Same as for the $(farBackground) object, resize the **$(midBackground)** object so that it covers the whole black rectangle.",
+            "fr": "Comme pour l'objet $(farBackground), redimensionnez l'objet **$(midBackground)** de sorte qu'il couvre tout le rectangle noir.",
+            "es": "Al igual que con el objeto $(farBackground), redimensiona el objeto **$(midBackground)** para que cubra todo el rectángulo negro.",
+            "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o retângulo preto.",
+            "th": "เช่นเดียวกันกับวัตถุ $(farBackground), ปรับขนาดวัตถุ **$(midBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด"
           }
         },
         "placement": "top",
@@ -578,7 +681,7 @@
             "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -597,7 +700,7 @@
             "th": "มาทำให้พื้นหลังไกลเคลื่อนที่\n\nวิธีที่เราทำคือทำให้พื้นหลังเคลื่อนที่เทียบเท่ากับตำแหน่งของกล้อง\n\nถ้าผู้เล่นเคลื่อนที่กล้องก็จะเคลื่อนที่ด้วย ดังนั้นเราจึงทำให้พื้นหลังติดตามตำแหน่งกล้องแนวนอน (X) แต่**เร็วมากกว่า** เพื่อให้มีความลึกลับ\n\nพิมพ์สูตร `CameraCenterX()/8`"
           }
         },
-        "placement": "top"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -687,7 +790,7 @@
             "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -706,7 +809,7 @@
             "th": "ในครั้งนี้เราจะทำให้พื้นหลังเคลื่อนที่ **เร็วขึ้น** เพื่อให้มีผลลัพธ์ที่เห็นได้ชัดว่ามันอยู่ใกล้กับผู้เล่นมากขึ้น\n\nดังนั้นเราจะทำให้พื้นหลังเคลื่อนที่ **ช้าลง 3 เท่า** กว่ากล้อง\n\nใส่ `CameraCenterX()/3`"
           }
         },
-        "placement": "top"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },

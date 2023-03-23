@@ -55,6 +55,7 @@
   "flow": [
     {
       "id": "Start",
+      "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
@@ -70,7 +71,11 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "This game is a Top-down space shooter! Click on the **preview** button to play.\nYou can move the ship with the arrow keys, try to avoid touching the rocks!\n\nOnce you're done, click on this button to continue."
+            "en": "This game is a Top-down space shooter! Click on the **preview** button to play.\nYou can move the ship with the arrow keys, try to avoid touching the rocks!",
+            "fr": "Ce jeu est un jeu de tir dans l'espace en vue du dessus ! Clique sur le bouton **prévisualiser** pour jouer.\nTu peux déplacer le vaisseau avec les flèches du clavier, essaie d'éviter de toucher les rochers !",
+            "es": "¡Este juego es un juego de disparos en el espacio en vista superior! Haz clic en el botón **previsualizar** para jugar.\n¡Puedes mover la nave con las flechas del teclado, intenta evitar tocar las rocas!",
+            "pt": "Este jogo é um jogo de tiro em espaço em vista superior! Clique no botão **pré-visualizar** para jogar.\nVocê pode mover a nave com as setas do teclado, tente evitar tocar nas rochas!",
+            "th": "เกมนี้เป็นเกมยิงสเปซที่มีมุมมองด้านบน! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น\nคุณสามารถเคลื่อนย้ายยานอวกาศด้วยปุ่มลูกศร ลองหลีกเลี่ยงการชนกับหิน!"
           }
         }
       }
@@ -145,8 +150,27 @@
             "th": "เลือก **เลเยอร์** นี้เพื่อวาง joystick ลงไปในนั้น"
           }
         },
-        "placement": "left"
+        "placement": "top"
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "es": "Abre el panel de **objetos**.",
+            "pt": "Abra o painel de **objetos**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "#add-new-object-button",
@@ -154,7 +178,7 @@
         "presenceOfElement": "#new-object-dialog"
       },
       "tooltip": {
-        "placement": "left",
+        "placement": "top",
         "description": {
           "messageByLocale": {
             "en": "This game can only be played with a keyboard, so let's add **joystick controllers**, so that we can play on **mobile**!\n\nLet's go to the asset store to find a joystick prefab!",
@@ -216,7 +240,7 @@
         "description": {
           "messageByLocale": {
             "en": "We will use an object that comes with pre-made actions and conditions. We call this a **Ready to use object**.",
-            "fr": "Nous allons utilisé un objet préfabriqué. C'est un objet qui vient avec ses propres actions et conditions, ce qui simplifie son utilisation.",
+            "fr": "Nous allons utiliser un objet préfabriqué. C'est un objet qui vient avec ses propres actions et conditions, ce qui simplifie son utilisation.",
             "es": "Vamos a usar un objeto prefab. Es un objeto que viene con sus propias acciones y condiciones, lo que simplifica su uso.",
             "pt": "Vamos usar um objeto prefab. É um objeto que vem com suas próprias ações e condições, o que simplifica seu uso.",
             "th": "เราจะใช้วัตถุ prefab มันเป็นวัตถุที่มีการกระทำและเงื่อนไขแบบพิเศษ"
@@ -313,6 +337,15 @@
             "pt": "Arraste **$(joystick)** do menu para a cena.",
             "th": "ลาก **$(joystick)** ใส่ลงใน scene"
           }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "Select the **$(joystick)**, then drag it to the scene.",
+            "fr": "Sélectionnez **$(joystick)**, puis faites-le glisser à la scène.",
+            "es": "Selecciona **$(joystick)**, luego arrástralo a la escena.",
+            "pt": "Selecione **$(joystick)**, em seguida, arraste-o para a cena.",
+            "th": "เลือก **$(joystick)** แล้วลากมันเข้า scene"
+          }
         }
       }
     },
@@ -332,10 +365,10 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Place the $(joystick) below the ship on the screen, so that the player can use their thumb to control it easily.\n\nWhen you're done, click on the button below.",
-            "fr": "Placez le $(joystick) en dessous du vaisseau à l'écran, de façon à ce que le joueur puisse utiliser son pouce pour le contrôler facilement.\n\nQuand vous avez terminé, cliquez sur le bouton ci-dessous.",
-            "es": "Coloca el $(joystick) debajo de la nave en la pantalla, de manera que el jugador pueda usar su pulgar para controlarlo fácilmente.\n\nCuando hayas terminado, haz clic en el botón de abajo.",
-            "pt": "Coloque o $(joystick) abaixo da nave na tela, de forma que o jogador possa usar o polegar para controlá-lo facilmente.\n\nQuando você terminar, clique no botão abaixo.",
+            "en": "Place the $(joystick) below the ship on the screen, so that the player can use their thumb to control it easily.",
+            "fr": "Placez le $(joystick) en dessous du vaisseau à l'écran, de façon à ce que le joueur puisse utiliser son pouce pour le contrôler facilement.",
+            "es": "Coloca el $(joystick) debajo de la nave en la pantalla, de manera que el jugador pueda usar su pulgar para controlarlo fácilmente.",
+            "pt": "Coloque o $(joystick) abaixo da nave na tela, de forma que o jogador possa usar o polegar para controlá-lo facilmente.",
             "th": "วาง $(joystick) ใต้เรือในฉาก ให้ผู้เล่นสามารถใช้นิ้วกลางเพื่อควบคุมได้ง่าย\n\nเมื่อคุณเสร็จแล้ว ให้คลิกที่ปุ่มด้านล่าง"
           }
         },
@@ -351,7 +384,7 @@
         "presenceOfElement": "#object-editor-dialog"
       },
       "tooltip": {
-        "placement": "left",
+        "placement": "top",
         "description": {
           "messageByLocale": {
             "en": "Let's link our $(joystick) and our $(ship) thanks to the **behaviors** that came with the prefab:\n\nclick on the 3 dot menu, or right click on **$(ship)**, and select **Edit behaviors**.",
@@ -359,6 +392,15 @@
             "es": "Vinculemos nuestro $(joystick) y nuestro $(ship) gracias a los **comportamientos** que vinieron con el prefab:\n\nhaz clic en el menú de 3 puntos, o haz clic derecho en **$(ship)**, y selecciona **Editar comportamientos**.",
             "pt": "Vamos vincular nosso $(joystick) e nosso $(ship) graças aos **comportamentos** que vieram com o prefab:\n\nclique no menu de 3 pontos, ou clique com o botão direito em **$(ship)**, e selecione **Editar comportamentos**.",
             "th": "ให้เชื่อมโยง $(joystick) และ $(ship) ของเราด้วย **พฤติกรรม** ที่มาพร้อมกับ prefab:\n\nคลิกที่เมนู 3 จุด หรือคลิกขวาที่ **$(ship)** และเลือก **แก้ไขพฤติกรรม**"
+          }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "Let's link our $(joystick) and our $(ship) thanks to the **behaviors** that came with the prefab:\n\nSelect, then long press on **$(ship)**, then select **Edit behaviors**.",
+            "fr": "Lions notre $(joystick) et notre $(ship) grâce aux **comportements** qui sont venus avec le prefab:\n\nSélectionnez, puis appuyez longuement sur **$(ship)**, puis sélectionnez **Modifier les comportements**.",
+            "es": "Vinculemos nuestro $(joystick) y nuestro $(ship) gracias a los **comportamientos** que vinieron con el prefab:\n\nSelecciona, luego presiona por un largo tiempo en **$(ship)**, luego selecciona **Editar comportamientos**.",
+            "pt": "Vamos vincular nosso $(joystick) e nosso $(ship) graças aos **comportamentos** que vieram com o prefab:\n\nSelecione, depois pressione por um longo tempo em **$(ship)**, depois selecione **Editar comportamentos**.",
+            "th": "ให้เชื่อมโยง $(joystick) และ $(ship) ของเราด้วย **พฤติกรรม** ที่มาพร้อมกับ prefab:\n\nเลือก แล้วกดค้างที่ **$(ship)** แล้วเลือก **แก้ไขพฤติกรรม**"
           }
         }
       }
