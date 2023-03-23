@@ -58,6 +58,7 @@
   "flow": [
     {
       "id": "Start",
+      "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
@@ -73,14 +74,33 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "This game is quite simple! Use your mouse to drag the key to the keyhole, whilst staying inside the pathway! Click on the **preview** button to try it out.\n\nOnce you're done, click on this button to continue.",
-            "fr": "Ce jeu est assez simple ! Utilisez votre souris pour faire glisser la clé dans la serrure, tout en restant dans le chemin ! Cliquez sur le bouton **aperçu** pour l'essayer.\n\nUne fois que vous avez terminé, cliquez sur ce bouton pour continuer.",
-            "es": "¡Este juego es bastante simple! ¡Utiliza tu ratón para arrastrar la llave al agujero de la llave, mientras te mantienes dentro del camino! Haz clic en el botón **vista previa** para probarlo.\n\nUna vez que hayas terminado, haz clic en este botón para continuar.",
-            "pt": "Este jogo é bastante simples! Use o mouse para arrastar a chave para o buraco da chave, enquanto permanece dentro do caminho! Clique no botão **visualizar** para experimentá-lo.\n\nUma vez que você terminou, clique neste botão para continuar.",
-            "th": "เกมนี้เป็นเกมง่ายๆ ใช้เมาส์เพื่อลากกุญแจไปยังช่องกุญแจ โดยต้องอยู่ในเส้นทางเท่านั้น! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อลองเล่น\n\nเมื่อคุณเสร็จแล้ว คลิกที่ปุ่มนี้เพื่อดำเนินการต่อ"
+            "en": "This game is quite simple! Use your mouse or finger to drag the key to the keyhole, whilst staying inside the pathway! Click on the **preview** button to try it out.",
+            "fr": "Ce jeu est assez simple ! Utilisez votre souris ou votre doigt pour faire glisser la clé dans la serrure, tout en restant dans le chemin ! Cliquez sur le bouton **aperçu** pour l'essayer.",
+            "es": "¡Este juego es bastante simple! Utiliza tu ratón o dedo para arrastrar la llave al agujero de la llave, ¡mientras te mantienes dentro del camino! Haz clic en el botón **previsualización** para probarlo.",
+            "pt": "Este jogo é bastante simples! Use seu mouse ou dedo para arrastar a chave para a fechadura, enquanto permanece dentro do caminho! Clique no botão **pré-visualização** para experimentá-lo.",
+            "th": "เกมนี้เป็นเกมง่ายๆ! ใช้เมาส์หรือนิ้วเพื่อลากกุญแจไปยังช่องกุญแจในขณะที่ยังอยู่ในเส้นทาง! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อลองเล่น"
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "es": "Abre el panel de **objetos**.",
+            "pt": "Abra o painel de **objetos**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "#add-new-object-button",
@@ -88,7 +108,6 @@
         "presenceOfElement": "#new-object-dialog"
       },
       "tooltip": {
-        "placement": "left",
         "description": {
           "messageByLocale": {
             "en": "First, let's create some text to display the time spent playing the level. Click on the **Add new object** button.",
@@ -97,7 +116,8 @@
             "pt": "Primeiro, vamos criar um texto para exibir o tempo gasto jogando o nível. Clique no botão **Adicionar novo objeto**.",
             "th": "เริ่มต้นกันด้วยการสร้างข้อความเพื่อแสดงเวลาที่ใช้ในการเล่นเกม คลิกที่ปุ่ม **เพิ่มวัตถุใหม่**"
           }
-        }
+        },
+        "placement": "top"
       }
     },
     {
@@ -142,7 +162,7 @@
     {
       "elementToHighlightId": "#object-name",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "Score"
       },
       "tooltip": {
         "description": {
@@ -231,7 +251,16 @@
             "th": "ลาก $(scoreText) ไปยัง **ฉาก**"
           }
         },
-        "placement": "left"
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "**Select** then **drag** $(scoreText) into the **scene**.",
+            "fr": "**Sélectionnez** puis **faites glisser** $(scoreText) du menu au canvas.",
+            "es": "**Seleccione** y **arrastrar** $(scoreText) al **escenario**.",
+            "pt": "**Selecione** e **arraste** $(scoreText) para a **cena**.",
+            "th": "**เลือก** แล้ว **ลาก** $(scoreText) ไปยัง **ฉาก**"
+          }
+        },
+        "placement": "top"
       }
     },
     {

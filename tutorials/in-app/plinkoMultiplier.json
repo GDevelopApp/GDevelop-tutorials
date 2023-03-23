@@ -73,14 +73,14 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "This game uses a leaderboard! let's **login** so we can set it up automatically!",
-            "fr": "Ce jeu utilise un classement ! **Connectez-vous** pour que nous puissions le configurer automatiquement !",
-            "es": "¡Este juego usa una tabla de clasificación! ¡Vamos a **iniciar sesión** para que podamos configurarlo automáticamente!",
-            "pt": "Este jogo usa uma tabela de classificação! Vamos **entrar** para que possamos configurá-lo automaticamente!",
-            "th": "เกมนี้มี leaderboard! **เข้าสู่ระบบ** เพื่อตั้งให้เป็นอัตโนมัติกันเถอะ!"
+            "en": "This game uses a leaderboard! let's **login** so we can set it up automatically!\n\nYou can skip this step if you don't want to use a leaderboard, by closing the leaderboard dialog.",
+            "fr": "Ce jeu utilise un classement ! Connectons-nous **pour que nous puissions le configurer automatiquement !**\n\nVous pouvez ignorer cette étape si vous ne souhaitez pas utiliser de classement, en fermant la boîte de dialogue du classement.",
+            "es": "¡Este juego usa una tabla de clasificación! ¡**Inicia sesión** para que podamos configurarlo automáticamente!\n\nPuedes omitir este paso si no quieres usar una tabla de clasificación, cerrando el cuadro de diálogo de la tabla de clasificación.",
+            "pt": "Este jogo usa uma tabela de classificação! Vamos **entrar** para que possamos configurá-lo automaticamente!\n\nVocê pode pular esta etapa se não quiser usar uma tabela de classificação, fechando a caixa de diálogo da tabela de classificação.",
+            "th": "เกมนี้ใช้ leaderboard! ให้เรา **เข้าสู่ระบบ** เพื่อที่จะตั้งค่า leaderboard ให้เราอัตโนมัติ!\n\nคุณสามารถข้ามขั้นตอนนี้ได้หากคุณไม่ต้องการใช้ leaderboard โดยการปิดกล่องโต้ตอบ leaderboard"
           }
         },
-        "placement": "right"
+        "placement": "top"
       }
     },
     {
@@ -99,15 +99,42 @@
             "th": "ขั้นแรก **สร้าง leaderboard** ให้เกมนี้เพราะเป็นเกมที่จำเป็นต้องมี เราจะติดตั้งให้คุณอัตโนมัติทั้งหมดเอง คุณโชคดีจริง!"
           }
         },
-        "placement": "right"
+        "placement": "top"
       }
+    },
+    {
+      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close",
+      "nextStepTrigger": {
+        "absenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's close the menu.",
+            "fr": "Fermons le menu.",
+            "es": "Cerramos el menú.",
+            "pt": "Vamos fechar o menu.",
+            "th": "ปิดเมนู"
+          }
+        }
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
-        "previewLaunched": true
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Let's go!",
+            "fr": "C'est parti !",
+            "es": "¡Vamos!",
+            "pt": "Vamos lá!",
+            "th": "ไปกันเลย!"
+          }
+        }
       },
       "tooltip": {
+        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "This game is called Plinko! Click on the **Preview** button to test it out and gather points depending on how many pegs you hit.",
@@ -116,9 +143,27 @@
             "pt": "Este jogo se chama Plinko! Clique no botão **Visualizar** para testá-lo e ganhe pontos dependendo de quantos pinos você acerta.",
             "th": "เกมนี้มีชื่อว่า Plinko! คุณปล่อยลูกบอลหล่นลงมาในเขาวงกตและทำคะแนนได้เมื่อลูกบอลชนกับเป๊ก กดปุ่ม **ดูตัวอย่าง** เพื่อทดลองเล่นเกม"
           }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "es": "Abre el panel de **objetos**.",
+            "pt": "Abra o painel de **objetos**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**"
+          }
         },
         "placement": "bottom"
-      }
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:multiplier",
@@ -130,10 +175,19 @@
         "description": {
           "messageByLocale": {
             "en": "Drag 3 **$(multiplier)** objects to the canvas and place them where they can be hit by the ball.",
-            "fr": "Faites glisser 3 objets **$(multiplier)** sur le canevas et placez-les là où ils peuvent être touchés par la balle.",
+            "fr": "Faites glisser 3 objets **$(multiplier)** sur le canevas et placez-les là où ils peuvent être touchés par la balle.",
             "es": "¡Arrastra 3 objetos **$(multiplier)** al lienzo y colócalos donde puedan ser golpeados por la pelota.",
             "pt": "Arraste 3 objetos **$(multiplier)** para a tela e coloque-os onde possam ser atingidos pela bola.",
             "th": "มาเพิ่ม **$(multiplier)** เพื่อทำให้เกมสนุกขึ้นกันเถอะ! ลาก 3 ชิ้น จากเมนูไปใส่ในแคนวาส และจัดวางให้พวกมันสามารถถูกลูกบอลเก็บไปได้ขณะที่กำลังผ่านเขาวงกต"
+          }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "**Select** then **drag** 3 **$(multiplier)** objects to the canvas and place them where they can be hit by the ball.",
+            "fr": "**Sélectionnez** puis **faites glisser** 3 objets **$(multiplier)** sur le canevas et placez-les là où ils peuvent être touchés par la balle.",
+            "es": "**Selecciona** y **arrastra** 3 objetos **$(multiplier)** al lienzo y colócalos donde puedan ser golpeados por la pelota.",
+            "pt": "**Selecione** e **arraste** 3 objetos **$(multiplier)** para a tela e coloque-os onde possam ser atingidos pela bola.",
+            "th": "**เลือก** และ **ลาก** 3 ชิ้น **$(multiplier)** จากเมนูไปใส่ในแคนวาส และจัดวางให้พวกมันสามารถถูกลูกบอลเก็บไปได้ขณะที่กำลังผ่านเขาวงกต"
           }
         },
         "placement": "top"
@@ -154,26 +208,16 @@
             "th": "เมื่อทำเสร็จแล้ว ให้ใส่ **$(scoreMultiplier)** เพื่อแสดงคะแนน multiplier score ที่เวลาปัจจุบัน ใส่และจัดวางไว้ข้างล่างคะแนนเลย!"
           }
         },
-        "placement": "bottom"
-      }
-    },
-    {
-      "id": "OpenPropertiesManagerForScene",
-      "elementToHighlightId": "#main-toolbar-project-manager-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-scenes"
-      },
-      "tooltip": {
-        "description": {
+        "touchDescription": {
           "messageByLocale": {
-            "en": "Now we'll store the game score: open the **Project Manager** and create a **scene variable**! ",
-            "fr": "Maintenant nous allons stocker le score quelque part: ouvrez le **Project Manager** et créons une **variable de scène** !",
-            "es": "Ahora vamos a guardar la puntuación en algún lugar: abre el **Project Manager** y crea una **variable de escena**!",
-            "pt": "Agora vamos armazenar a pontuação em algum lugar: abra o **Project Manager** et vamos criar uma **variável de cena**!",
-            "th": "ทีนี้เราจะทำให้ข้อมูลคะแนนถูกจัดเก็บไว้ที่ไหนสักแห่ง เรามาสร้าง **ตัวแปรของ scene** กันเถอะ! เปิด **โปรเจกต์เมเนเจอร์**"
+            "en": "Once you're done, select and place a **$(scoreMultiplier)** under *Score* to display the point multiplier!",
+            "fr": "Une fois que vous avez terminé, sélectionnez et placez un **$(scoreMultiplier)** juste en dessous du *Score* pour afficher le multiplicateur de points !",
+            "es": "Una vez que hayas terminado, selecciona y coloca un **$(scoreMultiplier)** debajo de *Score* para mostrar el multiplicador de puntos.",
+            "pt": "Uma vez que você terminou, selecione e coloque um **$(scoreMultiplier)** embaixo do *Score* para exibir a pontuação atual do multiplicador.",
+            "th": "เมื่อทำเสร็จแล้ว ให้เลือกและใส่ **$(scoreMultiplier)** เพื่อแสดงคะแนน multiplier score ที่เวลาปัจจุบัน ใส่และจัดวางไว้ข้างล่างคะแนนเลย!"
           }
         },
-        "placement": "right"
+        "placement": "bottom"
       }
     },
     {
@@ -192,7 +236,7 @@
             "th": "ทีนี้เราจะทำให้ข้อมูลคะแนนถูกจัดเก็บไว้ที่ไหนสักแห่ง เรามาสร้าง **ตัวแปรของ scene** กันเถอะ! เปิด **โปรเจกต์เมเนเจอร์**"
           }
         },
-        "placement": "right"
+        "placement": "bottom"
       },
       "shortcuts": [
         {
@@ -209,16 +253,25 @@
         "presenceOfElement": "#scene-variables-dialog #add-variable"
       },
       "tooltip": {
-        "placement": "right",
         "description": {
           "messageByLocale": {
-            "en": "**Right click** (or clck the *3 dot menu*) on $(gameScene) and select **Edit scene variables**.",
+            "en": "**Right click** (or click the *3 dot menu*) on $(gameScene) and select **Edit scene variables**.",
             "fr": "Faites un **clic droit** (ou appuyez sur le *bouton à trois points*) sur $(gameScene) et sélectionnez **Modifier les variables de scène**.",
             "es": "Haz **clic derecho** (o clic en el **botón de tres puntos**) sobre $(gameScene) y selecciona **Editar variables de escena**.",
             "pt": "Clique com o **botão direito** (ou toque no *botão de três pontos*) na $(gameScene) e selecione **Editar variáveis de cena**.",
             "th": "**คลิกขวา** ที่ $(gameScene) หรือกดที่ **ปุ่ม 3 จุด** และเลือก **แก้ไขตัวแปรของ scene**"
           }
-        }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "**Long press** (or use the *3 dot menu*) on $(gameScene) and select **Edit scene variables**.",
+            "fr": "Faites un **appui long** (ou utilisez le *bouton à 3 points*) sur $(gameScene) et sélectionnez **Modifier les variables de scène**.",
+            "es": "Haz **pulsación larga** (o usa el **botón de 3 puntos**) sobre $(gameScene) y selecciona **Editar variables de escena**.",
+            "pt": "Pressione por **muito tempo** (ou use o *botão de três pontos*) na $(gameScene) e selecione **Editar variáveis de cena**.",
+            "th": "**กดค้าง** ที่ $(gameScene) หรือกดที่ **ปุ่ม 3 จุด** และเลือก **แก้ไขตัวแปรของ scene**"
+          }
+        },
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -316,6 +369,24 @@
       }
     },
     {
+      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close",
+      "nextStepTrigger": {
+        "absenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's close the menu.",
+            "fr": "Fermons le menu.",
+            "es": "Cerramos el menú.",
+            "pt": "Vamos fechar o menu.",
+            "th": "ปิดเมนู"
+          }
+        }
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "editorTab:gameScene:EventsSheet",
       "nextStepTrigger": {
         "presenceOfElement": "#events-editor[data-active]"
@@ -323,7 +394,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-              "en": "Now let's activate those multipliers. Open the **Events Sheet** of the $(gameScene) scene.",
+            "en": "Now let's activate those multipliers. Open the **Events Sheet** of the $(gameScene) scene.",
             "fr": "Maintenant, activons ces multiplicateurs. Ouvrons la **Feuille d'événements** de la scène $(gameScene).",
             "es": "Ahora activemos esos multiplicadores. Abre la **Hoja de eventos** de la escena $(gameScene).",
             "pt": "Agora vamos ativar esses multiplicadores. Vamos abra a **Folha de eventos** da cena $(gameScene).",
@@ -672,7 +743,7 @@
             "th": "เราต้องการเพิ่ม multiplier จึงเลือก **+ (เพิ่ม)**"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -691,7 +762,7 @@
             "th": "ใส่ **1**"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -800,7 +871,7 @@
             "th": "ตั้งจุดกำเนิดไว้ที่ตำแหน่งของ multiplier\n\nใส่ `$(multiplier).X()`"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -819,7 +890,7 @@
             "th": "และ `$(multiplier).Y()`"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -907,7 +978,7 @@
             "th": "เลือกวัตถุข้อความ **$(scoreMultiplier)**"
           }
         },
-        "placement": "top"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -926,7 +997,7 @@
             "th": "เราต้องการอัพเดทข้อความใหม่ทั้งหมด ดังนั้นเลือก **= (ตั้งเป็น)**"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -945,7 +1016,7 @@
             "th": "ทีนี้เราแน่ใจแล้วว่าข้อความจะแสดง x1, x2, ... ไปเรื่อยๆ ใช้ตัวแปรเพื่อทำเช่นนั้น\n\nใส่ `\"x\"+VariableString(Multiplier)`"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -976,10 +1047,10 @@
         "description": {
           "messageByLocale": {
             "en": "Finally, we need to take our multiplier into account when calculating the score. Let's **fold the Score multiplier** group with the arrow on the left.",
-            "fr": "Enfin, nous devons prendre en compte notre multiplicateur lors du calcul du score. Laissons **replier le groupe Multiplicateur de score** avec la flèche à gauche.",
-            "es": "Finalmente, debemos tener en cuenta nuestro multiplicador al calcular la puntuación. Dejemos **replegar el grupo Multiplicador de puntuación** con la flecha a la izquierda.",
-            "pt": "Finalmente, precisamos levar em conta nosso multiplicador ao calcular a pontuação. Vamos **recolher o grupo Multiplicador de pontuação** com a seta à esquerda.",
-            "th": "ขั้นสุดท้าย เราจะต้องในการคำนวณคะแนนเราต้องคำนวณ multiplier ด้วย ให้ **รวบรวมตัวแปร คะแนน multiplier** เอาไว้เป็นกลุ่มโดยลูกศรที่อยู่ทางซ้าย"
+            "fr": "Enfin, nous devons prendre en compte notre multiplicateur lors du calcul du score. **Fermons le groupe Multiplicateur de score** avec la flèche à gauche.",
+            "es": "Finalmente, debemos tener en cuenta nuestro multiplicador al calcular la puntuación. **Cerramos el grupo Multiplicador de puntuación** con la flecha a la izquierda.",
+            "pt": "Finalmente, precisamos levar em conta nosso multiplicador ao calcular a pontuação. Vamos **fechar o grupo Multiplicador de pontuação** com a seta à esquerda.",
+            "th": "สุดท้ายเราจะนำตัวแปร Multiplier มาใช้ในการคำนวณคะแนน ให้ **ยุบกลุ่มคะแนน** ด้วยลูกศรที่ด้านซ้าย"
           }
         },
         "placement": "bottom"
@@ -994,10 +1065,10 @@
         "description": {
           "messageByLocale": {
             "en": "And let's **unfold the Hitting pegs** group with the arrow on the left.",
-            "fr": "Et laissons **déplier le groupe Toucher des plots** avec la flèche à gauche.",
-            "es": "Y dejemos **desplegar el grupo Tocando plots** con la flecha a la izquierda.",
+            "fr": "Et **déplions le groupe Toucher des plots** avec la flèche à gauche.",
+            "es": "Y **desplegamos el grupo Tocando plots** con la flecha a la izquierda.",
             "pt": "E vamos **desdobrar o grupo Tocando plots** com a seta à esquerda.",
-            "th": "และ **ยกเลิกการรวมกลุ่มของเป๊กที่ถูกชน** โดยลูกศรที่อยู่ทางซ้าย"
+            "th": "และให้ **ยุบกลุ่มคะแนน** ด้วยลูกศรที่ด้านซ้าย"
           }
         },
         "placement": "bottom"
@@ -1017,6 +1088,15 @@
             "pt": "Este primeiro evento gerencia a lógica quando o jogador toca um plot. Vamos modificar a ação de pontuação **clicando duas vezes nela**!",
             "th": "อีเวนท์แรกนี้ จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก มาแก้ไขการกระทำของคะแนนโดย **ดับเบิลคลิก** กันเถอะ!"
           }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "This first event manages the logic when the player hits a peg. Let's modify the score action by **pressing 2 times on it**!",
+            "fr": "Cet événement gère la logique lorsque le joueur touche un plot. Modifions l'action de score en **appuyant 2 fois dessus** !",
+            "es": "Este primer evento gestiona la lógica cuando el jugador toca un plot. ¡Modifiquemos la acción de puntuación **presionando 2 veces sobre ella**!",
+            "pt": "Este primeiro evento gerencia a lógica quando o jogador toca um plot. Vamos modificar a ação de pontuação **pressionando 2 vezes nela**!",
+            "th": "อีเวนท์แรกนี้ จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก มาแก้ไขการกระทำของคะแนนโดย **กด 2 ครั้ง** กันเถอะ!"
+          }
         }
       }
     },
@@ -1035,7 +1115,7 @@
             "th": "เราต้องการคูณคะแนนที่ถูกเพิ่มโดย multiplier \n\nใส่ `1*Variable(Multiplier)`"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -1071,6 +1151,15 @@
             "pt": "Este evento gerencia a lógica quando o jogador toca um plot *maior*. Vamos modificar a ação de pontuação **clicando duas vezes nela** novamente.",
             "th": "อีเวนท์นี้จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก แก้ไขการกระทำของคะแนนโดย **ดับเบิลคลิก** อีกครั้ง"
           }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "This event here manages the logic when the player hits a *bigger* peg. Let's modify the score action by **pressing twice on it**.",
+            "fr": "Cet événement gère la logique lorsque le joueur touche un plot *plus gros*. Modifions l'action de score en **appyant 2 fois dessus**.",
+            "es": "Este evento gestiona la lógica cuando el jugador toca un plot *más grande*. Modifiquemos la acción de puntuación **presionando 2 veces sobre ella**.",
+            "pt": "Este evento gerencia a lógica quando o jogador toca um plot *maior*. Vamos modificar a ação de pontuação **pressionando 2 vezes nela**.",
+            "th": "อีเวนท์นี้จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก แก้ไขการกระทำของคะแนนโดย **กด 2 ครั้ง** กันเถอะ!"
+          }
         }
       }
     },
@@ -1089,7 +1178,7 @@
             "th": "เราจะทำเหมือนเดิม ยกเว้นอย่างหนึ่ง คะแนนจะใส่เป็น 2\n\nใส่ `2 * Variable(Multiplier)`"
           }
         },
-        "placement": "left"
+        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
