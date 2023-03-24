@@ -218,7 +218,7 @@
     {
       "elementToHighlightId": "#add-asset-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-6"
+        "presenceOfElement": "#object-item-8"
       },
       "mapProjectData": {
         "resourceBar": "sceneLastObjectName:level"
@@ -276,7 +276,7 @@
     {
       "elementToHighlightId": "#add-layer-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#layer-1"
+        "presenceOfElement": "#layer-2"
       },
       "tooltip": {
         "description": {
@@ -292,7 +292,7 @@
       }
     },
     {
-      "elementToHighlightId": "#layer-1 #layer-name",
+      "elementToHighlightId": "#layer-2 #layer-name",
       "nextStepTrigger": {
         "valueEquals": "Interface"
       },
@@ -310,9 +310,9 @@
       }
     },
     {
-      "elementToHighlightId": "#layer-1 #layer-selected-unchecked",
+      "elementToHighlightId": "#layer-2 #layer-selected-unchecked",
       "nextStepTrigger": {
-        "presenceOfElement": "#layer-1 #layer-selected-checked"
+        "presenceOfElement": "#layer-2 #layer-selected-checked"
       },
       "tooltip": {
         "description": {
