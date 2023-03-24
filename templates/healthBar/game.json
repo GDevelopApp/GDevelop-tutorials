@@ -627,7 +627,7 @@
           "name": "Ground_And_Walls",
           "persistentUuid": "0dae8de6-9bdb-4464-86ce-95509c9d3d7b",
           "width": 704,
-          "x": 256,
+          "x": 320,
           "y": 416,
           "zOrder": 1,
           "numberProperties": [],
@@ -642,7 +642,7 @@
           "name": "Player",
           "persistentUuid": "b32caa97-016d-46b8-9861-2780e11d26d0",
           "width": 0,
-          "x": 608,
+          "x": 672,
           "y": 409,
           "zOrder": 2,
           "numberProperties": [],
@@ -657,7 +657,7 @@
           "name": "Ground_And_Walls",
           "persistentUuid": "86597996-bf18-4631-815b-3b7906168845",
           "width": 192,
-          "x": 768,
+          "x": 832,
           "y": 64,
           "zOrder": 3,
           "numberProperties": [],
@@ -672,7 +672,7 @@
           "name": "Ground_And_Walls",
           "persistentUuid": "39caeb0a-7104-4d49-978b-f0fa4a62fb7f",
           "width": 192,
-          "x": 256,
+          "x": 320,
           "y": 64,
           "zOrder": 3,
           "numberProperties": [],
@@ -687,7 +687,7 @@
           "name": "Trap",
           "persistentUuid": "d8cd3a2e-a3a5-481e-8766-0e866e79d8e7",
           "width": 0,
-          "x": 449,
+          "x": 513,
           "y": 256,
           "zOrder": 0,
           "numberProperties": [],
@@ -702,7 +702,7 @@
           "name": "Trap",
           "persistentUuid": "5a467690-84ae-4dd9-9a73-8a8ece343d4b",
           "width": 0,
-          "x": 767,
+          "x": 831,
           "y": 256,
           "zOrder": 0,
           "numberProperties": [],
@@ -717,7 +717,7 @@
           "name": "Trap2",
           "persistentUuid": "5db22c35-3b08-4286-8cd2-e921e3c7fb9b",
           "width": 0,
-          "x": 568,
+          "x": 632,
           "y": 416,
           "zOrder": 5,
           "numberProperties": [],
@@ -732,7 +732,7 @@
           "name": "Trap2",
           "persistentUuid": "a6d1da2f-9c34-47bb-809b-dbac6180f557",
           "width": 0,
-          "x": 552,
+          "x": 616,
           "y": 416,
           "zOrder": 5,
           "numberProperties": [],
@@ -747,7 +747,7 @@
           "name": "Trap2",
           "persistentUuid": "8699b211-0089-43af-9046-4a8bcfd4e253",
           "width": 0,
-          "x": 648,
+          "x": 712,
           "y": 416,
           "zOrder": 5,
           "numberProperties": [],
@@ -762,7 +762,7 @@
           "name": "Trap2",
           "persistentUuid": "ff400d83-b7a4-4982-8ebd-c15c8bdc6495",
           "width": 0,
-          "x": 664,
+          "x": 728,
           "y": 416,
           "zOrder": 5,
           "numberProperties": [],
@@ -777,7 +777,7 @@
           "name": "Background",
           "persistentUuid": "5c5c842b-6db5-4fe7-865c-5ea66fce35e1",
           "width": 704,
-          "x": 256,
+          "x": 320,
           "y": 64,
           "zOrder": -10,
           "numberProperties": [],
@@ -792,7 +792,7 @@
           "name": "Trap3",
           "persistentUuid": "e68dfee1-2780-477d-ae81-3e153e23e241",
           "width": 0,
-          "x": 544,
+          "x": 608,
           "y": 320,
           "zOrder": 6,
           "numberProperties": [],
@@ -802,13 +802,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 96,
-          "layer": "",
+          "height": 160,
+          "layer": "Joysticks",
           "name": "FlatDarkJoystick",
           "persistentUuid": "6f189a9b-a19a-41f1-9f48-7f2ae4ab166e",
-          "width": 96,
-          "x": 368,
-          "y": 400,
+          "width": 160,
+          "x": 144,
+          "y": 592,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -817,13 +817,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 96,
-          "layer": "",
+          "height": 160,
+          "layer": "Joysticks",
           "name": "TopArrowButton",
           "persistentUuid": "5a47d484-7d61-4c51-b115-80ee688cf600",
-          "width": 96,
-          "x": 800,
-          "y": 352,
+          "width": 160,
+          "x": 1088,
+          "y": 512,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -3056,20 +3056,11 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "FlatDarkJoystick",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
+                        "value": "HideLayer"
                       },
                       "parameters": [
                         "TopArrowButton",
-                        ""
+                        "\"Joysticks\""
                       ]
                     }
                   ]
@@ -3545,6 +3536,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12194504,
+          "ambientLightColorG": 6068784,
+          "ambientLightColorR": 12709544,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Joysticks",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
