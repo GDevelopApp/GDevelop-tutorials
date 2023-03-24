@@ -375,7 +375,7 @@
     {
       "elementToHighlightId": "#add-layer-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#layer-1"
+        "presenceOfElement": "#layer-2"
       },
       "tooltip": {
         "description": {
@@ -391,7 +391,7 @@
       }
     },
     {
-      "elementToHighlightId": "#layer-1 #layer-name",
+      "elementToHighlightId": "#layer-2 #layer-name",
       "nextStepTrigger": {
         "valueEquals": "Background"
       },
@@ -409,9 +409,9 @@
       }
     },
     {
-      "elementToHighlightId": "#layer-1 #layer-selected-unchecked",
+      "elementToHighlightId": "#layer-2 #layer-selected-unchecked",
       "nextStepTrigger": {
-        "presenceOfElement": "#layer-1 #layer-selected-checked"
+        "presenceOfElement": "#layer-2 #layer-selected-checked"
       },
       "tooltip": {
         "description": {
@@ -427,18 +427,18 @@
       }
     },
     {
-      "elementToHighlightId": "#layer-1 #layer-drag-handle",
+      "elementToHighlightId": "#layer-2 #layer-drag-handle",
       "nextStepTrigger": {
         "presenceOfElement": "#layer-0 #layer-selected-checked"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's make sure the background decoration will appear behind the player. **Drag** this Background layer **under** Base Layer. \n\nUse this handle to **drag it**",
-            "fr": "Assurons-nous maintenant que l'arrière-plan apparaîtra derrière le personnage. **Faites glisser** ce calque d'arrière-plan **sous** Couche de base.\n\n**Glissez le curseur en dessous**",
-            "es": "Ahora asegurémonos de que la decoración de fondo aparezca detrás del player. **Arrastra** esta capa Background **debajo** de la Base Layer. \n\nUsa este controlador para **arrastrarlo**",
-            "pt": "Agora vamos garantir que a decoração de fundo apareça atrás do player. **Arraste** esta camada Background **em baixo** da Base Layer. \n\nUse esta alça para **arrastá-lo**",
-            "th": "ทีนี้ **ย้าย** เลเยอร์นี้ไป **ใต้เลเยอร์หลัก** เพื่อให้องค์ประกอบในพื้นหลังปรากฏอยู่ข้างหลังผู้เล่น\n\n**ลากตัวควบคุมลง**"
+            "en": "Now let's make sure the background decoration will appear behind the player. **Drag** this Background layer **under** Base Layer. \n\nUse this handle to **drag it below base layer**",
+            "fr": "Assurons-nous maintenant que l'arrière-plan apparaîtra derrière le personnage. **Faites glisser** ce calque d'arrière-plan **sous** Couche de base.\n\nGlissez le curseur **en dessous de Calque de base**",
+            "es": "Ahora asegurémonos de que la decoración del fondo aparezca detrás del jugador. **Arrastra** esta capa de fondo **debajo** de la capa base.\n\nUsa este control para **arrastrarla debajo de la capa base**",
+            "pt": "Agora vamos nos certificar de que a decoração do fundo aparecerá atrás do jogador. **Arraste** esta camada de fundo **abaixo** da camada base.\n\nUse este controle para **arrastá-la abaixo da camada base**",
+            "th": "ตรวจสอบว่าพื้นหลังจะแสดงอยู่หลังจากผู้เล่น ลากเลเยอร์นี้ไป **ล่างสุด** ของเลเยอร์เริ่มต้น"
           }
         },
         "placement": "top"

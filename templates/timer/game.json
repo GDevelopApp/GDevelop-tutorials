@@ -226,8 +226,8 @@
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "cdcbc4bf-7cd1-4d9e-921a-f7866d0a3ee2",
-          "width": 64,
-          "x": 592,
+          "width": 128,
+          "x": 528,
           "y": 496,
           "zOrder": 6,
           "numberProperties": [],
@@ -241,8 +241,8 @@
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "bd1518e0-3dc9-4aac-86a6-c3ec12f4e06f",
-          "width": 64,
-          "x": 616,
+          "width": 96,
+          "x": 600,
           "y": -408,
           "zOrder": 5,
           "numberProperties": [],
@@ -256,7 +256,7 @@
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "279b0623-e3cb-4112-8b7a-6d1eaaacf0ac",
-          "width": 64,
+          "width": 128,
           "x": 48,
           "y": 384,
           "zOrder": 6,
@@ -271,8 +271,8 @@
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "fd4f0435-cccc-4262-a35e-1312c0a0866b",
-          "width": 64,
-          "x": 1088,
+          "width": 96,
+          "x": 1072,
           "y": 416,
           "zOrder": 6,
           "numberProperties": [],
@@ -297,13 +297,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 176,
+          "height": 256,
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "1ef93475-b28d-4a2a-9247-78c6d875074d",
-          "width": 64,
+          "width": 128,
           "x": 1136,
-          "y": 112,
+          "y": 96,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -312,13 +312,13 @@
         {
           "angle": 90,
           "customSize": true,
-          "height": 560,
+          "height": 624,
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "3e8d09af-cb59-4da3-adf9-7576f18fb2d2",
-          "width": 64,
-          "x": 840,
-          "y": 360,
+          "width": 112,
+          "x": 784,
+          "y": 304,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -327,12 +327,12 @@
         {
           "angle": 90,
           "customSize": true,
-          "height": 608,
+          "height": 656,
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "241c574c-0ea8-4d26-bfee-7a7adefdefa1",
-          "width": 64,
-          "x": 864,
+          "width": 112,
+          "x": 816,
           "y": -32,
           "zOrder": 5,
           "numberProperties": [],
@@ -346,9 +346,9 @@
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "a01b122e-e945-41f9-84b7-85fc45524b60",
-          "width": 64,
-          "x": 320,
-          "y": 112,
+          "width": 112,
+          "x": 296,
+          "y": 88,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -361,9 +361,9 @@
           "layer": "",
           "name": "Pathway",
           "persistentUuid": "36ef8f28-16bb-4d44-87f9-ffac2f6cb355",
-          "width": 64,
-          "x": 320,
-          "y": 224,
+          "width": 96,
+          "x": 304,
+          "y": 240,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -549,7 +549,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "assets\\Pathway.png",
                       "points": [],
                       "originPoint": {
@@ -563,26 +563,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 50,
-                            "y": 0
-                          },
-                          {
-                            "x": 110,
-                            "y": 0
-                          },
-                          {
-                            "x": 110,
-                            "y": 160
-                          },
-                          {
-                            "x": 50,
-                            "y": 160
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -702,7 +683,9 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [""]
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -722,7 +705,9 @@
                   "type": {
                     "value": "Cache"
                   },
-                  "parameters": ["YouWin"]
+                  "parameters": [
+                    "YouWin"
+                  ]
                 }
               ]
             },
@@ -784,7 +769,11 @@
                   "type": {
                     "value": "Scene"
                   },
-                  "parameters": ["", "\"GameScene\"", ""]
+                  "parameters": [
+                    "",
+                    "\"GameScene\"",
+                    ""
+                  ]
                 }
               ]
             },
@@ -826,25 +815,41 @@
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Key", "Draggable", "no"]
+                  "parameters": [
+                    "Key",
+                    "Draggable",
+                    "no"
+                  ]
                 },
                 {
                   "type": {
                     "value": "PlaySound"
                   },
-                  "parameters": ["", "YouWin", "", "", ""]
+                  "parameters": [
+                    "",
+                    "YouWin",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "Montre"
                   },
-                  "parameters": ["YouWin", ""]
+                  "parameters": [
+                    "YouWin",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ChangeTimeScale"
                   },
-                  "parameters": ["", "0"]
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
                 }
               ]
             }
