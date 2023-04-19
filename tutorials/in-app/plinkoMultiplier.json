@@ -103,9 +103,9 @@
       }
     },
     {
-      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close",
+      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close",
       "nextStepTrigger": {
-        "absenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close"
+        "absenceOfElement": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close"
       },
       "tooltip": {
         "description": {
@@ -224,7 +224,7 @@
       "id": "OpenPropertiesManagerForScene",
       "elementToHighlightId": "#main-toolbar-project-manager-button",
       "nextStepTrigger": {
-        "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-scenes"
+        "presenceOfElement": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-tab-scenes"
       },
       "tooltip": {
         "description": {
@@ -369,9 +369,9 @@
       }
     },
     {
-      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close",
+      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close",
       "nextStepTrigger": {
-        "absenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close"
+        "absenceOfElement": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close"
       },
       "tooltip": {
         "description": {
