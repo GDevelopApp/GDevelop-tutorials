@@ -63,7 +63,7 @@
       "id": "Start",
       "elementToHighlightId": "#main-toolbar-project-manager-button",
       "nextStepTrigger": {
-        "presenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-extensions"
+        "presenceOfElement": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-tab-extensions"
       },
       "tooltip": {
         "title": {
@@ -87,7 +87,7 @@
       }
     },
     {
-      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-tab-extensions",
+      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-tab-extensions",
       "nextStepTrigger": {
         "presenceOfElement": "#project-manager-extension-search-or-create"
       },
@@ -199,9 +199,9 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close",
+      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close",
       "nextStepTrigger": {
-        "absenceOfElement": "div[role=\"presentation\"]:not([aria-hidden=true]) #project-manager-drawer-close"
+        "absenceOfElement": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close"
       },
       "tooltip": {
         "description": {
