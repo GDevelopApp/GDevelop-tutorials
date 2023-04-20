@@ -87,7 +87,7 @@
       }
     },
     {
-      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true]))ot([aria-hidden=true])) #project-manager-tab-extensions",
+      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-tab-extensions",
       "nextStepTrigger": {
         "presenceOfElement": "#project-manager-extension-search-or-create"
       },
