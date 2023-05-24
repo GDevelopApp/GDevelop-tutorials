@@ -425,7 +425,7 @@
             "es": "Vinculemos nuestro $(joystick) y nuestro $(ship) gracias a los **comportamientos** que vinieron con el prefab:\n\nSelecciona, luego presiona por un largo tiempo en **$(ship)**, luego selecciona **Editar comportamientos**.",
             "pt": "Vamos vincular nosso $(joystick) e nosso $(ship) graças aos **comportamentos** que vieram com o prefab:\n\nSelecione, depois pressione por um longo tempo em **$(ship)**, depois selecione **Editar comportamentos**.",
             "th": "ให้เชื่อมโยง $(joystick) และ $(ship) ของเราด้วย **พฤติกรรม** ที่มาพร้อมกับ prefab:\n\nเลือก แล้วกดค้างที่ **$(ship)** แล้วเลือก **แก้ไขพฤติกรรม**",
-			"ar": "دعنا نربط  $(joystick) و$(ship) الخاصان بنا بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nتحديد، ثم ضغطة مطولة على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
+            "ar": "دعنا نربط  $(joystick) و$(ship) الخاصان بنا بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nتحديد، ثم ضغطة مطولة على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
           }
         }
       }
@@ -443,7 +443,7 @@
             "es": "Los **comportamientos** del **objeto** se encuentran en esta pestaña.",
             "pt": "Os **comportamentos** do **objeto** estão nesta guia.",
             "th": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่",
-			"ar": "رؤية **سلوكيات الكائن** تأتي من هنا."
+            "ar": "رؤية **سلوكيات الكائن** تأتي من هنا."
           }
         },
         "placement": "bottom"
@@ -464,7 +464,7 @@
             "es": "Agreguemos el comportamiento **Top down multi-touch controller mapper** que se instaló.",
             "pt": "Vamos adicionar o comportamento **Top down multi-touch controller mapper** que foi instalado.",
             "th": "เพิ่ม **Top down multi-touch controller mapper** พฤติกรรมที่ติดตั้งไว้",
-			"ar": "دعنا نقوم بإضافة السلوك **Top down multi-touch controller mapper** الذي تم تثبيته."
+            "ar": "دعنا نقوم بإضافة السلوك **Top down multi-touch controller mapper** الذي تم تثبيته."
           }
         }
       },
@@ -483,7 +483,7 @@
             "es": "Selecciona el comportamiento **Top down multi-touch controller mapper**.",
             "pt": "Selecione o comportamento **Top down multi-touch controller mapper**.",
             "th": "เลือกพฤติกรรม **Top down multi-touch controller mapper**",
-			"ar": "تحديد السلوك **Top down multi-touch controller mapper**."
+            "ar": "تحديد السلوك **Top down multi-touch controller mapper**."
           }
         }
       },
@@ -502,7 +502,7 @@
             "es": "Actualicemos el modo de la palanca, para que pueda ser controlada a **360°**.",
             "pt": "Vamos atualizar o modo do joystick, para que ele possa ser controlado a **360°**.",
             "th": "อัปเดตโหมดของ joystick ให้สามารถควบคุมได้ทั้ง **360°**",
-			"ar": "دعنا نقوم بتحديث وضع عصا التحكم حتى يمكن التحكم به في وضع **360°**"
+            "ar": "دعنا نقوم بتحديث وضع عصا التحكم حتى يمكن التحكم به في وضع **360°**"
           }
         }
       },
@@ -521,7 +521,7 @@
             "es": "¡Eso es todo! ¡Ahora el joystick controlará el barco!",
             "pt": "É isso aí! Agora o joystick controlará o navio!",
             "th": "นั่นเอง! ตอนนี้ joystick จะควบคุมเรือ!",
-			"ar": "هذا كل شيء! الآن ستتحكم عصا التحكم بالسفينة الفضائية!"
+            "ar": "هذا كل شيء! الآن ستتحكم عصا التحكم بالسفينة الفضائية!"
           }
         }
       }
@@ -539,7 +539,7 @@
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
             "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-			"ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
           }
         },
         "placement": "bottom"

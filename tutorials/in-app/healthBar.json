@@ -321,7 +321,7 @@
             "es": "Cambiamos su nombre a **Interface**.",
             "pt": "Mudamos o nome para **Interface**.",
             "th": "เปลี่ยนชื่อเป็น **Interface**",
-			"ar": "تغيير الاسم إلى **Interface**."
+            "ar": "تغيير الاسم إلى **Interface**."
           }
         },
         "placement": "top"
@@ -339,8 +339,8 @@
             "fr": "Sélectionnons ce **calque** pour y placer $(resourceBar).",
             "es": "Seleccionemos esta capa como la **capa predeterminada** para agregar objetos.",
             "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos.",
-            "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป"",
-			"ar": "تحديد هذه **الطبقة** لنتمكن من وضع القلوب الخاصة بنا داخلها."
+            "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป",
+            "ar": "تحديد هذه **الطبقة** لنتمكن من وضع القلوب الخاصة بنا داخلها."
           }
         },
         "placement": "top"
@@ -359,7 +359,7 @@
             "es": "Abre el panel de **objetos**.",
             "pt": "Abra o painel de **objetos**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-			"ar": "فتح لوحة **الكائنات**."
+            "ar": "فتح لوحة **الكائنات**."
           }
         },
         "placement": "bottom"
@@ -379,7 +379,7 @@
             "es": "Arrastra **$(resourceBar)** desde el menú a la escena.",
             "pt": "Arraste **$(resourceBar)** do menu para a cena.",
             "th": "ลาก **$(resourceBar)** ใส่ลงใน scene",
-			"ar": "سحب الـ **$(resourceBar)** إلى المشهد."
+            "ar": "سحب الـ **$(resourceBar)** إلى المشهد."
           }
         },
         "touchDescription": {
@@ -389,7 +389,7 @@
             "es": "Selecciona **$(resourceBar)**, luego arrástralo a la escena.",
             "pt": "Selecione **$(resourceBar)**, em seguida, arraste-o para a cena.",
             "th": "เลือก **$(resourceBar)** แล้วลากมันเข้า scene",
-			"ar": "تحديد الـ  **$(resourceBar)** ثم سحبه إلى المشهد."
+            "ar": "تحديد الـ  **$(resourceBar)** ثم سحبه إلى المشهد."
           }
         }
       }
@@ -403,7 +403,7 @@
             "es": "He terminado",
             "pt": "Terminei",
             "th": "เสร็จแล้ว",
-			"ar": "انتهيت"
+            "ar": "انتهيت"
           }
         }
       },

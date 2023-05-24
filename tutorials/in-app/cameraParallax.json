@@ -47,7 +47,7 @@
           "es": "- Cómo crear una capa\n\n- Cómo agregar una extensión\n\n- Cómo controlar la cámara\n\n- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
           "pt": "- Como criar uma camada\n\n- Como adicionar uma extensão\n\n- Como controlar a câmera\n\n- Como fazer Tiled Sprites se movem a diferentes velocidades",
           "th": "- วิธีสร้างเลเยอร์\n\n- วิธีเพิ่ม extension\n\n- วิธีควบคุมกล้อง\n\n- วิธีทำให้ Tiled Sprites เคลื่อนที่ด้วยค่าความเร็วต่างๆ",
-		  "ar": "- إنشاء طبقة\n\n- إضافة ملحق\n\n- التحكم في الكاميرا\n\n- إنشاء كائنات مبلطة تتحرك بسرعات مختلفة"
+          "ar": "- إنشاء طبقة\n\n- إضافة ملحق\n\n- التحكم في الكاميرا\n\n- إنشاء كائنات مبلطة تتحرك بسرعات مختلفة"
         }
       },
       {
@@ -57,7 +57,7 @@
           "es": "¡Puedes seguir agregando cosas a este juego o publicarlo !",
           "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
           "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่เลยก็ได้!",
-		  "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
         }
       }
     ]
@@ -77,7 +77,7 @@
             "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara!",
             "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera!",
             "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ",
-			"ar": "دعنا نحسن لعبة المنصات هذه بمتابعة الشخصية بواسطة الكاميرا!"
+            "ar": "دعنا نحسن لعبة المنصات هذه بمتابعة الشخصية بواسطة الكاميرا!"
           }
         },
         "description": {
@@ -105,7 +105,7 @@
             "es": "Abre la pestaña **Extensiones**.",
             "pt": "Abra a guia **Extensões**.",
             "th": "เปิด **แท็บ Extensions**",
-			"ar": "فتح تبويب **الملحقات**."
+            "ar": "فتح تبويب **الملحقات**."
           }
         }
       },
@@ -125,7 +125,7 @@
             "es": "Abre la **tienda de extensiones**",
             "pt": "Abra a **loja de extensões**",
             "th": "เปิด **ร้านค้า extension**",
-			"ar": "فتح متجر الملحقات."
+            "ar": "فتح متجر الملحقات."
           }
         },
         "placement": "top"
@@ -145,7 +145,7 @@
             "es": "Busca la extensión **smooth camera**.",
             "pt": "Procure pela extensão **smooth camera**.",
             "th": "ค้นหา extension **smooth camera**",
-			"ar": "البحث عن الملحق **smooth camera*.*"
+            "ar": "البحث عن الملحق **smooth camera*.*"
           }
         }
       },
@@ -165,7 +165,7 @@
             "es": "Haz clic en la extensión **Smooth Camera**.",
             "pt": "Clique na extensão **Smooth Camera**.",
             "th": "คลิกที่ extension **Smooth Camera**",
-			"ar": "الضغط على الملحق **smooth camera*.*"
+            "ar": "الضغط على الملحق **smooth camera*.*"
           }
         }
       },
@@ -184,7 +184,7 @@
             "es": "Instala la extensión en tu proyecto.",
             "pt": "Instale a extensão no seu projeto.",
             "th": "ติดตั้ง extension ในโปรเจกต์ของคุณ",
-			"ar": "تثبيت الملحق في مشروعك."
+            "ar": "تثبيت الملحق في مشروعك."
           }
         },
         "placement": "top"
@@ -204,7 +204,7 @@
             "es": "Cerramos esta ventana.",
             "pt": "Vamos fechar esta janela.",
             "th": "ปิดหน้าต่างนี้",
-			"ar": "دعنا نغلق هذا."
+            "ar": "دعنا نغلق هذا."
           }
         }
       },
@@ -223,7 +223,7 @@
             "es": "Cerramos el menú.",
             "pt": "Vamos fechar o menu.",
             "th": "ปิดเมนู",
-			"ar": "دعنا نغلق هذه القائمة."
+            "ar": "دعنا نغلق هذه القائمة."
           }
         }
       },
@@ -263,7 +263,7 @@
             "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
             "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
             "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nคลิกขวาที่ **$(player)** หรือกดเมนู 3 จุด แล้วเลือก **แก้ไขพฤติกรรม**",
-			"ar": "دعنا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nالضغط على الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **($player)** وتحديد **تحرير السلوكيات**."
+            "ar": "دعنا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nالضغط على الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **($player)** وتحديد **تحرير السلوكيات**."
           }
         },
         "touchDescription": {
