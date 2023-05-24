@@ -103,7 +103,7 @@
             "es": "Abre el panel de **objetos**.",
             "pt": "Abra o painel de **objetos**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-			"ar": "فتح لوحة **الكائنات**."
+            "ar": "فتح لوحة **الكائنات**."
           }
         },
         "placement": "bottom"
@@ -124,7 +124,7 @@
             "es": "Agreguemos una barra de salud para que el jugador pueda ver cuánta salud le queda.",
             "pt": "Vamos adicionar uma barra de saúde para que o jogador veja quanto de sua saúde resta.",
             "th": "เพิ่ม health bar ให้กับผู้เล่น เพื่อให้สามารถดูได้ว่าเหลือเลือดอยู่เท่าไร",
-			"ar": "هيّا نظهر للاعبين كم تبقى من الصحة لديهم بواسطة شريط الصحة."
+            "ar": "هيّا نظهر للاعبين كم تبقى من الصحة لديهم بواسطة شريط الصحة."
           }
         }
       }
@@ -142,7 +142,7 @@
             "es": "Vamos a elegir un **objeto prefab** de la tienda de recursos.",
             "pt": "Vamos escolher um **objeto prefab** da loja de recursos.",
             "th": "เลือก **วัตถุ prefab** จากร้านค้า asset",
-			"ar": "دعنا نختار **كائن جاهز للاستخدام** من متجر العناصر"
+            "ar": "دعنا نختار **كائن جاهز للاستخدام** من متجر العناصر"
           }
         },
         "placement": "bottom"
@@ -163,7 +163,7 @@
             "es": "Volvamos a la página de inicio de la tienda.",
             "pt": "Vamos voltar para a página inicial da loja.",
             "th": "กลับไปยังหน้าโฮมเพจของร้านค้า",
-			"ar": "هيّا نعود إلى صفحة المتجر الرئيسية."
+            "ar": "هيّا نعود إلى صفحة المتجر الرئيسية."
           }
         },
         "placement": "bottom"
@@ -185,7 +185,7 @@
             "es": "Vamos a usar un objeto prefab. Es un objeto que viene con sus propias acciones y condiciones, lo que simplifica su uso.",
             "pt": "Vamos usar um objeto prefab. É um objeto que vem com suas próprias ações e condições, o que simplifica seu uso.",
             "th": "เราจะใช้วัตถุ prefab มันเป็นวัตถุที่มีการกระทำและเงื่อนไขแบบพิเศษ",
-			"ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميها **كائن جاهز للاستخدام**."
+            "ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميها **كائن جاهز للاستخدام**."
           }
         }
       },
@@ -204,7 +204,7 @@
             "es": "Vamos a usar una barra de recursos que se puede llenar o vaciar.",
             "pt": "Vamos usar uma barra de recursos que pode ser preenchida ou esvaziada.",
             "th": "เราจะใช้ resource bar ที่สามารถเติมให้เต็มหรือล้างให้เกลี้ยงได้",
-			"ar": "سوف نستخدم شريط موارد يمكن أن يكون ممتلئًا أو فارغًا."
+            "ar": "سوف نستخدم شريط موارد يمكن أن يكون ممتلئًا أو فارغًا."
           }
         }
       },
@@ -223,7 +223,7 @@
             "es": "Elegimos la barra de corazones.",
             "pt": "Vamos escolher a barra de corações.",
             "th": "มาเลือก hearts bar กัน",
-			"ar": "دعنا نختار شريط القلوب."
+            "ar": "دعنا نختار شريط القلوب."
           }
         }
       }
@@ -244,7 +244,7 @@
             "es": "Agreguemosla a la escena.",
             "pt": "Vamos adicioná-la à cena.",
             "th": "เพิ่มลงไปใน scene",
-			"ar": "دعنا نقوم بإضافتها إلى المشهد."
+            "ar": "دعنا نقوم بإضافتها إلى المشهد."
           }
         },
         "placement": "top"
@@ -263,7 +263,7 @@
             "es": "Cerramos la tienda de recursos.",
             "pt": "Vamos fechar a loja de recursos.",
             "th": "ปิดร้านค้า asset",
-			"ar": "دعنا نغلق متجر العناصر."
+            "ar": "دعنا نغلق متجر العناصر."
           }
         },
         "placement": "top"
@@ -282,7 +282,7 @@
             "es": "Abre el panel de **Capas**.",
             "pt": "Abra o painel de **Camadas**.",
             "th": "เปิดแผงควบคุม **เลเยอร์**",
-			"ar": "فتح لوحة **الطبقات**."
+            "ar": "فتح لوحة **الطبقات**."
           }
         },
         "placement": "bottom"
@@ -302,7 +302,7 @@
             "es": "Vamos a crear una capa que contendrá los elementos de la interfaz de usuario (IU).",
             "pt": "Vamos criar uma camada que conterá os elementos da interface do usuário (IU).",
             "th": "เราจะสร้างเลเยอร์ที่จะประกอบไปด้วย User Interface (UI) ต่างๆ",
-			"ar": "سنبدأ بإنشاء طبقة لعناصر واجهة المستخدم."
+            "ar": "سنبدأ بإنشاء طبقة لعناصر واجهة المستخدم."
           }
         },
         "placement": "top"
@@ -416,7 +416,7 @@
             "es": "¿Ves el **rectángulo negro** en el centro de la escena? Esta es la **vista de la cámara**. Es el punto de vista desde el que el jugador verá el juego.\n\nColoca $(resourceBar) en la esquina superior izquierda del rectángulo.",
             "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nColoque $(resourceBar) no canto superior esquerdo do retângulo.",
             "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nจัดวาง $(resourceBar) ให้อยู่ในมุมซ้ายบนของสี่เหลี่ยม\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง",
-			"ar": "هل ترى **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بجزء من اللعبة الذي يمكن للاعبين رؤيته.\n\nوضع الـ $(resourceBar) في أعلى يسار زاوية **رؤية الكاميرا**."
+            "ar": "هل ترى **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بجزء من اللعبة الذي يمكن للاعبين رؤيته.\n\nوضع الـ $(resourceBar) في أعلى يسار زاوية **رؤية الكاميرا**."
           }
         },
         "placement": "top",
@@ -438,7 +438,7 @@
             "es": "Ahora, conectemos la vida del **$(player)** con **$(resourceBar)**! Abramos la **hoja de eventos** de la escena $(level).",
             "pt": "Agora, vamos conectar a vida do **$(player)** com **$(resourceBar)**! Vamos **abrir a Folha de Eventos** da cena $(level).",
             "th": "ทีนี้ มาเชื่อมเลือดของ **$(player)** กับ **$(resourceBar)**กันเถอะ! ให้ **เปิดชี้ทอีเวนต์** จาก scene $(level)",
-			"ar": "الآن سوف نربط صحة الـ **$(player)** بالـ **$(resourceBar)**! الضغط على تبويب الأحداث للذهاب إلى **صفحة الأحداث** الخاصة بالمشهد $(level)."
+            "ar": "الآن سوف نربط صحة الـ **$(player)** بالـ **$(resourceBar)**! الضغط على تبويب الأحداث للذهاب إلى **صفحة الأحداث** الخاصة بالمشهد $(level)."
           }
         },
         "placement": "bottom"
@@ -458,7 +458,7 @@
             "es": "**Agreguemos una acción** para cambiar el valor de relleno de $(resourceBar).",
             "pt": "**Adicionemos uma ação** para alterar o valor de preenchimento de $(resourceBar).",
             "th": "ให้ **เพิ่มการกระทำ** เพื่อเปลี่ยนค่าที่จะเพิ่มขึ้นของ $(resourceBar)",
-			"ar": "دعنا نقوم بـ**إضافة إجراء** لتعريف عدد المحاولات التي ستُعرض على $(resourceBar)."
+            "ar": "دعنا نقوم بـ**إضافة إجراء** لتعريف عدد المحاولات التي ستُعرض على $(resourceBar)."
           }
         }
       }
@@ -476,7 +476,7 @@
             "es": "Seleccione **$(resourceBar)**.",
             "pt": "Selecione **$(resourceBar)**.",
             "th": "เลือก **$(resourceBar)**",
-			"ar": "تحديد **$(resourceBar)**."
+            "ar": "تحديد **$(resourceBar)**."
           }
         }
       },
@@ -495,7 +495,7 @@
             "es": "Seleccione la acción **Value**.",
             "pt": "Selecione a ação **Value**.",
             "th": "เลือกการกระทำ **Value**",
-			"ar": "تحديد الإجراء **Value**."
+            "ar": "تحديد الإجراء **Value**."
           }
         }
       },
@@ -514,7 +514,7 @@
             "es": "Queremos que el valor de la barra de vida coincida con la salud de $(player), así que seleccionemos **= (establecer en)**.",
             "pt": "Queremos que o valor da barra de vida corresponda à saúde de $(player), então vamos selecionar **= (definir como)**.",
             "th": "เราต้องการให้ค่าของ bar เชื่อมกันกับเลือกของ $(player) ดังนั้นเลือก **= (ตั้งเป็น)**",
-			"ar": "نريد أن يكون قيمة الشريط متصلًا بصحة الـ $(player)، لذلك دعنا نحدد **= (تعيين إلى)**."
+            "ar": "نريد أن يكون قيمة الشريط متصلًا بصحة الـ $(player)، لذلك دعنا نحدد **= (تعيين إلى)**."
           }
         },
         "placement": "top"
@@ -534,7 +534,7 @@
             "es": "Encontremos dónde está almacenada la salud de $(player).",
             "pt": "Vamos encontrar onde está armazenada a saúde de $(player).",
             "th": "มาดูกันว่าค่าเลือดของผู้เล่นเก็บไว้ที่ไหน",
-			"ar": "والآن، دعنا نستخدم القيمة التي تكون فيها صحة الـ $(player) محفوظة."
+            "ar": "والآن، دعنا نستخدم القيمة التي تكون فيها صحة الـ $(player) محفوظة."
           }
         },
         "placement": "bottom"
@@ -554,7 +554,7 @@
             "es": "$(player) está configurado para usar la **extensión Health**. Busque **Health**.",
             "pt": "$(player) está configurado para usar a **extensão Health**. Procure por **Health**.",
             "th": "$(player) ตั้งค่าให้ใช้ **Health extension** ค้นหา **Health**",
-			"ar": "تم تطبيق الملحق **Health** على الـ $(player) لتخزين صحته. البحث عن **Health**  لاستخدام تلك القيمة."
+            "ar": "تم تطبيق الملحق **Health** على الـ $(player) لتخزين صحته. البحث عن **Health**  لاستخدام تلك القيمة."
           }
         },
         "placement": "top"
@@ -574,7 +574,7 @@
             "es": "Seleccione **Health points**.",
             "pt": "Selecione **Health points**.",
             "th": "เลือก **Health points**",
-			"ar": "تحديد **Health points**."
+            "ar": "تحديد **Health points**."
           }
         },
         "placement": "bottom"
@@ -594,7 +594,7 @@
             "es": "Seleccione **$(player)**.",
             "pt": "Selecione **$(player)**.",
             "th": "เลือก **$(player)**",
-			"ar": "تحديد **$(player)**."
+            "ar": "تحديد **$(player)**."
           }
         },
         "placement": "top"
@@ -614,7 +614,7 @@
             "es": "Estamos bien.",
             "pt": "Estamos bem.",
             "th": "เรียบร้อยแล้ว",
-			"ar": "نحن على الطريق الصحيح."
+            "ar": "نحن على الطريق الصحيح."
           }
         },
         "placement": "top"
@@ -634,7 +634,7 @@
             "es": "Todo está bien configurado.",
             "pt": "Tudo está configurado.",
             "th": "ทุกอย่างเรียบร้อยแล้ว",
-			"ar": "تم ضبط كل شيء."
+            "ar": "تم ضبط كل شيء."
           }
         },
         "placement": "top"
@@ -653,7 +653,7 @@
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
             "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-			"ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
           }
         },
         "placement": "bottom"
