@@ -32,7 +32,7 @@
           "es": "# ¡Has terminado de agregar un multiplicador de puntuación a tu juego!",
           "pt": "# Você terminou de adicionar um multiplicador de pontuação ao seu jogo!",
           "th": "คุณได้เพิ่ม score multiplier ในเกมของคุณสำเร็จแล้ว!",
-		   "ar": "# لقد أنهيت هذا الدرس!"
+          "ar": "# لقد أنهيت هذا الدرس!"
         }
       },
       {
@@ -42,7 +42,7 @@
           "es": "¡Bien hecho, en este tutorial aprendiste:",
           "pt": "Bem feito, neste tutorial você aprendeu:",
           "th": "ทำได้ดีเยี่ยม สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:",
-           "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:"
+          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:"
         }
       },
       {
@@ -52,7 +52,7 @@
           "es": "- Cómo crear una variable de escena\n\n- Cómo actualizar una variable de escena\n\n- Cómo usar una variable de escena en una expresión",
           "pt": "- Como criar uma variável de cena\n\n- Como atualizar uma variável de cena\n\n- Como usar uma variável de cena em uma expressão",
           "th": "- วิธีสร้างตัวแปรของ scene\n\n- วิธีอัพเดทตัวแปรของ scene\n\n- วิธีใช้ตัวแปรของ scene ใน expression",
-		   "ar": "- إنشاء متغير مشهد\n\n- تحديث متغير المشهد\n\n- استخدام متغير المشهد كتعبير"
+          "ar": "- إنشاء متغير مشهد\n\n- تحديث متغير المشهد\n\n- استخدام متغير المشهد كتعبير"
         }
       },
       {
@@ -62,7 +62,7 @@
           "es": "¡Puedes seguir agregando cosas a este juego o publicarlo y compartirlo con tus amigos para ver quién obtiene la puntuación más alta!",
           "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo e compartilhá-lo com seus amigos para ver quem obtém a pontuação mais alta!",
           "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่กับเพื่อนๆของคุณเลยก็ได้ แล้วมาดูกัน ใครจะทำคะแนนได้สูงที่สุด!",
-		   "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
         }
       }
     ]
@@ -82,7 +82,7 @@
             "es": "¡Este juego usa una tabla de clasificación! ¡**Inicia sesión** para que podamos configurarlo automáticamente!\n\nPuedes omitir este paso si no quieres usar una tabla de clasificación, cerrando el cuadro de diálogo de la tabla de clasificación.",
             "pt": "Este jogo usa uma tabela de classificação! Vamos **entrar** para que possamos configurá-lo automaticamente!\n\nVocê pode pular esta etapa se não quiser usar uma tabela de classificação, fechando a caixa de diálogo da tabela de classificação.",
             "th": "เกมนี้ใช้ leaderboard! ให้เรา **เข้าสู่ระบบ** เพื่อที่จะตั้งค่า leaderboard ให้เราอัตโนมัติ!\n\nคุณสามารถข้ามขั้นตอนนี้ได้หากคุณไม่ต้องการใช้ leaderboard โดยการปิดกล่องโต้ตอบ leaderboard",
-			 "ar": "هذه اللعبة تستخدم لوحة صدارة! دعنا نقوم بـ**تسجيل الدخول** حتى نتمكن من إعداده تلقائيًا!\n\nيمكنك تخطي هذه الخطوة إذا كنت لا ترغب في استخدام لوحة صدارة، من خلال إغلاق نافذة لوحات الصدارة."
+            "ar": "هذه اللعبة تستخدم لوحة صدارة! دعنا نقوم ب**تسجيل الدخول** حتى نتمكن من إعداده تلقائيًا!\n\nيمكنك تخطي هذه الخطوة إذا كنت لا ترغب في استخدام لوحة صدارة، من خلال إغلاق نافذة لوحات الصدارة."
           }
         },
         "placement": "top"
@@ -102,7 +102,7 @@
             "es": "Primero, **creemos una tabla de clasificación** porque este juego la necesitará. ¡Tienes suerte, todo se configurará automáticamente para ti!",
             "pt": "Primeiro, vamos **criar uma tabela de classificação** porque este jogo precisará dela. Você tem sorte, tudo será configurado automaticamente para você!",
             "th": "ขั้นแรก **สร้าง leaderboard** ให้เกมนี้เพราะเป็นเกมที่จำเป็นต้องมี เราจะติดตั้งให้คุณอัตโนมัติทั้งหมดเอง คุณโชคดีจริง!",
-			 "ar": "أولًا، دعنا نقوم بـ**إنشاء لوحة صدارة** حيث ستحتاج اللعبة إليها. أنت محظوظ، فكل شيء سيتم إعداده تلقائيًا لأجلك!"
+            "ar": "أولًا، دعنا نقوم ب**إنشاء لوحة صدارة** حيث ستحتاج اللعبة إليها. أنت محظوظ، فكل شيء سيتم إعداده تلقائيًا لأجلك!"
           }
         },
         "placement": "top"
@@ -121,7 +121,7 @@
             "es": "Cerramos el menú.",
             "pt": "Vamos fechar o menu.",
             "th": "ปิดเมนู",
-			 "ar": "دعنا نغلق القائمة."
+            "ar": "دعنا نغلق القائمة."
           }
         }
       },
@@ -137,7 +137,7 @@
             "es": "¡Vamos!",
             "pt": "Vamos lá!",
             "th": "ไปกันเลย!",
-			 "ar": "لنبدأ!"
+            "ar": "لنبدأ!"
           }
         }
       },
@@ -150,7 +150,7 @@
             "es": "¡Este juego se llama Plinko!Haz clic en el botón **Vista previa** para probarlo y gana puntos dependiendo de cuántos clavos golpees.",
             "pt": "Este jogo se chama Plinko! Clique no botão **Visualizar** para testá-lo e ganhe pontos dependendo de quantos pinos você acerta.",
             "th": "เกมนี้มีชื่อว่า Plinko! คุณปล่อยลูกบอลหล่นลงมาในเขาวงกตและทำคะแนนได้เมื่อลูกบอลชนกับเป๊ก กดปุ่ม **ดูตัวอย่าง** เพื่อทดลองเล่นเกม",
-			 "ar": "هذه اللعبة تسمى Plinko! الضغط على زر **معاينة** لإختبارها وجمع النقاط حسب عدد العارضات التي تضرب."
+            "ar": "هذه اللعبة تسمى Plinko! الضغط على الزر **معاينة** لإختبارها وجمع النقاط حسب عدد العارضات التي تضرب."
           }
         }
       }
@@ -168,7 +168,7 @@
             "es": "Abre el panel de **objetos**.",
             "pt": "Abra o painel de **objetos**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-			 "ar": "فتح لوحة **الكائنات**."
+            "ar": "فتح لوحة **الكائنات**."
           }
         },
         "placement": "bottom"
@@ -189,7 +189,7 @@
             "es": "¡Arrastra 3 objetos **$(multiplier)** al lienzo y colócalos donde puedan ser golpeados por la pelota.",
             "pt": "Arraste 3 objetos **$(multiplier)** para a tela e coloque-os onde possam ser atingidos pela bola.",
             "th": "มาเพิ่ม **$(multiplier)** เพื่อทำให้เกมสนุกขึ้นกันเถอะ! ลาก 3 ชิ้น จากเมนูไปใส่ในแคนวาส และจัดวางให้พวกมันสามารถถูกลูกบอลเก็บไปได้ขณะที่กำลังผ่านเขาวงกต",
-			 "ar": "سحب 3 كائنات **$(multiplier)** إلى اللوحة ووضعها في مكان يمكن للكرة ضربها."
+            "ar": "سحب 3 كائنات **$(multiplier)** إلى اللوحة وإدراجها في مكان يمكن للكرة ضربها."
           }
         },
         "touchDescription": {
@@ -199,7 +199,7 @@
             "es": "**Selecciona** y **arrastra** 3 objetos **$(multiplier)** al lienzo y colócalos donde puedan ser golpeados por la pelota.",
             "pt": "**Selecione** e **arraste** 3 objetos **$(multiplier)** para a tela e coloque-os onde possam ser atingidos pela bola.",
             "th": "**เลือก** และ **ลาก** 3 ชิ้น **$(multiplier)** จากเมนูไปใส่ในแคนวาส และจัดวางให้พวกมันสามารถถูกลูกบอลเก็บไปได้ขณะที่กำลังผ่านเขาวงกต",
-			 "ar": "**تحديد** و**سحب** 3 كائنات **$(multiplier)** إلى اللوحة ووضعها في مكان يمكن للكرة ضربها."
+            "ar": "**تحديد** و**سحب** 3 كائنات **$(multiplier)** إلى اللوحة وإدراجها في مكان يمكن للكرة ضربها."
           }
         },
         "placement": "top"
@@ -218,7 +218,7 @@
             "es": "Una vez que hayas terminado, coloca un **$(scoreMultiplier)** debajo de *Score* para mostrar el multiplicador de puntos.",
             "pt": "Uma vez que você terminou, coloque um **$(scoreMultiplier)** embaixo do *Score* para exibir a pontuação atual do multiplicador.",
             "th": "เมื่อทำเสร็จแล้ว ให้ใส่ **$(scoreMultiplier)** เพื่อแสดงคะแนน multiplier score ที่เวลาปัจจุบัน ใส่และจัดวางไว้ข้างล่างคะแนนเลย!",
-			 "ar": "بمجرد أن تنتهي، وضع **$(scoreMultiplier)* أسفل *Score* لعرض نقاط المضاعِفات!"
+            "ar": "بمجرد أن تنتهي، إدراج **$(scoreMultiplier)* أسفل *Score* لعرض نقاط المضاعِفات!"
           }
         },
         "touchDescription": {
@@ -228,7 +228,7 @@
             "es": "Una vez que hayas terminado, selecciona y coloca un **$(scoreMultiplier)** debajo de *Score* para mostrar el multiplicador de puntos.",
             "pt": "Uma vez que você terminou, selecione e coloque um **$(scoreMultiplier)** embaixo do *Score* para exibir a pontuação atual do multiplicador.",
             "th": "เมื่อทำเสร็จแล้ว ให้เลือกและใส่ **$(scoreMultiplier)** เพื่อแสดงคะแนน multiplier score ที่เวลาปัจจุบัน ใส่และจัดวางไว้ข้างล่างคะแนนเลย!",
-			 "ar": "بمجرد أن تنتهي، تحديد ووضع **$(scoreMultiplier)** أسفل *Score* لعرض نقاط المضاعِفات!"
+            "ar": "بمجرد أن تنتهي، تحديد وإدراج **$(scoreMultiplier)** أسفل *Score* لعرض نقاط المضاعِفات!"
           }
         },
         "placement": "bottom"
@@ -248,7 +248,7 @@
             "es": "Ahora necesitamos almacenar la puntuación en algún lugar. ¡Creemos una variable de escena! Abre el **Project Manager**",
             "pt": "Agora precisamos armazenar a pontuação em algum lugar. Vamos criar uma variável de cena! Abra o **Project Manager**",
             "th": "ทีนี้เราจะทำให้ข้อมูลคะแนนถูกจัดเก็บไว้ที่ไหนสักแห่ง เรามาสร้าง **ตัวแปรของ scene** กันเถอะ! เปิด **โปรเจกต์เมเนเจอร์**",
-			 "ar": "نحتاج إلى تخزين النقاط في مكان ما، دعنا نقوم بإنشاء متغير مشهد! فتح **مدير المشروع**"
+            "ar": "نحتاج إلى تخزين النقاط في مكان ما، دعنا نقوم بإنشاء متغير مشهد! فتح **مدير المشروع**"
           }
         },
         "placement": "bottom"
@@ -275,7 +275,7 @@
             "es": "Haz **clic derecho** (o clic en el **botón de tres puntos**) sobre $(gameScene) y selecciona **Editar variables de escena**.",
             "pt": "Clique com o **botão direito** (ou toque no *botão de três pontos*) na $(gameScene) e selecione **Editar variáveis de cena**.",
             "th": "**คลิกขวา** ที่ $(gameScene) หรือกดที่ **ปุ่ม 3 จุด** และเลือก **แก้ไขตัวแปรของ scene**",
-			 "ar": "النقر على *الثلاث نقاط*، أو **النقر على زر الفأرة الأيمن** على ($gameScene) وتحديد **تحرير متغيرات المشهد**."
+            "ar": "النقر على *الثلاث نقاط*، أو **النقر على زر الفأرة الأيمن** على ($gameScene) وتحديد **تحرير متغيرات المشهد**."
           }
         },
         "touchDescription": {
@@ -285,7 +285,7 @@
             "es": "Haz **pulsación larga** (o usa el **botón de 3 puntos**) sobre $(gameScene) y selecciona **Editar variables de escena**.",
             "pt": "Pressione por **muito tempo** (ou use o *botão de três pontos*) na $(gameScene) e selecione **Editar variáveis de cena**.",
             "th": "**กดค้าง** ที่ $(gameScene) หรือกดที่ **ปุ่ม 3 จุด** และเลือก **แก้ไขตัวแปรของ scene**",
-			 "ar": "الضغط على *الثلاث نقاط*، أو **ضغطة مطولة** على ($gameScene) وتحديد **تحرير متغيرات المشهد**."
+            "ar": "الضغط على *الثلاث نقاط*، أو **ضغطة مطولة** على $(gameScene) وتحديد **تحرير متغيرات المشهد**."
           }
         },
         "placement": "bottom"
@@ -306,7 +306,7 @@
             "es": "¡Agreguemos nuestra primera **variable**!",
             "pt": "Vamos adicionar nossa primeira **variável**!",
             "th": "มาเพิ่ม **ตัวแปร** แรกของเรากันเถอะ!",
-			 "ar": "دعنا نقوم بإضافة أول **متغير** لنا!"
+            "ar": "دعنا نقوم بإضافة أول **متغير** لنا!"
           }
         }
       },
@@ -325,7 +325,7 @@
             "es": "Nombramos esta variable `Multiplier`.",
             "pt": "Vamos nomear esta variável `Multiplier`.",
             "th": "ตั้งชื่อให้กับตัวแปรนี้ว่า `Multiplier`",
-			 "ar": "دعنا نقوم بتسمية هذا المتغير  `Multiplier`."
+            "ar": "دعنا نقوم بتسمية هذا المتغير  `Multiplier`."
           }
         },
         "placement": "bottom"
@@ -345,7 +345,7 @@
             "es": "Cambiamos su tipo a **Número**.",
             "pt": "Vamos mudar seu tipo para **Número**.",
             "th": "เปลี่ยนประเภทเป็น **ตัวเลข**",
-			 "ar": "دعنا نقوم بتغيير النوع إلى **عدد**."
+            "ar": "دعنا نقوم بتغيير النوع إلى **عدد**."
           }
         },
         "placement": "bottom"
@@ -365,7 +365,7 @@
             "es": "Y finalmente, cambiemos su valor inicial a **1**.",
             "pt": "E finalmente, vamos mudar seu valor inicial para **1**.",
             "th": "และสุดท้าย เปลี่ยนค่าเริ่มต้นเป็น **1**",
-			 "ar": "وأخيرًا وليس آخرًا، دعنا نقوم بتغيير القيمة إلى **1**."
+            "ar": "وأخيرًا وليس آخرًا، دعنا نقوم بتغيير القيمة إلى **1**."
           }
         },
         "placement": "bottom"
@@ -385,7 +385,7 @@
             "es": "¡Y listo! Cerramos esta ventana.",
             "pt": "E acabamos! Vamos fechar esta janela.",
             "th": "เสร็จแล้ว! ปิดหน้าต่างได้เลย",
-			 "ar": "وها قد انتهينا! دعنا نغلق هذه."
+            "ar": "وها قد انتهينا! دعنا نغلق هذه."
           }
         }
       }
@@ -403,7 +403,7 @@
             "es": "Cerramos el menú.",
             "pt": "Vamos fechar o menu.",
             "th": "ปิดเมนู",
-			 "ar": "دعنا نغلق القائمة."
+            "ar": "دعنا نغلق القائمة."
           }
         }
       },
@@ -422,7 +422,7 @@
             "es": "Ahora activemos esos multiplicadores. Abre la **Hoja de eventos** de la escena $(gameScene).",
             "pt": "Agora vamos ativar esses multiplicadores. Vamos abra a **Folha de eventos** da cena $(gameScene).",
             "th": "ทีนี้มาทำให้ multiplier ทำงานกัน เปิด **ชี้ทอีเวนต์** ของ scene $(gameScene)",
-			 "ar": "الآن دعنا نقوم بتنشيط تلك المضاعِفات، فتح **صفحة أحداث** المشهد $(gameScene). "
+            "ar": "الآن دعنا نقوم بتنشيط تلك المضاعِفات، فتح **صفحة أحداث** المشهد $(gameScene). "
           }
         },
         "placement": "bottom"
@@ -442,7 +442,7 @@
             "es": "Comenzaremos haciendo que el $(multiplier) desaparezca cuando sea golpeado por una $(ball). Haz clic en **agregar una condición** para empezar.",
             "pt": "Começaremos fazendo o $(multiplier) desaparecer ao ser atingido por uma $(ball). Clique em **adicionar uma condição** para iniciar.",
             "th": "ขั้นแรก เราจะทำให้ $(multiplier) หายไป เมื่อถูก $(ball) ชนครั้งหนึ่ง อีเวนท์พร้อมแล้ว ให้ **เพิ่มเงื่อนไข** ลงไป",
-			 "ar": "سوف نبدأ بجعل الـ $(multiplier) تختفي عندما يضربها $(ball). الضغط على **إضافة شرط** للبدأ."
+            "ar": "سوف نبدأ بجعل الـ $(multiplier) تختفي عندما يضربها $(ball). الضغط على **إضافة شرط** للبدأ."
           }
         }
       }
@@ -460,7 +460,7 @@
             "es": "Seleccione **$(ball)**.",
             "pt": "Selecione **$(ball)**.",
             "th": "เลือก **$(ball)**",
-			 "ar": "تحديد **$(ball)**."
+            "ar": "تحديد **$(ball)**."
           }
         }
       },
@@ -479,7 +479,7 @@
             "es": "Seleccione la condición **Colisión**.",
             "pt": "Selecione a condição **Colisão**.",
             "th": "เลือกเงื่อนไข **การชนกัน**",
-			 "ar": "تحديد الشرط **تصادم**."
+            "ar": "تحديد الشرط **تصادم**."
           }
         }
       },
@@ -498,7 +498,7 @@
             "es": "Y seleccione nuestro **$(multiplier)**.",
             "pt": "E selecione nosso **$(multiplier)**.",
             "th": "เลือก **$(multiplier)**",
-			 "ar": "وتحديد الـ **$(multiplier)** خاصتنا."
+            "ar": "وتحديد الـ **$(multiplier)** خاصتنا."
           }
         },
         "placement": "top"
@@ -518,7 +518,7 @@
             "es": "Bien, nuestra **condición** está lista. Será **verdadera** cuando **$(ball) golpee el $(multiplier)**.",
             "pt": "Bem, nossa **condição** está pronta. Ela será **verdadeira** quando **$(ball) bater no $(multiplier)**.",
             "th": "เอาล่ะ **เงื่อนไข** ของเราพร้อมแล้วและจะให้ค่า **จริง** เมื่อ **$(ball) สัมผัสกับ $(multiplier)**",
-			 "ar": "حسنًا، إن **شرطنا** مستعد، هذا ***الشرط** سيكون **صحيحًا** عندما ** تلمس الـ $(ball) الـ $(multiplier)**."
+            "ar": "حسنًا، إن **شرطنا** مستعد، هذا ***الشرط** سيكون **صحيحًا** عندما ** تلمس الـ $(ball) الـ $(multiplier)**."
           }
         },
         "placement": "top"
@@ -537,7 +537,7 @@
             "es": "Hagamos que nuestro multiplicador desaparezca con una **acción** ahora.",
             "pt": "Vamos fazer nosso multiplicador desaparecer com uma **ação** agora.",
             "th": "ทำให้ multiplier หายไป โดยใช้ **การกระทำ**",
-			 "ar": "دعنا نقوم بجعل مضاعِفاتنا الآن تختفي بواسطة **إجراء**."
+            "ar": "دعنا نقوم بجعل مضاعِفاتنا الآن تختفي بواسطة **إجراء**."
           }
         }
       }
@@ -555,7 +555,7 @@
             "es": "Seleccione **$(multiplier)**.",
             "pt": "Selecione **$(multiplier)**.",
             "th": "เลือก **$(multiplier)**",
-			 "ar": "تحديد **$(multiplier)**."
+            "ar": "تحديد **$(multiplier)**."
           }
         }
       },
@@ -574,7 +574,7 @@
             "es": "Haremos que **$(multiplier)** desaparezca en caso de colisión.",
             "pt": "Vamos fazer com que **$(multiplier)** desapareça em caso de colisão.",
             "th": "เราจะทำให้ **$(multiplier)** หายไปเมื่อมีการชนกัน",
-			 "ar": "سوف نجعل **$(multiplier) تختفي مع التصادم."
+            "ar": "سوف نجعل **$(multiplier) تختفي مع التصادم."
           }
         }
       },
@@ -593,7 +593,7 @@
             "es": "Es importante tomar en cuenta que solo el $(multiplier) que sea tocado por la $(ball) (coincida con nuestra condición) será eliminado. Este principio se llama **elección de objeto**.\n\nCerraremos esta ventana.",
             "pt": "É importante notar que apenas o $(multiplier) que for atingido pela $(ball) (que corresponder à nossa condição) será excluído. Esse princípio é chamado de **escolha de objeto**.\n\nVamos fechar esta janela.",
             "th": "สิ่งสำคัญที่คุณควรจดจำไว้คือ มีเพียง $(multiplier) ที่ตรงกับเงื่อนไขเท่านั้นที่ถูกลบ เรียกว่า **การเลือกวัตถุ** ปิดหน้าต่างนี้",
-			 "ar": "من المهم أن تلاحظ أن الـ $(multiplier) المضروبة بواسطة الـ $(ball) طبقًا لشرطنا هي فقط ما سيتم حذفها، هذا المبدأ يدعى **إلتقاط الكائن**.\n\nدعنا نغلق هذه."
+            "ar": "من المهم أن تلاحظ أن الـ $(multiplier) المضروبة بواسطة الـ $(ball) طبقًا لشرطنا هي فقط ما سيتم حذفها، هذا المبدأ يدعى **إلتقاط الكائن**.\n\nدعنا نغلق هذه."
           }
         },
         "placement": "top"
@@ -612,7 +612,7 @@
             "es": "¡Ahora, **reproducimos un sonido** cuando se recolecta!",
             "pt": "Agora, **reproduzimos um som** quando é coletado!",
             "th": "ทีนี้มาเพิ่มการ **เล่นเสียง** เมื่อมีการเก็บ!",
-			 "ar": "الآن دعنا نقوم بـ**تشغيل صوت** عندما يتم جمع المضاعِفات!"
+            "ar": "الآن دعنا نقوم ب**تشغيل صوت** عندما يتم جمع المضاعِفات!"
           }
         }
       }
@@ -630,7 +630,7 @@
             "es": "Busque **sonido**.",
             "pt": "Procure **som**.",
             "th": "ค้นหา **sound**",
-			 "ar": "البحث عن **صوت**."
+            "ar": "البحث عن **صوت**."
           }
         }
       },
@@ -649,7 +649,7 @@
             "es": "Seleccione la acción **Reproducir un sonido**.",
             "pt": "Selecione a ação **Reproduzir um som**.",
             "th": "เลือกการกระทำ **เล่นเสียง**",
-			 "ar": "تحديد الإجراء **تشغيل صوت**."
+            "ar": "تحديد الإجراء **تشغيل صوت**."
           }
         }
       },
@@ -668,7 +668,7 @@
             "es": "Haga clic en el campo para ver las opciones y seleccione **ClickerBeep2.wav**.",
             "pt": "Clique no campo para ver as opções e selecione **ClickerBeep2.wav**.",
             "th": "คลิกที่ field เพื่อดูตัวเลือก แล้วเลือก **ClickerBeep2.wav**",
-			 "ar": "الضغط على الحقل لرؤية الخيارات، وتحديد **ClickerBeep2.wav**."
+            "ar": "الضغط على الحقل لرؤية الخيارات، وتحديد **ClickerBeep2.wav**."
           }
         },
         "placement": "top"
@@ -688,7 +688,7 @@
             "es": "¡Bien, ahora el sonido se reproducirá cuando la $(ball) recolecte un $(multiplier)!",
             "pt": "Ótimo, agora o som será reproduzido quando a $(ball) coletar um $(multiplier)!",
             "th": "เอาล่ะ ทีนี้เสียงก็จะเล่นเมื่อ $(ball) เก็บ $(multiplier) แล้ว!",
-			 "ar": "حسنًا، الآن سيتم تشغيل الصوت عندما تجمع الـ $(ball) الـ $(multiplier)!"
+            "ar": "حسنًا، الآن سيتم تشغيل الصوت عندما تجمع الـ $(ball) الـ $(multiplier)!"
           }
         },
         "placement": "top"
@@ -707,7 +707,7 @@
             "es": "Actualicemos nuestra **variable** en consecuencia.",
             "pt": "Atualizemos nossa **variável** em conformidade.",
             "th": "ทำการ **อัพเดทตัวแปร**",
-			 "ar": "دعنا نقوم بـ**تحديث متغيرنا** لتوافق المضاعِفات التي تم جمعها."
+            "ar": "دعنا نقوم ب**تحديث متغيرنا** لتوافق المضاعِفات التي تم جمعها."
           }
         }
       }
@@ -725,7 +725,7 @@
             "es": "Busque **variable de escena**.",
             "pt": "Procure **variável de cena**.",
             "th": "ค้นหา **ตัวแปรของ scene",
-			 "ar": "البحث عن **متغير المشهد**."
+            "ar": "البحث عن **متغير المشهد**."
           }
         }
       },
@@ -744,7 +744,7 @@
             "es": "Nuestro multiplicador es un número, por lo que seleccionemos la acción **Cambiar variable numérica**.",
             "pt": "Nosso multiplicador é um número, então vamos selecionar a ação **Alterar variável numérica**.",
             "th": "multiplier ของเราเป็นตัวเลข ดังนั้นเลือกการกระทำ **เปลี่ยนตัวเลขตัวแปร**",
-			 "ar": "مضاعِفاتنا عبارة عن عدد، لذلك دعنا نقوم بتحديد الإجراء **تغيير متغير عدد**."
+            "ar": "مضاعِفاتنا عبارة عن عدد، لذلك دعنا نقوم بتحديد الإجراء **تغيير متغير عدد**."
           }
         }
       },
@@ -763,7 +763,7 @@
             "es": "Seleccione la variable que creamos anteriormente, **Multiplier**.",
             "pt": "Selecione a variável que criamos anteriormente, **Multiplier**.",
             "th": "เลือกตัวแปรที่เราสร้าง **Multiplier**",
-			 "ar": "تحديد المتغير الذي قمنا بإنشائه في البداية (**Multiplier**)."
+            "ar": "تحديد المتغير الذي قمنا بإنشائه في البداية (**Multiplier**)."
           }
         },
         "placement": "top"
@@ -783,7 +783,7 @@
             "es": "Queremos aumentar el multiplicador, así que seleccionemos **+ (agregar)**.",
             "pt": "Queremos aumentar o multiplicador, então vamos selecionar **+ (adicionar)**.",
             "th": "เราต้องการเพิ่ม multiplier จึงเลือก **+ (เพิ่ม)**",
-			 "ar": "نحن نريد أن نزيد المضاعِفات، لذلك دعنا نقوم بتحديد **+ (زائد)**."
+            "ar": "نحن نريد أن نزيد المضاعِفات، لذلك دعنا نقوم بتحديد **+ (زائد)**."
           }
         },
         "placement": "bottom"
@@ -803,7 +803,7 @@
             "es": "Ingrese **1**.",
             "pt": "Digite **1**.",
             "th": "ใส่ **1**",
-			 "ar": "دعنا نقوم بإدخال **1**."
+            "ar": "دعنا نقوم بإدخال **1**."
           }
         },
         "placement": "bottom"
@@ -823,7 +823,7 @@
             "es": "¡Bien, ahora nuestra variable de escena **Multiplier** **aumentará en 1** cada vez que la $(ball) recolecte un $(multiplier)!",
             "pt": "Ótimo, agora nossa variável de cena **Multiplier** **aumentará em 1** toda vez que a $(ball) coletar um $(multiplier)!",
             "th": "เอาล่ะ ทีนี้ตัวแปร scene **Multiplier** ก็จะ **เพิ่มขึ้นทีละ 1** ทุกครั้งที่ **$(ball) เก็บ $(multiplier)**",
-			 "ar": "حسنًا، الآن متغير المشهد **Multiplier** سوف **يزداد بمقدار 1** في كل مرة **تقوم الـ $(ball) بجمع الـ $(multiplier)**."
+            "ar": "حسنًا، الآن متغير المشهد **Multiplier** سوف **يزداد بمقدار 1** في كل مرة **تقوم الـ $(ball) بجمع الـ $(multiplier)**."
           }
         },
         "placement": "top"
@@ -842,7 +842,7 @@
             "es": "Agreguemos un poco de sabor y **creemos partículas** cuando el **$(multiplier)** es recolectado.",
             "pt": "Vamos adicionar um pouco de sabor e **criar partículas** quando o **$(multiplier)** for coletado.",
             "th": "เพิ่มความน่าตื่นเต้นโดย **สร้าง particles** เมื่อ **$(multiplier)** ถูกเก็บ",
-			 "ar": "دعنا نقوم بإضافة بعض المؤثرات و**إنشاء جسيمات** عندما يتم جمع الـ **$(multiplier)**."
+            "ar": "دعنا نقوم بإضافة بعض المؤثرات و**إنشاء جسيمات** عندما يتم جمع الـ **$(multiplier)**."
           }
         }
       }
@@ -860,8 +860,8 @@
             "es": "Busque **Crear**.",
             "pt": "Procure por **Criar**.",
             "th": "ค้นหา **สร้าง**",
-			 "ar": "البحث عن **إنشاء**."
-		   }
+            "ar": "البحث عن **إنشاء**."
+          }
         }
       },
       "isOnClosableDialog": true
@@ -879,7 +879,7 @@
             "es": "Vamos a **crear algunas partículas** que hemos preparado para usted, elija la acción **Crear un objeto**.",
             "pt": "Vamos **criar algumas partículas** que preparamos para você, escolha a ação **Criar um objeto**.",
             "th": "เราจะ **สร้าง some particles** เราเตรียมเอาไว้ให้คุณแล้ว เลือกการกระทำ **สร้างวัตถุ**",
-			 "ar": "سوف نقوم بـ**إنشاء بعض الجسيمات** قمنا بتحضيرها لأجلك، إلتقاط الإجراء **إنشاء كائن جديد**."
+            "ar": "سوف نقوم بـ**إنشاء بعض الجسيمات** قمنا بتحضيرها لأجلك، إلتقاط الإجراء **إنشاء كائن جديد**."
           }
         }
       },
@@ -898,7 +898,7 @@
             "es": "Seleccione las partículas que hemos preparado, **$(particles)**.",
             "pt": "Selecione as partículas que preparamos, **$(particles)**.",
             "th": "เลือก **$(particles)** ที่เตรียมไว้",
-			 "ar": "تحديد الجسيمات التي حضرناها (**$(particles)**)."
+            "ar": "تحديد الجسيمات التي حضرناها (**$(particles)**)."
           }
         },
         "placement": "top"
@@ -918,7 +918,7 @@
             "es": "Hagamos que aparezcan donde estaba el multiplicador,\n\ningrese `$(multiplier).X()`.",
             "pt": "Vamos fazer com que elas apareçam onde o multiplicador estava,\n\ndigite `$(multiplier).X()`.",
             "th": "ตั้งจุดกำเนิดไว้ที่ตำแหน่งของ multiplier\n\nใส่ `$(multiplier).X()`",
-			 "ar": "دعنا نقوم بجعلها تتوالد أينما كان المضاعِف،\n\nإدخال `$(multiplier).X`."
+            "ar": "دعنا نقوم بجعلها تتوالد أينما كان المضاعِف،\n\nإدخال `$(multiplier).X`."
           }
         },
         "placement": "bottom"
@@ -938,7 +938,7 @@
             "es": "Y `$(multiplier).Y()`.",
             "pt": "E `$(multiplier).Y()`.",
             "th": "และ `$(multiplier).Y()`",
-			 "ar": "بالإضافة إلى `$(multiplier).Y`."
+            "ar": "و`$(multiplier).Y`."
           }
         },
         "placement": "bottom"
@@ -958,7 +958,7 @@
             "es": "¡Bien! Nuestras **$(particles)** serán **creadas** exactamente donde estaba el **$(multiplier)**, ¡lo que dará un buen efecto!",
             "pt": "Legal! Nossas **$(particles)** serão **criadas** exatamente onde o **$(multiplier)** estava, dando um efeito legal!",
             "th": "ดีมาก! **$(particles)** ของเราจะ **ถูกสร้าง** ที่ตำแหน่งของ **$(multiplier)** เป็นเอฟเฟกต์ที่เพิ่มคุณภาพกราฟฟิกได้!",
-			 "ar": "جميل! الـ **$(particles)** خاصتنا سوف **تتوالد** تمامًا أينما كان الـ **$(multiplier)** موجودًا!"
+            "ar": "جميل! الـ **$(particles)** خاصتنا سوف **تتوالد** تمامًا أينما كان الـ **$(multiplier)** موجودًا!"
           }
         },
         "placement": "top"
@@ -977,7 +977,7 @@
             "es": "¡Finalmente, debemos asegurarnos de que el **$(scoreMultiplier)** que hemos colocado en la escena se actualice en consecuencia!",
             "pt": "Finalmente, precisamos nos certificar de que o **$(scoreMultiplier)** que colocamos na cena seja atualizado de acordo!",
             "th": "ขั้นสุดท้าย เราต้องการที่จะแน่ใจว่า **$(scoreMultiplier)** ที่เราใส่ใน scene จะต้องอัพเดทอย่างสอดคล้อง!",
-			 "ar": "وأخيرًا وليس آخرًا، نحتاج أن نتحقق أن الـ **$(scoreMultiplier)** التي وضعناها في المشهد ستحدث متوافقةً مع المضاعِفات التي تم جمعها!"
+            "ar": "وأخيرًا وليس آخرًا، نحتاج أن نتحقق أن الـ **$(scoreMultiplier)** التي أدرجناها في المشهد سيتم تحديثها متوافقةً مع المضاعِفات التي تم جمعها!"
           }
         }
       }
@@ -995,7 +995,7 @@
             "es": "Busque **Modificar**.",
             "pt": "Procure por **Modificar**.",
             "th": "ค้นหา **แก้ไข**",
-			 "ar": "البحث عن **تعديل**."
+            "ar": "البحث عن **تعديل**."
           }
         }
       },
@@ -1014,7 +1014,7 @@
             "es": "Vamos a **Modificar el texto** que colocamos en la pantalla anteriormente.",
             "pt": "Vamos **Modificar o texto** que colocamos na tela anteriormente.",
             "th": "เราจะ **แก้ไขข้อความ** ที่เราวางไว้ใน scene ก่อนหน้านี้",
-			 "ar": "سوف نقوم بـ**تعديل النص** الذي وضعناه في الشاشة بالبداية."
+            "ar": "سوف نقوم ب**تعديل النص** الذي أدرجناه في الشاشة بالبداية."
           }
         }
       },
@@ -1031,7 +1031,7 @@
             "en": "Select the text object **$(scoreMultiplier)**.",
             "fr": "Sélectionnez l'objet texte **$(scoreMultiplier)**.",
             "th": "เลือกวัตถุข้อความ **$(scoreMultiplier)**",
-			 "ar": "تحديد الكائن النصي **$(scoreMultiplier)**."
+            "ar": "تحديد الكائن النصي **$(scoreMultiplier)**."
           }
         },
         "placement": "bottom"
@@ -1051,7 +1051,7 @@
             "es": "Queremos actualizar el texto por completo, así que seleccionemos **= (establecer en)**.",
             "pt": "Queremos atualizar o texto completamente, então vamos selecionar **= (definir como)**.",
             "th": "เราต้องการอัพเดทข้อความใหม่ทั้งหมด ดังนั้นเลือก **= (ตั้งเป็น)**",
-			 "ar": "نحن نريد تحديث النص بالكامل، لذلك دعنا نحدد **= (تعيين إلى)**."
+            "ar": "نحن نريد تحديث النص بالكامل، لذلك دعنا نحدد **= (تعيين إلى)**."
           }
         },
         "placement": "bottom"
@@ -1071,7 +1071,7 @@
             "es": "Ahora, debemos asegurarnos de que el texto que se muestra muestre x1, x2, etc ... así que usemos nuestra variable para ello.\n\nIngrese `\"x\"+VariableString(Multiplier)`.",
             "pt": "Agora, precisamos nos certificar de que o texto exibido exiba x1, x2, etc ... então vamos usar nossa variável para isso.\n\nDigite `\"x\"+VariableString(Multiplier)`.",
             "th": "ทีนี้เราแน่ใจแล้วว่าข้อความจะแสดง x1, x2, ... ไปเรื่อยๆ ใช้ตัวแปรเพื่อทำเช่นนั้น\n\nใส่ `\"x\"+VariableString(Multiplier)`",
-             "ar": "الآن، نحتاج إلى التحقق أن النص المعروض سوف يعرض x1، x2، إلخ... لذلك دعنا نقوم باستخدام متغيرنا للقيام بذلك.\n\nإدخال `\"x\"+VariableString(Multiplier)`."
+            "ar": "الآن، نحتاج إلى التحقق أن النص المعروض سوف يعرض x1، x2، إلخ... لذلك دعنا نقوم باستخدام متغيرنا للقيام بذلك.\n\nإدخال `\"x\"+VariableString(Multiplier)`."
           }
         },
         "placement": "bottom"
@@ -1091,7 +1091,7 @@
             "es": "¡Bien! ¡nuestra **$(scoreMultiplier)** ahora se actualizará gracias a la **variable Multiplicador** que convertimos en texto!",
             "pt": "Legal! nosso **$(scoreMultiplier)** agora será atualizado graças à **variável Multiplicador** que convertemos em texto!",
             "th": "ดีมาก! **$(scoreMultiplier)** ของเราจะอัพเดทได้อย่างที่ควรจะเป็นเพราะว่าเราได้แปลง **ตัวแปร Multiplier** เป็นข้อความ",
-			 "ar": "جميل! الـ **$(scoreMultiplier)** خاصتنا سوف يتم تحديثها بفضل **متغير المضاعِفات** الذي حولناه إلى نص!"
+            "ar": "جميل! الـ **$(scoreMultiplier)** خاصتنا سوف يتم تحديثها بفضل **المتغير Multiplier** الذي حولناه إلى نص!"
           }
         },
         "placement": "top"
@@ -1110,7 +1110,7 @@
             "es": "Finalmente, debemos tener en cuenta nuestro multiplicador al calcular la puntuación. **Cerramos el grupo Multiplicador de puntuación** con la flecha a la izquierda.",
             "pt": "Finalmente, precisamos levar em conta nosso multiplicador ao calcular a pontuação. Vamos **fechar o grupo Multiplicador de pontuação** com a seta à esquerda.",
             "th": "สุดท้ายเราจะนำตัวแปร Multiplier มาใช้ในการคำนวณคะแนน ให้ **ยุบกลุ่มคะแนน** ด้วยลูกศรที่ด้านซ้าย",
-			 "ar": "وأخيرًا وليس آخرًا، نحن نحتاج من مضاعِفاتنا أن تحصى عندما يتم حساب النتيجة، دعنا **نطوي المجموعة Score multiplier** بواسطة السهم على اليسار."
+            "ar": "وأخيرًا وليس آخرًا، نحن نحتاج من مضاعِفاتنا أن تُحصى عندما يتم حساب النتيجة، دعنا **نطوي المجموعة Score multiplier** بواسطة السهم على اليسار."
           }
         },
         "placement": "bottom"
@@ -1129,7 +1129,7 @@
             "es": "Y **desplegamos el grupo Tocando plots** con la flecha a la izquierda.",
             "pt": "E vamos **desdobrar o grupo Tocando plots** com a seta à esquerda.",
             "th": "และให้ **ยุบกลุ่มคะแนน** ด้วยลูกศรที่ด้านซ้าย",
-			 "ar": "ودعنا نقوم بـ**توسيع المجموعة Hitting pegs** بواسطة السهم على اليسار."
+            "ar": "ودعنا نقوم ب**توسيع المجموعة Hitting pegs** بواسطة السهم على اليسار."
           }
         },
         "placement": "bottom"
@@ -1148,7 +1148,7 @@
             "es": "Este primer evento gestiona la lógica cuando el jugador toca un plot. ¡Modifiquemos la acción de puntuación **dando doble clic en ella**!",
             "pt": "Este primeiro evento gerencia a lógica quando o jogador toca um plot. Vamos modificar a ação de pontuação **clicando duas vezes nela**!",
             "th": "อีเวนท์แรกนี้ จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก มาแก้ไขการกระทำของคะแนนโดย **ดับเบิลคลิก** กันเถอะ!",
-			 "ar": "هذا أول حدث يدير منطق ضرب اللاعبين للعارضات. دعنا نقوم بتعديل إجراء النقاط عن طريق **النقر المزدوج عليه**!"
+            "ar": "هذا أول حدث يدير منطق ضرب اللاعبين للعارضات. دعنا نقوم بتعديل إجراء النتيجة عن طريق **النقر المزدوج عليه**!"
           }
         },
         "touchDescription": {
@@ -1158,7 +1158,7 @@
             "es": "Este primer evento gestiona la lógica cuando el jugador toca un plot. ¡Modifiquemos la acción de puntuación **presionando 2 veces sobre ella**!",
             "pt": "Este primeiro evento gerencia a lógica quando o jogador toca um plot. Vamos modificar a ação de pontuação **pressionando 2 vezes nela**!",
             "th": "อีเวนท์แรกนี้ จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก มาแก้ไขการกระทำของคะแนนโดย **กด 2 ครั้ง** กันเถอะ!",
-			 "ar": "هذا أول حدث يدير منطق ضرب اللاعبين للعارضات. دعنا نقوم بتعديل إجراء النقاط عن طريق **الضغط عليه مرتين**!"
+            "ar": "هذا أول حدث يدير منطق ضرب اللاعبين للعارضات. دعنا نقوم بتعديل إجراء النتيجة عن طريق **الضغط عليه مرتين**!"
           }
         }
       }
@@ -1176,7 +1176,7 @@
             "es": "Queremos multiplicar la puntuación agregada por el multiplicador,\n\ningresamos `1*Variable(Multiplier)`.",
             "pt": "Queremos multiplicar a pontuação adicionada pelo multiplicador,\n\ndigitar `1*Variable(Multiplier)`.",
             "th": "เราต้องการคูณคะแนนที่ถูกเพิ่มโดย multiplier \n\nใส่ `1*Variable(Multiplier)`",
-			 "ar": "نحن نحتاج إلى مضاعفة النتيجة المضافة عن طريق المضاعِفات،\n\nدعنا نقوم بإدخال `1*Variable(Multiplier)`."
+            "ar": "نحن نحتاج إلى مضاعفة النتيجة المضافة عن طريق المضاعِفات،\n\nدعنا نقوم بإدخال `1*Variable(Multiplier)`."
           }
         },
         "placement": "bottom"
@@ -1196,7 +1196,7 @@
             "es": "¡Esto hará que nuestra puntuación se actualice de acuerdo con el multiplicador! Guardemos.",
             "pt": "Isso fará com que nossa pontuação seja atualizada de acordo com o multiplicador! Salve.",
             "th": "ทีนี้คะแนนของเราจะอัพเดทได้อย่างสอดคล้องแล้ว! มาบันทึกกันเถอะ",
-			 "ar": "هذا سيجعل نتيجتنا تحدث وفقًا للمضاعِفات! هيّا نحفظ."
+            "ar": "هذا سيجعل نتيجتنا تُحدّث وفقًا للمضاعِفات! هيّا نحفظ."
           }
         },
         "placement": "top"
@@ -1215,7 +1215,7 @@
             "es": "Este evento gestiona la lógica cuando el jugador toca un plot *más grande*. Modifiquemos la acción de puntuación **dando doble clic en ella** nuevamente.",
             "pt": "Este evento gerencia a lógica quando o jogador toca um plot *maior*. Vamos modificar a ação de pontuação **clicando duas vezes nela** novamente.",
             "th": "อีเวนท์นี้จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก แก้ไขการกระทำของคะแนนโดย **ดับเบิลคลิก** อีกครั้ง",
-			 "ar": "هذا الحدث هنا يدير منطق ضرب اللاعبين للعارضات **الكبيرة**، دعنا نقوم بتعديل إجراء النقاط عن طريق **النقر المزدوج عليه** مجددًا."
+            "ar": "هذا الحدث هنا يدير منطق ضرب اللاعبين للعارضات **الكبيرة**، دعنا نقوم بتعديل إجراء النتيجة عن طريق **النقر المزدوج عليه** مجددًا."
           }
         },
         "touchDescription": {
@@ -1225,7 +1225,7 @@
             "es": "Este evento gestiona la lógica cuando el jugador toca un plot *más grande*. Modifiquemos la acción de puntuación **presionando 2 veces sobre ella**.",
             "pt": "Este evento gerencia a lógica quando o jogador toca um plot *maior*. Vamos modificar a ação de pontuação **pressionando 2 vezes nela**.",
             "th": "อีเวนท์นี้จัดการกับโลจิกเมื่อผู้เล่นชนกับเป๊ก แก้ไขการกระทำของคะแนนโดย **กด 2 ครั้ง** กันเถอะ!",
-			 "ar": "هذا الحدث هنا يدير منطق ضرب اللاعبين للعارضات **الكبيرة**، دعنا نقوم بتعديل إجراء النقاط عن طريق **الضغط عليه مرتين** مجددًا."
+            "ar": "هذا الحدث هنا يدير منطق ضرب اللاعبين للعارضات **الكبيرة**، دعنا نقوم بتعديل إجراء النتيجة عن طريق **الضغط عليه مرتين** مجددًا."
           }
         }
       }
@@ -1243,7 +1243,7 @@
             "es": "Ahora vamos a hacer exactamente lo mismo, excepto que la puntuación dada sera 2,\n\ningresamos `2 * Variable(Multiplier)`.",
             "pt": "Hora faremos exatamente a mesma coisa, exceto que a pontuação dada sera 2,\n\ndigitar `2 * Variable(Multiplier)`.",
             "th": "เราจะทำเหมือนเดิม ยกเว้นอย่างหนึ่ง คะแนนจะใส่เป็น 2\n\nใส่ `2 * Variable(Multiplier)`",
-			 "ar": "الآن سوف نقوم بنفس الشيء تمامًا، باستثناء أن النتيجة المعطاة ستكون الضعف،\n\nإدخال `2 * Variable(Multiplier)`."
+            "ar": "الآن سوف نقوم بنفس الشيء تمامًا، باستثناء أن النتيجة المعطاة ستكون الضعف،\n\nإدخال `2 * Variable(Multiplier)`."
           }
         },
         "placement": "bottom"
@@ -1263,7 +1263,7 @@
             "es": "¡Ahora cerramos esto!",
             "pt": "Agora vamos fechar isso!",
             "th": "ปิดหน้าต่างได้เลย!",
-			 "ar": "الآن دعنا نغلق هذا."
+            "ar": "الآن دعنا نغلق هذا."
           }
         },
         "placement": "top"
@@ -1282,7 +1282,7 @@
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
             "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-			 "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
           }
         },
         "placement": "bottom"

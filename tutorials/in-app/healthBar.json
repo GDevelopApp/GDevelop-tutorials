@@ -85,7 +85,7 @@
             "es": "Este juego es un plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruébalo** con el botón de **Previsualización**.",
             "pt": "Este jogo é um plataforma.\nVocê pode mover o jogador com as teclas de seta e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.",
             "th": "นี่เป็นเกม platformer แบบเรียบง่าย\nคุณสามารถเคลื่อนที่ผู้เล่นด้วยปุ่มลูกศรและกระโดดด้วย space bar\n\n**ลดลองเล่นเกม** โดยกดปุ่ม **ดูตัวอย่าง**\n\nเมื่อพร้อมแล้ว กดปุ่มนี้เพื่อไปต่อ",
-            "ar": "هذه لعبة منصات. الضغط على زر **معاينة** للعب.\nيمكنك تحريك الشخصية بواسطة مفاتيح الأسهم، والقفز بواسطة مفتاح المسافة."
+            "ar": "هذه لعبة منصات. الضغط على الزر **معاينة** للعب.\nيمكنك تحريك الشخصية بواسطة مفاتيح الأسهم، والقفز بواسطة مفتاح المسافة."
           }
         }
       }
@@ -185,7 +185,7 @@
             "es": "Vamos a usar un objeto prefab. Es un objeto que viene con sus propias acciones y condiciones, lo que simplifica su uso.",
             "pt": "Vamos usar um objeto prefab. É um objeto que vem com suas próprias ações e condições, o que simplifica seu uso.",
             "th": "เราจะใช้วัตถุ prefab มันเป็นวัตถุที่มีการกระทำและเงื่อนไขแบบพิเศษ",
-            "ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميها **كائن جاهز للاستخدام**."
+            "ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميه **كائن جاهز للاستخدام**."
           }
         }
       },
@@ -340,7 +340,7 @@
             "es": "Seleccionemos esta capa como la **capa predeterminada** para agregar objetos.",
             "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos.",
             "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป",
-            "ar": "تحديد هذه **الطبقة** لنتمكن من وضع القلوب الخاصة بنا داخلها."
+            "ar": "تحديد هذه **الطبقة** لنتمكن من إدراج القلوب الخاصة بنا داخلها."
           }
         },
         "placement": "top"
@@ -416,7 +416,7 @@
             "es": "¿Ves el **rectángulo negro** en el centro de la escena? Esta es la **vista de la cámara**. Es el punto de vista desde el que el jugador verá el juego.\n\nColoca $(resourceBar) en la esquina superior izquierda del rectángulo.",
             "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nColoque $(resourceBar) no canto superior esquerdo do retângulo.",
             "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nจัดวาง $(resourceBar) ให้อยู่ในมุมซ้ายบนของสี่เหลี่ยม\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง",
-            "ar": "هل ترى **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بجزء من اللعبة الذي يمكن للاعبين رؤيته.\n\nوضع الـ $(resourceBar) في أعلى يسار زاوية **رؤية الكاميرا**."
+            "ar": "هل ترى **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بالجزء الذي يمكن للاعبين رؤيته من اللعبة.\n\nإدراج الـ $(resourceBar) في أعلى يسار زاوية **رؤية الكاميرا**."
           }
         },
         "placement": "top",
@@ -458,7 +458,7 @@
             "es": "**Agreguemos una acción** para cambiar el valor de relleno de $(resourceBar).",
             "pt": "**Adicionemos uma ação** para alterar o valor de preenchimento de $(resourceBar).",
             "th": "ให้ **เพิ่มการกระทำ** เพื่อเปลี่ยนค่าที่จะเพิ่มขึ้นของ $(resourceBar)",
-            "ar": "دعنا نقوم بـ**إضافة إجراء** لتعريف عدد المحاولات التي ستُعرض على $(resourceBar)."
+            "ar": "دعنا نقوم ب**إضافة إجراء** لتعريف عدد المحاولات التي ستُعرض على $(resourceBar)."
           }
         }
       }
@@ -653,7 +653,7 @@
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
             "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
           }
         },
         "placement": "bottom"
