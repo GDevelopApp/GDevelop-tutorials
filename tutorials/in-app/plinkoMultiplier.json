@@ -275,7 +275,7 @@
             "es": "Haz **clic derecho** (o clic en el **botón de tres puntos**) sobre $(gameScene) y selecciona **Editar variables de escena**.",
             "pt": "Clique com o **botão direito** (ou toque no *botão de três pontos*) na $(gameScene) e selecione **Editar variáveis de cena**.",
             "th": "**คลิกขวา** ที่ $(gameScene) หรือกดที่ **ปุ่ม 3 จุด** และเลือก **แก้ไขตัวแปรของ scene**",
-            "ar": "النقر على *الثلاث نقاط*، أو **النقر على زر الفأرة الأيمن** على ($gameScene) وتحديد **تحرير متغيرات المشهد**."
+            "ar": "النقر على *الثلاث نقاط*، أو **النقر على زر الفأرة الأيمن** على $(gameScene) وتحديد **تحرير متغيرات المشهد**."
           }
         },
         "touchDescription": {

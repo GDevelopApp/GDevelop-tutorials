@@ -438,7 +438,7 @@
             "es": "Ahora, conectemos la vida del **$(player)** con **$(resourceBar)**! Abramos la **hoja de eventos** de la escena $(level).",
             "pt": "Agora, vamos conectar a vida do **$(player)** com **$(resourceBar)**! Vamos **abrir a Folha de Eventos** da cena $(level).",
             "th": "ทีนี้ มาเชื่อมเลือดของ **$(player)** กับ **$(resourceBar)**กันเถอะ! ให้ **เปิดชี้ทอีเวนต์** จาก scene $(level)",
-            "ar": "الآن سوف نربط صحة الـ **$(player)** بالـ **$(resourceBar)**! الضغط على تبويب الأحداث للذهاب إلى **صفحة الأحداث** الخاصة بالمشهد $(level)."
+            "ar": "الآن سوف نربط صحة الـ **$(player)** بالـ **$(resourceBar)**! الضغط على نافذة الأحداث للذهاب إلى **صفحة الأحداث** الخاصة بالمشهد $(level)."
           }
         },
         "placement": "bottom"
