@@ -105,7 +105,7 @@
             "es": "Abre la pestaña **Extensiones**.",
             "pt": "Abra a guia **Extensões**.",
             "th": "เปิด **แท็บ Extensions**",
-            "ar": "فتح تبويب **الملحقات**."
+            "ar": "فتح نافذة **الملحقات**."
           }
         }
       },
@@ -165,7 +165,7 @@
             "es": "Haz clic en la extensión **Smooth Camera**.",
             "pt": "Clique na extensão **Smooth Camera**.",
             "th": "คลิกที่ extension **Smooth Camera**",
-            "ar": "الضغط على الملحق **smooth camera**."
+            "ar": "الضغط على الملحق **Smooth Camera**."
           }
         }
       },
@@ -263,7 +263,7 @@
             "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
             "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
             "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nคลิกขวาที่ **$(player)** หรือกดเมนู 3 จุด แล้วเลือก **แก้ไขพฤติกรรม**",
-            "ar": "دعنا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nالضغط على الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **($player)** وتحديد **تحرير السلوكيات**."
+            "ar": "دعنا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nالضغط على الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **$(player)** وتحديد **تحرير السلوكيات**."
           }
         },
         "touchDescription": {
@@ -273,7 +273,7 @@
             "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nSelecciona y pulsa largo **$(player)** y selecciona **Editar comportamientos**.",
             "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nSelecione e pressione por um longo tempo **$(player)** e selecione **Editar comportamentos**.",
             "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nเลือกแล้วกดค้างที่ **$(player)** แล้วเลือก **แก้ไขพฤติกรรม**",
-            "ar": "دعنا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nتحديد، ثم ضغطة مطولة على الـ **($player)** وتحديد **تحرير السلوكيات**."
+            "ar": "دعنا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nتحديد، ثم ضغطة مطولة على الـ **$(player)** وتحديد **تحرير السلوكيات**."
           }
         }
       }
@@ -291,7 +291,7 @@
             "es": "Los **comportamientos** del **objeto** se encuentran en esta pestaña.",
             "pt": "Os **comportamentos** do **objeto** estão nesta guia.",
             "th": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่",
-            "ar": "رؤية **سلوكيات الكائن** تأتي من هنا."
+            "ar": "رؤية **سلوكيات الكائن** من هنا."
           }
         },
         "placement": "bottom"
@@ -369,7 +369,7 @@
             "es": "¡Eso es todo! ¡Ahora la cámara **seguirá a nuestro jugador unicamente de manera horizontal**!",
             "pt": "É isso aí! Agora a câmera **seguirá nosso jogador unicamente de jeito horizontal**!",
             "th": "เรียบร้อยแล้ว! กล้องจะ **ติดตามผู้เล่นในแนวนอน**!",
-            "ar": "هذا كل شيء، الآن ستقوم الكاميرا بـ**متابعة الشخصية أفقيًا فقط**!"
+            "ar": "هذا كل شيء، الآن ستقوم الكاميرا ب**متابعة الشخصية أفقيًا فقط**!"
           }
         }
       }
@@ -407,7 +407,7 @@
             "es": "Vamos a **agregar una nueva capa** para nuestro fondo.",
             "pt": "Vamos **adicionar uma nova camada** para nosso fundo.",
             "th": "**เพิ่มเลเยอร์ใหม่** สำหรับพื้นหลัง",
-            "ar": "لنقم بـ**إضافة طبقة** لخلفيتنا."
+            "ar": "لنقم ب**إضافة طبقة** لخلفيتنا."
           }
         },
         "placement": "top"
@@ -541,7 +541,7 @@
             "es": "¿Ves el **marco rectangular negro** en el medio de la escena? Esa es la **vista de la cámara**. Sirve para enmarcar la parte del juego que verá el jugador.\n\nCambia el tamaño del objeto **$(farBackground)** para que cubra toda la vista de la cámara.",
             "pt": "Você ve a **moldura retangular preta** no meio da cena? Essa é a **visão da câmera**. Ela enquadra a parte do jogo que o jogador verá.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.",
             "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nปรับขนาดวัตถุ **$(farBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด",
-            "ar": "هل ترى **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بجزء من اللعبة الذي يمكن للاعبين رؤيته.\n\nإعادة ضبط حجم الـ **$(farBackground)** لتغطى رؤية الكاميرا بالكامل."
+            "ar": "هل ترى **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بالجزء الذي يمكن للاعبين رؤيته من اللعبة.\n\nإعادة ضبط حجم الـ **$(farBackground)** لتغطى رؤية الكاميرا بالكامل."
           }
         },
         "placement": "top",
@@ -607,7 +607,8 @@
             "fr": "J'ai terminé",
             "es": "Ya terminé",
             "pt": "Terminei",
-            "th": "ฉันทำเสร็จแล้ว"
+            "th": "ฉันทำเสร็จแล้ว",
+            "ar": "انتهيت"
           }
         }
       },
@@ -662,7 +663,7 @@
             "es": "**Agreguemos una acción** para hacer que el primer fondo se mueva.",
             "pt": "**Adicione uma ação** para fazer o primeiro plano de fundo se mover.",
             "th": "**เพิ่มการกระทำ** เพื่อทำให้พื้นหลังแรกเคลื่อนที่",
-            "ar": "دعنا نقوم بـ**إضافة إجراء** لجعل الخلفية الأولى تتحرك."
+            "ar": "دعنا نقوم ب**إضافة إجراء** لجعل الخلفية الأولى تتحرك."
           }
         }
       }
@@ -699,7 +700,7 @@
             "es": "Seleccione la acción **Desplazamiento X de la imagen**.",
             "pt": "Selecione a ação **Deslocamento X da imagem**.",
             "th": "เลือกการกระทำ **Image X ออฟเซ็ท**",
-            "ar": "تحديد الإجراء **Image X offset**."
+            "ar": "تحديد الإجراء **إزاحة الصورة أفقيًا**."
           }
         }
       },
@@ -718,7 +719,7 @@
             "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
             "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**.",
             "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**",
-            "ar": "نريد الخلفية أن تتبع الكاميرا، لذلك دعنا نحدد **= (تعيين إلى)**."
+            "ar": "نريد من الخلفية أن تتبع الكاميرا، لذلك دعنا نحدد **= (تعيين إلى)**."
           }
         },
         "placement": "bottom"
@@ -738,7 +739,7 @@
             "es": "Hagamos que el fondo lejano se mueva,\n\n La forma de hacerlo es hacer que se mueva en relación con la posición de la cámara.\n\n Si el jugador se mueve, la cámara también se mueve, por lo que hacemos que el fondo siga el centro de la cámara horizontalmente (X), pero **mucho más lento** para dar un efecto de profundidad.\n\n Escribe la fórmula `CameraCenterX()/8`.",
             "pt": "Vamos fazer o fundo distante se mover,\n\n A maneira como fazemos isso é fazendo com que ele se mova em relação à posição da câmera.\n\n Se o jogador se mover, a câmera também se move, então fazemos o fundo seguir o centro da câmera horizontalmente (X), mas **muito mais devagar** para dar um efeito de profundidade.\n\n Digite a fórmula `CameraCenterX()/8`.",
             "th": "มาทำให้พื้นหลังไกลเคลื่อนที่\n\nวิธีที่เราทำคือทำให้พื้นหลังเคลื่อนที่เทียบเท่ากับตำแหน่งของกล้อง\n\nถ้าผู้เล่นเคลื่อนที่กล้องก็จะเคลื่อนที่ด้วย ดังนั้นเราจึงทำให้พื้นหลังติดตามตำแหน่งกล้องแนวนอน (X) แต่**เร็วมากกว่า** เพื่อให้มีความลึกลับ\n\nพิมพ์สูตร `CameraCenterX()/8`",
-            "ar": "دعنا نصنع الخلفية البعيدة تتحرك، طريقة فعل ذلك هي بجعلها تتحرك نسبيًا إلى موضع الكاميرا.\n\n إذا تحركت الشخصية فستتحرك الكاميرا أيضًا، لذلك نجعل الخلفية تتتبع مركز الكاميرا أفقيًا، ولكن **أبطأ** لمنح شعور العمق، أدخل الصيغة `CameraCenterX()/8`."
+            "ar": "دعنا نجعل الخلفية البعيدة تتحرك، طريقة فعل ذلك هي بجعلها تتحرك نسبيًا إلى موضع الكاميرا.\n\n إذا تحركت الشخصية فستتحرك الكاميرا أيضًا، لذلك نجعل الخلفية تتتبع مركز الكاميرا أفقيًا، ولكن **أبطأ** لمنح شعور العمق، إدخال الصيغة `CameraCenterX()/8`."
           }
         },
         "placement": "bottom"
@@ -814,7 +815,7 @@
             "es": "Selecciona la acción **Desplazamiento X de la imagen**.",
             "pt": "Selecione a ação **Deslocamento X da imagem**.",
             "th": "เลือกการกระทำ **Image X ออฟเซ็ท**",
-            "ar": "تحديد الإجراء **Image X offset**."
+            "ar": "تحديد الإجراء **إزاحة الصورة أفقيًا**."
           }
         }
       },
@@ -833,7 +834,7 @@
             "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
             "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**.",
             "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**",
-            "ar": "نريد الخلفية أن تتبع الكاميرا، لذلك دعنا نحدد **= (تعيين إلى)**."
+            "ar": "نريد من الخلفية أن تتبع الكاميرا، لذلك دعنا نحدد **= (تعيين إلى)**."
           }
         },
         "placement": "bottom"
@@ -892,7 +893,7 @@
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
             "th": "เอาล่ะ เสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
           }
         },
         "placement": "bottom"
