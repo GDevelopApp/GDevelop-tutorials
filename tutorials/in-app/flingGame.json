@@ -3449,7 +3449,7 @@
               "es": "## ¡Felicidades!",
               "pt": "## Parabéns!",
               "th": "## ยินดีด้วย!",
-		  "ar": "## تهانينا!"
+              "ar": "## تهانينا!"
             }
           },
           {
@@ -3459,7 +3459,7 @@
               "es": "Has terminado la segunda parte de tu juego.",
               "pt": "Você terminou a segunda parte do seu jogo.",
               "th": "ส่วนแรกของเกม Fling ของคุณเสร็จแล้ว",
-		  "ar": "لقد انهيت الجزء الثاني من لعبة القذف."
+              "ar": "لقد انهيت الجزء الثاني من لعبة القذف."
             }
           },
           {
@@ -3479,7 +3479,7 @@
               "es": "Ahora puedes hacer una pausa antes de comenzar el próximo capítulo para agregar una tabla de clasificación.",
               "pt": "Agora você pode fazer uma pausa antes de começar o próximo capítulo para adicionar uma tabela de classificação.",
               "th": "คุณสามารถหยุดพักบทเรียนตรงนี้ หรือเข้าสู่บทเรียนถัดไปเพื่อเพิ่มกระดานคะแนนเลยก็ได้",
-		  "ar": "يمكنك الآن أخذ استراحة من البرنامج التعليمي، أو إضافة لوحة صدارة في الفصل التالي."
+              "ar": "يمكنك الآن أخذ استراحة من البرنامج التعليمي، أو إضافة لوحة صدارة في الفصل التالي."
             }
           }
         ]

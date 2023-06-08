@@ -392,7 +392,7 @@
             "es": "Coloca el $(joystick) debajo de la nave en la pantalla, de manera que el jugador pueda usar su pulgar para controlarlo fácilmente.",
             "pt": "Coloque o $(joystick) abaixo da nave na tela, de forma que o jogador possa usar o polegar para controlá-lo facilmente.",
             "th": "วาง $(joystick) ใต้เรือในฉาก ให้ผู้เล่นสามารถใช้นิ้วกลางเพื่อควบคุมได้ง่าย\n\nเมื่อคุณเสร็จแล้ว ให้คลิกที่ปุ่มด้านล่าง",
-            "ar": "إدراج الـ  **$(joystick)** أسفل السفينة الفضائية حتى يتمكن اللاعبون من استخدام إبهامهم للتحكم بها بسهولة." 
+            "ar": "إدراج الـ  **$(joystick)** أسفل السفينة الفضائية حتى يتمكن اللاعبون من استخدام إبهامهم للتحكم بها بسهولة."
           }
         },
         "placement": "top",
