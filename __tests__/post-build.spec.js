@@ -23,7 +23,7 @@ describe('In app tutorials control figures', () => {
   );
 
   test('there is the right number of in app tutorials', () => {
-    expect(shortHeaders.length).toMatchInlineSnapshot(`6`); // To change when adding new in app tutorials
+    expect(shortHeaders.length).toMatchInlineSnapshot(`7`); // To change when adding new in app tutorials
   });
 
   test('all in app tutorials have a different id', () => {

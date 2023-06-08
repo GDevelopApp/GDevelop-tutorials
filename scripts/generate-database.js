@@ -238,7 +238,7 @@ const processInAppTutorials = async () => {
     generateFolderStructure();
     await updateTemplateFiles();
     await processInAppTutorials();
-    console.info('✅ Asset packs were successfully generated.');
+    console.info('✅ Tutorials were successfully generated.');
     console.info(
       'ℹ️  Make sure you run the command \x1b[1mnpm run check-post-build\x1b[0m'
     );
