@@ -559,7 +559,7 @@
     {
       "elementToHighlightId": "#instruction-parameters-container select",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "="
       },
       "tooltip": {
         "description": {

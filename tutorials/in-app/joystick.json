@@ -492,7 +492,7 @@
     {
       "elementToHighlightId": "#behavior-parameters-TopDownMultitouchMapper #StickMode",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "360°"
       },
       "tooltip": {
         "description": {

@@ -335,7 +335,7 @@
     {
       "elementToHighlightId": "#scene-variables-dialog #variable-0-type",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "1"
       },
       "tooltip": {
         "description": {
@@ -658,7 +658,7 @@
     {
       "elementToHighlightId": "#parameter-1-audio-field",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "ClickerBeep2.wav"
       },
       "tooltip": {
         "description": {
@@ -773,7 +773,7 @@
     {
       "elementToHighlightId": "#parameter-1-operator-field",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "+"
       },
       "tooltip": {
         "description": {
@@ -1041,7 +1041,7 @@
     {
       "elementToHighlightId": "#parameter-1-operator-field",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "="
       },
       "tooltip": {
         "description": {
