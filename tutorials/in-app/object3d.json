@@ -48,7 +48,7 @@
           "es": "- Crear una caja 3D\n\n- Agregar un comportamiento\n\n- Actualizar la elevación de una caja 3D",
           "pt": "- Criar uma caixa 3D\n\n- Adicionar um comportamento\n\n- Atualizar a elevação de uma caixa 3D",
           "th": "- สร้างกล่อง 3D\n\n- เพิ่มพฤติกรรม\n\n- อัปเดตความสูงของกล่อง 3D",
-          "ar": "- إنشاء مربع ثلاثي الأبعاد\n\n- إضافة سلوك\n\n- تحديث ارتفاع مربع ثلاثي الأبعاد"
+          "ar": "- إنشاء صندوق ثلاثي الأبعاد\n\n- إضافة سلوك\n\n- تحديث ارتفاع الصندوق الثلاثي الأبعاد"
         }
       },
       {
@@ -58,7 +58,7 @@
           "es": "¡Ahora intenta llevar al personaje al botón de objetivo, evitando los objetos rojos!",
           "pt": "Agora tente levar o personagem até o botão de objetivo, evitando os objetos vermelhos!",
           "th": "ลองพยายามนำตัวละครไปยังปุ่มเป้าหมาย โดยหลีกเลี่ยงวัตถุสีแดง!",
-          "ar": "الآن حاول الوصول بالشخصية إلى زر الهدف، مع تجنب الأشياء الحمراء!"
+          "ar": "الآن حاول الوصول بالشخصية إلى زر الهدف، مع تجنب الكائنات الحمراء!"
         }
       }
     ]
@@ -87,7 +87,7 @@
             "es": "Este juego es un juego de plataformas, donde tienes que llevar al personaje al botón de objetivo, evitando los objetos rojos.\n\nPero aún no está terminado, ¡así que vamos a completarlo!",
             "pt": "Este jogo é um jogo de plataforma, onde você tem que levar o personagem até o botão de objetivo, evitando os objetos vermelhos.\n\nMas ainda não está terminado, então vamos completá-lo!",
             "th": "เกมนี้เป็นเกมแพลตฟอร์มเมอร์ ที่คุณต้องพาตัวละครไปยังปุ่มเป้าหมาย โดยหลีกเลี่ยงวัตถุสีแดง\n\nแต่ยังไม่เสร็จสิ้น ดังนั้นเรามาทำให้เสร็จสิ้นกันเถอะ!",
-            "ar": "هذه اللعبة هي لعبة منصات، حيث يجب عليك الوصول بالشخصية إلى زر الهدف، مع تجنب الأشياء الحمراء.\n\nولكنها لم تنته بعد، لذا دعنا نكملها!"
+            "ar": "هذه لعبة منصات، حيث يتوجب عليك الوصول بالشخصية إلى زر الهدف، مع تجنب الكائنات الحمراء.\n\nولكنها لم تنته بعد، لذا هيّا نكملها!"
           }
         }
       }
@@ -126,7 +126,7 @@
             "es": "Este juego no tiene ninguna plataforma para nuestro personaje, ¡así que agreguemos varias **cajas 3D** para crear una plataforma!",
             "pt": "Este jogo não tem nenhuma plataforma para o nosso personagem, então vamos adicionar várias **caixas 3D** para criar uma plataforma!",
             "th": "เกมนี้ไม่มีแพลตฟอร์มสำหรับตัวละครของเรา ดังนั้นเรามาเพิ่ม **กล่อง 3D** หลาย ๆ กล่องเพื่อสร้างแพลตฟอร์ม!",
-            "ar": "هذه اللعبة ليس لديها أي منصات لشخصيتنا، لذا دعنا نضيف عدة **صناديق ثلاثية الأبعاد** لإنشاء منصة!"
+            "ar": "هذه اللعبة ليس لديها أي منصات لشخصيتنا، لذا هيّا نقوم بإضافة عدة **صناديق ثلاثية الأبعاد** لإنشاء منصة!"
           }
         }
       }
@@ -144,7 +144,7 @@
             "es": "Crearemos una caja 3D desde cero.",
             "pt": "Vamos criar uma caixa 3D do zero.",
             "th": "เราจะสร้างกล่อง 3D จากต้นฉบับ",
-            "ar": "سنقوم بإنشاء صندوق ثلاثي الأبعاد من البداية."
+            "ar": "سنقوم بإنشاء صندوق ثلاثي الأبعاد من الصفر."
           }
         },
         "placement": "bottom"
@@ -165,7 +165,7 @@
             "es": "Selecciona el objeto **Caja 3D**",
             "pt": "Selecione o objeto **Caixa 3D**",
             "th": "เลือกวัตถุ **กล่อง 3D**",
-            "ar": "حدد كائن **صندوق ثلاثي الأبعاد**"
+            "ar": "تحديد الكائن **صندوق ثلاثي الأبعاد**"
           }
         },
         "placement": "bottom"
@@ -185,7 +185,7 @@
             "es": "Cambia el nombre del objeto a **Platform**.",
             "pt": "Altere o nome do objeto para **Plataforma**.",
             "th": "เปลี่ยนชื่อวัตถุเป็น **แพลตฟอร์ม**",
-            "ar": "غير اسم الكائن إلى **Platform**."
+            "ar": "تغيير اسم الكائن إلى **Platform**."
           }
         },
         "placement": "bottom"
@@ -205,7 +205,7 @@
             "es": "Cambia el ancho a **128**.",
             "pt": "Altere a largura para **128**.",
             "th": "เปลี่ยนความกว้างเป็น **128**",
-            "ar": "غير العرض إلى **128**."
+            "ar": "تغيير العرض إلى **128**."
           }
         },
         "placement": "bottom"
@@ -225,7 +225,7 @@
             "es": "Cambia la altura a **128**.",
             "pt": "Altere a altura para **128**.",
             "th": "เปลี่ยนความสูงเป็น **128**",
-            "ar": "غير الارتفاع إلى **128**."
+            "ar": "تغيير الارتفاع إلى **128**."
           }
         },
         "placement": "bottom"
@@ -245,7 +245,7 @@
             "es": "Cambia la profundidad a **128**.",
             "pt": "Altere a profundidade para **128**.",
             "th": "เปลี่ยนความลึกเป็น **128**",
-            "ar": "غير العمق إلى **128**."
+            "ar": "تغيير العمق إلى **128**."
           }
         },
         "placement": "bottom"
@@ -285,7 +285,7 @@
             "es": "**Marca** la casilla para repetir la imagen.",
             "pt": "**Marque** a caixa para repetir a imagem.",
             "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**حدد** الخانة لتكرار الصورة."
+            "ar": "**تحديد** الخانة لتكرار الصورة."
           }
         }
       },
@@ -324,7 +324,7 @@
             "es": "**Marca** la casilla para repetir la imagen.",
             "pt": "**Marque** a caixa para repetir a imagem.",
             "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**حدد** الخانة لتكرار الصورة."
+            "ar": "**تحديد** الخانة لتكرار الصورة."
           }
         }
       },
@@ -363,7 +363,7 @@
             "es": "**Marca** la casilla para repetir la imagen.",
             "pt": "**Marque** a caixa para repetir a imagem.",
             "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**حدد** الخانة لتكرار الصورة."
+            "ar": "**تحديد** الخانة لتكرار الصورة."
           }
         }
       },
@@ -402,7 +402,7 @@
             "es": "**Marca** la casilla para repetir la imagen.",
             "pt": "**Marque** a caixa para repetir a imagem.",
             "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**حدد** الخانة لتكرار الصورة."
+            "ar": "**تحديد** الخانة لتكرار الصورة."
           }
         }
       },
@@ -441,7 +441,7 @@
             "es": "**Marca** la casilla para repetir la imagen.",
             "pt": "**Marque** a caixa para repetir a imagem.",
             "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**حدد** الخانة لتكرار الصورة."
+            "ar": "**تحديد** الخانة لتكرار الصورة."
           }
         }
       },
@@ -481,7 +481,7 @@
             "es": "Añadamos un nuevo comportamiento",
             "pt": "Vamos adicionar um novo comportamento",
             "th": "มาเพิ่มพฤติกรรมใหม่",
-            "ar": "لنضيف سلوكًا جديدًا"
+            "ar": "هيّا نقوم بإضافة سلوك جديد."
           }
         }
       },
@@ -500,7 +500,7 @@
             "es": "Selecciona el comportamiento **Plataforma**.",
             "pt": "Selecione o comportamento **Plataforma**.",
             "th": "เลือกพฤติกรรม **แพลตฟอร์ม**",
-            "ar": "حدد سلوك **منصة**."
+            "ar": "تحديد السلوك **منصة**."
           }
         }
       },
@@ -541,7 +541,7 @@
             "es": "Finalmente, asegurémonos de que la plataforma esté exactamente debajo del personaje. Abre la **Hoja de eventos** de la escena $(gameScene).",
             "pt": "Finalmente, vamos garantir que a plataforma esteja exatamente abaixo do personagem. Abra a **Planilha de eventos** da cena $(gameScene).",
             "th": "ในที่สุด มาตรวจสอบให้แน่ใจว่าแพลตฟอร์มอยู่ใต้ตัวละครอย่างแน่นอน ให้เปิด **แผ่นงานเหตุการณ์** ของฉาก $(gameScene)",
-            "ar": "أخيرًا ، دعونا نتأكد من أن المنصة تقع تحت الشخصية بالضبط. افتح **ورقة الأحداث** من مشهد $(gameScene)."
+            "ar": "أخيرًا ، هيّا نتأكد من أن المنصة تقع تحت الشخصية بالضبط. فتح **صفحة أحداث** المشهد $(gameScene)."
           }
         },
         "placement": "bottom"
@@ -561,7 +561,7 @@
             "es": "Establezcamos la profundidad de la plataforma al comienzo de la escena. Haz clic en el botón **Añadir una acción**.",
             "pt": "Vamos definir a profundidade da plataforma no início da cena. Clique no botão **Adicionar uma ação**.",
             "th": "มาตั้งค่าความลึกของแพลตฟอร์มตอนเริ่มต้นของฉาก ให้คลิกที่ปุ่ม **เพิ่มการกระทำ**",
-            "ar": "دعونا نضبط عمق المنصة في بداية المشهد. انقر على زر **إضافة إجراء**."
+            "ar": "هيّا نضبط عمق المنصة في بداية المشهد. النقر على الزر **إضافة إجراء**."
           }
         }
       }
@@ -598,7 +598,7 @@
             "es": "Selecciona la acción **Z (elevación)**.",
             "pt": "Selecione a ação **Z (elevação)**.",
             "th": "เลือกการกระทำ **Z (ความสูง)**",
-            "ar": "حدد الإجراء **Z (الارتفاع)**."
+            "ar": "تحديد الإجراء **Z (الارتفاع)**."
           }
         }
       },
@@ -617,7 +617,7 @@
             "es": "Queremos actualizar la elevación, así que seleccionemos **= (establecer en)**.",
             "pt": "Queremos atualizar a elevação, então vamos selecionar **= (definir para)**.",
             "th": "เราต้องการอัปเดตความสูง ดังนั้นให้เลือก **= (ตั้งค่าเป็น)**",
-            "ar": "نريد تحديث الارتفاع ، لذلك دعونا نختار **= (تعيين إلى)**."
+            "ar": "نريد تحديث الارتفاع ، لذلك هيّا نختار **= (تعيين إلى)**."
           }
         },
         "placement": "bottom"
@@ -638,7 +638,7 @@
             "es": "Establezcamos la elevación en **-64**.",
             "pt": "Vamos definir a elevação para **-64**.",
             "th": "มาตั้งค่าความสูงเป็น **-64**",
-            "ar": "دعونا نضبط الارتفاع على **-64**."
+            "ar": "هيّا نضبط الارتفاع على **-64**."
           }
         },
         "placement": "bottom"
@@ -658,7 +658,7 @@
             "es": "¡Bien! Ahora guardemos esto.",
             "pt": "Legal! Agora vamos salvar isso.",
             "th": "ดีมาก! มาบันทึกกันเถอะ",
-            "ar": "جميل! الآن دعنا نحفظ هذا."
+            "ar": "جميل! الآن هيّا نحفظ هذا."
           }
         },
         "placement": "top"
@@ -695,7 +695,8 @@
             "fr": "Faites glisser $(platform) du menu au canvas.",
             "es": "Arrastra $(platform) desde el menú al lienzo.",
             "pt": "Arraste $(platform) do menu para o canvas.",
-            "th": "ลาก $(platform) จากเมนูไปยังแคนวาส"
+            "th": "ลาก $(platform) จากเมนูไปยังแคนวาส",
+            "ar": "سحب $(platform) من القائمة إلى المشهد."
           }
         },
         "placement": "left"
@@ -709,7 +710,8 @@
             "fr": "J'ai terminé",
             "es": "He terminado",
             "pt": "Eu terminei",
-            "th": "เสร็จแล้ว"
+            "th": "เสร็จแล้ว",
+            "ar": "انتهيت"
           }
         }
       },
@@ -722,7 +724,7 @@
             "es": "Coloquemos $(platform) debajo de nuestro personaje.",
             "pt": "Vamos colocar $(platform) abaixo do nosso personagem.",
             "th": "มาวาง $(platform) ใต้ตัวละครของเรา",
-            "ar": "لنضع $(platform) أسفل شخصيتنا."
+            "ar": "هيّا نقوم بإدراج $(platform) أسفل شخصيتنا."
           }
         },
         "touchDescription": {
@@ -753,7 +755,7 @@
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
             "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على زر **معاينة**."
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
           }
         },
         "placement": "bottom"

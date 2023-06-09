@@ -122,7 +122,7 @@
             "es": "Primero, creemos un texto para mostrar el tiempo que se ha pasado jugando al nivel. Haga clic en el botón **Agregar nuevo objeto**.",
             "pt": "Primeiro, vamos criar um texto para exibir o tempo gasto jogando o nível. Clique no botão **Adicionar novo objeto**.",
             "th": "เริ่มต้นกันด้วยการสร้างข้อความเพื่อแสดงเวลาที่ใช้ในการเล่นเกม คลิกที่ปุ่ม **เพิ่มวัตถุใหม่**",
-            "ar": "أولًا، دعنا نقوم بإنشاء بعض النصوص لعرض الوقت المنقضي في لعب هذه المرحلة. الضغط على الزر **إضافة كائن جديد**. "
+            "ar": "أولًا، هيّا نقوم بإنشاء بعض النصوص لعرض الوقت المنقضي في لعب هذه المرحلة. الضغط على الزر **إضافة كائن جديد**. "
           }
         },
         "placement": "top"
@@ -301,7 +301,7 @@
             "es": "Coloque $(scoreText) en la parte superior derecha de la pantalla, para que el jugador pueda ver su puntuación mientras juega.\n\nCuando hayas terminado, haz clic en el botón de abajo.",
             "pt": "Coloque $(scoreText) no canto superior direito da tela, para que o jogador possa ver sua pontuação enquanto joga.\n\nQuando terminar, clique no botão abaixo.",
             "th": "วาง $(scoreText) ที่ด้านบนขวาของหน้าจอ เพื่อให้ผู้เล่นสามารถเห็นคะแนนของตนเองขณะเล่นได้\n\nเมื่อคุณเสร็จแล้ว ให้คลิกที่ปุ่มด้านล่าง",
-            "ar": "إدراج الـ $(scoreText) في أعلى يمين الشاشة، حتى يتمكن اللاعبون من رؤية وقتهم الذي قضوه في اللعب. \n\nعندما تنتهي، الضغط على الزر أدناه."
+            "ar": "إدراج الـ $(scoreText) في أعلى يمين الشاشة، حتى يتمكن اللاعبون من رؤية وقتهم الذي قضوه في اللعب. \n\nعند الانتهاء، الضغط على الزر أدناه."
           }
         },
         "placement": "top",
@@ -323,7 +323,7 @@
             "es": "¡Ahora, **actualicemos este texto con un temporizador**! **Abramos la hoja de eventos** de su escena $(gameScene).",
             "pt": "Agora, **atualizemos este texto com um temporizador**! **Abra a Planilha de Eventos** de sua cena $(gameScene).",
             "th": "ตอนนี้ **อัปเดตข้อความนี้ด้วยตัวจับเวลา**! **เปิดแผ่นงานเหตุการณ์** ของฉากของคุณ $(gameScene)",
-            "ar": "الآن دعنا نقوم ب**تحديث هذا النص مع المؤقت**! دعنا نقوم ب**فتح صفحة الأحداث** لمشهدك $(gameScene)."
+            "ar": "الآن هيّا نقوم ب**تحديث هذا النص مع المؤقت**! هيّا نقوم ب**فتح صفحة الأحداث** لمشهدك $(gameScene)."
           }
         },
         "placement": "bottom"
@@ -343,7 +343,7 @@
             "es": "Agreguemos una **condición** para detectar cuando comienza el juego.",
             "pt": "Vamos **adicionar uma condição** para detectar quando o jogo começa.",
             "th": "เพิ่ม **เงื่อนไข** เพื่อตรวจสอบเมื่อเกมเริ่มต้น",
-            "ar": "دعنا نقوم ب**إضافة شرط** لكشف وقت بدء اللعبة."
+            "ar": "هيّا نقوم ب**إضافة شرط** لكشف وقت بدء اللعبة."
           }
         }
       }
@@ -513,7 +513,7 @@
             "es": "Ahora actualicemos la puntuación gracias al temporizador.",
             "pt": "Agora vamos atualizar a pontuação graças ao cronômetro.",
             "th": "ตอนนี้เราจะอัปเดตคะแนนของเราโดยใช้ตัวจับเวลา",
-            "ar": "الآن دعنا نقوم بتحديث النص بفضل المؤقت."
+            "ar": "الآن هيّا نقوم بتحديث النص بفضل المؤقت."
           }
         }
       }
@@ -550,7 +550,7 @@
             "es": "Cambiamos el texto.",
             "pt": "Vamos alterar o texto.",
             "th": "เราจะเปลี่ยนข้อความ",
-            "ar": "سوف نقوم بتغيير النص."
+            "ar": "سوف نقوم بتعديل النص."
           }
         }
       },
@@ -590,7 +590,7 @@
             "es": "Ahora, usemos el valor del temporizador.",
             "pt": "Agora, vamos usar o valor do cronômetro.",
             "th": "ตอนนี้เราจะใช้ค่าของตัวจับเวลา",
-            "ar": "والآن، دعنا نستخدم قيمة المؤقت."
+            "ar": "والآن، هيّا نستخدم قيمة المؤقت."
           }
         },
         "placement": "bottom"
@@ -690,7 +690,7 @@
             "es": "¡Bien, detalle final! Si lo dejamos así, el texto de la puntuación mostrará los decimales de nuestro temporizador y solo queremos los segundos.\n\n¡**Redondeemos** ese número!\n\nAgreguemos la función `round()` alrededor del valor para que podamos redondear el valor del temporizador. El resultado se verá así:\n\n`\"ToString(round( TimerElapsedTime(\"GameTimer\")))`",
             "pt": "Bem, detalhe final! Se deixarmos assim, o texto da pontuação exibirá os decimais do nosso cronômetro e só queremos os segundos!\n\nVamos **arredondar** esse número.\n\nVamos adicionar a função `round()` ao redor do valor para que possamos arredondar o valor do cronômetro. O resultado será assim:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
             "th": "ดี รายละเอียดสุดท้าย! ถ้าเราเหลืออย่างนี้ ข้อความคะแนนจะแสดงทศนิยมของตัวจับเวลาของเราและเราต้องการเฉพาะวินาที!\n\nเราจะ **ปัดเศษ** ตัวเลขนั้น\n\nเราจะเพิ่มการใช้ฟังก์ชัน `round()` รอบค่าเพื่อที่เราจะปัดเศษค่าของตัวจับเวลา ผลลัพธ์จะเป็นแบบนี้\n\n`ToString(round(TimerElapsedTime(\"GameTimer\")))`",
-            "ar": "حسنًا، نحن في التفاصيل النهائية! إذا تركناها هكذا، سيعرض النص أرقامًا عشرية ونحن نريد الثواني فقط!\n\nدعنا نقوم ب**تقريب** ذاك الرقم.\n\nدعنا نستخدم التعبير `round()` حول القيمة حتى يتم تقريب قيمة المؤقت. سوف تصبح هكذا:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`"
+            "ar": "حسنًا، نحن في التفاصيل النهائية! إذا تركناها هكذا، سيعرض النص أرقامًا عشرية ونحن نريد الثواني فقط!\n\nهيّا نقوم ب**تقريب** ذاك الرقم.\n\nلنستخدم التعبير `round()` حول القيمة حتى يتم تقريب قيمة المؤقت. سوف يصبح هكذا:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`"
           }
         },
         "placement": "top"
