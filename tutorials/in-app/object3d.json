@@ -255,7 +255,7 @@
     {
       "elementToHighlightId": "#cube3d-object-frontFaceResourceName",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "BlackCheckered.png"
       },
       "tooltip": {
         "description": {
@@ -294,7 +294,7 @@
     {
       "elementToHighlightId": "#cube3d-object-backFaceResourceName",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "WhiteCheckered.png"
       },
       "tooltip": {
         "description": {
@@ -333,7 +333,7 @@
     {
       "elementToHighlightId": "#cube3d-object-leftFaceResourceName",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "WhiteCheckered.png"
       },
       "tooltip": {
         "description": {
@@ -372,7 +372,7 @@
     {
       "elementToHighlightId": "#cube3d-object-rightFaceResourceName",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "WhiteCheckered.png"
       },
       "tooltip": {
         "description": {
@@ -411,7 +411,7 @@
     {
       "elementToHighlightId": "#cube3d-object-topFaceResourceName",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "WhiteCheckered.png"
       },
       "tooltip": {
         "description": {
@@ -450,7 +450,7 @@
     {
       "elementToHighlightId": "#cube3d-object-bottomFaceResourceName",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "WhiteCheckered.png"
       },
       "tooltip": {
         "description": {
@@ -646,7 +646,7 @@
     {
       "elementToHighlightId": "#parameter-1-operator-field",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "="
       },
       "tooltip": {
         "description": {

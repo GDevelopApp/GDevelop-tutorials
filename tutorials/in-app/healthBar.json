@@ -504,7 +504,7 @@
     {
       "elementToHighlightId": "#parameter-1-operator-field",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "="
       },
       "tooltip": {
         "description": {

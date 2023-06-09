@@ -1002,7 +1002,7 @@
     {
       "elementToHighlightId": "#physics2-parameter-body-type",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "Static"
       },
       "tooltip": {
         "description": {
@@ -1118,7 +1118,7 @@
     {
       "elementToHighlightId": "#physics2-parameter-shape",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "Circle"
       },
       "tooltip": {
         "description": {
@@ -1873,7 +1873,7 @@
     {
       "elementToHighlightId": "#instance-properties-editor [id=\"Z Order\"]",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "-1"
       },
       "tooltip": {
         "description": {
@@ -2105,7 +2105,7 @@
     {
       "elementToHighlightId": "#physics2-parameter-body-type",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "Static"
       },
       "tooltip": {
         "description": {
@@ -4107,7 +4107,7 @@
     {
       "elementToHighlightId": "#instruction-parameters-container select",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "Left"
       },
       "tooltip": {
         "description": {
@@ -4723,7 +4723,7 @@
     {
       "elementToHighlightId": "#instruction-parameters-container select",
       "nextStepTrigger": {
-        "valueHasChanged": true
+        "valueEquals": "="
       },
       "tooltip": {
         "description": {
