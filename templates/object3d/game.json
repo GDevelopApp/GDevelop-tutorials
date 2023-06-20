@@ -64,6 +64,24 @@
     "resources": [
       {
         "alwaysLoaded": false,
+        "file": "assets/BlackCheckered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BlackCheckered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WhiteCheckered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhiteCheckered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Character Orange_Stand_1.png",
         "kind": "image",
         "metadata": "",
@@ -438,28 +456,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BlackCheckered.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BlackCheckered.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/RedCheckered.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\RedCheckered.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/WhiteCheckered.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "WhiteCheckered.png",
         "smoothed": true,
         "userAdded": true
       }
