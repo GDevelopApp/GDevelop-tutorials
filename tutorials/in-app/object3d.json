@@ -292,45 +292,6 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#cube3d-object-backFaceResourceName",
-      "nextStepTrigger": {
-        "valueEquals": "WhiteCheckered.png"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's update the back face of the box with the image **WhiteCheckered.png**.",
-            "fr": "Mettez à jour la face arrière de la boîte avec l'image **WhiteCheckered.png**.",
-            "es": "Actualicemos la cara trasera de la caja con la imagen **WhiteCheckered.png**.",
-            "pt": "Vamos atualizar a face traseira da caixa com a imagem **WhiteCheckered.png**.",
-            "th": "มาอัปเดตหน้าด้านหลังของกล่องด้วยภาพ **WhiteCheckered.png**",
-            "ar": "لنقم بتحديث الوجه الخلفي للصندوق بالصورة **WhiteCheckered.png**."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-backFaceResourceRepeat",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "**Check** the box to repeat the image.",
-            "fr": "**Cochez** la case pour répéter l'image.",
-            "es": "**Marca** la casilla para repetir la imagen.",
-            "pt": "**Marque** a caixa para repetir a imagem.",
-            "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**حدد** الخانة لتكرار الصورة."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
       "elementToHighlightId": "#cube3d-object-leftFaceResourceName",
       "nextStepTrigger": {
         "valueEquals": "WhiteCheckered.png"
@@ -661,6 +622,7 @@
         },
         "placement": "bottom"
       },
+      "skippable": true,
       "isOnClosableDialog": true
     },
     {
