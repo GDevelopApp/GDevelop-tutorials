@@ -711,6 +711,7 @@
       "nextStepTrigger": {
         "valueEquals": "="
       },
+      "skippable": true,
       "tooltip": {
         "description": {
           "messageByLocale": {
@@ -826,6 +827,7 @@
       "nextStepTrigger": {
         "valueEquals": "="
       },
+      "skippable": true,
       "tooltip": {
         "description": {
           "messageByLocale": {
