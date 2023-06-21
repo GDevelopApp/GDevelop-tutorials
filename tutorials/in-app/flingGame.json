@@ -3569,7 +3569,8 @@
             "ar": "النقر هنا."
           }
         },
-        "placement": "right"
+        "placement": "right",
+        "mobilePlacement": "bottom"
       },
       "mapProjectData": {
         "startScene": "projectLastSceneName"
@@ -4757,6 +4758,7 @@
       "nextStepTrigger": {
         "valueEquals": "="
       },
+      "skippable": true,
       "tooltip": {
         "description": {
           "messageByLocale": {
