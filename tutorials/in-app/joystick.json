@@ -81,7 +81,7 @@
             "es": "¡Este juego es un juego de disparos en el espacio en vista superior! Haz clic en el botón **previsualizar** para jugar.\n¡Puedes mover la nave con las flechas del teclado, intenta evitar tocar las rocas!",
             "pt": "Este jogo é um jogo de tiro em espaço em vista superior! Clique no botão **pré-visualizar** para jogar.\nVocê pode mover a nave com as setas do teclado, tente evitar tocar nas rochas!",
             "th": "เกมนี้เป็นเกมยิงสเปซที่มีมุมมองด้านบน! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น\nคุณสามารถเคลื่อนย้ายยานอวกาศด้วยปุ่มลูกศร ลองหลีกเลี่ยงการชนกับหิน!",
-            "ar": "هذه لعبة إطلاق نار فضائية! الضغط على زر **معاينة** للعب.\nيمكنك تحريك سفينة الفضاء بواسطة مفاتيح الأسهم، حاول تجنب ملامسة الصخور!"
+            "ar": "هذه لعبة إطلاق نار فضائية! الضغط على الزر **معاينة** للعب.\nيمكنك تحريك سفينة الفضاء بواسطة مفاتيح الأسهم، حاول تجنب ملامسة الصخور!"
           }
         }
       }
@@ -99,7 +99,7 @@
             "es": "Primero, abramos el panel de **Capas**.",
             "pt": "Primeiro, vamos abrir o painel de **Camadas**.",
             "th": "เปิดแผงควบคุม **เลเยอร์**",
-            "ar": "أولًا، دعنا نفتح لوحة **الطبقات**."
+            "ar": "أولًا، هيّا نفتح لوحة **الطبقات**."
           }
         },
         "placement": "bottom"
@@ -157,7 +157,7 @@
             "es": "Seleccionemos esta **capa** para colocar nuestro joystick dentro de ella.",
             "pt": "Selecione esta **camada** para colocar nosso joystick dentro dela.",
             "th": "เลือก **เลเยอร์** นี้เพื่อวาง joystick ลงไปในนั้น",
-            "ar": "حدد هذه **الطبقة** لنتمكن من إدراج عصا التحكم الخاصة بنا داخلها."
+            "ar": "تحديد هذه **الطبقة** لنتمكن من إدراج عصا التحكم الخاصة بنا داخلها."
           }
         },
         "placement": "top"
@@ -197,7 +197,7 @@
             "es": "Este juego solo se puede jugar con un teclado, así que añadamos un **joystick** para poder jugar en **móvil**!\n\n¡Vamos al almacén de recursos para encontrar un joystick prefab!",
             "pt": "Este jogo só pode ser jogado com um teclado, então vamos adicionar **joysticks** para poder jogar no **móvel**!\n\nVamos à loja de recursos para encontrar um joystick prefab!",
             "th": "เกมนี้สามารถเล่นได้เฉพาะด้วยคีย์บอร์ด เราจึงจะเพิ่ม **joystick controllers** เพื่อให้เล่นได้บน **mobile**!\n\nเราจะไปหา joystick prefab ใน asset store",
-            "ar": "هذه اللعبة يمكن أن تُلعب بواسطة لوحة المفاتيح فقط، لذلك دعنا نقوم بإضافة **عصا التحكم**، حتى نتمكن من لعبها على **الأجهزة المحمولة**!\n\nهيّا نذهب إلى متجر العناصر للعثور على عصا تحكم جاهزة للاستخدام!"
+            "ar": "يمكن لعب هذه اللعبة بواسطة لوحة المفاتيح فقط، لذلك هيّا نقوم بإضافة **عصا التحكم**، حتى نتمكن من لعبها على **الأجهزة المحمولة**!\n\nهيّا نذهب إلى متجر العناصر للعثور على عصا تحكم جاهزة للاستخدام!"
           }
         }
       }
@@ -215,7 +215,7 @@
             "es": "Vamos a elegir un **objeto prefab** de la tienda de recursos.",
             "pt": "Vamos escolher um **objeto prefab** da loja de recursos.",
             "th": "เลือก **วัตถุ prefab** จากร้านค้า asset",
-            "ar": "دعنا نختار **كائن جاهز للاستخدام** من متجر العناصر"
+            "ar": "هيّا نختار **كائن جاهز للاستخدام** من متجر العناصر"
           }
         },
         "placement": "bottom"
@@ -296,7 +296,7 @@
             "es": "Elegimos este joystick blanco, se ajustará bien con nuestro fondo.",
             "pt": "Escolhamos este joystick branco, ele se ajustará bem com nosso fundo.",
             "th": "เลือก joystick สีขาว มันจะเหมาะกับพื้นหลัง",
-            "ar": "دعنا نختار هذه البيضاء، سوف تتناسب جيدًا مع خلفيتنا."
+            "ar": "هيّا نختار هذه البيضاء، سوف تتناسب جيدًا مع خلفيتنا."
           }
         }
       }
@@ -317,7 +317,7 @@
             "es": "Agreguemoslo a la escena.",
             "pt": "Adicionemos-o à cena.",
             "th": "เพิ่มวัตถุในฉาก",
-            "ar": "دعنا نقوم بإضافتها إلى المشهد."
+            "ar": "هيّا نقوم بإضافتها إلى المشهد."
           }
         },
         "placement": "top"
@@ -336,7 +336,7 @@
             "es": "Cerramos la tienda de recursos.",
             "pt": "Vamos fechar a loja de recursos.",
             "th": "ปิดร้านค้า asset",
-            "ar": "دعنا نغلق متجر العناصر."
+            "ar": "هيّا نغلق متجر العناصر."
           }
         },
         "placement": "top"
@@ -415,7 +415,7 @@
             "es": "Vinculemos nuestro $(joystick) y nuestro $(ship) gracias a los **comportamientos** que vinieron con el prefab:\n\nhaz clic en el menú de 3 puntos, o haz clic derecho en **$(ship)**, y selecciona **Editar comportamientos**.",
             "pt": "Vamos vincular nosso $(joystick) e nosso $(ship) graças aos **comportamentos** que vieram com o prefab:\n\nclique no menu de 3 pontos, ou clique com o botão direito em **$(ship)**, e selecione **Editar comportamentos**.",
             "th": "ให้เชื่อมโยง $(joystick) และ $(ship) ของเราด้วย **พฤติกรรม** ที่มาพร้อมกับ prefab:\n\nคลิกที่เมนู 3 จุด หรือคลิกขวาที่ **$(ship)** และเลือก **แก้ไขพฤติกรรม**",
-            "ar": "دعنا نربط  $(joystick) و$(ship) الخاصان بنا بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nالضغط على قائمة الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
+            "ar": "هيّا نربط  $(joystick) و$(ship) بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nالضغط على قائمة الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
           }
         },
         "touchDescription": {
@@ -425,7 +425,7 @@
             "es": "Vinculemos nuestro $(joystick) y nuestro $(ship) gracias a los **comportamientos** que vinieron con el prefab:\n\nSelecciona, luego presiona por un largo tiempo en **$(ship)**, luego selecciona **Editar comportamientos**.",
             "pt": "Vamos vincular nosso $(joystick) e nosso $(ship) graças aos **comportamentos** que vieram com o prefab:\n\nSelecione, depois pressione por um longo tempo em **$(ship)**, depois selecione **Editar comportamentos**.",
             "th": "ให้เชื่อมโยง $(joystick) และ $(ship) ของเราด้วย **พฤติกรรม** ที่มาพร้อมกับ prefab:\n\nเลือก แล้วกดค้างที่ **$(ship)** แล้วเลือก **แก้ไขพฤติกรรม**",
-            "ar": "دعنا نربط  $(joystick) و$(ship) الخاصان بنا بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nتحديد، ثم ضغطة مطولة على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
+            "ar": "هيّا نربط  $(joystick) و$(ship) بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nتحديد، ثم ضغطة مطولة على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
           }
         }
       }
@@ -464,7 +464,7 @@
             "es": "Agreguemos el comportamiento **Top down multi-touch controller mapper** que se instaló.",
             "pt": "Vamos adicionar o comportamento **Top down multi-touch controller mapper** que foi instalado.",
             "th": "เพิ่ม **Top down multi-touch controller mapper** พฤติกรรมที่ติดตั้งไว้",
-            "ar": "دعنا نقوم بإضافة السلوك **Top down multi-touch controller mapper** الذي تم تثبيته."
+            "ar": "هيّا نقوم بإضافة السلوك **Top down multi-touch controller mapper** الذي تم تثبيته."
           }
         }
       },
@@ -502,7 +502,7 @@
             "es": "Actualicemos el modo de la palanca, para que pueda ser controlada a **360°**.",
             "pt": "Vamos atualizar o modo do joystick, para que ele possa ser controlado a **360°**.",
             "th": "อัปเดตโหมดของ joystick ให้สามารถควบคุมได้ทั้ง **360°**",
-            "ar": "دعنا نقوم بتحديث وضع عصا التحكم حتى يمكن التحكم به في وضع **360°**"
+            "ar": "هيّا نقوم بتحديث وضع عصا التحكم حتى يمكن التحكم به في وضع **360°**"
           }
         }
       },
