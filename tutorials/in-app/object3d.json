@@ -569,7 +569,7 @@
     {
       "elementToHighlightId": "objectInObjectOrResourceSelector:platform",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-Scene3D--Cube3DObject--SetZ"
+        "presenceOfElement": "#instruction-item-Scene3D--Base3DBehavior--SetZ"
       },
       "tooltip": {
         "description": {
@@ -586,7 +586,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-Scene3D--Cube3DObject--SetZ",
+      "elementToHighlightId": "#instruction-item-Scene3D--Base3DBehavior--SetZ",
       "nextStepTrigger": {
         "presenceOfElement": "#parameter-1-operator-field"
       },
@@ -605,7 +605,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-1-operator-field",
+      "elementToHighlightId": "#parameter-2-operator-field",
       "nextStepTrigger": {
         "valueEquals": "="
       },
@@ -626,7 +626,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-2-expression-field",
+      "elementToHighlightId": "#parameter-3-expression-field",
       "nextStepTrigger": {
         "valueEquals": "-64"
       },
