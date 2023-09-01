@@ -588,7 +588,7 @@
     {
       "elementToHighlightId": "#instruction-item-Scene3D--Base3DBehavior--SetZ",
       "nextStepTrigger": {
-        "presenceOfElement": "#parameter-1-operator-field"
+        "presenceOfElement": "#parameter-2-operator-field"
       },
       "tooltip": {
         "description": {
