@@ -699,6 +699,16 @@
             "ar": "سحب $(platform) من القائمة إلى المشهد."
           }
         },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "**Select** then **drag** $(platform) into the **scene**.",
+            "fr": "**Sélectionnez** puis **faites glisser** $(platform) du menu au canvas.",
+            "es": "**Seleccione** y **arrastrar** $(platform) al **escenario**.",
+            "pt": "**Selecione** e **arraste** $(platform) para a **cena**.",
+            "th": "**เลือก** แล้ว **ลาก** $(platform) ไปยัง **ฉาก**",
+            "ar": "**تحديد** ثم **سحب** الـ $(platform) إلى **المشهد**."
+          }
+        },
         "placement": "left"
       }
     },
@@ -725,16 +735,6 @@
             "pt": "Vamos colocar $(platform) abaixo do nosso personagem.",
             "th": "มาวาง $(platform) ใต้ตัวละครของเรา",
             "ar": "هيّا نقوم بإدراج $(platform) أسفل شخصيتنا."
-          }
-        },
-        "touchDescription": {
-          "messageByLocale": {
-            "en": "**Select** then **drag** $(platform) into the **scene**.",
-            "fr": "**Sélectionnez** puis **faites glisser** $(platform) du menu au canvas.",
-            "es": "**Seleccione** y **arrastrar** $(platform) al **escenario**.",
-            "pt": "**Selecione** e **arraste** $(platform) para a **cena**.",
-            "th": "**เลือก** แล้ว **ลาก** $(platform) ไปยัง **ฉาก**",
-            "ar": "**تحديد** ثم **سحب** الـ $(platform) إلى **المشهد**."
           }
         },
         "image": {
