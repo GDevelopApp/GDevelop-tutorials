@@ -106,7 +106,7 @@ Here is the structure of a step (all fields are optional):
 - `isTriggerFlickering`(true): useful when a DOM mutation is not caught and the presence trigger is not fired.
 - `shortcuts`: list of steps that the flow can use as shortcuts.
   - `stepId`: id of the step to jump to
-  - `trigger`: DOM trigger (presence of absence of element)
+  - `trigger`: DOM trigger (presence of absence of element) or objectAddedInLayout trigger.
 - `skippable` (true): if the step can be skipped (useful when the user interaction can result in this step not being mandatory)
 - `isOnClosableDialog` (true): if the step is on a closable dialog, if the element to highlight is missing (meaning the dialog has been closed), the flow will go back to the previous step that is not on a closable dialog.
 - `mapProjectData` (object): allow to read data in the GDevelop project object and store it during the duration of the tutorial. This data can then be used in the tooltips. See [Available Project Data](#available-project-data)
@@ -119,6 +119,7 @@ At the moment, only one trigger can be specified to go the next step. Here is th
 - `absenceOfElement` (string): the CSS selector of an element absent from the DOM or a custom selector
 - `valueHasChanged` (true): the CSS selector of an input whose value has changed
 - `valueEquals` (string): the CSS selector of an input whose value is equal to the string (even for numbers, it has to be a string, ex: "2")
+- `objectAddedInLayout` (true): an object has been added to the scene (from scratch, duplication or the asset store)
 - `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene
   - `instancesCount` (number): the number of instances that should be present on the scene (to be used with `instanceAddedOnScene`)
 - `previewLaunched` (true): a preview has been launched
