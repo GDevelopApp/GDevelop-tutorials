@@ -3347,6 +3347,48 @@
       }
     },
     {
+      "elementToHighlightId": "#publish-tab",
+      "nextStepTrigger": {
+        "presenceOfElement": "#publish-gd-games"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's head to the publish section.",
+            "fr": "Allons dans la section publier.",
+            "es": "Vamos a la sección de publicación.",
+            "pt": "Vamos para a seção de publicação.",
+            "th": "ไปที่ส่วนการเผยแพร่",
+            "ar": "هيّا نتوجه إلى قسم النشر."
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true,
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#publish-gd-games",
+      "nextStepTrigger": {
+        "presenceOfElement": "#export-dialog #create-account-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "We will publish this game to gd.games, GDevelop's gaming platform.",
+            "fr": "Nous allons publier ce jeu sur gd.games, la plateforme de jeux de GDevelop.",
+            "es": "Publicaremos este juego en gd.games, la plataforma de juegos de GDevelop.",
+            "pt": "Vamos publicar este jogo no gd.games, a plataforma de jogos do GDevelop.",
+            "th": "เราจะเผยแพร่เกมนี้ไปยัง gd.games แพลตฟอร์มเกมของ GDevelop",
+            "ar": "سوف نقوم بنشر هذه اللعبة على gd.games، منصة ألعاب GDevelop."
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true,
+      "isOnClosableDialog": true
+    },
+    {
       "elementToHighlightId": "#export-dialog #create-account-button",
       "nextStepTrigger": {
         "presenceOfElement": "#create-account-dialog"
