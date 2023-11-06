@@ -521,7 +521,7 @@
     {
       "elementToHighlightId": "objectInObjectOrResourceSelector:scoreText",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-TextObject--String"
+        "presenceOfElement": "#instruction-item-TextContainerCapability--TextContainerBehavior--SetValue"
       },
       "tooltip": {
         "description": {
@@ -538,7 +538,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-TextObject--String",
+      "elementToHighlightId": "#instruction-item-TextContainerCapability--TextContainerBehavior--SetValue",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
@@ -678,7 +678,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-2-string-field",
+      "elementToHighlightId": "#parameter-3-string-field",
       "nextStepTrigger": {
         "valueEquals": "ToString(round(TimerElapsedTime(\"GameTimer\")))"
       },
