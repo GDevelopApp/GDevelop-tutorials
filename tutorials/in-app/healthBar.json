@@ -231,7 +231,7 @@
     {
       "elementToHighlightId": "#add-asset-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-8"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "resourceBar": "sceneLastObjectName:level"
