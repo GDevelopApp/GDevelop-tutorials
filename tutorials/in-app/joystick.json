@@ -6,7 +6,24 @@
       "scene": "gameScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar", "sq"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "ru",
+    "sl",
+    "sq",
+    "uk",
+    "zh"
+  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/joystick/game.json",
   "initialProjectData": {
     "gameScene": "GameScene",
@@ -17,45 +34,81 @@
       {
         "messageByLocale": {
           "en": "# You've finished this lesson!",
-          "sq": "# Ju keni perfunduar kete mesim!",
           "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد أنهيت هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
           "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai finito questa lezione!",
+          "ja": "# このレッスンは終了しました！",
+          "ko": "# 이 레슨을 완료했습니다!",
+          "pl": "# Ukończyłeś tę lekcję!",
           "pt": "# Você terminou esta lição!",
           "th": "# คุณเรียนบทเรียนนี้จบแล้ว!",
-          "ar": "# لقد أنهيت هذا الدرس!"
+          "ru": "# Вы завершили этот урок!",
+          "sl": "# Končali ste to lekcijo!",
+          "sq": "# Ju keni perfunduar kete mesim!",
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你完成了这节课！"
         }
       },
       {
         "messageByLocale": {
           "en": "Well done, in this tutorial you've learned how to:",
-          "sq": "Bravo, ne kete mesim ju keni mesuar si te:",
           "fr": "Bien joué, voici ce que vous avez appris :",
-          "es": "¡Bien hecho! En este tutorial, has aprendido:",
-          "pt": "Bom trabalho, neste tutorial você aprendeu:",
-          "th": "ทำได้ดีเยี่ยม, สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:",
-          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:"
+          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:",
+          "de": "Gut gemacht, in diesem Tutorial hast du geler:",
+          "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+          "it": "Ben fatto, in questo tutorial hai imparato come:",
+          "ja": "このチュートリアルでは、次のことを学びました：",
+          "ko": "이 튜토리얼에서 다음을 배웠습니다.",
+          "pl": "Dobrze, w tym samouczku nauczyłeś się, jak:",
+          "pt": "Bom trabalho, neste tutorial você aprendeu como:",
+          "ru": "Хорошо, в этом уроке вы узнали, как:",
+          "sl": "Bravo, v tem vadnem programu ste se naučili, kako:",
+          "sq": "Bravo, ne kete mesim ju keni mesuar si te:",
+          "th": "ทำได้ดีเยี่ยม, ในบทเรียนนี้คุณได้เรียนรู้วิธี:",
+          "uk": "Добре, в цьому уроці ви дізналися, як:",
+          "zh": "做得好，在本教程中，您学会了如何："
         }
       },
       {
         "messageByLocale": {
-          "en": "- Create a layer\n\n- Add and use a prefab object\n\n- Use a behavior",
-          "sq": "- Krijo nje layer\n\n- Shto dhe perdor nje objekt prefab\n\n- Perdor nje veprim",
-          "fr": "- Comment créer un calque\n\n- Comment ajouter et utiliser un objet préfabriqué\n\n- Comment utiliser un comportement",
-          "es": "- Cómo crear una capa\n\n- Cómo agregar y usar un objeto prefab\n\n- Cómo usar un comportamiento",
-          "pt": "- Como criar uma camada\n\n- Como adicionar e usar um objeto prefab\n\n- Como usar um comportamento",
-          "th": "- วิธีสร้างเลเยอร์\n\n- วิธีเพิ่มและวิธีใช้วัตถุ prefab\n\n- วิธีใช้งานพฤติกรรม",
-          "ar": "- إنشاء طبقة\n\n- إضافة واستخدام عناصر كائنات جاهزة للاستخدام\n\n- استخدام سلوك"
+          "en": "- Add and use a prefab object\n\n- Use a behavior",
+          "fr": "- Comment ajouter et utiliser un objet préfabriqué\n\n- Comment utiliser un comportement",
+          "ar": "- إضافة واستخدام عناصر كائنات جاهزة للاستخدام\n\n- استخدام سلوك",
+          "de": "- Ein Prefab-Objekt hinzufügen und verwenden\n\n- Ein Verhalten verwenden",
+          "es": "- Cómo agregar y usar un objeto prefab\n\n- Cómo usar un comportamiento",
+          "it": "- Aggiungere e utilizzare un oggetto prefab\n\n- Utilizzare un comportamento",
+          "ja": "- プレハブオブジェクトを追加して使用する\n\n- ビヘイビアを使用する",
+          "ko": "- 프리팹 오브젝트를 추가하고 사용하는 방법\n\n- 행동 사용하기",
+          "pl": "- Dodawanie i używanie obiektu prefab\n\n- Używanie zachowania",
+          "pt": "- Como adicionar e usar um objeto prefab\n\n- Como usar um comportamento",
+          "ru": "- Добавить и использовать объект prefab\n\n- Использовать поведение",
+          "sl": "- Dodajanje in uporaba predloge objekta\n\n- Uporaba vedenja",
+          "sq": "- Shto dhe perdor nje objekt prefab\n\n- Perdor nje veprim",
+          "th": "- วิธีเพิ่มและวิธีใช้วัตถุ prefab\n\n- วิธีใช้งานพฤติกรรม",
+          "uk": "- Додавання та використання об'єкта prefab\n\n- Використання поведінки",
+          "zh": "- 添加和使用预制对象\n\n- 使用行为"
         }
       },
       {
         "messageByLocale": {
           "en": "You can keep adding stuff to this game or publish it!",
-          "sq": "Ju mund te vazhdoni te shtoni gjera te kete loje, ose publikoje!",
           "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !",
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+          "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
           "es": "¡Puedes seguir agregando cosas a este juego o publicarlo!",
+          "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+          "ja": "このゲームにさらに要素を追加するか、公開することができます！",
+          "ko": "이 게임에 더 많은 것을 추가하거나 게시할 수 있습니다!",
+          "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
           "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "ru": "Вы можете продолжать добавлять вещи в эту игру или опубликовать ее!",
+          "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+          "sq": "Ju mund te vazhdoni te shtoni gjera te kete loje, ose publikoje!",
           "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่เลยก็ได้!",
-          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
+          "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+          "zh": "您可以继续为这个游戏添加东西，或者发布它！"
         }
       }
     ]
@@ -68,12 +121,21 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "Let's go!",
-            "sq": "Hajde shkojme!",
             "fr": "C'est parti !",
+            "ar": "لنبدأ!",
+            "de": "Los geht's!",
             "es": "¡Vamos!",
+            "it": "Andiamo!",
+            "ja": "さあ、始めましょう！",
+            "ko": "출발!",
+            "pl": "Zaczynamy!",
             "pt": "Vamos lá!",
+            "ru": "Поехали!",
+            "sl": "Gremo!",
+            "sq": "Hajde shkojme!",
             "th": "ไปกันเลย!",
-            "ar": "لنبدأ!"
+            "uk": "Почнемо!",
+            "zh": "让我们开始吧！"
           }
         }
       },
@@ -82,95 +144,23 @@
         "description": {
           "messageByLocale": {
             "en": "This game is a Top-down space shooter! Click on the **preview** button to play.\nYou can move the ship with the arrow keys, try to avoid touching the rocks!",
-            "sq": "Kjo loje eshte nje Top-down (larte poshte) gjuajes ! Shtype buttoni qe shkruan  **preview**  per te luajtur.\n Ju mund te levizni anijen me taste shigjetat, provo mos t`i prekesh guret!",
             "fr": "Ce jeu est un jeu de tir dans l'espace en vue du dessus ! Clique sur le bouton **prévisualiser** pour jouer.\nTu peux déplacer le vaisseau avec les flèches du clavier, essaie d'éviter de toucher les rochers !",
+            "ar": "هذه لعبة إطلاق نار فضائية! الضغط على الزر **معاينة** للعب.\nيمكنك تحريك سفينة الفضاء بواسطة مفاتيح الأسهم، حاول تجنب ملامسة الصخور!",
+            "de": "Dieses Spiel ist ein Top-Down-Weltraum-Shooter! Klicken Sie auf die **Vorschau**-Schaltfläche, um zu spielen.\nSie können das Schiff mit den Pfeiltasten bewegen, versuchen Sie, die Felsen zu vermeiden!",
             "es": "¡Este juego es un juego de disparos en el espacio en vista superior! Haz clic en el botón **previsualizar** para jugar.\n¡Puedes mover la nave con las flechas del teclado, intenta evitar tocar las rocas!",
-            "pt": "Este jogo é um jogo de tiro em espaço em vista superior! Clique no botão **pré-visualizar** para jogar.\nVocê pode mover a nave com as setas do teclado, tente evitar tocar nas rochas!",
+            "it": "Questo gioco è uno sparatutto spaziale dall'alto verso il basso! Clicca sul pulsante **anteprima** per giocare.\nPuoi muovere la nave con i tasti freccia, cerca di evitare di toccare le rocce!",
+            "ja": "このゲームは、上から見た宇宙シューティングゲームです！ **プレビュー** ボタンをクリックしてプレイしてください。\n矢印キーで宇宙船を動かすことができます。岩に触れないようにしてください！",
+            "ko": "이 게임은 탑다운 우주 슈팅 게임입니다! **미리보기** 버튼을 클릭하여 플레이하세요.\n화살표 키로 우주선을 움직일 수 있습니다. 돌에 닿지 않도록 하세요!",
+            "pl": "Ta gra to strzelanka kosmiczna z widokiem z góry! Kliknij przycisk **podgląd**, aby zagrać.\nMożesz poruszać statkiem za pomocą klawiszy strzałek, spróbuj unikać dotykania skał!",
+            "pt": "Este jogo é um jogo de tiro espacial de cima para baixo! Clique no botão **pré-visualizar** para jogar.\nVocê pode mover a nave com as setas do teclado, tente evitar tocar nas rochas!",
+            "ru": "Эта игра - космический шутер сверху вниз! Нажмите на кнопку **предпросмотр**, чтобы играть.\nВы можете перемещать корабль с помощью стрелок, попробуйте избегать касания камней!",
+            "sl": "Ta igra je vesoljski strelec zgoraj navzdol! Klikni na gumb **predogled** za igranje.\nLahko premikaš ladjo s puščičnimi tipkami, poskusi se izogniti dotikanju kamnov!",
+            "sq": "Kjo loje eshte nje Top-down (larte poshte) gjuajes ! Shtype buttoni qe shkruan  **preview**  per te luajtur.\n Ju mund te levizni anijen me taste shigjetat, provo mos t`i prekesh guret!",
             "th": "เกมนี้เป็นเกมยิงสเปซที่มีมุมมองด้านบน! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น\nคุณสามารถเคลื่อนย้ายยานอวกาศด้วยปุ่มลูกศร ลองหลีกเลี่ยงการชนกับหิน!",
-            "ar": "هذه لعبة إطلاق نار فضائية! الضغط على الزر **معاينة** للعب.\nيمكنك تحريك سفينة الفضاء بواسطة مفاتيح الأسهم، حاول تجنب ملامسة الصخور!"
+            "uk": "Ця гра - космічний шутер зверху вниз! Натисніть на кнопку **попередній перегляд**, щоб грати.\nВи можете переміщати корабель за допомогою стрілок, спробуйте уникати дотику до каменів!",
+            "zh": "这个游戏是一个自上而下的太空射击游戏！点击 **预览** 按钮进行游戏。\n你可以用方向键移动飞船，试着避免碰到岩石！"
           }
         }
-      }
-    },
-    {
-      "elementToHighlightId": "#toolbar-open-layers-panel-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#add-layer-button"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "First, let's open the **Layers** panel.",
-            "sq": "Se fillimi, e hapim **Layers** panel.",
-            "fr": "Premièrement, ouvrons le panneau des **calques**.",
-            "es": "Primero, abramos el panel de **Capas**.",
-            "pt": "Primeiro, vamos abrir o painel de **Camadas**.",
-            "th": "เปิดแผงควบคุม **เลเยอร์**",
-            "ar": "أولًا، هيّا نفتح لوحة **الطبقات**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "skippable": true
-    },
-    {
-      "elementToHighlightId": "#add-layer-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#layer-1"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We will first create a layer for the User Interface (UI) elements.",
-            "sq": "Se pari do the krijojme nje layer per elementet se nderfaqen te perdoruesit",
-            "fr": "Nous allons d'abord créer un calque qui contiendra l'interface utilisateur (IU).",
-            "es": "Vamos a crear una capa que contendrá los elementos de la interfaz de usuario (IU).",
-            "pt": "Vamos criar uma camada que conterá os elementos da interface do usuário (IU).",
-            "th": "เราจะสร้างเลเยอร์ที่จะประกอบไปด้วย User Interface (UI) ต่างๆ",
-            "ar": "سنبدأ أولًا بإنشاء طبقة لعناصر واجهة المستخدم."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#layer-1 #layer-name",
-      "nextStepTrigger": {
-        "valueEquals": "Interface"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Change the name to **Interface**.",
-            "sq": "Ndroje emrin ne **Nderfaqe**",
-            "fr": "Changeons son nom en **Interface**.",
-            "es": "Cambiamos su nombre a **Interface**.",
-            "pt": "Mudamos o nome para **Interface**.",
-            "th": "เปลี่ยนชื่อเป็น **Interface**",
-            "ar": "تغيير الاسم إلى **Interface**."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#layer-1 #layer-selected-unchecked",
-      "nextStepTrigger": {
-        "presenceOfElement": "#layer-1 #layer-selected-checked"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select this **layer** so we can place our joystick inside of it.",
-            "sq": "Selekto kete **layer** qe te vendojme joystikun mbrenda saj.",
-            "fr": "Sélectionnons ce **calque** pour y placer notre joystick.",
-            "es": "Seleccionemos esta **capa** para colocar nuestro joystick dentro de ella.",
-            "pt": "Selecione esta **camada** para colocar nosso joystick dentro dela.",
-            "th": "เลือก **เลเยอร์** นี้เพื่อวาง joystick ลงไปในนั้น",
-            "ar": "تحديد هذه **الطبقة** لنتمكن من إدراج عصا التحكم الخاصة بنا داخلها."
-          }
-        },
-        "placement": "top"
       }
     },
     {
@@ -182,12 +172,21 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
-            "sq": "Hape panelin **Objekte**",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "ja": "**オブジェクト** パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **obiektów**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **объектов**.",
+            "sl": "Odpri ploščo **objektov**.",
+            "sq": "Hape panelin **Objekte**",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **об'єктів**.",
+            "zh": "打开 **对象** 面板。"
           }
         },
         "placement": "bottom"
@@ -204,12 +203,21 @@
         "description": {
           "messageByLocale": {
             "en": "This game can only be played with a keyboard, so let's add **joystick controllers**, so that we can play on **mobile**!\n\nLet's go to the asset store to find a joystick prefab!",
-            "sq": "Kjo loje mund the luhet vetem me nje tastjer, le te shtojme nje**kontroller joystiki**, qe te mund te luajme ne **mobil**!\n\n Hajde shkojme ne dyqan per asseta qe te gjejme nje joystik prefab!",
             "fr": "Ce jeu ne peut être joué qu'avec un clavier, alors ajoutons un **joystick** pour pouvoir y jouer sur **mobile** !\n\nAllons dans le magasin de ressources pour trouver un joystick préfabriqué !",
+            "ar": "يمكن لعب هذه اللعبة بواسطة لوحة المفاتيح فقط، لذلك هيّا نقوم بإضافة **عصا التحكم**، حتى نتمكن من لعبها على **الأجهزة المحمولة**!\n\nهيّا نذهب إلى متجر العناصر للعثور على عصا تحكم جاهزة للاستخدام!",
+            "de": "Dieses Spiel kann nur mit einer Tastatur gespielt werden, also fügen wir **Joystick-Controller** hinzu, damit wir es auf **Mobilgeräten** spielen können!\n\nLass uns zum Asset-Store gehen, um ein Joystick-Prefab zu finden!",
             "es": "Este juego solo se puede jugar con un teclado, así que añadamos un **joystick** para poder jugar en **móvil**!\n\n¡Vamos al almacén de recursos para encontrar un joystick prefab!",
+            "it": "Questo gioco può essere giocato solo con una tastiera, quindi aggiungiamo un **joystick** per poterlo giocare su **mobile**!\n\nAndiamo al negozio di risorse per trovare un joystick prefab!",
+            "ja": "このゲームはキーボードでしかプレイできません。**ジョイスティックコントローラ**を追加して、**モバイル**でプレイできるようにしましょう！\n\nジョイスティックのプレハブを見つけるためにアセットストアに行きましょう！",
+            "ko": "이 게임은 키보드로만 플레이할 수 있습니다. **조이스틱 컨트롤러**를 추가하여 **모바일**에서 플레이할 수 있도록 합시다!\n\n조이스틱 프리팹을 찾기 위해 에셋 스토어로 가봅시다!",
+            "pl": "Ta gra może być grana tylko za pomocą klawiatury, więc dodajmy **kontrolery joysticka**, abyśmy mogli grać na **urządzeniach mobilnych**!\n\nChodźmy do sklepu z zasobami, aby znaleźć prefabrykat joysticka!",
             "pt": "Este jogo só pode ser jogado com um teclado, então vamos adicionar **joysticks** para poder jogar no **móvel**!\n\nVamos à loja de recursos para encontrar um joystick prefab!",
+            "ru": "Эту игру можно играть только с клавиатуры, поэтому давайте добавим **джойстик-контроллеры**, чтобы мы могли играть на **мобильных устройствах**!\n\nПойдем в магазин ресурсов, чтобы найти джойстик-префаб!",
+            "sl": "To igro lahko igrate samo s tipkovnico, zato dodajmo **joystick kontrolerje**, da jo lahko igramo na **mobilnih napravah**!\n\nPojdimo v trgovino z viri, da najdemo joystick prefab!",
+            "sq": "Kjo loje mund the luhet vetem me nje tastjer, le te shtojme nje**kontroller joystiki**, qe te mund te luajme ne **mobil**!\n\n Hajde shkojme ne dyqan per asseta qe te gjejme nje joystik prefab!",
             "th": "เกมนี้สามารถเล่นได้เฉพาะด้วยคีย์บอร์ด เราจึงจะเพิ่ม **joystick controllers** เพื่อให้เล่นได้บน **mobile**!\n\nเราจะไปหา joystick prefab ใน asset store",
-            "ar": "يمكن لعب هذه اللعبة بواسطة لوحة المفاتيح فقط، لذلك هيّا نقوم بإضافة **عصا التحكم**، حتى نتمكن من لعبها على **الأجهزة المحمولة**!\n\nهيّا نذهب إلى متجر العناصر للعثور على عصا تحكم جاهزة للاستخدام!"
+            "uk": "Цю гру можна грати тільки з клавіатури, тому давайте додамо **джойстик-контролери**, щоб ми могли грати на **мобільних пристроях**!\n\nПідемо в магазин ресурсів, щоб знайти джойстик-префаб!",
+            "zh": "这个游戏只能用键盘玩，所以让我们添加 **手柄控制器**，这样我们就可以在 **移动设备** 上玩！\n\n让我们去资源商店找一个手柄预制对象！"
           }
         }
       }
@@ -223,12 +231,21 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose a **prefab object** from the asset store",
-            "sq": "Hajde te zgjedhim nje **prefab objekt** prej asset storit",
             "fr": "Nous allons choisir un **objet préfabriqué** dans le magasin de ressources.",
+            "ar": "هيّا نختار **كائن جاهز للاستخدام** من متجر العناصر",
+            "de": "Wählen wir ein **Prefab-Objekt** aus dem Asset-Store aus",
             "es": "Vamos a elegir un **objeto prefab** de la tienda de recursos.",
+            "it": "Scegliamo un **oggetto prefab** dal negozio di risorse",
+            "ja": "アセットストアから **プレハブオブジェクト** を選びましょう",
+            "ko": "에셋 스토어에서 **프리팹 오브젝트**를 선택해 봅시다",
+            "pl": "Wybierzmy **obiekt prefab** ze sklepu z zasobami",
             "pt": "Vamos escolher um **objeto prefab** da loja de recursos.",
+            "ru": "Давайте выберем **объект prefab** из магазина ресурсов",
+            "sl": "Izberimo **predlogo objekta** iz trgovine z viri",
+            "sq": "Hajde te zgjedhim nje **prefab objekt** prej asset storit",
             "th": "เลือก **วัตถุ prefab** จากร้านค้า asset",
-            "ar": "هيّا نختار **كائن جاهز للاستخدام** من متجر العناصر"
+            "uk": "Давайте виберемо **об'єкт prefab** з магазину ресурсів",
+            "zh": "让我们从资源商店中选择一个 **预制对象**"
           }
         },
         "placement": "bottom"
@@ -245,12 +262,21 @@
         "description": {
           "messageByLocale": {
             "en": "Let's go back to the store home page.",
-            "sq": "Hajde shkojme prap te homi e faqes.",
             "fr": "Retournons à la page d'accueil du magasin.",
+            "ar": "هيّا نعود إلى صفحة المتجر الرئيسية.",
+            "de": "Gehen wir zurück zur Startseite des Stores.",
             "es": "Volvamos a la página de inicio de la tienda.",
+            "it": "Torniamo alla pagina iniziale del negozio.",
+            "ja": "ストアのホームページに戻りましょう。",
+            "ko": "스토어 홈페이지로 돌아가 봅시다.",
+            "pl": "Wróćmy do strony głównej sklepu.",
             "pt": "Vamos voltar para a página inicial da loja.",
+            "ru": "Вернемся на домашнюю страницу магазина.",
+            "sl": "Pojdimo nazaj na domačo stran trgovine.",
+            "sq": "Hajde shkojme prap te homi e faqes.",
             "th": "กลับไปยังหน้าโฮมเพจของร้านค้า",
-            "ar": "هيّا نعود إلى صفحة المتجر الرئيسية."
+            "uk": "Повернемося на домашню сторінку магазину.",
+            "zh": "让我们回到商店首页。"
           }
         },
         "placement": "bottom"
@@ -268,12 +294,21 @@
         "description": {
           "messageByLocale": {
             "en": "We will use an object that comes with pre-made actions and conditions. We call this a **Ready to use object**.",
-            "sq": "Do te perdorim nje objekt e cila vjen me aktion dhe konditione te bere gati.  Ne e thirrim kete nje **Gati per perdorim objekt**.",
             "fr": "Nous allons utiliser un objet préfabriqué. C'est un objet qui vient avec ses propres actions et conditions, ce qui simplifie son utilisation.",
+            "ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميه **كائن جاهز للاستخدام**.",
+            "de": "Wir werden ein Objekt verwenden, das mit vorgefertigten Aktionen und Bedingungen geliefert wird. Wir nennen dies ein **Fertiges Objekt**.",
             "es": "Vamos a usar un objeto prefab. Es un objeto que viene con sus propias acciones y condiciones, lo que simplifica su uso.",
+            "it": "Useremo un oggetto prefab. È un oggetto che viene con le sue azioni e condizioni predefinite, semplificandone l'uso.",
+            "ja": "事前に作成されたアクションと条件が付属しているオブジェクトを使用します。これを **使用可能なオブジェクト** と呼びます。",
+            "ko": "미리 만들어진 액션과 조건이 포함된 오브젝트를 사용할 것입니다. 이것을 **사용 가능한 오브젝트**라고 부릅니다.",
+            "pl": "Będziemy używać obiektu, który jest dostarczany z gotowymi akcjami i warunkami. Nazywamy to **Gotowy do użycia obiekt**.",
             "pt": "Vamos usar um objeto prefab. É um objeto que vem com suas próprias ações e condições, o que simplifica seu uso.",
+            "ru": "Мы будем использовать объект, который поставляется с готовыми действиями и условиями. Мы называем это **Готовый к использованию объект**.",
+            "sl": "Uporabili bomo objekt, ki prihaja z že pripravljenimi dejanji in pogoji. Imenujemo ga **Pripravljen za uporabo objekt**.",
+            "sq": "Do te perdorim nje objekt e cila vjen me aktion dhe konditione te bere gati.  Ne e thirrim kete nje **Gati per perdorim objekt**.",
             "th": "เราจะใช้วัตถุ prefab มันเป็นวัตถุที่มีการกระทำและเงื่อนไขแบบพิเศษ",
-            "ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميه **كائن جاهز للاستخدام**."
+            "uk": "Ми будемо використовувати об'єкт, який постачається з готовими діями та умовами. Ми називаємо це **Готовий до використання об'єкт**.",
+            "zh": "我们将使用一个带有预先制作的动作和条件的对象。我们称之为 **准备好使用的对象**。"
           }
         }
       },
@@ -288,12 +323,21 @@
         "description": {
           "messageByLocale": {
             "en": "We will use a joystick.",
-            "sq": "Do te perdorim nje joystik.",
             "fr": "Nous allons utiliser un joystick.",
+            "ar": "سوف نستخدم عصا تحكم.",
+            "de": "Wir werden einen Joystick verwenden.",
             "es": "Vamos a usar un joystick.",
+            "it": "Useremo un joystick.",
+            "ja": "ジョイスティックを使用します。",
+            "ko": "조이스틱을 사용할 것입니다.",
+            "pl": "Będziemy używać joysticka.",
             "pt": "Vamos usar um joystick.",
+            "ru": "Мы будем использовать джойстик.",
+            "sl": "Uporabili bomo joystick.",
+            "sq": "Do te perdorim nje joystik.",
             "th": "เราจะใช้ joystick",
-            "ar": "سوف نستخدم عصا تحكم."
+            "uk": "Ми будемо використовувати джойстик.",
+            "zh": "我们将使用一个手柄。"
           }
         }
       },
@@ -308,12 +352,21 @@
         "description": {
           "messageByLocale": {
             "en": "Let's choose this white joystick, it will match well with our background.",
-            "sq": "Hajde te zgjedhim kete joystik te bardhe, ajo do te ngjaje me backgroundin tone.",
             "fr": "Choisissons ce joystick blanc, il s'accordera bien avec notre fond.",
+            "ar": "هيّا نختار هذه البيضاء، سوف تتناسب جيدًا مع خلفيتنا.",
+            "de": "Wählen wir diesen weißen Joystick, er passt gut zu unserem Hintergrund.",
             "es": "Elegimos este joystick blanco, se ajustará bien con nuestro fondo.",
+            "it": "Scegliamo questo joystick bianco, si abbina bene con il nostro sfondo.",
+            "ja": "この白いジョイスティックを選びましょう。背景によく合います。",
+            "ko": "이 흰색 조이스틱을 선택해 봅시다. 배경과 잘 어울릴 것입니다.",
+            "pl": "Wybierzmy ten biały joystick, będzie pasował do naszego tła.",
             "pt": "Escolhamos este joystick branco, ele se ajustará bem com nosso fundo.",
+            "ru": "Давайте выберем этот белый джойстик, он хорошо подойдет к нашему фону.",
+            "sl": "Izberimo ta bel joystick, dobro se bo ujemal z našim ozadjem.",
+            "sq": "Hajde te zgjedhim kete joystik te bardhe, ajo do te ngjaje me backgroundin tone.",
             "th": "เลือก joystick สีขาว มันจะเหมาะกับพื้นหลัง",
-            "ar": "هيّا نختار هذه البيضاء، سوف تتناسب جيدًا مع خلفيتنا."
+            "uk": "Оберемо цей білий джойстик, він підійде до нашого фону.",
+            "zh": "让我们选择这个白色手柄，它会很好地搭配我们的背景。"
           }
         }
       }
@@ -330,12 +383,20 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add it to the scene.",
-            "sq": "Hajde te shtojme ate te skena.",
             "fr": "Ajoutons le à la scène.",
+            "ar": "هيّا نقوم بإضافتها إلى المشهد.",
             "es": "Agreguemoslo a la escena.",
+            "it": "Aggiungiamolo alla scena.",
+            "ja": "シーンに追加しましょう。",
+            "ko": "씬에 추가해 봅시다.",
+            "pl": "Dodajmy to do sceny.",
             "pt": "Adicionemos-o à cena.",
+            "ru": "Добавим его в сцену.",
+            "sl": "Dodajmo ga v sceno.",
+            "sq": "Hajde te shtojme ate te skena.",
             "th": "เพิ่มวัตถุในฉาก",
-            "ar": "هيّا نقوم بإضافتها إلى المشهد."
+            "uk": "Додаймо його до сцени.",
+            "zh": "让我们把它添加到场景中。"
           }
         },
         "placement": "top"
@@ -350,12 +411,21 @@
         "description": {
           "messageByLocale": {
             "en": "Let's close the asset store.",
-            "sq": "Hajde ta mbyllim asset storin.",
             "fr": "Fermons le magasin de ressources",
+            "ar": "هيّا نغلق متجر العناصر.",
+            "de": "Schließen wir den Asset-Store.",
             "es": "Cerramos la tienda de recursos.",
+            "it": "Chiudiamo il negozio di risorse.",
+            "ja": "アセットストアを閉じましょう。",
+            "ko": "에셋 스토어를 닫아 봅시다.",
+            "pl": "Zamknijmy sklep z zasobami.",
             "pt": "Vamos fechar a loja de recursos.",
+            "ru": "Давайте закроем магазин ресурсов.",
+            "sl": "Zaprimo trgovino z viri.",
+            "sq": "Hajde ta mbyllim asset storin.",
             "th": "ปิดร้านค้า asset",
-            "ar": "هيّا نغلق متجر العناصر."
+            "uk": "Давайте закриємо магазин ресурсів.",
+            "zh": "让我们关闭资源商店。"
           }
         },
         "placement": "top"
@@ -370,23 +440,41 @@
         "description": {
           "messageByLocale": {
             "en": "Drag the **$(joystick)** to the scene.",
-            "sq": "Vendose ate **$(joystick)** te skena",
             "fr": "Faites glisser **$(joystick)** du menu à la scène.",
+            "ar": "سحب الـ **$(joystick)** إلى المشهد.",
+            "de": "Ziehen Sie **$(joystick)** in die Szene.",
             "es": "Arrastra **$(joystick)** desde el menú a la escena.",
+            "it": "Trascina **$(joystick)** nella scena.",
+            "ja": " **$(joystick)** をシーンにドラッグしてください。",
+            "ko": " **$(joystick)**를 씬으로 드래그하세요.",
+            "pl": "Przeciągnij **$(joystick)** do sceny.",
             "pt": "Arraste **$(joystick)** do menu para a cena.",
+            "ru": "Перетащите **$(joystick)** на сцену.",
+            "sl": "Povlecite **$(joystick)** v sceno.",
+            "sq": "Vendose ate **$(joystick)** te skena",
             "th": "ลาก **$(joystick)** ใส่ลงใน scene",
-            "ar": "سحب الـ **$(joystick)** إلى المشهد."
+            "uk": "Перетягніть **$(joystick)** на сцену.",
+            "zh": "将 **$(joystick)** 拖到场景中。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "Select the **$(joystick)**, then drag it to the scene.",
-            "sq": "Selektoje ate **$(joystick)**, pastaj vendose ne skene.",
             "fr": "Sélectionnez **$(joystick)**, puis faites-le glisser à la scène.",
+            "ar": "تحديد الـ  **$(joystick)** ثم سحبه إلى المشهد.",
+            "de": "Wählen Sie **$(joystick)** aus und ziehen Sie es dann in die Szene.",
             "es": "Selecciona **$(joystick)**, luego arrástralo a la escena.",
+            "it": "Seleziona **$(joystick)**, quindi trascinalo nella scena.",
+            "ja": "**$(joystick)** を選択し、シーンにドラッグしてください。",
+            "ko": "**$(joystick)**를 선택한 다음 씬으로 드래그하세요.",
+            "pl": "Wybierz **$(joystick)**, a następnie przeciągnij go do sceny.",
             "pt": "Selecione **$(joystick)**, em seguida, arraste-o para a cena.",
+            "ru": "Выберите **$(joystick)**, затем перетащите его на сцену.",
+            "sl": "Izberite **$(joystick)**, nato ga povlecite v sceno.",
+            "sq": "Selektoje ate **$(joystick)**, pastaj vendose ne skene.",
             "th": "เลือก **$(joystick)** แล้วลากมันเข้า scene",
-            "ar": "تحديد الـ  **$(joystick)** ثم سحبه إلى المشهد."
+            "uk": "Виберіть **$(joystick)**, а потім перетягніть його на сцену.",
+            "zh": "选择 **$(joystick)**，然后将它拖到场景中。"
           }
         }
       }
@@ -396,12 +484,21 @@
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "I'm done",
-            "sq": "Une mbarova",
             "fr": "J'ai terminé",
+            "ar": "انتهيت",
+            "de": "Ich bin fertig",
             "es": "He terminado",
+            "it": "Ho finito",
+            "ja": "完了",
+            "ko": "완료",
+            "pl": "Zakończono",
             "pt": "Terminei",
+            "ru": "Я закончил",
+            "sl": "Končano",
+            "sq": "Une mbarova",
             "th": "เสร็จแล้ว",
-            "ar": "انتهيت"
+            "uk": "Закінчено",
+            "zh": "我完成了"
           }
         }
       },
@@ -410,12 +507,21 @@
         "description": {
           "messageByLocale": {
             "en": "Place the $(joystick) below the ship on the screen, so that the player can use their thumb to control it easily.",
-            "sq": "Vendose ate $(joystick) nder anijen ne ekran, qe te mund lojtari te perdore gishtin e madh per te kontrolluar ate lehte.",
             "fr": "Placez le $(joystick) en dessous du vaisseau à l'écran, de façon à ce que le joueur puisse utiliser son pouce pour le contrôler facilement.",
+            "ar": "إدراج الـ  **$(joystick)** أسفل السفينة الفضائية حتى يتمكن اللاعبون من استخدام إبهامهم للتحكم بها بسهولة.",
+            "de": "Platzieren Sie den **$(joystick)** unter dem Schiff auf dem Bildschirm, damit der Spieler es leicht mit dem Daumen steuern kann.",
             "es": "Coloca el $(joystick) debajo de la nave en la pantalla, de manera que el jugador pueda usar su pulgar para controlarlo fácilmente.",
+            "it": "Posiziona il **$(joystick)** sotto la nave sullo schermo, in modo che il giocatore possa usarlo facilmente con il pollice.",
+            "ja": "画面上の宇宙船の下に **$(joystick)** を配置し、プレイヤーが親指で簡単に操作できるようにします。",
+            "ko": "화면에서 우주선 아래에 **$(joystick)**를 배치하여 플레이어가 쉽게 엄지로 제어할 수 있도록 합니다.",
+            "pl": "Umieść **$(joystick)** poniżej statku na ekranie, aby gracz mógł łatwo nim sterować kciukiem.",
             "pt": "Coloque o $(joystick) abaixo da nave na tela, de forma que o jogador possa usar o polegar para controlá-lo facilmente.",
+            "ru": "Разместите **$(joystick)** под кораблем на экране, чтобы игрок мог легко управлять им большим пальцем.",
+            "sl": "Postavite **$(joystick)** pod ladjo na zaslonu, tako da ga lahko igralec enostavno upravlja s palcem.",
+            "sq": "Vendose ate $(joystick) nder anijen ne ekran, qe te mund lojtari te perdore gishtin e madh per te kontrolluar ate lehte.",
             "th": "วาง $(joystick) ใต้เรือในฉาก ให้ผู้เล่นสามารถใช้นิ้วกลางเพื่อควบคุมได้ง่าย\n\nเมื่อคุณเสร็จแล้ว ให้คลิกที่ปุ่มด้านล่าง",
-            "ar": "إدراج الـ  **$(joystick)** أسفل السفينة الفضائية حتى يتمكن اللاعبون من استخدام إبهامهم للتحكم بها بسهولة."
+            "uk": "Розмістіть **$(joystick)** під кораблем на екрані, щоб гравець міг легко керувати ним великим пальцем.",
+            "zh": "将 $(joystick) 放在屏幕上的飞船下方，这样玩家就可以用拇指轻松控制它。"
           }
         },
         "placement": "top",
@@ -434,23 +540,41 @@
         "description": {
           "messageByLocale": {
             "en": "Let's link our $(joystick) and our $(ship) thanks to the **behaviors** that came with the prefab:\n\nclick on the 3 dot menu, or right click on **$(ship)**, and select **Edit behaviors**.",
-            "sq": "Ec te linkojme $(joystick)  dhe $(ship) tone fale te **veprimet** qe erdhen me prefabin:\n\nshtype ne 3 pikat menu, ose shtype me anen te djatht ne **$(ship)** dhe selekto **Ndrysho veprimet**",
             "fr": "Lions notre $(joystick) et notre $(ship) grâce aux **comportements** qui sont venus avec le prefab:\n\ncliquez sur le menu à 3 points, ou faites un clic droit sur **$(ship)**, et sélectionnez **Modifier les comportements**.",
+            "ar": "هيّا نربط  $(joystick) و$(ship) بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nالضغط على قائمة الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **$(ship)** وتحديد **تحرير السلوكيات**.",
+            "de": "Verknüpfen wir unser **$(joystick)** und unser **$(ship)** dank der **Verhaltensweisen**, die mit dem Prefab geliefert wurden:\n\nKlicken Sie auf das Menü mit den 3 Punkten oder klicken Sie mit der rechten Maustaste auf **$(ship)** und wählen Sie **Verhaltensweisen bearbeiten**.",
             "es": "Vinculemos nuestro $(joystick) y nuestro $(ship) gracias a los **comportamientos** que vinieron con el prefab:\n\nhaz clic en el menú de 3 puntos, o haz clic derecho en **$(ship)**, y selecciona **Editar comportamientos**.",
+            "it": "Colleghiamo il nostro **$(joystick)** e il nostro **$(ship)** grazie ai **comportamenti** che sono venuti con il prefab:\n\nclicca sul menu a 3 punti, o fai clic destro su **$(ship)**, e seleziona **Modifica comportamenti**.",
+            "ja": "プレハブに付属している **$(joystick)** と **$(ship)** の **動作** のおかげでリンクしましょう。\n\n3点メニューをクリックするか、**$(ship)** を右クリックして **動作の編集** を選択します。",
+            "ko": "프리팹에 포함된 **동작** 덕분에 $(joystick)와 $(ship)를 연결해 봅시다:\n\n3 점 메뉴를 클릭하거나 **$(ship)**를 마우스 오른쪽 버튼으로 클릭한 다음 **동작 편집**을 선택하세요.",
+            "pl": "Połączmy nasz **$(joystick)** i nasz **$(ship)** dzięki **akcjom**, które zostały dostarczone z prefabrykatem:\n\nkliknij menu 3 kropek lub kliknij prawym przyciskiem myszy **$(ship)**, a następnie wybierz **Edytuj zachowania**.",
             "pt": "Vamos vincular nosso $(joystick) e nosso $(ship) graças aos **comportamentos** que vieram com o prefab:\n\nclique no menu de 3 pontos, ou clique com o botão direito em **$(ship)**, e selecione **Editar comportamentos**.",
+            "ru": "Свяжем наш **$(joystick)** и наш **$(ship)** благодаря **поведениям**, которые поставляются с префабом:\n\nнажмите на меню из 3 точек или щелкните правой кнопкой мыши на **$(ship)** и выберите **Изменить поведение**.",
+            "sl": "Povežimo naš **$(joystick)** in naš **$(ship)** zahvaljujoč **vedenjem**, ki so prišla s predlogo:\n\nkliknite na meni z 3 pikami ali z desno miškino tipko kliknite **$(ship)** in izberite **Uredi vedenja**.",
+            "sq": "Ec te linkojme $(joystick)  dhe $(ship) tone fale te **veprimet** qe erdhen me prefabin:\n\nshtype ne 3 pikat menu, ose shtype me anen te djatht ne **$(ship)** dhe selekto **Ndrysho veprimet**",
             "th": "ให้เชื่อมโยง $(joystick) และ $(ship) ของเราด้วย **พฤติกรรม** ที่มาพร้อมกับ prefab:\n\nคลิกที่เมนู 3 จุด หรือคลิกขวาที่ **$(ship)** และเลือก **แก้ไขพฤติกรรม**",
-            "ar": "هيّا نربط  $(joystick) و$(ship) بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nالضغط على قائمة الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
+            "uk": "Зв'яжемо наш **$(joystick)** і наш **$(ship)** завдяки **поведінці**, яка поставляється з префабом:\n\nнатисніть на меню з 3 крапками або клацніть правою кнопкою миші на **$(ship)** і виберіть **Змінити поведінку**.",
+            "zh": "让我们通过预制的 **动作** 来连接我们的 $(joystick) 和 $(ship)：\n\n点击 3 点菜单，或右键点击 **$(ship)**，然后选择 **编辑动作**。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "Let's link our $(joystick) and our $(ship) thanks to the **behaviors** that came with the prefab:\n\nSelect, then long press on **$(ship)**, then select **Edit behaviors**.",
-            "sq": "Hajde te linkojme $(joystick) dhe $(ship) tone fale te **veprimve** qe erdhen me prefabin:\n\nSelekto, pastaj mbaje gjate gishtin ne **$(ship)**, pastaj selekto **Ndrysho veprimet**",
             "fr": "Lions notre $(joystick) et notre $(ship) grâce aux **comportements** qui sont venus avec le prefab:\n\nSélectionnez, puis appuyez longuement sur **$(ship)**, puis sélectionnez **Modifier les comportements**.",
+            "ar": "هيّا نربط  $(joystick) و$(ship) بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nتحديد، ثم ضغطة مطولة على الـ **$(ship)** وتحديد **تحرير السلوكيات**.",
+            "de": "Verknüpfen wir unser **$(joystick)** und unser **$(ship)** dank der **Verhaltensweisen**, die mit dem Prefab geliefert wurden:\n\nWählen Sie aus, dann lange drücken Sie auf **$(ship)**, dann wählen Sie **Verhaltensweisen bearbeiten**.",
             "es": "Vinculemos nuestro $(joystick) y nuestro $(ship) gracias a los **comportamientos** que vinieron con el prefab:\n\nSelecciona, luego presiona por un largo tiempo en **$(ship)**, luego selecciona **Editar comportamientos**.",
+            "it": "Colleghiamo il nostro **$(joystick)** e il nostro **$(ship)** grazie ai **comportamenti** che sono venuti con il prefab:\n\nSeleziona, poi tieni premuto a lungo su **$(ship)**, poi seleziona **Modifica comportamenti**.",
+            "ja": "プレハブに付属している **$(joystick)** と **$(ship)** の **動作** のおかげでリンクしましょう。\n\n選択し、**$(ship)** を長押しして、**動作の編集** を選択します。",
+            "ko": "프리팹에 포함된 **동작** 덕분에 $(joystick)와 $(ship)를 연결해 봅시다:\n\n선택한 다음 **$(ship)**를 길게 누른 다음 **동작 편집**을 선택하세요.",
+            "pl": "Połączmy nasz **$(joystick)** i nasz **$(ship)** dzięki **akcjom**, które zostały dostarczone z prefabrykatem:\n\nWybierz, a następnie przytrzymaj długo **$(ship)**, a następnie wybierz **Edytuj zachowania**.",
             "pt": "Vamos vincular nosso $(joystick) e nosso $(ship) graças aos **comportamentos** que vieram com o prefab:\n\nSelecione, depois pressione por um longo tempo em **$(ship)**, depois selecione **Editar comportamentos**.",
+            "ru": "Свяжем наш **$(joystick)** и наш **$(ship)** благодаря **поведениям**, которые поставляются с префабом:\n\nВыберите, затем долго нажмите на **$(ship)**, затем выберите **Изменить поведение**.",
+            "sl": "Povežimo naš **$(joystick)** in naš **$(ship)** zahvaljujoč **vedenjem**, ki so prišla s predlogo:\n\nIzberite, nato dolgo pritisnite na **$(ship)**, nato izberite **Uredi vedenja**.",
+            "sq": "Hajde te linkojme $(joystick) dhe $(ship) tone fale te **veprimve** qe erdhen me prefabin:\n\nSelekto, pastaj mbaje gjate gishtin ne **$(ship)**, pastaj selekto **Ndrysho veprimet**",
             "th": "ให้เชื่อมโยง $(joystick) และ $(ship) ของเราด้วย **พฤติกรรม** ที่มาพร้อมกับ prefab:\n\nเลือก แล้วกดค้างที่ **$(ship)** แล้วเลือก **แก้ไขพฤติกรรม**",
-            "ar": "هيّا نربط  $(joystick) و$(ship) بواسطة **السلوكيات** التي أتت مع الكائن المجهز مسبقًا: \n\nتحديد، ثم ضغطة مطولة على الـ **$(ship)** وتحديد **تحرير السلوكيات**."
+            "uk": "Зв'яжемо наш **$(joystick)** і наш **$(ship)** завдяки **поведінці**, яка поставляється з префабом:\n\nВиберіть, а потім тримайте довго на **$(ship)**, а потім виберіть **Змінити поведінку**.",
+            "zh": "让我们通过预制的 **动作** 来连接我们的 $(joystick) 和 $(ship)：\n\n选择，然后长按 **$(ship)**，然后选择 **编辑动作**。"
           }
         }
       }
@@ -464,12 +588,21 @@
         "description": {
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
-            "sq": "Shikoje **veprimet** te **objektit** ketu.",
             "fr": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "ar": "رؤية **سلوكيات الكائن** من هنا.",
+            "de": "Sehen Sie sich die **Verhaltensweisen** des **Objekts** hier an.",
             "es": "Los **comportamientos** del **objeto** se encuentran en esta pestaña.",
-            "pt": "Os **comportamentos** do **objeto** estão nesta guia.",
+            "it": "Vedi i **comportamenti** dell'**oggetto** qui.",
+            "ja": "ここに **オブジェクト** の **動作** を見る。",
+            "ko": "여기서 **객체**의 **동작**을 확인하세요.",
+            "pl": "Zobacz **akcje** **obiektu** tutaj.",
+            "pt": "Veja os **comportamentos** do **objeto** aqui.",
+            "ru": "Смотрите **поведение** **объекта** здесь.",
+            "sl": "Oglejte si **vedenja** **predmeta** tukaj.",
+            "sq": "Shikoje **veprimet** te **objektit** ketu.",
             "th": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่",
-            "ar": "رؤية **سلوكيات الكائن** من هنا."
+            "uk": "Дивіться **поведінку** **об'єкта** тут.",
+            "zh": "在这里查看 **对象** 的 **动作**。"
           }
         },
         "placement": "bottom"
@@ -486,12 +619,21 @@
         "description": {
           "messageByLocale": {
             "en": "Let's add the **Top down multi-touch controller mapper** behavior that was installed.",
-            "sq": "Hajde te shtojme **Top down multi-touch controller mapper** verpim qe ishte installuar",
             "fr": "Ajoutons le comportement **Top down multi-touch controller mapper** qui a été installé.",
+            "ar": "هيّا نقوم بإضافة السلوك **Top down multi-touch controller mapper** الذي تم تثبيته.",
+            "de": "Fügen wir das **Top down multi-touch controller mapper**-Verhalten hinzu, das installiert wurde.",
             "es": "Agreguemos el comportamiento **Top down multi-touch controller mapper** que se instaló.",
+            "it": "Aggiungiamo il comportamento **Top down multi-touch controller mapper** che è stato installato.",
+            "ja": "インストールされた **Top down multi-touch controller mapper** の動作を追加しましょう。",
+            "ko": "설치된 **Top down multi-touch controller mapper** 동작을 추가해 봅시다.",
+            "pl": "Dodajmy zachowanie **Top down multi-touch controller mapper**, które zostało zainstalowane.",
             "pt": "Vamos adicionar o comportamento **Top down multi-touch controller mapper** que foi instalado.",
+            "ru": "Добавим **поведение Top down multi-touch controller mapper**, которое было установлено.",
+            "sl": "Dodajmo **vedenje Top down multi-touch controller mapper**, ki je bilo nameščeno.",
+            "sq": "Hajde te shtojme **Top down multi-touch controller mapper** verpim qe ishte installuar",
             "th": "เพิ่ม **Top down multi-touch controller mapper** พฤติกรรมที่ติดตั้งไว้",
-            "ar": "هيّا نقوم بإضافة السلوك **Top down multi-touch controller mapper** الذي تم تثبيته."
+            "uk": "Додайте **поведінку Top down multi-touch controller mapper**, яка була встановлена.",
+            "zh": "添加已安装的 **Top down multi-touch controller mapper** 动作。"
           }
         }
       },
@@ -506,12 +648,21 @@
         "description": {
           "messageByLocale": {
             "en": "Select the **Top down multi-touch controller mapper** behavior.",
-            "sq": "Selekto **Top down multi-touch controller mapper** veprim.",
             "fr": "Sélectionnez le comportement **Top down multi-touch controller mapper**.",
+            "ar": "تحديد السلوك **Top down multi-touch controller mapper**.",
+            "de": "Wählen Sie das **Top down multi-touch controller mapper**-Verhalten aus.",
             "es": "Selecciona el comportamiento **Top down multi-touch controller mapper**.",
+            "it": "Seleziona il comportamento **Top down multi-touch controller mapper**.",
+            "ja": "**Top down multi-touch controller mapper** の動作を選択します。",
+            "ko": "**Top down multi-touch controller mapper** 동작을 선택하세요.",
+            "pl": "Wybierz zachowanie **Top down multi-touch controller mapper**.",
             "pt": "Selecione o comportamento **Top down multi-touch controller mapper**.",
+            "ru": "Выберите поведение **Top down multi-touch controller mapper**.",
+            "sl": "Izberite **vedenje Top down multi-touch controller mapper**.",
+            "sq": "Selekto **Top down multi-touch controller mapper** veprim.",
             "th": "เลือกพฤติกรรม **Top down multi-touch controller mapper**",
-            "ar": "تحديد السلوك **Top down multi-touch controller mapper**."
+            "uk": "Виберіть **поведінку Top down multi-touch controller mapper**.",
+            "zh": "选择 **Top down multi-touch controller mapper** 动作。"
           }
         }
       },
@@ -526,12 +677,21 @@
         "description": {
           "messageByLocale": {
             "en": "Let's update the stick mode, so that it can be controlled at **360°**.",
-            "sq": "Hajde te ndryshojme stik modin, qe te kontrollohet ne **360°** ",
             "fr": "Changeons le mode de la manette, pour qu'elle puisse être contrôlée à **360°**.",
+            "ar": "هيّا نقوم بتحديث وضع عصا التحكم حتى يمكن التحكم به في وضع **360°**",
+            "de": "Aktualisieren wir den Stick-Modus, damit er bei **360°** gesteuert werden kann.",
             "es": "Actualicemos el modo de la palanca, para que pueda ser controlada a **360°**.",
+            "it": "Aggiorniamo la modalità del joystick, in modo che possa essere controllata a **360°**.",
+            "ja": "スティックモードを更新して、**360°** で制御できるようにしましょう。",
+            "ko": "스틱 모드를 업데이트하여 **360°**에서 제어할 수 있도록 합시다.",
+            "pl": "Zaktualizujmy tryb joysticka, aby można go było sterować na **360°**.",
             "pt": "Vamos atualizar o modo do joystick, para que ele possa ser controlado a **360°**.",
+            "ru": "Обновим режим джойстика, чтобы его можно было управлять на **360°**.",
+            "sl": "Posodobimo način palice, tako da jo lahko upravljamo pri **360°**.",
+            "sq": "Hajde te ndryshojme stik modin, qe te kontrollohet ne **360°** ",
             "th": "อัปเดตโหมดของ joystick ให้สามารถควบคุมได้ทั้ง **360°**",
-            "ar": "هيّا نقوم بتحديث وضع عصا التحكم حتى يمكن التحكم به في وضع **360°**"
+            "uk": "Оновимо режим джойстика, щоб його можна було керувати на **360°**.",
+            "zh": "更新摇杆模式，使其可以在 **360°** 下控制。"
           }
         }
       },
@@ -546,12 +706,21 @@
         "description": {
           "messageByLocale": {
             "en": "That's it! Now the joystick will control the ship!",
-            "sq": "C' ajo! Tash joystiku do te kontrolloje anijen!",
             "fr": "C'est tout ! Maintenant, la manette contrôlera le vaisseau !",
+            "ar": "هذا كل شيء! الآن ستتحكم عصا التحكم بالسفينة الفضائية!",
+            "de": "Das ist es! Jetzt wird der Joystick das Schiff steuern!",
             "es": "¡Eso es todo! ¡Ahora el joystick controlará el barco!",
+            "it": "Ecco fatto! Ora il joystick controllerà la nave!",
+            "ja": "完了です！これでジョイスティックが宇宙船を制御します！",
+            "ko": "이것이죠! 이제 조이스틱이 우주선을 제어할 겁니다!",
+            "pl": "To wszystko! Teraz joystick będzie sterował statkiem!",
             "pt": "É isso aí! Agora o joystick controlará o navio!",
+            "ru": "Вот и всё! Теперь джойстик будет управлять кораблем!",
+            "sl": "To je to! Zdaj bo joystick nadzoroval ladjo!",
+            "sq": "C' ajo! Tash joystiku do te kontrolloje anijen!",
             "th": "นั่นเอง! ตอนนี้ joystick จะควบคุมเรือ!",
-            "ar": "هذا كل شيء! الآن ستتحكم عصا التحكم بالسفينة الفضائية!"
+            "uk": "Ось і все! Тепер джойстик буде керувати кораблем!",
+            "zh": "就是这样！现在摇杆将控制飞船！"
           }
         }
       }
@@ -565,12 +734,21 @@
         "description": {
           "messageByLocale": {
             "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
-            "sq": "Ne regull, jemi gati! Hajde te testojme lojen tone te shohim ndryshimet qe kemi be! Shtype buttonin **Preview** ",
             "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**.",
+            "de": "Gut, wir sind fertig! Lassen Sie uns unser Spiel testen, um die Änderungen zu sehen, die wir vorgenommen haben! Klicken Sie auf die Schaltfläche **Vorschau**.",
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
+            "it": "Bene, abbiamo finito! Proviamo il nostro gioco per vedere le modifiche che abbiamo apportato! Clicca sul pulsante **Anteprima**.",
+            "ja": "よし、完了です！変更点を確認するためにゲームをテストしましょう！ **プレビュー** ボタンをクリックします。",
+            "ko": "좋아요, 끝났어요! 우리가 한 변경 사항을 확인하기 위해 게임을 테스트해 봅시다! **미리보기** 버튼을 클릭하세요.",
+            "pl": "Dobrze, skończyliśmy! Przetestujmy naszą grę, aby zobaczyć zmiany, jakie wprowadziliśmy! Kliknij przycisk **Podgląd**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "ru": "Хорошо, мы закончили! Давайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли! Нажмите на кнопку **Предварительный просмотр**.",
+            "sl": "V redu, končali smo! Preizkusimo našo igro, da vidimo spremembe, ki smo jih naredili! Kliknite na gumb **Predogled**.",
+            "sq": "Ne regull, jemi gati! Hajde te testojme lojen tone te shohim ndryshimet qe kemi be! Shtype buttonin **Preview** ",
             "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
+            "uk": "Добре, ми закінчили! Давайте протестуємо нашу гру, щоб побачити зміни, які ми зробили! Натисніть на кнопку **Попередній перегляд**.",
+            "zh": "好的，我们完成了！让我们测试一下我们的游戏，看看我们所做的更改！点击 **预览** 按钮。"
           }
         },
         "placement": "bottom"

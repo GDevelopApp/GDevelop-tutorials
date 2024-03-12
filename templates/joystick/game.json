@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "portrait",
     "packageName": "com.example.JoystickLesson",
@@ -163,6 +165,9 @@
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -330,9 +335,9 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "911c6f50a4c05507c6fc1df967493f61a7ce9bad9e144cec92f6ff32be42749a",
           "name": "BigBrownMeteor1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -365,20 +370,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
-                            "y": 10
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 87,
-                            "y": 10
+                            "x": 101,
+                            "y": 0
                           },
                           {
-                            "x": 87,
-                            "y": 72
+                            "x": 101,
+                            "y": 83
                           },
                           {
-                            "x": 12,
-                            "y": 72
+                            "x": 0,
+                            "y": 83
                           }
                         ]
                       ]
@@ -390,9 +395,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "ca0633aaa11c9973eff808d10322e7c3142144c53b0c4747cd55b303acdc81f6",
           "name": "BigGreyMeteor1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -425,20 +430,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
-                            "y": 5
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 87,
-                            "y": 5
+                            "x": 101,
+                            "y": 0
                           },
                           {
-                            "x": 87,
-                            "y": 74
+                            "x": 101,
+                            "y": 83
                           },
                           {
-                            "x": 12,
-                            "y": 74
+                            "x": 0,
+                            "y": 83
                           }
                         ]
                       ]
@@ -450,9 +455,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "829045c7d03f177ede71c000a4fc81b0ddbdc73a91144b7fa32ad0b557e4b020",
           "name": "MediumBrownMeteor1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -485,20 +490,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 5
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 38,
-                            "y": 5
+                            "x": 43,
+                            "y": 1
                           },
                           {
-                            "x": 38,
-                            "y": 36
+                            "x": 43,
+                            "y": 43
                           },
                           {
-                            "x": 4,
-                            "y": 36
+                            "x": 0,
+                            "y": 43
                           }
                         ]
                       ]
@@ -510,9 +515,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "2dfe5abcf8449b36588904833bd4d48556da3e9cb3770285e4f8aa6ad3bd3b96",
           "name": "OrangePlayerShip3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -586,9 +591,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Walls",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -630,7 +635,6 @@
           "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
           "height": 128,
           "name": "BlackSpace",
-          "tags": "",
           "texture": "tiled_black space.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -642,7 +646,6 @@
           "assetStoreId": "c20fe4657b50f46f901b666ddae13412211ef388c101136bacecd5bee34520b4",
           "height": 128,
           "name": "StarryBackgroundStars2",
-          "tags": "",
           "texture": "tiled_Starry Background Stars 2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -659,6 +662,7 @@
           "emitterForceMax": 250,
           "emitterForceMin": 175,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 300,
           "name": "Trail",
           "particleAlpha1": 255,
@@ -686,7 +690,6 @@
           "rendererParam1": 10,
           "rendererParam2": 1,
           "rendererType": "Point",
-          "tags": "",
           "tank": -1,
           "textureParticleName": "",
           "type": "ParticleSystem::ParticleEmitter",
@@ -696,6 +699,35 @@
           "behaviors": []
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "BigBrownMeteor1"
+          },
+          {
+            "objectName": "BigGreyMeteor1"
+          },
+          {
+            "objectName": "MediumBrownMeteor1"
+          },
+          {
+            "objectName": "OrangePlayerShip3"
+          },
+          {
+            "objectName": "Walls"
+          },
+          {
+            "objectName": "BlackSpace"
+          },
+          {
+            "objectName": "StarryBackgroundStars2"
+          },
+          {
+            "objectName": "Trail"
+          }
+        ]
+      },
       "events": [
         {
           "colorB": 116,
@@ -1116,9 +1148,15 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 22239848,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -1136,6 +1174,30 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
