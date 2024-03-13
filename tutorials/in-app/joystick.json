@@ -164,6 +164,65 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-layers-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-layer-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "First, let's open the **Layers** panel.",
+            "fr": "Premièrement, ouvrons le panneau des **calques**.",
+            "ar": "أولًا، هيّا نفتح لوحة **الطبقات**.",
+            "de": "Zuerst öffnen wir das **Ebenen**-Panel.",
+            "es": "Primero, abramos el panel de **Capas**.",
+            "it": "Prima di tutto, apriamo il pannello **Livelli**.",
+            "ja": "まず、**レイヤー** パネルを開きましょう。",
+            "ko": "먼저 **레이어** 패널을 엽니다.",
+            "pl": "Najpierw otwórzmy panel **Warstwy**.",
+            "pt": "Primeiro, vamos abrir o painel de **Camadas**.",
+            "ru": "Сначала давайте откроем панель **Слои**.",
+            "sl": "Najprej odprite ploščo **Plasti**.",
+            "sq": "Se fillimi, e hapim **Layers** panel.",
+            "th": "เปิดแผงควบคุม **เลเยอร์**",
+            "uk": "Спочатку давайте відкриємо панель **Шари**.",
+            "zh": "首先，让我们打开 **图层** 面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
+      "elementToHighlightId": "#layer-1 #layer-selected-unchecked",
+      "nextStepTrigger": {
+        "presenceOfElement": "#layer-1 #layer-selected-checked"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the **Interface** layer so we can place our joystick inside of it.",
+            "fr": "Sélectionnons le calque **Interface** pour y placer notre joystick.",
+            "ar": "حدد الطبقة **الواجهة** حتى نتمكن من وضع عصا التحكم بداخلها.",
+            "de": "Wählen Sie die **Interface**-Ebene aus, damit wir unseren Joystick darin platzieren können.",
+            "es": "Selecciona la capa **Interface** para que podamos colocar nuestro joystick dentro de ella.",
+            "it": "Seleziona il livello **Interface** in modo da poter posizionare il nostro joystick al suo interno.",
+            "ja": "**インターフェース** レイヤーを選択して、その中にジョイスティックを配置しましょう。",
+            "ko": "**인터페이스** 레이어를 선택하여 그 안에 조이스틱을 배치할 수 있도록 합시다.",
+            "pl": "Wybierz warstwę **Interface** tak, abyśmy mogli umieścić w niej naszego joysticka.",
+            "pt": "Selecione a camada **Interface** para que possamos colocar nosso joystick dentro dela.",
+            "ru": "Выберите слой **Interface**, чтобы мы могли поместить в него наш джойстик.",
+            "sl": "Izberite plast **Interface**, da lahko vanj postavimo naš joystick.",
+            "sq": "Zgjidh **Interface** layer qe te vendosim joystickun brenda tij.",
+            "th": "เลือก **Interface** เลเยอร์ เพื่อที่เราจะวาง joystick ในนั้น",
+            "uk": "Виберіть шар **Interface**, щоб ми могли помістити наш джойстик всередину.",
+            "zh": "选择 **界面** 层，这样我们就可以把手柄放在里面。"
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
       "elementToHighlightId": "#toolbar-open-objects-panel-button",
       "nextStepTrigger": {
         "presenceOfElement": "#add-new-object-button"
