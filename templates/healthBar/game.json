@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.HealthBarLesson",
@@ -575,6 +577,9 @@
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -832,9 +837,9 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2395,7 +2400,6 @@
           "leftMargin": 16,
           "name": "Ground_And_Walls",
           "rightMargin": 16,
-          "tags": "",
           "texture": "9patch castle.png",
           "tiled": true,
           "topMargin": 16,
@@ -2414,9 +2418,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Trap",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2592,9 +2596,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Trap2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2652,9 +2656,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Trap3",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2833,7 +2837,6 @@
           "assetStoreId": "",
           "height": 64,
           "name": "Background",
-          "tags": "",
           "texture": "Brown.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
@@ -2844,7 +2847,6 @@
         {
           "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
           "name": "FlatDarkJoystick",
-          "tags": "",
           "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
           "variables": [],
           "effects": [],
@@ -2852,6 +2854,7 @@
           "content": {},
           "childrenContent": {
             "Border": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -2886,6 +2889,7 @@
               ]
             },
             "Thumb": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -2922,9 +2926,9 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
           "name": "TopArrowButton",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2973,6 +2977,35 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Player"
+          },
+          {
+            "objectName": "Ground_And_Walls"
+          },
+          {
+            "objectName": "Trap"
+          },
+          {
+            "objectName": "Trap2"
+          },
+          {
+            "objectName": "Trap3"
+          },
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "FlatDarkJoystick"
+          },
+          {
+            "objectName": "TopArrowButton"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2984,8 +3017,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Set up for health bar",
-          "comment2": ""
+          "comment": "Set up for health bar"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3009,9 +3041,7 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [
-                    ""
-                  ]
+                  "parameters": [""]
                 }
               ],
               "actions": [
@@ -3019,24 +3049,13 @@
                   "type": {
                     "value": "ZoomCamera"
                   },
-                  "parameters": [
-                    "",
-                    "2",
-                    "",
-                    ""
-                  ]
+                  "parameters": ["", "2", "", ""]
                 },
                 {
                   "type": {
                     "value": "CentreCamera"
                   },
-                  "parameters": [
-                    "",
-                    "Background",
-                    "",
-                    "",
-                    ""
-                  ]
+                  "parameters": ["", "Background", "", "", ""]
                 }
               ],
               "events": [
@@ -3048,9 +3067,7 @@
                         "inverted": true,
                         "value": "SystemInfo::HasTouchScreen"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -3058,10 +3075,7 @@
                       "type": {
                         "value": "HideLayer"
                       },
-                      "parameters": [
-                        "TopArrowButton",
-                        "\"Joysticks\""
-                      ]
+                      "parameters": ["TopArrowButton", "\"Joysticks\""]
                     }
                   ]
                 }
@@ -3086,8 +3100,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Getting hit by the saw",
-                  "comment2": ""
+                  "comment": "Getting hit by the saw"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3096,45 +3109,28 @@
                       "type": {
                         "value": "CollisionNP"
                       },
-                      "parameters": [
-                        "Player",
-                        "Traps",
-                        "",
-                        "",
-                        ""
-                      ]
+                      "parameters": ["Player", "Traps", "", "", ""]
                     },
                     {
                       "type": {
                         "inverted": true,
                         "value": "AnimationName"
                       },
-                      "parameters": [
-                        "Player",
-                        "\"hurt\""
-                      ]
+                      "parameters": ["Player", "\"hurt\""]
                     },
                     {
                       "type": {
                         "inverted": true,
                         "value": "Health::Health::IsDead"
                       },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        ""
-                      ]
+                      "parameters": ["Player", "Health", ""]
                     },
                     {
                       "type": {
                         "inverted": true,
                         "value": "Health::Health::IsDamageCooldownActive"
                       },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        ""
-                      ]
+                      "parameters": ["Player", "Health", ""]
                     },
                     {
                       "type": {
@@ -3148,14 +3144,7 @@
                       "type": {
                         "value": "Health::Health::Hit"
                       },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        "1",
-                        "",
-                        "",
-                        ""
-                      ]
+                      "parameters": ["Player", "Health", "1", "", "", ""]
                     }
                   ],
                   "events": [
@@ -3166,11 +3155,7 @@
                           "type": {
                             "value": "Health::Health::IsJustDamaged"
                           },
-                          "parameters": [
-                            "Player",
-                            "Health",
-                            ""
-                          ]
+                          "parameters": ["Player", "Health", ""]
                         }
                       ],
                       "actions": [
@@ -3190,10 +3175,7 @@
                           "type": {
                             "value": "SetAnimationName"
                           },
-                          "parameters": [
-                            "Player",
-                            "\"hurt\""
-                          ]
+                          "parameters": ["Player", "\"hurt\""]
                         }
                       ],
                       "events": [
@@ -3207,8 +3189,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Platformer behavior",
-                          "comment2": ""
+                          "comment": "Platformer behavior"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -3218,20 +3199,13 @@
                               "type": {
                                 "value": "PlatformBehavior::PlatformerObjectBehavior::AbortJump"
                               },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject"
-                              ]
+                              "parameters": ["Player", "PlatformerObject"]
                             },
                             {
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": [
-                                "Player",
-                                "PlatformerObject",
-                                ""
-                              ]
+                              "parameters": ["Player", "PlatformerObject", ""]
                             },
                             {
                               "type": {
@@ -3266,8 +3240,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Timer",
-                          "comment2": ""
+                          "comment": "Timer"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -3277,27 +3250,19 @@
                               "type": {
                                 "value": "ChangeTimeScale"
                               },
-                              "parameters": [
-                                "",
-                                "0.1"
-                              ]
+                              "parameters": ["", "0.1"]
                             },
                             {
                               "type": {
                                 "value": "Wait"
                               },
-                              "parameters": [
-                                "0.02"
-                              ]
+                              "parameters": ["0.02"]
                             },
                             {
                               "type": {
                                 "value": "ChangeTimeScale"
                               },
-                              "parameters": [
-                                "",
-                                "1"
-                              ]
+                              "parameters": ["", "1"]
                             }
                           ]
                         }
@@ -3315,8 +3280,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Return to normal",
-                  "comment2": ""
+                  "comment": "Return to normal"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3325,29 +3289,20 @@
                       "type": {
                         "value": "AnimationName"
                       },
-                      "parameters": [
-                        "Player",
-                        "\"hurt\""
-                      ]
+                      "parameters": ["Player", "\"hurt\""]
                     },
                     {
                       "type": {
                         "value": "AnimationEnded"
                       },
-                      "parameters": [
-                        "Player"
-                      ]
+                      "parameters": ["Player"]
                     },
                     {
                       "type": {
                         "inverted": true,
                         "value": "Health::Health::IsDead"
                       },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        ""
-                      ]
+                      "parameters": ["Player", "Health", ""]
                     }
                   ],
                   "actions": [
@@ -3355,19 +3310,13 @@
                       "type": {
                         "value": "Arreter"
                       },
-                      "parameters": [
-                        "Player"
-                      ]
+                      "parameters": ["Player"]
                     },
                     {
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
-                        "yes"
-                      ]
+                      "parameters": ["Player", "PlatformerObject", "yes"]
                     },
                     {
                       "type": {
@@ -3391,8 +3340,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Death",
-                  "comment2": ""
+                  "comment": "Death"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3401,28 +3349,19 @@
                       "type": {
                         "value": "Health::Health::IsDead"
                       },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        ""
-                      ]
+                      "parameters": ["Player", "Health", ""]
                     },
                     {
                       "type": {
                         "value": "AnimationName"
                       },
-                      "parameters": [
-                        "Player",
-                        "\"hurt\""
-                      ]
+                      "parameters": ["Player", "\"hurt\""]
                     },
                     {
                       "type": {
                         "value": "AnimationEnded"
                       },
-                      "parameters": [
-                        "Player"
-                      ]
+                      "parameters": ["Player"]
                     },
                     {
                       "type": {
@@ -3436,11 +3375,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject",
-                        ""
-                      ]
+                      "parameters": ["Player", "PlatformerObject", ""]
                     },
                     {
                       "type": {
@@ -3456,22 +3391,13 @@
                       "type": {
                         "value": "SetAnimationName"
                       },
-                      "parameters": [
-                        "Player",
-                        "\"dead\""
-                      ]
+                      "parameters": ["Player", "\"dead\""]
                     },
                     {
                       "type": {
                         "value": "PlaySound"
                       },
-                      "parameters": [
-                        "",
-                        "DeathSound",
-                        "",
-                        "50",
-                        "1.2"
-                      ]
+                      "parameters": ["", "DeathSound", "", "50", "1.2"]
                     }
                   ]
                 },
@@ -3482,18 +3408,13 @@
                       "type": {
                         "value": "AnimationName"
                       },
-                      "parameters": [
-                        "Player",
-                        "\"dead\""
-                      ]
+                      "parameters": ["Player", "\"dead\""]
                     },
                     {
                       "type": {
                         "value": "AnimationEnded"
                       },
-                      "parameters": [
-                        "Player"
-                      ]
+                      "parameters": ["Player"]
                     }
                   ],
                   "actions": [
@@ -3501,10 +3422,7 @@
                       "type": {
                         "value": "Delete"
                       },
-                      "parameters": [
-                        "Player",
-                        ""
-                      ]
+                      "parameters": ["Player", ""]
                     }
                   ]
                 }
@@ -3520,9 +3438,15 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 8947536,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -3542,9 +3466,32 @@
           "ambientLightColorB": 12194504,
           "ambientLightColorG": 6068784,
           "ambientLightColorR": 12709544,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Joysticks",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Interface",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -3652,9 +3599,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -3700,9 +3645,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -3961,9 +3904,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -3998,9 +3939,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4035,9 +3974,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4072,9 +4009,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -4133,9 +4068,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4170,9 +4103,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4207,9 +4138,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4244,9 +4173,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4281,9 +4208,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4318,9 +4243,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4355,9 +4278,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -4392,9 +4313,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -4431,8 +4350,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Make sure the joystick has moved from center",
-              "comment2": ""
+              "comment": "Make sure the joystick has moved from center"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4467,9 +4385,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -4512,8 +4428,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Make sure the joystick has moved from center",
-              "comment2": ""
+              "comment": "Make sure the joystick has moved from center"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4548,9 +4463,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -4779,11 +4692,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 }
@@ -4817,11 +4726,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 }
@@ -4854,9 +4759,7 @@
                       "type": {
                         "value": "HasGameJustResumed"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -4864,21 +4767,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "DebuggerTools::ConsoleLog"
                       },
-                      "parameters": [
-                        "\"Resumed!!!\"",
-                        "",
-                        ""
-                      ]
+                      "parameters": ["\"Resumed!!!\"", "", ""]
                     }
                   ]
                 },
@@ -4898,9 +4793,7 @@
                           "type": {
                             "value": "HasAnyTouchOrMouseStarted"
                           },
-                          "parameters": [
-                            ""
-                          ]
+                          "parameters": [""]
                         }
                       ],
                       "actions": [
@@ -4908,12 +4801,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "0"]
                         }
                       ],
                       "events": [
@@ -4930,12 +4818,7 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "0"]
                                 },
                                 {
                                   "type": {
@@ -4970,12 +4853,7 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "+",
-                                    "1"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "+", "1"]
                                 }
                               ]
                             }
@@ -4993,8 +4871,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Move thumb back to center when not being pressed (acts like a spring on a real controller)",
-                      "comment2": ""
+                      "comment": "Move thumb back to center when not being pressed (acts like a spring on a real controller)"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5014,11 +4891,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ]
                     }
@@ -5041,12 +4914,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "!=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "!=", "0"]
                         }
                       ],
                       "actions": [
@@ -5109,9 +4977,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyJoystickForce()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyJoystickForce()"]
                     }
                   ]
                 }
@@ -5202,9 +5068,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyJoystickAngle()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyJoystickAngle()"]
                     }
                   ]
                 }
@@ -5323,9 +5187,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -5389,9 +5251,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -5431,12 +5291,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "!=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "!=", "0"]
                     }
                   ],
                   "actions": [
@@ -5444,9 +5299,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -5482,24 +5335,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickForce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0", ""]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ]
                 }
@@ -5771,7 +5613,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -5781,7 +5622,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "JoystickIdentifier"
             },
             {
@@ -5791,7 +5631,6 @@
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DeadZoneRadius"
             },
             {
@@ -5856,11 +5695,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -5868,22 +5703,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "\"Idle\"",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "\"Idle\"", ""]
                     }
                   ]
                 },
@@ -5895,19 +5721,13 @@
                         "inverted": true,
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "HasAnyTouchOrMouseStarted"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -5915,12 +5735,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ],
                   "events": [
@@ -5977,12 +5792,7 @@
                               "type": {
                                 "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "+",
-                                "1"
-                              ]
+                              "parameters": ["Object", "Behavior", "+", "1"]
                             }
                           ]
                         }
@@ -5997,20 +5807,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "HasTouchEnded"
                       },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyTouchId()"
-                      ]
+                      "parameters": ["", "Object.Behavior::PropertyTouchId()"]
                     }
                   ],
                   "actions": [
@@ -6018,33 +5821,19 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "\"Released\"",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "\"Released\"", ""]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ]
                 }
@@ -6078,10 +5867,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -6089,9 +5875,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -6125,12 +5909,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "!=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "!=", "0"]
                     }
                   ],
                   "actions": [
@@ -6138,9 +5917,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -6216,7 +5993,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -6226,7 +6002,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ButtonIdentifier"
             },
             {
@@ -6295,10 +6070,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -6323,10 +6095,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -6351,19 +6120,13 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateUpKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     },
                     {
                       "type": {
                         "value": "PlatformBehavior::SimulateLadderKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -6388,10 +6151,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateDownKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -6415,10 +6175,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 }
@@ -6449,7 +6206,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "Property"
             },
             {
@@ -6459,7 +6215,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -6468,11 +6223,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "Controls",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
-              "hidden": false,
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -6482,7 +6233,6 @@
               "description": "",
               "group": "Controls",
               "extraInformation": [],
-              "hidden": false,
               "name": "JumpButton"
             }
           ],
@@ -6507,12 +6257,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Analog\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"Analog\""]
                     }
                   ],
                   "actions": [
@@ -6536,12 +6281,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"360°\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"360°\""]
                     }
                   ],
                   "actions": [
@@ -6583,10 +6323,7 @@
                             "inverted": true,
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": [
-                            "Object",
-                            "TopDownMovement"
-                          ]
+                          "parameters": ["Object", "TopDownMovement"]
                         }
                       ],
                       "actions": [],
@@ -6612,10 +6349,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6640,10 +6374,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6668,10 +6399,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6696,10 +6424,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         }
@@ -6712,10 +6437,7 @@
                           "type": {
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": [
-                            "Object",
-                            "TopDownMovement"
-                          ]
+                          "parameters": ["Object", "TopDownMovement"]
                         }
                       ],
                       "actions": [],
@@ -6741,10 +6463,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6769,10 +6488,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6797,10 +6513,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6825,10 +6538,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6853,19 +6563,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6890,19 +6594,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6927,19 +6625,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -6964,19 +6656,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         }
@@ -7011,7 +6697,6 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
-              "hidden": false,
               "name": "TopDownMovement"
             },
             {
@@ -7021,7 +6706,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -7030,11 +6714,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
-              "hidden": false,
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -7043,12 +6723,7 @@
               "label": "Stick mode",
               "description": "",
               "group": "Controls",
-              "extraInformation": [
-                "Analog",
-                "360°",
-                "8 Directions"
-              ],
-              "hidden": false,
+              "extraInformation": ["Analog", "360°", "8 Directions"],
               "name": "StickMode"
             }
           ],
@@ -7076,87 +6751,49 @@
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": [
-                        "",
-                        "Border",
-                        "0",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["", "Border", "0", "0", ""]
                     },
                     {
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": [
-                        "",
-                        "Thumb",
-                        "0",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["", "Thumb", "0", "0", ""]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": [
-                        "Border",
-                        "=",
-                        "1"
-                      ]
+                      "parameters": ["Border", "=", "1"]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": [
-                        "Thumb",
-                        "=",
-                        "2"
-                      ]
+                      "parameters": ["Thumb", "=", "2"]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": [
-                        "Border",
-                        "=",
-                        "0",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Border", "=", "0", "=", "0"]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": [
-                        "Thumb",
-                        "=",
-                        "0",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Thumb", "=", "0", "=", "0"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
+                      "parameters": ["Object", ""]
                     },
                     {
                       "type": {
                         "value": "SetIncludedInParentCollisionMask"
                       },
-                      "parameters": [
-                        "Thumb",
-                        ""
-                      ]
+                      "parameters": ["Thumb", ""]
                     }
                   ]
                 }
@@ -7219,10 +6856,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
+                      "parameters": ["Object", ""]
                     }
                   ]
                 }
@@ -7313,9 +6947,7 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"ShouldActivate\""
-                      ]
+                      "parameters": ["\"ShouldActivate\""]
                     }
                   ],
                   "actions": [
@@ -7323,11 +6955,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "no"
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "no"]
                     }
                   ]
                 },
@@ -7338,9 +6966,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"ShouldActivate\""
-                      ]
+                      "parameters": ["\"ShouldActivate\""]
                     }
                   ],
                   "actions": [
@@ -7348,11 +6974,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "yes"
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "yes"]
                     }
                   ]
                 }
@@ -7386,11 +7008,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::IsPressed"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "!="
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "!="]
                     }
                   ],
                   "actions": [
@@ -7398,9 +7016,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -7512,9 +7128,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -7562,9 +7176,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -7810,7 +7422,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -7819,11 +7430,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
-              "hidden": false,
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -7833,7 +7440,6 @@
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DeadZoneRadius"
             },
             {
@@ -7842,9 +7448,7 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": [
-                "Thumb"
-              ],
+              "extraInformation": ["Thumb"],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -7864,9 +7468,7 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": [
-                "Thumb"
-              ],
+              "extraInformation": ["Thumb"],
               "hidden": true,
               "name": "ThumbIsScaledProportionally"
             },
@@ -7883,9 +7485,9 @@
           ],
           "objects": [
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Thumb",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -7906,9 +7508,9 @@
               ]
             },
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Border",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -7941,7 +7543,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Thumb"
+              },
+              {
+                "objectName": "Border"
+              }
+            ]
+          }
         }
       ]
     },
@@ -7965,15 +7578,8 @@
         "identifier": "PlatformerCharacterAnimator",
         "name": "gdevelop-extension-store"
       },
-      "tags": [
-        "animations",
-        "platformer",
-        "flipping",
-        "automatic"
-      ],
-      "authorIds": [
-        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
-      ],
+      "tags": ["animations", "platformer", "flipping", "automatic"],
+      "authorIds": ["gqDaZjCfevOOxBYkK6zlhtZnXCg1"],
       "dependencies": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
@@ -8005,10 +7611,7 @@
                           "type": {
                             "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableHorizontalFlipping"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior"
-                          ]
+                          "parameters": ["Object", "Behavior"]
                         }
                       ],
                       "actions": [],
@@ -8049,10 +7652,7 @@
                               "type": {
                                 "value": "FlipX"
                               },
-                              "parameters": [
-                                "Object",
-                                "yes"
-                              ]
+                              "parameters": ["Object", "yes"]
                             }
                           ]
                         },
@@ -8092,10 +7692,7 @@
                               "type": {
                                 "value": "FlipX"
                               },
-                              "parameters": [
-                                "Object",
-                                ""
-                              ]
+                              "parameters": ["Object", ""]
                             }
                           ]
                         }
@@ -8120,10 +7717,7 @@
                           "type": {
                             "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableAnimationChanges"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior"
-                          ]
+                          "parameters": ["Object", "Behavior"]
                         }
                       ],
                       "actions": [],
@@ -8135,10 +7729,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsJumping"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             },
                             {
                               "type": {
@@ -8166,10 +7757,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsFalling"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             },
                             {
                               "type": {
@@ -8197,10 +7785,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsOnFloor"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             }
                           ],
                           "actions": [],
@@ -8212,10 +7797,7 @@
                                   "type": {
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 },
                                 {
                                   "type": {
@@ -8244,10 +7826,7 @@
                                     "inverted": true,
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 },
                                 {
                                   "type": {
@@ -8277,10 +7856,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsOnLadder"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             }
                           ],
                           "actions": [],
@@ -8314,10 +7890,7 @@
                                   "type": {
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 },
                                 {
                                   "type": {
@@ -8331,9 +7904,7 @@
                                   "type": {
                                     "value": "PlayAnimation"
                                   },
-                                  "parameters": [
-                                    "Object"
-                                  ]
+                                  "parameters": ["Object"]
                                 }
                               ]
                             },
@@ -8345,10 +7916,7 @@
                                     "inverted": true,
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 },
                                 {
                                   "type": {
@@ -8362,9 +7930,7 @@
                                   "type": {
                                     "value": "PauseAnimation"
                                   },
-                                  "parameters": [
-                                    "Object"
-                                  ]
+                                  "parameters": ["Object"]
                                 }
                               ]
                             }
@@ -8378,10 +7944,7 @@
                                 "inverted": true,
                                 "value": "PlatformBehavior::IsOnLadder"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             },
                             {
                               "type": {
@@ -8395,9 +7958,7 @@
                               "type": {
                                 "value": "PlayAnimation"
                               },
-                              "parameters": [
-                                "Object"
-                              ]
+                              "parameters": ["Object"]
                             }
                           ]
                         }
@@ -8445,10 +8006,7 @@
                           "type": {
                             "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableHorizontalFlipping"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior"
-                          ]
+                          "parameters": ["Object", "Behavior"]
                         }
                       ],
                       "actions": [],
@@ -8483,10 +8041,7 @@
                               "type": {
                                 "value": "FlipX"
                               },
-                              "parameters": [
-                                "Object",
-                                "yes"
-                              ]
+                              "parameters": ["Object", "yes"]
                             }
                           ]
                         },
@@ -8520,10 +8075,7 @@
                               "type": {
                                 "value": "FlipX"
                               },
-                              "parameters": [
-                                "Object",
-                                ""
-                              ]
+                              "parameters": ["Object", ""]
                             }
                           ]
                         }
@@ -8548,10 +8100,7 @@
                           "type": {
                             "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::PropertyEnableAnimationChanges"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior"
-                          ]
+                          "parameters": ["Object", "Behavior"]
                         }
                       ],
                       "actions": [],
@@ -8563,10 +8112,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsJumping"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             }
                           ],
                           "actions": [
@@ -8588,10 +8134,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsFalling"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             }
                           ],
                           "actions": [
@@ -8613,10 +8156,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsOnFloor"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             }
                           ],
                           "actions": [],
@@ -8628,10 +8168,7 @@
                                   "type": {
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 }
                               ],
                               "actions": [
@@ -8654,10 +8191,7 @@
                                     "inverted": true,
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 }
                               ],
                               "actions": [
@@ -8681,10 +8215,7 @@
                               "type": {
                                 "value": "PlatformBehavior::IsOnLadder"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             }
                           ],
                           "actions": [],
@@ -8711,10 +8242,7 @@
                                   "type": {
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 }
                               ],
                               "actions": [
@@ -8722,9 +8250,7 @@
                                   "type": {
                                     "value": "PlayAnimation"
                                   },
-                                  "parameters": [
-                                    "Object"
-                                  ]
+                                  "parameters": ["Object"]
                                 }
                               ]
                             },
@@ -8736,10 +8262,7 @@
                                     "inverted": true,
                                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "PlatformerBehavior"
-                                  ]
+                                  "parameters": ["Object", "PlatformerBehavior"]
                                 }
                               ],
                               "actions": [
@@ -8747,9 +8270,7 @@
                                   "type": {
                                     "value": "PauseAnimation"
                                   },
-                                  "parameters": [
-                                    "Object"
-                                  ]
+                                  "parameters": ["Object"]
                                 }
                               ]
                             }
@@ -8763,10 +8284,7 @@
                                 "inverted": true,
                                 "value": "PlatformBehavior::IsOnLadder"
                               },
-                              "parameters": [
-                                "Object",
-                                "PlatformerBehavior"
-                              ]
+                              "parameters": ["Object", "PlatformerBehavior"]
                             }
                           ],
                           "actions": [
@@ -8774,9 +8292,7 @@
                               "type": {
                                 "value": "PlayAnimation"
                               },
-                              "parameters": [
-                                "Object"
-                              ]
+                              "parameters": ["Object"]
                             }
                           ]
                         }
@@ -8817,11 +8333,7 @@
                       "type": {
                         "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableAnimationChanges"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 },
@@ -8832,9 +8344,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"EnableAnimationChanges\""
-                      ]
+                      "parameters": ["\"EnableAnimationChanges\""]
                     }
                   ],
                   "actions": [
@@ -8842,11 +8352,7 @@
                       "type": {
                         "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableAnimationChanges"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 }
@@ -8889,11 +8395,7 @@
                       "type": {
                         "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableHorizontalFlipping"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 },
@@ -8904,9 +8406,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"EnableHorizontalFlipping\""
-                      ]
+                      "parameters": ["\"EnableHorizontalFlipping\""]
                     }
                   ],
                   "actions": [
@@ -8914,11 +8414,7 @@
                       "type": {
                         "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetPropertyEnableHorizontalFlipping"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 }
@@ -9190,7 +8686,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "EnableAnimationChanges"
             },
             {
@@ -9200,7 +8695,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "EnableHorizontalFlipping"
             },
             {
@@ -9210,7 +8704,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "IdleAnimationName"
             },
             {
@@ -9220,7 +8713,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "RunAnimationName"
             },
             {
@@ -9230,7 +8722,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "JumpAnimationName"
             },
             {
@@ -9240,7 +8731,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "FallAnimationName"
             },
             {
@@ -9250,7 +8740,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "ClimbAnimationName"
             },
             {
@@ -9262,7 +8751,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerBehavior"
             }
           ],
@@ -9364,10 +8852,7 @@
                       "type": {
                         "value": "ResetObjectTimer"
                       },
-                      "parameters": [
-                        "Object",
-                        "\"__Health.TimeSinceLastHit\""
-                      ]
+                      "parameters": ["Object", "\"__Health.TimeSinceLastHit\""]
                     },
                     {
                       "type": {
@@ -9432,8 +8917,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Health",
-                          "comment2": ""
+                          "comment": "Health"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -9442,12 +8926,7 @@
                               "type": {
                                 "value": "Health::Health::PropertyHealthRegenRate"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "!=",
-                                "0"
-                              ]
+                              "parameters": ["Object", "Behavior", "!=", "0"]
                             },
                             {
                               "type": {
@@ -9496,8 +8975,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Correct any values above maximum limits",
-                              "comment2": ""
+                              "comment": "Correct any values above maximum limits"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -9550,31 +9028,19 @@
                               "type": {
                                 "value": "Health::Health::SetPropertyIsHealthJustDamaged"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "no"
-                              ]
+                              "parameters": ["Object", "Behavior", "no"]
                             },
                             {
                               "type": {
                                 "value": "Health::Health::SetPropertyIsJustHealed"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "no"
-                              ]
+                              "parameters": ["Object", "Behavior", "no"]
                             },
                             {
                               "type": {
                                 "value": "Health::Health::SetPropertyIsJustDodged"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "no"
-                              ]
+                              "parameters": ["Object", "Behavior", "no"]
                             }
                           ]
                         }
@@ -9612,8 +9078,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Shield",
-                          "comment2": ""
+                          "comment": "Shield"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -9622,12 +9087,7 @@
                               "type": {
                                 "value": "Health::Health::PropertyShieldRegenRate"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "!=",
-                                "0"
-                              ]
+                              "parameters": ["Object", "Behavior", "!=", "0"]
                             },
                             {
                               "type": {
@@ -9661,12 +9121,7 @@
                                   "type": {
                                     "value": "Health::Health::PropertyCurrentShieldPoints"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "0"]
                                 }
                               ],
                               "actions": [
@@ -9674,11 +9129,7 @@
                                   "type": {
                                     "value": "Health::Health::RenewShieldDuration"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    ""
-                                  ]
+                                  "parameters": ["Object", "Behavior", ""]
                                 }
                               ]
                             },
@@ -9709,8 +9160,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Correct any values above maximum limits",
-                              "comment2": ""
+                              "comment": "Correct any values above maximum limits"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -9763,11 +9213,7 @@
                                 "inverted": true,
                                 "value": "Health::Health::IsShieldActive"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                ""
-                              ]
+                              "parameters": ["Object", "Behavior", ""]
                             },
                             {
                               "type": {
@@ -9781,12 +9227,7 @@
                               "type": {
                                 "value": "Health::Health::SetPropertyCurrentShieldPoints"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "0"
-                              ]
+                              "parameters": ["Object", "Behavior", "=", "0"]
                             }
                           ]
                         }
@@ -9810,11 +9251,7 @@
                               "type": {
                                 "value": "Health::Health::SetPropertyIsShieldJustDamaged"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "no"
-                              ]
+                              "parameters": ["Object", "Behavior", "no"]
                             }
                           ]
                         }
@@ -9867,8 +9304,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Only consider incoming damage when damage cooldown is not active",
-                      "comment2": ""
+                      "comment": "Only consider incoming damage when damage cooldown is not active"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -9878,11 +9314,7 @@
                             "inverted": true,
                             "value": "Health::Health::IsDamageCooldownActive"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ],
                       "actions": [
@@ -9918,8 +9350,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "No damage will be applied when dodged",
-                              "comment2": ""
+                              "comment": "No damage will be applied when dodged"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -9940,22 +9371,13 @@
                                   "type": {
                                     "value": "Health::Health::SetPropertyIsJustDodged"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "yes"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "yes"]
                                 },
                                 {
                                   "type": {
                                     "value": "Health::Health::SetPropertyDamageToBeApplied"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "0"]
                                 }
                               ]
                             }
@@ -9978,20 +9400,13 @@
                                   "type": {
                                     "value": "GetArgumentAsBoolean"
                                   },
-                                  "parameters": [
-                                    "\"UseArmor\""
-                                  ]
+                                  "parameters": ["\"UseArmor\""]
                                 },
                                 {
                                   "type": {
                                     "value": "Health::Health::PropertyDamageToBeApplied"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    ">",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", ">", "0"]
                                 }
                               ],
                               "actions": [],
@@ -10101,8 +9516,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "If shield is active, damage the shield first",
-                              "comment2": ""
+                              "comment": "If shield is active, damage the shield first"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -10111,30 +9525,19 @@
                                   "type": {
                                     "value": "GetArgumentAsBoolean"
                                   },
-                                  "parameters": [
-                                    "\"UseShield\""
-                                  ]
+                                  "parameters": ["\"UseShield\""]
                                 },
                                 {
                                   "type": {
                                     "value": "Health::Health::IsShieldActive"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    ""
-                                  ]
+                                  "parameters": ["Object", "Behavior", ""]
                                 },
                                 {
                                   "type": {
                                     "value": "Health::Health::PropertyDamageToBeApplied"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    ">",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", ">", "0"]
                                 }
                               ],
                               "actions": [
@@ -10142,21 +9545,13 @@
                                   "type": {
                                     "value": "Health::Health::SetPropertyIsShieldJustDamaged"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "yes"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "yes"]
                                 },
                                 {
                                   "type": {
                                     "value": "Health::Health::TriggerDamageCooldown"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    ""
-                                  ]
+                                  "parameters": ["Object", "Behavior", ""]
                                 }
                               ],
                               "events": [
@@ -10170,8 +9565,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "If damage is less than shield, subtract damage from shield.",
-                                  "comment2": ""
+                                  "comment": "If damage is less than shield, subtract damage from shield."
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -10234,8 +9628,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "If damage is greater than shield, conditionally apply excess damage based on property",
-                                  "comment2": ""
+                                  "comment": "If damage is greater than shield, conditionally apply excess damage based on property"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -10273,10 +9666,7 @@
                                           "type": {
                                             "value": "Health::Health::PropertyBlockExcessDamage"
                                           },
-                                          "parameters": [
-                                            "Object",
-                                            "Behavior"
-                                          ]
+                                          "parameters": ["Object", "Behavior"]
                                         }
                                       ],
                                       "actions": [
@@ -10314,8 +9704,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Apply excess damage only if shield does not block excess damage",
-                                      "comment2": ""
+                                      "comment": "Apply excess damage only if shield does not block excess damage"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -10325,10 +9714,7 @@
                                             "inverted": true,
                                             "value": "Health::Health::PropertyBlockExcessDamage"
                                           },
-                                          "parameters": [
-                                            "Object",
-                                            "Behavior"
-                                          ]
+                                          "parameters": ["Object", "Behavior"]
                                         }
                                       ],
                                       "actions": [
@@ -10379,12 +9765,7 @@
                                   "type": {
                                     "value": "Health::Health::PropertyDamageToBeApplied"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    ">",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", ">", "0"]
                                 }
                               ],
                               "actions": [
@@ -10403,11 +9784,7 @@
                                   "type": {
                                     "value": "Health::Health::TriggerDamageCooldown"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    ""
-                                  ]
+                                  "parameters": ["Object", "Behavior", ""]
                                 }
                               ],
                               "events": [
@@ -10508,8 +9885,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "If MaxHealth is set, prevent health from going above it",
-                  "comment2": ""
+                  "comment": "If MaxHealth is set, prevent health from going above it"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -10518,12 +9894,7 @@
                       "type": {
                         "value": "Health::Health::PropertyMaxHealth"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", ">", "0"]
                     }
                   ],
                   "actions": [
@@ -10635,8 +10006,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If Max Health is not set, do not enforce Max Health",
-                      "comment2": ""
+                      "comment": "If Max Health is not set, do not enforce Max Health"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10645,12 +10015,7 @@
                           "type": {
                             "value": "Health::Health::PropertyMaxHealth"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "0"]
                         }
                       ],
                       "actions": [
@@ -10677,8 +10042,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If Max Health is set and Overhealing is not allowed",
-                      "comment2": ""
+                      "comment": "If Max Health is set and Overhealing is not allowed"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10687,22 +10051,14 @@
                           "type": {
                             "value": "Health::Health::PropertyMaxHealth"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ">",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", ">", "0"]
                         },
                         {
                           "type": {
                             "inverted": true,
                             "value": "Health::Health::PropertyAllowOverHealing"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior"
-                          ]
+                          "parameters": ["Object", "Behavior"]
                         }
                       ],
                       "actions": [
@@ -10729,8 +10085,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Perform heal",
-                      "comment2": ""
+                      "comment": "Perform heal"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10759,8 +10114,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Update healing trigger",
-                      "comment2": ""
+                      "comment": "Update healing trigger"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10770,11 +10124,7 @@
                           "type": {
                             "value": "Health::Health::SetPropertyIsJustHealed"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "yes"
-                          ]
+                          "parameters": ["Object", "Behavior", "yes"]
                         }
                       ]
                     }
@@ -10837,8 +10187,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Make sure Current Health does not exceed new Max Health",
-                  "comment2": ""
+                  "comment": "Make sure Current Health does not exceed new Max Health"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -11182,11 +10531,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyAllowOverHealing"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     }
                   ]
                 },
@@ -11197,9 +10542,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"Value\""
-                      ]
+                      "parameters": ["\"Value\""]
                     }
                   ],
                   "actions": [
@@ -11207,11 +10550,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyAllowOverHealing"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 }
@@ -11253,11 +10592,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyHitAtLeastOnce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     }
                   ]
                 },
@@ -11268,9 +10603,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"Value\""
-                      ]
+                      "parameters": ["\"Value\""]
                     }
                   ],
                   "actions": [
@@ -11278,11 +10611,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyHitAtLeastOnce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 }
@@ -11324,11 +10653,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyIsHealthJustDamaged"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     }
                   ]
                 },
@@ -11339,9 +10664,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"Value\""
-                      ]
+                      "parameters": ["\"Value\""]
                     }
                   ],
                   "actions": [
@@ -11349,11 +10672,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyIsHealthJustDamaged"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 }
@@ -11396,8 +10715,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Mark that the object was hit at least once (used for initial state of damage cooldown)",
-                  "comment2": ""
+                  "comment": "Mark that the object was hit at least once (used for initial state of damage cooldown)"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -11407,11 +10725,7 @@
                         "inverted": true,
                         "value": "Health::Health::HitAtLeastOnce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -11419,12 +10733,7 @@
                       "type": {
                         "value": "Health::Health::SetHitAtLeastOnce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "yes", ""]
                     }
                   ]
                 },
@@ -11436,10 +10745,7 @@
                       "type": {
                         "value": "ResetObjectTimer"
                       },
-                      "parameters": [
-                        "Object",
-                        "\"__Health.TimeSinceLastHit\""
-                      ]
+                      "parameters": ["Object", "\"__Health.TimeSinceLastHit\""]
                     }
                   ]
                 }
@@ -11478,8 +10784,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "This condition is used to prevent \"damage cooldown\" from being active when the game starts.",
-                  "comment2": ""
+                  "comment": "This condition is used to prevent \"damage cooldown\" from being active when the game starts."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -11489,9 +10794,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -11502,10 +10805,7 @@
                       "type": {
                         "value": "Health::Health::PropertyHitAtLeastOnce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -11513,9 +10813,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -11551,9 +10849,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -11564,10 +10860,7 @@
                       "type": {
                         "value": "Health::Health::PropertyIsHealthJustDamaged"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -11575,9 +10868,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -11613,9 +10904,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -11626,10 +10915,7 @@
                       "type": {
                         "value": "Health::Health::PropertyIsJustHealed"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -11637,9 +10923,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -11675,9 +10959,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -11688,21 +10970,13 @@
                       "type": {
                         "value": "Health::Health::PropertyHitAtLeastOnce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "Health::Health::PropertyDamageCooldown"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", ">", "0"]
                     },
                     {
                       "type": {
@@ -11721,9 +10995,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -11759,9 +11031,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -11772,12 +11042,7 @@
                       "type": {
                         "value": "Health::Health::PropertyCurrentHealth"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "<=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "<=", "0"]
                     }
                   ],
                   "actions": [
@@ -11785,9 +11050,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -11823,9 +11086,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyMaxHealth()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyMaxHealth()"]
                     }
                   ]
                 }
@@ -11905,9 +11166,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyCurrentHealth()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyCurrentHealth()"]
                     }
                   ]
                 }
@@ -12028,9 +11287,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "0"
-                      ]
+                      "parameters": ["0"]
                     }
                   ]
                 },
@@ -12041,11 +11298,7 @@
                       "type": {
                         "value": "Health::Health::IsDamageCooldownActive"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -12135,9 +11388,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyChanceToDodge()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyChanceToDodge()"]
                     }
                   ]
                 }
@@ -12529,10 +11780,7 @@
                       "type": {
                         "value": "ResetObjectTimer"
                       },
-                      "parameters": [
-                        "Object",
-                        "\"__Health.ShieldDuration\""
-                      ]
+                      "parameters": ["Object", "\"__Health.ShieldDuration\""]
                     }
                   ]
                 }
@@ -12584,12 +11832,7 @@
                       "type": {
                         "value": "Health::Health::PropertyMaxShieldPoints"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", ">", "0"]
                     }
                   ],
                   "actions": [
@@ -12613,9 +11856,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"RenewShieldDuration\""
-                      ]
+                      "parameters": ["\"RenewShieldDuration\""]
                     }
                   ],
                   "actions": [
@@ -12623,11 +11864,7 @@
                       "type": {
                         "value": "Health::Health::RenewShieldDuration"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 }
@@ -12721,11 +11958,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyBlockExcessDamage"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     }
                   ]
                 },
@@ -12736,9 +11969,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"Value\""
-                      ]
+                      "parameters": ["\"Value\""]
                     }
                   ],
                   "actions": [
@@ -12746,11 +11977,7 @@
                       "type": {
                         "value": "Health::Health::SetPropertyBlockExcessDamage"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 }
@@ -12791,9 +12018,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -12804,10 +12029,7 @@
                       "type": {
                         "value": "Health::Health::PropertyIsShieldJustDamaged"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -12815,9 +12037,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -12853,9 +12073,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -12866,10 +12084,7 @@
                       "type": {
                         "value": "Health::Health::PropertyIsJustDodged"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -12877,9 +12092,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -12915,9 +12128,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "False"
-                      ]
+                      "parameters": ["False"]
                     }
                   ]
                 },
@@ -12931,8 +12142,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "To be considered \"active\", a shield must have positive points AND not exceed duration",
-                  "comment2": ""
+                  "comment": "To be considered \"active\", a shield must have positive points AND not exceed duration"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -12941,12 +12151,7 @@
                       "type": {
                         "value": "Health::Health::PropertyCurrentShieldPoints"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", ">", "0"]
                     }
                   ],
                   "actions": [],
@@ -12961,8 +12166,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Don't check the timer when duration is zero (or negative)",
-                      "comment2": ""
+                      "comment": "Don't check the timer when duration is zero (or negative)"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -12971,12 +12175,7 @@
                           "type": {
                             "value": "Health::Health::PropertyShieldDuration"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "<=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "<=", "0"]
                         }
                       ],
                       "actions": [
@@ -12984,9 +12183,7 @@
                           "type": {
                             "value": "SetReturnBoolean"
                           },
-                          "parameters": [
-                            "True"
-                          ]
+                          "parameters": ["True"]
                         }
                       ]
                     },
@@ -12997,12 +12194,7 @@
                           "type": {
                             "value": "Health::Health::PropertyShieldDuration"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ">",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", ">", "0"]
                         },
                         {
                           "type": {
@@ -13021,9 +12213,7 @@
                           "type": {
                             "value": "SetReturnBoolean"
                           },
-                          "parameters": [
-                            "True"
-                          ]
+                          "parameters": ["True"]
                         }
                       ]
                     }
@@ -13225,9 +12415,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "0"
-                      ]
+                      "parameters": ["0"]
                     }
                   ]
                 },
@@ -13238,12 +12426,7 @@
                       "type": {
                         "value": "Health::Health::PropertyShieldDuration"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ">",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", ">", "0"]
                     }
                   ],
                   "actions": [
@@ -13408,7 +12591,6 @@
               "description": "",
               "group": "Health",
               "extraInformation": [],
-              "hidden": false,
               "name": "Health"
             },
             {
@@ -13428,7 +12610,6 @@
               "description": "",
               "group": "Health",
               "extraInformation": [],
-              "hidden": false,
               "name": "MaxHealth"
             },
             {
@@ -13438,7 +12619,6 @@
               "description": "",
               "group": "Health",
               "extraInformation": [],
-              "hidden": false,
               "name": "DamageCooldown"
             },
             {
@@ -13458,7 +12638,6 @@
               "description": "",
               "group": "Health regeneration",
               "extraInformation": [],
-              "hidden": false,
               "name": "HealthRegenRate"
             },
             {
@@ -13468,7 +12647,6 @@
               "description": "",
               "group": "Health regeneration",
               "extraInformation": [],
-              "hidden": false,
               "name": "HealthRegenDelay"
             },
             {
@@ -13478,7 +12656,6 @@
               "description": "",
               "group": "Health",
               "extraInformation": [],
-              "hidden": false,
               "name": "AllowOverHealing"
             },
             {
@@ -13518,7 +12695,6 @@
               "description": "",
               "group": "Shield",
               "extraInformation": [],
-              "hidden": false,
               "name": "MaxShieldPoints"
             },
             {
@@ -13528,7 +12704,6 @@
               "description": "",
               "group": "Shield",
               "extraInformation": [],
-              "hidden": false,
               "name": "ShieldDuration"
             },
             {
@@ -13538,7 +12713,6 @@
               "description": "",
               "group": "Shield regeneration",
               "extraInformation": [],
-              "hidden": false,
               "name": "ShieldRegenRate"
             },
             {
@@ -13548,7 +12722,6 @@
               "description": "",
               "group": "Shield",
               "extraInformation": [],
-              "hidden": false,
               "name": "BlockExcessDamage"
             },
             {
@@ -13558,7 +12731,6 @@
               "description": "",
               "group": "Shield regeneration",
               "extraInformation": [],
-              "hidden": false,
               "name": "ShieldRegenDelay"
             },
             {
@@ -13578,7 +12750,6 @@
               "description": "",
               "group": "Health configuration",
               "extraInformation": [],
-              "hidden": false,
               "name": "ChanceToDodge"
             },
             {
@@ -13598,7 +12769,6 @@
               "description": "",
               "group": "Armor",
               "extraInformation": [],
-              "hidden": false,
               "name": "FlatDamageReduction"
             },
             {
@@ -13608,7 +12778,6 @@
               "description": "",
               "group": "Armor",
               "extraInformation": [],
-              "hidden": false,
               "name": "PercentDamageReduction"
             },
             {
@@ -13707,23 +12876,13 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyOldX"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "Object.X()"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "Object.X()"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyOldY"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "Object.Y()"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "Object.Y()"]
                     }
                   ]
                 },
@@ -13737,8 +12896,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Set the initial state according to the configuration.",
-                  "comment2": ""
+                  "comment": "Set the initial state according to the configuration."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -13887,8 +13045,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Update the rectangle when the object is moved outside of the behavior.",
-                  "comment2": ""
+                  "comment": "Update the rectangle when the object is moved outside of the behavior."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -13928,8 +13085,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Move the object on the rectangular path.",
-                  "comment2": ""
+                  "comment": "Move the object on the rectangular path."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -13959,8 +13115,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Save the position to detect when the object is moved outside of the behavior.",
-                  "comment2": ""
+                  "comment": "Save the position to detect when the object is moved outside of the behavior."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -13970,23 +13125,13 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyOldX"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "Object.X()"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "Object.X()"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyOldY"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "Object.Y()"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "Object.Y()"]
                     }
                   ]
                 }
@@ -14022,8 +13167,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Step on the path.",
-                  "comment2": ""
+                  "comment": "Step on the path."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -14032,10 +13176,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -14060,10 +13201,7 @@
                         "inverted": true,
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -14122,12 +13260,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyProgress"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ]
                 },
@@ -14414,9 +13547,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyWidth()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyWidth()"]
                     }
                   ]
                 }
@@ -14455,9 +13586,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyHeight()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyHeight()"]
                     }
                   ]
                 }
@@ -14496,9 +13625,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyLeft()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyLeft()"]
                     }
                   ]
                 }
@@ -14537,9 +13664,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyTop()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyTop()"]
                     }
                   ]
                 }
@@ -14957,9 +14082,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"Value\""
-                      ]
+                      "parameters": ["\"Value\""]
                     }
                   ],
                   "actions": [
@@ -14967,11 +14090,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 },
@@ -14983,9 +14102,7 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"Value\""
-                      ]
+                      "parameters": ["\"Value\""]
                     }
                   ],
                   "actions": [
@@ -14993,11 +14110,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     }
                   ]
                 }
@@ -15083,10 +14196,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -15094,11 +14204,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyToogleClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 },
@@ -15110,10 +14216,7 @@
                         "inverted": true,
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -15121,11 +14224,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyToogleClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "="
-                      ]
+                      "parameters": ["Object", "Behavior", "="]
                     }
                   ]
                 },
@@ -15136,10 +14235,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::PropertyToogleClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -15147,11 +14243,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     }
                   ]
                 },
@@ -15163,10 +14255,7 @@
                         "inverted": true,
                         "value": "RectangleMovement::RectangleMovement::PropertyToogleClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -15174,11 +14263,7 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::SetPropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 }
@@ -15213,20 +14298,13 @@
                         "inverted": true,
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnTop"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15234,9 +14312,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 },
@@ -15247,20 +14323,13 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnBottom"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15268,9 +14337,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -15304,20 +14371,13 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnLeft"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15325,9 +14385,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 },
@@ -15339,20 +14397,13 @@
                         "inverted": true,
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnRight"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15360,9 +14411,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -15396,20 +14445,13 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnTop"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15417,9 +14459,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 },
@@ -15431,20 +14471,13 @@
                         "inverted": true,
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnBottom"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15452,9 +14485,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -15488,20 +14519,13 @@
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnRight"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15509,9 +14533,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 },
@@ -15523,20 +14545,13 @@
                         "inverted": true,
                         "value": "RectangleMovement::RectangleMovement::PropertyClockwise"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     },
                     {
                       "type": {
                         "value": "RectangleMovement::RectangleMovement::IsOnLeft"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -15544,9 +14559,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -15592,9 +14605,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -15640,9 +14651,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -15698,9 +14707,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -15756,9 +14763,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -16004,9 +15009,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyWidth()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyWidth()"]
                     }
                   ]
                 }
@@ -16066,9 +15069,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyHeight()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyHeight()"]
                     }
                   ]
                 }
@@ -16128,9 +15129,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyHeight()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyHeight()"]
                     }
                   ]
                 }
@@ -16180,9 +15179,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyWidth()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyWidth()"]
                     }
                   ]
                 }
@@ -16378,7 +15375,6 @@
               "description": "",
               "group": "Dimension",
               "extraInformation": [],
-              "hidden": false,
               "name": "Width"
             },
             {
@@ -16388,7 +15384,6 @@
               "description": "",
               "group": "Dimension",
               "extraInformation": [],
-              "hidden": false,
               "name": "Height"
             },
             {
@@ -16398,7 +15393,6 @@
               "description": "",
               "group": "Speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "Clockwise"
             },
             {
@@ -16408,7 +15402,6 @@
               "description": "",
               "group": "Speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "HorizontalEdgeDuration"
             },
             {
@@ -16418,7 +15411,6 @@
               "description": "",
               "group": "Speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "VerticalEdgeDuration"
             },
             {
@@ -16512,7 +15504,6 @@
                 "easeFrom",
                 "easeTo"
               ],
-              "hidden": false,
               "name": "Easing"
             },
             {
@@ -16527,7 +15518,6 @@
                 "Bottom-right corner",
                 "Bottom-left corner"
               ],
-              "hidden": false,
               "name": "InitialPosition"
             },
             {

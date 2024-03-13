@@ -10,7 +10,24 @@
       "scene": "level"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "ru",
+    "sl",
+    "sq",
+    "uk",
+    "zh"
+  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/healthBar/game.json",
   "initialProjectData": {
     "level": "Level",
@@ -22,40 +39,80 @@
         "messageByLocale": {
           "en": "# You've finished this lesson!",
           "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد أنهيت هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
           "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai finito questa lezione!",
+          "ja": "# このレッスンは終了しました！",
+          "ko": "# 이 레슨을 완료했습니다!",
+          "pl": "# Ukończyłeś tę lekcję!",
           "pt": "# Você terminou esta lição!",
           "th": "# คุณเรียนบทเรียนนี้จบแล้ว!",
-          "ar": "# لقد أنهيت هذا الدرس!"
+          "ru": "# Вы завершили этот урок!",
+          "sl": "# Končali ste to lekcijo!",
+          "sq": "# Ju keni perfunduar kete mesim!",
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你完成了这节课！"
         }
       },
       {
         "messageByLocale": {
           "en": "Well done, in this tutorial you've learned how to:",
           "fr": "Bien joué, voici ce que vous avez appris :",
-          "es": "¡Bien hecho! En este tutorial, has aprendido:",
-          "pt": "Bom trabalho, neste tutorial você aprendeu:",
-          "th": "ทำได้ดีเยี่ยม, สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:",
-          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:"
+          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:",
+          "de": "Gut gemacht, in diesem Tutorial hast du geler:",
+          "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+          "it": "Ben fatto, in questo tutorial hai imparato come:",
+          "ja": "このチュートリアルでは、次のことを学びました：",
+          "ko": "이 튜토리얼에서 다음을 배웠습니다.",
+          "pl": "Dobrze, w tym samouczku nauczyłeś się, jak:",
+          "pt": "Bom trabalho, neste tutorial você aprendeu como:",
+          "ru": "Хорошо, в этом уроке вы узнали, как:",
+          "sl": "Bravo, v tem vadnem programu ste se naučili, kako:",
+          "sq": "Bravo, ne kete mesim ju keni mesuar si te:",
+          "th": "ทำได้ดีเยี่ยม, ในบทเรียนนี้คุณได้เรียนรู้วิธี:",
+          "uk": "Добре, в цьому уроці ви дізналися, як:",
+          "zh": "做得好，在本教程中，您学会了如何："
         }
       },
       {
         "messageByLocale": {
-          "en": "- Create a layer\n\n- Add and use a prefab object",
-          "fr": "- Comment créer un calque\n\n- Comment ajouter et utiliser un objet préfabriqué",
-          "es": "- Cómo crear una capa\n\n- Cómo agregar y usar un objeto prefab",
-          "pt": "- Como criar uma camada\n\n- Como adicionar e usar um objeto prefab",
-          "th": "- วิธีสร้างเลเยอร์\n\n- วิธีเพิ่มและวิธีใช้วัตถุ prefab",
-          "ar": "- إنشاء طبقة\n\n- إضافة واستخدام عناصر كائنات جاهزة للاستخدام"
+          "en": "- Use a prefab for a health bar\n\n- Update the health bar based on the player's health",
+          "fr": "- Ajouter et utiliser un objet préfabriqué\n\n- Mettre à jour la barre de vie en fonction de la vie du joueur",
+          "ar": "- استخدام كائن جاهز للاستخدام لشريط الصحة\n\n- تحديث شريط الصحة استنادًا إلى صحة اللاعب",
+          "de": "- Verwenden Sie ein Prefab für eine Gesundheitsleiste\n\n- Aktualisieren Sie die Gesundheitsleiste basierend auf der Gesundheit des Spielers",
+          "es": "- Usar un objeto prefab para una barra de salud\n\n- Actualizar la barra de salud en función de la salud del jugador",
+          "it": "- Utilizzare un prefab per una barra della salute\n\n- Aggiornare la barra della salute in base alla salute del giocatore",
+          "ja": "- プレハブを使用してヘルスバーを作成する\n\n- プレイヤーのヘルスに基づいてヘルスバーを更新する",
+          "ko": "- 건강 막대에 프리팹 사용\n\n- 플레이어의 건강에 따라 건강 막대 업데이트",
+          "pl": "- Użyj prefabrykatu do paska zdrowia\n\n- Zaktualizuj pasek zdrowia na podstawie zdrowia gracza",
+          "pt": "- Usar um prefab para uma barra de saúde\n\n- Atualizar a barra de saúde com base na saúde do jogador",
+          "ru": "- Использовать префаб для полосы здоровья\n\n- Обновлять полосу здоровья на основе здоровья игрока",
+          "sl": "- Uporabite predlogo za zdravstveno vrstico\n\n- Posodobite zdravstveno vrstico na podlagi zdravja igralca",
+          "sq": "- Përdor një prefab për një shirit të shëndetit\n\n- Përditëso shiritin e shëndetit bazuar në shëndetin e lojtarit",
+          "th": "- ใช้ prefab สำหรับ health bar\n\n- อัพเดท health bar ตามค่าเลือดของผู้เล่น",
+          "uk": "- Використовуйте префаб для смуги здоров'я\n\n- Оновлюйте смугу здоров'я на основі здоров'я гравця",
+          "zh": "- 使用预制件制作健康条\n\n- 根据玩家的健康状况更新健康条"
         }
       },
       {
         "messageByLocale": {
           "en": "You can keep adding stuff to this game or publish it!",
           "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !",
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+          "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
           "es": "¡Puedes seguir agregando cosas a este juego o publicarlo!",
+          "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+          "ja": "このゲームにさらに要素を追加するか、公開することができます！",
+          "ko": "이 게임에 더 많은 것을 추가하거나 게시할 수 있습니다!",
+          "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
           "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "ru": "Вы можете продолжать добавлять вещи в эту игру или опубликовать ее!",
+          "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+          "sq": "Ju mund te vazhdoni te shtoni gjera te kete loje, ose publikoje!",
           "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่เลยก็ได้!",
-          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
+          "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+          "zh": "您可以继续为这个游戏添加东西，或者发布它！"
         }
       }
     ]
@@ -69,10 +126,20 @@
           "messageByLocale": {
             "en": "Let's go!",
             "fr": "C'est parti !",
+            "ar": "لنبدأ!",
+            "de": "Los geht's!",
             "es": "¡Vamos!",
+            "it": "Andiamo!",
+            "ja": "さあ、始めましょう！",
+            "ko": "출발!",
+            "pl": "Zaczynamy!",
             "pt": "Vamos lá!",
+            "ru": "Поехали!",
+            "sl": "Gremo!",
+            "sq": "Hajde shkojme!",
             "th": "ไปกันเลย!",
-            "ar": "لنبدأ!"
+            "uk": "Почнемо!",
+            "zh": "让我们开始吧！"
           }
         }
       },
@@ -82,12 +149,81 @@
           "messageByLocale": {
             "en": "This game is a Platformer. Click on the **preview** button to play.\nYou can move the player with the arrow keys, and jump with space.",
             "fr": "Ce jeu est un jeu de plateforme. Cliquez sur le bouton **Aperçu** pour y jouer.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.",
+            "ar": "هذه لعبة منصات. الضغط على الزر **معاينة** للعب.\nيمكنك تحريك الشخصية بواسطة مفاتيح الأسهم، والقفز بواسطة مفتاح المسافة.",
+            "de": "Dieses Spiel ist ein Plattformer. Klicken Sie auf die **Vorschau**-Schaltfläche, um zu spielen.\nSie können den Spieler mit den Pfeiltasten bewegen und mit der Leertaste springen.",
             "es": "Este juego es un plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruébalo** con el botón de **Previsualización**.",
+            "it": "Questo gioco è un platformer. Clicca sul pulsante **Anteprima** per giocare.\nPuoi muovere il giocatore con i tasti freccia e saltare con lo spazio.",
+            "ja": "このゲームはプラットフォーマーです。**プレビュー**ボタンをクリックしてプレイしてください。\n矢印キーでプレイヤーを動かし、スペースでジャンプできます。",
+            "ko": "이 게임은 플랫포머입니다. **미리보기** 버튼을 클릭하여 플레이하세요.\n화살표 키로 플레이어를 이동하고, 스페이스로 점프할 수 있습니다.",
+            "pl": "Ta gra to platformówka. Kliknij przycisk **Podgląd**, aby zagrać.\nMożesz poruszać się graczem za pomocą strzałek i skakać za pomocą spacji.",
             "pt": "Este jogo é um plataforma.\nVocê pode mover o jogador com as teclas de seta e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.",
+            "ru": "Эта игра - платформер. Нажмите на кнопку **предпросмотр**, чтобы поиграть.\nВы можете перемещать игрока с помощью стрелок и прыгать с помощью пробела.",
+            "sl": "Ta igra je platformer. Kliknite na gumb **predogled** za predvajanje.\nIgralca lahko premikate s puščičnimi tipkami in skočite s preslednico.",
+            "sq": "Ky lojë është një platformë. Klikoni në butonin **parashikim** për të luajtur.\nJu mund të lëvizni lojtarin me tastet e shigjetave dhe të kryeni një hop me hapësirën.",
             "th": "นี่เป็นเกม platformer แบบเรียบง่าย\nคุณสามารถเคลื่อนที่ผู้เล่นด้วยปุ่มลูกศรและกระโดดด้วย space bar\n\n**ลดลองเล่นเกม** โดยกดปุ่ม **ดูตัวอย่าง**\n\nเมื่อพร้อมแล้ว กดปุ่มนี้เพื่อไปต่อ",
-            "ar": "هذه لعبة منصات. الضغط على الزر **معاينة** للعب.\nيمكنك تحريك الشخصية بواسطة مفاتيح الأسهم، والقفز بواسطة مفتاح المسافة."
+            "uk": "Ця гра - платформер. Натисніть кнопку **попередній перегляд**, щоб грати.\nВи можете переміщати гравця за допомогою стрілок і стрибати за допомогою пробіла.",
+            "zh": "这个游戏是一个平台游戏。点击**预览**按钮进行游戏。\n你可以用方向键移动玩家，用空格键跳跃。"
           }
         }
+      }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-layers-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-layer-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "First, let's open the **Layers** panel.",
+            "fr": "Premièrement, ouvrons le panneau des **calques**.",
+            "ar": "أولًا، هيّا نفتح لوحة **الطبقات**.",
+            "de": "Zuerst öffnen wir das **Ebenen**-Panel.",
+            "es": "Primero, abramos el panel de **Capas**.",
+            "it": "Prima di tutto, apriamo il pannello **Livelli**.",
+            "ja": "まず、**レイヤー** パネルを開きましょう。",
+            "ko": "먼저 **레이어** 패널을 엽니다.",
+            "pl": "Najpierw otwórzmy panel **Warstwy**.",
+            "pt": "Primeiro, vamos abrir o painel de **Camadas**.",
+            "ru": "Сначала давайте откроем панель **Слои**.",
+            "sl": "Najprej odprite ploščo **Plasti**.",
+            "sq": "Se fillimi, e hapim **Layers** panel.",
+            "th": "เปิดแผงควบคุม **เลเยอร์**",
+            "uk": "Спочатку давайте відкриємо панель **Шари**.",
+            "zh": "首先，让我们打开 **图层** 面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
+      "elementToHighlightId": "#layer-2 #layer-selected-unchecked",
+      "nextStepTrigger": {
+        "presenceOfElement": "#layer-2 #layer-selected-checked"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the **Interface** layer so we can place our health bar inside of it.",
+            "fr": "Sélectionnons le calque **Interface** pour y placer notre barre de vie.",
+            "ar": "حدد طبقة **الواجهة** حتى نتمكن من وضع شريط الصحة بداخلها.",
+            "de": "Wählen Sie die **Interface**-Ebene aus, damit wir unsere Gesundheitsleiste darin platzieren können.",
+            "es": "Selecciona la capa **Interface** para que podamos colocar nuestra barra de salud dentro de ella.",
+            "it": "Seleziona il livello **Interface** in modo da poter posizionare la nostra barra della salute al suo interno.",
+            "ja": "**Interface** レイヤーを選択して、ヘルスバーをその中に配置しましょう。",
+            "ko": "**Interface** 레이어를 선택하여 건강 막대를 그 안에 배치할 수 있도록 합니다.",
+            "pl": "Wybierz warstwę **Interface**, abyśmy mogli umieścić nasz pasek zdrowia wewnątrz niej.",
+            "pt": "Selecione a camada **Interface** para que possamos colocar nossa barra de saúde dentro dela.",
+            "ru": "Выберите слой **Interface**, чтобы мы могли поместить нашу полосу здоровья внутри него.",
+            "sl": "Izberite **Interface** plast, da lahko vanjo postavimo našo zdravstveno vrstico.",
+            "sq": "Zgjidh **Interface** layer që të vendosim shiritin e shëndetit brenda tij.",
+            "th": "เลือก **Interface** เพื่อที่เราจะสามารถวาง health bar ไว้ในนั้น",
+            "uk": "Виберіть **Interface** шар, щоб ми могли розмістити нашу смугу здоров'я всередині нього.",
+            "zh": "选择 **Interface** 图层，这样我们就可以把健康条放在里面。"
+          }
+        },
+        "placement": "top"
       }
     },
     {
@@ -100,10 +236,20 @@
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "ja": "**オブジェクト** パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **obiektów**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **объектов**.",
+            "sl": "Odpri ploščo **objektov**.",
+            "sq": "Hape panelin **Objekte**",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **об'єктів**.",
+            "zh": "打开 **对象** 面板。"
           }
         },
         "placement": "bottom"
@@ -121,10 +267,20 @@
           "messageByLocale": {
             "en": "Let's show players how much health they have left with a health bar.",
             "fr": "Ajoutons une barre de vie pour que le joueur ou la joueuse puisse voir combien de vie il lui reste.",
+            "ar": "هيّا نظهر للاعبين كم تبقى من الصحة لديهم بواسطة شريط الصحة.",
+            "de": "Zeigen wir den Spielern, wie viel Gesundheit sie noch haben, mit einer Gesundheitsleiste.",
             "es": "Agreguemos una barra de salud para que el jugador pueda ver cuánta salud le queda.",
-            "pt": "Vamos adicionar uma barra de saúde para que o jogador veja quanto de sua saúde resta.",
+            "it": "Mostriamo ai giocatori quanta salute gli rimane con una barra della salute.",
+            "ja": "プレイヤーがどれだけの体力を残しているかをヘルスバーで表示しましょう。",
+            "ko": "건강 막대로 플레이어에게 얼마나 많은 체력이 남았는지 보여줍시다.",
+            "pl": "Pokażmy graczom, ile zdrowia im zostało, za pomocą paska zdrowia.",
+            "pt": "Vamos mostrar aos jogadores quanto de saúde eles têm com uma barra de saúde.",
+            "ru": "Давайте покажем игрокам, сколько у них осталось здоровья, с помощью полосы здоровья.",
+            "sl": "Pokažimo igralcem, koliko zdravja jim je ostalo, s pomočjo zdravstvene vrstice.",
+            "sq": "Të tregojmë lojtarëve sa shëndet u ka mbetur me një shirit të shëndetit.",
             "th": "เพิ่ม health bar ให้กับผู้เล่น เพื่อให้สามารถดูได้ว่าเหลือเลือดอยู่เท่าไร",
-            "ar": "هيّا نظهر للاعبين كم تبقى من الصحة لديهم بواسطة شريط الصحة."
+            "uk": "Давайте покажемо гравцям, скільки у них залишилося здоров'я, за допомогою смуги здоров'я.",
+            "zh": "让我们用健康条来显示玩家还剩下多少生命值。"
           }
         }
       }
@@ -139,10 +295,20 @@
           "messageByLocale": {
             "en": "Let's choose a **prefab object** from the asset store",
             "fr": "Nous allons choisir un **objet préfabriqué** dans le magasin de ressources.",
+            "ar": "هيّا نختار **كائن جاهز للاستخدام** من متجر العناصر",
+            "de": "Wählen wir ein **Prefab-Objekt** aus dem Asset-Store aus.",
             "es": "Vamos a elegir un **objeto prefab** de la tienda de recursos.",
+            "it": "Scegliamo un **oggetto prefabbricato** dal negozio di risorse.",
+            "ja": "アセットストアから**プレハブオブジェクト**を選びましょう",
+            "ko": "자산 상점에서 **프리팹 오브젝트**를 선택해봅시다.",
+            "pl": "Wybierzmy **obiekt prefabrykowany** ze sklepu zasobów.",
             "pt": "Vamos escolher um **objeto prefab** da loja de recursos.",
+            "ru": "Давайте выберем **префаб-объект** из магазина ресурсов.",
+            "sl": "Izberimo **predlogo** iz trgovine z viri.",
+            "sq": "Të zgjedhim një **objekt prefab** nga dyqani i burimeve.",
             "th": "เลือก **วัตถุ prefab** จากร้านค้า asset",
-            "ar": "هيّا نختار **كائن جاهز للاستخدام** من متجر العناصر"
+            "uk": "Оберемо **префаб-об'єкт** з магазину ресурсів.",
+            "zh": "让我们从资源商店中选择一个**预制对象**。"
           }
         },
         "placement": "bottom"
@@ -160,10 +326,20 @@
           "messageByLocale": {
             "en": "Let's go back to the store home page.",
             "fr": "Retournons à la page d'accueil du magasin.",
+            "ar": "هيّا نعود إلى صفحة المتجر الرئيسية.",
+            "de": "Gehen wir zurück zur Startseite des Stores.",
             "es": "Volvamos a la página de inicio de la tienda.",
+            "it": "Torniamo alla pagina iniziale del negozio.",
+            "ja": "ストアのホームページに戻りましょう。",
+            "ko": "상점 홈페이지로 돌아가봅시다.",
+            "pl": "Wróćmy do strony głównej sklepu.",
             "pt": "Vamos voltar para a página inicial da loja.",
+            "ru": "Вернемся на главную страницу магазина.",
+            "sl": "Pojdimo nazaj na domačo stran trgovine.",
+            "sq": "Të kthehemi në faqen kryesore të dyqanit.",
             "th": "กลับไปยังหน้าโฮมเพจของร้านค้า",
-            "ar": "هيّا نعود إلى صفحة المتجر الرئيسية."
+            "uk": "Повернемося на головну сторінку магазину.",
+            "zh": "让我们回到商店的主页。"
           }
         },
         "placement": "bottom"
@@ -182,10 +358,20 @@
           "messageByLocale": {
             "en": "We will use an object that comes with pre-made actions and conditions. We call this a **Ready to use object**.",
             "fr": "Nous allons utiliser un objet préfabriqué. C'est un objet qui vient avec ses propres actions et conditions, ce qui simplifie son utilisation.",
+            "ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميه **كائن جاهز للاستخدام**.",
+            "de": "Wir werden ein Objekt verwenden, das mit vorgefertigten Aktionen und Bedingungen geliefert wird. Wir nennen dies ein **Fertig zum Verwenden-Objekt**.",
             "es": "Vamos a usar un objeto prefab. Es un objeto que viene con sus propias acciones y condiciones, lo que simplifica su uso.",
+            "it": "Useremo un oggetto che viene fornito con azioni e condizioni predefinite. Lo chiamiamo **Oggetto pronto all'uso**.",
+            "ja": "事前に作成されたアクションと条件が付属しているオブジェクトを使用します。これを**使用準備完了オブジェクト**と呼びます。",
+            "ko": "미리 만들어진 액션과 조건이 포함된 객체를 사용할 것입니다. 이것을 **사용 준비된 객체**라고 부릅니다.",
+            "pl": "Będziemy używać obiektu, który jest dostarczany z gotowymi akcjami i warunkami. Nazywamy to **Gotowy do użycia obiekt**.",
             "pt": "Vamos usar um objeto prefab. É um objeto que vem com suas próprias ações e condições, o que simplifica seu uso.",
+            "ru": "Мы будем использовать объект, который поставляется с готовыми действиями и условиями. Мы называем это **Готовый к использованию объект**.",
+            "sl": "Uporabili bomo predmet, ki prihaja s predhodno pripravljenimi dejanji in pogoji. Imenujemo ga **Pripravljen za uporabo predmet**.",
+            "sq": "Do të përdorim një objekt që vjen me veprime dhe kushte të parapërgatitura. Ne e quajmë këtë **Objekt gati për përdorim**.",
             "th": "เราจะใช้วัตถุ prefab มันเป็นวัตถุที่มีการกระทำและเงื่อนไขแบบพิเศษ",
-            "ar": "سوف نستخدم كائن يأتي مع إجراءات وشروط معدّة مسبقًا. نحن نسميه **كائن جاهز للاستخدام**."
+            "uk": "Ми будемо використовувати об'єкт, який постачається з готовими діями та умовами. Ми називаємо це **Готовий до використання об'єкт**.",
+            "zh": "我们将使用一个带有预先制作的动作和条件的对象。我们称之为**准备好使用的对象**。"
           }
         }
       },
@@ -201,10 +387,20 @@
           "messageByLocale": {
             "en": "We will use a resource bar that can be filled or emptied.",
             "fr": "Nous allons utiliser une barre de ressource. Elle peut être remplie ou vidée.",
+            "ar": "سوف نستخدم شريط موارد يمكن ملؤه أو إفراغه.",
+            "de": "Wir werden eine Ressourcenleiste verwenden, die gefüllt oder geleert werden kann.",
             "es": "Vamos a usar una barra de recursos que se puede llenar o vaciar.",
+            "it": "Useremo una barra delle risorse che può essere riempita o svuotata.",
+            "ja": "満たすことも空にすることもできるリソースバーを使用します。",
+            "ko": "채울 수도 비울 수도 있는 자원 막대를 사용할 것입니다.",
+            "pl": "Będziemy używać paska zasobów, który można wypełnić lub opróżnić.",
             "pt": "Vamos usar uma barra de recursos que pode ser preenchida ou esvaziada.",
+            "ru": "Мы будем использовать полосу ресурсов, которую можно заполнить или опустошить.",
+            "sl": "Uporabili bomo vrstico virov, ki jo je mogoče napolniti ali izprazniti.",
+            "sq": "Do të përdorim një shirit burimesh që mund të mbushet ose zbrazet.",
             "th": "เราจะใช้ resource bar ที่สามารถเติมให้เต็มหรือล้างให้เกลี้ยงได้",
-            "ar": "سوف نستخدم شريط موارد يمكن ملؤه أو إفراغه."
+            "uk": "Ми будемо використовувати смугу ресурсів, яку можна заповнити або опорожнити.",
+            "zh": "我们将使用一个可以填充或清空的资源条。"
           }
         }
       },
@@ -220,10 +416,20 @@
           "messageByLocale": {
             "en": "Let's choose the hearts bar.",
             "fr": "Choisissons la barre de coeurs.",
+            "ar": "هيّا نختار شريط القلوب.",
+            "de": "Wählen wir die Herzleiste.",
             "es": "Elegimos la barra de corazones.",
+            "it": "Scegliamo la barra dei cuori.",
+            "ja": "ハートバーを選びましょう。",
+            "ko": "하트 바를 선택해봅시다.",
+            "pl": "Wybierzmy pasek serc.",
             "pt": "Vamos escolher a barra de corações.",
+            "ru": "Давайте выберем полосу сердец.",
+            "sl": "Izberimo vrstico src.",
+            "sq": "Të zgjedhim shiritin e zemrave.",
             "th": "มาเลือก hearts bar กัน",
-            "ar": "هيّا نختار شريط القلوب."
+            "uk": "Оберемо смугу сердець.",
+            "zh": "让我们选择心形条。"
           }
         }
       }
@@ -241,10 +447,20 @@
           "messageByLocale": {
             "en": "Let's add it to the scene.",
             "fr": "Ajoutons la à la scène.",
+            "ar": "هيّا نقوم بإضافته إلى المشهد.",
+            "de": "Fügen wir es zur Szene hinzu.",
             "es": "Agreguemosla a la escena.",
+            "it": "Aggiungiamola alla scena.",
+            "ja": "シーンに追加しましょう。",
+            "ko": "씬에 추가해봅시다.",
+            "pl": "Dodajmy to do sceny.",
             "pt": "Vamos adicioná-la à cena.",
+            "ru": "Добавим его в сцену.",
+            "sl": "Dodajmo ga v sceno.",
+            "sq": "Të shtojmë në skenë.",
             "th": "เพิ่มลงไปใน scene",
-            "ar": "هيّا نقوم بإضافته إلى المشهد."
+            "uk": "Додамо його до сцени.",
+            "zh": "让我们把它添加到场景中。"
           }
         },
         "placement": "top"
@@ -260,87 +476,20 @@
           "messageByLocale": {
             "en": "Let's close the asset store.",
             "fr": "Fermons le magasin de ressources",
+            "ar": "هيّا نغلق متجر العناصر.",
+            "de": "Schließen wir den Asset-Store.",
             "es": "Cerramos la tienda de recursos.",
+            "it": "Chiudiamo il negozio di risorse.",
+            "ja": "アセットストアを閉じましょう。",
+            "ko": "자산 상점을 닫아봅시다.",
+            "pl": "Zamknijmy sklep zasobów.",
             "pt": "Vamos fechar a loja de recursos.",
+            "ru": "Давайте закроем магазин ресурсов.",
+            "sl": "Zaprimo trgovino z viri.",
+            "sq": "Të mbyjmë dyqanin e burimeve.",
             "th": "ปิดร้านค้า asset",
-            "ar": "هيّا نغلق متجر العناصر."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#toolbar-open-layers-panel-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#add-layer-button"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open the **Layers** panel.",
-            "fr": "Ouvrez le panneau des **calques**.",
-            "es": "Abre el panel de **Capas**.",
-            "pt": "Abra o painel de **Camadas**.",
-            "th": "เปิดแผงควบคุม **เลเยอร์**",
-            "ar": "فتح لوحة **الطبقات**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "skippable": true
-    },
-    {
-      "elementToHighlightId": "#add-layer-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#layer-2"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We will create a layer for the User Interface (UI) elements.",
-            "fr": "Nous allons créer un calque qui contiendra l'interface utilisateur (IU).",
-            "es": "Vamos a crear una capa que contendrá los elementos de la interfaz de usuario (IU).",
-            "pt": "Vamos criar uma camada que conterá os elementos da interface do usuário (IU).",
-            "th": "เราจะสร้างเลเยอร์ที่จะประกอบไปด้วย User Interface (UI) ต่างๆ",
-            "ar": "سنبدأ بإنشاء طبقة لعناصر واجهة المستخدم."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#layer-2 #layer-name",
-      "nextStepTrigger": {
-        "valueEquals": "Interface"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Change the name to **Interface**.",
-            "fr": "Changeons son nom en **Interface**.",
-            "es": "Cambiamos su nombre a **Interface**.",
-            "pt": "Mudamos o nome para **Interface**.",
-            "th": "เปลี่ยนชื่อเป็น **Interface**",
-            "ar": "تغيير الاسم إلى **Interface**."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#layer-2 #layer-selected-unchecked",
-      "nextStepTrigger": {
-        "presenceOfElement": "#layer-2 #layer-selected-checked"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select this **layer** so we can place our hearts inside of it.",
-            "fr": "Sélectionnons ce **calque** pour y placer $(resourceBar).",
-            "es": "Seleccionemos esta capa como la **capa predeterminada** para agregar objetos.",
-            "pt": "Vamos selecionar esta camada como a **camada padrão** para adicionar objetos.",
-            "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป",
-            "ar": "تحديد هذه **الطبقة** لنتمكن من إدراج القلوب داخلها."
+            "uk": "Давайте закриємо магазин ресурсів.",
+            "zh": "让我们关闭资源商店。"
           }
         },
         "placement": "top"
@@ -356,10 +505,20 @@
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "ja": "**オブジェクト** パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **obiektów**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **объектов**.",
+            "sl": "Odpri ploščo **objektov**.",
+            "sq": "Hape panelin **Objekte**",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **об'єктів**.",
+            "zh": "打开 **对象** 面板。"
           }
         },
         "placement": "bottom"
@@ -376,20 +535,40 @@
           "messageByLocale": {
             "en": "Drag the **$(resourceBar)** to the scene.",
             "fr": "Faites glisser **$(resourceBar)** du menu à la scène.",
+            "ar": "سحب الـ **$(resourceBar)** إلى المشهد.",
+            "de": "Ziehen Sie **$(resourceBar)** in die Szene.",
             "es": "Arrastra **$(resourceBar)** desde el menú a la escena.",
+            "it": "Trascina **$(resourceBar)** nella scena.",
+            "ja": "**$(resourceBar)** をシーンにドラッグしてください。",
+            "ko": "**$(resourceBar)**를 씬으로 끌어다 놓습니다.",
+            "pl": "Przeciągnij **$(resourceBar)** na scenę.",
             "pt": "Arraste **$(resourceBar)** do menu para a cena.",
+            "ru": "Перетащите **$(resourceBar)** на сцену.",
+            "sl": "Povlecite **$(resourceBar)** v sceno.",
+            "sq": "Tërhiqni **$(resourceBar)** në skenë.",
             "th": "ลาก **$(resourceBar)** ใส่ลงใน scene",
-            "ar": "سحب الـ **$(resourceBar)** إلى المشهد."
+            "uk": "Перетягніть **$(resourceBar)** на сцену.",
+            "zh": "将 **$(resourceBar)** 拖到场景中。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "Select the **$(resourceBar)**, then drag it to the scene.",
             "fr": "Sélectionnez **$(resourceBar)**, puis faites-le glisser à la scène.",
+            "ar": "تحديد الـ  **$(resourceBar)** ثم سحبه إلى المشهد.",
+            "de": "Wählen Sie **$(resourceBar)** aus und ziehen Sie es dann in die Szene.",
             "es": "Selecciona **$(resourceBar)**, luego arrástralo a la escena.",
+            "it": "Seleziona **$(resourceBar)**, quindi trascinalo nella scena.",
+            "ja": "**$(resourceBar)** を選択し、シーンにドラッグしてください。",
+            "ko": "**$(resourceBar)**를 선택한 다음 씬으로 끌어다 놓습니다.",
+            "pl": "Wybierz **$(resourceBar)**, a następnie przeciągnij go na scenę.",
             "pt": "Selecione **$(resourceBar)**, em seguida, arraste-o para a cena.",
+            "ru": "Выберите **$(resourceBar)**, затем перетащите его на сцену.",
+            "sl": "Izberite **$(resourceBar)**, nato ga povlecite v sceno.",
+            "sq": "Zgjidh **$(resourceBar)**, pastaj tërhiqeni në skenë.",
             "th": "เลือก **$(resourceBar)** แล้วลากมันเข้า scene",
-            "ar": "تحديد الـ  **$(resourceBar)** ثم سحبه إلى المشهد."
+            "uk": "Виберіть **$(resourceBar)**, а потім перетягніть його на сцену.",
+            "zh": "选择 **$(resourceBar)**，然后将其拖到场景中。"
           }
         }
       }
@@ -400,10 +579,20 @@
           "messageByLocale": {
             "en": "I'm done",
             "fr": "J'ai terminé",
+            "ar": "انتهيت",
+            "de": "Ich bin fertig",
             "es": "He terminado",
+            "it": "Ho finito",
+            "ja": "完了",
+            "ko": "완료",
+            "pl": "Zakończono",
             "pt": "Terminei",
+            "ru": "Я закончил",
+            "sl": "Končano",
+            "sq": "Une mbarova",
             "th": "เสร็จแล้ว",
-            "ar": "انتهيت"
+            "uk": "Закінчено",
+            "zh": "我完成了"
           }
         }
       },
@@ -413,10 +602,20 @@
           "messageByLocale": {
             "en": "See the **black rectangular frame** in the middle of the scene? That is the **camera view**. It frames the part of the game that the player will see.\n\nPlace the $(resourceBar) on the top left corner of the **camera view**.",
             "fr": "Vous voyez le **rectangle noir** au milieu de la scène ? C'est la **vue de la caméra**. C'est le point de vue à partir duquel le joueur verra le jeu.\n\nPlacez $(resourceBar) dans le coin en haut à gauche du rectangle.",
+            "ar": "هل يمكنك رؤية **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بالجزء الذي يمكن للاعبين رؤيته من اللعبة.\n\nإدراج الـ $(resourceBar) في أعلى يسار زاوية **رؤية الكاميرا**.",
+            "de": "Siehst du den **schwarzen rechteckigen Rahmen** in der Mitte der Szene? Das ist die **Kameraperspektive**. Sie umrahmt den Teil des Spiels, den der Spieler sehen wird.\n\nPlatziere $(resourceBar) in der oberen linken Ecke der **Kameraperspektive**.",
             "es": "¿Ves el **rectángulo negro** en el centro de la escena? Esta es la **vista de la cámara**. Es el punto de vista desde el que el jugador verá el juego.\n\nColoca $(resourceBar) en la esquina superior izquierda del rectángulo.",
+            "it": "Vedi il cornice rettangolare nero al centro della scena? Questa è la visuale della telecamera. Incornicia la parte del gioco che il giocatore vedrà.\n\nPosiziona $(resourceBar) nell'angolo in alto a sinistra della visuale della telecamera.",
+            "ja": "シーンの中央にある黒い長方形の枠を見てください。それがカメラビューです。プレイヤーが見るゲームの一部をフレーム内に収めます。\n\n$(resourceBar)をカメラビューの左上隅に配置してください。",
+            "ko": "장면 중앙에 있는 검은 직사각형 프레임을(를) 보세요? 이것이 카메라 뷰입니다. 플레이어가 볼 게임의 일부를 프레임 안에 포함시킵니다.\n\n$(resourceBar)을(를) 카메라 뷰의 왼쪽 상단 모서리에 배치하세요.",
+            "pl": "Zauważ czarną prostokątną ramkę pośrodku sceny? To widok kamery. Ogranicza on część gry, którą gracz będzie widział.\n\nUmieść $(resourceBar) w lewym górnym rogu widoku kamery.",
             "pt": "Você vê o **retângulo preto** no meio da cena? Esta é a **visão da câmera**. É o ponto de vista a partir do qual o jogador verá o jogo.\n\nColoque $(resourceBar) no canto superior esquerdo do retângulo.",
+            "ru": "Заметьте **черный прямоугольный кадр** посередине сцены? Это **вид камеры**. Он ограничивает часть игры, которую увидит игрок.\n\nРазместите $(resourceBar) в левом верхнем углу **вида камеры**.",
+            "sl": "Vidite **črni pravokotni okvir** v sredini prizora? To je **pogled kamere**. Okvirja del igre, ki ga bo igralec videl.\n\nPostavite $(resourceBar) v zgornji levi kot **pogleda kamere**.",
+            "sq": "Shihni **kornizën e zezë drejtkëndëshe** në mes të skenës? Kjo është **pamja e kamerës**. Ajo përcakton pjesën e lojës që lojtari do të shohë.\n\nVendos $(resourceBar) në cepin e sipërm majtë të **pamjes së kamerës**.",
             "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nจัดวาง $(resourceBar) ให้อยู่ในมุมซ้ายบนของสี่เหลี่ยม\n\nเมื่อเสร็จแล้ว คลิกด้านล่าง",
-            "ar": "هل يمكنك رؤية **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بالجزء الذي يمكن للاعبين رؤيته من اللعبة.\n\nإدراج الـ $(resourceBar) في أعلى يسار زاوية **رؤية الكاميرا**."
+            "uk": "Бачите **чорний прямокутний кадр** посередині сцени? Це **вид камери**. Він обмежує частину гри, яку побачить гравець.\n\nРозмістіть $(resourceBar) в лівому верхньому куті **виду камери**.",
+            "zh": "看到场景中间的**黑色矩形框**了吗？那是**相机视图**。它框住了玩家将看到的游戏部分。\n\n将 $(resourceBar) 放在**相机视图**的左上角。"
           }
         },
         "placement": "top",
@@ -435,10 +634,20 @@
           "messageByLocale": {
             "en": "Now we'll link the health of the **$(player)** to **$(resourceBar)**! Click on the tab Events to go to the **Events Sheet** of your $(level) scene.",
             "fr": "Maintenant, branchons la vie du **$(player)** avec **$(resourceBar)** ! Cliquez sur l'onglet Évènements de la scène $(level) pour accéder à la **feuille d'événements**.",
+            "ar": "الآن سوف نربط صحة الـ **$(player)** بالـ **$(resourceBar)**! الضغط على نافذة الأحداث للذهاب إلى **صفحة الأحداث** الخاصة بالمشهد $(level).",
+            "de": "Jetzt verknüpfen wir die Gesundheit des **$(player)** mit **$(resourceBar)**! Klicken Sie auf die Registerkarte Ereignisse, um zum **Ereignisblatt** Ihrer Szene $(level) zu gelangen.",
             "es": "Ahora, conectemos la vida del **$(player)** con **$(resourceBar)**! Abramos la **hoja de eventos** de la escena $(level).",
+            "it": "Ora collegheremo la vita del **$(player)** a **$(resourceBar)**! Clicca sulla scheda Eventi per andare alla **scheda Eventi** della tua scena $(level).",
+            "ja": "今度は **$(player)** の体力を **$(resourceBar)** にリンクしましょう！ イベントタブをクリックして、$(level) シーンの **イベントシート** に移動します。",
+            "ko": "이제 **$(player)**의 체력을 **$(resourceBar)**에 연결해 보겠습니다! **이벤트** 탭을 클릭하여 $(level) 씬의 **이벤트 시트**로 이동합니다.",
+            "pl": "Teraz połączymy zdrowie **$(player)** z **$(resourceBar)**! Kliknij kartę Wydarzenia, aby przejść do **arkusza wydarzeń** sceny $(level).",
             "pt": "Agora, vamos conectar a vida do **$(player)** com **$(resourceBar)**! Vamos **abrir a Folha de Eventos** da cena $(level).",
+            "ru": "Теперь мы свяжем здоровье **$(player)** с **$(resourceBar)**! Нажмите на вкладку События, чтобы перейти к **таблице событий** вашей сцены $(level).",
+            "sl": "Zdaj bomo povezali zdravje **$(player)** z **$(resourceBar)**! Kliknite na zavihek Dogodki, da odprete **preglednico dogodkov** vaše scene $(level).",
+            "sq": "Tani do të lidhim shëndetin e **$(player)** me **$(resourceBar)**! Kliko në skedën Ngjarje për të shkuar te **Fletë e Ngjarjeve** të skenës $(level).",
             "th": "ทีนี้ มาเชื่อมเลือดของ **$(player)** กับ **$(resourceBar)**กันเถอะ! ให้ **เปิดชี้ทอีเวนต์** จาก scene $(level)",
-            "ar": "الآن سوف نربط صحة الـ **$(player)** بالـ **$(resourceBar)**! الضغط على نافذة الأحداث للذهاب إلى **صفحة الأحداث** الخاصة بالمشهد $(level)."
+            "uk": "Тепер ми зв'яжемо здоров'я **$(player)** з **$(resourceBar)**! Натисніть на вкладку Події, щоб перейти до **таблиці подій** вашої сцени $(level).",
+            "zh": "现在我们将把 **$(player)** 的生命值与 **$(resourceBar)** 连接起来！点击事件标签，进入你的 $(level) 场景的 **事件表**。"
           }
         },
         "placement": "bottom"
@@ -455,10 +664,20 @@
           "messageByLocale": {
             "en": "Let's **add an action** to define the number of lifes that will be displayed on $(resourceBar).",
             "fr": "**Ajoutons une action** pour changer le nombre de vies affichées par $(resourceBar).",
+            "ar": "هيّا نقوم ب**إضافة إجراء** لتعريف عدد المحاولات التي سيتم عرضها على $(resourceBar).",
+            "de": "**Fügen wir eine Aktion hinzu**, um die Anzahl der Leben zu definieren, die auf $(resourceBar) angezeigt werden.",
             "es": "**Agreguemos una acción** para cambiar el valor de relleno de $(resourceBar).",
+            "it": "**Aggiungiamo un'azione** per definire il numero di vite che verrà visualizzato su $(resourceBar).",
+            "ja": "$(resourceBar) に表示されるライフの数を定義するために **アクションを追加** しましょう。",
+            "ko": "$(resourceBar)에 표시될 라이프의 수를 정의하기 위해 **액션을 추가**해 보겠습니다.",
+            "pl": "Dodajmy **akcję**, aby zdefiniować liczbę żyć, która będzie wyświetlana na $(resourceBar).",
             "pt": "**Adicionemos uma ação** para alterar o valor de preenchimento de $(resourceBar).",
+            "ru": "Добавим **действие**, чтобы определить количество жизней, которое будет отображаться на $(resourceBar).",
+            "sl": "Dodajmo **dejanje**, da določimo število življenj, ki se bodo prikazala na $(resourceBar).",
+            "sq": "Le të **shtojmë një veprim** për të përcaktuar numrin e jetëve që do të shfaqen në $(resourceBar).",
             "th": "ให้ **เพิ่มการกระทำ** เพื่อเปลี่ยนค่าที่จะเพิ่มขึ้นของ $(resourceBar)",
-            "ar": "هيّا نقوم ب**إضافة إجراء** لتعريف عدد المحاولات التي سيتم عرضها على $(resourceBar)."
+            "uk": "Додаймо **дію**, щоб визначити кількість життів, які будуть відображатися на $(resourceBar).",
+            "zh": "让我们**添加一个动作**来定义在 $(resourceBar) 上显示的生命值的数量。"
           }
         }
       }
@@ -473,10 +692,20 @@
           "messageByLocale": {
             "en": "Select **$(resourceBar)**.",
             "fr": "Sélectionnez **$(resourceBar)**.",
+            "ar": "تحديد **$(resourceBar)**.",
+            "de": "Wähle **$(resourceBar)**.",
             "es": "Seleccione **$(resourceBar)**.",
+            "it": "Seleziona **$(resourceBar)**.",
+            "ja": "**$(resourceBar)** を選択します。",
+            "ko": "**$(resourceBar)**를 선택합니다.",
+            "pl": "Wybierz **$(resourceBar)**.",
             "pt": "Selecione **$(resourceBar)**.",
+            "ru": "Выберите **$(resourceBar)**.",
+            "sl": "Izberi **$(resourceBar)**.",
+            "sq": "Zgjidh **$(resourceBar)**.",
             "th": "เลือก **$(resourceBar)**",
-            "ar": "تحديد **$(resourceBar)**."
+            "uk": "Виберіть **$(resourceBar)**.",
+            "zh": "选择 **$(resourceBar)**。"
           }
         }
       },
@@ -492,33 +721,22 @@
           "messageByLocale": {
             "en": "Select the action **Value**.",
             "fr": "Sélectionnez l'action **Value**.",
+            "ar": "تحديد الإجراء **Value**.",
+            "de": "Wähle die Aktion **Value**.",
             "es": "Seleccione la acción **Value**.",
+            "it": "Seleziona l'azione **Value**.",
+            "ja": "アクション **Value** を選択します。",
+            "ko": "액션 **Value**를 선택합니다.",
+            "pl": "Wybierz akcję **Value**.",
             "pt": "Selecione a ação **Value**.",
+            "ru": "Выберите действие **Value**.",
+            "sl": "Izberi dejanje **Value**.",
+            "sq": "Zgjidh veprimin **Value**.",
             "th": "เลือกการกระทำ **Value**",
-            "ar": "تحديد الإجراء **Value**."
+            "uk": "Виберіть дію **Value**.",
+            "zh": "选择动作 **Value**。"
           }
         }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#parameter-1-operator-field",
-      "nextStepTrigger": {
-        "valueEquals": "="
-      },
-      "skippable": true,
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We want the value of the bar to match the health of $(player), so let's select **= (set to)**.",
-            "fr": "Nous voulons que la barre de vie représente la santé de $(player), donc sélectionnons **= (définir à)**.",
-            "es": "Queremos que el valor de la barra de vida coincida con la salud de $(player), así que seleccionemos **= (establecer en)**.",
-            "pt": "Queremos que o valor da barra de vida corresponda à saúde de $(player), então vamos selecionar **= (definir como)**.",
-            "th": "เราต้องการให้ค่าของ bar เชื่อมกันกับเลือกของ $(player) ดังนั้นเลือก **= (ตั้งเป็น)**",
-            "ar": "نريد أن يكون قيمة الشريط متصلًا بصحة الـ $(player)، لذلك هيّا نحدد **= (تعيين إلى)**."
-          }
-        },
-        "placement": "top"
       },
       "isOnClosableDialog": true
     },
@@ -532,10 +750,20 @@
           "messageByLocale": {
             "en": "Now, let's use the value where the health of $(player) is saved.",
             "fr": "Trouvons où est stockée la santé de $(player).",
+            "ar": "والآن، هيّا نستخدم القيمة التي تكون فيها صحة الـ $(player) محفوظة.",
+            "de": "Lassen Sie uns jetzt den Wert verwenden, in dem die Gesundheit von $(player) gespeichert ist.",
             "es": "Encontremos dónde está almacenada la salud de $(player).",
+            "it": "Ora, usiamo il valore in cui è salvata la vita di $(player).",
+            "ja": "$(player) の体力が保存されている値を使いましょう。",
+            "ko": "$(player)의 체력이 저장된 곳의 값을 사용해 보겠습니다.",
+            "pl": "Teraz użyjmy wartości, w której jest zapisane zdrowie $(player).",
             "pt": "Vamos encontrar onde está armazenada a saúde de $(player).",
+            "ru": "Теперь давайте используем значение, в котором сохранено здоровье $(player).",
+            "sl": "Zdaj uporabimo vrednost, kjer je shranjeno zdravje $(player).",
+            "sq": "Tani, le të përdorim vlerën ku është ruajtur shëndeti i $(player).",
             "th": "มาดูกันว่าค่าเลือดของผู้เล่นเก็บไว้ที่ไหน",
-            "ar": "والآن، هيّا نستخدم القيمة التي تكون فيها صحة الـ $(player) محفوظة."
+            "uk": "Тепер давайте використаємо значення, де зберігається здоров'я $(player).",
+            "zh": "现在，让我们使用保存 $(player) 生命值的值。"
           }
         },
         "placement": "bottom"
@@ -552,10 +780,20 @@
           "messageByLocale": {
             "en": "A **Health extension** has been applied to $(player) to store its lives. Search **Health** to use that value.",
             "fr": "L'**extension Health** (Santé) a été appliquée à $(player) pour stocker son nombre de vies. Cherchez **Health** pour utiliser cette valeur.",
+            "ar": "تم تطبيق الملحق **Health** على الـ $(player) لتخزين صحته. البحث عن **Health**  لاستخدام تلك القيمة.",
+            "de": "$(player) wurde die **Health-Erweiterung** zugewiesen, um seine Leben zu speichern. Suchen Sie nach **Health**, um diesen Wert zu verwenden.",
             "es": "$(player) está configurado para usar la **extensión Health**. Busque **Health**.",
+            "it": "A $(player) è stata applicata l'estensione **Health** per memorizzare le sue vite. Cerca **Health** per usare quel valore.",
+            "ja": "$(player) には **Health 拡張機能** が適用され、そのライフを保存します。その値を使うために **Health** を検索します。",
+            "ko": "$(player)에 **Health 확장 기능**이 적용되어 라이프를 저장합니다. 그 값을 사용하려면 **Health**를 검색하세요.",
+            "pl": "$(player) został zastosowany **rozszerzenie Health**, aby przechowywać swoje życia. Wyszukaj **Health**, aby użyć tej wartości.",
             "pt": "$(player) está configurado para usar a **extensão Health**. Procure por **Health**.",
+            "ru": "К $(player) применено расширение **Health** для хранения его жизней. Найдите **Health**, чтобы использовать это значение.",
+            "sl": "$(player) je bila dodeljena **razširitev Health**, da shrani svoje življenje. Poiščite **Health**, da uporabite to vrednost.",
+            "sq": "$(player) është aplikuar **shtesës së Shëndetit** për të ruajtur jetën e tij. Kërkoni **Shëndet** për të përdorur atë vlerë.",
             "th": "$(player) ตั้งค่าให้ใช้ **Health extension** ค้นหา **Health**",
-            "ar": "تم تطبيق الملحق **Health** على الـ $(player) لتخزين صحته. البحث عن **Health**  لاستخدام تلك القيمة."
+            "uk": "$(player) було застосовано розширення **Health**, щоб зберігати свої життя. Знайдіть **Health**, щоб використати це значення.",
+            "zh": "$(player) 已应用 **Health 扩展** 来存储它的生命。搜索 **Health** 来使用该值。"
           }
         },
         "placement": "top"
@@ -572,10 +810,20 @@
           "messageByLocale": {
             "en": "Select **Health points**.",
             "fr": "Sélectionnez **Health points**.",
+            "ar": "تحديد **Health points**.",
+            "de": "Wählen Sie **Health points**.",
             "es": "Seleccione **Health points**.",
+            "it": "Seleziona **Health points**.",
+            "ja": "**Health points** を選択します。",
+            "ko": "**Health points**를 선택합니다.",
+            "pl": "Wybierz **Health points**.",
             "pt": "Selecione **Health points**.",
+            "ru": "Выберите **Health points**.",
+            "sl": "Izberi **Health points**.",
+            "sq": "Zgjidh **Health points**.",
             "th": "เลือก **Health points**",
-            "ar": "تحديد **Health points**."
+            "uk": "Виберіть **Health points**.",
+            "zh": "选择 **Health points**。"
           }
         },
         "placement": "bottom"
@@ -592,10 +840,20 @@
           "messageByLocale": {
             "en": "Select **$(player)**.",
             "fr": "Sélectionnez **$(player)**.",
+            "ar": "تحديد **$(player)**.",
+            "de": "Wählen Sie **$(player)**.",
             "es": "Seleccione **$(player)**.",
+            "it": "Seleziona **$(player)**.",
+            "ja": "**$(player)** を選択します。",
+            "ko": "**$(player)**를 선택합니다.",
+            "pl": "Wybierz **$(player)**.",
             "pt": "Selecione **$(player)**.",
+            "ru": "Выберите **$(player)**.",
+            "sl": "Izberi **$(player)**.",
+            "sq": "Zgjidh **$(player)**.",
             "th": "เลือก **$(player)**",
-            "ar": "تحديد **$(player)**."
+            "uk": "Виберіть **$(player)**.",
+            "zh": "选择 **$(player)**。"
           }
         },
         "placement": "top"
@@ -612,10 +870,20 @@
           "messageByLocale": {
             "en": "We're good.",
             "fr": "On est bon.",
+            "ar": "نحن على الطريق الصحيح.",
+            "de": "Wir sind fertig.",
             "es": "Estamos bien.",
+            "it": "Siamo a posto.",
+            "ja": "完了です。",
+            "ko": "준비 완료!",
+            "pl": "Jesteśmy gotowi.",
             "pt": "Estamos bem.",
+            "ru": "Мы готовы.",
+            "sl": "V redu smo.",
+            "sq": "Jemi mirë.",
             "th": "เรียบร้อยแล้ว",
-            "ar": "نحن على الطريق الصحيح."
+            "uk": "Ми готові.",
+            "zh": "我们好了。"
           }
         },
         "placement": "top"
@@ -632,10 +900,20 @@
           "messageByLocale": {
             "en": "Everything is all set.",
             "fr": "Tout est bien configuré.",
+            "ar": "تم ضبط كل شيء.",
+            "de": "Alles ist bereit.",
             "es": "Todo está bien configurado.",
+            "it": "Tutto è pronto.",
+            "ja": "すべてが設定されました。",
+            "ko": "모든 것이 준비되었습니다.",
+            "pl": "Wszystko jest gotowe.",
             "pt": "Tudo está configurado.",
+            "ru": "Все готово.",
+            "sl": "Vse je pripravljeno.",
+            "sq": "Gjithçka është e përgatitur.",
             "th": "ทุกอย่างเรียบร้อยแล้ว",
-            "ar": "تم ضبط كل شيء."
+            "uk": "Все готово.",
+            "zh": "一切都准备好了。"
           }
         },
         "placement": "top"
@@ -651,10 +929,20 @@
           "messageByLocale": {
             "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
             "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**.",
+            "de": "Gut, wir sind fertig! Lassen Sie uns unser Spiel testen, um die Änderungen zu sehen, die wir vorgenommen haben! Klicken Sie auf die Schaltfläche **Vorschau**.",
             "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
+            "it": "Bene, abbiamo finito! Proviamo il nostro gioco per vedere le modifiche che abbiamo apportato! Clicca sul pulsante **Anteprima**.",
+            "ja": "よし、完了です！変更を確認するためにゲームをテストしましょう！ **プレビュー** ボタンをクリックします。",
+            "ko": "좋아요, 준비되었습니다! 우리가 한 변경 사항을 확인하기 위해 게임을 테스트해 보겠습니다! **미리보기** 버튼을 클릭하세요.",
+            "pl": "Dobrze, skończyliśmy! Przetestujmy naszą grę, aby zobaczyć zmiany, jakie wprowadziliśmy! Kliknij przycisk **Podgląd**.",
             "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "ru": "Хорошо, мы закончили! Давайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли! Нажмите на кнопку **Предварительный просмотр**.",
+            "sl": "V redu, končali smo! Preizkusimo našo igro, da vidimo spremembe, ki smo jih naredili! Kliknite na gumb **Predogled**.",
+            "sq": "Mirë, kemi përfunduar! Le të testojmë lojën tonë për të parë ndryshimet që kemi bërë! Kliko në butonin **Parashiko**.",
             "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
+            "uk": "Добре, ми закінчили! Давайте протестуємо нашу гру, щоб побачити зміни, які ми внесли! Натисніть на кнопку **Попередній перегляд**.",
+            "zh": "好了，我们完成了！让我们测试一下我们的游戏，看看我们所做的更改！点击 **预览** 按钮。"
           }
         },
         "placement": "bottom"
