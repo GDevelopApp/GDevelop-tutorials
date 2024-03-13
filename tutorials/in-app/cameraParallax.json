@@ -10,7 +10,6 @@
       "scene": "cameraScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/cameraParallax/game.json",
   "initialProjectData": {
     "cameraScene": "CameraScene",

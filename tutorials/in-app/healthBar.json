@@ -10,24 +10,6 @@
       "scene": "level"
     }
   },
-  "availableLocales": [
-    "en",
-    "fr",
-    "ar",
-    "de",
-    "es",
-    "it",
-    "ja",
-    "ko",
-    "pl",
-    "pt",
-    "th",
-    "ru",
-    "sl",
-    "sq",
-    "uk",
-    "zh"
-  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/healthBar/game.json",
   "initialProjectData": {
     "level": "Level",

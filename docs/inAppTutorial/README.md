@@ -28,7 +28,6 @@ Once the repository is installed, open the JSON file with your favorite IDE (VSC
 - Find all the lines corresponding to a field with key `"en"` and duplicate those lines
   - with VSCode, select `"en"` and then hit Ctrl+Shift+L to select all identical occurrences.
 - Translate each new line you created with the above instruction
-- Add the locale you added to field `availableLocales`
 
 **Notes**
 

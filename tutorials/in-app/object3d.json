@@ -14,7 +14,6 @@
       "scene": "gameScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/object3d/game.json",
   "initialProjectData": {
     "gameScene": "GameScene"

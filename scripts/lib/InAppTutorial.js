@@ -11,8 +11,6 @@ class InAppTutorial {
   sourcePath;
   /** @type {string} */
   id;
-  /** @type {Array<string>} */
-  availableLocales;
   /** @type {string | undefined} */
   initialTemplateUrl;
   /** @type { Record<string, string> | undefined} */
@@ -32,7 +30,6 @@ class InAppTutorial {
         );
       }
       this.id = tutorialContent.id;
-      this.availableLocales = tutorialContent.availableLocales;
       this.initialTemplateUrl = tutorialContent.initialTemplateUrl;
       this.initialProjectData = tutorialContent.initialProjectData;
     } catch (error) {
@@ -51,7 +48,6 @@ class InAppTutorial {
     return {
       id: this.id,
       contentUrl: `https://resources.gdevelop-app.com/in-app-tutorials/${this.id}.json`,
-      availableLocales: this.availableLocales,
       initialTemplateUrl: this.initialTemplateUrl,
       initialProjectData: this.initialProjectData,
     };

@@ -30,17 +30,12 @@ An in-app tutorial is a JSON with 4 fields:
   "flow": [...],
   "editorSwitches": {...},
   "endDialog": {...},
-  "availableLocales": [...],
 }
 ```
 
 ### `id`
 
 This id is a string that should be unique across all in-app tutorials.
-
-### `availableLocales`
-
-This is the list of locales for which a translation is available. This can be displayed to the GDevelop user before following the tutorial.
 
 ### `endDialog`
 

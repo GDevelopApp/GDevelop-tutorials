@@ -6,24 +6,6 @@
       "scene": "gameScene"
     }
   },
-  "availableLocales": [
-    "en",
-    "fr",
-    "ar",
-    "de",
-    "es",
-    "it",
-    "ja",
-    "ko",
-    "pl",
-    "pt",
-    "th",
-    "ru",
-    "sl",
-    "sq",
-    "uk",
-    "zh"
-  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/joystick/game.json",
   "initialProjectData": {
     "gameScene": "GameScene",
