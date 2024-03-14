@@ -927,22 +927,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
-            "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "en": "We're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
+            "fr": "Nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
             "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**.",
-            "de": "Gut, wir sind fertig! Lassen Sie uns unser Spiel testen, um die Änderungen zu sehen, die wir vorgenommen haben! Klicken Sie auf die Schaltfläche **Vorschau**.",
-            "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
-            "it": "Bene, abbiamo finito! Proviamo il nostro gioco per vedere le modifiche che abbiamo apportato! Clicca sul pulsante **Anteprima**.",
-            "ja": "よし、完了です！変更を確認するためにゲームをテストしましょう！ **プレビュー** ボタンをクリックします。",
-            "ko": "좋아요, 준비되었습니다! 우리가 한 변경 사항을 확인하기 위해 게임을 테스트해 보겠습니다! **미리보기** 버튼을 클릭하세요.",
-            "pl": "Dobrze, skończyliśmy! Przetestujmy naszą grę, aby zobaczyć zmiany, jakie wprowadziliśmy! Kliknij przycisk **Podgląd**.",
-            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
-            "ru": "Хорошо, мы закончили! Давайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли! Нажмите на кнопку **Предварительный просмотр**.",
-            "sl": "V redu, končali smo! Preizkusimo našo igro, da vidimo spremembe, ki smo jih naredili! Kliknite na gumb **Predogled**.",
-            "sq": "Mirë, kemi përfunduar! Le të testojmë lojën tonë për të parë ndryshimet që kemi bërë! Kliko në butonin **Parashiko**.",
-            "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "uk": "Добре, ми закінчили! Давайте протестуємо нашу гру, щоб побачити зміни, які ми внесли! Натисніть на кнопку **Попередній перегляд**.",
-            "zh": "好了，我们完成了！让我们测试一下我们的游戏，看看我们所做的更改！点击 **预览** 按钮。"
+            "de": "Wir sind fertig! Lassen Sie uns unser Spiel testen, um die Änderungen zu sehen, die wir vorgenommen haben! Klicken Sie auf die **Vorschau**-Schaltfläche.",
+            "es": "¡Hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
+            "it": "abbiamo finito! Proviamo il nostro gioco per vedere le modifiche che abbiamo apportato! Clicca sul pulsante **Anteprima**.",
+            "ja": "完了です！私たちが行った変更を確認するためにゲームをテストしましょう！**プレビュー**ボタンをクリックします。",
+            "ko": "우리는 끝났습니다! 우리가 한 변경 사항을 확인하기 위해 게임을 테스트해 봅시다! **미리보기** 버튼을 클릭합니다.",
+            "pl": "Skończyliśmy! Przetestujmy naszą grę, aby zobaczyć zmiany, jakie wprowadziliśmy! Kliknij przycisk **Podgląd**.",
+            "pt": "Nós terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "ru": "Мы закончили! Давайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли! Нажмите на кнопку **Предварительный просмотр**.",
+            "sl": "Končali smo! Testirajmo našo igro, da vidimo spremembe, ki smo jih naredili! Kliknite na gumb **Predogled**.",
+            "sq": "Kemi përfunduar! Le të testojmë lojën tonë për të parë ndryshimet që kemi bërë! Kliko në butonin **Parashiko**.",
+            "th": "เราเสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราได้ทำ! คลิกที่ปุ่ม **ตัวอย่าง**",
+            "uk": "Ми закінчили! Давайте протестуємо нашу гру, щоб побачити зміни, які ми зробили! Натисніть на кнопку **Попередній перегляд**.",
+            "zh": "我们完成了！让我们测试游戏，看看我们所做的更改！点击**预览**按钮。"
           }
         },
         "placement": "bottom"

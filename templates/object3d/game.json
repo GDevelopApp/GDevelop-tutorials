@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.platformertutorial3d",
@@ -467,6 +469,9 @@
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -907,9 +912,9 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2243,9 +2248,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Goal",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2333,7 +2338,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Background",
-          "tags": "",
           "texture": "BlackCheckered.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -2345,7 +2349,6 @@
           "assetStoreId": "",
           "height": 128,
           "name": "FailMarker",
-          "tags": "",
           "texture": "assets\\RedCheckered.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -2357,7 +2360,6 @@
           "assetStoreId": "",
           "height": 128,
           "name": "Danger",
-          "tags": "",
           "texture": "assets\\RedCheckered.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -2366,9 +2368,9 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Arrow",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2409,7 +2411,6 @@
         {
           "assetStoreId": "c7a381f15f0bb07adc63d78850702df44e8328a15db1ecb10ca1503491ed22a0",
           "name": "FlatLightJoystick",
-          "tags": "",
           "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
           "variables": [],
           "effects": [],
@@ -2417,6 +2418,7 @@
           "content": {},
           "childrenContent": {
             "Border": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -2451,6 +2453,7 @@
               ]
             },
             "Thumb": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -2487,9 +2490,9 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "a9518cbba640f8287edf6c5eb05df6e2f825343bc6440e8d4afe9623831a3afc",
           "name": "AButton",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2546,8 +2549,75 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Platform",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "width": 128,
+            "height": 128,
+            "depth": 128,
+            "enableTextureTransparency": false,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "BlackCheckered.png",
+            "backFaceResourceName": "",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "WhiteCheckered.png",
+            "rightFaceResourceName": "WhiteCheckered.png",
+            "topFaceResourceName": "WhiteCheckered.png",
+            "bottomFaceResourceName": "WhiteCheckered.png",
+            "frontFaceVisible": true,
+            "backFaceVisible": false,
+            "leftFaceVisible": true,
+            "rightFaceVisible": true,
+            "topFaceVisible": true,
+            "bottomFaceVisible": true,
+            "frontFaceResourceRepeat": true,
+            "backFaceResourceRepeat": false,
+            "leftFaceResourceRepeat": true,
+            "rightFaceResourceRepeat": true,
+            "topFaceResourceRepeat": true,
+            "bottomFaceResourceRepeat": true,
+            "materialType": "Basic"
+          }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Player"
+          },
+          {
+            "objectName": "Goal"
+          },
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "FailMarker"
+          },
+          {
+            "objectName": "Danger"
+          },
+          {
+            "objectName": "Arrow"
+          },
+          {
+            "objectName": "FlatLightJoystick"
+          },
+          {
+            "objectName": "AButton"
+          },
+          {
+            "objectName": "Platform"
+          }
+        ]
+      },
       "events": [
         {
           "colorB": 116,
@@ -2839,7 +2909,14 @@
               "parameters": [""]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": ["Platform", "Object3D", "=", "-64"]
+            }
+          ]
         }
       ],
       "layers": [
@@ -2850,6 +2927,7 @@
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
@@ -2866,6 +2944,7 @@
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
@@ -2893,6 +2972,7 @@
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
@@ -2909,8 +2989,28 @@
           "type": "AnchorBehavior::AnchorBehavior"
         },
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
           "name": "MultitouchButton",
           "type": "SpriteMultitouchJoystick::MultitouchButton"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
         },
         {
           "name": "PlatformerCharacterAnimator",
@@ -2923,6 +3023,14 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         },
         {
           "name": "SmoothCamera",
@@ -5255,7 +5363,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -5265,7 +5372,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "JoystickIdentifier"
             },
             {
@@ -5275,7 +5381,6 @@
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DeadZoneRadius"
             },
             {
@@ -5638,7 +5743,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -5648,7 +5752,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ButtonIdentifier"
             },
             {
@@ -5853,7 +5956,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "Property"
             },
             {
@@ -5863,7 +5965,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -5873,7 +5974,6 @@
               "description": "",
               "group": "Controls",
               "extraInformation": ["Primary", "Secondary"],
-              "hidden": false,
               "name": "JoystickIdentifier"
             },
             {
@@ -5883,7 +5983,6 @@
               "description": "",
               "group": "Controls",
               "extraInformation": [],
-              "hidden": false,
               "name": "JumpButton"
             }
           ],
@@ -6348,7 +6447,6 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
-              "hidden": false,
               "name": "TopDownMovement"
             },
             {
@@ -6358,7 +6456,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -6368,7 +6465,6 @@
               "description": "",
               "group": "",
               "extraInformation": ["Primary", "Secondary"],
-              "hidden": false,
               "name": "JoystickIdentifier"
             },
             {
@@ -6378,7 +6474,6 @@
               "description": "",
               "group": "Controls",
               "extraInformation": ["Analog", "360°", "8 Directions"],
-              "hidden": false,
               "name": "StickMode"
             }
           ],
@@ -7215,7 +7310,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -7225,7 +7319,6 @@
               "description": "",
               "group": "",
               "extraInformation": ["Primary", "Secondary"],
-              "hidden": false,
               "name": "JoystickIdentifier"
             },
             {
@@ -7235,7 +7328,6 @@
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DeadZoneRadius"
             },
             {
@@ -7281,9 +7373,9 @@
           ],
           "objects": [
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Thumb",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -7304,9 +7396,9 @@
               ]
             },
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Border",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -7339,7 +7431,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Thumb"
+              },
+              {
+                "objectName": "Border"
+              }
+            ]
+          }
         }
       ]
     },
@@ -8471,7 +8574,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "EnableAnimationChanges"
             },
             {
@@ -8481,7 +8583,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "EnableHorizontalFlipping"
             },
             {
@@ -8491,7 +8592,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "IdleAnimationName"
             },
             {
@@ -8501,7 +8601,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "RunAnimationName"
             },
             {
@@ -8511,7 +8610,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "JumpAnimationName"
             },
             {
@@ -8521,7 +8619,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "FallAnimationName"
             },
             {
@@ -8531,7 +8628,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "ClimbAnimationName"
             },
             {
@@ -8543,7 +8639,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerBehavior"
             }
           ],
@@ -12843,7 +12938,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "LeftwardSpeed"
             },
             {
@@ -12853,7 +12947,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "RightwardSpeed"
             },
             {
@@ -12863,7 +12956,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "UpwardSpeed"
             },
             {
@@ -12873,7 +12965,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "DownwardSpeed"
             },
             {
@@ -12883,7 +12974,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowOnX"
             },
             {
@@ -12893,7 +12983,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowOnY"
             },
             {
@@ -12904,7 +12993,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaLeft"
             },
             {
@@ -12915,7 +13003,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaRight"
             },
             {
@@ -12926,7 +13013,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaTop"
             },
             {
@@ -12937,7 +13023,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaBottom"
             },
             {
@@ -12948,7 +13033,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "CameraOffsetX"
             },
             {
@@ -12959,7 +13043,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "CameraOffsetY"
             },
             {
@@ -12970,7 +13053,6 @@
               "description": "",
               "group": "Timing",
               "extraInformation": [],
-              "hidden": false,
               "name": "CameraDelay"
             },
             {
@@ -12981,7 +13063,6 @@
               "description": "",
               "group": "Timing",
               "extraInformation": [],
-              "hidden": false,
               "name": "ForecastTime"
             },
             {
@@ -12992,7 +13073,6 @@
               "description": "",
               "group": "Timing",
               "extraInformation": [],
-              "hidden": false,
               "name": "ForecastHistoryDuration"
             },
             {
@@ -13263,7 +13343,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "LeftwardSpeedMax"
             },
             {
@@ -13274,7 +13353,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "RightwardSpeedMax"
             },
             {
@@ -13285,7 +13363,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "UpwardSpeedMax"
             },
             {
@@ -13296,7 +13373,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "DownwardSpeedMax"
             },
             {
@@ -13551,7 +13627,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerCharacter"
             },
             {
@@ -13561,7 +13636,6 @@
               "description": "",
               "group": "",
               "extraInformation": ["SmoothCamera::SmoothCamera"],
-              "hidden": false,
               "name": "SmoothCamera"
             },
             {
@@ -13582,7 +13656,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirFollowFreeAreaTop"
             },
             {
@@ -13593,7 +13666,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirFollowFreeAreaBottom"
             },
             {
@@ -13604,7 +13676,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorFollowFreeAreaTop"
             },
             {
@@ -13615,7 +13686,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorFollowFreeAreaBottom"
             },
             {
@@ -13625,7 +13695,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirUpwardSpeed"
             },
             {
@@ -13635,7 +13704,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirDownwardSpeed"
             },
             {
@@ -13645,7 +13713,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorUpwardSpeed"
             },
             {
@@ -13655,7 +13722,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorDownwardSpeed"
             },
             {
@@ -13666,7 +13732,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirUpwardSpeedMax"
             },
             {
@@ -13677,7 +13742,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirDownwardSpeedMax"
             },
             {
@@ -13688,7 +13752,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorUpwardSpeedMax"
             },
             {
@@ -13699,7 +13762,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorDownwardSpeedMax"
             }
           ],

@@ -80,6 +80,33 @@ describe('In app tutorials content checks', () => {
     }
   });
 
+  test('all translations have all the defined locales', () => {
+    /** @type {{ tutorialId: string, missingLocale: string, messageByLocale: Object} []} */
+    const errors = [];
+    allInAppTutorials.forEach((tutorial) => {
+      const allMessagesByLocale = getAllMessagesByLocale(tutorial);
+      const availableLocales = tutorial.availableLocales;
+      allMessagesByLocale.forEach((messageByLocale) => {
+        for (const locale of availableLocales) {
+          if (!messageByLocale[locale]) {
+            errors.push({
+              tutorialId: tutorial.id,
+              missingLocale: locale,
+              messageByLocale,
+            });
+          }
+        }
+      });
+    });
+
+    if (errors.length > 0) {
+      console.error(errors);
+      throw new Error(
+        'There are missing translations in some tutorials, check the console for more details'
+      );
+    }
+  });
+
   test('references to project data are not corrupt', () => {
     /** @type {Record<string, Array<string>>} */
     const messagesWithCorruptProjectDataByTutorial = {};
