@@ -10,7 +10,24 @@
       "scene": "cameraScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "ru",
+    "sl",
+    "sq",
+    "uk",
+    "zh"
+  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/cameraParallax/game.json",
   "initialProjectData": {
     "cameraScene": "CameraScene",
@@ -24,40 +41,80 @@
         "messageByLocale": {
           "en": "# You've finished this lesson!",
           "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد أنهيت هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
           "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai finito questa lezione!",
+          "ja": "# このレッスンは終了しました！",
+          "ko": "# 이 레슨을 완료했습니다!",
+          "pl": "# Ukończyłeś tę lekcję!",
           "pt": "# Você terminou esta lição!",
           "th": "# คุณเรียนบทเรียนนี้จบแล้ว!",
-          "ar": "# لقد أنهيت هذا الدرس!"
+          "ru": "# Вы завершили этот урок!",
+          "sl": "# Končali ste to lekcijo!",
+          "sq": "# Ju keni perfunduar kete mesim!",
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你完成了这节课！"
         }
       },
       {
         "messageByLocale": {
-          "en": "Well done, in this tutorial you've learned:",
-          "fr": "Bien joué, dans ce tutoriel vous avez appris :",
-          "es": "¡Bien hecho, en este tutorial aprendiste:",
-          "pt": "Bem feito, neste tutorial você aprendeu:",
-          "th": "ทำได้ดีเยี่ยม, สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:",
-          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:"
+          "en": "Well done, in this tutorial you've learned how to:",
+          "fr": "Bien joué, voici ce que vous avez appris :",
+          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:",
+          "de": "Gut gemacht, in diesem Tutorial hast du geler:",
+          "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+          "it": "Ben fatto, in questo tutorial hai imparato come:",
+          "ja": "このチュートリアルでは、次のことを学びました：",
+          "ko": "이 튜토리얼에서 다음을 배웠습니다.",
+          "pl": "Dobrze, w tym samouczku nauczyłeś się, jak:",
+          "pt": "Bom trabalho, neste tutorial você aprendeu como:",
+          "ru": "Хорошо, в этом уроке вы узнали, как:",
+          "sl": "Bravo, v tem vadnem programu ste se naučili, kako:",
+          "sq": "Bravo, ne kete mesim ju keni mesuar si te:",
+          "th": "ทำได้ดีเยี่ยม, ในบทเรียนนี้คุณได้เรียนรู้วิธี:",
+          "uk": "Добре, в цьому уроці ви дізналися, як:",
+          "zh": "做得好，在本教程中，您学会了如何："
         }
       },
       {
         "messageByLocale": {
-          "en": "- How to create a layer\n\n- How to add an extension\n\n- How to control the camera\n\n- How to make Tiled Sprites move at different speeds",
-          "fr": "- Comment créer un calque\n\n- Comment ajouter une extension\n\n- Comment contrôler la caméra\n\n- Comment faire bouger des Tiled Sprites à différentes vitesses",
-          "es": "- Cómo crear una capa\n\n- Cómo agregar una extensión\n\n- Cómo controlar la cámara\n\n- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
-          "pt": "- Como criar uma camada\n\n- Como adicionar uma extensão\n\n- Como controlar a câmera\n\n- Como fazer Tiled Sprites se movem a diferentes velocidades",
-          "th": "- วิธีสร้างเลเยอร์\n\n- วิธีเพิ่ม extension\n\n- วิธีควบคุมกล้อง\n\n- วิธีทำให้ Tiled Sprites เคลื่อนที่ด้วยค่าความเร็วต่างๆ",
-          "ar": "- إنشاء طبقة\n\n- إضافة ملحق\n\n- التحكم في الكاميرا\n\n- إنشاء كائنات مبلطة تتحرك بسرعات مختلفة"
+          "en": "- How to add an extension\n\n- How to control the camera\n\n- How to make Tiled Sprites move at different speeds",
+          "fr": "- Comment ajouter une extension\n\n- Comment contrôler la caméra\n\n- Comment faire bouger des Tiled Sprites à différentes vitesses",
+          "ar": "- إضافة ملحق\n\n- التحكم في الكاميرا\n\n- إنشاء كائنات مبلطة تتحرك بسرعات مختلفة",
+          "de": "- Eine Erweiterung hinzufügen\n\n- Die Kamera steuern\n\n- Tiled Sprites mit unterschiedlichen Geschwindigkeiten bewegen",
+          "es": "- Cómo agregar una extensión\n\n- Cómo controlar la cámara\n\n- Cómo hacer que los Tiled Sprites se muevan a diferentes velocidades",
+          "it": "- Come aggiungere un'estensione\n\n- Come controllare la telecamera\n\n- Come fare in modo che i Tiled Sprites si muovano a diverse velocità",
+          "ja": "- 拡張機能の追加方法\n\n- カメラの制御方法\n\n- タイルスプライトを異なる速度で動かす方法",
+          "ko": "- 확장 기능 추가 방법\n\n- 카메라 제어 방법\n\n- 타일 스프라이트를 다른 속도로 움직이게 하는 방법",
+          "pl": "- Jak dodać rozszerzenie\n\n- Jak kontrolować kamerę\n\n- Jak sprawić, by kafelkowe obiekty poruszały się z różnymi prędkościami",
+          "pt": "- Como adicionar uma extensão\n\n- Como controlar a câmera\n\n- Como fazer Tiled Sprites se movem a diferentes velocidades",
+          "ru": "- Как добавить расширение\n\n- Как управлять камерой\n\n- Как заставить Tiled Sprites двигаться с разной скоростью",
+          "sl": "- Kako dodati razširitev\n\n- Kako nadzirati kamero\n\n- Kako narediti, da se Tiled Sprites premikajo z različnimi hitrostmi",
+          "sq": "- Si te shtosh nje zgjerim\n\n- Si te kontrollosh kameren\n\n- Si te besh qe Tiled Sprites te levizin me shpejtesi te ndryshme",
+          "th": "- วิธีเพิ่ม extension\n\n- วิธีควบคุมกล้อง\n\n- วิธีทำให้ Tiled Sprites เคลื่อนที่ด้วยค่าความเร็วต่างๆ",
+          "uk": "- Як додати розширення\n\n- Як керувати камерою\n\n- Як зробити, щоб Tiled Sprites рухалися з різною швидкістю",
+          "zh": "- 如何添加扩展\n\n- 如何控制摄像机\n\n- 如何使平铺精灵以不同速度移动"
         }
       },
       {
         "messageByLocale": {
           "en": "You can keep adding stuff to this game or publish it!",
           "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !",
-          "es": "¡Puedes seguir agregando cosas a este juego o publicarlo !",
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+          "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
+          "es": "¡Puedes seguir agregando cosas a este juego o publicarlo!",
+          "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+          "ja": "このゲームにさらに要素を追加するか、公開することができます！",
+          "ko": "이 게임에 더 많은 것을 추가하거나 게시할 수 있습니다!",
+          "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
           "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "ru": "Вы можете продолжать добавлять вещи в эту игру или опубликовать ее!",
+          "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+          "sq": "Ju mund te vazhdoni te shtoni gjera te kete loje, ose publikoje!",
           "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่เลยก็ได้!",
-          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
+          "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+          "zh": "您可以继续为这个游戏添加东西，或者发布它！"
         }
       }
     ]
@@ -74,43 +131,43 @@
           "messageByLocale": {
             "en": "Let's improve this platformer game by following the character with the camera!",
             "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra !",
+            "ar": "هيّا نحسن لعبة المنصات هذه بمتابعة الشخصية بواسطة الكاميرا!",
+            "de": "Verbessern wir dieses Plattformspiel, indem wir dem Charakter mit der Kamera folgen!",
             "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara!",
+            "it": "Miglioriamo questo gioco platform seguendo il personaggio con la telecamera!",
+            "ja": "キャラクターをカメラで追いかけることで、このプラットフォーマーゲームを改善しましょう！",
+            "ko": "캐릭터를 카메라로 따라가면서 이 플랫포머 게임을 개선해 봅시다!",
+            "pl": "Ulepszmy tę grę platformową, śledząc postać za pomocą kamery!",
             "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera!",
+            "ru": "Улучшим эту платформенную игру, следуя за персонажем с помощью камеры!",
+            "sl": "Izboljšajmo to platformno igro, tako da sledimo liku s kamero!",
+            "sq": "Përmirësojmë këtë lojë platforme duke ndjekur personazhin me kamerën!",
             "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ",
-            "ar": "هيّا نحسن لعبة المنصات هذه بمتابعة الشخصية بواسطة الكاميرا!"
+            "uk": "Покращимо цю платформенну гру, слідуючи за персонажем за допомогою камери!",
+            "zh": "让我们通过用摄像机跟随角色来改进这个平台游戏！"
           }
         },
         "description": {
           "messageByLocale": {
             "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**.",
             "fr": "Pour cela, nous allons installer une **extension**.\n\nOuvrez le **Gestionnaire de projet**.",
+            "ar": "لفعل هذا، سوف نقوم بتثبيت **ملحق**.\n\nفتح **مدير المشروع**.",
+            "de": "Dafür werden wir eine **Erweiterung** installieren.\n\nÖffnen Sie den **Projekt-Manager**.",
             "es": "Para esto, instalaremos una **extensión**.\n\nAbre el **Administrador de proyectos**.",
+            "it": "Per questo, installeremo un **estensione**.\n\nApri il **Gestore del progetto**.",
+            "ja": "そのために、**拡張機能**をインストールします。\n\n**プロジェクトマネージャ**を開きます。",
+            "ko": "이를 위해 **확장 기능**을 설치할 것입니다.\n\n**프로젝트 관리자**를 엽니다.",
+            "pl": "W tym celu zainstalujemy **rozszerzenie**.\n\nOtwórz **Menedżera projektu**.",
             "pt": "Para isso, instalaremos uma **extensão**.\n\nAbra o **Gerenciador de projetos**.",
+            "ru": "Для этого мы установим **расширение**.\n\nОткройте **Менеджер проектов**.",
+            "sl": "Za to bomo namestili **razširitev**.\n\nOdpri **Upravitelj projekta**.",
+            "sq": "Për këtë, ne do të instalojmë një **zgjerim**.\n\nHapni **Menaxherin e Projektit**.",
             "th": "โดยเราจะติดตั้ง **extension**.\n\nเปิด **โปรเจกต์เมเนเจอร์**",
-            "ar": "لفعل هذا، سوف نقوم بتثبيت **ملحق**.\n\nفتح **مدير المشروع**."
+            "uk": "Для цього ми встановимо **розширення**.\n\nВідкрийте **Менеджер проектів**.",
+            "zh": "为此，我们将安装一个**扩展**。\n\n打开**项目管理器**。"
           }
         }
       }
-    },
-    {
-      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-tab-extensions",
-      "nextStepTrigger": {
-        "presenceOfElement": "#project-manager-extension-search-or-create"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open the **Extensions** tab.",
-            "fr": "Ouvrez l'onglet **Extensions**.",
-            "es": "Abre la pestaña **Extensiones**.",
-            "pt": "Abra a guia **Extensões**.",
-            "th": "เปิด **แท็บ Extensions**",
-            "ar": "فتح نافذة **الملحقات**."
-          }
-        }
-      },
-      "isOnClosableDialog": true,
-      "skippable": true
     },
     {
       "elementToHighlightId": "#project-manager-extension-search-or-create",
@@ -120,12 +177,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Open the extension store",
-            "fr": "Ouvrez le **Magasin d'extension**.",
-            "es": "Abre la **tienda de extensiones**",
-            "pt": "Abra a **loja de extensões**",
-            "th": "เปิด **ร้านค้า extension**",
-            "ar": "فتح متجر الملحقات."
+            "en": "Let's add an **Extension**.",
+            "fr": "Ajoutons une **extension**.",
+            "ar": "هيّا نضيف **ملحق**.",
+            "de": "Fügen wir eine **Erweiterung** hinzu.",
+            "es": "Agreguemos una **extensión**.",
+            "it": "Aggiungiamo un **estensione**.",
+            "ja": "**拡張機能**を追加しましょう。",
+            "ko": "**확장 기능**을 추가해 봅시다.",
+            "pl": "Dodajmy **rozszerzenie**.",
+            "pt": "Vamos adicionar uma **extensão**.",
+            "ru": "Добавим **расширение**.",
+            "sl": "Dodajmo **razširitev**.",
+            "sq": "Le të shtojmë një **zgjerim**.",
+            "th": "เรามาเพิ่ม **extension**",
+            "uk": "Додамо **розширення**.",
+            "zh": "让我们添加一个**扩展**。"
           }
         },
         "placement": "top"
@@ -142,10 +209,20 @@
           "messageByLocale": {
             "en": "Search for the **smooth camera** extension.",
             "fr": "Cherchez l'extension **smooth camera**.",
+            "ar": "البحث عن الملحق **smooth camera**.",
+            "de": "Suchen Sie nach der **smooth camera**-Erweiterung.",
             "es": "Busca la extensión **smooth camera**.",
+            "it": "Cerca l'estensione **smooth camera**.",
+            "ja": "**smooth camera** 拡張機能を検索します。",
+            "ko": "**smooth camera** 확장 기능을 검색합니다.",
+            "pl": "Wyszukaj rozszerzenie **smooth camera**.",
             "pt": "Procure pela extensão **smooth camera**.",
+            "ru": "Ищите расширение **smooth camera**.",
+            "sl": "Iščite po **smooth camera** razširitvi.",
+            "sq": "Kërkoni për zgjerimin **smooth camera**.",
             "th": "ค้นหา extension **smooth camera**",
-            "ar": "البحث عن الملحق **smooth camera**."
+            "uk": "Шукайте розширення **smooth camera**.",
+            "zh": "搜索**smooth camera**扩展。"
           }
         }
       },
@@ -162,10 +239,20 @@
           "messageByLocale": {
             "en": "Click on the extension **Smooth Camera**.",
             "fr": "Cliquez sur l'extension **Smooth Camera**.",
+            "ar": "الضغط على الملحق **Smooth Camera**.",
+            "de": "Klicken Sie auf die **Smooth Camera**-Erweiterung.",
             "es": "Haz clic en la extensión **Smooth Camera**.",
+            "it": "Fai clic sull'estensione **Smooth Camera**.",
+            "ja": "拡張機能 **Smooth Camera** をクリックします。",
+            "ko": "확장 기능 **Smooth Camera**을 클릭합니다.",
+            "pl": "Kliknij rozszerzenie **Smooth Camera**.",
             "pt": "Clique na extensão **Smooth Camera**.",
+            "ru": "Нажмите на расширение **Smooth Camera**.",
+            "sl": "Kliknite na razširitev **Smooth Camera**.",
+            "sq": "Klikoni në zgjerimin **Smooth Camera**.",
             "th": "คลิกที่ extension **Smooth Camera**",
-            "ar": "الضغط على الملحق **Smooth Camera**."
+            "uk": "Клацніть на розширення **Smooth Camera**.",
+            "zh": "点击**Smooth Camera**扩展。"
           }
         }
       },
@@ -181,10 +268,20 @@
           "messageByLocale": {
             "en": "Install the extension in your project.",
             "fr": "Installez l'extension au projet.",
+            "ar": "تثبيت الملحق في مشروعك.",
+            "de": "Installieren Sie die Erweiterung in Ihrem Projekt.",
             "es": "Instala la extensión en tu proyecto.",
+            "it": "Installa l'estensione nel tuo progetto.",
+            "ja": "プロジェクトに拡張機能をインストールします。",
+            "ko": "프로젝트에 확장 기능을 설치합니다.",
+            "pl": "Zainstaluj rozszerzenie w swoim projekcie.",
             "pt": "Instale a extensão no seu projeto.",
+            "ru": "Установите расширение в свой проект.",
+            "sl": "Namestite razširitev v svojem projektu.",
+            "sq": "Instaloni zgjerimin në projektin tuaj.",
             "th": "ติดตั้ง extension ในโปรเจกต์ของคุณ",
-            "ar": "تثبيت الملحق في مشروعك."
+            "uk": "Встановіть розширення в свій проект.",
+            "zh": "在您的项目中安装扩展。"
           }
         },
         "placement": "top"
@@ -201,10 +298,20 @@
           "messageByLocale": {
             "en": "Let's close this dialog.",
             "fr": "Fermons cette fenêtre.",
+            "ar": "هيّا نغلق هذا.",
+            "de": "Schließen wir diesen Dialog.",
             "es": "Cerramos esta ventana.",
+            "it": "Chiudiamo questo dialogo.",
+            "ja": "このダイアログを閉じましょう。",
+            "ko": "이 대화 상자를 닫아 봅시다.",
+            "pl": "Zamknijmy to okno dialogowe.",
             "pt": "Vamos fechar esta janela.",
+            "ru": "Давайте закроем это диалоговое окно.",
+            "sl": "Zaprimo ta pogovorno okno.",
+            "sq": "Le të mbyejmë këtë dialog.",
             "th": "ปิดหน้าต่างนี้",
-            "ar": "هيّا نغلق هذا."
+            "uk": "Давайте закриємо це діалогове вікно.",
+            "zh": "让我们关闭这个对话框。"
           }
         }
       },
@@ -220,10 +327,20 @@
           "messageByLocale": {
             "en": "Let's close the menu.",
             "fr": "Fermons le menu.",
+            "ar": "لنغلق هذه القائمة.",
+            "de": "Schließen wir das Menü.",
             "es": "Cerramos el menú.",
+            "it": "Chiudiamo il menu.",
+            "ja": "メニューを閉じましょう。",
+            "ko": "메뉴를 닫아 봅시다.",
+            "pl": "Zamknijmy menu.",
             "pt": "Vamos fechar o menu.",
+            "ru": "Давайте закроем меню.",
+            "sl": "Zaprimo meni.",
+            "sq": "Le të mbyejmë menunë.",
             "th": "ปิดเมนู",
-            "ar": "لنغلق هذه القائمة."
+            "uk": "Давайте закриємо меню.",
+            "zh": "让我们关闭菜单。"
           }
         }
       },
@@ -239,10 +356,20 @@
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello degli **oggetti**.",
+            "ja": "**オブジェクト**パネルを開きます。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiektów**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri **Objekte** ploščo.",
+            "sq": "Hapni panelin e **Objekteve**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
           }
         },
         "placement": "bottom"
@@ -260,20 +387,40 @@
           "messageByLocale": {
             "en": "Let's attach the Camera to our player with the help of **behaviors**:\n\nclick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
             "fr": "Ajoutons maintenant l'extension à notre joueur.\n\nCliquez droit sur **$(player)** ou utilisez le menu à 3 points et sélectionnez **Modifier les comportements**.",
+            "ar": "هيّا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nالضغط على الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **$(player)** وتحديد **تحرير السلوكيات**.",
+            "de": "Lassen Sie uns die Kamera mit Hilfe von **Verhalten** an unseren Charakter anhängen:\n\nKlicken Sie auf das 3-Punkte-Menü oder klicken Sie mit der rechten Maustaste auf **$(player)** und wählen Sie **Verhalten bearbeiten**.",
             "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nHaz clic derecho en **$(player)** o usa el menú de 3 puntos y selecciona **Editar comportamientos**.",
+            "it": "Attacchiamo la telecamera al nostro giocatore con l'aiuto dei **comportamenti**:\n\nclicca sul menu a 3 punti, o fai clic con il tasto destro su **$(player)** e seleziona **Modifica comportamenti**.",
+            "ja": "キャラクターにカメラを**振る舞い**のヘルプで取り付けましょう：\n\n3点メニューをクリックするか、**$(player)** を右クリックして **振る舞いの編集** を選択します。",
+            "ko": "플레이어에 카메라를 **행동**의 도움으로 부착해 봅시다:\n\n3 점 메뉴를 클릭하거나 **$(player)**을 마우스 오른쪽 버튼으로 클릭하고 **행동 편집**을 선택합니다.",
+            "pl": "Załączmy kamerę do naszego gracza za pomocą **zachowań**:\n\nkliknij menu 3 kropek lub kliknij prawym przyciskiem myszy na **$(player)** i wybierz **Edytuj zachowania**.",
             "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nClique com o botão direito em **$(player)** ou use o menu de 3 pontos e selecione **Editar comportamentos**.",
+            "ru": "Прикрепим камеру к нашему игроку с помощью **поведения**:\n\nнажмите на меню 3 точки или щелкните правой кнопкой мыши на **$(player)** и выберите **Изменить поведение**.",
+            "sl": "Pripnimo kamero našemu igralcu s pomočjo **vedenj**:\n\nkliknite na meni 3 pik ali z desno miškino tipko kliknite na **$(player)** in izberite **Uredi vedenja**.",
+            "sq": "Le të bashkëngjisim kamerën me lojtarin tonë me ndihmën e **sjelljeve**:\n\nklikoni në menunë 3 pikë ose klikoni me të djathtën në **$(player)** dhe zgjidhni **Ndrysho sjelljet**.",
             "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nคลิกขวาที่ **$(player)** หรือกดเมนู 3 จุด แล้วเลือก **แก้ไขพฤติกรรม**",
-            "ar": "هيّا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nالضغط على الثلاث نقاط، أو النقر على زر الفأرة الأيمن على الـ **$(player)** وتحديد **تحرير السلوكيات**."
+            "uk": "Прикріпимо камеру до нашого гравця за допомогою **поведінки**:\n\nнатисніть на меню 3 крапки або клацніть правою кнопкою миші на **$(player)** і виберіть **Редагувати поведінку**.",
+            "zh": "让我们通过**行为**将摄像机附加到我们的角色上：\n\n点击3点菜单，或右键单击**$(player)**，然后选择**编辑行为**。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "Let's attach the Camera to our player with the help of **behaviors**:\n\nSelect then long-press **$(player)**, and select **Edit behaviors**.",
             "fr": "Ajoutons maintenant l'extension à notre joueur.\n\nSélectionnez puis appuyez longuement sur **$(player)** et sélectionnez **Modifier les comportements**.",
+            "ar": "هيّا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nتحديد، ثم ضغطة مطولة على الـ **$(player)** وتحديد **تحرير السلوكيات**.",
+            "de": "Lassen Sie uns die Kamera mit Hilfe von **Verhalten** an unseren Charakter anhängen:\n\nWählen und halten Sie **$(player)** und wählen Sie **Verhalten bearbeiten**.",
             "es": "Sigamos nuestro jugador con la Cámara con la ayuda de los **comportamientos**.\n\nSelecciona y pulsa largo **$(player)** y selecciona **Editar comportamientos**.",
+            "it": "Attacchiamo la telecamera al nostro giocatore con l'aiuto dei **comportamenti**:\n\nSeleziona e tieni premuto **$(player)** e seleziona **Modifica comportamenti**.",
+            "ja": "キャラクターにカメラを**振る舞い**のヘルプで取り付けましょう：\n\n**$(player)** を選択して長押しし、**振る舞いの編集** を選択します。",
+            "ko": "플레이어에 카메라를 **행동**의 도움으로 부착해 봅시다:\n\n선택하고 길게 눌러 **$(player)**을 선택하고 **행동 편집**을 선택합니다.",
+            "pl": "Załączmy kamerę do naszego gracza za pomocą **zachowań**:\n\nwybierz i przytrzymaj **$(player)**, a następnie wybierz **Edytuj zachowania**.",
             "pt": "Vamos seguir nosso jogador com a Câmera com a ajuda de **comportamentos**.\n\nSelecione e pressione por um longo tempo **$(player)** e selecione **Editar comportamentos**.",
+            "ru": "Прикрепим камеру к нашему игроку с помощью **поведения**:\n\nвыберите и удерживайте **$(player)**, и выберите **Изменить поведение**.",
+            "sl": "Pripnimo kamero našemu igralcu s pomočjo **vedenj**:\n\nizberite in dolgo pritisnite **$(player)** in izberite **Uredi vedenja**.",
+            "sq": "Le të bashkëngjisim kamerën me lojtarin tonë me ndihmën e **sjelljeve**:\n\nzgjidhni dhe mbani shtypur **$(player)**, dhe zgjidhni **Ndrysho sjelljet**.",
             "th": "ทีนี้ เพิ่ม extension ใส่ลงในผู้เล่น\n\nเลือกแล้วกดค้างที่ **$(player)** แล้วเลือก **แก้ไขพฤติกรรม**",
-            "ar": "هيّا نصل الكاميرا بشخصيتنا بمساعدة **السلوكيات**:\n\nتحديد، ثم ضغطة مطولة على الـ **$(player)** وتحديد **تحرير السلوكيات**."
+            "uk": "Прикріпимо камеру до нашого гравця за допомогою **поведінки**:\n\nвиберіть і утримуйте **$(player)**, і виберіть **Редагувати поведінку**.",
+            "zh": "让我们通过**行为**将摄像机附加到我们的角色上：\n\n选择并长按**$(player)**，然后选择**编辑行为**。"
           }
         }
       }
@@ -288,10 +435,20 @@
           "messageByLocale": {
             "en": "See the **behaviors** of the **object** here.",
             "fr": "Les **comportements** de **l'objet** se trouvent dans cet onglet.",
+            "ar": "رؤية **سلوكيات الكائن** من هنا.",
+            "de": "Hier sehen Sie die **Verhalten** des **Objekts**.",
             "es": "Los **comportamientos** del **objeto** se encuentran en esta pestaña.",
+            "it": "Vedi i **comportamenti** dell'**oggetto** qui.",
+            "ja": "ここに**オブジェクト**の**振る舞い**があります。",
+            "ko": "여기서 **오브젝트**의 **행동**을 볼 수 있습니다.",
+            "pl": "Zobacz **zachowania** **obiektu** tutaj.",
             "pt": "Os **comportamentos** do **objeto** estão nesta guia.",
+            "ru": "Здесь вы увидите **поведение** **объекта**.",
+            "sl": "Tukaj vidite **vedenja** **objekta**.",
+            "sq": "Shihni **sjelljet** e **objektit** këtu.",
             "th": "ดู **พฤติกรรม** ของ **วัตถุ** ที่นี่",
-            "ar": "رؤية **سلوكيات الكائن** من هنا."
+            "uk": "Тут ви побачите **поведінку** **об'єкта**.",
+            "zh": "在这里查看**对象**的**行为**。"
           }
         },
         "placement": "bottom"
@@ -309,10 +466,20 @@
           "messageByLocale": {
             "en": "Let's add the **Smooth Camera** behavior that we've just installed.",
             "fr": "Ajoutons le comportement **Smooth Camera** que nous venons d'installer.",
+            "ar": "هيّا نقوم بإضافة السلوك **Smooth Camera** الذي قمنا بتثبيته للتو.",
+            "de": "Fügen wir das **Smooth Camera**-Verhalten hinzu, das wir gerade installiert haben.",
             "es": "Añadamos el comportamiento **Smooth Camera** que acabamos de instalar.",
+            "it": "Aggiungiamo il comportamento **Smooth Camera** che abbiamo appena installato.",
+            "ja": "さっきインストールした**Smooth Camera**の振る舞いを追加しましょう。",
+            "ko": "방금 설치한 **Smooth Camera** 행동을 추가해 봅시다.",
+            "pl": "Dodajmy zachowanie **Smooth Camera**, które właśnie zainstalowaliśmy.",
             "pt": "Vamos adicionar o comportamento **Smooth Camera** que acabamos de instalar.",
+            "ru": "Добавим поведение **Smooth Camera**, которое мы только что установили.",
+            "sl": "Dodajmo **Smooth Camera** vedenje, ki smo ga pravkar namestili.",
+            "sq": "Le të shtojmë sjelljen **Smooth Camera** që sapo instaluam.",
             "th": "เพิ่มพฤติกรรม **Smooth Camera** ที่เพิ่งได้ติดตั้ง",
-            "ar": "هيّا نقوم بإضافة السلوك **Smooth Camera** الذي قمنا بتثبيته للتو."
+            "uk": "Додамо поведінку **Smooth Camera**, яку ми щойно встановили.",
+            "zh": "让我们添加刚刚安装的**Smooth Camera**行为。"
           }
         }
       },
@@ -328,10 +495,20 @@
           "messageByLocale": {
             "en": "Select the **Smooth Camera** behavior.",
             "fr": "Sélectionnez le comportement **Smooth Camera**.",
+            "ar": "تحديد السلوك **Smooth Camera**.",
+            "de": "Wählen Sie das **Smooth Camera**-Verhalten aus.",
             "es": "Selecciona el comportamiento **Smooth Camera**.",
+            "it": "Seleziona il comportamento **Smooth Camera**.",
+            "ja": "**Smooth Camera**の振る舞いを選択します。",
+            "ko": "**Smooth Camera** 행동을 선택합니다.",
+            "pl": "Wybierz zachowanie **Smooth Camera**.",
             "pt": "Selecione o comportamento **Smooth Camera**.",
+            "ru": "Выберите поведение **Smooth Camera**.",
+            "sl": "Izberite **Smooth Camera** vedenje.",
+            "sq": "Zgjidhni sjelljen **Smooth Camera**.",
             "th": "เลือกพฤติกรรม **Smooth Camera**",
-            "ar": "تحديد السلوك **Smooth Camera**."
+            "uk": "Виберіть поведінку **Smooth Camera**.",
+            "zh": "选择**Smooth Camera**行为。"
           }
         }
       },
@@ -347,10 +524,20 @@
           "messageByLocale": {
             "en": "**Uncheck** the Y axis (vertical) checkbox, to make the camera follow the character only horizontally (X axis).",
             "fr": "**Décochez** la case de l'axe Y (vertical), pour que la caméra suive le personnage uniquement horizontalement (axe X).",
+            "ar": "**إلغاء تحديد** خيار الـ Y axis (العمودية)، لجعل الكاميرا تتتبع الشخصية أفقيًا فقط (X axis).",
+            "de": "**Deaktivieren** Sie das Kontrollkästchen für die Y-Achse (vertikal), um die Kamera nur horizontal (X-Achse) dem Charakter folgen zu lassen.",
             "es": "**Desactiva** la casilla del eje Y (vertical) para que la cámara siga el personaje solamente de manera horizontal (eje X).",
+            "it": "**Deseleziona** la casella dell'asse Y (verticale), per far sì che la telecamera segua il personaggio solo orizzontalmente (asse X).",
+            "ja": "カメラがキャラクターを水平方向（X軸）のみ追うようにするために、Y軸（垂直）のチェックボックスを**外します**。",
+            "ko": "카메라가 캐릭터를 수평적으로만(X축) 따르도록 하려면, Y축(수직) 체크박스를 **해제**합니다.",
+            "pl": "**Odznacz** pole wyboru osi Y (pionowej), aby kamera śledziła postać tylko poziomo (osi X).",
             "pt": "Desmarque** a caixa do eixo Y (vertical), para que a câmera siga o personagem apenas na horizontal (eixo X).",
+            "ru": "**Снимите флажок** с оси Y (вертикальной), чтобы камера следила за персонажем только горизонтально (по оси X).",
+            "sl": "**Odkljukajte** polje za os Y (navpično), da bo kamera sledila osebi samo vodoravno (os X).",
+            "sq": "**Hiqni zgjedhjen** e boshtit Y (vertikal), që kamera të ndjekë personazhin vetëm horizontalisht (boshti X).",
             "th": "ทำให้กล้องติดตามเฉพาะแกน X (แนวนอน) เท่านั้น โดย **เอาเครื่องหมายเช็คออก** จาก checkbox นี้",
-            "ar": "**إلغاء تحديد** خيار الـ Y axis (العمودية)، لجعل الكاميرا تتتبع الشخصية أفقيًا فقط (X axis)."
+            "uk": "**Зняти позначку** з осі Y (вертикальної), щоб камера слідкувала за персонажем тільки горизонтально (по осі X).",
+            "zh": "取消 Y 轴（垂直）复选框，使摄像机只在水平方向（X 轴）上跟随角色。"
           }
         }
       },
@@ -366,10 +553,20 @@
           "messageByLocale": {
             "en": "That's it! Now the camera will **follow our player only horizontally**!",
             "fr": "C'est tout ! La caméra va **suivre notre joueur horizontalement** !",
+            "ar": "هذا كل شيء، الآن ستقوم الكاميرا ب**متابعة الشخصية أفقيًا فقط**!",
+            "de": "Das ist es! Jetzt wird die Kamera **nur horizontal unserem Charakter folgen**!",
             "es": "¡Eso es todo! ¡Ahora la cámara **seguirá a nuestro jugador unicamente de manera horizontal**!",
+            "it": "Ecco fatto! Ora la telecamera **seguirà il nostro giocatore solo orizzontalmente**!",
+            "ja": "以上です！これでカメラは**キャラクターを水平方向のみ追う**ようになります！",
+            "ko": "이것으로 끝났습니다! 이제 카메라는 **플레이어를 수평적으로만 따를 것**입니다!",
+            "pl": "To wszystko! Teraz kamera będzie **śledzić naszego gracza tylko poziomo**!",
             "pt": "É isso aí! Agora a câmera **seguirá nosso jogador unicamente de jeito horizontal**!",
+            "ru": "Вот и всё! Теперь камера будет **следовать за нашим игроком только горизонтально**!",
+            "sl": "To je to! Zdaj bo kamera **sledila našemu igralcu samo vodoravno**!",
+            "sq": "Kështu është! Tani kamera do të **ndjekë lojtarin tonë vetëm horizontalisht**!",
             "th": "เรียบร้อยแล้ว! กล้องจะ **ติดตามผู้เล่นในแนวนอน**!",
-            "ar": "هذا كل شيء، الآن ستقوم الكاميرا ب**متابعة الشخصية أفقيًا فقط**!"
+            "uk": "Ось і все! Тепер камера буде **слідкувати за нашим гравцем тільки горизонтально**!",
+            "zh": "就是这样！现在摄像机将**只在水平方向上跟随我们的角色**！"
           }
         }
       }
@@ -384,10 +581,20 @@
           "messageByLocale": {
             "en": "Next we will add the background. Open the **Layers** panel.",
             "fr": "Ensuite, nous allons ajouter le background, ouvrez le panneau des **calques**.",
+            "ar": "وفي المرحلة الثانية سنقوم بإضافة الخلفية، فتح لوحة **الطبقات**.",
+            "de": "Als nächstes fügen wir den Hintergrund hinzu. Öffnen Sie das **Ebenen**-Panel.",
             "es": "A continuación, agregaremos el fondo. Abre el panel de **Capas**.",
+            "it": "Successivamente aggiungeremo lo sfondo. Apri il pannello **Livelli**.",
+            "ja": "次に背景を追加します。**レイヤー**パネルを開きます。",
+            "ko": "다음으로 배경을 추가할 것입니다. **레이어** 패널을 엽니다.",
+            "pl": "Następnie dodamy tło. Otwórz panel **Warstwy**.",
             "pt": "Em seguida, vamos adicionar o fundo. Abra o painel de **Camadas**.",
+            "ru": "Затем мы добавим фон. Откройте панель **Слои**.",
+            "sl": "Naslednjič bomo dodali ozadje. Odpri **Plasti** ploščo.",
+            "sq": "Pastaj do të shtojmë sfondin. Hapni panelin e **Shtresave**.",
             "th": "ต่อไปเราจะเพิ่มพื้นหลัง เปิดแผงควบคุม **Layers**",
-            "ar": "وفي المرحلة الثانية سنقوم بإضافة الخلفية، فتح لوحة **الطبقات**."
+            "uk": "Далі ми додамо фон. Відкрийте панель **Шари**.",
+            "zh": "接下来我们将添加背景。打开**图层**面板。"
           }
         },
         "placement": "bottom"
@@ -395,76 +602,29 @@
       "skippable": true
     },
     {
-      "elementToHighlightId": "#add-layer-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#layer-2"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's **add a new layer** for our background.",
-            "fr": "Créons un **nouveau calque** pour notre fond.",
-            "es": "Vamos a **agregar una nueva capa** para nuestro fondo.",
-            "pt": "Vamos **adicionar uma nova camada** para nosso fundo.",
-            "th": "**เพิ่มเลเยอร์ใหม่** สำหรับพื้นหลัง",
-            "ar": "هيّا نقوم ب**إضافة طبقة** لخلفيتنا."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#layer-2 #layer-name",
-      "nextStepTrigger": {
-        "valueEquals": "Background"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Change the name of the layer to **Background**.",
-            "fr": "Changez le nom du calque pour **Background**.",
-            "es": "Cambia el nombre de la capa por **Background**.",
-            "pt": "Mude o nome da camada para **Background**.",
-            "th": "เปลี่ยนชื่อเป็น **Background**",
-            "ar": "تغيير اسم الطبقة إلى **Background**."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#layer-2 #layer-selected-unchecked",
-      "nextStepTrigger": {
-        "presenceOfElement": "#layer-2 #layer-selected-checked"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Now select this Background **layer** so we can start adding objects to it.",
-            "fr": "Sélectionnez maintenant le **calque** Background afin que nous puissions commencer à y ajouter des objets.",
-            "es": "Ahora selecciona la **capa** Background para que podamos empezar a agregarle objetos.",
-            "pt": "Agora selecione a **camada** Background para que possamos começar a adicionar objetos a ela.",
-            "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป",
-            "ar": "والآن تحديد هذه **الطبقة** حتى نتمكن من بدء إضافة كائنات فيه."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "#layer-2 #layer-drag-handle",
+      "elementToHighlightId": "#layer-0 #layer-selected-unchecked",
       "nextStepTrigger": {
         "presenceOfElement": "#layer-0 #layer-selected-checked"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Now let's make sure the background decoration will appear behind the player. **Drag** this Background layer **under** Base Layer. \n\nUse this handle to **drag it below base layer**",
-            "fr": "Assurons-nous maintenant que l'arrière-plan apparaîtra derrière le personnage. **Faites glisser** ce calque d'arrière-plan **sous** Couche de base.\n\nGlissez le curseur **en dessous de Calque de base**",
-            "es": "Ahora asegurémonos de que la decoración del fondo aparezca detrás del jugador. **Arrastra** esta capa de fondo **debajo** de la capa base.\n\nUsa este control para **arrastrarla debajo de la capa base**",
-            "pt": "Agora vamos nos certificar de que a decoração do fundo aparecerá atrás do jogador. **Arraste** esta camada de fundo **abaixo** da camada base.\n\nUse este controle para **arrastá-la abaixo da camada base**",
-            "th": "ตรวจสอบว่าพื้นหลังจะแสดงอยู่หลังจากผู้เล่น ลากเลเยอร์นี้ไป **ล่างสุด** ของเลเยอร์เริ่มต้น",
-            "ar": "والآن لنتأكد من أن الخلفية ستظهر خلف الشخصية. **سحب** هذه الطبقة إلى **أسفل** الطبقة الأساسية. \n\n استخدام هذا المقبض **لسحبها أسفل الطبقة الأساسية**."
+            "en": "Now select the Background **layer** so we can start adding objects to it.",
+            "fr": "Sélectionnez maintenant le **calque** Background afin que nous puissions commencer à y ajouter des objets.",
+            "ar": "والآن تحديد هذه **الطبقة** حتى نتمكن من بدء إضافة كائنات فيه.",
+            "de": "Wählen Sie jetzt diese Hintergrund-**Ebene** aus, damit wir anfangen können, Objekte hinzuzufügen.",
+            "es": "Ahora selecciona la **capa** Background para que podamos empezar a agregarle objetos.",
+            "it": "Seleziona ora questo **livello** di sfondo in modo che possiamo iniziare ad aggiungervi degli oggetti.",
+            "ja": "次にこの背景の**レイヤー**を選択して、そこにオブジェクトを追加できるようにします。",
+            "ko": "이제 이 배경 **레이어**를 선택하여 여기에 오브젝트를 추가할 수 있도록 합시다.",
+            "pl": "Teraz wybierz ten **poziom** tła, abyśmy mogli zacząć dodawać do niego obiekty.",
+            "pt": "Agora selecione a **camada** Background para que possamos começar a adicionar objetos a ela.",
+            "ru": "Теперь выберите этот **слой** фона, чтобы мы могли начать добавлять объекты.",
+            "sl": "Zdaj izberite ta **sloj** ozadja, da lahko začnemo dodajati predmete nanj.",
+            "sq": "Tani zgjidhni këtë **shtresë** sfondi që të mund të fillojmë të shtojmë objekte në të.",
+            "th": "เลือกเลเยอร์นี้เป็น **เลเยอร์เริ่มต้น** เอาไว้สำหรับเพิ่มวัตถุเข้าไป",
+            "uk": "Тепер виберіть цей **шар** фону, щоб ми могли почати додавати об'єкти.",
+            "zh": "现在选择这个背景**图层**，这样我们就可以开始向其中添加对象。"
           }
         },
         "placement": "top"
@@ -480,10 +640,20 @@
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "ja": "**オブジェクト**パネルを開きます。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri **Predmete** ploščo.",
+            "sq": "Hapni panelin e **Objekteve**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
           }
         },
         "placement": "bottom"
@@ -500,20 +670,40 @@
           "messageByLocale": {
             "en": "Perfect! Now let's add **$(farBackground)** to our game by dragging it to the center.",
             "fr": "Parfait ! Ajoutons maintenant **$(farBackground)** à notre jeu en le faisant glisser au centre.",
+            "ar": "ممتاز! الآن هيّا نقوم بإضافة الـ **$(farBackground)** إلى لعبتنا بسحبه إلى المركز.",
+            "de": "Perfekt! Fügen wir **$(farBackground)** jetzt unserem Spiel hinzu, indem wir es in die Mitte ziehen.",
             "es": "¡Perfecto! Ahora agreguemos **$(farBackground)** a nuestro juego arrastrándolo al centro.",
+            "it": "Perfetto! Ora aggiungiamo **$(farBackground)** al nostro gioco trascinandolo al centro.",
+            "ja": "完璧です！**$(farBackground)** を中央にドラッグしてゲームに追加しましょう。",
+            "ko": "완벽합니다! 이제 **$(farBackground)**를 가운데로 끌어서 게임에 추가해 봅시다.",
+            "pl": "Doskonale! Teraz dodajmy **$(farBackground)** do naszej gry, przeciągając go do środka.",
             "pt": "Perfeito! Agora vamos adicionar **$(farBackground)** ao nosso jogo, arrastando-o para o centro.",
+            "ru": "Отлично! Теперь добавим **$(farBackground)** в нашу игру, перетащив его в центр.",
+            "sl": "Odlično! Sedaj dodajmo **$(farBackground)** v našo igro tako, da ga povlečemo v sredino.",
+            "sq": "E shkëlqyer! Tani le të shtojmë **$(farBackground)** në lojën tonë duke e tërhequr në qendër.",
             "th": "สมบูรณ์แบบ! ทีนี้เพิ่ม **$(farBackground)** ไปยังเกมของเราโดยลากมันไปวางตรงกลาง",
-            "ar": "ممتاز! الآن هيّا نقوم بإضافة الـ **$(farBackground)** إلى لعبتنا بسحبه إلى المركز."
+            "uk": "Чудово! Тепер додамо **$(farBackground)** до нашої гри, перетягнувши його в центр.",
+            "zh": "完美！现在让我们把**$(farBackground)**拖到中间，添加到我们的游戏中。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "Perfect! Now let's add **$(farBackground)** to our game by **selecting** then **dragging** it to the center.",
             "fr": "Parfait ! Ajoutons maintenant **$(farBackground)** à notre jeu en le **sélectionnant** puis en le faisant glisser au centre.",
+            "ar": "ممتاز! الآن هيّا نقوم بإضافة الـ **$(farBackground)** إلى لعبتنا بـ**تحديده** ثم **سحبه** إلى المركز.",
+            "de": "Perfekt! Fügen wir **$(farBackground)** jetzt unserem Spiel hinzu, indem wir es **auswählen** und dann in die Mitte **ziehen**.",
             "es": "¡Perfecto! Ahora agreguemos **$(farBackground)** a nuestro juego **seleccionándolo** y luego arrastrándolo al centro.",
+            "it": "Perfetto! Ora aggiungiamo **$(farBackground)** al nostro gioco **selezionandolo** e poi trascinandolo al centro.",
+            "ja": "完璧です！**$(farBackground)** を**選択**してから中央に**ドラッグ**してゲームに追加しましょう。",
+            "ko": "완벽합니다! 이제 **$(farBackground)**를 **선택**한 다음 가운데로 **끌어서** 게임에 추가해 봅시다.",
+            "pl": "Doskonale! Teraz dodajmy **$(farBackground)** do naszej gry, **wybierając** go, a następnie **przeciągając** do środka.",
             "pt": "Perfeito! Agora vamos adicionar **$(farBackground)** ao nosso jogo, **selecionando** e depois arrastando-o para o centro.",
+            "ru": "Отлично! Теперь добавим **$(farBackground)** в нашу игру, **выбрав** его и затем **перетащив** в центр.",
+            "sl": "Odlično! Sedaj dodajmo **$(farBackground)** v našo igro tako, da ga **izberemo** in nato **povlečemo** v sredino.",
+            "sq": "E shkëlqyer! Tani le të shtojmë **$(farBackground)** në lojën tonë duke e **zgjedhur** atë, pastaj duke e **tërhequr** në qendër.",
             "th": "สมบูรณ์แบบ! ทีนี้เพิ่ม **$(farBackground)** ไปยังเกมของเราโดย **เลือก** แล้ว **ลาก** มันไปวางตรงกลาง",
-            "ar": "ممتاز! الآن هيّا نقوم بإضافة الـ **$(farBackground)** إلى لعبتنا بـ**تحديده** ثم **سحبه** إلى المركز."
+            "uk": "Чудово! Тепер додамо **$(farBackground)** до нашої гри, **вибравши** його, а потім **перетягнувши** в центр.",
+            "zh": "完美！现在让我们通过**选择**然后**拖动**到中间，把**$(farBackground)**添加到我们的游戏中。"
           }
         },
         "placement": "top"
@@ -525,10 +715,20 @@
           "messageByLocale": {
             "en": "I'm done",
             "fr": "J'ai terminé",
+            "ar": "انتهيت",
+            "de": "Fertig",
             "es": "Ya terminé",
+            "it": "Ho finito",
+            "ja": "完了",
+            "ko": "완료",
+            "pl": "Zakończono",
             "pt": "Terminei",
+            "ru": "Я закончил",
+            "sl": "Končano",
+            "sq": "Përfundoa",
             "th": "ฉันทำเสร็จแล้ว",
-            "ar": "انتهيت"
+            "uk": "Закінчено",
+            "zh": "我完成了"
           }
         }
       },
@@ -538,10 +738,20 @@
           "messageByLocale": {
             "en": "See the **black rectangular frame** in the middle of the scene? That is the **camera view**. It frames the part of the game that the player will see.\n\nResize the **$(farBackground)** object so it covers the whole camera view.",
             "fr": "Vous voyez le **cadre rectangulaire noir** au milieu de la scène ? C'est la **vue de la caméra**. Il encadre la partie du jeu que le joueur verra.\n\nRedimensionnez l'objet **$(farBackground)** afin qu'il couvre toute la vue de la caméra.",
+            "ar": "هل يمكنك رؤية **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بالجزء الذي يمكن للاعبين رؤيته من اللعبة.\n\nإعادة ضبط حجم الـ **$(farBackground)** لتغطى رؤية الكاميرا بالكامل.",
+            "de": "Siehst du den **schwarzen rechteckigen Rahmen** in der Mitte der Szene? Das ist die **Kameraperspektive**. Sie umrahmt den Teil des Spiels, den der Spieler sehen wird.\n\nÄndere die Größe des Objekts **$(farBackground)**, damit es die gesamte Kameraperspektive abdeckt.",
             "es": "¿Ves el **marco rectangular negro** en el medio de la escena? Esa es la **vista de la cámara**. Sirve para enmarcar la parte del juego que verá el jugador.\n\nCambia el tamaño del objeto **$(farBackground)** para que cubra toda la vista de la cámara.",
+            "it": "Vedi il **cornice rettangolare nero** al centro della scena? Questa è la **visuale della telecamera**. Incornicia la parte del gioco che il giocatore vedrà.\n\nRidimensiona l'oggetto **$(farBackground)** in modo che copra l'intera vista della telecamera.",
+            "ja": "シーンの中央にある**黒い長方形の枠**を見てください。それが**カメラビュー**です。プレイヤーが見るゲームの一部をフレーム内に収めます。\n\n**$(farBackground)**オブジェクトをリサイズして、カメラビュー全体を覆うようにします。",
+            "ko": "장면 중앙에 있는 **검은 직사각형 프레임**을(를) 보세요? 이것이 **카메라 뷰**입니다. 플레이어가 볼 게임의 일부를 프레임 안에 포함시킵니다.\n\n**$(farBackground)** 객체의 크기를 조정하여 전체 카메라 뷰를 덮도록 합니다.",
+            "pl": "Zauważ **czarną prostokątną ramkę** pośrodku sceny? To **widok kamery**. Ogranicza on część gry, którą gracz będzie widział.\n\nZmień rozmiar obiektu **$(farBackground)** tak, aby pokrywał całą widok kamery.",
             "pt": "Você ve a **moldura retangular preta** no meio da cena? Essa é a **visão da câmera**. Ela enquadra a parte do jogo que o jogador verá.\n\nVamos redimensionar o objeto **$(farBackground)** para que ele cubra todo o retângulo preto.",
+            "ru": "Видите **черный прямоугольный кадр** посередине сцены? Это **вид камеры**. Он ограничивает часть игры, которую увидит игрок.\n\nИзмените размер объекта **$(farBackground)** так, чтобы он покрывал весь вид камеры.",
+            "sl": "Vidite **črni pravokotni okvir** na sredini prizora? To je **kamerna perspektiva**. Okvirja del igre, ki ga bo igralec videl.\n\nSpremenite velikost predmeta **$(farBackground)**, da pokrije celotno kamerno perspektivo.",
+            "sq": "Shihni **kornizën e zezë e drejtkëndëshit** në mes të skenës? Kjo është **pamja e kamerës**. Ajo përcakton pjesën e lojës që lojtari do të shohë.\n\nRregulloni madhësinë e objektit **$(farBackground)** që të mbulojë tërë pamjen e kamerasë.",
             "th": "เห็น **สี่เหลี่ยมสีดำ** ตรงกลางของ scene ไหม? นั่นคือ**มุมมองกล้อง** เป็นมุมมองที่ผู้เล่นจะมองเห็นเกม\n\nปรับขนาดวัตถุ **$(farBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด",
-            "ar": "هل يمكنك رؤية **الإطار المستطيلي الأسود** في منتصف المشهد؟ ها هو **رؤية الكاميرا**. إنه يحيط بالجزء الذي يمكن للاعبين رؤيته من اللعبة.\n\nإعادة ضبط حجم الـ **$(farBackground)** لتغطى رؤية الكاميرا بالكامل."
+            "uk": "Бачите **чорний прямокутний кадр** посередині сцени? Це **вид камери**. Він обмежує частину гри, яку побачить гравець.\n\nЗмініть розмір об'єкта **$(farBackground)** так, щоб він покривав весь вид камери.",
+            "zh": "看到场景中间的**黑色矩形框**了吗？那是**摄像机视图**。它框住了玩家将看到的游戏部分。\n\n调整**$(farBackground)**对象的大小，使其覆盖整个摄像机视图。"
           }
         },
         "placement": "top",
@@ -560,10 +770,20 @@
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "ja": "**オブジェクト**パネルを開きます。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri **Predmete** ploščo.",
+            "sq": "Hapni panelin e **Objekteve**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
           }
         },
         "placement": "bottom"
@@ -580,20 +800,40 @@
           "messageByLocale": {
             "en": "Let's do the same with another background to give a parallax effect! Drag **$(midBackground)** from the menu to the canvas.",
             "fr": "Faisons la même chose avec un autre fond pour donner un effet de parallaxe ! Glissez **$(midBackground)** depuis le menu vers la scène.",
+            "ar": "هيّا نقوم بنفس الشيء مع الخلفية الأخرى لإعطاء تأثير المنظور! سحب **$(midBackground)** من القائمة إلى اللوحة.",
+            "de": "Machen wir das Gleiche mit einem anderen Hintergrund, um einen Parallax-Effekt zu erzielen! Ziehen Sie **$(midBackground)** aus dem Menü auf die Leinwand.",
             "es": "¡Hagamos lo mismo con otro fondo para dar un efecto de paralaje! Arrastre **$(midBackground)** desde el menú a la escena.",
+            "it": "Facciamo la stessa cosa con un altro sfondo per dare un effetto parallasse! Trascina **$(midBackground)** dal menu alla scena.",
+            "ja": "パララックス効果を与えるために、別の背景にも同じことをしましょう！メニューから**$(midBackground)**をキャンバスにドラッグします。",
+            "ko": "패럴랙스 효과를 주기 위해 다른 배경에도 같은 작업을 해 봅시다! 메뉴에서 **$(midBackground)**를 캔버스로 끌어서 추가합니다.",
+            "pl": "Zróbmy to samo z innym tłem, aby nadać efekt paralaksy! Przeciągnij **$(midBackground)** z menu na płótno.",
             "pt": "Vamos fazer o mesmo com outro fundo para dar um efeito de paralaxe! Arraste **$(midBackground)** do menu para a cena.",
+            "ru": "Сделаем то же самое с другим фоном, чтобы создать эффект параллакса! Перетащите **$(midBackground)** из меню на холст.",
+            "sl": "Naredimo enako z drugim ozadjem, da dobimo paralaksni učinek! Povlecite **$(midBackground)** iz menija na platno.",
+            "sq": "Le të bëjmë të njëjtën gjë me një sfond tjetër për të dhënë një efekt paralaks! Tërhiqni **$(midBackground)** nga menuja në kanavacë.",
             "th": "ทำอย่างเดียวกันกับพื้นหลังอื่นจะทำให้เกิดเอฟเฟกต์พารัลแลกซ์! ลาก **$(midBackground)** จากเมนูไปยัง scene",
-            "ar": "هيّا نقوم بنفس الشيء مع الخلفية الأخرى لإعطاء تأثير المنظور! سحب **$(midBackground)** من القائمة إلى اللوحة."
+            "uk": "Зробимо те ж саме з іншим фоном, щоб створити ефект паралаксу! Перетягніть **$(midBackground)** з меню на полотно.",
+            "zh": "让我们用另一个背景做同样的事情，给出视差效果！从菜单中拖动**$(midBackground)**到画布上。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "Let's do the same with another background to give a parallax effect! **Select**, then **drag** **$(midBackground)** from the menu to the canvas.",
             "fr": "Faisons la même chose avec un autre fond pour donner un effet de parallaxe ! **Sélectionnez**, puis **glissez** **$(midBackground)** depuis le menu vers la scène.",
+            "ar": "هيّا نقوم بنفس الشيء مع الخلفية الأخرى لإعطاء تأثير المنظور! **تحديد** و**سحب** الـ **$(midBackground)** من القائمة إلى اللوحة.",
+            "de": "Machen wir das Gleiche mit einem anderen Hintergrund, um einen Parallax-Effekt zu erzielen! **Wählen** und dann **ziehen** Sie **$(midBackground)** aus dem Menü auf die Leinwand.",
             "es": "¡Hagamos lo mismo con otro fondo para dar un efecto de paralaje! **Seleccione**, luego **arrastre** **$(midBackground)** desde el menú a la escena.",
+            "it": "Facciamo la stessa cosa con un altro sfondo per dare un effetto parallasse! **Seleziona**, poi **trascina** **$(midBackground)** dal menu alla scena.",
+            "ja": "パララックス効果を与えるために、別の背景にも同じことをしましょう！**選択**してから**ドラッグ**して**$(midBackground)**をメニューからキャンバスに追加します。",
+            "ko": "패럴랙스 효과를 주기 위해 다른 배경에도 같은 작업을 해 봅시다! **선택**한 다음 **끌어서** 메뉴에서 **$(midBackground)**를 캔버스로 추가합니다.",
+            "pl": "Zróbmy to samo z innym tłem, aby nadać efekt paralaksy! **Wybierz**, a następnie **przeciągnij** **$(midBackground)** z menu na płótno.",
             "pt": "Vamos fazer o mesmo com outro fundo para dar um efeito de paralaxe! **Selecione**, em seguida, **arraste** **$(midBackground)** do menu para a cena.",
+            "ru": "Сделаем то же самое с другим фоном, чтобы создать эффект параллакса! **Выберите**, затем **перетащите** **$(midBackground)** из меню на холст.",
+            "sl": "Naredimo enako z drugim ozadjem, da dobimo paralaksni učinek! **Izberite** in nato **povlecite** **$(midBackground)** iz menija na platno.",
+            "sq": "Le të bëjmë të njëjtën gjë me një sfond tjetër për të dhënë një efekt paralaks! **Zgjidhni**, pastaj **tërhiqni** **$(midBackground)** nga menuja në kanavacë.",
             "th": "ทำอย่างเดียวกันกับพื้นหลังอื่นจะทำให้เกิดเอฟเฟกต์พารัลแลกซ์! **เลือก** แล้ว **ลาก** **$(midBackground)** จากเมนูไปยัง scene",
-            "ar": "هيّا نقوم بنفس الشيء مع الخلفية الأخرى لإعطاء تأثير المنظور! **تحديد** و**سحب** الـ **$(midBackground)** من القائمة إلى اللوحة."
+            "uk": "Зробимо те ж саме з іншим фоном, щоб створити ефект паралаксу! **Виберіть**, а потім **перетягніть** **$(midBackground)** з меню на полотно.",
+            "zh": "让我们用另一个背景做同样的事情，给出视差效果！**选择**，然后**拖动** **$(midBackground)**从菜单到画布上。"
           }
         },
         "placement": "top"
@@ -605,10 +845,20 @@
           "messageByLocale": {
             "en": "I'm done",
             "fr": "J'ai terminé",
+            "ar": "انتهيت",
+            "de": "Fertig",
             "es": "Ya terminé",
+            "it": "Ho finito",
+            "ja": "完了",
+            "ko": "완료",
+            "pl": "Zakończono",
             "pt": "Terminei",
+            "ru": "Я закончил",
+            "sl": "Končano",
+            "sq": "Përfundoa",
             "th": "ฉันทำเสร็จแล้ว",
-            "ar": "انتهيت"
+            "uk": "Закінчено",
+            "zh": "我完成了"
           }
         }
       },
@@ -618,10 +868,20 @@
           "messageByLocale": {
             "en": "Same as for the $(farBackground) object, resize the **$(midBackground)** object so that it covers the whole black rectangle.",
             "fr": "Comme pour l'objet $(farBackground), redimensionnez l'objet **$(midBackground)** de sorte qu'il couvre tout le rectangle noir.",
+            "ar": "نفس الشيء مع الكائن $(farBackground)، إعادة ضبط حجم الـ **$(midBackground)** لتغطي المستطيل الأسود بالكامل.",
+            "de": "Genauso wie beim $(farBackground)-Objekt, ändern Sie die Größe des **$(midBackground)**-Objekts, damit es das gesamte schwarze Rechteck abdeckt.",
             "es": "Al igual que con el objeto $(farBackground), redimensiona el objeto **$(midBackground)** para que cubra todo el rectángulo negro.",
+            "it": "Stesso procedimento per l'oggetto $(farBackground), ridimensionare l'oggetto $(midBackground) in modo che copra l'intero rettangolo nero.",
+            "ja": "$(farBackground)オブジェクトと同様に、**$(midBackground)**オブジェクトをリサイズして、黒い長方形全体を覆うようにしてください。",
+            "ko": "$(farBackground) 객체와 동일하게 $(midBackground) 객체의 크기를 조정하여 전체 검은 직사각형을 덮도록 합니다.",
+            "pl": "Tak samo jak dla obiektu $(farBackground), zmień rozmiar obiektu $(midBackground) tak, aby pokrywał cały czarny prostokąt.",
             "pt": "Da mesma forma que o objeto $(farBackground), redimensione o objeto **$(midBackground)** para que ele cubra todo o retângulo preto.",
+            "ru": "То же самое, что и для объекта $(farBackground), измените размер объекта **$(midBackground)** так, чтобы он покрывал весь черный прямоугольник.",
+            "sl": "Isto velja za objekt $(farBackground), spremenite velikost objekta **$(midBackground)**, da pokrije celoten črn pravokotnik.",
+            "sq": "Njësoj si për objektin $(farBackground), ri-dimensiononi objektin **$(midBackground)** në mënyrë që të mbulojë tërësi pranë e hollit të zi.",
             "th": "เช่นเดียวกันกับวัตถุ $(farBackground), ปรับขนาดวัตถุ **$(midBackground)** เพื่อให้ครอบคลุมสี่เหลี่ยมสีดำทั้งหมด",
-            "ar": "نفس الشيء مع الكائن $(farBackground)، إعادة ضبط حجم الـ **$(midBackground)** لتغطي المستطيل الأسود بالكامل."
+            "uk": "Те саме, що й для об'єкта $(farBackground), змініть розмір об'єкта **$(midBackground)** так, щоб він покривав весь чорний прямокутник.",
+            "zh": "与$(farBackground)对象一样，调整**$(midBackground)**对象的大小，使其覆盖整个黑色矩形。"
           }
         },
         "placement": "top",
@@ -640,10 +900,20 @@
           "messageByLocale": {
             "en": "Now let's make those **Backgrounds move**! Let's **open the Events Sheet** of your scene $(cameraScene).",
             "fr": "Maintenant, faisons en sorte que ces **fonds se déplacent** ! Ouvrons la **feuille d'événements** de la scène $(cameraScene).",
+            "ar": "الآن لنجعل تلك **الخلفيات تتحرك**! هيّا **نفتح صفحة أحداث** المشهد $(cameraScene).",
+            "de": "Lassen Sie uns jetzt diese **Hintergründe bewegen**! Öffnen Sie das **Ereignisblatt** Ihrer Szene $(cameraScene).",
             "es": "¡Ahora hagamos que esos **fondos se muevan**! Abramos la **hoja de eventos** de tu escena $(cameraScene).",
+            "it": "Ora facciamo muovere quei **sfondi**! Apriamo il **foglio eventi** della tua scena $(cameraScene).",
+            "ja": "それでは、**背景を動かしましょう**！**$(cameraScene)**の**イベントシート**を開きます。",
+            "ko": "이제 **배경을 움직이게** 해 봅시다! **$(cameraScene)**의 **이벤트 시트**를 엽니다.",
+            "pl": "Teraz sprawmy, że te **tła się poruszają**! Otwórz **arkusz zdarzeń** sceny $(cameraScene).",
             "pt": "Agora vamos fazer com que esses **fundos se movam**! Vamos **abrir a Folha de Eventos** de tua cena $(cameraScene).",
+            "ru": "Теперь давайте заставим эти **фоны двигаться**! Откройте **таблицу событий** вашей сцены $(cameraScene).",
+            "sl": "Sedaj bomo naredili, da se **ozadja premikajo**! Odprite **tabelo dogodkov** vaše scene $(cameraScene).",
+            "sq": "Tani le të bëjmë që **sfondot të lëvizin**! Hapni **tabelën e ngjarjeve** të skenës $(cameraScene).",
             "th": "ทีนี้มาทำให้ **พึ้นหลังเคลื่อนที่** กันเถอะ! โดย **เปิดชี้ทอีเวนต์** ของ scene $(cameraScene)",
-            "ar": "الآن لنجعل تلك **الخلفيات تتحرك**! هيّا **نفتح صفحة أحداث** المشهد $(cameraScene)."
+            "uk": "Тепер давайте зробимо, щоб ці **фони рухалися**! Відкрийте **таблицю подій** вашої сцени $(cameraScene).",
+            "zh": "现在让我们让这些**背景移动**！让我们打开你的场景$(cameraScene)的**事件表**。"
           }
         },
         "placement": "bottom"
@@ -660,10 +930,20 @@
           "messageByLocale": {
             "en": "Let's **add an action** to make the first background move.",
             "fr": "**Ajoutons une action** pour faire bouger le premier fond.",
+            "ar": "هيّا نقوم ب**إضافة إجراء** لجعل الخلفية الأولى تتحرك.",
+            "de": "**Fügen wir eine Aktion hinzu**, um den ersten Hintergrund zu bewegen.",
             "es": "**Agreguemos una acción** para hacer que el primer fondo se mueva.",
+            "it": "**Aggiungiamo un'azione** per far muovere il primo sfondo.",
+            "ja": "最初の背景を動かすために**アクションを追加**しましょう。",
+            "ko": "첫 번째 배경을 움직이게 하기 위해 **동작을 추가**해 봅시다.",
+            "pl": "Dodajmy **akcję**, aby pierwsze tło się poruszało.",
             "pt": "**Adicione uma ação** para fazer o primeiro plano de fundo se mover.",
+            "ru": "Добавим **действие**, чтобы заставить первый фон двигаться.",
+            "sl": "**Dodajmo dejanje**, da se premakne prvo ozadje.",
+            "sq": "Le të **shtojmë një veprim** për të bërë sfondin e parë të lëvizë.",
             "th": "**เพิ่มการกระทำ** เพื่อทำให้พื้นหลังแรกเคลื่อนที่",
-            "ar": "هيّا نقوم ب**إضافة إجراء** لجعل الخلفية الأولى تتحرك."
+            "uk": "Додаймо **дію**, щоб зробити перший фон рухливим.",
+            "zh": "让我们**添加一个动作**来让第一个背景移动。"
           }
         }
       }
@@ -678,10 +958,20 @@
           "messageByLocale": {
             "en": "Select **$(farBackground)**.",
             "fr": "Sélectionnez **$(farBackground)**.",
+            "ar": "تحديد **$(farBackground)**.",
+            "de": "Wählen Sie **$(farBackground)**.",
             "es": "Seleccione **$(farBackground)**.",
+            "it": "Seleziona **$(farBackground)**.",
+            "ja": "**$(farBackground)**を選択します。",
+            "ko": "**$(farBackground)**를 선택합니다.",
+            "pl": "Wybierz **$(farBackground)**.",
             "pt": "Selecione **$(farBackground)**.",
+            "ru": "Выберите **$(farBackground)**.",
+            "sl": "Izberite **$(farBackground)**.",
+            "sq": "Zgjidh **$(farBackground)**.",
             "th": "เลือก **$(farBackground)**",
-            "ar": "تحديد **$(farBackground)**."
+            "uk": "Виберіть **$(farBackground)**.",
+            "zh": "选择**$(farBackground)**。"
           }
         }
       },
@@ -697,33 +987,22 @@
           "messageByLocale": {
             "en": "Select the action **Image X offset**.",
             "fr": "Sélectionnez l'action **Décalage X de l'image**.",
+            "ar": "تحديد الإجراء **إزاحة الصورة أفقيًا**.",
+            "de": "Wählen Sie die Aktion **Bild-X-Versatz**.",
             "es": "Seleccione la acción **Desplazamiento X de la imagen**.",
+            "it": "Seleziona l'azione **Spostamento X dell'immagine**.",
+            "ja": "アクション **Image X offset**を選択します。",
+            "ko": "동작 **이미지 X 오프셋**을 선택합니다.",
+            "pl": "Wybierz akcję **Przesunięcie X obrazu**.",
             "pt": "Selecione a ação **Deslocamento X da imagem**.",
+            "ru": "Выберите действие **Смещение изображения по X**.",
+            "sl": "Izberite dejanje **Slikovni X zamik**.",
+            "sq": "Zgjidh veprimin **Offset i X i imazhit**.",
             "th": "เลือกการกระทำ **Image X ออฟเซ็ท**",
-            "ar": "تحديد الإجراء **إزاحة الصورة أفقيًا**."
+            "uk": "Виберіть дію **Зміщення зображення по X**.",
+            "zh": "选择动作**图像X偏移**。"
           }
         }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#parameter-1-operator-field",
-      "nextStepTrigger": {
-        "valueEquals": "="
-      },
-      "skippable": true,
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We want the background to follow the camera, so let's select **= (set to)**.",
-            "fr": "Nous voulons que le fond suive la caméra, donc sélectionnons **= (définir à)**.",
-            "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
-            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**.",
-            "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**",
-            "ar": "نريد من الخلفية أن تتبع الكاميرا، لذلك هيّا نحدد **= (تعيين إلى)**."
-          }
-        },
-        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -737,10 +1016,20 @@
           "messageByLocale": {
             "en": "Let's make the far background move,\n\n The way we do it is by making it move relatively to the position of the camera.\n\n If the player moves, the camera moves too, so we make the background follow the camera center horizontally (X), but **way slower** to give an effect of depth.\n\n Type the formula `CameraCenterX()/8`.",
             "fr": "Faisons bouger le fond lointain,\n\n La façon de le faire est de le faire bouger par rapport à la position de la caméra.\n\n Si le joueur se déplace, la caméra se déplace aussi, donc nous faisons en sorte que le fond suive le centre de la caméra horizontalement (X), mais **beaucoup plus lentement** pour donner un effet de profondeur.\n\n Tapez la formule `CameraCenterX()/8`.",
+            "ar": "هيّا نجعل الخلفية البعيدة تتحرك، طريقة فعل ذلك هي بجعلها تتحرك نسبيًا إلى إحداثية الكاميرا.\n\n إذا تحركت الشخصية فستتحرك الكاميرا أيضًا، لذلك نجعل الخلفية تتتبع مركز الكاميرا أفقيًا، ولكن **أبطأ** لمنح شعور العمق، إدخال الصيغة `CameraCenterX()/8`.",
+            "de": "Lassen Sie uns den fernen Hintergrund bewegen,\n\n Die Art und Weise, wie wir das machen, ist, dass er sich relativ zur Position der Kamera bewegt.\n\n Wenn der Spieler sich bewegt, bewegt sich auch die Kamera, also machen wir den Hintergrund, dass er dem Kameramittelpunkt horizontal (X) folgt, aber **viel langsamer**, um einen Tiefeneffekt zu erzielen.\n\n Geben Sie die Formel `CameraCenterX()/8` ein.",
             "es": "Hagamos que el fondo lejano se mueva,\n\n La forma de hacerlo es hacer que se mueva en relación con la posición de la cámara.\n\n Si el jugador se mueve, la cámara también se mueve, por lo que hacemos que el fondo siga el centro de la cámara horizontalmente (X), pero **mucho más lento** para dar un efecto de profundidad.\n\n Escribe la fórmula `CameraCenterX()/8`.",
+            "it": "Facciamo muovere lo sfondo lontano,\n\n Il modo in cui lo facciamo è facendolo muovere relativamente alla posizione della telecamera.\n\n Se il giocatore si muove, la telecamera si muove anche, quindi facciamo in modo che lo sfondo segua il centro della telecamera orizzontalmente (X), ma **molto più lentamente** per dare un effetto di profondità.\n\n Scrivi la formula `CameraCenterX()/8`.",
+            "ja": "遠景を動かしましょう\n\n 移動させる方法は、カメラの位置に対して相対的に動かすことです。\n\n プレイヤーが動くと、カメラも動くので、背景をカメラの中心に水平方向（X）に追従させますが、**非常に遅く**して奥行きの効果を与えます。\n\n 式に`CameraCenterX()/8`を入力します。",
+            "ko": "먼 배경을 움직이게 합시다,\n\n 이를 하는 방법은 카메라의 위치에 상대적으로 움직이도록 하는 것입니다.\n\n 플레이어가 움직이면 카메라도 움직이기 때문에 배경이 카메라 중앙을 수평(X)으로 따라가지만 **훨씬 느리게** 하여 깊이 효과를 줍니다.\n\n 식에 `CameraCenterX()/8`를 입력합니다.",
+            "pl": "Pozwólmy dalekiemu tłu poruszać się,\n\n Sposób, w jaki to robimy, polega na tym, że porusza się on względem pozycji kamery.\n\n Jeśli gracz się porusza, kamera też się porusza, więc sprawiamy, że tło podąża za środkiem kamery w poziomie (X), ale **dużo wolniej**, aby uzyskać efekt głębi.\n\n Wpisz wzór `CameraCenterX()/8`.",
             "pt": "Vamos fazer o fundo distante se mover,\n\n A maneira como fazemos isso é fazendo com que ele se mova em relação à posição da câmera.\n\n Se o jogador se mover, a câmera também se move, então fazemos o fundo seguir o centro da câmera horizontalmente (X), mas **muito mais devagar** para dar um efeito de profundidade.\n\n Digite a fórmula `CameraCenterX()/8`.",
+            "ru": "Давайте заставим дальний фон двигаться,\n\n Способ сделать это - заставить его двигаться относительно положения камеры.\n\n Если игрок двигается, камера тоже двигается, поэтому мы заставляем фон следовать за центром камеры по горизонтали (X), но **намного медленнее**, чтобы создать эффект глубины.\n\n Введите формулу `CameraCenterX()/8`.",
+            "sl": "Naj bo daleč ozadje premaknjeno,\n\n Način, kako to storimo, je, da se premika glede na položaj kamere.\n\n Če se igralec premika, se premika tudi kamera, zato naredimo, da ozadje sledi središču kamere vodoravno (X), vendar **veliko počasneje**, da ustvari učinek globine.\n\n Vnesite formulo `CameraCenterX()/8`.",
+            "sq": "Le të bëjmë që sfondi i largët të lëvizë,\n\n Mënyra se si e bëjmë këtë është duke e bërë atë të lëvizë në raport me pozicionin e kamerës.\n\n Nëse lojtari lëviz, kamera lëviz gjithashtu, kështu që bëjmë që sfondi të ndjekë qendrën e kamerës horizontalisht (X), por **shumë më ngadalë** për të dhënë një efekt thellësie.\n\n Shkruani formulën `CameraCenterX()/8`.",
             "th": "มาทำให้พื้นหลังไกลเคลื่อนที่\n\nวิธีที่เราทำคือทำให้พื้นหลังเคลื่อนที่เทียบเท่ากับตำแหน่งของกล้อง\n\nถ้าผู้เล่นเคลื่อนที่กล้องก็จะเคลื่อนที่ด้วย ดังนั้นเราจึงทำให้พื้นหลังติดตามตำแหน่งกล้องแนวนอน (X) แต่**เร็วมากกว่า** เพื่อให้มีความลึกลับ\n\nพิมพ์สูตร `CameraCenterX()/8`",
-            "ar": "هيّا نجعل الخلفية البعيدة تتحرك، طريقة فعل ذلك هي بجعلها تتحرك نسبيًا إلى إحداثية الكاميرا.\n\n إذا تحركت الشخصية فستتحرك الكاميرا أيضًا، لذلك نجعل الخلفية تتتبع مركز الكاميرا أفقيًا، ولكن **أبطأ** لمنح شعور العمق، إدخال الصيغة `CameraCenterX()/8`."
+            "uk": "Давайте зробимо, щоб далекий фон рухався,\n\n Спосіб зробити це - зробити його рухатися відносно положення камери.\n\n Якщо гравець рухається, камера також рухається, тому ми робимо фон слідувати за центром камери горизонтально (X), але **набагато повільніше**, щоб створити ефект глибини.\n\n Введіть формулу `CameraCenterX()/8`.",
+            "zh": "让我们让远景移动\n\n 我们的做法是相对于相机的位置使其移动。\n\n 如果玩家移动，相机也会移动，所以我们让背景水平（X）跟随相机中心，但**慢得多**，以产生深度效果。\n\n 输入公式`CameraCenterX()/8`。"
           }
         },
         "placement": "bottom"
@@ -755,12 +1044,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Nice! Now let's save this.",
-            "fr": "Bien ! Enregistrons maintenant cela.",
-            "es": "¡Bien! Ahora guardemos esto.",
-            "pt": "Legal! Agora vamos salvar isso.",
-            "th": "ดีมาก! มาบันทึกกันเถอะ",
-            "ar": "جميل! الآن هيّا نحفظ هذا."
+            "en": "Now let's save this.",
+            "fr": "Enregistrons maintenant cela.",
+            "ar": "جميل! الآن هيّا نحفظ هذا.",
+            "de": "Lassen Sie uns das jetzt speichern.",
+            "es": "Ahora guardemos esto.",
+            "it": "Ora salviamo questo.",
+            "ja": "これを保存しましょう。",
+            "ko": "이제 이것을 저장해 봅시다.",
+            "pl": "Teraz zapiszmy to.",
+            "pt": "Agora vamos salvar isso.",
+            "ru": "Теперь давайте сохраните это.",
+            "sl": "Sedaj shranimo to.",
+            "sq": "Tani le të ruajmë këtë.",
+            "th": "มาบันทึกสิ่งนี้",
+            "uk": "Тепер давайте збережемо це.",
+            "zh": "现在让我们保存这个。"
           }
         },
         "placement": "top"
@@ -776,10 +1075,20 @@
           "messageByLocale": {
             "en": "Let's create the same action for **$(midBackground)**!",
             "fr": "Créons la même action pour **$(midBackground)** !",
+            "ar": "هيّا نقوم بنفس الشيء مع **$(midBackground)**!",
+            "de": "Lassen Sie uns die gleiche Aktion für **$(midBackground)** erstellen!",
             "es": "¡Creemos la misma acción para **$(midBackground)**!",
+            "it": "Creiamo la stessa azione per **$(midBackground)**!",
+            "ja": "**$(midBackground)**にも同じアクションを作りましょう！",
+            "ko": "**$(midBackground)**에 대해 동일한 동작을 만들어 봅시다!",
+            "pl": "Stwórzmy tę samą akcję dla **$(midBackground)**!",
             "pt": "Vamos criar a mesma ação para **$(midBackground)**!",
+            "ru": "Создадим такое же действие для **$(midBackground)**!",
+            "sl": "Ustvarimo enako dejanje za **$(midBackground)**!",
+            "sq": "Le të krijojmë veprimin e njëjtë për **$(midBackground)**!",
             "th": "สร้างการกระทำเหมือนเดิมสำหรับ **$(midBackground)**!",
-            "ar": "هيّا نقوم بنفس الشيء مع **$(midBackground)**!"
+            "uk": "Створимо таку саму дію для **$(midBackground)**!",
+            "zh": "让我们为**$(midBackground)**创建相同的动作！"
           }
         }
       }
@@ -794,10 +1103,20 @@
           "messageByLocale": {
             "en": "Select **$(midBackground)**.",
             "fr": "Sélectionnez **$(midBackground)**.",
+            "ar": "تحديد **$(midBackground)**.",
+            "de": "Wählen Sie **$(midBackground)**.",
             "es": "Selecciona **$(midBackground)**.",
+            "it": "Seleziona **$(midBackground)**.",
+            "ja": "**$(midBackground)**を選択します。",
+            "ko": "**$(midBackground)**를 선택합니다.",
+            "pl": "Wybierz **$(midBackground)**.",
             "pt": "Selecione **$(midBackground)**.",
+            "ru": "Выберите **$(midBackground)**.",
+            "sl": "Izberite **$(midBackground)**.",
+            "sq": "Zgjidh **$(midBackground)**.",
             "th": "เลือก **$(midBackground)**",
-            "ar": "تحديد **$(midBackground)**."
+            "uk": "Виберіть **$(midBackground)**.",
+            "zh": "选择**$(midBackground)**。"
           }
         }
       },
@@ -813,33 +1132,22 @@
           "messageByLocale": {
             "en": "Select the action **Image X offset**.",
             "fr": "Sélectionnez l'action **Décalage X de l'image**.",
+            "ar": "تحديد الإجراء **إزاحة الصورة أفقيًا**.",
+            "de": "Wählen Sie die Aktion **Bild-X-Versatz**.",
             "es": "Selecciona la acción **Desplazamiento X de la imagen**.",
+            "it": "Seleziona l'azione **Spostamento X dell'immagine**.",
+            "ja": "アクション **Image X offset**を選択します。",
+            "ko": "동작 **이미지 X 오프셋**을 선택합니다.",
+            "pl": "Wybierz akcję **Przesunięcie X obrazu**.",
             "pt": "Selecione a ação **Deslocamento X da imagem**.",
+            "ru": "Выберите действие **Смещение изображения по X**.",
+            "sl": "Izberite dejanje **Slikovni X zamik**.",
+            "sq": "Zgjidh veprimin **Offset i X i imazhit**.",
             "th": "เลือกการกระทำ **Image X ออฟเซ็ท**",
-            "ar": "تحديد الإجراء **إزاحة الصورة أفقيًا**."
+            "uk": "Виберіть дію **Зміщення зображення по X**.",
+            "zh": "选择动作**图像X偏移**。"
           }
         }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#parameter-1-operator-field",
-      "nextStepTrigger": {
-        "valueEquals": "="
-      },
-      "skippable": true,
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We want the background to follow the camera, so let's select **= (set to)**.",
-            "fr": "Nous voulons que le fond suive la caméra, donc sélectionnons **= (définir à)**.",
-            "es": "Queremos que el fondo siga la cámara, así que seleccionemos **= (establecer en)**.",
-            "pt": "Queremos que o fundo siga a câmera, então vamos selecionar **= (definir como)**.",
-            "th": "เราต้องการให้พื้นหลังติดตามกล้อง ดังนั้นเลือก **= (ตั้งเป็น)**",
-            "ar": "نريد من الخلفية أن تتبع الكاميرا، لذلك هيّا نحدد **= (تعيين إلى)**."
-          }
-        },
-        "placement": "bottom"
       },
       "isOnClosableDialog": true
     },
@@ -853,10 +1161,20 @@
           "messageByLocale": {
             "en": "This time let's make this background move **faster**, to give the effect that it is closer to the player,\n\nso let's make the background move **3 times slower** than the camera.\n\n Enter `CameraCenterX()/3`.",
             "fr": "Cette fois, faisons en sorte que ce fond se déplace **plus vite**, pour donner l'effet qu'il est plus proche du joueur,\n\nalors faisons en sorte que le fond se déplace **3 fois plus lentement** que la caméra.\n\nEntrez `CameraCenterX()/3`.",
+            "ar": "هذه المرة سنجعل الخلفية تتحرك **أسرع**، لإعطاء الشعور أنه قريب من الشخصية، \n\n هيّا نجعل الخلفية تتحرك **أسرع بثلاث مرات** من الكاميرا.\n\n إدخال `CameraCenterX()/3`.",
+            "de": "Dieses Mal lassen Sie uns diesen Hintergrund **schneller** bewegen, um den Effekt zu erzielen, dass er näher am Spieler ist,\n\nalso lassen Sie uns den Hintergrund **3-mal langsamer** als die Kamera bewegen.\n\nGeben Sie `CameraCenterX()/3` ein.",
             "es": "Esta vez, hagamos que este fondo se mueva **más rápido**, para dar el efecto de que está más cerca del jugador,\n\nasí que hagamos que el fondo se mueva **3 veces más lento** que la cámara.\n\nIngrese `CameraCenterX()/3`.",
+            "it": "Questa volta facciamo muovere questo sfondo **più velocemente**, per dare l'effetto che è più vicino al giocatore,\n\nquindi facciamo muovere lo sfondo **3 volte più lentamente** della telecamera.\n\nInserisci `CameraCenterX()/3`.",
+            "ja": "今度はこの背景を**速く**動かし、プレイヤーに近い効果を与えましょう\n\nそのためにカメラより**3倍遅く**背景を動かします。\n\n`CameraCenterX()/3`を入力します。",
+            "ko": "이번에는 이 배경을 **더 빨리** 움직이게 해서 플레이어에게 더 가까운 효과를 주도록 하겠습니다,\n\n그래서 배경을 카메라보다 **3배 더 느리게** 움직이도록 합시다.\n\n`CameraCenterX()/3`를 입력합니다.",
+            "pl": "Tym razem pozwólmy temu tłu poruszać się **szybciej**, aby uzyskać efekt, że jest bliżej gracza,\n\nwięc pozwólmy tłu poruszać się **3 razy wolniej** niż kamera.\n\nWpisz `CameraCenterX()/3`.",
             "pt": "Desta vez, vamos fazer com que este fundo se mova **mais rápido**, para dar o efeito de que está mais perto do jogador,\n\nentão vamos fazer com que o fundo se mova **3 vezes mais devagar** que a câmera.\n\nDigite `CameraCenterX()/3`.",
+            "ru": "На этот раз давайте заставим этот фон двигаться **быстрее**, чтобы создать эффект, что он ближе к игроку,\n\nпоэтому давайте заставим фон двигаться **в 3 раза медленнее** камеры.\n\nВведите `CameraCenterX()/3`.",
+            "sl": "Tokrat naj bo to ozadje premaknjeno **hitreje**, da ustvari učinek, da je bližje igralcu,\n\nzato naj bo ozadje premaknjeno **3-krat počasneje** kot kamera.\n\nVnesite `CameraCenterX()/3`.",
+            "sq": "Kësaj radhe le të bëjmë që ky sfond të lëvizë **më shpejt**, për të dhënë efektin që është më afër lojtarit,\n\npra le të bëjmë që sfondi të lëvizë **3 herë më ngadalë** se kamera.\n\nShkruani `CameraCenterX()/3`.",
             "th": "ในครั้งนี้เราจะทำให้พื้นหลังเคลื่อนที่ **เร็วขึ้น** เพื่อให้มีผลลัพธ์ที่เห็นได้ชัดว่ามันอยู่ใกล้กับผู้เล่นมากขึ้น\n\nดังนั้นเราจะทำให้พื้นหลังเคลื่อนที่ **ช้าลง 3 เท่า** กว่ากล้อง\n\nใส่ `CameraCenterX()/3`",
-            "ar": "هذه المرة سنجعل الخلفية تتحرك **أسرع**، لإعطاء الشعور أنه قريب من الشخصية، \n\n هيّا نجعل الخلفية تتحرك **أسرع بثلاث مرات** من الكاميرا.\n\n إدخال `CameraCenterX()/3`."
+            "uk": "Цього разу давайте зробимо, щоб цей фон рухався **швидше**, щоб створити ефект, що він ближчий до гравця,\n\nтому давайте зробимо, щоб фон рухався **в 3 рази повільніше** за камерою.\n\nВведіть формулу `CameraCenterX()/3`.",
+            "zh": "这次让我们让这个背景移动**更快**，以产生更接近玩家的效果，\n\n所以让我们让背景移动**比相机慢3倍**。输入`CameraCenterX()/3`。"
           }
         },
         "placement": "bottom"
@@ -871,12 +1189,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Nice! Let's close this.",
-            "fr": "Bien ! Fermons cela.",
-            "es": "¡Bien! Cerrémoslo.",
-            "pt": "Legal! Vamos fechar isso.",
-            "th": "ดีมาก! มาปิดกันเถอะ",
-            "ar": "جميل! لنغلق هذا."
+            "en": "Let's close this.",
+            "fr": "Fermons cela.",
+            "ar": "جميل! لنغلق هذا.",
+            "de": "Lassen Sie uns das schließen.",
+            "es": "Cerrémoslo.",
+            "it": "Chiudiamo questo.",
+            "ja": "これを閉じましょう。",
+            "ko": "이것을 닫아 봅시다.",
+            "pl": "Zamknijmy to.",
+            "pt": "Vamos fechar isso.",
+            "ru": "Давайте закроем это.",
+            "sl": "Zaprimo to.",
+            "sq": "Le të mbyllim këtë.",
+            "th": "ปิดนี้",
+            "uk": "Давайте закриємо це.",
+            "zh": "让我们关闭这个。"
           }
         },
         "placement": "top"
@@ -890,12 +1218,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
-            "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
-            "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
-            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
-            "th": "เอาล่ะ เสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
+            "en": "We're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
+            "fr": "Nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**.",
+            "de": "Wir sind fertig! Lassen Sie uns unser Spiel testen, um die Änderungen zu sehen, die wir vorgenommen haben! Klicken Sie auf die **Vorschau**-Schaltfläche.",
+            "es": "¡Hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
+            "it": "abbiamo finito! Proviamo il nostro gioco per vedere le modifiche che abbiamo apportato! Clicca sul pulsante **Anteprima**.",
+            "ja": "完了です！私たちが行った変更を確認するためにゲームをテストしましょう！**プレビュー**ボタンをクリックします。",
+            "ko": "우리는 끝났습니다! 우리가 한 변경 사항을 확인하기 위해 게임을 테스트해 봅시다! **미리보기** 버튼을 클릭합니다.",
+            "pl": "Skończyliśmy! Przetestujmy naszą grę, aby zobaczyć zmiany, jakie wprowadziliśmy! Kliknij przycisk **Podgląd**.",
+            "pt": "Nós terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "ru": "Мы закончили! Давайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли! Нажмите на кнопку **Предварительный просмотр**.",
+            "sl": "Končali smo! Testirajmo našo igro, da vidimo spremembe, ki smo jih naredili! Kliknite na gumb **Predogled**.",
+            "sq": "Kemi përfunduar! Le të testojmë lojën tonë për të parë ndryshimet që kemi bërë! Kliko në butonin **Parashiko**.",
+            "th": "เราเสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราได้ทำ! คลิกที่ปุ่ม **ตัวอย่าง**",
+            "uk": "Ми закінчили! Давайте протестуємо нашу гру, щоб побачити зміни, які ми зробили! Натисніть на кнопку **Попередній перегляд**.",
+            "zh": "我们完成了！让我们测试游戏，看看我们所做的更改！点击**预览**按钮。"
           }
         },
         "placement": "bottom"

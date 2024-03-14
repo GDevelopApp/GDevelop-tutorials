@@ -10,7 +10,24 @@
       "scene": "gameScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "ru",
+    "sl",
+    "sq",
+    "uk",
+    "zh"
+  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/timer/game.json",
   "initialProjectData": {
     "gameScene": "GameScene"
@@ -21,40 +38,80 @@
         "messageByLocale": {
           "en": "# You've finished this lesson!",
           "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد أنهيت هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
           "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai finito questa lezione!",
+          "ja": "# このレッスンは終了です！",
+          "ko": "# 이 레슨을 완료했습니다!",
+          "pl": "# Ukończyłeś tę lekcję!",
           "pt": "# Você terminou esta lição!",
+          "ru": "# Вы завершили этот урок!",
+          "sl": "# Končali ste to lekcijo!",
+          "sq": "# Keni përfunduar këtë mësim!",
           "th": "# คุณเรียนบทเรียนนี้จบแล้ว!",
-          "ar": "# لقد أنهيت هذا الدرس!"
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你完成了这节课！"
         }
       },
       {
         "messageByLocale": {
           "en": "Well done, in this tutorial you've learned:",
           "fr": "Bien joué, dans ce tutoriel vous avez appris :",
+          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:",
+          "de": "Gut gemacht, in diesem Tutorial hast du gelernt:",
           "es": "¡Bien hecho, en este tutorial aprendiste:",
+          "it": "Ben fatto, in questo tutorial hai imparato:",
+          "ja": "このチュートリアルでは、次のことを学びました：",
+          "ko": "이 튜토리얼에서 다음을 배웠습니다:",
+          "pl": "Dobrze zrobiłeś, w tym samouczku nauczyłeś się:",
           "pt": "Bem feito, neste tutorial você aprendeu:",
+          "ru": "Молодец, в этом уроке вы узнали:",
+          "sl": "Bravo, v tem vadnici ste se naučili:",
+          "sq": "Mirë, në këtë tutorial ju keni mësuar:",
           "th": "ทำได้ดีเยี่ยม, สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:",
-          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:"
+          "uk": "Молодець, в цьому уроці ви дізналися:",
+          "zh": "做得好，通过这个教程，你学到了："
         }
       },
       {
         "messageByLocale": {
           "en": "- Create a text\n\n- Create and start a timer\n\n- Use a timer's value to update a text",
           "fr": "- Créer un texte\n\n- Créer et démarrer un chronomètre\n\n- Utiliser la valeur d'un chronomètre pour mettre à jour un texte",
+          "ar": "- إنشاء نص\n\n- إنشاء وتشغيل مؤقت\n\n- استخدام قيمة المؤقت لتحديث النص",
+          "de": "- Erstellen Sie einen Text\n\n- Erstellen und starten Sie einen Timer\n\n- Verwenden Sie den Wert eines Timers, um einen Text zu aktualisieren",
           "es": "- Crear un texto\n\n- Crear y comenzar un temporizador\n\n- Utilizar el valor de un temporizador para actualizar un texto",
+          "it": "- Creare un testo\n\n- Creare e avviare un timer\n\n- Utilizzare il valore di un timer per aggiornare un testo",
+          "ja": "- テキストを作成する\n\n- タイマーを作成して開始する\n\n- タイマーの値を使用してテキストを更新する",
+          "ko": "- 텍스트 만들기\n\n- 타이머 만들고 시작하기\n\n- 타이머의 값 사용하여 텍스트 업데이트하기",
+          "pl": "- Utwórz tekst\n\n- Utwórz i uruchom minutnik\n\n- Użyj wartości minutnika do aktualizacji tekstu",
           "pt": "- Crie um texto\n\n- Crie e inicie um cronômetro\n\n- Use o valor de um cronômetro para atualizar um texto",
+          "ru": "- Создать текст\n\n- Создать и запустить таймер\n\n- Использовать значение таймера для обновления текста",
+          "sl": "- Ustvarite besedilo\n\n- Ustvarite in začnite štoparico\n\n- Uporabite vrednost štoparice za posodobitev besedila",
+          "sq": "- Krijo një tekst\n\n- Krijo dhe fillo një kohëmatës\n\n- Përdor vlerën e një kohëmatësi për të përditësuar një tekst",
           "th": "- สร้างข้อความ\n\n- สร้างและเริ่มต้นตัวจับเวลา\n\n- ใช้ค่าของตัวจับเวลาเพื่ออัปเดตข้อความ",
-          "ar": "- إنشاء نص\n\n- إنشاء وتشغيل مؤقت\n\n- استخدام قيمة المؤقت لتحديث النص"
+          "uk": "- Створити текст\n\n- Створити та запустити таймер\n\n- Використовувати значення таймера для оновлення тексту",
+          "zh": "- 创建文本\n\n- 创建并启动计时器\n\n- 使用计时器的值更新文本"
         }
       },
       {
         "messageByLocale": {
           "en": "You can keep adding stuff to this game or publish it!",
           "fr": "Vous pouvez continuer à ajouter des choses à ce jeu ou le publier !",
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+          "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
           "es": "¡Puedes seguir agregando cosas a este juego o publicarlo !",
+          "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+          "ja": "このゲームにさらに要素を追加するか、公開することができます！",
+          "ko": "이 게임에 계속해서 새로운 것을 추가하거나 게임을 게시할 수 있습니다!",
+          "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
           "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "ru": "Вы можете продолжать добавлять в эту игру новые элементы или опубликовать её!",
+          "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+          "sq": "Mund të vazhdoni të shtoni gjëra në këtë lojë ose ta publikoni!",
           "th": "คุณสามารถพัฒนาเกมนี้ต่อไปหรือจะเผยแพร่เลยก็ได้!",
-          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!"
+          "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+          "zh": "您可以继续为这个游戏添加东西，或者发布它！"
         }
       }
     ]
@@ -68,10 +125,20 @@
           "messageByLocale": {
             "en": "Let's go!",
             "fr": "C'est parti !",
+            "ar": "لنبدأ!",
+            "de": "Los geht's!",
             "es": "¡Vamos!",
+            "it": "Andiamo!",
+            "ja": "さあ、始めましょう！",
+            "ko": "시작합시다!",
+            "pl": "Zaczynajmy!",
             "pt": "Vamos lá!",
+            "ru": "Поехали!",
+            "sl": "Gremo!",
+            "sq": "Le të fillojmë!",
             "th": "ไปกันเลย!",
-            "ar": "لنبدأ!"
+            "uk": "Почнемо!",
+            "zh": "让我们开始吧！"
           }
         }
       },
@@ -81,10 +148,20 @@
           "messageByLocale": {
             "en": "This game is quite simple! Use your mouse or finger to drag the key to the keyhole, whilst staying inside the pathway! Click on the **preview** button to try it out.",
             "fr": "Ce jeu est assez simple ! Utilisez votre souris ou votre doigt pour faire glisser la clé dans la serrure, tout en restant dans le chemin ! Cliquez sur le bouton **aperçu** pour l'essayer.",
+            "ar": "هذه اللعبة بسيطة قليلًا! استخدام الفأرة أو إصبعك لسحب المفتاح إلى الفوهة مع البقاء داخل المسار! الضغط على الزر **معاينة** للتجربة.",
+            "de": "Dieses Spiel ist ziemlich einfach! Verwenden Sie Ihre Maus oder Ihren Finger, um den Schlüssel in das Schlüsselloch zu ziehen, während Sie sich im Pfad aufhalten! Klicken Sie auf die **Vorschau**-Schaltfläche, um es auszuprobieren.",
             "es": "¡Este juego es bastante simple! Utiliza tu ratón o dedo para arrastrar la llave al agujero de la llave, ¡mientras te mantienes dentro del camino! Haz clic en el botón **previsualización** para probarlo.",
+            "it": "Questo gioco è piuttosto semplice! Usa il mouse o il dito per trascinare la chiave nella serratura, rimanendo all'interno del percorso! Clicca sul pulsante **anteprima** per provarlo.",
+            "ja": "このゲームはかなりシンプルです！ マウスまたは指を使用して、パス内にとどまりながら鍵を鍵穴にドラッグします！ **プレビュー** ボタンをクリックして試してみてください。",
+            "ko": "이 게임은 꽤 간단합니다! 마우스 또는 손가락을 사용하여 키를 키홀에 드래그하면서 경로 안에 머무르십시오! **미리보기** 버튼을 클릭하여 시도해보세요.",
+            "pl": "Ta gra jest dość prosta! Użyj myszki lub palca, aby przeciągnąć klucz do zamka, pozostając w ścieżce! Kliknij przycisk **podgląd**, aby to wypróbować.",
             "pt": "Este jogo é bastante simples! Use seu mouse ou dedo para arrastar a chave para a fechadura, enquanto permanece dentro do caminho! Clique no botão **pré-visualização** para experimentá-lo.",
+            "ru": "Эта игра довольно проста! Используйте мышь или палец, чтобы перетащить ключ в замочную скважину, находясь внутри пути! Нажмите на кнопку **предпросмотр**, чтобы попробовать.",
+            "sl": "Ta igra je precej preprosta! Uporabite miško ali prst, da ključ povlečete v ključavnico, medtem ko ostanete v notranjosti poti! Kliknite na gumb **predogled**, da ga preizkusite.",
+            "sq": "Kjo lojë është mjaft e thjeshtë! Përdorni mousen ose gishtin tuaj për të tërhequr çelësin në çelësin, duke qëndruar brenda rrugës! Klikoni në butonin **parashikim** për ta provuar.",
             "th": "เกมนี้เป็นเกมง่ายๆ! ใช้เมาส์หรือนิ้วเพื่อลากกุญแจไปยังช่องกุญแจในขณะที่ยังอยู่ในเส้นทาง! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อลองเล่น",
-            "ar": "هذه اللعبة بسيطة قليلًا! استخدام الفأرة أو إصبعك لسحب المفتاح إلى الفوهة مع البقاء داخل المسار! الضغط على الزر **معاينة** للتجربة."
+            "uk": "Ця гра досить проста! Використовуйте мишу або палець, щоб перетягнути ключ у замковий отвір, перебуваючи всередині шляху! Натисніть на кнопку **попередній перегляд**, щоб спробувати.",
+            "zh": "这个游戏相当简单！ 使用鼠标或手指将钥匙拖到钥匙孔中，同时保持在路径内！ 点击 **预览** 按钮试试看。"
           }
         }
       }
@@ -99,10 +176,20 @@
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "ja": "**オブジェクト** パネルを開きます。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开 **对象** 面板。"
           }
         },
         "placement": "bottom"
@@ -119,10 +206,20 @@
           "messageByLocale": {
             "en": "First, let's create some text to display the time spent playing the level. Click on the **Add new object** button.",
             "fr": "Tout d'abord, créons du texte pour afficher le temps passé à jouer au niveau. Cliquez sur le bouton **Ajouter un nouvel objet**.",
+            "ar": "أولًا، هيّا نقوم بإنشاء بعض النصوص لعرض الوقت المنقضي في لعب هذه المرحلة. الضغط على الزر **إضافة كائن جديد**. ",
+            "de": "Zuerst erstellen wir einen Text, um die verbrachte Zeit beim Spielen des Levels anzuzeigen. Klicken Sie auf die Schaltfläche **Neues Objekt hinzufügen**.",
             "es": "Primero, creemos un texto para mostrar el tiempo que se ha pasado jugando al nivel. Haga clic en el botón **Agregar nuevo objeto**.",
+            "it": "Innanzitutto, creiamo un testo per visualizzare il tempo trascorso a giocare al livello. Clicca sul pulsante **Aggiungi nuovo oggetto**.",
+            "ja": "まず、レベルをプレイした時間を表示するためのテキストを作成しましょう。 **新しいオブジェクトを追加** ボタンをクリックします。",
+            "ko": "먼저, 레벨을 플레이한 시간을 표시할 텍스트를 만들어 보겠습니다. **새 오브젝트 추가** 버튼을 클릭하세요.",
+            "pl": "Najpierw stwórzmy jakiś tekst, aby wyświetlić czas spędzony na graniu w poziomie. Kliknij przycisk **Dodaj nowy obiekt**.",
             "pt": "Primeiro, vamos criar um texto para exibir o tempo gasto jogando o nível. Clique no botão **Adicionar novo objeto**.",
+            "ru": "Сначала создадим текст для отображения времени, проведенного в игре. Нажмите на кнопку **Добавить новый объект**.",
+            "sl": "Najprej ustvarimo nekaj besedila, da prikažemo preživeti čas igranja ravni. Kliknite na gumb **Dodaj nov predmet**.",
+            "sq": "Fillimisht, le të krijojmë disa tekst për të shfaqur kohën e kaluar duke luajtur nivelin. Klikoni në butonin **Shto një objekt të ri**.",
             "th": "เริ่มต้นกันด้วยการสร้างข้อความเพื่อแสดงเวลาที่ใช้ในการเล่นเกม คลิกที่ปุ่ม **เพิ่มวัตถุใหม่**",
-            "ar": "أولًا، هيّا نقوم بإنشاء بعض النصوص لعرض الوقت المنقضي في لعب هذه المرحلة. الضغط على الزر **إضافة كائن جديد**. "
+            "uk": "Спочатку створимо деякий текст для відображення часу, проведеного в грі. Натисніть на кнопку **Додати новий об'єкт**.",
+            "zh": "首先，让我们创建一些文本来显示在游戏中花费的时间。 点击 **添加新对象** 按钮。"
           }
         },
         "placement": "top"
@@ -138,10 +235,20 @@
           "messageByLocale": {
             "en": "We'll create a text from scratch.",
             "fr": "Nous allons créer un texte à partir de zéro.",
+            "ar": "سوف نقوم بإنشاء نص من الصفر.",
+            "de": "Wir erstellen einen Text von Grund auf.",
             "es": "Vamos a crear un texto desde cero.",
+            "it": "Creeremo un testo da zero.",
+            "ja": "ゼロからテキストを作成します。",
+            "ko": "처음부터 텍스트를 만들어 보겠습니다.",
+            "pl": "Stworzymy tekst od zera.",
             "pt": "Vamos criar um texto do zero.",
+            "ru": "Мы создадим текст с нуля.",
+            "sl": "Ustvarili bomo besedilo od začetka.",
+            "sq": "Do të krijojmë një tekst nga e para.",
             "th": "เราจะสร้างข้อความใหม่",
-            "ar": "سوف نقوم بإنشاء نص من الصفر."
+            "uk": "Ми створимо текст з нуля.",
+            "zh": "我们将从头开始创建一个文本。"
           }
         },
         "placement": "bottom"
@@ -159,10 +266,20 @@
           "messageByLocale": {
             "en": "Select **Text** object",
             "fr": "Sélectionnez l'objet **Texte**",
+            "ar": "تحديد الكائن **نص**",
+            "de": "Wählen Sie das **Text**-Objekt aus",
             "es": "Seleccione el objeto **Texto**",
+            "it": "Seleziona l'oggetto **Testo**",
+            "ja": "**テキスト** オブジェクトを選択します",
+            "ko": "**텍스트** 오브젝트를 선택하세요",
+            "pl": "Wybierz obiekt **Tekst**",
             "pt": "Selecione o objeto **Texto**",
+            "ru": "Выберите объект **Текст**",
+            "sl": "Izberite **Besedilo** predmet",
+            "sq": "Zgjidh **Tekstin** objekt",
             "th": "เลือกวัตถุ **ข้อความ**",
-            "ar": "تحديد الكائن **نص**"
+            "uk": "Виберіть об'єкт **Текст**",
+            "zh": "选择 **文本** 对象"
           }
         },
         "placement": "bottom"
@@ -179,10 +296,20 @@
           "messageByLocale": {
             "en": "Change the object name to **Score**.",
             "fr": "Utilisez **Score** comme nom d'objet.",
+            "ar": "تغيير اسم الكائن إلى **Score**.",
+            "de": "Ändern Sie den Objektnamen in **Score**.",
             "es": "Cambie el nombre del objeto a **Score**.",
+            "it": "Cambia il nome dell'oggetto in **Punteggio**.",
+            "ja": "オブジェクト名を **スコア** に変更します。",
+            "ko": "객체 이름을 **점수**로 변경하세요.",
+            "pl": "Zmień nazwę obiektu na **Wynik**.",
             "pt": "Mude o nome do objeto para **Score**.",
+            "ru": "Измените имя объекта на **Счет**.",
+            "sl": "Spremenite ime predmeta v **Rezultat**.",
+            "sq": "Ndryshoni emrin e objektit në **Pikë**.",
             "th": "เปลี่ยนชื่อวัตถุเป็น **Score**",
-            "ar": "تغيير اسم الكائن إلى **Score**."
+            "uk": "Змініть назву об'єкта на **Рахунок**.",
+            "zh": "将对象名称更改为 **分数**。"
           }
         },
         "placement": "bottom"
@@ -199,10 +326,20 @@
           "messageByLocale": {
             "en": "Change the font size to **50**.",
             "fr": "Utilisez une taille de **50**.",
+            "ar": "تغيير حجم الخط إلى **50**.",
+            "de": "Ändern Sie die Schriftgröße auf **50**.",
             "es": "Cambie el tamaño de fuente a **50**.",
+            "it": "Cambia la dimensione del carattere in **50**.",
+            "ja": "フォントサイズを **50** に変更します。",
+            "ko": "글꼴 크기를 **50**으로 변경하세요.",
+            "pl": "Zmień rozmiar czcionki na **50**.",
             "pt": "Mude o tamanho da fonte para **50**.",
+            "ru": "Измените размер шрифта на **50**.",
+            "sl": "Spremenite velikost pisave v **50**.",
+            "sq": "Ndryshoni madhësinë e shkronjave në **50**.",
             "th": "เปลี่ยนขนาดตัวอักษรเป็น **50**",
-            "ar": "تغيير حجم الخط إلى **50**."
+            "uk": "Змініть розмір шрифту на **50**.",
+            "zh": "将字体大小更改为 **50**。"
           }
         },
         "placement": "bottom"
@@ -219,10 +356,20 @@
           "messageByLocale": {
             "en": "Change the initial text to **0**, and we'll update it later!",
             "fr": "Changeons la valeur initiale à **0**, et nous allons le mettre à jour ensuite !",
+            "ar": "تغيير حالة النص إلى **0**، وسنقوم بتحديثها لاحقًا!",
+            "de": "Ändern Sie den Anfangstext in **0**, und wir werden ihn später aktualisieren!",
             "es": "Cambie el texto inicial a **0**, ¡y lo actualizaremos más tarde!",
+            "it": "Cambia il testo iniziale in **0**, e lo aggiorneremo più tardi!",
+            "ja": "初期テキストを **0** に変更し、後で更新します！",
+            "ko": "초기 텍스트를 **0**으로 변경하고 나중에 업데이트하겠습니다!",
+            "pl": "Zmień początkowy tekst na **0**, a my go później zaktualizujemy!",
             "pt": "Mude o texto inicial para **0**, e atualizaremos mais tarde!",
+            "ru": "Измените начальный текст на **0**, и мы обновим его позже!",
+            "sl": "Spremenite začetno besedilo v **0**, in ga bomo kasneje posodobili!",
+            "sq": "Ndryshoni tekstin fillestar në **0**, dhe ne do ta përditësojmë më vonë!",
             "th": "เปลี่ยนข้อความเริ่มต้นเป็น **0** และเราจะอัปเดตมันในภายหลัง!",
-            "ar": "تغيير حالة النص إلى **0**، وسنقوم بتحديثها لاحقًا!"
+            "uk": "Змініть початковий текст на **0**, і ми оновимо його пізніше!",
+            "zh": "将初始文本更改为 **0**，我们稍后会更新它！"
           }
         },
         "placement": "bottom"
@@ -239,10 +386,20 @@
           "messageByLocale": {
             "en": "We're done.",
             "fr": "Nous avons terminé.",
+            "ar": "انتهينا.",
+            "de": "Wir sind fertig.",
             "es": "Hemos terminado.",
+            "it": "Abbiamo finito.",
+            "ja": "完了です。",
+            "ko": "끝났습니다.",
+            "pl": "Skończyliśmy.",
             "pt": "Terminamos.",
+            "ru": "Мы закончили.",
+            "sl": "Končali smo.",
+            "sq": "Kemi përfunduar.",
             "th": "เราเสร็จแล้ว",
-            "ar": "انتهينا."
+            "uk": "Ми закінчили.",
+            "zh": "我们完成了。"
           }
         }
       },
@@ -260,20 +417,40 @@
           "messageByLocale": {
             "en": "Drag $(scoreText) into the **scene**.",
             "fr": "Faites glisser $(scoreText) du menu au canvas.",
+            "ar": "سحب $(scoreText) إلى **المشهد**.",
+            "de": "Ziehen Sie $(scoreText) in die **Szene**.",
             "es": "Arrastre $(scoreText) al **escenario**.",
+            "it": "Trascina $(scoreText) nella **scena**.",
+            "ja": "$(scoreText) を **シーン** にドラッグします。",
+            "ko": "$(scoreText)를 **씬**으로 드래그하세요.",
+            "pl": "Przeciągnij $(scoreText) na **poziom**.",
             "pt": "Arraste $(scoreText) para a **cena**.",
+            "ru": "Перетащите $(scoreText) в **сцену**.",
+            "sl": "Povlecite $(scoreText) v **prizorišče**.",
+            "sq": "Tërhiqni $(scoreText) në **skenë**.",
             "th": "ลาก $(scoreText) ไปยัง **ฉาก**",
-            "ar": "سحب $(scoreText) إلى **المشهد**."
+            "uk": "Перетягніть $(scoreText) в **сцену**.",
+            "zh": "将 $(scoreText) 拖到 **场景** 中。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "**Select** then **drag** $(scoreText) into the **scene**.",
             "fr": "**Sélectionnez** puis **faites glisser** $(scoreText) du menu au canvas.",
+            "ar": "**تحديد** ثم **سحب** الـ $(scoreText) إلى **المشهد**.",
+            "de": "**Wählen** und **ziehen** Sie $(scoreText) in die **Szene**.",
             "es": "**Seleccione** y **arrastrar** $(scoreText) al **escenario**.",
+            "it": "**Seleziona** e **trascina** $(scoreText) nella **scena**.",
+            "ja": "**$(scoreText)** を **シーン** に **選択** して **ドラッグ** します。",
+            "ko": "**$(scoreText)**를 **씬**으로 **선택**한 후 **드래그**하세요.",
+            "pl": "**Wybierz** a następnie **przeciągnij** $(scoreText) na **poziom**.",
             "pt": "**Selecione** e **arraste** $(scoreText) para a **cena**.",
+            "ru": "**Выберите** и **перетащите** $(scoreText) в **сцену**.",
+            "sl": "**Izberite** in **povlecite** $(scoreText) v **prizorišče**.",
+            "sq": "**Zgjidhni** dhe **tërhiqni** $(scoreText) në **skenë**.",
             "th": "**เลือก** แล้ว **ลาก** $(scoreText) ไปยัง **ฉาก**",
-            "ar": "**تحديد** ثم **سحب** الـ $(scoreText) إلى **المشهد**."
+            "uk": "**Виберіть** та **перетягніть** $(scoreText) в **сцену**.",
+            "zh": "**选择** 然后 **拖动** $(scoreText) 到 **场景** 中。"
           }
         },
         "placement": "top"
@@ -285,10 +462,20 @@
           "messageByLocale": {
             "en": "I'm done",
             "fr": "J'ai terminé",
+            "ar": "انتهيت",
+            "de": "Ich bin fertig",
             "es": "He terminado",
+            "it": "Ho finito",
+            "ja": "完了",
+            "ko": "완료",
+            "pl": "Skończyłem",
             "pt": "Terminei",
+            "ru": "Я закончил",
+            "sl": "Končal sem",
+            "sq": "Përfundova",
             "th": "เสร็จแล้ว",
-            "ar": "انتهيت"
+            "uk": "Я закінчив",
+            "zh": "我完成了"
           }
         }
       },
@@ -298,10 +485,20 @@
           "messageByLocale": {
             "en": "Place the $(scoreText) at the top right of the screen, so that the player can see their score while they play.\n\nWhen you're done, click on the button below.",
             "fr": "Placez $(scoreText) en haut à droite de l'écran, de sorte que le joueur puisse voir son score pendant qu'il joue.\n\nQuand vous avez terminé, cliquez sur le bouton ci-dessous.",
+            "ar": "إدراج الـ $(scoreText) في أعلى يمين الشاشة، حتى يتمكن اللاعبون من رؤية وقتهم الذي قضوه في اللعب. \n\nعند الانتهاء، الضغط على الزر أدناه.",
+            "de": "Platzieren Sie $(scoreText) oben rechts auf dem Bildschirm, damit der Spieler seine Punktzahl sehen kann, während er spielt.\n\nWenn Sie fertig sind, klicken Sie auf die Schaltfläche unten.",
             "es": "Coloque $(scoreText) en la parte superior derecha de la pantalla, para que el jugador pueda ver su puntuación mientras juega.\n\nCuando hayas terminado, haz clic en el botón de abajo.",
+            "it": "Posiziona $(scoreText) in alto a destra dello schermo, in modo che il giocatore possa vedere il suo punteggio mentre gioca.\n\nQuando hai finito, clicca sul pulsante qui sotto.",
+            "ja": "$(scoreText) を画面の右上に配置して、プレイヤーがプレイ中にスコアを見ることができるようにします。\n\n完了したら、下のボタンをクリックします。",
+            "ko": "화면 오른쪽 상단에 $(scoreText)를 배치하여 플레이어가 플레이하는 동안 점수를 볼 수 있도록합니다.\n\n완료되면 아래 버튼을 클릭하세요.",
+            "pl": "Umieść $(scoreText) w prawym górnym rogu ekranu, aby gracz mógł zobaczyć swój wynik podczas gry.\n\nGdy skończysz, kliknij przycisk poniżej.",
             "pt": "Coloque $(scoreText) no canto superior direito da tela, para que o jogador possa ver sua pontuação enquanto joga.\n\nQuando terminar, clique no botão abaixo.",
+            "ru": "Разместите $(scoreText) в верхнем правом углу экрана, чтобы игрок мог видеть свой счет во время игры.\n\nКогда закончите, нажмите на кнопку ниже.",
+            "sl": "Postavite $(scoreText) v zgornjem desnem kotu zaslona, tako da lahko igralec vidi svoj rezultat med igranjem.\n\nKo končate, kliknite na spodnji gumb.",
+            "sq": "Vendosni $(scoreText) në këndin e djathtë të ekranit, që lojtari të mund të shohë pikët e tyre gjatë lojës.\n\nKur të keni përfunduar, klikoni në butonin më poshtë.",
             "th": "วาง $(scoreText) ที่ด้านบนขวาของหน้าจอ เพื่อให้ผู้เล่นสามารถเห็นคะแนนของตนเองขณะเล่นได้\n\nเมื่อคุณเสร็จแล้ว ให้คลิกที่ปุ่มด้านล่าง",
-            "ar": "إدراج الـ $(scoreText) في أعلى يمين الشاشة، حتى يتمكن اللاعبون من رؤية وقتهم الذي قضوه في اللعب. \n\nعند الانتهاء، الضغط على الزر أدناه."
+            "uk": "Розмістіть $(scoreText) в правому верхньому куті екрану, щоб гравець міг бачити свій рахунок під час гри.\n\nКоли закінчите, натисніть на кнопку нижче.",
+            "zh": "将 $(scoreText) 放在屏幕的右上角，这样玩家在游戏时就可以看到他们的分数。\n\n完成后，点击下面的按钮。"
           }
         },
         "placement": "top",
@@ -320,10 +517,20 @@
           "messageByLocale": {
             "en": "Now let's **update this text with a timer**! Let's **open the Events Sheet** of your scene $(gameScene).",
             "fr": "Maintenant, **mettons à jour ce texte avec un chronomètre** ! **Ouvrons la feuille d'événements** de votre scène $(gameScene).",
+            "ar": "الآن هيّا نقوم ب**تحديث هذا النص مع المؤقت**! هيّا نقوم ب**فتح صفحة الأحداث** لمشهدك $(gameScene).",
+            "de": "Lassen Sie uns diesen Text jetzt mit einem Timer **aktualisieren**! Öffnen Sie das **Ereignisblatt** Ihrer Szene $(gameScene).",
             "es": "¡Ahora, **actualicemos este texto con un temporizador**! **Abramos la hoja de eventos** de su escena $(gameScene).",
+            "it": "Ora **aggiorniamo questo testo con un timer**! **Apriamo il foglio eventi** della tua scena $(gameScene).",
+            "ja": "今度は **タイマーを使ってこのテキストを更新しましょう**！ **$(gameScene) シーン** の **イベントシート** を開きます。",
+            "ko": "이제 **타이머로 이 텍스트를 업데이트**해 보겠습니다! **$(gameScene) 씬**의 **이벤트 시트**를 엽니다.",
+            "pl": "Teraz **zaktualizujmy ten tekst za pomocą stopera**! **Otwórzmy Arkusz Zdarzeń** twojej sceny $(gameScene).",
             "pt": "Agora, **atualizemos este texto com um temporizador**! **Abra a Planilha de Eventos** de sua cena $(gameScene).",
+            "ru": "Теперь давайте **обновим этот текст с помощью таймера**! **Откроем Лист событий** вашей сцены $(gameScene).",
+            "sl": "Zdaj **posodobimo ta besedilo s časovnikom**! **Odpri list dogodkov** svoje scene $(gameScene).",
+            "sq": "Tani le të **përditësojmë këtë tekst me një kohëmatës**! **Hapim fletën e ngjarjeve** të skenës suaj $(gameScene).",
             "th": "ตอนนี้ **อัปเดตข้อความนี้ด้วยตัวจับเวลา**! **เปิดแผ่นงานเหตุการณ์** ของฉากของคุณ $(gameScene)",
-            "ar": "الآن هيّا نقوم ب**تحديث هذا النص مع المؤقت**! هيّا نقوم ب**فتح صفحة الأحداث** لمشهدك $(gameScene)."
+            "uk": "Тепер давайте **оновимо цей текст за допомогою таймера**! **Відкриємо Лист подій** вашої сцени $(gameScene).",
+            "zh": "现在让我们用一个计时器**更新这个文本**！让我们**打开你的场景 $(gameScene) 的事件表**。"
           }
         },
         "placement": "bottom"
@@ -340,10 +547,20 @@
           "messageByLocale": {
             "en": "Let's **add a condition** to detect when the game starts.",
             "fr": "Ajoutons une **condition** pour détecter quand le jeu commence.",
+            "ar": "هيّا نقوم ب**إضافة شرط** لكشف وقت بدء اللعبة.",
+            "de": "Lassen Sie uns eine **Bedingung hinzufügen**, um zu erkennen, wann das Spiel beginnt.",
             "es": "Agreguemos una **condición** para detectar cuando comienza el juego.",
+            "it": "Aggiungiamo una **condizione** per rilevare quando inizia il gioco.",
+            "ja": "ゲームが開始されたときを検出するために **条件を追加**しましょう。",
+            "ko": "게임이 시작될 때를 감지하기 위해 **조건을 추가**해 보겠습니다.",
+            "pl": "Dodajmy **warunek**, aby wykryć, kiedy gra się zaczyna.",
             "pt": "Vamos **adicionar uma condição** para detectar quando o jogo começa.",
+            "ru": "Добавим **условие** для определения начала игры.",
+            "sl": "Dodajmo **pogoj**, da ugotovimo, kdaj se igra začne.",
+            "sq": "Le të **shtojmë një kusht** për të zbuluar kur fillon loja.",
             "th": "เพิ่ม **เงื่อนไข** เพื่อตรวจสอบเมื่อเกมเริ่มต้น",
-            "ar": "هيّا نقوم ب**إضافة شرط** لكشف وقت بدء اللعبة."
+            "uk": "Давайте **додамо умову**, щоб виявити, коли гра починається.",
+            "zh": "让我们**添加一个条件**来检测游戏何时开始。"
           }
         }
       }
@@ -358,10 +575,20 @@
           "messageByLocale": {
             "en": "Search for **Scene**.",
             "fr": "Cherchez **Scène**.",
+            "ar": "البحث عن **مشهد**.",
+            "de": "Suchen Sie nach **Szene**.",
             "es": "Busque **Escena**.",
+            "it": "Cerca **Scena**.",
+            "ja": "**シーン** を検索します。",
+            "ko": "**씬**을 검색합니다.",
+            "pl": "Wyszukaj **Poziom**.",
             "pt": "Procure por **Cena**.",
+            "ru": "Ищите **Сцена**.",
+            "sl": "Iščite **Prizorišče**.",
+            "sq": "Kërkoni **Skenë**.",
             "th": "ค้นหา **ฉาก**",
-            "ar": "البحث عن **مشهد**."
+            "uk": "Шукайте **Сцена**.",
+            "zh": "搜索 **场景**。"
           }
         }
       },
@@ -377,10 +604,20 @@
           "messageByLocale": {
             "en": "We will start our timer when the scene starts, thanks to the **At the beginning of the scene** condition.",
             "fr": "Nous allons démarrer notre chronomètre quand la scène commence, grâce à la condition **Au début de la scène**.",
+            "ar": "سوف يبدأ مؤقتنا عندما يبدأ المشهد، بفضل الشرط **في بداية المشهد**.",
+            "de": "Wir starten unseren Timer, wenn die Szene beginnt, dank der Bedingung **Am Anfang der Szene**.",
             "es": "Comenzaremos nuestro temporizador cuando comience la escena, gracias a la condición **Al comienzo de la escena**.",
+            "it": "Inizieremo il nostro timer quando la scena inizia, grazie alla condizione **All'inizio della scena**.",
+            "ja": "シーンが開始されたときに **シーンの開始時** 条件によってタイマーを開始します。",
+            "ko": "씬이 시작될 때 **씬 시작 시** 조건으로 타이머를 시작합니다.",
+            "pl": "Uruchomimy nasz stoper, gdy poziom się zacznie, dzięki warunkowi **Na początku poziomu**.",
             "pt": "Vamos iniciar nosso temporizador quando a cena começar, graças à condição **No início da cena**.",
+            "ru": "Мы начнем наш таймер, когда сцена начнется, благодаря условию **В начале сцены**.",
+            "sl": "Zagnali bomo naš štopar, ko se prizorišče začne, zahvaljujoč pogoj **Na začetku prizorišča**.",
+            "sq": "Do të fillojmë kohëmatësin tonë kur skena fillon, falë kushtit **Në fillim të skenës**.",
             "th": "เราจะเริ่มต้นตัวจับเวลาเมื่อฉากเริ่มต้น โดยขอบคุณเงื่อนไข **เริ่มต้นฉาก**",
-            "ar": "سوف يبدأ مؤقتنا عندما يبدأ المشهد، بفضل الشرط **في بداية المشهد**."
+            "uk": "Ми почнемо наш таймер, коли сцена почнеться, завдяки умові **На початку сцени**.",
+            "zh": "我们将在场景开始时启动我们的计时器，这要归功于 **在场景开始时** 条件。"
           }
         }
       },
@@ -396,10 +633,20 @@
           "messageByLocale": {
             "en": "Let's create the timer now.",
             "fr": "Nous allons maintenant créer le chronomètre.",
+            "ar": "سوف نقوم بإنشاء المؤقت الآن.",
+            "de": "Lassen Sie uns den Timer jetzt erstellen.",
             "es": "Ahora creemos el temporizador.",
+            "it": "Creiamo il timer ora.",
+            "ja": "タイマーを作成しましょう。",
+            "ko": "이제 타이머를 만들어 보겠습니다.",
+            "pl": "Teraz utwórzmy stoper.",
             "pt": "Vamos criar o temporizador agora.",
+            "ru": "Давайте создадим таймер сейчас.",
+            "sl": "Sedaj bomo ustvarili štopar.",
+            "sq": "Le të krijojmë kohëmatësin tani.",
             "th": "เราจะสร้างตัวจับเวลาตอนนี้",
-            "ar": "سوف نقوم بإنشاء المؤقت الآن."
+            "uk": "Давайте створимо таймер зараз.",
+            "zh": "现在让我们创建计时器。"
           }
         },
         "placement": "top"
@@ -415,10 +662,20 @@
           "messageByLocale": {
             "en": "Create an **action**.",
             "fr": "Créez une **action**.",
+            "ar": "إضافة **إجراء**.",
+            "de": "Erstellen Sie eine **Aktion**.",
             "es": "Crea una **acción**.",
+            "it": "Crea un'**azione**.",
+            "ja": "**アクション** を作成します。",
+            "ko": "**액션**을 만듭니다.",
+            "pl": "Utwórz **akcję**.",
             "pt": "Crie uma **ação**.",
+            "ru": "Создайте **действие**.",
+            "sl": "Ustvarite **dejanje**.",
+            "sq": "Krijo një **veprim**.",
             "th": "สร้าง **การกระทำ**",
-            "ar": "إضافة **إجراء**."
+            "uk": "Створіть **дію**.",
+            "zh": "创建一个**动作**。"
           }
         }
       }
@@ -433,10 +690,20 @@
           "messageByLocale": {
             "en": "Search for **Scene timer**.",
             "fr": "Cherchez **chrono**.",
+            "ar": "البحث عن **مؤقت المشهد**.",
+            "de": "Suchen Sie nach **Szene-Timer**.",
             "es": "Busque **temporizador**.",
+            "it": "Cerca **timer di scena**.",
+            "ja": "**シーンタイマー** を検索します。",
+            "ko": "**씬 타이머**를 검색합니다.",
+            "pl": "Wyszukaj **stoper poziomu**.",
             "pt": "Procure por **Cronômetro**.",
+            "ru": "Ищите **таймер сцены**.",
+            "sl": "Iščite **časovnik prizorišča**.",
+            "sq": "Kërkoni **kohëmatës skene**.",
             "th": "ค้นหา **ตัวจับเวลาฉาก**",
-            "ar": "البحث عن **مؤقت المشهد**."
+            "uk": "Шукайте **таймер сцени**.",
+            "zh": "搜索 **场景计时器**。"
           }
         }
       },
@@ -452,10 +719,20 @@
           "messageByLocale": {
             "en": "Select the **Start (or reset) a scene timer** action.",
             "fr": "Cliquez sur l'action **Démarrer (ou réinitialiser) un chronomètre de scène**.",
+            "ar": "تحديد الإجراء **بدء (أو إعادة تعيين) مؤقت المشهد**.",
+            "de": "Wählen Sie die **Szene-Timer starten (oder zurücksetzen)**-Aktion.",
             "es": "Seleccione la acción **Iniciar (o reiniciar) un temporizador de escena**.",
+            "it": "Seleziona l'azione **Avvia (o reimposta) un timer di scena**.",
+            "ja": "**シーンタイマーを開始（またはリセット）**するアクションを選択します。",
+            "ko": "**씬 타이머 시작 (또는 재설정)** 액션을 선택합니다.",
+            "pl": "Wybierz **Uruchom (lub zresetuj) stoper poziomu**.",
             "pt": "Selecione a ação **Iniciar (ou reiniciar) um cronômetro de cena**.",
+            "ru": "Выберите действие **Запустить (или сбросить) таймер сцены**.",
+            "sl": "Izberite **Začni (ali ponastavi) časovnik prizorišča**.",
+            "sq": "Zgjidh veprimin **Fillo (ose rivendos) një kohëmatës skene**.",
             "th": "เลือก **เริ่มต้น (หรือรีเซ็ต) ตัวจับเวลาฉาก**",
-            "ar": "تحديد الإجراء **بدء (أو إعادة تعيين) مؤقت المشهد**."
+            "uk": "Виберіть дію **Запустити (або скинути) таймер сцени**.",
+            "zh": "选择 **开始（或重置）场景计时器** 动作。"
           }
         }
       },
@@ -471,10 +748,20 @@
           "messageByLocale": {
             "en": "This timer will be created, let's name it **\"GameTimer\"** (in quotations).",
             "fr": "Ce chronomètre sera créé, nommons-le **\"GameTimer\"** (entre guillemets).",
+            "ar": "سوف يتم إنشاء المؤقت، فلنسميه **\"GameTimer\"** (داخل علامتا تنصيص).",
+            "de": "Dieser Timer wird erstellt, nennen wir ihn **\"GameTimer\"** (in Anführungszeichen).",
             "es": "Este temporizador se creará, llamémoslo **\"GameTimer\"** (entre comillas).",
+            "it": "Questo timer verrà creato, chiamiamolo **\"GameTimer\"** (tra virgolette).",
+            "ja": "このタイマーは作成されます。**\"GameTimer\"**（引用符内）と名前を付けましょう。",
+            "ko": "이 타이머가 생성될 것입니다. **\"GameTimer\"** (따옴표 안)이라고 이름을 지어 보겠습니다.",
+            "pl": "Ten stoper zostanie utworzony, nazwijmy go **\"GameTimer\"** (w cudzysłowie).",
             "pt": "Este cronômetro será criado, vamos chamá-lo de **\"GameTimer\"** (entre aspas).",
+            "ru": "Этот таймер будет создан, давайте назовем его **\"GameTimer\"** (в кавычках).",
+            "sl": "Ta časovnik bo ustvarjen, poimenujmo ga **\"GameTimer\"** (v narekovajih).",
+            "sq": "Kjo kohëmatës do të krijohet, le të quajmë **\"GameTimer\"** (në thonjza).",
             "th": "ตัวจับเวลานี้จะถูกสร้าง ให้เราตั้งชื่อว่า **\"GameTimer\"** (ในเครื่องหมายคำพูด)",
-            "ar": "سوف يتم إنشاء المؤقت، فلنسميه **\"GameTimer\"** (داخل علامتا تنصيص)."
+            "uk": "Цей таймер буде створений, давайте назвемо його **\"GameTimer\"** (у лапках).",
+            "zh": "这个计时器将被创建，让我们给它命名为 **\"GameTimer\"**（在引号内）。"
           }
         }
       },
@@ -491,10 +778,20 @@
           "messageByLocale": {
             "en": "We're done! Our timer will start when the scene starts.",
             "fr": "Nous avons terminé ! Notre chronomètre démarrera lorsque la scène commencera.",
+            "ar": "انتهينا! مؤقتنا سوف يبدأ وقتما يبدأ المشهد.",
+            "de": "Wir sind fertig! Unser Timer wird starten, wenn die Szene beginnt.",
             "es": "¡Hemos terminado! Nuestro temporizador comenzará cuando comience la escena.",
+            "it": "Abbiamo finito! Il nostro timer inizierà quando la scena inizia.",
+            "ja": "完了です！シーンが開始されたときにタイマーが開始します。",
+            "ko": "완료되었습니다! 씬이 시작될 때 타이머가 시작됩니다.",
+            "pl": "Skończone! Nasz stoper rozpocznie się, gdy poziom się zacznie.",
             "pt": "Terminamos! Nosso cronômetro começará quando a cena começar.",
+            "ru": "Мы закончили! Наш таймер начнется, когда сцена начнется.",
+            "sl": "Končali smo! Naš štopar se bo začel, ko se prizorišče začne.",
+            "sq": "Kemi përfunduar! Kohëmatësi ynë do të fillojë kur skena fillon.",
             "th": "เราจบแล้ว! ตัวจับเวลาของเราจะเริ่มต้นเมื่อฉากเริ่มต้น",
-            "ar": "انتهينا! مؤقتنا سوف يبدأ وقتما يبدأ المشهد."
+            "uk": "Ми закінчили! Наш таймер почнеться, коли сцена почнеться.",
+            "zh": "我们完成了！我们的计时器将在场景开始时启动。"
           }
         },
         "placement": "top"
@@ -510,10 +807,20 @@
           "messageByLocale": {
             "en": "Now let's update the score thanks to the timer.",
             "fr": "Maintenant, mettons à jour le score grâce au chronomètre.",
+            "ar": "الآن هيّا نقوم بتحديث النص بفضل المؤقت.",
+            "de": "Lassen Sie uns den Timer verwenden, um die Punktzahl zu aktualisieren.",
             "es": "Ahora actualicemos la puntuación gracias al temporizador.",
+            "it": "Ora aggiorniamo il punteggio grazie al timer.",
+            "ja": "今度はタイマーを使ってスコアを更新しましょう。",
+            "ko": "이제 타이머로 점수를 업데이트해 보겠습니다.",
+            "pl": "Teraz zaktualizujmy wynik za pomocą stopera.",
             "pt": "Agora vamos atualizar a pontuação graças ao cronômetro.",
+            "ru": "Теперь давайте обновим счет благодаря таймеру.",
+            "sl": "Zdaj bomo posodobili rezultat zahvaljujoč časovniku.",
+            "sq": "Tani le të përditësojmë rezultatin falë kohëmatësit.",
             "th": "ตอนนี้เราจะอัปเดตคะแนนของเราโดยใช้ตัวจับเวลา",
-            "ar": "الآن هيّا نقوم بتحديث النص بفضل المؤقت."
+            "uk": "Тепер давайте оновимо рахунок завдяки таймеру.",
+            "zh": "现在让我们用计时器更新分数。"
           }
         }
       }
@@ -528,10 +835,20 @@
           "messageByLocale": {
             "en": "Select $(scoreText).",
             "fr": "Cliquez sur $(scoreText).",
+            "ar": "تحديد $(scoreText).",
+            "de": "Wählen Sie $(scoreText).",
             "es": "Seleccione $(scoreText).",
+            "it": "Seleziona $(scoreText).",
+            "ja": "$(scoreText) を選択します。",
+            "ko": "$(scoreText)를 선택합니다.",
+            "pl": "Wybierz $(scoreText).",
             "pt": "Selecione $(scoreText).",
+            "ru": "Выберите $(scoreText).",
+            "sl": "Izberite $(scoreText).",
+            "sq": "Zgjidh $(scoreText).",
             "th": "เลือก $(scoreText)",
-            "ar": "تحديد $(scoreText)."
+            "uk": "Виберіть $(scoreText).",
+            "zh": "选择 $(scoreText)。"
           }
         }
       },
@@ -547,34 +864,23 @@
           "messageByLocale": {
             "en": "We will change the text.",
             "fr": "Nous allons changer le contenu du texte.",
+            "ar": "سوف نقوم بتعديل النص.",
+            "de": "Wir werden den Text ändern.",
             "es": "Cambiamos el texto.",
+            "it": "Modificheremo il testo.",
+            "ja": "テキストを変更します。",
+            "ko": "텍스트를 변경해 보겠습니다.",
+            "pl": "Zmienimy tekst.",
             "pt": "Vamos alterar o texto.",
+            "ru": "Мы изменим текст.",
+            "sl": "Spremenili bomo besedilo.",
+            "sq": "Do të ndryshojmë tekstin.",
             "th": "เราจะเปลี่ยนข้อความ",
-            "ar": "سوف نقوم بتعديل النص."
+            "uk": "Ми змінимо текст.",
+            "zh": "我们将更改文本。"
           }
         }
       },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-parameters-container select",
-      "nextStepTrigger": {
-        "valueEquals": "="
-      },
-      "skippable": true,
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select **= (set to)**.",
-            "fr": "Cliquez sur **= (définir à)**.",
-            "es": "Seleccione **= (establecer en)**.",
-            "pt": "Selecione **= (definir como)**.",
-            "th": "เลือก **= (ตั้งค่าเป็น)**",
-            "ar": "تحديد **= (تعيين إلى)**."
-          }
-        }
-      },
-      "placement": "left",
       "isOnClosableDialog": true
     },
     {
@@ -588,9 +894,19 @@
             "en": "Now, let's use the value of the timer.",
             "fr": "Maintenant, utilisons la valeur du chronomètre.",
             "es": "Ahora, usemos el valor del temporizador.",
+            "ar": "والآن، هيّا نستخدم قيمة المؤقت.",
+            "de": "Lassen Sie uns den Wert des Timers verwenden.",
+            "it": "Ora, usiamo il valore del timer.",
+            "ja": "今度はタイマーの値を使いましょう。",
+            "ko": "이제 타이머의 값을 사용해 보겠습니다.",
+            "pl": "Teraz użyjmy wartości stopera.",
             "pt": "Agora, vamos usar o valor do cronômetro.",
+            "ru": "Теперь давайте используем значение таймера.",
+            "sl": "Sedaj bomo uporabili vrednost štoparja.",
+            "sq": "Tani, le të përdorim vlerën e kohëmatësit.",
             "th": "ตอนนี้เราจะใช้ค่าของตัวจับเวลา",
-            "ar": "والآن، هيّا نستخدم قيمة المؤقت."
+            "uk": "Тепер давайте використаємо значення таймера.",
+            "zh": "现在，让我们使用计时器的值。"
           }
         },
         "placement": "bottom"
@@ -607,10 +923,20 @@
           "messageByLocale": {
             "en": "Search for **Timer**",
             "fr": "Recherchez **Chrono**",
+            "ar": "البحث عن **مؤقت**.",
+            "de": "Suchen Sie nach **Timer**",
             "es": "Busque **Temporizador**",
+            "it": "Cerca **Timer**",
+            "ja": "**タイマー** を検索します。",
+            "ko": "**타이머**를 검색합니다.",
+            "pl": "Wyszukaj **Stoper**",
             "pt": "Procure por **Cronômetro**",
+            "ru": "Ищите **Таймер**",
+            "sl": "Iščite **Časovnik**",
+            "sq": "Kërkoni **Kohëmatës**",
             "th": "ค้นหา **ตัวจับเวลา**",
-            "ar": "البحث عن **مؤقت**."
+            "uk": "Шукайте **Таймер**",
+            "zh": "搜索 **计时器**"
           }
         },
         "placement": "top"
@@ -627,10 +953,20 @@
           "messageByLocale": {
             "en": "Select **Value of a scene timer**.",
             "fr": "Sélectionnez **Valeur d'un chronomètre de scène**.",
+            "ar": "تحديد **قيمة مؤقت المشهد**.",
+            "de": "Wählen Sie **Wert eines Szenentimers**.",
             "es": "Seleccione **Valor de un temporizador de escena**.",
+            "it": "Seleziona **Valore di un timer di scena**.",
+            "ja": "**シーンタイマーの値** を選択します。",
+            "ko": "**씬 타이머의 값**을 선택합니다.",
+            "pl": "Wybierz **Wartość stopera poziomu**.",
             "pt": "Selecione **Valor de um cronômetro de cena**.",
+            "ru": "Выберите **Значение таймера сцены**.",
+            "sl": "Izberite **Vrednost časovnika prizorišča**.",
+            "sq": "Zgjidh **Vlerën e një kohëmatësi skene**.",
             "th": "เลือก **ค่าของตัวจับเวลาของฉาก**",
-            "ar": "تحديد **قيمة مؤقت المشهد**."
+            "uk": "Виберіть **Значення таймера сцени**.",
+            "zh": "选择 **场景计时器的值**。"
           }
         },
         "placement": "bottom"
@@ -647,10 +983,20 @@
           "messageByLocale": {
             "en": "Select the timer we just created, **\"GameTimer\"**.",
             "fr": "Sélectionnez le chronomètre que nous venons de créer, **\"GameTimer\"**.",
+            "ar": "تحديد المؤقت الذي قمنا بإنشائه للتو (**\"GameTimer\"**).",
+            "de": "Wählen Sie den Timer, den wir gerade erstellt haben, **\"GameTimer\"**.",
             "es": "Seleccione el temporizador que acabamos de crear, **\"GameTimer\"**.",
+            "it": "Seleziona il timer che abbiamo appena creato, **\"GameTimer\"**.",
+            "ja": "先ほど作成したタイマー **\"GameTimer\"** を選択します。",
+            "ko": "방금 만든 타이머 **\"GameTimer\"**을 선택합니다.",
+            "pl": "Wybierz stoper, który właśnie utworzyliśmy, **\"GameTimer\"**.",
             "pt": "Selecione o cronômetro que acabamos de criar, **\"GameTimer\"**.",
+            "ru": "Выберите таймер, который мы только что создали, **\"GameTimer\"**.",
+            "sl": "Izberite časovnik, ki smo ga pravkar ustvarili, **\"GameTimer\"**.",
+            "sq": "Zgjidh kohëmatësin që sapo krijuam, **\"GameTimer\"**.",
             "th": "เลือกตัวจับเวลาที่เราสร้างไว้เมื่อสักครู่ที่แล้ว **\"GameTimer\"**",
-            "ar": "تحديد المؤقت الذي قمنا بإنشائه للتو (**\"GameTimer\"**)."
+            "uk": "Виберіть таймер, який ми щойно створили, **\"GameTimer\"**.",
+            "zh": "选择我们刚刚创建的计时器 **\"GameTimer\"**。"
           }
         },
         "placement": "top"
@@ -667,10 +1013,20 @@
           "messageByLocale": {
             "en": "We're good.",
             "fr": "On est bon.",
+            "ar": "نحن على الطريق الصحيح.",
+            "de": "Wir sind gut.",
             "es": "Estamos bien.",
+            "it": "Siamo a posto.",
+            "ja": "問題ありません。",
+            "ko": "좋습니다.",
+            "pl": "Jesteśmy dobrze.",
             "pt": "Estamos bem.",
+            "ru": "Мы в порядке.",
+            "sl": "V redu smo.",
+            "sq": "Jemi mirë.",
             "th": "เรียบร้อยแล้ว",
-            "ar": "نحن على الطريق الصحيح."
+            "uk": "Ми в порядку.",
+            "zh": "我们完成了。"
           }
         },
         "placement": "top"
@@ -685,12 +1041,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, final detail! If we leave it like this, the score text will display the decimals of our timer and we only want the seconds!\n\nLet's **round** that number.\n\nLet's use the function `round()` around the value so that we round the timer value. The result will look like this:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
-            "fr": "Bien, dernier détail ! Si nous laissons comme ça, le texte du score affichera les décimales de notre chronomètre et nous ne voulons que les secondes !\n\n**Arrondissons** ce nombre.\n\nAjoutons la fonction `round()` autour de la valeur afin que nous puissions arrondir la valeur du chronomètre. Le résultat ressemblera à ceci :\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
-            "es": "¡Bien, detalle final! Si lo dejamos así, el texto de la puntuación mostrará los decimales de nuestro temporizador y solo queremos los segundos.\n\n¡**Redondeemos** ese número!\n\nAgreguemos la función `round()` alrededor del valor para que podamos redondear el valor del temporizador. El resultado se verá así:\n\n`\"ToString(round( TimerElapsedTime(\"GameTimer\")))`",
-            "pt": "Bem, detalhe final! Se deixarmos assim, o texto da pontuação exibirá os decimais do nosso cronômetro e só queremos os segundos!\n\nVamos **arredondar** esse número.\n\nVamos adicionar a função `round()` ao redor do valor para que possamos arredondar o valor do cronômetro. O resultado será assim:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
-            "th": "ดี รายละเอียดสุดท้าย! ถ้าเราเหลืออย่างนี้ ข้อความคะแนนจะแสดงทศนิยมของตัวจับเวลาของเราและเราต้องการเฉพาะวินาที!\n\nเราจะ **ปัดเศษ** ตัวเลขนั้น\n\nเราจะเพิ่มการใช้ฟังก์ชัน `round()` รอบค่าเพื่อที่เราจะปัดเศษค่าของตัวจับเวลา ผลลัพธ์จะเป็นแบบนี้\n\n`ToString(round(TimerElapsedTime(\"GameTimer\")))`",
-            "ar": "حسنًا، نحن في التفاصيل النهائية! إذا تركناها هكذا، سيعرض النص أرقامًا عشرية ونحن نريد الثواني فقط!\n\nهيّا نقوم ب**تقريب** ذاك الرقم.\n\nلنستخدم التعبير `round()` حول القيمة حتى يتم تقريب قيمة المؤقت. سوف يصبح هكذا:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`"
+            "en": "Final detail! If we leave it like this, the score text will display the decimals of our timer and we only want the seconds!\n\nLet's **round** that number.\n\nLet's use the function `round()` around the value so that we round the timer value. The result will look like this:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "fr": "Dernier détail ! Si nous laissons comme ça, le texte du score affichera les décimales de notre chronomètre et nous ne voulons que les secondes !\n\n**Arrondissons** ce nombre.\n\nAjoutons la fonction `round()` autour de la valeur afin que nous puissions arrondir la valeur du chronomètre. Le résultat ressemblera à ceci :\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "ar": "تفاصيل أخيرة! إذا تركناها بهذا الشكل، سيعرض نص النقاط العشرية لمؤقتنا ونريد فقط الثواني!\n\nلنقم ب**تقريب** هذا الرقم.\n\nلنستخدم الدالة `round()` حول القيمة حتى نقوم بتقريب قيمة المؤقت. سيكون الناتج كالتالي:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "de": "Letztes Detail! Wenn wir es so lassen, zeigt der Punktzahlentext die Dezimalstellen unseres Timers an und wir wollen nur die Sekunden!\n\nLassen Sie uns diese Zahl **runden**.\n\nLassen Sie uns die Funktion `round()` um den Wert herum verwenden, damit wir den Timerwert runden. Das Ergebnis wird so aussehen:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "es": "¡Detalle final! Si lo dejamos así, el texto de la puntuación mostrará los decimales de nuestro temporizador y solo queremos los segundos.\n\n¡**Redondeemos** ese número!\n\nAgreguemos la función `round()` alrededor del valor para que podamos redondear el valor del temporizador. El resultado se verá así:\n\n`\"ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "it": "Dettaglio finale! Se lo lasciamo così, il testo del punteggio visualizzerà le cifre decimali del nostro timer e noi vogliamo solo i secondi!\n\nArrotondiamo quel numero.\n\nUsiamo la funzione `round()` intorno al valore in modo che possiamo arrotondare il valore del timer. Il risultato sarà così:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "ja": "最後の詳細です！これのままにしておくと、スコアテキストにはタイマーの小数点が表示され、私たちは秒だけが欲しいです！\n\nその数値を**丸めましょう**。\n\nタイマーの値を丸めるために、値の周りに`round()`関数を使用しましょう。結果は次のようになります：\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "ko": "마지막 세부 사항입니다! 이대로 둔다면 점수 텍스트에는 타이머의 소수점이 표시되고 우리는 초만 원합니다!\n\n그 숫자를 **반올림**해 보겠습니다.\n\n타이머 값을 반올림하려면 값을 둘러싼 `round()` 함수를 사용하겠습니다. 결과는 다음과 같이 보입니다:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "pl": "Ostatni szczegół! Jeśli zostawimy to tak, tekst wyniku wyświetli dziesiętne naszego stopera, a my chcemy tylko sekundy!\n\nZaokrąglmy tę liczbę.\n\nUżyjmy funkcji `round()` wokół wartości, aby zaokrąglić wartość stopera. Wynik będzie wyglądał tak:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "pt": "Detalhe final! Se deixarmos assim, o texto da pontuação exibirá os decimais do nosso cronômetro e só queremos os segundos!\n\nVamos **arredondar** esse número.\n\nVamos adicionar a função `round()` ao redor do valor para que possamos arredondar o valor do cronômetro. O resultado será assim:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "ru": "Последняя деталь! Если мы оставим это так, текст счета будет отображать десятичные дроби нашего таймера, а мы хотим только секунды!\n\nДавайте **округлим** это число.\n\nДавайте используем функцию `round()` вокруг значения, чтобы мы могли округлить значение таймера. Результат будет выглядеть так:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "sl": "Zadnji podrobnosti! Če pustimo tako, bo besedilo rezultata prikazalo decimalna mesta našega štoparja in mi želimo samo sekunde!\n\nZaokrožimo to število.\n\nUporabimo funkcijo `round()` okoli vrednosti, da bomo zaokrožili vrednost štoparja. Rezultat bo izgledal tako:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "sq": "Detaji përfundimtar! Nëse e lëmë kështu, teksti i rezultatit do të shfaqë dhjetëralet e kohëmatësit tonë dhe ne duam vetëm sekondat!\n\nLe të **rrumbullakësojmë** atë numër.\n\nLe të përdorim funksionin `round()` rreth vlerës që të rrethojmë vlerën e kohëmatësit. Rezultati do të duket kështu:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "th": "รายละเอียดสุดท้าย! หากเราปล่อยไว้เช่นนี้ ข้อความคะแนนจะแสดงทศนิยมของตัวจับเวลาของเราและเราต้องการเฉพาะวินาทีเท่านั้น!\n\nเรามา **ปัดเศษ** ตัวเลขนั้น\n\nเราจะใช้ฟังก์ชัน `round()` รอบค่าเพื่อที่เราจะปัดค่าตัวจับเวลา ผลลัพธ์จะดูเป็นแบบนี้:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "uk": "Останній деталь! Якщо ми залишимо це так, текст рахунку буде відображати десяткові нашого таймера, а ми хочемо тільки секунди!\n\nДавайте **округлимо** це число.\n\nДавайте використаємо функцію `round()` навколо значення, щоб ми могли округлити значення таймера. Результат буде виглядати так:\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`",
+            "zh": "最后一个细节！如果我们保持这样，分数文本将显示我们的计时器的小数位，而我们只想要秒数！\n\n让我们**四舍五入**这个数字。\n\n让我们在值周围使用`round()`函数，这样我们就可以四舍五入计时器的值。结果将如下所示：\n\n`ToString(round( TimerElapsedTime(\"GameTimer\")))`"
           }
         },
         "placement": "top"
@@ -707,10 +1073,20 @@
           "messageByLocale": {
             "en": "We're all set.",
             "fr": "On est tout bon.",
+            "ar": "ضبطنا كل شيء.",
+            "de": "Wir sind fertig.",
             "es": "Estamos listos.",
+            "it": "Siamo pronti.",
+            "ja": "準備完了です。",
+            "ko": "모두 준비되었습니다.",
+            "pl": "Jesteśmy gotowi.",
             "pt": "Estamos prontos.",
+            "ru": "Мы все готовы.",
+            "sl": "Vse je pripravljeno.",
+            "sq": "Jemi të gatshëm.",
             "th": "เราพร้อมแล้ว",
-            "ar": "ضبطنا كل شيء."
+            "uk": "Ми готові.",
+            "zh": "我们都准备好了。"
           }
         },
         "placement": "top"
@@ -724,12 +1100,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
-            "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
-            "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
-            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
-            "th": "เอาล่ะ เสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
+            "en": "We're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
+            "fr": "Nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**.",
+            "de": "Wir sind fertig! Lassen Sie uns unser Spiel testen, um die Änderungen zu sehen, die wir vorgenommen haben! Klicken Sie auf die **Vorschau**-Schaltfläche.",
+            "es": "¡Hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
+            "it": "abbiamo finito! Proviamo il nostro gioco per vedere le modifiche che abbiamo apportato! Clicca sul pulsante **Anteprima**.",
+            "ja": "完了です！私たちが行った変更を確認するためにゲームをテストしましょう！**プレビュー**ボタンをクリックします。",
+            "ko": "우리는 끝났습니다! 우리가 한 변경 사항을 확인하기 위해 게임을 테스트해 봅시다! **미리보기** 버튼을 클릭합니다.",
+            "pl": "Skończyliśmy! Przetestujmy naszą grę, aby zobaczyć zmiany, jakie wprowadziliśmy! Kliknij przycisk **Podgląd**.",
+            "pt": "Nós terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "ru": "Мы закончили! Давайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли! Нажмите на кнопку **Предварительный просмотр**.",
+            "sl": "Končali smo! Testirajmo našo igro, da vidimo spremembe, ki smo jih naredili! Kliknite na gumb **Predogled**.",
+            "sq": "Kemi përfunduar! Le të testojmë lojën tonë për të parë ndryshimet që kemi bërë! Kliko në butonin **Parashiko**.",
+            "th": "เราเสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราได้ทำ! คลิกที่ปุ่ม **ตัวอย่าง**",
+            "uk": "Ми закінчили! Давайте протестуємо нашу гру, щоб побачити зміни, які ми зробили! Натисніть на кнопку **Попередній перегляд**.",
+            "zh": "我们完成了！让我们测试游戏，看看我们所做的更改！点击**预览**按钮。"
           }
         },
         "placement": "bottom"

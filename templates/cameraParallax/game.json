@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.CameraParallaxLesson",
@@ -276,6 +278,9 @@
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -398,9 +403,9 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlayerObject",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -906,7 +911,6 @@
           "assetStoreId": "",
           "height": 320,
           "name": "FarBackground",
-          "tags": "",
           "texture": "clouds-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 320,
@@ -918,7 +922,6 @@
           "assetStoreId": "",
           "height": 640,
           "name": "MidBackground",
-          "tags": "",
           "texture": "town-1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 640,
@@ -930,7 +933,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Floor",
-          "tags": "",
           "texture": "assets\\Ground.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -950,7 +952,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "WallRight",
-          "tags": "",
           "texture": "assets\\WallRight.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -970,7 +971,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "WallLeft",
-          "tags": "",
           "texture": "assets\\WallLeft.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -987,9 +987,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
           "name": "TopArrowButton",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1040,7 +1040,6 @@
         {
           "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
           "name": "FlatDarkJoystick",
-          "tags": "",
           "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
           "variables": [],
           "effects": [],
@@ -1048,6 +1047,7 @@
           "content": {},
           "childrenContent": {
             "Border": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -1082,6 +1082,7 @@
               ]
             },
             "Thumb": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -1118,6 +1119,35 @@
           }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "PlayerObject"
+          },
+          {
+            "objectName": "FarBackground"
+          },
+          {
+            "objectName": "MidBackground"
+          },
+          {
+            "objectName": "Floor"
+          },
+          {
+            "objectName": "WallRight"
+          },
+          {
+            "objectName": "WallLeft"
+          },
+          {
+            "objectName": "TopArrowButton"
+          },
+          {
+            "objectName": "FlatDarkJoystick"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -1129,8 +1159,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Set the offset of the background",
-          "comment2": ""
+          "comment": "Set the offset of the background"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1157,8 +1186,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Change default background color",
-              "comment2": ""
+              "comment": "Change default background color"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1167,9 +1195,7 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [
-                    ""
-                  ]
+                  "parameters": [""]
                 }
               ],
               "actions": [
@@ -1177,10 +1203,7 @@
                   "type": {
                     "value": "SceneBackground"
                   },
-                  "parameters": [
-                    "",
-                    "\"24;18;32\""
-                  ]
+                  "parameters": ["", "\"24;18;32\""]
                 }
               ],
               "events": [
@@ -1192,9 +1215,7 @@
                         "inverted": true,
                         "value": "SystemInfo::HasTouchScreen"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -1202,10 +1223,7 @@
                       "type": {
                         "value": "HideLayer"
                       },
-                      "parameters": [
-                        "TopArrowButton",
-                        "\"Joysticks\""
-                      ]
+                      "parameters": ["TopArrowButton", "\"Joysticks\""]
                     }
                   ]
                 }
@@ -1221,8 +1239,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Player animations",
-              "comment2": ""
+              "comment": "Player animations"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1231,10 +1248,7 @@
                   "type": {
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "PlatformerObject"
-                  ]
+                  "parameters": ["PlayerObject", "PlatformerObject"]
                 }
               ],
               "actions": [],
@@ -1246,10 +1260,7 @@
                       "type": {
                         "value": "PlatformBehavior::IsOnFloor"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "PlatformerObject"
-                      ]
+                      "parameters": ["PlayerObject", "PlatformerObject"]
                     }
                   ],
                   "actions": [
@@ -1257,10 +1268,7 @@
                       "type": {
                         "value": "SetAnimationName"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "\"Run\""
-                      ]
+                      "parameters": ["PlayerObject", "\"Run\""]
                     }
                   ]
                 },
@@ -1271,10 +1279,7 @@
                       "type": {
                         "value": "PlatformBehavior::IsJumping"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "PlatformerObject"
-                      ]
+                      "parameters": ["PlayerObject", "PlatformerObject"]
                     }
                   ],
                   "actions": [
@@ -1282,10 +1287,7 @@
                       "type": {
                         "value": "SetAnimationName"
                       },
-                      "parameters": [
-                        "PlayerObject",
-                        "\"Jump\""
-                      ]
+                      "parameters": ["PlayerObject", "\"Jump\""]
                     }
                   ]
                 }
@@ -1299,10 +1301,7 @@
                     "inverted": true,
                     "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "PlatformerObject"
-                  ]
+                  "parameters": ["PlayerObject", "PlatformerObject"]
                 }
               ],
               "actions": [
@@ -1310,10 +1309,7 @@
                   "type": {
                     "value": "SetAnimationName"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "\"Idle\""
-                  ]
+                  "parameters": ["PlayerObject", "\"Idle\""]
                 }
               ]
             },
@@ -1324,12 +1320,7 @@
                   "type": {
                     "value": "PlatformBehavior::CurrentSpeed"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "PlatformerObject",
-                    "<",
-                    "0"
-                  ]
+                  "parameters": ["PlayerObject", "PlatformerObject", "<", "0"]
                 },
                 {
                   "type": {
@@ -1343,10 +1334,7 @@
                   "type": {
                     "value": "FlipX"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "yes"
-                  ]
+                  "parameters": ["PlayerObject", "yes"]
                 }
               ]
             },
@@ -1357,12 +1345,7 @@
                   "type": {
                     "value": "PlatformBehavior::CurrentSpeed"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "PlatformerObject",
-                    ">",
-                    "0"
-                  ]
+                  "parameters": ["PlayerObject", "PlatformerObject", ">", "0"]
                 },
                 {
                   "type": {
@@ -1376,10 +1359,7 @@
                   "type": {
                     "value": "FlipX"
                   },
-                  "parameters": [
-                    "PlayerObject",
-                    "no"
-                  ]
+                  "parameters": ["PlayerObject", "no"]
                 }
               ]
             },
@@ -1393,8 +1373,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Force camera to stay within the boundaries",
-              "comment2": ""
+              "comment": "Force camera to stay within the boundaries"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1422,12 +1401,35 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
           "ambientLightColorB": 0,
           "ambientLightColorG": 8823888,
           "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -1447,9 +1449,15 @@
           "ambientLightColorB": 12053944,
           "ambientLightColorG": 6068784,
           "ambientLightColorR": 12533720,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Joysticks",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -1545,9 +1553,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -1593,9 +1599,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -1854,9 +1858,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -1891,9 +1893,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -1928,9 +1928,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -1965,9 +1963,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -2026,9 +2022,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -2063,9 +2057,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -2100,9 +2092,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -2137,9 +2127,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -2174,9 +2162,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -2211,9 +2197,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -2248,9 +2232,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -2285,9 +2267,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -2324,8 +2304,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Make sure the joystick has moved from center",
-              "comment2": ""
+              "comment": "Make sure the joystick has moved from center"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2360,9 +2339,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -2405,8 +2382,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Make sure the joystick has moved from center",
-              "comment2": ""
+              "comment": "Make sure the joystick has moved from center"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2441,9 +2417,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -2672,11 +2646,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 }
@@ -2710,11 +2680,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 }
@@ -2747,9 +2713,7 @@
                       "type": {
                         "value": "HasGameJustResumed"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -2757,21 +2721,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "DebuggerTools::ConsoleLog"
                       },
-                      "parameters": [
-                        "\"Resumed!!!\"",
-                        "",
-                        ""
-                      ]
+                      "parameters": ["\"Resumed!!!\"", "", ""]
                     }
                   ]
                 },
@@ -2791,9 +2747,7 @@
                           "type": {
                             "value": "HasAnyTouchOrMouseStarted"
                           },
-                          "parameters": [
-                            ""
-                          ]
+                          "parameters": [""]
                         }
                       ],
                       "actions": [
@@ -2801,12 +2755,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "0"]
                         }
                       ],
                       "events": [
@@ -2823,12 +2772,7 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "0"]
                                 },
                                 {
                                   "type": {
@@ -2863,12 +2807,7 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "+",
-                                    "1"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "+", "1"]
                                 }
                               ]
                             }
@@ -2886,8 +2825,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Move thumb back to center when not being pressed (acts like a spring on a real controller)",
-                      "comment2": ""
+                      "comment": "Move thumb back to center when not being pressed (acts like a spring on a real controller)"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -2907,11 +2845,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ]
                     }
@@ -2934,12 +2868,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "!=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "!=", "0"]
                         }
                       ],
                       "actions": [
@@ -3002,9 +2931,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyJoystickForce()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyJoystickForce()"]
                     }
                   ]
                 }
@@ -3095,9 +3022,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyJoystickAngle()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyJoystickAngle()"]
                     }
                   ]
                 }
@@ -3216,9 +3141,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -3282,9 +3205,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -3324,12 +3245,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "!=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "!=", "0"]
                     }
                   ],
                   "actions": [
@@ -3337,9 +3253,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -3375,24 +3289,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickForce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0", ""]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ]
                 }
@@ -3664,7 +3567,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -3674,7 +3576,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "JoystickIdentifier"
             },
             {
@@ -3684,7 +3585,6 @@
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DeadZoneRadius"
             },
             {
@@ -3749,11 +3649,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -3761,22 +3657,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "\"Idle\"",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "\"Idle\"", ""]
                     }
                   ]
                 },
@@ -3788,19 +3675,13 @@
                         "inverted": true,
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "HasAnyTouchOrMouseStarted"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -3808,12 +3689,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ],
                   "events": [
@@ -3870,12 +3746,7 @@
                               "type": {
                                 "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "+",
-                                "1"
-                              ]
+                              "parameters": ["Object", "Behavior", "+", "1"]
                             }
                           ]
                         }
@@ -3890,20 +3761,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "HasTouchEnded"
                       },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyTouchId()"
-                      ]
+                      "parameters": ["", "Object.Behavior::PropertyTouchId()"]
                     }
                   ],
                   "actions": [
@@ -3911,33 +3775,19 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "\"Released\"",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "\"Released\"", ""]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ]
                 }
@@ -3971,10 +3821,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -3982,9 +3829,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -4018,12 +3863,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "!=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "!=", "0"]
                     }
                   ],
                   "actions": [
@@ -4031,9 +3871,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -4109,7 +3947,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -4119,7 +3956,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ButtonIdentifier"
             },
             {
@@ -4188,10 +4024,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -4216,10 +4049,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -4244,19 +4074,13 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateUpKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     },
                     {
                       "type": {
                         "value": "PlatformBehavior::SimulateLadderKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -4281,10 +4105,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateDownKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -4308,10 +4129,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 }
@@ -4342,7 +4160,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "Property"
             },
             {
@@ -4352,7 +4169,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -4361,11 +4177,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "Controls",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
-              "hidden": false,
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -4375,7 +4187,6 @@
               "description": "",
               "group": "Controls",
               "extraInformation": [],
-              "hidden": false,
               "name": "JumpButton"
             }
           ],
@@ -4400,12 +4211,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Analog\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"Analog\""]
                     }
                   ],
                   "actions": [
@@ -4429,12 +4235,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"360°\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"360°\""]
                     }
                   ],
                   "actions": [
@@ -4476,10 +4277,7 @@
                             "inverted": true,
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": [
-                            "Object",
-                            "TopDownMovement"
-                          ]
+                          "parameters": ["Object", "TopDownMovement"]
                         }
                       ],
                       "actions": [],
@@ -4505,10 +4303,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4533,10 +4328,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4561,10 +4353,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4589,10 +4378,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         }
@@ -4605,10 +4391,7 @@
                           "type": {
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": [
-                            "Object",
-                            "TopDownMovement"
-                          ]
+                          "parameters": ["Object", "TopDownMovement"]
                         }
                       ],
                       "actions": [],
@@ -4634,10 +4417,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4662,10 +4442,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4690,10 +4467,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4718,10 +4492,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4746,19 +4517,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4783,19 +4548,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4820,19 +4579,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -4857,19 +4610,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         }
@@ -4904,7 +4651,6 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
-              "hidden": false,
               "name": "TopDownMovement"
             },
             {
@@ -4914,7 +4660,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -4923,11 +4668,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
-              "hidden": false,
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -4936,12 +4677,7 @@
               "label": "Stick mode",
               "description": "",
               "group": "Controls",
-              "extraInformation": [
-                "Analog",
-                "360°",
-                "8 Directions"
-              ],
-              "hidden": false,
+              "extraInformation": ["Analog", "360°", "8 Directions"],
               "name": "StickMode"
             }
           ],
@@ -4969,87 +4705,49 @@
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": [
-                        "",
-                        "Border",
-                        "0",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["", "Border", "0", "0", ""]
                     },
                     {
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": [
-                        "",
-                        "Thumb",
-                        "0",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["", "Thumb", "0", "0", ""]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": [
-                        "Border",
-                        "=",
-                        "1"
-                      ]
+                      "parameters": ["Border", "=", "1"]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": [
-                        "Thumb",
-                        "=",
-                        "2"
-                      ]
+                      "parameters": ["Thumb", "=", "2"]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": [
-                        "Border",
-                        "=",
-                        "0",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Border", "=", "0", "=", "0"]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": [
-                        "Thumb",
-                        "=",
-                        "0",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Thumb", "=", "0", "=", "0"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
+                      "parameters": ["Object", ""]
                     },
                     {
                       "type": {
                         "value": "SetIncludedInParentCollisionMask"
                       },
-                      "parameters": [
-                        "Thumb",
-                        ""
-                      ]
+                      "parameters": ["Thumb", ""]
                     }
                   ]
                 }
@@ -5112,10 +4810,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
+                      "parameters": ["Object", ""]
                     }
                   ]
                 }
@@ -5206,9 +4901,7 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"ShouldActivate\""
-                      ]
+                      "parameters": ["\"ShouldActivate\""]
                     }
                   ],
                   "actions": [
@@ -5216,11 +4909,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "no"
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "no"]
                     }
                   ]
                 },
@@ -5231,9 +4920,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"ShouldActivate\""
-                      ]
+                      "parameters": ["\"ShouldActivate\""]
                     }
                   ],
                   "actions": [
@@ -5241,11 +4928,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "yes"
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "yes"]
                     }
                   ]
                 }
@@ -5279,11 +4962,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::IsPressed"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "!="
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "!="]
                     }
                   ],
                   "actions": [
@@ -5291,9 +4970,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -5405,9 +5082,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -5455,9 +5130,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -5703,7 +5376,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ControllerIdentifier"
             },
             {
@@ -5712,11 +5384,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
-              "hidden": false,
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -5726,7 +5394,6 @@
               "description": "The deadzone is an area for which movement on sticks won't be taken into account (instead, the stick will be considered as not moved)",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DeadZoneRadius"
             },
             {
@@ -5735,9 +5402,7 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": [
-                "Thumb"
-              ],
+              "extraInformation": ["Thumb"],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -5757,9 +5422,7 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": [
-                "Thumb"
-              ],
+              "extraInformation": ["Thumb"],
               "hidden": true,
               "name": "ThumbIsScaledProportionally"
             },
@@ -5776,9 +5439,9 @@
           ],
           "objects": [
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Thumb",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -5799,9 +5462,9 @@
               ]
             },
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Border",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -5834,7 +5497,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Thumb"
+              },
+              {
+                "objectName": "Border"
+              }
+            ]
+          }
         }
       ]
     }

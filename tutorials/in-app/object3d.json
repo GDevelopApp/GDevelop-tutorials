@@ -4,20 +4,30 @@
     "Start": {
       "editor": "Scene",
       "scene": "gameScene"
-    },
-    "SwitchToEvents1": {
-      "editor": "EventsSheet",
-      "scene": "gameScene"
-    },
-    "SwitchToScene1": {
-      "editor": "Scene",
-      "scene": "gameScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "ru",
+    "sl",
+    "sq",
+    "uk",
+    "zh"
+  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/object3d/game.json",
   "initialProjectData": {
-    "gameScene": "GameScene"
+    "gameScene": "GameScene",
+    "platform": "Platform"
   },
   "endDialog": {
     "content": [
@@ -25,40 +35,80 @@
         "messageByLocale": {
           "en": "# You've finished this lesson!",
           "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد أنهيت هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
           "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai finito questa lezione!",
+          "ja": "# このレッスンは終了しました！",
+          "ko": "# 이 레슨을 완료했습니다!",
+          "pl": "# Ukończyłeś tę lekcję!",
           "pt": "# Você terminou esta lição!",
           "th": "# คุณเรียนบทเรียนนี้จบแล้ว!",
-          "ar": "# لقد أنهيت هذا الدرس!"
+          "ru": "# Вы завершили этот урок!",
+          "sl": "# Končali ste to lekcijo!",
+          "sq": "# Ju keni perfunduar kete mesim!",
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你完成了这节课！"
         }
       },
       {
         "messageByLocale": {
           "en": "Well done, in this tutorial you've learned how to:",
           "fr": "Bien joué, voici ce que vous avez appris :",
-          "es": "¡Bien hecho! En este tutorial, has aprendido:",
-          "pt": "Bom trabalho, neste tutorial você aprendeu:",
-          "th": "ทำได้ดีเยี่ยม, สิ่งที่คุณได้เรียนรู้จากบทเรียนนี้:",
-          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:"
+          "ar": "أحسنت، تعلمنا في هذا البرنامج التعليمي كيفية:",
+          "de": "Gut gemacht, in diesem Tutorial hast du geler:",
+          "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+          "it": "Ben fatto, in questo tutorial hai imparato come:",
+          "ja": "このチュートリアルでは、次のことを学びました：",
+          "ko": "이 튜토리얼에서 다음을 배웠습니다.",
+          "pl": "Dobrze, w tym samouczku nauczyłeś się, jak:",
+          "pt": "Bom trabalho, neste tutorial você aprendeu como:",
+          "ru": "Хорошо, в этом уроке вы узнали, как:",
+          "sl": "Bravo, v tem vadnem programu ste se naučili, kako:",
+          "sq": "Bravo, ne kete mesim ju keni mesuar si te:",
+          "th": "ทำได้ดีเยี่ยม, ในบทเรียนนี้คุณได้เรียนรู้วิธี:",
+          "uk": "Добре, в цьому уроці ви дізналися, як:",
+          "zh": "做得好，在本教程中，您学会了如何："
         }
       },
       {
         "messageByLocale": {
-          "en": "- Create a 3D Box\n\n- Add a behavior\n\n- Update the elevation of a 3D box",
-          "fr": "- Créer une boîte 3D\n\n- Ajouter un comportement\n\n- Mettre à jour l'élévation d'une boîte 3D",
-          "es": "- Crear una caja 3D\n\n- Agregar un comportamiento\n\n- Actualizar la elevación de una caja 3D",
-          "pt": "- Criar uma caixa 3D\n\n- Adicionar um comportamento\n\n- Atualizar a elevação de uma caixa 3D",
-          "th": "- สร้างกล่อง 3D\n\n- เพิ่มพฤติกรรม\n\n- อัปเดตความสูงของกล่อง 3D",
-          "ar": "- إنشاء صندوق ثلاثي الأبعاد\n\n- إضافة سلوك\n\n- تحديث ارتفاع الصندوق الثلاثي الأبعاد"
+          "en": "- Use a 3D Box\n\n- Add a behavior",
+          "fr": "- Utiliser une boîte 3D\n\n- Ajouter un comportement",
+          "ar": "- استخدام صندوق ثلاثي الأبعاد\n\n- إضافة سلوك",
+          "de": "- Verwenden Sie eine 3D-Box\n\n- Fügen Sie ein Verhalten hinzu",
+          "es": "- Usar una caja 3D\n\n- Añadir un comportamiento",
+          "it": "- Utilizzare una scatola 3D\n\n- Aggiungere un comportamento",
+          "ja": "- 3Dボックスを使用する\n\n- 動作を追加する",
+          "ko": "- 3D 상자 사용\n\n- 동작 추가",
+          "pl": "- Użyj pudełka 3D\n\n- Dodaj zachowanie",
+          "pt": "- Usar uma caixa 3D\n\n- Adicionar um comportamento",
+          "ru": "- Использовать 3D-бокс\n\n- Добавить поведение",
+          "sl": "- Uporabite 3D polje\n\n- Dodajte vedenje",
+          "sq": "- Përdor një kuti 3D\n\n- Shtoni një sjellje",
+          "th": "- ใช้กล่อง 3D\n\n- เพิ่มพฤติกรรม",
+          "uk": "- Використовуйте 3D-бокс\n\n- Додайте поведінку",
+          "zh": "- 使用3D盒子\n\n- 添加行为"
         }
       },
       {
         "messageByLocale": {
           "en": "Now try to get the character to the goal button, while avoiding the red objects!",
           "fr": "Maintenant, essayez d'amener le personnage jusqu'au bouton objectif, tout en évitant les objets rouges !",
+          "ar": "الآن حاول الوصول بالشخصية إلى زر الهدف، مع تجنب الكائنات الحمراء!",
+          "de": "Versuchen Sie nun, die Figur zum Zielknopf zu bringen, während Sie die roten Objekte vermeiden!",
           "es": "¡Ahora intenta llevar al personaje al botón de objetivo, evitando los objetos rojos!",
+          "it": "Ora prova a portare il personaggio al pulsante obiettivo, evitando gli oggetti rossi!",
+          "ja": "赤いオブジェクトを避けながら、キャラクターをゴールボタンに移動させてみてください！",
+          "ko": "빨간 물체를 피하면서 캐릭터를 목표 버튼으로 이동시켜보세요!",
+          "pl": "Teraz spróbuj doprowadzić postać do przycisku celu, unikając czerwonych obiektów!",
           "pt": "Agora tente levar o personagem até o botão de objetivo, evitando os objetos vermelhos!",
+          "ru": "Теперь попробуйте довести персонажа до кнопки цели, избегая красных объектов!",
+          "sl": "Poskusite zdaj, da osebo pripeljete do ciljnega gumba, pri tem pa se izognete rdečim predmetom!",
+          "sq": "Tani provoni të merrni personazhin te butoni i qëllimit, duke shmangur objektet e kuqe!",
           "th": "ลองพยายามนำตัวละครไปยังปุ่มเป้าหมาย โดยหลีกเลี่ยงวัตถุสีแดง!",
-          "ar": "الآن حاول الوصول بالشخصية إلى زر الهدف، مع تجنب الكائنات الحمراء!"
+          "uk": "Тепер спробуйте довести персонажа до кнопки цілі, уникайте червоних об'єктів!",
+          "zh": "现在试着将角色带到目标按钮，同时避开红色物体！"
         }
       }
     ]
@@ -71,10 +121,20 @@
           "messageByLocale": {
             "en": "Let's go!",
             "fr": "C'est parti !",
+            "ar": "لنبدأ!",
+            "de": "Los geht's!",
             "es": "¡Vamos!",
+            "it": "Andiamo!",
+            "ja": "さあ、始めましょう！",
+            "ko": "출발!",
+            "pl": "Zaczynamy!",
             "pt": "Vamos lá!",
+            "ru": "Поехали!",
+            "sl": "Gremo!",
+            "sq": "Hajde shkojme!",
             "th": "ไปกันเลย!",
-            "ar": "لنبدأ!"
+            "uk": "Почнемо!",
+            "zh": "让我们开始吧！"
           }
         }
       },
@@ -84,10 +144,20 @@
           "messageByLocale": {
             "en": "This game is a platformer, where you have to get the character to the goal button, while avoiding the red objects.\n\nBut it's not finished yet, so let's complete it!",
             "fr": "Ce jeu est un jeu de plateforme, où vous devez amener le personnage jusqu'au bouton objectif, tout en évitant les objets rouges.\n\nMais il n'est pas encore terminé, alors terminons-le !",
+            "ar": "هذه لعبة منصات، حيث يتوجب عليك الوصول بالشخصية إلى زر الهدف، مع تجنب الكائنات الحمراء.\n\nولكنها لم تنته بعد، لذا هيّا نكملها!",
+            "de": "Dieses Spiel ist ein Plattformer, bei dem Sie die Figur zum Zielknopf bringen müssen, während Sie die roten Objekte vermeiden.\n\nAber es ist noch nicht fertig, also lass uns es fertigstellen!",
             "es": "Este juego es un juego de plataformas, donde tienes que llevar al personaje al botón de objetivo, evitando los objetos rojos.\n\nPero aún no está terminado, ¡así que vamos a completarlo!",
+            "it": "Questo gioco è un platformer, dove devi portare il personaggio al pulsante obiettivo, evitando gli oggetti rossi.\n\nMa non è ancora finito, quindi completiamolo!",
+            "ja": "このゲームはプラットフォーマーで、赤いオブジェクトを避けながら、キャラクターをゴールボタンに移動させる必要があります。\n\nしかし、まだ完成していないので、完成させましょう！",
+            "ko": "이 게임은 플랫포머 게임으로, 빨간 물체를 피하면서 캐릭터를 목표 버튼으로 이동시켜야 합니다.\n\n하지만 아직 끝나지 않았으니 완성해 보죠!",
+            "pl": "Ta gra to platformówka, w której musisz doprowadzić postać do przycisku celu, unikając czerwonych obiektów.\n\nAle jeszcze nie jest skończona, więc dokończmy ją!",
             "pt": "Este jogo é um jogo de plataforma, onde você tem que levar o personagem até o botão de objetivo, evitando os objetos vermelhos.\n\nMas ainda não está terminado, então vamos completá-lo!",
+            "ru": "Эта игра - платформер, в которой вам нужно довести персонажа до кнопки цели, избегая красных объектов.\n\nНо она еще не закончена, так что давайте завершим ее!",
+            "sl": "Ta igra je platformer, kjer morate osebo pripeljati do ciljnega gumba, pri tem pa se izogniti rdečim predmetom.\n\nAmpak še ni končano, zato ga dokončajmo!",
+            "sq": "Ky lojë është një platformë, ku duhet të merrni personazhin te butoni i qëllimit, duke shmangur objektet e kuqe.\n\nPor nuk është përfunduar ende, kështu që le të e përfundojmë!",
             "th": "เกมนี้เป็นเกมแพลตฟอร์มเมอร์ ที่คุณต้องพาตัวละครไปยังปุ่มเป้าหมาย โดยหลีกเลี่ยงวัตถุสีแดง\n\nแต่ยังไม่เสร็จสิ้น ดังนั้นเรามาทำให้เสร็จสิ้นกันเถอะ!",
-            "ar": "هذه لعبة منصات، حيث يتوجب عليك الوصول بالشخصية إلى زر الهدف، مع تجنب الكائنات الحمراء.\n\nولكنها لم تنته بعد، لذا هيّا نكملها!"
+            "uk": "Ця гра - платформер, в якій вам потрібно довести персонажа до кнопки цілі, уникайте червоних об'єктів.\n\nАле вона ще не закінчена, тому давайте завершимо її!",
+            "zh": "这个游戏是一个平台游戏，你必须将角色带到目标按钮，同时避开红色物体。\n\n但它还没有完成，所以让我们完成它！"
           }
         }
       }
@@ -102,10 +172,20 @@
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
             "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
             "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "ja": "**オブジェクト**パネルを開きます。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
             "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri **Predmete** ploščo.",
+            "sq": "Hapni panelin e **objekteve**.",
             "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开 **对象** 面板。"
           }
         },
         "placement": "bottom"
@@ -113,339 +193,53 @@
       "skippable": true
     },
     {
-      "elementToHighlightId": "#add-new-object-button",
+      "elementToHighlightId": "objectInObjectsList:platform",
       "nextStepTrigger": {
-        "presenceOfElement": "#new-object-dialog"
+        "presenceOfElement": "#object-editor-dialog"
       },
       "tooltip": {
         "placement": "top",
         "description": {
           "messageByLocale": {
-            "en": "This game does not have any platforms for our character, so let's add multiple **3D boxes** to create a platform!",
-            "fr": "Ce jeu n'a pas de plateformes pour notre personnage, alors ajoutons plusieurs **boîtes 3D** pour créer une plateforme !",
-            "es": "Este juego no tiene ninguna plataforma para nuestro personaje, ¡así que agreguemos varias **cajas 3D** para crear una plataforma!",
-            "pt": "Este jogo não tem nenhuma plataforma para o nosso personagem, então vamos adicionar várias **caixas 3D** para criar uma plataforma!",
-            "th": "เกมนี้ไม่มีแพลตฟอร์มสำหรับตัวละครของเรา ดังนั้นเรามาเพิ่ม **กล่อง 3D** หลาย ๆ กล่องเพื่อสร้างแพลตฟอร์ม!",
-            "ar": "هذه اللعبة ليس لديها أي منصات لشخصيتنا، لذا هيّا نقوم بإضافة عدة **صناديق ثلاثية الأبعاد** لإنشاء منصة!"
+            "en": "We've created a 3D Box **$(platform)** for you! It's already configured with different textures\n\nLet's check it out by clicking on the 3 dot menu, or right click on **$(platform)**, and select **Edit object**.",
+            "fr": "Nous avons créé une boîte 3D **$(platform)** pour vous ! Elle est déjà configurée avec différentes textures\n\nAllons la voir en cliquant sur le menu à 3 points, ou en cliquant avec le bouton droit sur **$(platform)**, et en sélectionnant **Modifier l'objet**.",
+            "ar": "لقد قمنا بإنشاء صندوق 3D **$(platform)** لك! إنها مكونة بالفعل بمختلف القوام\n\nلنلقي نظرة عليها عن طريق النقر على القائمة المنسدلة المكونة من 3 نقاط، أو النقر بزر الفأرة الأيمن على **$(platform)**، واختيار **تحرير الكائن**.",
+            "de": "Wir haben eine 3D-Box **$(platform)** für Sie erstellt! Sie ist bereits mit verschiedenen Texturen konfiguriert\n\nLassen Sie uns das überprüfen, indem Sie auf das 3-Punkte-Menü klicken oder mit der rechten Maustaste auf **$(platform)** klicken und **Objekt bearbeiten** auswählen.",
+            "es": "¡Hemos creado una caja 3D **$(platform)** para ti! Ya está configurada con diferentes texturas\n\nVamos a verla haciendo clic en el menú de 3 puntos, o haciendo clic derecho en **$(platform)**, y seleccionando **Editar objeto**.",
+            "it": "Abbiamo creato una scatola 3D **$(platform)** per te! È già configurata con diverse texture\n\nDiamo un'occhiata facendo clic sul menu a 3 punti, o facendo clic con il pulsante destro su **$(platform)**, e selezionando **Modifica oggetto**.",
+            "ja": "3Dボックス **$(platform)** を作成しました！ すでにさまざまなテクスチャで構成されています\n\n3点メニューをクリックするか、**$(platform)** を右クリックして **オブジェクトを編集** を選択して確認しましょう。",
+            "ko": "3D 상자 **$(platform)** 를 만들었습니다! 이미 다양한 텍스처로 구성되어 있습니다\n\n3 점 메뉴를 클릭하거나 **$(platform)**을 마우스 오른쪽 단추로 클릭하고 **객체 편집**을 선택하여 확인해 보겠습니다.",
+            "pl": "Stworzyliśmy dla ciebie 3D Box **$(platform)**! Jest już skonfigurowany z różnymi teksturami\n\nSprawdźmy to, klikając na menu 3 kropek lub klikając prawym przyciskiem myszy na **$(platform)** i wybierając **Edytuj obiekt**.",
+            "pt": "Criamos uma caixa 3D **$(platform)** para você! Já está configurada com diferentes texturas\n\nVamos dar uma olhada clicando no menu de 3 pontos, ou clicando com o botão direito em **$(platform)**, e selecionando **Editar objeto**.",
+            "ru": "Мы создали для вас 3D-бокс **$(platform)**! Он уже настроен с различными текстурами\n\nДавайте проверим это, нажав на меню из 3 точек или щелкнув правой кнопкой мыши на **$(platform)** и выбрав **Редактировать объект**.",
+            "sl": "Ustvarili smo 3D polje **$(platform)** za vas! Je že konfiguriran z različnimi teksturami\n\nPreverimo ga tako, da kliknemo na meni z 3 pikami ali z desno miškino tipko kliknemo na **$(platform)** in izberemo **Uredi predmet**.",
+            "sq": "Kemi krijuar një kuti 3D **$(platform)** për ju! Është tashmë e konfiguruar me tekstura të ndryshme\n\nLe të e kontrollojmë duke klikuar në menunë 3 pikësh, ose duke klikuar me të djathtën në **$(platform)**, dhe duke zgjedhur **Ndrysho objektin**.",
+            "th": "เราได้สร้างกล่อง 3D **$(platform)** ไว้ให้คุณแล้ว! มันถูกกำหนดค่าไว้แล้วด้วยเนื้อหาที่แตกต่าง\n\nมาดูกันโดยการคลิกที่เมนู 3 จุด หรือคลิกขวาที่ **$(platform)** และเลือก **แก้ไขวัตถุ**",
+            "uk": "Ми створили для вас 3D-бокс **$(platform)**! Він вже налаштований з різними текстурами\n\nДавайте перевіримо це, натиснувши на меню з 3 крапками або клацнувши правою кнопкою миші на **$(platform)** і вибравши **Редагувати об'єкт**.",
+            "zh": "我们为您创建了一个3D Box **$(platform)**！它已经配置了不同的纹理\n\n让我们通过单击3点菜单或右键单击 **$(platform)** 并选择 **编辑对象** 来查看它。"
+          }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "We've created a 3D Box **$(platform)** for you! It's already configured with different textures\n\nLet's check it out by selecting, then long press on **$(platform)**, then select **Edit object**.",
+            "fr": "Nous avons créé une boîte 3D **$(platform)** pour vous ! Elle est déjà configurée avec différentes textures\n\nAllons la voir en la sélectionnant, puis en appuyant longuement sur **$(platform)**, puis en sélectionnant **Modifier l'objet**.",
+            "ar": "لقد قمنا بإنشاء صندوق 3D **$(platform)** لك! إنها مكونة بالفعل بمختلف القوام\n\nلنلقي نظرة عليها عن طريق تحديدها، ثم الضغط المطول على **$(platform)**، ثم اختيار **تحرير الكائن**.",
+            "de": "Wir haben eine 3D-Box **$(platform)** für Sie erstellt! Sie ist bereits mit verschiedenen Texturen konfiguriert\n\nLassen Sie uns das überprüfen, indem Sie **$(platform)** auswählen, dann lange drücken, und **Objekt bearbeiten** auswählen.",
+            "es": "¡Hemos creado una caja 3D **$(platform)** para ti! Ya está configurada con diferentes texturas\n\nVamos a verla seleccionándola, luego manteniendo presionado **$(platform)**, y seleccionando **Editar objeto**.",
+            "it": "Abbiamo creato una scatola 3D **$(platform)** per te! È già configurata con diverse texture\n\nDiamo un'occhiata selezionandola, quindi premendo a lungo su **$(platform)**, quindi selezionando **Modifica oggetto**.",
+            "ja": "3Dボックス **$(platform)** を作成しました！ すでにさまざまなテクスチャで構成されています\n\n**$(platform)** を選択し、長押しして **オブジェクトを編集** を選択して確認しましょう。",
+            "ko": "3D 상자 **$(platform)** 를 만들었습니다! 이미 다양한 텍스처로 구성되어 있습니다\n\n**$(platform)**을 선택한 다음 길게 눌러 **객체 편집**을 선택하여 확인해 보겠습니다.",
+            "pl": "Stworzyliśmy dla ciebie 3D Box **$(platform)**! Jest już skonfigurowany z różnymi teksturami\n\nSprawdźmy to, wybierając, a następnie długie naciśnięcie **$(platform)**, a następnie wybierając **Edytuj obiekt**.",
+            "pt": "Criamos uma caixa 3D **$(platform)** para você! Já está configurada com diferentes texturas\n\nVamos dar uma olhada selecionando, em seguida, pressionando e segurando **$(platform)**, e selecionando **Editar objeto**.",
+            "ru": "Мы создали для вас 3D-бокс **$(platform)**! Он уже настроен с различными текстурами\n\nДавайте проверим это, выбрав, затем удерживая **$(platform)**, затем выбрав **Редактировать объект**.",
+            "sl": "Ustvarili smo 3D polje **$(platform)** za vas! Je že konfiguriran z različnimi teksturami\n\nPreverimo ga tako, da ga izberemo, nato pa dolgo pritisnemo **$(platform)** in izberemo **Uredi predmet**.",
+            "sq": "Kemi krijuar një kuti 3D **$(platform)** për ju! Është tashmë e konfiguruar me tekstura të ndryshme\n\nLe të e kontrollojmë duke zgjedhur, pastaj duke shtypur dhe mbajtur **$(platform)**, dhe duke zgjedhur **Ndrysho objektin**.",
+            "th": "เราได้สร้างกล่อง 3D **$(platform)** ไว้ให้คุณแล้ว! มันถูกกำหนดค่าไว้แล้วด้วยเนื้อหาที่แตกต่าง\n\nมาดูกันโดยการเลือก แล้วกดค้างที่ **$(platform)** แล้วเลือก **แก้ไขวัตถุ**",
+            "uk": "Ми створили для вас 3D-бокс **$(platform)**! Він вже налаштований з різними текстурами\n\nДавайте перевіримо це, вибравши, а потім утримуючи **$(platform)**, а потім вибравши **Редагувати об'єкт**.",
+            "zh": "我们为您创建了一个3D Box **$(platform)**！它已经配置了不同的纹理\n\n让我们通过选择，然后长按 **$(platform)**，然后选择 **编辑对象** 来查看它。"
           }
         }
       }
-    },
-    {
-      "elementToHighlightId": "#new-object-from-scratch-tab",
-      "nextStepTrigger": {
-        "presenceOfElement": "#object-category-Scene3D--Cube3DObject"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We'll create a 3D Box from scratch.",
-            "fr": "Nous allons créer une boîte 3D à partir de zéro.",
-            "es": "Crearemos una caja 3D desde cero.",
-            "pt": "Vamos criar uma caixa 3D do zero.",
-            "th": "เราจะสร้างกล่อง 3D จากต้นฉบับ",
-            "ar": "سنقوم بإنشاء صندوق ثلاثي الأبعاد من الصفر."
-          }
-        },
-        "placement": "bottom"
-      },
-      "skippable": true,
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#object-category-Scene3D--Cube3DObject",
-      "nextStepTrigger": {
-        "presenceOfElement": "#object-name"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select **3D Box** object",
-            "fr": "Sélectionnez l'objet **Boîte 3D**",
-            "es": "Selecciona el objeto **Caja 3D**",
-            "pt": "Selecione o objeto **Caixa 3D**",
-            "th": "เลือกวัตถุ **กล่อง 3D**",
-            "ar": "تحديد الكائن **صندوق ثلاثي الأبعاد**"
-          }
-        },
-        "placement": "bottom"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#object-name",
-      "nextStepTrigger": {
-        "valueEquals": "Platform"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Change the object name to **Platform**.",
-            "fr": "Utilisez **Platform** comme nom d'objet.",
-            "es": "Cambia el nombre del objeto a **Platform**.",
-            "pt": "Altere o nome do objeto para **Plataforma**.",
-            "th": "เปลี่ยนชื่อวัตถุเป็น **แพลตฟอร์ม**",
-            "ar": "تغيير اسم الكائن إلى **Platform**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-width",
-      "nextStepTrigger": {
-        "valueEquals": "128"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Change the width to **128**.",
-            "fr": "Changez la largeur à **128**.",
-            "es": "Cambia el ancho a **128**.",
-            "pt": "Altere a largura para **128**.",
-            "th": "เปลี่ยนความกว้างเป็น **128**",
-            "ar": "تغيير العرض إلى **128**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-height",
-      "nextStepTrigger": {
-        "valueEquals": "128"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Change the height to **128**.",
-            "fr": "Changez la hauteur à **128**.",
-            "es": "Cambia la altura a **128**.",
-            "pt": "Altere a altura para **128**.",
-            "th": "เปลี่ยนความสูงเป็น **128**",
-            "ar": "تغيير الارتفاع إلى **128**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-depth",
-      "nextStepTrigger": {
-        "valueEquals": "128"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Change the depth to **128**.",
-            "fr": "Changez la profondeur à **128**.",
-            "es": "Cambia la profundidad a **128**.",
-            "pt": "Altere a profundidade para **128**.",
-            "th": "เปลี่ยนความลึกเป็น **128**",
-            "ar": "تغيير العمق إلى **128**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-frontFaceResourceName",
-      "nextStepTrigger": {
-        "valueEquals": "BlackCheckered.png"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's update the front face of the box with the image **BlackCheckered.png**.",
-            "fr": "Mettez à jour la face avant de la boîte avec l'image **BlackCheckered.png**.",
-            "es": "Actualicemos la cara frontal de la caja con la imagen **BlackCheckered.png**.",
-            "pt": "Vamos atualizar a face frontal da caixa com a imagem **BlackCheckered.png**.",
-            "th": "มาอัปเดตหน้าด้านหน้าของกล่องด้วยภาพ **BlackCheckered.png**",
-            "ar": "لنقم بتحديث الوجه الأمامي للصندوق بالصورة **BlackCheckered.png**."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-frontFaceResourceRepeat",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "**Check** the box to repeat the image.",
-            "fr": "**Cochez** la case pour répéter l'image.",
-            "es": "**Marca** la casilla para repetir la imagen.",
-            "pt": "**Marque** a caixa para repetir a imagem.",
-            "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**تحديد** الخانة لتكرار الصورة."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-leftFaceResourceName",
-      "nextStepTrigger": {
-        "valueEquals": "WhiteCheckered.png"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's update the left face of the box with the image **WhiteCheckered.png**.",
-            "fr": "Mettez à jour la face gauche de la boîte avec l'image **WhiteCheckered.png**.",
-            "es": "Actualicemos la cara izquierda de la caja con la imagen **WhiteCheckered.png**.",
-            "pt": "Vamos atualizar a face esquerda da caixa com a imagem **WhiteCheckered.png**.",
-            "th": "มาอัปเดตหน้าด้านซ้ายของกล่องด้วยภาพ **WhiteCheckered.png**",
-            "ar": "لنقم بتحديث الوجه الأيسر للصندوق بالصورة **WhiteCheckered.png**."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-leftFaceResourceRepeat",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "**Check** the box to repeat the image.",
-            "fr": "**Cochez** la case pour répéter l'image.",
-            "es": "**Marca** la casilla para repetir la imagen.",
-            "pt": "**Marque** a caixa para repetir a imagem.",
-            "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**تحديد** الخانة لتكرار الصورة."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-rightFaceResourceName",
-      "nextStepTrigger": {
-        "valueEquals": "WhiteCheckered.png"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's update the right face of the box with the image **WhiteCheckered.png**.",
-            "fr": "Mettez à jour la face droite de la boîte avec l'image **WhiteCheckered.png**.",
-            "es": "Actualicemos la cara derecha de la caja con la imagen **WhiteCheckered.png**.",
-            "pt": "Vamos atualizar a face direita da caixa com a imagem **WhiteCheckered.png**.",
-            "th": "มาอัปเดตหน้าด้านขวาของกล่องด้วยภาพ **WhiteCheckered.png**",
-            "ar": "لنقم بتحديث الوجه الأيمن للصندوق بالصورة **WhiteCheckered.png**."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-rightFaceResourceRepeat",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "**Check** the box to repeat the image.",
-            "fr": "**Cochez** la case pour répéter l'image.",
-            "es": "**Marca** la casilla para repetir la imagen.",
-            "pt": "**Marque** a caixa para repetir a imagem.",
-            "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**تحديد** الخانة لتكرار الصورة."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-topFaceResourceName",
-      "nextStepTrigger": {
-        "valueEquals": "WhiteCheckered.png"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's update the top face of the box with the image **WhiteCheckered.png**.",
-            "fr": "Mettez à jour la face du dessus de la boîte avec l'image **WhiteCheckered.png**.",
-            "es": "Actualicemos la cara superior de la caja con la imagen **WhiteCheckered.png**.",
-            "pt": "Vamos atualizar a face superior da caixa com a imagem **WhiteCheckered.png**.",
-            "th": "มาอัปเดตหน้าด้านบนของกล่องด้วยภาพ **WhiteCheckered.png**",
-            "ar": "لنقم بتحديث الوجه العلوي للصندوق بالصورة **WhiteCheckered.png**."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-topFaceResourceRepeat",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "**Check** the box to repeat the image.",
-            "fr": "**Cochez** la case pour répéter l'image.",
-            "es": "**Marca** la casilla para repetir la imagen.",
-            "pt": "**Marque** a caixa para repetir a imagem.",
-            "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**تحديد** الخانة لتكرار الصورة."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-bottomFaceResourceName",
-      "nextStepTrigger": {
-        "valueEquals": "WhiteCheckered.png"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's update the bottom face of the box with the image **WhiteCheckered.png**.",
-            "fr": "Mettez à jour la face du dessous de la boîte avec l'image **WhiteCheckered.png**.",
-            "es": "Actualicemos la cara inferior de la caja con la imagen **WhiteCheckered.png**.",
-            "pt": "Vamos atualizar a face inferior da caixa com a imagem **WhiteCheckered.png**.",
-            "th": "มาอัปเดตหน้าด้านล่างของกล่องด้วยภาพ **WhiteCheckered.png**",
-            "ar": "لنقم بتحديث الوجه السفلي للصندوق بالصورة **WhiteCheckered.png**."
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#cube3d-object-bottomFaceResourceRepeat",
-      "nextStepTrigger": {
-        "valueHasChanged": true
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "**Check** the box to repeat the image.",
-            "fr": "**Cochez** la case pour répéter l'image.",
-            "es": "**Marca** la casilla para repetir la imagen.",
-            "pt": "**Marque** a caixa para repetir a imagem.",
-            "th": "**เลือก** กล่องเพื่อทำซ้ำภาพ",
-            "ar": "**تحديد** الخانة لتكرار الصورة."
-          }
-        }
-      },
-      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#behaviors-tab",
@@ -455,12 +249,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Perfect! Now let's make this object a platform by adding a **behavior**.",
-            "fr": "Parfait ! Maintenant, faisons de cet objet une plateforme en ajoutant un **comportement**.",
-            "es": "¡Perfecto! Ahora hagamos de este objeto una plataforma añadiendo un **comportamiento**.",
-            "pt": "Perfeito! Agora vamos fazer deste objeto uma plataforma adicionando um **comportamento**.",
-            "th": "ดีมาก! มาทำให้วัตถุนี้เป็นแพลตฟอร์มโดยการเพิ่ม **พฤติกรรม**",
-            "ar": "ممتاز! الآن لنجعل هذا الكائن منصة عن طريق إضافة **سلوك**."
+            "en": "You can see that the box has already all faces configured! Now let's make this object a platform by adding a **behavior**.",
+            "fr": "Vous pouvez voir que la boîte a déjà toutes ses faces de configurées ! Maintenant, faisons de cet objet une plateforme en ajoutant un **comportement**.",
+            "ar": "يمكنك رؤية أن الصندوق قد تم تكوين جميع الوجوه بالفعل! الآن دعونا نجعل هذا الكائن منصة عن طريق إضافة **سلوك**.",
+            "de": "Sie können sehen, dass die Box bereits alle Seiten konfiguriert hat! Lassen Sie uns dieses Objekt nun zu einer Plattform machen, indem wir ein **Verhalten** hinzufügen.",
+            "es": "¡Puedes ver que la caja ya tiene todas las caras configuradas! Ahora hagamos de este objeto una plataforma añadiendo un **comportamiento**.",
+            "it": "Puoi vedere che la scatola ha già tutte le facce configurate! Ora rendiamo questo oggetto una piattaforma aggiungendo un **comportamento**.",
+            "ja": "ボックスにはすでにすべての面が構成されていることがわかります！ これを **動作** を追加することで、このオブジェクトをプラットフォームにしましょう。",
+            "ko": "상자에 이미 모든 면이 구성되어 있는 것을 볼 수 있습니다! 이제 **동작**을 추가하여 이 객체를 플랫폼으로 만들어 보겠습니다.",
+            "pl": "Możesz zobaczyć, że pudełko ma już wszystkie strony skonfigurowane! Teraz zróbmy z tego obiektu platformę, dodając **zachowanie**.",
+            "pt": "Você pode ver que a caixa já tem todas as faces configuradas! Agora vamos fazer deste objeto uma plataforma adicionando um **comportamento**.",
+            "ru": "Вы можете видеть, что у коробки уже все грани настроены! Теперь давайте сделаем этот объект платформой, добавив **поведение**.",
+            "sl": "Vidite, da je škatla že vse strani konfigurirana! Sedaj naredimo ta predmet platformo z dodajanjem **vedenja**.",
+            "sq": "Mund të shihni se kutia ka tashmë të gjitha faqet e konfiguruara! Tani bëjmë këtë objekt një platformë duke shtuar një **sjellje**.",
+            "th": "คุณสามารถเห็นว่ากล่องมีทุกด้านถูกกำหนดค่าไว้แล้ว! ตอนนี้เราจะทำให้วัตถุนี้เป็นแพลตฟอร์มโดยการเพิ่ม **พฤติกรรม**",
+            "uk": "Ви можете побачити, що коробка вже має всі грані налаштовані! Тепер давайте зробимо цей об'єкт платформою, додавши **поведінку**.",
+            "zh": "您可以看到盒子已经配置了所有的面！现在让我们通过添加 **行为** 来使这个对象成为一个平台。"
           }
         },
         "placement": "bottom"
@@ -478,10 +282,20 @@
           "messageByLocale": {
             "en": "Let's add a new behavior",
             "fr": "Ajoutons un nouveau comportement",
+            "ar": "هيّا نقوم بإضافة سلوك جديد.",
+            "de": "Lassen Sie uns ein neues Verhalten hinzufügen",
             "es": "Añadamos un nuevo comportamiento",
+            "it": "Aggiungiamo un nuovo comportamento",
+            "ja": "新しい動作を追加しましょう",
+            "ko": "새로운 동작을 추가해 보겠습니다",
+            "pl": "Dodajmy nowe zachowanie",
             "pt": "Vamos adicionar um novo comportamento",
+            "ru": "Добавим новое поведение",
+            "sl": "Dodajmo novo vedenje",
+            "sq": "Shtojmë një sjellje të re",
             "th": "มาเพิ่มพฤติกรรมใหม่",
-            "ar": "هيّا نقوم بإضافة سلوك جديد."
+            "uk": "Додамо нову поведінку",
+            "zh": "让我们添加一个新的行为"
           }
         }
       },
@@ -497,10 +311,20 @@
           "messageByLocale": {
             "en": "Select the **Platform** behavior.",
             "fr": "Sélectionnez le comportement **Plateforme**.",
+            "ar": "تحديد السلوك **منصة**.",
+            "de": "Wählen Sie das **Plattform**-Verhalten aus.",
             "es": "Selecciona el comportamiento **Plataforma**.",
+            "it": "Seleziona il comportamento **Piattaforma**.",
+            "ja": "**プラットフォーム**動作を選択します。",
+            "ko": "**플랫폼** 동작을 선택해 보겠습니다.",
+            "pl": "Wybierz zachowanie **Platforma**.",
             "pt": "Selecione o comportamento **Plataforma**.",
+            "ru": "Выберите поведение **Платформа**.",
+            "sl": "Izberite vedenje **Platforma**.",
+            "sq": "Zgjidh sjelljen **Platformë**.",
             "th": "เลือกพฤติกรรม **แพลตฟอร์ม**",
-            "ar": "تحديد السلوك **منصة**."
+            "uk": "Виберіть поведінку **Платформа**.",
+            "zh": "选择 **平台** 行为。"
           }
         }
       },
@@ -516,174 +340,26 @@
           "messageByLocale": {
             "en": "That's it! Now our 3D platform is ready!",
             "fr": "C'est tout ! Maintenant notre plateforme 3D est prête !",
+            "ar": "هذا كل شيء! الآن منصتنا ثلاثية الأبعاد جاهزة!",
+            "de": "Das ist es! Jetzt ist unsere 3D-Plattform bereit!",
             "es": "¡Eso es! ¡Ahora nuestra plataforma 3D está lista!",
+            "it": "È tutto! Ora la nostra piattaforma 3D è pronta!",
+            "ja": "それでおしまいです！ これで3Dプラットフォームが完成しました！",
+            "ko": "그게 다입니다! 이제 3D 플랫폼이 준비되었습니다!",
+            "pl": "To wszystko! Teraz nasza platforma 3D jest gotowa!",
             "pt": "É isso aí! Agora nossa plataforma 3D está pronta!",
+            "ru": "Вот и все! Теперь наша 3D-платформа готова!",
+            "sl": "To je to! Zdaj je naša 3D platforma pripravljena!",
+            "sq": "Kështu është! Tani platforma jonë 3D është gati!",
             "th": "เสร็จแล้ว! ตอนนี้แพลตฟอร์ม 3D ของเราพร้อมแล้ว!",
-            "ar": "هذا كل شيء! الآن منصتنا ثلاثية الأبعاد جاهزة!"
-          }
-        }
-      },
-      "isOnClosableDialog": true,
-      "mapProjectData": {
-        "platform": "sceneLastObjectName:gameScene"
-      }
-    },
-    {
-      "elementToHighlightId": "editorTab:gameScene:EventsSheet",
-      "nextStepTrigger": {
-        "presenceOfElement": "#events-editor[data-active]"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Finally, let's ensure that the platform is exactly below the character. Open the **Events Sheet** of the $(gameScene) scene.",
-            "fr": "Enfin, assurons-nous que la plateforme est exactement en dessous du personnage. Ouvrez la **Feuille d'événements** de la scène $(gameScene).",
-            "es": "Finalmente, asegurémonos de que la plataforma esté exactamente debajo del personaje. Abre la **Hoja de eventos** de la escena $(gameScene).",
-            "pt": "Finalmente, vamos garantir que a plataforma esteja exatamente abaixo do personagem. Abra a **Planilha de eventos** da cena $(gameScene).",
-            "th": "ในที่สุด มาตรวจสอบให้แน่ใจว่าแพลตฟอร์มอยู่ใต้ตัวละครอย่างแน่นอน ให้เปิด **แผ่นงานเหตุการณ์** ของฉาก $(gameScene)",
-            "ar": "أخيرًا ، هيّا نتأكد من أن المنصة تقع تحت الشخصية بالضبط. فتح **صفحة أحداث** المشهد $(gameScene)."
-          }
-        },
-        "placement": "bottom"
-      }
-    },
-    {
-      "id": "SwitchToEvents1",
-      "elementToHighlightId": "#events-editor[data-active] #event-2-actions #add-action-button-empty",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's set the depth of the platform at the beginning of the scene. Click on the **Add an action** button.",
-            "fr": "Définissons la profondeur de la plateforme au début de la scène. Cliquez sur le bouton **Ajouter une action**.",
-            "es": "Establezcamos la profundidad de la plataforma al comienzo de la escena. Haz clic en el botón **Añadir una acción**.",
-            "pt": "Vamos definir a profundidade da plataforma no início da cena. Clique no botão **Adicionar uma ação**.",
-            "th": "มาตั้งค่าความลึกของแพลตฟอร์มตอนเริ่มต้นของฉาก ให้คลิกที่ปุ่ม **เพิ่มการกระทำ**",
-            "ar": "هيّا نضبط عمق المنصة في بداية المشهد. النقر على الزر **إضافة إجراء**."
-          }
-        }
-      }
-    },
-    {
-      "elementToHighlightId": "objectInObjectOrResourceSelector:platform",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-Scene3D--Base3DBehavior--SetZ"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select **$(platform)**.",
-            "fr": "Sélectionnez **$(platform)**.",
-            "es": "Seleccione **$(platform)**.",
-            "pt": "Selecione **$(platform)**.",
-            "th": "เลือก **$(platform)**",
-            "ar": "تحديد **$(platform)**."
+            "uk": "Ось і все! Тепер наша 3D-платформа готова!",
+            "zh": "就是这样！现在我们的3D平台准备好了！"
           }
         }
       },
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-Scene3D--Base3DBehavior--SetZ",
-      "nextStepTrigger": {
-        "presenceOfElement": "#parameter-2-operator-field"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select the action **Z (elevation)**.",
-            "fr": "Sélectionnez l'action **Z (élévation)**.",
-            "es": "Selecciona la acción **Z (elevación)**.",
-            "pt": "Selecione a ação **Z (elevação)**.",
-            "th": "เลือกการกระทำ **Z (ความสูง)**",
-            "ar": "تحديد الإجراء **Z (الارتفاع)**."
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#parameter-2-operator-field",
-      "nextStepTrigger": {
-        "valueEquals": "="
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We want to update the elevation, so let's select **= (set to)**.",
-            "fr": "Nous voulons mettre à jour l'élévation, sélectionnons donc **= (définir à)**.",
-            "es": "Queremos actualizar la elevación, así que seleccionemos **= (establecer en)**.",
-            "pt": "Queremos atualizar a elevação, então vamos selecionar **= (definir para)**.",
-            "th": "เราต้องการอัปเดตความสูง ดังนั้นให้เลือก **= (ตั้งค่าเป็น)**",
-            "ar": "نريد تحديث الارتفاع ، لذلك هيّا نختار **= (تعيين إلى)**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "skippable": true,
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#parameter-3-expression-field",
-      "nextStepTrigger": {
-        "valueEquals": "-64"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's set the elevation to **-64**.",
-            "fr": "Définissons l'élévation à **-64**.",
-            "es": "Establezcamos la elevación en **-64**.",
-            "pt": "Vamos definir a elevação para **-64**.",
-            "th": "มาตั้งค่าความสูงเป็น **-64**",
-            "ar": "هيّا نضبط الارتفاع على **-64**."
-          }
-        },
-        "placement": "bottom"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Nice! Now let's save this.",
-            "fr": "Bien ! Enregistrons maintenant cela.",
-            "es": "¡Bien! Ahora guardemos esto.",
-            "pt": "Legal! Agora vamos salvar isso.",
-            "th": "ดีมาก! มาบันทึกกันเถอะ",
-            "ar": "جميل! الآن هيّا نحفظ هذا."
-          }
-        },
-        "placement": "top"
-      }
-    },
-    {
-      "elementToHighlightId": "editorTab:gameScene:Scene",
-      "nextStepTrigger": {
-        "editorIsActive": "gameScene:Scene"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's get back to the **scene** to create our platform.",
-            "fr": "Retournons à la **scène** pour ajouter notre plateforme.",
-            "es": "Regresemos a la **escena** para crear nuestra plataforma.",
-            "pt": "Vamos voltar para a **cena** para criar nossa plataforma.",
-            "th": "มากลับไปที่ **ฉาก** เพื่อสร้างแพลตฟอร์มของเรา",
-            "ar": "لنعد إلى **المشهد** لإنشاء منصتنا."
-          }
-        }
-      }
-    },
-    {
-      "id": "SwitchToScene1",
       "elementToHighlightId": "objectInObjectsList:platform",
       "nextStepTrigger": {
         "instanceAddedOnScene": "platform"
@@ -693,20 +369,40 @@
           "messageByLocale": {
             "en": "Drag $(platform) from the menu to the canvas.",
             "fr": "Faites glisser $(platform) du menu au canvas.",
+            "ar": "سحب $(platform) من القائمة إلى المشهد.",
+            "de": "Ziehen Sie $(platform) aus dem Menü auf die Leinwand.",
             "es": "Arrastra $(platform) desde el menú al lienzo.",
+            "it": "Trascina $(platform) dal menu alla tela.",
+            "ja": "メニューから $(platform) をキャンバスにドラッグします。",
+            "ko": "메뉴에서 $(platform)을 캔버스로 끌어다 놓습니다.",
+            "pl": "Przeciągnij $(platform) z menu na płótno.",
             "pt": "Arraste $(platform) do menu para o canvas.",
+            "ru": "Перетащите $(platform) из меню на холст.",
+            "sl": "Povlecite $(platform) iz menija na platno.",
+            "sq": "Tërhiqni $(platform) nga menuja në kanavacë.",
             "th": "ลาก $(platform) จากเมนูไปยังแคนวาส",
-            "ar": "سحب $(platform) من القائمة إلى المشهد."
+            "uk": "Перетягніть $(platform) з меню на полотно.",
+            "zh": "从菜单将 $(platform) 拖到画布上。"
           }
         },
         "touchDescription": {
           "messageByLocale": {
             "en": "**Select** then **drag** $(platform) into the **scene**.",
             "fr": "**Sélectionnez** puis **faites glisser** $(platform) du menu au canvas.",
+            "ar": "**تحديد** ثم **سحب** الـ $(platform) إلى **المشهد**.",
+            "de": "**Wählen** und **ziehen** Sie $(platform) aus dem Menü auf die **Leinwand**.",
             "es": "**Seleccione** y **arrastrar** $(platform) al **escenario**.",
+            "it": "**Seleziona** quindi **trascina** $(platform) nella **tela**.",
+            "ja": "**$(platform)** を選択して **キャンバス** に**ドラッグ**します。",
+            "ko": "**$(platform)**을 선택한 다음 **캔버스**로 **드래그**하십시오.",
+            "pl": "**Wybierz** a następnie **przeciągnij** $(platform) na **płótno**.",
             "pt": "**Selecione** e **arraste** $(platform) para a **cena**.",
+            "ru": "**Выберите** и **перетащите** $(platform) в **сцену**.",
+            "sl": "**Izberite** in **povlecite** $(platform) v **prizorišče**.",
+            "sq": "**Zgjidhni** pastaj **tërhiqni** $(platform) në **skenë**.",
             "th": "**เลือก** แล้ว **ลาก** $(platform) ไปยัง **ฉาก**",
-            "ar": "**تحديد** ثم **سحب** الـ $(platform) إلى **المشهد**."
+            "uk": "**Виберіть** потім **перетягніть** $(platform) в **сцену**.",
+            "zh": "**选择** 然后 **拖动** $(platform) 到 **场景**。"
           }
         },
         "placement": "left"
@@ -718,10 +414,20 @@
           "messageByLocale": {
             "en": "I'm done",
             "fr": "J'ai terminé",
+            "ar": "انتهيت",
+            "de": "Ich bin fertig",
             "es": "He terminado",
+            "it": "Ho finito",
+            "ja": "完了",
+            "ko": "완료",
+            "pl": "Skończyłem",
             "pt": "Eu terminei",
+            "ru": "Я закончил",
+            "sl": "Končal sem",
+            "sq": "Përfundoj",
             "th": "เสร็จแล้ว",
-            "ar": "انتهيت"
+            "uk": "Я закінчив",
+            "zh": "我完成了"
           }
         }
       },
@@ -729,12 +435,22 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Let's place $(platform) below our character.",
-            "fr": "Plaçons $(platform) en dessous de notre personnage.",
-            "es": "Coloquemos $(platform) debajo de nuestro personaje.",
-            "pt": "Vamos colocar $(platform) abaixo do nosso personagem.",
-            "th": "มาวาง $(platform) ใต้ตัวละครของเรา",
-            "ar": "هيّا نقوم بإدراج $(platform) أسفل شخصيتنا."
+            "en": "Let's place $(platform) below our character.\n\nYou can resize it by dragging the handles!",
+            "fr": "Plaçons $(platform) en dessous de notre personnage.\n\nVous pouvez la redimensionner en utilisant les petits carrés !",
+            "ar": "لنضع $(platform) أسفل شخصيتنا.\n\nيمكنك تغيير حجمها عن طريق سحب الأيادي!",
+            "de": "Platzieren wir $(platform) unter unserem Charakter.\n\nSie können es vergrößern, indem Sie die Griffe ziehen!",
+            "es": "Coloquemos $(platform) debajo de nuestro personaje.\n\n¡Puedes redimensionarla arrastrando los tiradores!",
+            "it": "Mettiamo $(platform) sotto il nostro personaggio.\n\nPuoi ridimensionarla trascinando le maniglie!",
+            "ja": "$(platform) をキャラクターの下に置きましょう。\n\nハンドルをドラッグしてサイズを変更できます！",
+            "ko": "$(platform)을 캐릭터 아래에 놓아 보겠습니다.\n\n손잡이를 끌어서 크기를 조절할 수 있습니다!",
+            "pl": "Umieśćmy $(platform) poniżej naszej postaci.\n\nMożesz zmienić jego rozmiar, przeciągając za uchwyty!",
+            "pt": "Vamos colocar $(platform) abaixo do nosso personagem.\n\nVocê pode redimensioná-la arrastando as alças!",
+            "ru": "Давайте поместим $(platform) под нашего персонажа.\n\nВы можете изменить его размер, перетаскивая за ручки!",
+            "sl": "Postavimo $(platform) pod naš lik.\n\nVelikost lahko spremenite tako, da povlečete ročaje!",
+            "sq": "Le të vendosim $(platform) poshtë personazhit tonë.\n\nMund ta rregulloni madhësinë duke e tërhequr me dorë!",
+            "th": "มาวาง $(platform) ด้านล่างตัวละครของเรา\n\nคุณสามารถปรับขนาดได้โดยลากจับ!",
+            "uk": "Давайте розмістимо $(platform) під нашим персонажем.\n\nВи можете змінити його розмір, перетягуючи за ручки!",
+            "zh": "让我们把 $(platform) 放在我们的角色下面。\n\n您可以通过拖动手柄来调整它的大小！"
           }
         },
         "image": {
@@ -750,12 +466,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Alright, we're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
-            "fr": "Bien, nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
-            "es": "¡Bien, hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
-            "pt": "Bem, terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
-            "th": "เอาล่ะ เสร็จเรียบร้อยแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำกันดีกว่า! คลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**."
+            "en": "We're done! Let's test our game to see the changes we've made! Click on the **Preview** button.",
+            "fr": "Nous avons terminé ! Testons notre jeu pour voir les changements que nous avons apportés ! Cliquez sur le bouton **Aperçu**.",
+            "ar": "حسنًا، لقد انتهينا! هيّا نختبر لعبتنا لنرى التغييرات التي قمنا بها! الضغط على الزر **معاينة**.",
+            "de": "Wir sind fertig! Lassen Sie uns unser Spiel testen, um die Änderungen zu sehen, die wir vorgenommen haben! Klicken Sie auf die **Vorschau**-Schaltfläche.",
+            "es": "¡Hemos terminado! ¡Probemos nuestro juego para ver los cambios que hemos hecho! Haga clic en el botón **Vista previa**.",
+            "it": "abbiamo finito! Proviamo il nostro gioco per vedere le modifiche che abbiamo apportato! Clicca sul pulsante **Anteprima**.",
+            "ja": "完了です！私たちが行った変更を確認するためにゲームをテストしましょう！**プレビュー**ボタンをクリックします。",
+            "ko": "우리는 끝났습니다! 우리가 한 변경 사항을 확인하기 위해 게임을 테스트해 봅시다! **미리보기** 버튼을 클릭합니다.",
+            "pl": "Skończyliśmy! Przetestujmy naszą grę, aby zobaczyć zmiany, jakie wprowadziliśmy! Kliknij przycisk **Podgląd**.",
+            "pt": "Nós terminamos! Vamos testar nosso jogo para ver as mudanças que fizemos! Clique no botão **Visualizar**.",
+            "ru": "Мы закончили! Давайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли! Нажмите на кнопку **Предварительный просмотр**.",
+            "sl": "Končali smo! Testirajmo našo igro, da vidimo spremembe, ki smo jih naredili! Kliknite na gumb **Predogled**.",
+            "sq": "Kemi përfunduar! Le të testojmë lojën tonë për të parë ndryshimet që kemi bërë! Kliko në butonin **Parashiko**.",
+            "th": "เราเสร็จแล้ว! มาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราได้ทำ! คลิกที่ปุ่ม **ตัวอย่าง**",
+            "uk": "Ми закінчили! Давайте протестуємо нашу гру, щоб побачити зміни, які ми зробили! Натисніть на кнопку **Попередній перегляд**.",
+            "zh": "我们完成了！让我们测试游戏，看看我们所做的更改！点击**预览**按钮。"
           }
         },
         "placement": "bottom"

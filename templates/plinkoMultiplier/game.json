@@ -2444,7 +2444,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "**Hitting pegs",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
