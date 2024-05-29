@@ -1,6 +1,11 @@
 {
   "id": "knightPlatformer",
-  "editorSwitches": {},
+  "editorSwitches": {
+    "Start": {
+      "editor": "Scene",
+      "scene": "Level 1"
+    }
+  },
   "availableLocales": [
     "en"
   ],
