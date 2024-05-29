@@ -1,15 +1,252 @@
 {
   "id": "knightPlatformer",
+  "editorSwitches": {},
   "availableLocales": [
     "en"
   ],
-  "flow": [],
-  "editorSwitches": {},
+  "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/knightPlatformer/game.json",
+  "initialProjectData": {
+    "playerHitBox": "KnightHitBox",
+    "tiles": "Tiles"
+  },
+  "flow": [
+    {
+      "id": "Start",
+      "standalone": true,
+      "elementToHighlightId": "#toolbar-preview-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "This game is a Platformer where the player must get the key. Let see the current game state. Click on the **preview** button to play."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Let's go!"
+          }
+        }
+      }
+    },
+    {
+      "standalone": true,
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "The knight cannot move, let's add the platformer behavior on the KnightHitBox object."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Next"
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectsList:playerHitBox",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add movement to our knight with the help of **behaviors**:\n\nclick on the 3 dot menu, or right click on **$(playerHitBox)**, and select **Edit behaviors**."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "#object-editor-dialog"
+      }
+    },
+    {
+      "elementToHighlightId": "#behaviors-tab",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "See the **behaviors** of the **object** here."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-behavior-button"
+      }
+    },
+    {
+      "elementToHighlightId": "#add-behavior-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add the **Platformer character** behavior."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "behavior-item-PlatformBehavior--PlatformerObjectBehavior"
+      }
+    },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#add-behavior-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add the **Platformer character** behavior."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "behavior-item-PlatformBehavior--PlatformerObjectBehavior"
+      }
+    },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "behavior-item-PlatformBehavior--PlatformerObjectBehavior",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select the **Platformer character** behavior."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "#behavior-parameters-PlatformerObject"
+      }
+    },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#object-editor-dialog #apply-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "That's it! Now the knight can move and jump so high!"
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "absenceOfElement": "#object-editor-dialog"
+      }
+    },
+    {
+      "standalone": true,
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "If you are previewing the game now the knight will fall in loop. Let's adds the collision to the platforms."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Next"
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectsList:tiles",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add the collision with the help of the Platformer **behavior**:\n\nclick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "#object-editor-dialog"
+      }
+    },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#behaviors-tab",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "See the **behaviors** of the **object** here."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-behavior-button"
+      }
+    },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#add-behavior-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add the **Platformer** behavior."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "behavior-item-PlatformBehavior--PlatformBehavior"
+      }
+    },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#object-editor-dialog #apply-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "That's it! Now the knight won't fall through the floor."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "absenceOfElement": "#object-editor-dialog"
+      }
+    },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#object-editor-dialog #apply-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "That's it! Now the knight can move and jump so high!"
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "absenceOfElement": "#object-editor-dialog"
+      }
+    },
+    {
+      "elementToHighlightId": "#toolbar-preview-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "We're done! Let's test our game to see the changes we've made! Click on the **Preview** button."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "previewLaunched": true
+      }
+    }
+  ],
   "endDialog": {
     "content": [
       {
         "messageByLocale": {
           "en": "# You've finished this lesson!"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "Well done, in this tutorial you've learned how to:"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "- How to control a player with a Platformer Object behaviors\n\n- How to edit the jump speed of a character\n\n- How to add collisions for a platformer"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "You can keep adding stuff to this game or publish it!"
         }
       }
     ]
