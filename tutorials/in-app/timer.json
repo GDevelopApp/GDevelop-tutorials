@@ -763,10 +763,10 @@
             "uk": "Цей таймер буде створений, давайте назвемо його **\"GameTimer\"** (у лапках).",
             "zh": "这个计时器将被创建，让我们给它命名为 **\"GameTimer\"**（在引号内）。"
           }
-        }
+        },
+        "placement": "top"
       },
-      "isOnClosableDialog": true,
-      "placement": "top"
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#instruction-editor-dialog #ok-button",

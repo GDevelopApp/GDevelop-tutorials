@@ -4698,10 +4698,10 @@
             "th": "พิมพ์ **\"Score\"** (ใส่ quotations ด้วย)",
             "ar": "كتابة **\"Score\"** (داخل علامتا تنصيص)."
           }
-        }
+        },
+        "placement": "top"
       },
-      "isOnClosableDialog": true,
-      "placement": "top"
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#instruction-editor-dialog #ok-button",
@@ -4813,9 +4813,9 @@
             "th": "เลือก “= (ตั้งเป็น)”",
             "ar": "تحديد **= (تعيين إلى)**."
           }
-        }
+        },
+        "placement": "left"
       },
-      "placement": "left",
       "isOnClosableDialog": true
     },
     {
@@ -4833,9 +4833,9 @@
             "th": "ดับเบิ้ลคลิกเพื่อไฮไลต์ จากนั้นคัดลองและวางที่นี่: `\"Time: \" + ToString(round( TimerElapsedTime(\"Score\")))`",
             "ar": "نقرة مزدوجة لتحديد هذا السطر، ثم نسخ ولصق هذا هنا:\n\n`\"الوقت: \" + ToString(round( TimerElapsedTime(\"Score\")))`."
           }
-        }
+        },
+        "placement": "left"
       },
-      "placement": "left",
       "isOnClosableDialog": true
     },
     {
@@ -5710,8 +5710,7 @@
         },
         "placement": "top"
       },
-      "isOnClosableDialog": true,
-      "placement": "top"
+      "isOnClosableDialog": true
     },
     {
       "elementToHighlightId": "#instruction-editor-dialog #ok-button",
