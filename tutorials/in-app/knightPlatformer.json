@@ -39,7 +39,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "The knight cannot move, let's add the platformer behavior on the KnightHitBox object."
+            "en": "The knight cannot move, let's add the Platformer character behavior on the **$(playerHitBox)** object."
           }
         }
       },
@@ -56,7 +56,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add movement to our knight with the help of **behaviors**:\n\nclick on the 3 dot menu, or right click on **$(playerHitBox)**, and select **Edit behaviors**."
+            "en": "Let's add movement to our knight with the help of a **behavior**:\n\nclick on the 3 dot menu, or right click on **$(playerHitBox)**, and select **Edit behaviors**."
           }
         }
       },
@@ -116,6 +116,19 @@
       },
       "nextStepTrigger": {
         "presenceOfElement": "#behavior-parameters-PlatformerObject"
+      }
+    },
+    {
+      "elementToHighlightId": "#behavior-parameters-PlatformBehavior #JumpSpeed",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's update the jump speed to **700**, so the knight can jump higher to reach the highest platforms."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "valueEquals": "700"
       }
     },
     {
