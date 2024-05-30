@@ -299,7 +299,7 @@ To do so, in a terminal:
 
 You should follow those steps if you want your in-app tutorial to be integrated in GDevelop's interface.
 
-Open a new PR and:
+Open a new PR in [GDevelop's repository](https://github.com/4ian/GDevelop) and:
 
 - In the file `InAppTutorial.js`:
   - add your tutorial id in a constant and add it to the list `guidedLessonsIds`.
