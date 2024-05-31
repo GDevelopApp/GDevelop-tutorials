@@ -71,12 +71,7 @@ const generateFolderStructure = () => {
   shell.mkdir('-p', inAppTutorialsDestinationRootPath);
   shell.mkdir('-p', tutorialsDatabasePath);
 
-  // Copy tutorials in destination folders
-  shell.cp(
-    '-r',
-    inAppTutorialsSourceRootPath,
-    inAppTutorialsDestinationRootPath
-  );
+  // Copy templates in destination folders
   shell.cp('-r', templatesSourceRootPath, templatesDestinationRootPath);
 };
 
@@ -227,8 +222,27 @@ const buildAndWriteInAppTutorialsDatabase = (databasePath, inAppTutorials) => {
   );
 };
 
+/**
+ * @param {Array<InAppTutorial>} inAppTutorials
+ */
+const processAndWriteInAppTutorials = (inAppTutorials) => {
+  inAppTutorials.forEach((inAppTutorial) => {
+    inAppTutorial.processFlowMetaSteps();
+  });
+  inAppTutorials.forEach((inAppTutorial) => {
+    fs.writeFile(
+      path.join(
+        inAppTutorialsDestinationRootPath,
+        path.basename(inAppTutorial.sourcePath)
+      ),
+      inAppTutorial.toString()
+    );
+  });
+};
+
 const processInAppTutorials = async () => {
   const inAppTutorials = await readInAppTutorials(inAppTutorialsSourceRootPath);
+  processAndWriteInAppTutorials(inAppTutorials);
   buildAndWriteInAppTutorialsDatabase(tutorialsDatabasePath, inAppTutorials);
 };
 

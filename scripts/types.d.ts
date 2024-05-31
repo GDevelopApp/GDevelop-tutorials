@@ -27,6 +27,28 @@ type InAppTutorialFlowStepDOMChangeTrigger =
       absenceOfElement: string;
     };
 
+type AddBehaviorMetaStep = {
+  metaKind: 'add-behavior';
+  objectKey: string;
+  behaviorListItemId: string;
+  behaviorParameterPanelId: string;
+  behaviorDisplayName: string;
+  parameters: Array<{
+    parameterId: string;
+    expectedValue: string;
+    description: TranslatedText
+  }>;
+  objectHighlightDescription: TranslatedText;
+  objectHighlightTouchDescription?: TranslatedText;
+  finishedConfigurationDescription?: TranslatedText;
+};
+
+type LaunchPreviewMetaStep = {
+  metaKind: 'launch-preview';
+};
+
+type InAppTutorialFlowMetaStep = AddBehaviorMetaStep | LaunchPreviewMetaStep;
+
 export type InAppTutorialFlowStepTrigger =
   | InAppTutorialFlowStepDOMChangeTrigger
   | {
@@ -70,7 +92,7 @@ export type InAppTutorialFlowStep = {
   mapProjectData?: Record<string, 'lastProjectObjectName'>;
   tooltip?: InAppTutorialTooltip;
   skippable?: true;
-  isOnClosableDialog?: true;
+  isOnClosableDialog?: boolean;
 };
 
 export type EditorIdentifier = 'Scene' | 'EventsSheet' | 'Home';
@@ -89,7 +111,7 @@ export type InAppTutorialEndDialog = {
 
 export type InAppTutorial = {
   id: string;
-  flow: Array<InAppTutorialFlowStep>;
+  flow: Array<InAppTutorialFlowStep | InAppTutorialFlowMetaStep>;
   editorSwitches: Record<string, EditorIdentifier>;
   endDialog: InAppTutorialEndDialog;
   availableLocales: Array<string>;
