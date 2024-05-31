@@ -14,9 +14,11 @@ export type TranslatedText = {
 
 export type InAppTutorialTooltip = {
   placement?: 'bottom' | 'left' | 'right' | 'top';
+  mobilePlacement?: 'bottom' | 'left' | 'right' | 'top';
   title?: TranslatedText;
   description?: TranslatedText;
   touchDescription?: TranslatedText;
+  standalone?: boolean;
 };
 
 type InAppTutorialFlowStepDOMChangeTrigger =
@@ -44,7 +46,12 @@ type AddBehaviorMetaStep = {
 };
 
 type LaunchPreviewMetaStep = {
+  id?: string;
   metaKind: 'launch-preview';
+  description?: TranslatedText;
+  nextStep: 'previewLaunched' | {
+    clickOnTooltipButton: TranslatedText;
+  }
 };
 
 type InAppTutorialFlowMetaStep = AddBehaviorMetaStep | LaunchPreviewMetaStep;
@@ -71,7 +78,7 @@ export type InAppTutorialFlowStepTrigger =
       editorIsActive: string;
     }
   | {
-      clickOnTooltipButton: string;
+      clickOnTooltipButton: TranslatedText;
     };
 
 export type InAppTutorialFlowStepShortcutTrigger =
