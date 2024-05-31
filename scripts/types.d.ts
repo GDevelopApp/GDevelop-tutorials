@@ -38,7 +38,7 @@ type AddBehaviorMetaStep = {
   parameters: Array<{
     parameterId: string;
     expectedValue: string;
-    description: TranslatedText
+    description: TranslatedText;
   }>;
   objectHighlightDescription: TranslatedText;
   objectHighlightTouchDescription?: TranslatedText;
@@ -49,9 +49,11 @@ type LaunchPreviewMetaStep = {
   id?: string;
   metaKind: 'launch-preview';
   description?: TranslatedText;
-  nextStep: 'previewLaunched' | {
-    clickOnTooltipButton: TranslatedText;
-  }
+  nextStep:
+    | 'previewLaunched'
+    | {
+        clickOnTooltipButton: TranslatedText;
+      };
 };
 
 type InAppTutorialFlowMetaStep = AddBehaviorMetaStep | LaunchPreviewMetaStep;
