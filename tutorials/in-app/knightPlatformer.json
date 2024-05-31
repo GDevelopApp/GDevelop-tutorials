@@ -60,6 +60,8 @@
       }
     },
     {
+      "isOnClosableDialog": true,
+      "skippable": true,
       "elementToHighlightId": "#behaviors-tab",
       "tooltip": {
         "description": {
@@ -149,7 +151,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the collision with the help of the Platformer **behavior**.\n\nClick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**."
+            "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nClick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**."
           }
         }
       },
@@ -159,6 +161,7 @@
     },
     {
       "isOnClosableDialog": true,
+      "skippable": true,
       "elementToHighlightId": "#behaviors-tab",
       "tooltip": {
         "description": {
@@ -191,7 +194,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add this **Platform** behavior."
+            "en": "Click here to add this **Platform** behavior."
           }
         }
       },
@@ -201,6 +204,7 @@
     },
 
     {
+      "skippable": true,
       "isOnClosableDialog": true,
       "elementToHighlightId": "#behavior-parameters-Platform #PlatformType",
       "nextStepTrigger": {
