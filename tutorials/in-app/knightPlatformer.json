@@ -21,16 +21,12 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This game is a Platformer where the player must get the key. Let see the current game state. Click on the **preview** button to play."
+            "en": "This game is a Platformer where the player must get the key then read the door to open it.Let see the current game state.\n\nClick on the **preview** button to play."
           }
         }
       },
       "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Let's go!"
-          }
-        }
+        "previewLaunched": true
       }
     },
     {
@@ -38,7 +34,7 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "The knight cannot move, let's add the Platformer character behavior on the **$(playerHitBox)** object."
+            "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object."
           }
         }
       },
@@ -55,7 +51,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add movement to our knight with the help of a **behavior**:\n\nclick on the 3 dot menu, or right click on **$(playerHitBox)**, and select **Edit behaviors**."
+            "en": "Let's add movement to our knight with the help of a **behavior**.\n\nClick on the 3 dot menu, or right Click on **$(playerHitBox)**, and select **Edit behaviors**."
           }
         }
       },
@@ -86,26 +82,12 @@
         }
       },
       "nextStepTrigger": {
-        "presenceOfElement": "behavior-item-PlatformBehavior--PlatformerObjectBehavior"
+        "presenceOfElement": "#behavior-item-PlatformBehavior--PlatformerObjectBehavior"
       }
     },
     {
       "isOnClosableDialog": true,
-      "elementToHighlightId": "#add-behavior-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's add the **Platformer character** behavior."
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "presenceOfElement": "behavior-item-PlatformBehavior--PlatformerObjectBehavior"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "behavior-item-PlatformBehavior--PlatformerObjectBehavior",
+      "elementToHighlightId": "#behavior-item-PlatformBehavior--PlatformerObjectBehavior",
       "tooltip": {
         "description": {
           "messageByLocale": {
@@ -114,11 +96,12 @@
         }
       },
       "nextStepTrigger": {
-        "presenceOfElement": "#behavior-parameters-PlatformerObject"
+        "presenceOfElement": "#behavior-parameters-PlatformerObject #JumpSpeed"
       }
     },
     {
-      "elementToHighlightId": "#behavior-parameters-PlatformBehavior #JumpSpeed",
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#behavior-parameters-PlatformerObject #JumpSpeed",
       "tooltip": {
         "description": {
           "messageByLocale": {
@@ -149,7 +132,7 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "If you are previewing the game now the knight will fall in loop. Let's adds the collision to the platforms."
+            "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's adds the collision to the platforms."
           }
         }
       },
@@ -166,7 +149,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the collision with the help of the Platformer **behavior**:\n\nclick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**."
+            "en": "Let's add the collision with the help of the Platformer **behavior**.\n\nClick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**."
           }
         }
       },
@@ -194,35 +177,45 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the **Platformer** behavior."
+            "en": "Let's add a new behavior."
           }
         }
       },
       "nextStepTrigger": {
-        "presenceOfElement": "behavior-item-PlatformBehavior--PlatformBehavior"
+        "presenceOfElement": "#behavior-item-PlatformBehavior--PlatformBehavior"
       }
     },
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#behavior-item-PlatformBehavior--PlatformBehavior",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add this **Platform** behavior."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "#behavior-parameters-Platform #PlatformType"
+      }
+    },
+
+    {
+      "isOnClosableDialog": true,
+      "elementToHighlightId": "#behavior-parameters-Platform #PlatformType",
+      "nextStepTrigger": {
+        "valueEquals": "Platform"
+      }
+    },
+
+    
     {
       "isOnClosableDialog": true,
       "elementToHighlightId": "#object-editor-dialog #apply-button",
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "That's it! Now the knight won't fall through the floor."
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "absenceOfElement": "#object-editor-dialog"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#object-editor-dialog #apply-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "That's it! Now the knight can move and jump so high!"
+            "en": "That's it! Now the knight can stand on the object ${tiles} that use the Platform behavior."
           }
         }
       },
@@ -235,7 +228,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We're done! Let's test our game to see the changes we've made! Click on the **Preview** button."
+            "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button."
           }
         }
       },
@@ -258,7 +251,7 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to control a player with a Platformer Object behaviors\n\n- How to edit the jump speed of a character\n\n- How to add collisions for a platformer"
+          "en": "- How to control a player with a Platformer Object behaviors\n\n- How to edit the jump speed of the player\n\n- How to add collisions in a platformer"
         }
       },
       {
