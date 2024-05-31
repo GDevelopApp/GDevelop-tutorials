@@ -34,7 +34,7 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "The knight cannot move, the behavior Platformer character on the **${playerHitBox}** is missing.\n\nLet's see how to add it to the object."
+            "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object."
           }
         }
       },
@@ -51,7 +51,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add movement to our knight with the help of a **behavior**.\n\nClick on the 3 dot menu, or right Click on **${playerHitBox}**, and select **Edit behaviors**."
+            "en": "Let's add movement to our knight with the help of a **behavior**.\n\nClick on the 3 dot menu, or right Click on **$(playerHitBox)**, and select **Edit behaviors**."
           }
         }
       },
@@ -149,7 +149,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the collision with the help of the Platformer **behavior**.\n\nClick on the 3 dot menu, or right click on **${tiles}**, and select **Edit behaviors**."
+            "en": "Let's add the collision with the help of the Platformer **behavior**.\n\nClick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**."
           }
         }
       },
@@ -215,7 +215,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "That's it! Now the knight can stand on the object ${tiles} that use the Platform behavior."
+            "en": "That's it! Now the knight can stand on the object $(tiles) that use the Platform behavior."
           }
         }
       },
