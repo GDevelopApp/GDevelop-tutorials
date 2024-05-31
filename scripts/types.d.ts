@@ -16,6 +16,7 @@ export type InAppTutorialTooltip = {
   placement?: 'bottom' | 'left' | 'right' | 'top';
   title?: TranslatedText;
   description?: TranslatedText;
+  touchDescription?: TranslatedText;
 };
 
 type InAppTutorialFlowStepDOMChangeTrigger =
@@ -32,14 +33,28 @@ export type InAppTutorialFlowStepTrigger =
       valueHasChanged: true;
     }
   | {
+      valueEquals: string;
+    }
+  | {
+      objectAddedInLayout: true;
+    }
+  | {
       instanceAddedOnScene: string;
+      instancesCount?: number;
     }
   | {
       previewLaunched: true;
     }
   | {
+      editorIsActive: string;
+    }
+  | {
       clickOnTooltipButton: string;
     };
+
+export type InAppTutorialFlowStepShortcutTrigger =
+  | InAppTutorialFlowStepDOMChangeTrigger
+  | { objectAddedInLayout: true };
 
 export type InAppTutorialFlowStep = {
   elementToHighlightId?: string;
@@ -50,7 +65,7 @@ export type InAppTutorialFlowStep = {
   shortcuts?: Array<{
     stepId: string;
     // TODO: Adapt provider to make it possible to use other triggers as shortcuts
-    trigger: InAppTutorialFlowStepDOMChangeTrigger;
+    trigger: InAppTutorialFlowStepShortcutTrigger;
   }>;
   mapProjectData?: Record<string, 'lastProjectObjectName'>;
   tooltip?: InAppTutorialTooltip;
