@@ -1,5 +1,7 @@
 # GDevelop In-App Tutorial Documentation
 
+"In-app tutorial" is the term used in the codebase for GDevelop. It is displayed "guided lesson" in GDevelop editor. Each term designates the same thing.
+
 ## How is handled the translation?
 
 To display the tutorial with different languages, every text that you will specify has to be an object `messageByLocale` with locales as keys and the translated sentence as value.
@@ -31,6 +33,8 @@ An in-app tutorial is a JSON with 4 fields:
   "editorSwitches": {...},
   "endDialog": {...},
   "availableLocales": [...],
+  "initialTemplateUrl": "https://...",
+  "initialProjectData": {...},
 }
 ```
 
@@ -205,7 +209,7 @@ Notes:
 - `playScene` is the key under which the name of the scene has been stored during the tutorial.
 - The possible values for the expected editor are: `Scene`, `EventsSheet`, `Home` (other editors are not supported at the moment).
 
-## `initialTemplateUrl` & `initialProjectData`
+### `initialTemplateUrl` & `initialProjectData`
 
 If the tutorial does not start from scratch, we can provide a template URL to download the project from with `initialTemplateUrl`. This should match the URL of the template in the GDevelop templates S3 bucket (https://resources.gdevelop-app.com/in-app-tutorials/templates/{gameName}/game.json)
 This template should be available inside the `templates` folder, with the same name as the tutorial. It will get deployed to the S3 bucket when merging to master.
@@ -228,3 +232,76 @@ Ex:
   },
 }
 ```
+
+## How to test your in-app tutorial in GDevelop
+
+> Available in GDevelop desktop app only.
+
+Starting from version 5.4.202, you can load your in-app tutorial from your computer to try it.
+
+To do so, go to your preferences, in the section "Contributor options", activate the toggle "Show button to load guided lesson from file and test it.".
+
+Once this is done, a new button "Load local lesson" should appear in the homepage's learn tab, above the guided lessons section. Select your JSON file and complete your lesson!
+
+Notes:
+
+- The editor will perform a basic schema check before actually running the tutorial.
+  - If errors are found, please open the developer console, they will be listed there.
+  - The check is not exhaustive.
+- If your in-app tutorial is using an initial template, make sure to have it opened before loading the tutorial.
+
+## Translate your in-app tutorial
+
+If you can use ChatGPT, you can easily have a basic translation for your tutorial. To do so, for each object with a `en` key, you should add all needed locale keys and then you can ask ChatGPT to translate it.
+
+For instance, if you have the following:
+
+```json
+"messageByLocale": {
+  "en": "Click on this button"
+}
+```
+
+Transform it to this:
+
+```json
+"messageByLocale": {
+  "en": "Click on this button",
+  "fr": "",
+  "de": "",
+  "es": "",
+  "th": "",
+  ...
+}
+```
+
+And the ask the following to ChatGPT:
+
+```
+Given this JSON, can you add translations for the empty fields corresponding to the keys that represent the locale to translate to?
+
+{COPY PASTE THE JSON}
+```
+
+## Integrity tests
+
+Some tests are run in our Continuous Integration (CI) pipeline when you open a PR.
+You can run them on your device to make sure your in-app tutorial passes the checks.
+
+To do so, in a terminal:
+
+- install the project: at the root of the repository, run `npm install`
+- Build the tutorials: run `npm run build`
+- Run the tests: run `npm run check-post-build`
+- Read the output to see if your in-app tutorial passes the tests.
+
+## Final steps
+
+You should follow those steps if you want your in-app tutorial to be integrated in GDevelop's interface.
+
+Open a new PR in [GDevelop's repository](https://github.com/4ian/GDevelop) and:
+
+- In the file `InAppTutorial.js`:
+  - add your tutorial id in a constant and add it to the list `guidedLessonsIds`.
+  - if applicable, add your tutorial id in the list in the function `isMiniTutorial`.
+- In the file `GuidedLessons.js`, add an item in the list `guidedLessonCards` with all the fields (you should have a SVG file to use in the card).
