@@ -348,8 +348,8 @@
       "nextStepTrigger": {
         "presenceOfElement": "#asset-store-home[data-is-filtered=\"true\"] #asset-pack-multitouch-joysticks"
       },
-      "placement": "bottom",
       "tooltip": {
+        "placement": "bottom",
         "description": {
           "messageByLocale": {
             "en": "We will use an object that comes with pre-made actions and conditions. We call this a **Ready to use object**.",
