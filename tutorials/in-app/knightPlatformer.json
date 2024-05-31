@@ -215,7 +215,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "That's it! Now the knight can stand on the object ${tiles} that use the Platform behavior."
+            "en": "That's it! Now the knight can stand on the object $(tiles) that use the Platform behavior."
           }
         }
       },
