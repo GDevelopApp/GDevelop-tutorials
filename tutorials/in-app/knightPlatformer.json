@@ -9,7 +9,6 @@
   "availableLocales": [
     "en"
   ],
-  "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/knightPlatformer/game.json",
   "initialProjectData": {
     "playerHitBox": "KnightHitBox",
     "tiles": "Tiles"
@@ -17,7 +16,6 @@
   "flow": [
     {
       "id": "Start",
-      "standalone": true,
       "elementToHighlightId": "#toolbar-preview-button",
       "tooltip": {
         "description": {
@@ -35,8 +33,8 @@
       }
     },
     {
-      "standalone": true,
       "tooltip": {
+        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "The knight cannot move, let's add the Platformer character behavior on the **$(playerHitBox)** object."
@@ -146,8 +144,8 @@
       }
     },
     {
-      "standalone": true,
       "tooltip": {
+        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "If you are previewing the game now the knight will fall in loop. Let's adds the collision to the platforms."
