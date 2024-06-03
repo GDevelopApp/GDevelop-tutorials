@@ -13,6 +13,8 @@ const {
 /**
  * @typedef {import('../scripts/types').InAppTutorialShortHeader} InAppTutorialShortHeader
  * @typedef {import('../scripts/types').InAppTutorial} InAppTutorial
+ * @typedef {import('../scripts/types').InAppTutorialFlowStep} InAppTutorialFlowStep
+ * @typedef {import('../scripts/types').InAppTutorialFlowMetaStep} InAppTutorialFlowMetaStep
  * @typedef {import('./utils').InAppTutorialGenericType} InAppTutorialGenericType
  */
 
@@ -119,9 +121,10 @@ describe('In app tutorials content checks', () => {
         const projectData = flow.reduce(
           /**
            * @param {string[]} acc
-           * @param {{mapProjectData?: Record<string, string>}} step
+           * @param {InAppTutorialFlowStep | InAppTutorialFlowMetaStep} step
            */
           (acc, step) => {
+            if ('metaKind' in step) return acc;
             if (step.mapProjectData) {
               acc.push(Object.keys(step.mapProjectData)[0]);
             }

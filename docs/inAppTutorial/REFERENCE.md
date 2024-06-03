@@ -24,7 +24,7 @@ Note: If the user language is not available, it will fallback to english.
 
 ## JSON Structure
 
-An in-app tutorial is a JSON with 4 fields:
+An in-app tutorial is a JSON with 7 fields:
 
 ```json
 {
@@ -94,7 +94,7 @@ The array contains either:
 
 ### `flow`
 
-A flow is an array of steps.
+A flow is an array of steps or [meta steps](#meta-steps).
 
 A step is more or less an element to highlight plus a trigger that can be detected programmatically to decide to go to the next step.
 
@@ -233,6 +233,19 @@ Ex:
 }
 ```
 
+## Meta steps
+
+We're introducing meta steps to speed up the process.
+These meta steps should handle particular situations that are not interesting to the tutorial designer and will also bring consistency across tutorials.
+
+At the moment, there are 2 meta steps available (both are used in the `joystick` tutorial):
+
+- **LaunchPreview**
+- **AddBehavior**
+
+TODO: add documentation about how to use those steps.
+In the meantime, you can check how both are used in the `joystick` tutorial and discover the available fields in [the types declaration](../../scripts/types.d.ts).
+
 ## How to test your in-app tutorial in GDevelop
 
 > Available in GDevelop desktop app only.
@@ -249,6 +262,13 @@ Notes:
   - If errors are found, please open the developer console, they will be listed there.
   - The check is not exhaustive.
 - If your in-app tutorial is using an initial template, make sure to have it opened before loading the tutorial.
+- If you are using meta steps in your tutorial, you need to first run the build command:
+
+  ```bash
+  npm run build -- --gdevelop-root-path=/path/to/GDevelop/repository
+  ```
+
+  Then select the json file generated in the folder `dist/tutorials`.
 
 ## Translate your in-app tutorial
 
@@ -288,10 +308,13 @@ Given this JSON, can you add translations for the empty fields corresponding to 
 Some tests are run in our Continuous Integration (CI) pipeline when you open a PR.
 You can run them on your device to make sure your in-app tutorial passes the checks.
 
+Prerequisites:
+- Clone [GDevelop repository](https://github.com/4ian/GDevelop) on your computer and run `npm install` in the folder `newIDE/app/`.
+
 To do so, in a terminal:
 
 - install the project: at the root of the repository, run `npm install`
-- Build the tutorials: run `npm run build`
+- Build the tutorials: run `npm run build -- --gdevelop-root-path=/path/to/GDevelop/repository`
 - Run the tests: run `npm run check-post-build`
 - Read the output to see if your in-app tutorial passes the tests.
 
