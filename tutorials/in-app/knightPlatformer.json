@@ -189,24 +189,22 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "messageByLocale": {
-              "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's add the collision to the platforms.",
-              "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
-              "ar": "إذا كنت تقوم بمعاينة اللعبة الآن، سيسقط الفارس في حلقة.\n\nلنضف التصادم إلى المنصات.",
-              "de": "Wenn Sie das Spiel jetzt in der Vorschau ansehen, wird der Ritter in einer Schleife fallen.\n\nLassen Sie uns die Kollision zu den Plattformen hinzufügen.",
-              "es": "Si estás previsualizando el juego ahora, el caballero caerá en bucle.\n\nAgreguemos la colisión a las plataformas.",
-              "it": "Se stai visualizzando l'anteprima del gioco ora, il cavaliere cadrà in un loop.\n\nAggiungiamo la collisione alle piattaforme.",
-              "ja": "ゲームをプレビューしている場合、騎士はループして落ち続けます。\n\nプラットフォームに衝突を追加しましょう。",
-              "ko": "지금 게임을 미리 보기 중이라면 기사가 반복해서 떨어질 것입니다.\n\n플랫폼에 충돌을 추가해 보겠습니다.",
-              "pl": "Jeśli teraz podglądasz grę, rycerz będzie spadał w pętli.\n\nDodajmy kolizję do platform.",
-              "pt": "Se você estiver visualizando o jogo agora, o cavaleiro cairá em um loop.\n\nVamos adicionar a colisão às plataformas.",
-              "th": "หากคุณกำลังดูตัวอย่างเกมตอนนี้ อัศวินจะตกในลูป\n\nมาเพิ่มการชนกับแพลตฟอร์มกันเถอะ",
-              "ru": "Если вы просматриваете игру сейчас, рыцарь будет падать в цикле.\n\nДавайте добавим столкновение с платформами.",
-              "sl": "Če si zdaj ogledujete predogled igre, bo vitez padel v zanki.\n\nDodajmo trčenje na platforme.",
-              "sq": "Nëse po shikoni paraprakisht lojën tani, kalorësi do të bjerë në një rreth.\n\nLe të shtojmë përplasjen me platformat.",
-              "uk": "Якщо ви зараз переглядаєте гру, лицар буде падати в циклі.\n\nДавайте додамо зіткнення з платформами.",
-              "zh": "如果你现在预览游戏，骑士会在循环中掉落。\n\n让我们为平台添加碰撞。"
-            }
+            "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's add the collision to the platforms.",
+            "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
+            "ar": "إذا كنت تقوم بمعاينة اللعبة الآن، سيسقط الفارس في حلقة.\n\nلنضف التصادم إلى المنصات.",
+            "de": "Wenn Sie das Spiel jetzt in der Vorschau ansehen, wird der Ritter in einer Schleife fallen.\n\nLassen Sie uns die Kollision zu den Plattformen hinzufügen.",
+            "es": "Si estás previsualizando el juego ahora, el caballero caerá en bucle.\n\nAgreguemos la colisión a las plataformas.",
+            "it": "Se stai visualizzando l'anteprima del gioco ora, il cavaliere cadrà in un loop.\n\nAggiungiamo la collisione alle piattaforme.",
+            "ja": "ゲームをプレビューしている場合、騎士はループして落ち続けます。\n\nプラットフォームに衝突を追加しましょう。",
+            "ko": "지금 게임을 미리 보기 중이라면 기사가 반복해서 떨어질 것입니다.\n\n플랫폼에 충돌을 추가해 보겠습니다.",
+            "pl": "Jeśli teraz podglądasz grę, rycerz będzie spadał w pętli.\n\nDodajmy kolizję do platform.",
+            "pt": "Se você estiver visualizando o jogo agora, o cavaleiro cairá em um loop.\n\nVamos adicionar a colisão às plataformas.",
+            "th": "หากคุณกำลังดูตัวอย่างเกมตอนนี้ อัศวินจะตกในลูป\n\nมาเพิ่มการชนกับแพลตฟอร์มกันเถอะ",
+            "ru": "Если вы просматриваете игру сейчас, рыцарь будет падать в цикле.\n\nДавайте добавим столкновение с платформами.",
+            "sl": "Če si zdaj ogledujete predogled igre, bo vitez padel v zanki.\n\nDodajmo trčenje na platforme.",
+            "sq": "Nëse po shikoni paraprakisht lojën tani, kalorësi do të bjerë në një rreth.\n\nLe të shtojmë përplasjen me platformat.",
+            "uk": "Якщо ви зараз переглядаєте гру, лицар буде падати в циклі.\n\nДавайте додамо зіткнення з платформами.",
+            "zh": "如果你现在预览游戏，骑士会在循环中掉落。\n\n让我们为平台添加碰撞。"
           }
         },
         "nextStepTrigger": {
