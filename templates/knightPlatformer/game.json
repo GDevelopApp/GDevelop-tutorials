@@ -4208,6 +4208,8 @@
         "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -10341,6 +10343,8 @@
         "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -11475,6 +11479,8 @@
         "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
