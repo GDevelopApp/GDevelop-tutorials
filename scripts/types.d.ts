@@ -14,8 +14,11 @@ export type TranslatedText = {
 
 export type InAppTutorialTooltip = {
   placement?: 'bottom' | 'left' | 'right' | 'top';
+  mobilePlacement?: 'bottom' | 'left' | 'right' | 'top';
   title?: TranslatedText;
   description?: TranslatedText;
+  touchDescription?: TranslatedText;
+  standalone?: boolean;
 };
 
 type InAppTutorialFlowStepDOMChangeTrigger =
@@ -26,20 +29,63 @@ type InAppTutorialFlowStepDOMChangeTrigger =
       absenceOfElement: string;
     };
 
+type AddBehaviorMetaStep = {
+  metaKind: 'add-behavior';
+  objectKey: string;
+  behaviorListItemId: string;
+  behaviorParameterPanelId: string;
+  behaviorDisplayName: string;
+  parameters: Array<{
+    parameterId: string;
+    expectedValue: string;
+    description: TranslatedText;
+  }>;
+  objectHighlightDescription: TranslatedText;
+  objectHighlightTouchDescription?: TranslatedText;
+  finishedConfigurationDescription?: TranslatedText;
+};
+
+type LaunchPreviewMetaStep = {
+  id?: string;
+  metaKind: 'launch-preview';
+  description?: TranslatedText;
+  nextStep:
+    | 'previewLaunched'
+    | {
+        clickOnTooltipButton: TranslatedText;
+      };
+};
+
+type InAppTutorialFlowMetaStep = AddBehaviorMetaStep | LaunchPreviewMetaStep;
+
 export type InAppTutorialFlowStepTrigger =
   | InAppTutorialFlowStepDOMChangeTrigger
   | {
       valueHasChanged: true;
     }
   | {
+      valueEquals: string;
+    }
+  | {
+      objectAddedInLayout: true;
+    }
+  | {
       instanceAddedOnScene: string;
+      instancesCount?: number;
     }
   | {
       previewLaunched: true;
     }
   | {
-      clickOnTooltipButton: string;
+      editorIsActive: string;
+    }
+  | {
+      clickOnTooltipButton: TranslatedText;
     };
+
+export type InAppTutorialFlowStepShortcutTrigger =
+  | InAppTutorialFlowStepDOMChangeTrigger
+  | { objectAddedInLayout: true };
 
 export type InAppTutorialFlowStep = {
   elementToHighlightId?: string;
@@ -50,12 +96,12 @@ export type InAppTutorialFlowStep = {
   shortcuts?: Array<{
     stepId: string;
     // TODO: Adapt provider to make it possible to use other triggers as shortcuts
-    trigger: InAppTutorialFlowStepDOMChangeTrigger;
+    trigger: InAppTutorialFlowStepShortcutTrigger;
   }>;
   mapProjectData?: Record<string, 'lastProjectObjectName'>;
   tooltip?: InAppTutorialTooltip;
   skippable?: true;
-  isOnClosableDialog?: true;
+  isOnClosableDialog?: boolean;
 };
 
 export type EditorIdentifier = 'Scene' | 'EventsSheet' | 'Home';
@@ -74,7 +120,7 @@ export type InAppTutorialEndDialog = {
 
 export type InAppTutorial = {
   id: string;
-  flow: Array<InAppTutorialFlowStep>;
+  flow: Array<InAppTutorialFlowStep | InAppTutorialFlowMetaStep>;
   editorSwitches: Record<string, EditorIdentifier>;
   endDialog: InAppTutorialEndDialog;
   availableLocales: Array<string>;
