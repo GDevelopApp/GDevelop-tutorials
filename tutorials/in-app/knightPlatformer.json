@@ -21,7 +21,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This game is a Platformer where the player must get the key then read the door to open it.Let see the current game state.\n\nClick on the **preview** button to play."
+            "en": "This game is a Platformer where the player must get the key then read the door to open it. Let's see the current game state.\n\nClick on the **preview** button to play.",
+            "fr": "Ce jeu est un jeu de plateforme où le joueur doit obtenir la clé puis lire la porte pour l'ouvrir. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **aperçu** pour jouer.",
+            "ar": "هذه اللعبة هي لعبة منصات حيث يجب على اللاعب الحصول على المفتاح ثم قراءة الباب لفتحه. دعونا نرى حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.",
+            "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler den Schlüssel holen und dann die Tür lesen muss, um sie zu öffnen. Lassen Sie uns den aktuellen Spielstand ansehen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
+            "es": "Este juego es un plataformas donde el jugador debe conseguir la llave y luego leer la puerta para abrirla. Veamos el estado actual del juego.\n\nHaz clic en el botón **vista previa** para jugar.",
+            "it": "Questo gioco è un platformer in cui il giocatore deve ottenere la chiave e poi leggere la porta per aprirla. Vediamo lo stato attuale del gioco.\n\nClicca sul pulsante **anteprima** per giocare.",
+            "ja": "このゲームは、プレイヤーが鍵を手に入れ、ドアを読んで開ける必要があるプラットフォーマーです。現在のゲームの状態を見てみましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。",
+            "ko": "이 게임은 플레이어가 열쇠를 얻고 문을 읽어 열어야 하는 플랫폼 게임입니다. 현재 게임 상태를 확인해 보겠습니다.\n\n플레이하려면 **미리보기** 버튼을 클릭하십시오.",
+            "pl": "Ta gra to platformówka, w której gracz musi zdobyć klucz, a następnie przeczytać drzwi, aby je otworzyć. Zobaczmy aktualny stan gry.\n\nKliknij przycisk **podgląd**, aby zagrać.",
+            "pt": "Este jogo é um jogo de plataforma onde o jogador deve pegar a chave e depois ler a porta para abri-la. Vamos ver o estado atual do jogo.\n\nClique no botão **pré-visualização** para jogar.",
+            "th": "เกมนี้เป็นเกมแพลตฟอร์มที่ผู้เล่นต้องได้รับกุญแจแล้วอ่านประตูเพื่อเปิดมัน ดูสถานะเกมปัจจุบัน\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+            "ru": "Эта игра - платформер, где игрок должен получить ключ, а затем прочитать дверь, чтобы открыть ее. Давайте посмотрим текущее состояние игры.\n\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
+            "sl": "Ta igra je platformer, kjer mora igralec dobiti ključ in nato prebrati vrata, da jih odpre. Poglejmo trenutni stanje igre.\n\nKliknite gumb **predogled**, da igrate.",
+            "sq": "Kjo lojë është një platformer ku lojtari duhet të marrë çelësin dhe pastaj të lexojë derën për ta hapur atë. Le të shohim gjendjen aktuale të lojës.\n\nKlikoni butonin **parashikim** për të luajtur.",
+            "uk": "Ця гра - платформер, де гравець повинен отримати ключ, а потім прочитати двері, щоб відкрити її. Давайте подивимося на поточний стан гри.\n\nНатисніть кнопку **попередній перегляд**, щоб грати.",
+            "zh": "这个游戏是一款平台游戏，玩家必须得到钥匙然后读取门以打开它。让我们看看当前的游戏状态。\n\n点击 **预览** 按钮开始游戏。"
           }
         }
       },
@@ -34,14 +49,44 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object."
+            "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object.",
+            "fr": "Le chevalier ne peut pas bouger, le comportement du personnage Platformer sur le **$(playerHitBox)** est manquant.\n\nVoyons comment l'ajouter à l'objet.",
+            "ar": "الفارس لا يمكنه التحرك، سلوك شخصية منصة على **$(playerHitBox)** مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
+            "de": "Der Ritter kann sich nicht bewegen, das Verhalten des Platformer-Charakters auf der **$(playerHitBox)** fehlt.\n\nLassen Sie uns sehen, wie man es dem Objekt hinzufügt.",
+            "es": "El caballero no puede moverse, el comportamiento del personaje de plataformas en el **$(playerHitBox)** está ausente.\n\nVeamos cómo agregarlo al objeto.",
+            "it": "Il cavaliere non può muoversi, il comportamento del personaggio Platformer su **$(playerHitBox)** è mancante.\n\nVediamo come aggiungerlo all'oggetto.",
+            "ja": "ナイトは動けません、**$(playerHitBox)** 上のプラットフォーマーキャラクターの動作が欠落しています。\n\nそれをオブジェクトに追加する方法を見てみましょう。",
+            "ko": "기사님이 움직일 수 없습니다. **$(playerHitBox)** 에 있는 플랫폼 캐릭터의 동작이 누락되었습니다.\n\n객체에 추가하는 방법을 알아봅시다.",
+            "pl": "Rycerz nie może się poruszać, brakuje zachowania postaci Platformera na **$(playerHitBox)**.\n\nZobaczmy, jak to dodać do obiektu.",
+            "pt": "O cavaleiro não pode se mover, o comportamento do personagem Platformer no **$(playerHitBox)** está faltando.\n\nVamos ver como adicioná-lo ao objeto.",
+            "th": "อัศวินไม่สามารถเคลื่อนไหวได้ พฤติกรรมของตัวละครแพลตฟอร์มบน **$(playerHitBox)** หายไป\n\nมาดูกันว่าจะเพิ่มมันเข้าไปในวัตถุอย่างไร",
+            "ru": "Рыцарь не может двигаться, отсутствует поведение персонажа Platformer на **$(playerHitBox)**.\n\nДавайте посмотрим, как это добавить в объект.",
+            "sl": "Vitez se ne more premikati, vedenje lika Platformer na **$(playerHitBox)** manjka.\n\nPoglejmo, kako to dodati predmetu.",
+            "sq": "Kalorësi nuk mund të lëvizë, mungon sjellja e karakterit Platformer në **$(playerHitBox)**.\n\nLe të shohim se si ta shtojmë atë në objekt.",
+            "uk": "Лицар не може рухатися, поведінка персонажа Platformer на **$(playerHitBox)** відсутня.\n\nДавайте подивимось, як це додати до об'єкта.",
+            "zh": "骑士无法移动，**$(playerHitBox)** 上的平台角色行为缺失。\n\n让我们看看如何将其添加到对象中。"
           }
         }
       },
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Next"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Avanti",
+            "ja": "次へ",
+            "ko": "다음",
+            "pl": "Następny",
+            "pt": "Próximo",
+            "th": "ถัดไป",
+            "ru": "Далее",
+            "sl": "Naprej",
+            "sq": "Tjetër",
+            "uk": "Далі",
+            "zh": "下一个"
           }
         }
       }
@@ -58,24 +103,84 @@
           "expectedValue": "700",
           "description": {
             "messageByLocale": {
-              "en": "Let's update the jump speed to **700**, so the knight can jump higher to reach the highest platforms."
+              "en": "Let's update the jump speed to **700**, so the knight can jump higher to reach the highest platforms.",
+              "fr": "Mettons à jour la vitesse de saut à **700**, afin que le chevalier puisse sauter plus haut pour atteindre les plates-formes les plus hautes.",
+              "ar": "لنقم بتحديث سرعة القفز إلى **700**، حتى يتمكن الفارس من القفز أعلى للوصول إلى أعلى المنصات.",
+              "de": "Lassen Sie uns die Sprunggeschwindigkeit auf **700** aktualisieren, damit der Ritter höher springen kann, um die höchsten Plattformen zu erreichen.",
+              "es": "Actualicemos la velocidad de salto a **700**, para que el caballero pueda saltar más alto y alcanzar las plataformas más altas.",
+              "it": "Aggiorniamo la velocità di salto a **700**, così il cavaliere può saltare più in alto per raggiungere le piattaforme più alte.",
+              "ja": "ジャンプ速度を **700** に更新して、ナイトがより高くジャンプして最高のプラットフォームに到達できるようにしましょう。",
+              "ko": "점프 속도를 **700**으로 업데이트하여 기사가 더 높은 플랫폼에 도달할 수 있도록 점프 높이를 높여보세요.",
+              "pl": "Zaktualizujmy prędkość skoku do **700**, aby rycerz mógł skakać wyżej i dosięgnąć najwyższych platform.",
+              "pt": "Vamos atualizar a velocidade de salto para **700**, para que o cavaleiro possa pular mais alto para alcançar as plataformas mais altas.",
+              "th": "มาปรับความเร็วในการกระโดดเป็น **700** เพื่อให้อัศวินสามารถกระโดดสูงขึ้นไปถึงแพลตฟอร์มที่สูงที่สุดได้",
+              "ru": "Давайте обновим скорость прыжка до **700**, чтобы рыцарь мог прыгать выше и достигать самых высоких платформ.",
+              "sl": "Posodobimo hitrost skoka na **700**, da bo vitez lahko skočil višje in dosegel najvišje platforme.",
+              "sq": "Le të përditësojmë shpejtësinë e kërcimit në **700**, në mënyrë që kalorësi të mund të kërcejë më lart për të arritur platformat më të larta.",
+              "uk": "Оновимо швидкість стрибка до **700**, щоб лицар міг стрибати вище і досягати найвищих платформ.",
+              "zh": "将跳跃速度更新为 **700**，这样骑士就可以跳得更高以到达最高的平台。"
             }
           }
         }
       ],
       "objectHighlightDescription": {
         "messageByLocale": {
-          "en": "Let's add movement to our knight with the help of a **behavior**.\n\nClick on the 3 dot menu, or right Click on **$(playerHitBox)**, and select **Edit behaviors**."
+          "en": "Let's add movement to our knight with the help of a **behavior**.\n\nClick on the 3 dot menu, or right click on **$(playerHitBox)**, and select **Edit behaviors**.",
+          "fr": "Ajoutons du mouvement à notre chevalier avec l'aide d'un **comportement**.\n\nCliquez sur le menu à 3 points ou faites un clic droit sur **$(playerHitBox)** et sélectionnez **Modifier les comportements**.",
+          "ar": "لنضيف حركة إلى فارسنا بمساعدة **سلوك**.\n\nانقر على قائمة النقاط الثلاث، أو انقر بزر الماوس الأيمن على **$(playerHitBox)**، واختر **تعديل السلوكيات**.",
+          "de": "Lassen Sie uns unserem Ritter mit Hilfe eines **Verhaltens** Bewegung hinzufügen.\n\nKlicken Sie auf das 3-Punkte-Menü oder rechtsklicken Sie auf **$(playerHitBox)** und wählen Sie **Verhalten bearbeiten**.",
+          "es": "Agreguemos movimiento a nuestro caballero con la ayuda de un **comportamiento**.\n\nHaz clic en el menú de 3 puntos o haz clic derecho en **$(playerHitBox)** y selecciona **Editar comportamientos**.",
+          "it": "Aggiungiamo movimento al nostro cavaliere con l'aiuto di un **comportamento**.\n\nClicca sul menu a 3 punti o fai clic destro su **$(playerHitBox)** e seleziona **Modifica comportamenti**.",
+          "ja": "騎士に**動作**を追加しましょう。\n\n3点メニューをクリックするか、**$(playerHitBox)**を右クリックして、**動作を編集**を選択します。",
+          "ko": "**동작**의 도움으로 우리 기사에게 움직임을 추가해 보겠습니다.\n\n3점 메뉴를 클릭하거나 **$(playerHitBox)**를 마우스 오른쪽 버튼으로 클릭하고 **동작 편집**을 선택하세요.",
+          "pl": "Dodajmy ruch naszemu rycerzowi za pomocą **zachowania**.\n\nKliknij menu z trzema kropkami lub kliknij prawym przyciskiem myszy **$(playerHitBox)** i wybierz **Edytuj zachowania**.",
+          "pt": "Vamos adicionar movimento ao nosso cavaleiro com a ajuda de um **comportamento**.\n\nClique no menu de 3 pontos ou clique com o botão direito em **$(playerHitBox)** e selecione **Editar comportamentos**.",
+          "th": "มาเพิ่มการเคลื่อนไหวให้กับอัศวินของเราด้วยความช่วยเหลือของ **พฤติกรรม**\n\nคลิกที่เมนู 3 จุด หรือตรงคลิกขวาที่ **$(playerHitBox)** และเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Давайте добавим движение нашему рыцарю с помощью **поведения**.\n\nНажмите на меню с 3 точками или щелкните правой кнопкой мыши на **$(playerHitBox)** и выберите **Редактировать поведения**.",
+          "sl": "Dodajmo premikanje našemu vitezu s pomočjo **vedenja**.\n\nKliknite na meni s 3 pikami ali desno kliknite na **$(playerHitBox)** in izberite **Uredi vedenja**.",
+          "sq": "Le të shtojmë lëvizje për kalorësin tonë me ndihmën e një **sjellje**.\n\nKlikoni në menunë me 3 pika, ose klikoni me të djathtën në **$(playerHitBox)** dhe zgjidhni **Redakto sjelljet**.",
+          "uk": "Додаймо рух нашому лицарю за допомогою **поведінки**.\n\nНатисніть на меню з 3 крапками або клацніть правою кнопкою миші на **$(playerHitBox)** і виберіть **Редагувати поведінки**.",
+          "zh": "让我们借助**行为**来给我们的骑士添加动作。\n\n点击三点菜单，或右键点击**$(playerHitBox)**，然后选择**编辑行为**。"
         }
       },
       "objectHighlightTouchDescription": {
         "messageByLocale": {
-          "en": "Let's add movement to our knight with the help of a **behavior**.\n\nSelect, then long press on **$(playerHitBox)**, then select **Edit behaviors**."
+          "en": "Let's add movement to our knight with the help of a **behavior**.\n\nSelect, then long press on **$(playerHitBox)**, then select **Edit behaviors**.",
+          "fr": "Ajoutons du mouvement à notre chevalier avec l'aide d'un **comportement**.\n\nSélectionnez, puis appuyez longuement sur **$(playerHitBox)**, puis sélectionnez **Modifier les comportements**.",
+          "ar": "لنضيف حركة إلى فارسنا بمساعدة **سلوك**.\n\nحدد، ثم اضغط مطولاً على **$(playerHitBox)**، ثم اختر **تعديل السلوكيات**.",
+          "de": "Lassen Sie uns unserem Ritter mit Hilfe eines **Verhaltens** Bewegung hinzufügen.\n\nWählen Sie, dann drücken Sie lange auf **$(playerHitBox)** und wählen Sie **Verhalten bearbeiten**.",
+          "es": "Agreguemos movimiento a nuestro caballero con la ayuda de un **comportamiento**.\n\nSelecciona, luego mantén presionado **$(playerHitBox)** y selecciona **Editar comportamientos**.",
+          "it": "Aggiungiamo movimento al nostro cavaliere con l'aiuto di un **comportamento**.\n\nSeleziona, poi premi a lungo su **$(playerHitBox)** e seleziona **Modifica comportamenti**.",
+          "ja": "騎士に**動作**を追加しましょう。\n\n選択してから、**$(playerHitBox)**を長押しし、**動作を編集**を選択します。",
+          "ko": "**동작**의 도움으로 우리 기사에게 움직임을 추가해 보겠습니다.\n\n**$(playerHitBox)**를 선택한 다음 길게 눌러 **동작 편집**을 선택하세요.",
+          "pl": "Dodajmy ruch naszemu rycerzowi za pomocą **zachowania**.\n\nWybierz, a następnie przytrzymaj **$(playerHitBox)**, a następnie wybierz **Edytuj zachowania**.",
+          "pt": "Vamos adicionar movimento ao nosso cavaleiro com a ajuda de um **comportamento**.\n\nSelecione, depois pressione e segure **$(playerHitBox)** e selecione **Editar comportamentos**.",
+          "th": "มาเพิ่มการเคลื่อนไหวให้กับอัศวินของเราด้วยความช่วยเหลือของ **พฤติกรรม**\n\nเลือก จากนั้นกดค้างที่ **$(playerHitBox)** แล้วเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Давайте добавим движение нашему рыцарю с помощью **поведения**.\n\nВыберите, затем нажмите и удерживайте **$(playerHitBox)**, затем выберите **Редактировать поведения**.",
+          "sl": "Dodajmo premikanje našemu vitezu s pomočjo **vedenja**.\n\nIzberite, nato dolgo pritisnite na **$(playerHitBox)**, nato izberite **Uredi vedenja**.",
+          "sq": "Le të shtojmë lëvizje për kalorësin tonë me ndihmën e një **sjellje**.\n\nZgjidhni, pastaj mbani shtypur **$(playerHitBox)**, pastaj zgjidhni **Redakto sjelljet**.",
+          "uk": "Додаймо рух нашому лицарю за допомогою **поведінки**.\n\nВиберіть, потім довго натискайте на **$(playerHitBox)**, потім виберіть **Редагувати поведінки**.",
+          "zh": "让我们借助**行为**来给我们的骑士添加动作。\n\n选择，然后长按**$(playerHitBox)**，然后选择**编辑行为**。"
         }
       },
       "finishedConfigurationDescription": {
         "messageByLocale": {
-          "en": "That's it! Now the knight can move and jump so high!"
+          "en": "That's it! Now the knight can move and jump so high!",
+          "fr": "Ça y est ! Maintenant, le chevalier peut se déplacer et sauter très haut !",
+          "ar": "هذا كل شيء! الآن يمكن للفارس أن يتحرك ويقفز عاليًا!",
+          "de": "Das war's! Jetzt kann der Ritter sich bewegen und so hoch springen!",
+          "es": "¡Eso es todo! ¡Ahora el caballero puede moverse y saltar muy alto!",
+          "it": "Ecco fatto! Ora il cavaliere può muoversi e saltare così in alto!",
+          "ja": "これで完了です！これで騎士は動いて高くジャンプできます！",
+          "ko": "이제 완료되었습니다! 이제 기사가 움직이고 높이 점프할 수 있습니다!",
+          "pl": "To wszystko! Teraz rycerz może się poruszać i skakać tak wysoko!",
+          "pt": "É isso aí! Agora o cavaleiro pode se mover e pular bem alto!",
+          "th": "แค่นั้นแหละ! ตอนนี้อัศวินสามารถเคลื่อนที่และกระโดดได้สูงมาก!",
+          "ru": "Вот и все! Теперь рыцарь может двигаться и прыгать так высоко!",
+          "sl": "To je to! Zdaj se lahko vitez premika in skače zelo visoko!",
+          "sq": "Kaq është! Tani kalorësi mund të lëvizë dhe të kërcejë shumë lart!",
+          "uk": "Ось і все! Тепер лицар може рухатися і стрибати так високо!",
+          "zh": "就是这样！现在骑士可以移动并跳得很高了！"
         }
       }
     },
@@ -84,14 +189,46 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's adds the collision to the platforms."
+            "messageByLocale": {
+              "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's add the collision to the platforms.",
+              "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
+              "ar": "إذا كنت تقوم بمعاينة اللعبة الآن، سيسقط الفارس في حلقة.\n\nلنضف التصادم إلى المنصات.",
+              "de": "Wenn Sie das Spiel jetzt in der Vorschau ansehen, wird der Ritter in einer Schleife fallen.\n\nLassen Sie uns die Kollision zu den Plattformen hinzufügen.",
+              "es": "Si estás previsualizando el juego ahora, el caballero caerá en bucle.\n\nAgreguemos la colisión a las plataformas.",
+              "it": "Se stai visualizzando l'anteprima del gioco ora, il cavaliere cadrà in un loop.\n\nAggiungiamo la collisione alle piattaforme.",
+              "ja": "ゲームをプレビューしている場合、騎士はループして落ち続けます。\n\nプラットフォームに衝突を追加しましょう。",
+              "ko": "지금 게임을 미리 보기 중이라면 기사가 반복해서 떨어질 것입니다.\n\n플랫폼에 충돌을 추가해 보겠습니다.",
+              "pl": "Jeśli teraz podglądasz grę, rycerz będzie spadał w pętli.\n\nDodajmy kolizję do platform.",
+              "pt": "Se você estiver visualizando o jogo agora, o cavaleiro cairá em um loop.\n\nVamos adicionar a colisão às plataformas.",
+              "th": "หากคุณกำลังดูตัวอย่างเกมตอนนี้ อัศวินจะตกในลูป\n\nมาเพิ่มการชนกับแพลตฟอร์มกันเถอะ",
+              "ru": "Если вы просматриваете игру сейчас, рыцарь будет падать в цикле.\n\nДавайте добавим столкновение с платформами.",
+              "sl": "Če si zdaj ogledujete predogled igre, bo vitez padel v zanki.\n\nDodajmo trčenje na platforme.",
+              "sq": "Nëse po shikoni paraprakisht lojën tani, kalorësi do të bjerë në një rreth.\n\nLe të shtojmë përplasjen me platformat.",
+              "uk": "Якщо ви зараз переглядаєте гру, лицар буде падати в циклі.\n\nДавайте додамо зіткнення з платформами.",
+              "zh": "如果你现在预览游戏，骑士会在循环中掉落。\n\n让我们为平台添加碰撞。"
+            }
           }
-        }
-      },
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next"
+        },
+        "nextStepTrigger": {
+          "clickOnTooltipButton": {
+            "messageByLocale": {
+              "en": "Next",
+              "fr": "Suivant",
+              "ar": "التالي",
+              "de": "Weiter",
+              "es": "Siguiente",
+              "it": "Avanti",
+              "ja": "次へ",
+              "ko": "다음",
+              "pl": "Następny",
+              "pt": "Próximo",
+              "th": "ถัดไป",
+              "ru": "Далее",
+              "sl": "Naprej",
+              "sq": "Tjetër",
+              "uk": "Далі",
+              "zh": "下一个"
+            }
           }
         }
       }
@@ -102,19 +239,65 @@
       "behaviorListItemId": "#behavior-item-PlatformBehavior--PlatformBehavior",
       "behaviorParameterPanelId": "#behavior-parameters-Platform",
       "behaviorDisplayName": "Platformer character",
+      "parameters": [],
       "objectHighlightDescription": {
         "messageByLocale": {
-          "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nClick on the 3 dot menu, or right Click on **$(tiles)**, and select **Edit behaviors**."
+          "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nClick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**.",
+          "fr": "Ouvrez cet objet pour pouvoir y ajouter le **comportement** de plateforme.\n\nCliquez sur le menu à 3 points ou faites un clic droit sur **$(tiles)** et sélectionnez **Modifier les comportements**.",
+          "ar": "افتح هذا الكائن لتتمكن من إضافة **سلوك** المنصة عليه.\n\nانقر على قائمة النقاط الثلاث، أو انقر بزر الماوس الأيمن على **$(tiles)**، واختر **تعديل السلوكيات**.",
+          "de": "Öffnen Sie dieses Objekt, um das Platformer-**Verhalten** hinzuzufügen.\n\nKlicken Sie auf das 3-Punkte-Menü oder rechtsklicken Sie auf **$(tiles)** und wählen Sie **Verhalten bearbeiten**.",
+          "es": "Abre este objeto para poder agregar el **comportamiento** de plataforma.\n\nHaz clic en el menú de 3 puntos o haz clic derecho en **$(tiles)** y selecciona **Editar comportamientos**.",
+          "it": "Apri questo oggetto per poter aggiungere il **comportamento** Platformer.\n\nClicca sul menu a 3 punti o fai clic destro su **$(tiles)** e seleziona **Modifica comportamenti**.",
+          "ja": "このオブジェクトを開いて、プラットフォーマーの**動作**を追加できるようにします。\n\n3点メニューをクリックするか、**$(tiles)**を右クリックして、**動作を編集**を選択します。",
+          "ko": "이 객체를 열어 플랫포머 **동작**을 추가할 수 있도록 하세요.\n\n3점 메뉴를 클릭하거나 **$(tiles)**를 마우스 오른쪽 버튼으로 클릭하고 **동작 편집**을 선택하세요.",
+          "pl": "Otwórz ten obiekt, aby móc dodać **zachowanie** Platformer.\n\nKliknij menu z trzema kropkami lub kliknij prawym przyciskiem myszy **$(tiles)** i wybierz **Edytuj zachowania**.",
+          "pt": "Abra este objeto para poder adicionar o **comportamento** de Plataforma.\n\nClique no menu de 3 pontos ou clique com o botão direito em **$(tiles)** e selecione **Editar comportamentos**.",
+          "th": "เปิดวัตถุนี้เพื่อเพิ่ม **พฤติกรรม** แพลตฟอร์ม\n\nคลิกที่เมนู 3 จุด หรือตรงคลิกขวาที่ **$(tiles)** แล้วเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Откройте этот объект, чтобы добавить **поведение** платформера.\n\nНажмите на меню с 3 точками или щелкните правой кнопкой мыши на **$(tiles)** и выберите **Редактировать поведения**.",
+          "sl": "Odprite ta objekt, da lahko dodate **vedenje** Platformer.\n\nKliknite na meni s 3 pikami ali desno kliknite na **$(tiles)** in izberite **Uredi vedenja**.",
+          "sq": "Hapni këtë objekt për të qenë në gjendje të shtoni **sjelljen** Platformer mbi të.\n\nKlikoni në menunë me 3 pika, ose klikoni me të djathtën mbi **$(tiles)** dhe zgjidhni **Redakto sjelljet**.",
+          "uk": "Відкрийте цей об'єкт, щоб додати **поведінку** платформера.\n\nНатисніть на меню з 3 крапками або клацніть правою кнопкою миші на **$(tiles)** і виберіть **Редагувати поведінки**.",
+          "zh": "打开这个对象以便能够在其上添加平台**行为**。\n\n点击三点菜单，或右键点击**$(tiles)**，然后选择**编辑行为**。"
         }
       },
       "objectHighlightTouchDescription": {
         "messageByLocale": {
-          "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nSelect, then long press on **$(tiles)**, then select **Edit behaviors**."
+          "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nSelect, then long press on **$(tiles)**, then select **Edit behaviors**.",
+          "fr": "Ouvrez cet objet pour pouvoir ajouter le **comportement** Plateforme dessus.\n\nSélectionnez, puis appuyez longuement sur **$(tiles)**, puis sélectionnez **Modifier les comportements**.",
+          "ar": "افتح هذا الكائن لتتمكن من إضافة **سلوك** المنصة عليه.\n\nحدد، ثم اضغط مطولاً على **$(tiles)**، ثم اختر **تعديل السلوكيات**.",
+          "de": "Öffnen Sie dieses Objekt, um das Platformer-**Verhalten** darauf hinzufügen zu können.\n\nWählen Sie, dann drücken Sie lange auf **$(tiles)**, dann wählen Sie **Verhalten bearbeiten**.",
+          "es": "Abre este objeto para poder agregar el **comportamiento** de Plataforma en él.\n\nSelecciona, luego mantén presionado **$(tiles)**, luego selecciona **Editar comportamientos**.",
+          "it": "Apri questo oggetto per poter aggiungere il **comportamento** di Piattaforma su di esso.\n\nSeleziona, poi premi a lungo su **$(tiles)**, poi seleziona **Modifica comportamenti**.",
+          "ja": "このオブジェクトを開いて、そこにプラットフォーマーの**動作**を追加できるようにします。\n\n選択してから、**$(tiles)**を長押しし、次に**動作を編集**を選択します。",
+          "ko": "이 객체를 열어 플랫포머 **동작**을 추가할 수 있도록 합니다.\n\n선택한 다음 **$(tiles)**를 길게 눌러 **동작 편집**을 선택하세요.",
+          "pl": "Otwórz ten obiekt, aby móc dodać **zachowanie** Platformer.\n\nWybierz, a następnie przytrzymaj **$(tiles)**, a następnie wybierz **Edytuj zachowania**.",
+          "pt": "Abra este objeto para poder adicionar o **comportamento** de Plataforma nele.\n\nSelecione, em seguida, pressione e segure **$(tiles)**, em seguida, selecione **Editar comportamentos**.",
+          "th": "เปิดวัตถุนี้เพื่อเพิ่ม **พฤติกรรม** แพลตฟอร์ม ในนั้น\n\nเลือก จากนั้นกดค้างที่ **$(tiles)** แล้วเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Откройте этот объект, чтобы добавить **поведение** платформера на него.\n\nВыберите, затем нажмите и удерживайте **$(tiles)**, затем выберите **Редактировать поведения**.",
+          "sl": "Odprite ta objekt, da lahko dodate **vedenje** Platformer nanj.\n\nIzberite, nato dolgo pritisnite na **$(tiles)**, nato izberite **Uredi vedenja**.",
+          "sq": "Hapni këtë objekt për të qenë në gjendje të shtoni **sjelljen** Platformer mbi të.\n\nZgjidhni, pastaj mbani shtypur **$(tiles)**, pastaj zgjidhni **Redakto sjelljet**.",
+          "uk": "Відкрийте цей об'єкт, щоб додати **поведінку** платформера на нього.\n\nВиберіть, потім натисніть і утримуйте **$(tiles)**, потім виберіть **Редагувати поведінки**.",
+          "zh": "打开此对象以添加平台**行为**。\n\n选择，然后长按**$(tiles)**，然后选择**编辑行为**。"
         }
       },
       "finishedConfigurationDescription": {
         "messageByLocale": {
-          "en": "That's it! Now the knight can stand on the object $(tiles) that use the Platform behavior."
+          "en": "That's it! Now the knight can stand on the object $(tiles) that use the Platform behavior.",
+          "fr": "C'est tout ! Maintenant, le chevalier peut se tenir sur l'objet $(tiles) qui utilise le comportement de plateforme.",
+          "ar": "هذا كل شيء! الآن يمكن للفارس الوقوف على الكائن $(tiles) الذي يستخدم سلوك النظام الأساسي.",
+          "de": "Das ist es! Jetzt kann der Ritter auf dem Objekt $(tiles) stehen, das das Plattformverhalten verwendet.",
+          "es": "¡Eso es todo! Ahora el caballero puede estar de pie sobre el objeto $(tiles) que utiliza el comportamiento de plataforma.",
+          "it": "È tutto qui! Ora il cavaliere può stare sull'oggetto $(tiles) che utilizza il comportamento della piattaforma.",
+          "ja": "以上です！これで騎士は、プラットフォーム動作を使用している$(tiles)オブジェクトの上に立つことができます。",
+          "ko": "그게 다야! 이제 기사가 플랫폼 동작을 사용하는 $(tiles) 객체 위에 서 있을 수 있습니다.",
+          "pl": "To wszystko! Teraz rycerz może stać na obiekcie $(tiles), który używa zachowania Platformy.",
+          "pt": "É isso aí! Agora o cavaleiro pode ficar em cima do objeto $(tiles) que usa o comportamento da plataforma.",
+          "th": "เสร็จสิ้นแล้ว! ตอนนี้อัศวินสามารถยืนบนวัตถุ $(tiles) ที่ใช้พฤติกรรมของแพลตฟอร์มได้",
+          "ru": "Вот и всё! Теперь рыцарь может стоять на объекте $(tiles), который использует поведение платформы.",
+          "sl": "To je to! Zdaj se lahko vitez postavi na predmet $(tiles), ki uporablja vedenje platforme.",
+          "sq": "Kështu është! Tani kalorësi mund të qëndrojë në objektin $(tiles) që përdor sjelljen e platformës.",
+          "uk": "Ось і все! Тепер лицар може стояти на об'єкті $(tiles), який використовує поведінку платформи.",
+          "zh": "就是这样！现在骑士可以站在使用平台行为的对象$(tiles)上。"
         }
       }
     },
@@ -123,7 +306,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button."
+            "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button.",
+            "fr": "Nous avons terminé !\nTestons notre jeu pour voir les changements que nous avons apportés !\n\nCliquez sur le bouton **Aperçu**.",
+            "ar": "لقد انتهينا!\nلنقم باختبار لعبتنا لرؤية التغييرات التي قمنا بها!\n\nانقر فوق زر **معاينة**.",
+            "de": "Wir sind fertig!\nTesten wir unser Spiel, um die Änderungen zu sehen, die wir vorgenommen haben!\n\nKlicken Sie auf die Schaltfläche **Vorschau**.",
+            "es": "¡Hemos terminado!\n¡Probemos nuestro juego para ver los cambios que hemos hecho!\n\nHaz clic en el botón **Vista previa**.",
+            "it": "Abbiamo finito!\nTestiamo il nostro gioco per vedere le modifiche che abbiamo apportato!\n\nFai clic sul pulsante **Anteprima**.",
+            "ja": "完了しました！\n私たちが行った変更を確認するために、ゲームをテストしましょう！\n\n**プレビュー**ボタンをクリックします。",
+            "ko": "완료되었습니다!\n만든 변경 사항을 확인하기 위해 게임을 테스트해 봅시다!\n\n**미리보기** 버튼을 클릭하세요.",
+            "pl": "Skończone!\nPrzetestujmy naszą grę, aby zobaczyć wprowadzone zmiany!\n\nKliknij przycisk **Podgląd**.",
+            "pt": "Estamos prontos!\nVamos testar nosso jogo para ver as mudanças que fizemos!\n\nClique no botão **Visualizar**.",
+            "th": "เราเสร็จสิ้นแล้ว!\nมาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำ!\n\nคลิกที่ปุ่ม **ดูตัวอย่าง**",
+            "ru": "Мы закончили!\nДавайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли!\n\nНажмите кнопку **Предпросмотр**.",
+            "sl": "Končano je!\nPreizkusimo našo igro, da vidimo spremembe, ki smo jih naredili!\n\nKliknite na gumb **Predogled**.",
+            "sq": "Kemi përfunduar!\nLe të testojmë lojën tonë për të parë ndryshimet që kemi bërë!\n\nKliko në butonin **Shiko paraprakisht**.",
+            "uk": "Ми закінчили!\nДавайте протестуємо нашу гру, щоб побачити зміни, які ми зробили!\n\nНатисніть кнопку **Попередній перегляд**.",
+            "zh": "我们完成了！\n让我们测试游戏以查看我们所做的更改！\n\n点击**预览**按钮。"
           }
         }
       },
@@ -136,22 +334,82 @@
     "content": [
       {
         "messageByLocale": {
-          "en": "# You've finished this lesson!"
+          "en": "# You've finished this lesson!",
+          "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد انتهيت من هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
+          "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai completato questa lezione!",
+          "ja": "# このレッスンは終了しました！",
+          "ko": "# 이 레슨을 마쳤습니다!",
+          "pl": "# Zakończyłeś tę lekcję!",
+          "pt": "# Você terminou esta lição!",
+          "th": "# คุณได้เสร็จสิ้นบทเรียนนี้แล้ว!",
+          "ru": "# Вы завершили это урок!",
+          "sl": "# Dokončali ste ta pouk!",
+          "sq": "# Keni përfunduar këtë mësim!",
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你已完成本课程！"
         }
       },
       {
         "messageByLocale": {
-          "en": "Well done, in this tutorial you've learned how to:"
+          "en": "Well done, in this tutorial you've learned how to:",
+          "fr": "Bien joué, dans ce tutoriel vous avez appris comment :",
+          "ar": "أحسنت، في هذا الدرس التعليمي تعلمت كيفية :",
+          "de": "Gut gemacht, in diesem Tutorial haben Sie gelernt, wie Sie:",
+          "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+          "it": "Ben fatto, in questo tutorial hai imparato come:",
+          "ja": "お疲れ様です、このチュートリアルでは以下の方法を学びました：",
+          "ko": "잘 했어요, 이 튜토리얼에서는 다음을 배웠습니다:",
+          "pl": "Dobrze wykonane, w tym samouczku nauczyłeś się, jak:",
+          "pt": "Bem feito, neste tutorial você aprendeu como:",
+          "th": "เก่งมาก เรียนรู้วิธีทำดังนี้ในบทแนะนำนี้",
+          "ru": "Отлично сработано, в этом учебнике вы узнали, как:",
+          "sl": "Dobro opravljeno, v tem vadnem programu ste se naučili, kako:",
+          "sq": "Mirë, në këtë udhëzues keni mësuar si të:",
+          "uk": "Добре зроблено, у цьому підручнику ви вивчили, як:",
+          "zh": "干得好，在这个教程中，您学会了如何："
         }
       },
       {
         "messageByLocale": {
-          "en": "- How to control a player with a Platformer Object behaviors\n\n- How to edit the jump speed of the player\n\n- How to add collisions in a platformer"
+          "en": "- How to control a player with a Platformer Object behaviors\n\n- How to edit the jump speed of the player\n\n- How to add collisions in a platformer",
+          "fr": "- Comment contrôler un joueur avec les comportements d'un objet de plateforme\n\n- Comment modifier la vitesse de saut du joueur\n\n- Comment ajouter des collisions dans un jeu de plateforme",
+          "ar": "- كيفية التحكم في اللاعب باستخدام سلوكيات كائن النظام الأساسي\n\n- كيفية تحرير سرعة القفز للاعب\n\n- كيفية إضافة تصادمات في لعبة منصات",
+          "de": "- Wie man einen Spieler mit den Verhaltensweisen eines Plattformobjekts steuert\n\n- Wie man die Sprunggeschwindigkeit des Spielers bearbeitet\n\n- Wie man Kollisionen in einem Plattformspiel hinzufügt",
+          "es": "- Cómo controlar a un jugador con los comportamientos de un objeto de plataforma\n\n- Cómo editar la velocidad de salto del jugador\n\n- Cómo agregar colisiones en un juego de plataformas",
+          "it": "- Come controllare un giocatore con i comportamenti di un oggetto platformer\n\n- Come modificare la velocità di salto del giocatore\n\n- Come aggiungere collisioni in un platformer",
+          "ja": "- プラットフォームオブジェクトの動作でプレイヤーを制御する方法\n\n- プレイヤーのジャンプ速度を編集する方法\n\n- プラットフォームでの衝突の追加方法",
+          "ko": "- 플랫폼 오브젝트 동작으로 플레이어를 제어하는 방법\n\n- 플레이어의 점프 속도를 편집하는 방법\n\n- 플랫폼에 충돌 추가하는 방법",
+          "pl": "- Jak kontrolować gracza za pomocą zachowań obiektu platformera\n\n- Jak edytować prędkość skoku gracza\n\n- Jak dodawać kolizje w grze platformowej",
+          "pt": "- Como controlar um jogador com os comportamentos de um objeto de plataforma\n\n- Como editar a velocidade de pulo do jogador\n\n- Como adicionar colisões em um jogo de plataforma",
+          "th": "- วิธีการควบคุมผู้เล่นด้วยพฤติกรรมของวัตถุแพลตฟอร์ม\n\n- วิธีการแก้ไขความเร็วในการกระโดดของผู้เล่น\n\n- วิธีการเพิ่มการชนในเกมแพลตฟอร์ม",
+          "ru": "- Как управлять игроком с помощью поведений объекта платформера\n\n- Как редактировать скорость прыжка игрока\n\n- Как добавить столкновения в платформер",
+          "sl": "- Kako nadzirati igralca s vedenji predmeta platforme\n\n- Kako urediti hitrost skoka igralca\n\n- Kako dodati trčenja v platformer",
+          "sq": "- Si të kontrolloni një lojtar me sjelljet e një objekti platformer\n\n- Si të ndryshoni shpejtësinë e kalimit të lojtarit\n\n- Si të shtoni përplasje në një platformë",
+          "uk": "- Як керувати гравцем за допомогою поведінки об'єкта платформера\n\n- Як редагувати швидкість стрибка гравця\n\n- Як додати зіткнення в платформері",
+          "zh": "- 如何使用平台对象行为来控制玩家\n\n- 如何编辑玩家的跳跃速度\n\n- 如何在平台游戏中添加碰撞"
         }
       },
       {
         "messageByLocale": {
-          "en": "You can keep adding stuff to this game or publish it!"
+          "en": "You can keep adding stuff to this game or publish it!",
+          "fr": "Vous pouvez continuer à ajouter des éléments à ce jeu ou le publier !",
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+          "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
+          "es": "¡Puedes seguir añadiendo cosas a este juego o publicarlo!",
+          "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+          "ja": "このゲームにさらに要素を追加するか、それを公開することができます！",
+          "ko": "이 게임에 계속해서 새로운 요소를 추가하거나 게임을 게시할 수 있습니다!",
+          "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
+          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "th": "คุณสามารถเพิ่มสิ่งต่างๆในเกมนี้ต่อได้หรือตีพิมพ์!",
+          "ru": "Вы можете продолжать добавлять вещи в эту игру или опубликовать ее!",
+          "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+          "sq": "Mund të vazhdoni të shtoni gjëra në këtë lojë ose ta publikoni atë!",
+          "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+          "zh": "您可以继续添加内容到这个游戏中或发布它！"
         }
       }
     ]
