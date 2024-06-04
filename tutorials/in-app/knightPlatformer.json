@@ -47,86 +47,36 @@
       }
     },
     {
-      "elementToHighlightId": "objectInObjectsList:playerHitBox",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's add movement to our knight with the help of a **behavior**.\n\nClick on the 3 dot menu, or right Click on **$(playerHitBox)**, and select **Edit behaviors**."
+      "metaKind": "add-behavior",
+      "objectKey": "playerHitBox",
+      "behaviorListItemId": "#behavior-item-PlatformBehavior--PlatformerObjectBehavior",
+      "behaviorParameterPanelId": "#behavior-parameters-PlatformerObject",
+      "behaviorDisplayName": "Platformer character",
+      "parameters": [
+        {
+          "parameterId": "#JumpSpeed",
+          "expectedValue": "700",
+          "description": {
+            "messageByLocale": {
+              "en": "Let's update the jump speed to **700**, so the knight can jump higher to reach the highest platforms."
+            }
           }
         }
-      },
-      "nextStepTrigger": {
-        "presenceOfElement": "#object-editor-dialog"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "skippable": true,
-      "elementToHighlightId": "#behaviors-tab",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "See the **behaviors** of the **object** here."
-          }
+      ],
+      "objectHighlightDescription": {
+        "messageByLocale": {
+          "en": "Let's add movement to our knight with the help of a **behavior**.\n\nClick on the 3 dot menu, or right Click on **$(playerHitBox)**, and select **Edit behaviors**."
         }
       },
-      "nextStepTrigger": {
-        "presenceOfElement": "#add-behavior-button"
-      }
-    },
-    {
-      "elementToHighlightId": "#add-behavior-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's add the **Platformer character** behavior."
-          }
+      "objectHighlightTouchDescription": {
+        "messageByLocale": {
+          "en": "Let's add movement to our knight with the help of a **behavior**.\n\nSelect, then long press on **$(playerHitBox)**, then select **Edit behaviors**."
         }
       },
-      "nextStepTrigger": {
-        "presenceOfElement": "#behavior-item-PlatformBehavior--PlatformerObjectBehavior"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#behavior-item-PlatformBehavior--PlatformerObjectBehavior",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Select the **Platformer character** behavior."
-          }
+      "finishedConfigurationDescription": {
+        "messageByLocale": {
+          "en": "That's it! Now the knight can move and jump so high!"
         }
-      },
-      "nextStepTrigger": {
-        "presenceOfElement": "#behavior-parameters-PlatformerObject #JumpSpeed"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#behavior-parameters-PlatformerObject #JumpSpeed",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's update the jump speed to **700**, so the knight can jump higher to reach the highest platforms."
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "valueEquals": "700"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#object-editor-dialog #apply-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "That's it! Now the knight can move and jump so high!"
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "absenceOfElement": "#object-editor-dialog"
       }
     },
     {
@@ -147,84 +97,25 @@
       }
     },
     {
-      "elementToHighlightId": "objectInObjectsList:tiles",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nClick on the 3 dot menu, or right click on **$(tiles)**, and select **Edit behaviors**."
-          }
+      "metaKind": "add-behavior",
+      "objectKey": "tiles",
+      "behaviorListItemId": "#behavior-item-PlatformBehavior--PlatformBehavior",
+      "behaviorParameterPanelId": "#behavior-parameters-Platform",
+      "behaviorDisplayName": "Platformer character",
+      "objectHighlightDescription": {
+        "messageByLocale": {
+          "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nClick on the 3 dot menu, or right Click on **$(tiles)**, and select **Edit behaviors**."
         }
       },
-      "nextStepTrigger": {
-        "presenceOfElement": "#object-editor-dialog"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "skippable": true,
-      "elementToHighlightId": "#behaviors-tab",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "See the **behaviors** of the **object** here."
-          }
+      "objectHighlightTouchDescription": {
+        "messageByLocale": {
+          "en": "Open this object to be able to add the Platformer **behavior** on it.\n\nSelect, then long press on **$(tiles)**, then select **Edit behaviors**."
         }
       },
-      "nextStepTrigger": {
-        "presenceOfElement": "#add-behavior-button"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#add-behavior-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's add a new behavior."
-          }
+      "finishedConfigurationDescription": {
+        "messageByLocale": {
+          "en": "That's it! Now the knight can stand on the object $(tiles) that use the Platform behavior."
         }
-      },
-      "nextStepTrigger": {
-        "presenceOfElement": "#behavior-item-PlatformBehavior--PlatformBehavior"
-      }
-    },
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#behavior-item-PlatformBehavior--PlatformBehavior",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Click here to add this **Platform** behavior."
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "presenceOfElement": "#behavior-parameters-Platform #PlatformType"
-      }
-    },
-
-    {
-      "skippable": true,
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#behavior-parameters-Platform #PlatformType",
-      "nextStepTrigger": {
-        "valueEquals": "Platform"
-      }
-    },
-
-    
-    {
-      "isOnClosableDialog": true,
-      "elementToHighlightId": "#object-editor-dialog #apply-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "That's it! Now the knight can stand on the object $(tiles) that use the Platform behavior."
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "absenceOfElement": "#object-editor-dialog"
       }
     },
     {
