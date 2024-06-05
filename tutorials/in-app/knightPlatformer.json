@@ -17,31 +17,27 @@
   "flow": [
     {
       "id": "Start",
-      "elementToHighlightId": "#toolbar-preview-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "This game is a Platformer where the player must get the key then read the door to open it. Let's see the current game state.\n\nClick on the **preview** button to play.",
-            "fr": "Ce jeu est un jeu de plateforme où le joueur doit obtenir la clé puis lire la porte pour l'ouvrir. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **aperçu** pour jouer.",
-            "ar": "هذه اللعبة هي لعبة منصات حيث يجب على اللاعب الحصول على المفتاح ثم قراءة الباب لفتحه. دعونا نرى حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.",
-            "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler den Schlüssel holen und dann die Tür lesen muss, um sie zu öffnen. Lassen Sie uns den aktuellen Spielstand ansehen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
-            "es": "Este juego es un plataformas donde el jugador debe conseguir la llave y luego leer la puerta para abrirla. Veamos el estado actual del juego.\n\nHaz clic en el botón **vista previa** para jugar.",
-            "it": "Questo gioco è un platformer in cui il giocatore deve ottenere la chiave e poi leggere la porta per aprirla. Vediamo lo stato attuale del gioco.\n\nClicca sul pulsante **anteprima** per giocare.",
-            "ja": "このゲームは、プレイヤーが鍵を手に入れ、ドアを読んで開ける必要があるプラットフォーマーです。現在のゲームの状態を見てみましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。",
-            "ko": "이 게임은 플레이어가 열쇠를 얻고 문을 읽어 열어야 하는 플랫폼 게임입니다. 현재 게임 상태를 확인해 보겠습니다.\n\n플레이하려면 **미리보기** 버튼을 클릭하십시오.",
-            "pl": "Ta gra to platformówka, w której gracz musi zdobyć klucz, a następnie przeczytać drzwi, aby je otworzyć. Zobaczmy aktualny stan gry.\n\nKliknij przycisk **podgląd**, aby zagrać.",
-            "pt": "Este jogo é um jogo de plataforma onde o jogador deve pegar a chave e depois ler a porta para abri-la. Vamos ver o estado atual do jogo.\n\nClique no botão **pré-visualização** para jogar.",
-            "th": "เกมนี้เป็นเกมแพลตฟอร์มที่ผู้เล่นต้องได้รับกุญแจแล้วอ่านประตูเพื่อเปิดมัน ดูสถานะเกมปัจจุบัน\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
-            "ru": "Эта игра - платформер, где игрок должен получить ключ, а затем прочитать дверь, чтобы открыть ее. Давайте посмотрим текущее состояние игры.\n\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
-            "sl": "Ta igra je platformer, kjer mora igralec dobiti ključ in nato prebrati vrata, da jih odpre. Poglejmo trenutni stanje igre.\n\nKliknite gumb **predogled**, da igrate.",
-            "sq": "Kjo lojë është një platformer ku lojtari duhet të marrë çelësin dhe pastaj të lexojë derën për ta hapur atë. Le të shohim gjendjen aktuale të lojës.\n\nKlikoni butonin **parashikim** për të luajtur.",
-            "uk": "Ця гра - платформер, де гравець повинен отримати ключ, а потім прочитати двері, щоб відкрити її. Давайте подивимося на поточний стан гри.\n\nНатисніть кнопку **попередній перегляд**, щоб грати.",
-            "zh": "这个游戏是一款平台游戏，玩家必须得到钥匙然后读取门以打开它。让我们看看当前的游戏状态。\n\n点击 **预览** 按钮开始游戏。"
-          }
+      "metaKind": "launch-preview",
+      "nextStep": "previewLaunched",
+      "description": {
+        "messageByLocale": {
+          "en": "This game is a Platformer where the player must get the key then read the door to open it. Let's see the current game state.\n\nClick on the **preview** button to play.",
+          "fr": "Ce jeu est un jeu de plateforme où le joueur doit obtenir la clé puis lire la porte pour l'ouvrir. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **aperçu** pour jouer.",
+          "ar": "هذه اللعبة هي لعبة منصات حيث يجب على اللاعب الحصول على المفتاح ثم قراءة الباب لفتحه. دعونا نرى حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.",
+          "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler den Schlüssel holen und dann die Tür lesen muss, um sie zu öffnen. Lassen Sie uns den aktuellen Spielstand ansehen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
+          "es": "Este juego es un plataformas donde el jugador debe conseguir la llave y luego leer la puerta para abrirla. Veamos el estado actual del juego.\n\nHaz clic en el botón **vista previa** para jugar.",
+          "it": "Questo gioco è un platformer in cui il giocatore deve ottenere la chiave e poi leggere la porta per aprirla. Vediamo lo stato attuale del gioco.\n\nClicca sul pulsante **anteprima** per giocare.",
+          "ja": "このゲームは、プレイヤーが鍵を手に入れ、ドアを読んで開ける必要があるプラットフォーマーです。現在のゲームの状態を見てみましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。",
+          "ko": "이 게임은 플레이어가 열쇠를 얻고 문을 읽어 열어야 하는 플랫폼 게임입니다. 현재 게임 상태를 확인해 보겠습니다.\n\n플레이하려면 **미리보기** 버튼을 클릭하십시오.",
+          "pl": "Ta gra to platformówka, w której gracz musi zdobyć klucz, a następnie przeczytać drzwi, aby je otworzyć. Zobaczmy aktualny stan gry.\n\nKliknij przycisk **podgląd**, aby zagrać.",
+          "pt": "Este jogo é um jogo de plataforma onde o jogador deve pegar a chave e depois ler a porta para abri-la. Vamos ver o estado atual do jogo.\n\nClique no botão **pré-visualização** para jogar.",
+          "th": "เกมนี้เป็นเกมแพลตฟอร์มที่ผู้เล่นต้องได้รับกุญแจแล้วอ่านประตูเพื่อเปิดมัน ดูสถานะเกมปัจจุบัน\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+          "ru": "Эта игра - платформер, где игрок должен получить ключ, а затем прочитать дверь, чтобы открыть ее. Давайте посмотрим текущее состояние игры.\n\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
+          "sl": "Ta igra je platformer, kjer mora igralec dobiti ključ in nato prebrati vrata, da jih odpre. Poglejmo trenutni stanje igre.\n\nKliknite gumb **predogled**, da igrate.",
+          "sq": "Kjo lojë është një platformer ku lojtari duhet të marrë çelësin dhe pastaj të lexojë derën për ta hapur atë. Le të shohim gjendjen aktuale të lojës.\n\nKlikoni butonin **parashikim** për të luajtur.",
+          "uk": "Ця гра - платформер, де гравець повинен отримати ключ, а потім прочитати двері, щоб відкрити її. Давайте подивимося на поточний стан гри.\n\nНатисніть кнопку **попередній перегляд**, щоб грати.",
+          "zh": "这个游戏是一款平台游戏，玩家必须得到钥匙然后读取门以打开它。让我们看看当前的游戏状态。\n\n点击 **预览** 按钮开始游戏。"
         }
-      },
-      "nextStepTrigger": {
-        "previewLaunched": true
       }
     },
     {
@@ -185,49 +181,47 @@
       }
     },
     {
-      "tooltip": {
-        "standalone": true,
-        "description": {
+      "metaKind": "launch-preview",
+      "nextStep": {
+        "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's add the collision to the platforms.",
-            "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
-            "ar": "إذا كنت تقوم بمعاينة اللعبة الآن، سيسقط الفارس في حلقة.\n\nلنضف التصادم إلى المنصات.",
-            "de": "Wenn Sie das Spiel jetzt in der Vorschau ansehen, wird der Ritter in einer Schleife fallen.\n\nLassen Sie uns die Kollision zu den Plattformen hinzufügen.",
-            "es": "Si estás previsualizando el juego ahora, el caballero caerá en bucle.\n\nAgreguemos la colisión a las plataformas.",
-            "it": "Se stai visualizzando l'anteprima del gioco ora, il cavaliere cadrà in un loop.\n\nAggiungiamo la collisione alle piattaforme.",
-            "ja": "ゲームをプレビューしている場合、騎士はループして落ち続けます。\n\nプラットフォームに衝突を追加しましょう。",
-            "ko": "지금 게임을 미리 보기 중이라면 기사가 반복해서 떨어질 것입니다.\n\n플랫폼에 충돌을 추가해 보겠습니다.",
-            "pl": "Jeśli teraz podglądasz grę, rycerz będzie spadał w pętli.\n\nDodajmy kolizję do platform.",
-            "pt": "Se você estiver visualizando o jogo agora, o cavaleiro cairá em um loop.\n\nVamos adicionar a colisão às plataformas.",
-            "th": "หากคุณกำลังดูตัวอย่างเกมตอนนี้ อัศวินจะตกในลูป\n\nมาเพิ่มการชนกับแพลตฟอร์มกันเถอะ",
-            "ru": "Если вы просматриваете игру сейчас, рыцарь будет падать в цикле.\n\nДавайте добавим столкновение с платформами.",
-            "sl": "Če si zdaj ogledujete predogled igre, bo vitez padel v zanki.\n\nDodajmo trčenje na platforme.",
-            "sq": "Nëse po shikoni paraprakisht lojën tani, kalorësi do të bjerë në një rreth.\n\nLe të shtojmë përplasjen me platformat.",
-            "uk": "Якщо ви зараз переглядаєте гру, лицар буде падати в циклі.\n\nДавайте додамо зіткнення з платформами.",
-            "zh": "如果你现在预览游戏，骑士会在循环中掉落。\n\n让我们为平台添加碰撞。"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Avanti",
+            "ja": "次へ",
+            "ko": "다음",
+            "pl": "Następny",
+            "pt": "Próximo",
+            "th": "ถัดไป",
+            "ru": "Далее",
+            "sl": "Naprej",
+            "sq": "Tjetër",
+            "uk": "Далі",
+            "zh": "下一个"
           }
-        },
-        "nextStepTrigger": {
-          "clickOnTooltipButton": {
-            "messageByLocale": {
-              "en": "Next",
-              "fr": "Suivant",
-              "ar": "التالي",
-              "de": "Weiter",
-              "es": "Siguiente",
-              "it": "Avanti",
-              "ja": "次へ",
-              "ko": "다음",
-              "pl": "Następny",
-              "pt": "Próximo",
-              "th": "ถัดไป",
-              "ru": "Далее",
-              "sl": "Naprej",
-              "sq": "Tjetër",
-              "uk": "Далі",
-              "zh": "下一个"
-            }
-          }
+        }
+      },
+      "description": {
+        "messageByLocale": {
+          "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's add the collision to the platforms.",
+          "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
+          "ar": "إذا كنت تقوم بمعاينة اللعبة الآن، سيسقط الفارس في حلقة.\n\nلنضف التصادم إلى المنصات.",
+          "de": "Wenn Sie das Spiel jetzt in der Vorschau ansehen, wird der Ritter in einer Schleife fallen.\n\nLassen Sie uns die Kollision zu den Plattformen hinzufügen.",
+          "es": "Si estás previsualizando el juego ahora, el caballero caerá en bucle.\n\nAgreguemos la colisión a las plataformas.",
+          "it": "Se stai visualizzando l'anteprima del gioco ora, il cavaliere cadrà in un loop.\n\nAggiungiamo la collisione alle piattaforme.",
+          "ja": "ゲームをプレビューしている場合、騎士はループして落ち続けます。\n\nプラットフォームに衝突を追加しましょう。",
+          "ko": "지금 게임을 미리 보기 중이라면 기사가 반복해서 떨어질 것입니다.\n\n플랫폼에 충돌을 추가해 보겠습니다.",
+          "pl": "Jeśli teraz podglądasz grę, rycerz będzie spadał w pętli.\n\nDodajmy kolizję do platform.",
+          "pt": "Se você estiver visualizando o jogo agora, o cavaleiro cairá em um loop.\n\nVamos adicionar a colisão às plataformas.",
+          "th": "หากคุณกำลังดูตัวอย่างเกมตอนนี้ อัศวินจะตกในลูป\n\nมาเพิ่มการชนกับแพลตฟอร์มกันเถอะ",
+          "ru": "Если вы просматриваете игру сейчас, рыцарь будет падать в цикле.\n\nДавайте добавим столкновение с платформами.",
+          "sl": "Če si zdaj ogledujete predogled igre, bo vitez padel v zanki.\n\nDodajmo trčenje na platforme.",
+          "sq": "Nëse po shikoni paraprakisht lojën tani, kalorësi do të bjerë në një rreth.\n\nLe të shtojmë përplasjen me platformat.",
+          "uk": "Якщо ви зараз переглядаєте гру, лицар буде падати в циклі.\n\nДавайте додамо зіткнення з платформами.",
+          "zh": "如果你现在预览游戏，骑士会在循环中掉落。\n\n让我们为平台添加碰撞。"
         }
       }
     },
@@ -300,31 +294,27 @@
       }
     },
     {
-      "elementToHighlightId": "#toolbar-preview-button",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button.",
-            "fr": "Nous avons terminé !\nTestons notre jeu pour voir les changements que nous avons apportés !\n\nCliquez sur le bouton **Aperçu**.",
-            "ar": "لقد انتهينا!\nلنقم باختبار لعبتنا لرؤية التغييرات التي قمنا بها!\n\nانقر فوق زر **معاينة**.",
-            "de": "Wir sind fertig!\nTesten wir unser Spiel, um die Änderungen zu sehen, die wir vorgenommen haben!\n\nKlicken Sie auf die Schaltfläche **Vorschau**.",
-            "es": "¡Hemos terminado!\n¡Probemos nuestro juego para ver los cambios que hemos hecho!\n\nHaz clic en el botón **Vista previa**.",
-            "it": "Abbiamo finito!\nTestiamo il nostro gioco per vedere le modifiche che abbiamo apportato!\n\nFai clic sul pulsante **Anteprima**.",
-            "ja": "完了しました！\n私たちが行った変更を確認するために、ゲームをテストしましょう！\n\n**プレビュー**ボタンをクリックします。",
-            "ko": "완료되었습니다!\n만든 변경 사항을 확인하기 위해 게임을 테스트해 봅시다!\n\n**미리보기** 버튼을 클릭하세요.",
-            "pl": "Skończone!\nPrzetestujmy naszą grę, aby zobaczyć wprowadzone zmiany!\n\nKliknij przycisk **Podgląd**.",
-            "pt": "Estamos prontos!\nVamos testar nosso jogo para ver as mudanças que fizemos!\n\nClique no botão **Visualizar**.",
-            "th": "เราเสร็จสิ้นแล้ว!\nมาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำ!\n\nคลิกที่ปุ่ม **ดูตัวอย่าง**",
-            "ru": "Мы закончили!\nДавайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли!\n\nНажмите кнопку **Предпросмотр**.",
-            "sl": "Končano je!\nPreizkusimo našo igro, da vidimo spremembe, ki smo jih naredili!\n\nKliknite na gumb **Predogled**.",
-            "sq": "Kemi përfunduar!\nLe të testojmë lojën tonë për të parë ndryshimet që kemi bërë!\n\nKliko në butonin **Shiko paraprakisht**.",
-            "uk": "Ми закінчили!\nДавайте протестуємо нашу гру, щоб побачити зміни, які ми зробили!\n\nНатисніть кнопку **Попередній перегляд**.",
-            "zh": "我们完成了！\n让我们测试游戏以查看我们所做的更改！\n\n点击**预览**按钮。"
-          }
+      "metaKind": "launch-preview",
+      "nextStep": "previewLaunched",
+      "description": {
+        "messageByLocale": {
+          "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button.",
+          "fr": "Nous avons terminé !\nTestons notre jeu pour voir les changements que nous avons apportés !\n\nCliquez sur le bouton **Aperçu**.",
+          "ar": "لقد انتهينا!\nلنقم باختبار لعبتنا لرؤية التغييرات التي قمنا بها!\n\nانقر فوق زر **معاينة**.",
+          "de": "Wir sind fertig!\nTesten wir unser Spiel, um die Änderungen zu sehen, die wir vorgenommen haben!\n\nKlicken Sie auf die Schaltfläche **Vorschau**.",
+          "es": "¡Hemos terminado!\n¡Probemos nuestro juego para ver los cambios que hemos hecho!\n\nHaz clic en el botón **Vista previa**.",
+          "it": "Abbiamo finito!\nTestiamo il nostro gioco per vedere le modifiche che abbiamo apportato!\n\nFai clic sul pulsante **Anteprima**.",
+          "ja": "完了しました！\n私たちが行った変更を確認するために、ゲームをテストしましょう！\n\n**プレビュー**ボタンをクリックします。",
+          "ko": "완료되었습니다!\n만든 변경 사항을 확인하기 위해 게임을 테스트해 봅시다!\n\n**미리보기** 버튼을 클릭하세요.",
+          "pl": "Skończone!\nPrzetestujmy naszą grę, aby zobaczyć wprowadzone zmiany!\n\nKliknij przycisk **Podgląd**.",
+          "pt": "Estamos prontos!\nVamos testar nosso jogo para ver as mudanças que fizemos!\n\nClique no botão **Visualizar**.",
+          "th": "เราเสร็จสิ้นแล้ว!\nมาทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำ!\n\nคลิกที่ปุ่ม **ดูตัวอย่าง**",
+          "ru": "Мы закончили!\nДавайте протестируем нашу игру, чтобы увидеть изменения, которые мы внесли!\n\nНажмите кнопку **Предпросмотр**.",
+          "sl": "Končano je!\nPreizkusimo našo igro, da vidimo spremembe, ki smo jih naredili!\n\nKliknite na gumb **Predogled**.",
+          "sq": "Kemi përfunduar!\nLe të testojmë lojën tonë për të parë ndryshimet që kemi bërë!\n\nKliko në butonin **Shiko paraprakisht**.",
+          "uk": "Ми закінчили!\nДавайте протестуємо нашу гру, щоб побачити зміни, які ми зробили!\n\nНатисніть кнопку **Попередній перегляд**.",
+          "zh": "我们完成了！\n让我们测试游戏以查看我们所做的更改！\n\n点击**预览**按钮。"
         }
-      },
-      "nextStepTrigger": {
-        "previewLaunched": true
       }
     }
   ],
