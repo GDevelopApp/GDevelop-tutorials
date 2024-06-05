@@ -25,7 +25,7 @@ describe('In app tutorials control figures', () => {
   );
 
   test('there is the right number of in app tutorials', () => {
-    expect(shortHeaders.length).toMatchInlineSnapshot(`7`); // To change when adding new in app tutorials
+    expect(shortHeaders.length).toMatchInlineSnapshot(`8`); // To change when adding new in app tutorials
   });
 
   test('all in app tutorials have a different id', () => {
@@ -117,7 +117,7 @@ describe('In app tutorials content checks', () => {
       // We don't check the tutorials with initial template, because they already have project data.
       .filter((tutorial) => !tutorial.initialTemplateUrl)
       .forEach((tutorial) => {
-        const { flow } = tutorial;
+        const { flow, initialProjectData } = tutorial;
         const projectData = flow.reduce(
           /**
            * @param {string[]} acc
@@ -131,7 +131,7 @@ describe('In app tutorials content checks', () => {
             return acc;
           },
           /** @type {string[]} */
-          []
+          initialProjectData ? Object.keys(initialProjectData) : []
         );
 
         const allMessagesByLocale = getAllMessagesByLocale(tutorial);

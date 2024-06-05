@@ -157,16 +157,18 @@ const translateMetaStep = (metaStep) => {
           },
           isOnClosableDialog: true,
         },
-        ...metaStep.parameters.map((parameterData) => ({
-          elementToHighlightId: `${metaStep.behaviorParameterPanelId} ${parameterData.parameterId}`,
-          nextStepTrigger: {
-            valueEquals: parameterData.expectedValue,
-          },
-          tooltip: {
-            description: parameterData.description,
-          },
-          isOnClosableDialog: true,
-        })),
+        ...(metaStep.parameters
+          ? metaStep.parameters.map((parameterData) => ({
+              elementToHighlightId: `${metaStep.behaviorParameterPanelId} ${parameterData.parameterId}`,
+              nextStepTrigger: {
+                valueEquals: parameterData.expectedValue,
+              },
+              tooltip: {
+                description: parameterData.description,
+              },
+              isOnClosableDialog: true,
+            }))
+          : []),
         {
           elementToHighlightId: '#object-editor-dialog #apply-button',
           nextStepTrigger: {
