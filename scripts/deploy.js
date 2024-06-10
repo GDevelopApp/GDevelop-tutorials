@@ -81,6 +81,8 @@ axios
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/timer/game.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/object3d.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/object3d/game.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/knightPlatformer.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/templates/knightPlatformer/game.json',
       ],
     },
     {
