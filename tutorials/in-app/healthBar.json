@@ -1,5 +1,16 @@
 {
   "id": "healthBar",
+  "titleByLocale": {
+    "en": "Let's communicate to the player the remaining health points"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Use a prefab for a health bar"
+    },
+    {
+      "en": "Update the health bar based on the player's health"
+    }
+  ],
   "editorSwitches": {
     "Start": {
       "editor": "Scene",

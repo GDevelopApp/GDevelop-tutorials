@@ -1,5 +1,16 @@
 {
   "id": "knightPlatformer",
+  "titleByLocale": {
+    "en": "Let's make a platformer game"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Use a behavior to mark an object as a platform."
+    },
+    {
+      "en": "Use another behavior to control the player."
+    }
+  ],
   "editorSwitches": {
     "Start": {
       "editor": "Scene",

@@ -1,5 +1,19 @@
 {
   "id": "cameraParallax",
+  "titleByLocale": {
+    "en": "Let's improve the camera and the background"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Add a background with parallax effect"
+    },
+    {
+      "en": "Add an extension"
+    },
+    {
+      "en": "Use basic camera movements to follow the player"
+    }
+  ],
   "editorSwitches": {
     "Start": {
       "editor": "Scene",

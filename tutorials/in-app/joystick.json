@@ -1,5 +1,16 @@
 {
   "id": "joystick",
+  "titleByLocale": {
+    "en": "Let's add mobile controls to our game"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Add a joystick prefab"
+    },
+    {
+      "en": "Add a behavior"
+    }
+  ],
   "editorSwitches": {
     "Start": {
       "editor": "Scene",

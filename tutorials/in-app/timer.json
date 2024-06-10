@@ -1,5 +1,19 @@
 {
   "id": "timer",
+  "titleByLocale": {
+    "en": "Let's use time to measure a score"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Create and modify a text"
+    },
+    {
+      "en": "Start a timer"
+    },
+    {
+      "en": "Use the timer to display a score"
+    }
+  ],
   "editorSwitches": {
     "Start": {
       "editor": "Scene",

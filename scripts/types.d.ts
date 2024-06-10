@@ -1,16 +1,19 @@
-export interface InAppTutorialShortHeader {
-  id: string;
-  contentUrl: string;
-  availableLocales: Array<string>;
-  initialTemplateUrl?: string;
-  initialProjectData?: Record<string, string>;
-}
-
 export type MessageByLocale = Record<string, string>;
 
 export type TranslatedText = {
   messageByLocale: MessageByLocale;
 };
+
+export interface InAppTutorialShortHeader {
+  id: string;
+  titleByLocale: MessageByLocale;
+  bulletPointsByLocale: Array<MessageByLocale>;
+  contentUrl: string;
+  availableLocales: Array<string>;
+  initialTemplateUrl?: string;
+  initialProjectData?: Record<string, string>;
+  isMiniTutorial: boolean;
+}
 
 export type InAppTutorialTooltip = {
   placement?: 'bottom' | 'left' | 'right' | 'top';
@@ -126,6 +129,9 @@ export type InAppTutorial = {
   availableLocales: Array<string>;
   initialTemplateUrl?: string;
   initialProjectData?: Record<string, string>;
+  isMiniTutorial: boolean;
+  titleByLocale: MessageByLocale;
+  bulletPointsByLocale: Array<MessageByLocale>;
 };
 
 export type libGDevelop = any;

@@ -2,8 +2,10 @@
 const fs = require('fs');
 const path = require('path');
 const { translateMetaStep } = require('./MetaStepTranslator');
+const { ensureMessageByLocale } = require('./MessageByLocale');
 
 /**
+ * @typedef {import("../types").MessageByLocale} MessageByLocale
  * @typedef {import("../types").InAppTutorialShortHeader} InAppTutorialShortHeader
  * @typedef {import("../types").InAppTutorialFlowStep} InAppTutorialFlowStep
  * @typedef {import("../types").InAppTutorial} InAppTutorialType
@@ -17,6 +19,10 @@ class InAppTutorial {
   sourcePath;
   /** @type {string} */
   id;
+  /** @type {MessageByLocale} */
+  titleByLocale;
+  /** @type {Array<MessageByLocale>} */
+  bulletPointsByLocale;
   /** @type {Array<string>} */
   availableLocales;
   /** @type {string | undefined} */
@@ -29,6 +35,8 @@ class InAppTutorial {
   editorSwitches;
   /** @type {InAppTutorialEndDialog} */
   endDialog;
+  /** @type {boolean} */
+  isMiniTutorial;
 
   /**
    * @param {string} sourcePath
@@ -43,12 +51,27 @@ class InAppTutorial {
           `the in app tutorial with ${tutorialContent.id} is saved under a file that does not share the same name (${sourceFileName})`
         );
       }
+      if (!Array.isArray(tutorialContent.bulletPointsByLocale))
+        throw new Error(
+          'Field bulletPointsByLocale is not an array (or empty) for tutorial with id ' +
+            tutorialContent.id
+        );
+
       this.id = tutorialContent.id;
+      this.titleByLocale = ensureMessageByLocale(tutorialContent.titleByLocale);
+      this.bulletPointsByLocale = tutorialContent.bulletPointsByLocale.map(
+        /** @param {any} bulletPointByLocale */
+        (bulletPointByLocale) => ensureMessageByLocale(bulletPointByLocale)
+      );
       this.availableLocales = tutorialContent.availableLocales;
       this.initialTemplateUrl = tutorialContent.initialTemplateUrl;
       this.initialProjectData = tutorialContent.initialProjectData;
       this.editorSwitches = tutorialContent.editorSwitches;
       this.endDialog = tutorialContent.endDialog;
+      this.isMiniTutorial =
+        tutorialContent.isMiniTutorial !== undefined
+          ? tutorialContent.isMiniTutorial
+          : true;
       this.flow = tutorialContent.flow;
     } catch (error) {
       console.error(
@@ -78,10 +101,13 @@ class InAppTutorial {
   buildShortHeader() {
     return {
       id: this.id,
+      titleByLocale: this.titleByLocale,
+      bulletPointsByLocale: this.bulletPointsByLocale,
       contentUrl: `https://resources.gdevelop-app.com/in-app-tutorials/${this.id}.json`,
       availableLocales: this.availableLocales,
       initialTemplateUrl: this.initialTemplateUrl,
       initialProjectData: this.initialProjectData,
+      isMiniTutorial: this.isMiniTutorial,
     };
   }
 
@@ -89,10 +115,13 @@ class InAppTutorial {
     /** @type {InAppTutorialType} */
     const output = {
       id: this.id,
+      titleByLocale: this.titleByLocale,
+      bulletPointsByLocale: this.bulletPointsByLocale,
       flow: this.flow,
       editorSwitches: this.editorSwitches,
       endDialog: this.endDialog,
       availableLocales: this.availableLocales,
+      isMiniTutorial: this.isMiniTutorial,
     };
     if (this.initialTemplateUrl) {
       output.initialTemplateUrl = this.initialTemplateUrl;

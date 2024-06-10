@@ -1,5 +1,16 @@
 {
   "id": "object3d",
+  "titleByLocale": {
+    "en": "Let's add a 3D object to our game"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Add a 3D Box"
+    },
+    {
+      "en": "Add a behavior"
+    }
+  ],
   "editorSwitches": {
     "Start": {
       "editor": "Scene",

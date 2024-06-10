@@ -1,5 +1,17 @@
 {
   "id": "flingGame",
+  "isMiniTutorial": false,
+  "titleByLocale": {
+    "en": "Let's make a Fling Game"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Learn to create a game from zero."
+    },
+    {
+      "en": "Add a leaderboard to your game."
+    }
+  ],
   "editorSwitches": {
     "GoToBuildSection": {
       "editor": "Home"

@@ -1,5 +1,19 @@
 {
   "id": "plinkoMultiplier",
+  "titleByLocale": {
+    "en": "Let's improve a scoring system"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Making objects disappear or appear when colliding"
+    },
+    {
+      "en": "Creating, modifying and accessing a scene variable"
+    },
+    {
+      "en": "Updating a score accordingly"
+    }
+  ],
   "editorSwitches": {
     "Login": {
       "editor": "Scene",
