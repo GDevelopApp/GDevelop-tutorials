@@ -37,7 +37,11 @@ const inAppTutorialsSourceRootPath = path.join(
   tutorialsSourceRootPath,
   'in-app'
 );
-const inAppTutorialsDestinationRootPath = path.join(distPath, 'tutorials', 'in-app');
+const inAppTutorialsDestinationRootPath = path.join(
+  distPath,
+  'tutorials',
+  'in-app'
+);
 const tutorialsDatabasePath = path.join(distPath, 'database');
 
 const templatesSourceRootPath = path.join(__dirname, '../templates');
