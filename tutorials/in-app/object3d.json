@@ -1,14 +1,59 @@
 {
   "id": "object3d",
   "titleByLocale": {
-    "en": "Let's add a 3D object to our game"
+    "en": "Let's add a 3D object to our game",
+    "fr": "Ajoutons un objet 3D à notre jeu",
+    "ar": "لنضيف كائن ثلاثي الأبعاد إلى لعبتنا",
+    "de": "Fügen wir unserem Spiel ein 3D-Objekt hinzu",
+    "es": "Agreguemos un objeto 3D a nuestro juego",
+    "it": "Aggiungiamo un oggetto 3D al nostro gioco",
+    "ja": "ゲームに3Dオブジェクトを追加しましょう",
+    "ko": "게임에 3D 객체를 추가합시다",
+    "pl": "Dodajmy obiekt 3D do naszej gry",
+    "pt": "Vamos adicionar um objeto 3D ao nosso jogo",
+    "th": "มาเพิ่มวัตถุ 3 มิติในเกมของเรากันเถอะ",
+    "ru": "Добавим 3D объект в нашу игру",
+    "sl": "Dodajmo 3D predmet v našo igro",
+    "sq": "Le të shtojmë një objekt 3D në lojën tonë",
+    "uk": "Додамо 3D об'єкт до нашої гри",
+    "zh": "让我们在游戏中添加一个3D对象"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Add a 3D Box"
+      "en": "Add a 3D Box",
+      "fr": "Ajoutez une boîte 3D",
+      "ar": "أضف صندوق ثلاثي الأبعاد",
+      "de": "Füge eine 3D-Box hinzu",
+      "es": "Agrega una caja 3D",
+      "it": "Aggiungi una scatola 3D",
+      "ja": "3Dボックスを追加する",
+      "ko": "3D 박스를 추가하세요",
+      "pl": "Dodaj pudełko 3D",
+      "pt": "Adicione uma caixa 3D",
+      "th": "เพิ่มกล่อง 3 มิติ",
+      "ru": "Добавить 3D ящик",
+      "sl": "Dodajte 3D škatlo",
+      "sq": "Shto një kuti 3D",
+      "uk": "Додайте 3D ящик",
+      "zh": "添加一个3D盒子"
     },
     {
-      "en": "Add a behavior"
+      "en": "Add a behavior",
+      "fr": "Ajoutez un comportement",
+      "ar": "أضف سلوكًا",
+      "de": "Füge ein Verhalten hinzu",
+      "es": "Agrega un comportamiento",
+      "it": "Aggiungi un comportamento",
+      "ja": "動作を追加する",
+      "ko": "행동 추가",
+      "pl": "Dodaj zachowanie",
+      "pt": "Adicione um comportamento",
+      "th": "เพิ่มพฤติกรรม",
+      "ru": "Добавить поведение",
+      "sl": "Dodajte vedenje",
+      "sq": "Shto një sjellje",
+      "uk": "Додайте поведінку",
+      "zh": "添加行为"
     }
   ],
   "editorSwitches": {

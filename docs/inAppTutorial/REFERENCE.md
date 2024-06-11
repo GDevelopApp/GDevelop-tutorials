@@ -35,6 +35,8 @@ An in-app tutorial is a JSON with 7 fields:
   "availableLocales": [...],
   "initialTemplateUrl": "https://...",
   "initialProjectData": {...},
+  "titleByLocale": {...},
+  "bulletPointsByLocale": {...},
 }
 ```
 
@@ -206,7 +208,9 @@ If your flow contains a step with id `ClickOnCreateObjectButton` (that should ha
 
 Notes:
 
-- `playScene` is the key under which the name of the scene has been stored during the tutorial.
+- `playScene` is either:
+  - the key under which the name of the scene has been stored during the tutorial.
+  - the key under which the name of the scene is defined in the field `initialProjectData`.
 - The possible values for the expected editor are: `Scene`, `EventsSheet`, `Home` (other editors are not supported at the moment).
 
 ### `initialTemplateUrl` & `initialProjectData`
@@ -232,6 +236,10 @@ Ex:
   },
 }
 ```
+
+### `titleByLocale` & `bulletPointsByLocale`
+
+These fields are used in the small dialog displayed after clicking on the guided lesson card.
 
 ## Meta steps
 
@@ -309,6 +317,7 @@ Some tests are run in our Continuous Integration (CI) pipeline when you open a P
 You can run them on your device to make sure your in-app tutorial passes the checks.
 
 Prerequisites:
+
 - Clone [GDevelop repository](https://github.com/4ian/GDevelop) on your computer and run `npm install` in the folder `newIDE/app/`.
 
 To do so, in a terminal:

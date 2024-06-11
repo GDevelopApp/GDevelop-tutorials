@@ -1,14 +1,59 @@
 {
   "id": "joystick",
   "titleByLocale": {
-    "en": "Let's add mobile controls to our game"
+    "en": "Let's add mobile controls to our game",
+    "fr": "Ajoutons des contrôles mobiles à notre jeu",
+    "ar": "لنضيف عناصر التحكم بالهاتف المحمول إلى لعبتنا",
+    "de": "Fügen wir unserem Spiel mobile Steuerungen hinzu",
+    "es": "Agreguemos controles móviles a nuestro juego",
+    "it": "Aggiungiamo i controlli mobili al nostro gioco",
+    "ja": "ゲームにモバイルコントロールを追加しましょう",
+    "ko": "게임에 모바일 컨트롤을 추가합시다",
+    "pl": "Dodajmy sterowanie mobilne do naszej gry",
+    "pt": "Vamos adicionar controles móveis ao nosso jogo",
+    "th": "มาเพิ่มการควบคุมมือถือในเกมของเรากันเถอะ",
+    "ru": "Добавим мобильное управление в нашу игру",
+    "sl": "Dodajmo mobilne kontrole naši igri",
+    "sq": "Le të shtojmë kontrollin e telefonit në lojën tonë",
+    "uk": "Додамо мобільні елементи керування до нашої гри",
+    "zh": "让我们为游戏添加移动控制"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Add a joystick prefab"
+      "en": "Add a joystick prefab",
+      "fr": "Ajoutez un préfabriqué de joystick",
+      "ar": "أضف نموذج عصا التحكم الجاهز",
+      "de": "Füge ein Joystick-Prefab hinzu",
+      "es": "Agrega un prefab de joystick",
+      "it": "Aggiungi un prefab di joystick",
+      "ja": "ジョイスティックのプレハブを追加する",
+      "ko": "조이스틱 프리팹 추가",
+      "pl": "Dodaj prefabrykowany joystick",
+      "pt": "Adicione um prefab de joystick",
+      "th": "เพิ่มจอยสติ๊กพรีแฟบ",
+      "ru": "Добавить префаб джойстика",
+      "sl": "Dodajte predlogo za krmilno palico",
+      "sq": "Shto një prefab joystick",
+      "uk": "Додайте префаб джойстика",
+      "zh": "添加一个操纵杆预制件"
     },
     {
-      "en": "Add a behavior"
+      "en": "Add a behavior",
+      "fr": "Ajoutez un comportement",
+      "ar": "أضف سلوكًا",
+      "de": "Füge ein Verhalten hinzu",
+      "es": "Agrega un comportamiento",
+      "it": "Aggiungi un comportamento",
+      "ja": "動作を追加する",
+      "ko": "행동 추가",
+      "pl": "Dodaj zachowanie",
+      "pt": "Adicione um comportamento",
+      "th": "เพิ่มพฤติกรรม",
+      "ru": "Добавить поведение",
+      "sl": "Dodajte vedenje",
+      "sq": "Shto një sjellje",
+      "uk": "Додайте поведінку",
+      "zh": "添加行为"
     }
   ],
   "editorSwitches": {

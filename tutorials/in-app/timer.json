@@ -1,17 +1,77 @@
 {
   "id": "timer",
   "titleByLocale": {
-    "en": "Let's use time to measure a score"
+    "en": "Let's use time to measure a score",
+    "fr": "Utilisons le temps pour mesurer un score",
+    "ar": "لنستخدم الوقت لقياس النتيجة",
+    "de": "Lass uns die Zeit nutzen, um eine Punktzahl zu messen",
+    "es": "Usemos el tiempo para medir una puntuación",
+    "it": "Usiamo il tempo per misurare un punteggio",
+    "ja": "スコアを測定するために時間を使いましょう",
+    "ko": "시간을 사용하여 점수를 측정합시다",
+    "pl": "Użyjmy czasu do pomiaru wyniku",
+    "pt": "Vamos usar o tempo para medir uma pontuação",
+    "th": "มาใช้เวลาในการวัดคะแนนกันเถอะ",
+    "ru": "Используем время для измерения счета",
+    "sl": "Uporabimo čas za merjenje rezultata",
+    "sq": "Le të përdorim kohën për të matur një rezultat",
+    "uk": "Використаймо час для вимірювання результату",
+    "zh": "让我们用时间来衡量分数"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Create and modify a text"
+      "en": "Create and modify a text",
+      "fr": "Créer et modifier un texte",
+      "ar": "إنشاء نص وتعديله",
+      "de": "Einen Text erstellen und ändern",
+      "es": "Crear y modificar un texto",
+      "it": "Creare e modificare un testo",
+      "ja": "テキストを作成および変更する",
+      "ko": "텍스트를 생성하고 수정하기",
+      "pl": "Utwórz i zmodyfikuj tekst",
+      "pt": "Criar e modificar um texto",
+      "th": "สร้างและแก้ไขข้อความ",
+      "ru": "Создавать и изменять текст",
+      "sl": "Ustvarite in spremenite besedilo",
+      "sq": "Krijoni dhe modifikoni një tekst",
+      "uk": "Створювати та змінювати текст",
+      "zh": "创建和修改文本"
     },
     {
-      "en": "Start a timer"
+      "en": "Start a timer",
+      "fr": "Démarrer un minuteur",
+      "ar": "بدء مؤقت",
+      "de": "Einen Timer starten",
+      "es": "Iniciar un temporizador",
+      "it": "Avviare un timer",
+      "ja": "タイマーを開始する",
+      "ko": "타이머 시작하기",
+      "pl": "Uruchom minutnik",
+      "pt": "Iniciar um temporizador",
+      "th": "เริ่มจับเวลา",
+      "ru": "Запустить таймер",
+      "sl": "Začnite časovnik",
+      "sq": "Nisni një kronometër",
+      "uk": "Запустити таймер",
+      "zh": "启动计时器"
     },
     {
-      "en": "Use the timer to display a score"
+      "en": "Use the timer to display a score",
+      "fr": "Utiliser le minuteur pour afficher un score",
+      "ar": "استخدم المؤقت لعرض النتيجة",
+      "de": "Verwenden Sie den Timer, um eine Punktzahl anzuzeigen",
+      "es": "Usar el temporizador para mostrar una puntuación",
+      "it": "Usa il timer per visualizzare un punteggio",
+      "ja": "タイマーを使用してスコアを表示する",
+      "ko": "타이머를 사용하여 점수 표시하기",
+      "pl": "Użyj minutnika do wyświetlania wyniku",
+      "pt": "Usar o temporizador para exibir uma pontuação",
+      "th": "ใช้ตัวจับเวลาเพื่อแสดงคะแนน",
+      "ru": "Используйте таймер для отображения счета",
+      "sl": "Uporabite časovnik za prikaz rezultata",
+      "sq": "Përdorni kronometrin për të shfaqur një rezultat",
+      "uk": "Використовуйте таймер для відображення рахунку",
+      "zh": "使用计时器显示分数"
     }
   ],
   "editorSwitches": {

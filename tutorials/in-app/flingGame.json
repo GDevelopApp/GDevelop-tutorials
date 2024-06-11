@@ -2,14 +2,59 @@
   "id": "flingGame",
   "isMiniTutorial": false,
   "titleByLocale": {
-    "en": "Let's make a Fling Game"
+    "en": "Let's make a Fling Game",
+    "fr": "Faisons un jeu de lancer",
+    "ar": "لنصنع لعبة رمي",
+    "de": "Lass uns ein Schleuder-Spiel machen",
+    "es": "Hagamos un juego de lanzamiento",
+    "it": "Facciamo un gioco di lancio",
+    "ja": "フリングゲームを作ろう",
+    "ko": "플링 게임을 만들어 보자",
+    "pl": "Zróbmy grę w rzucanie",
+    "pt": "Vamos fazer um jogo de arremesso",
+    "th": "มาทำเกมขว้างกันเถอะ",
+    "ru": "Давайте сделаем игру бросков",
+    "sl": "Naredimo igro metanja",
+    "sq": "Le të bëjmë një lojë hedhjeje",
+    "uk": "Зробимо гру кидання",
+    "zh": "让我们制作一个弹射游戏"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Learn to create a game from zero."
+      "en": "Learn to create a game from zero.",
+      "fr": "Apprenez à créer un jeu à partir de zéro.",
+      "ar": "تعلم إنشاء لعبة من الصفر.",
+      "de": "Lerne, ein Spiel von Grund auf zu erstellen.",
+      "es": "Aprende a crear un juego desde cero.",
+      "it": "Impara a creare un gioco da zero.",
+      "ja": "ゼロからゲームを作る方法を学びます。",
+      "ko": "게임을 처음부터 만드는 방법을 배우세요.",
+      "pl": "Naucz się tworzyć grę od podstaw.",
+      "pt": "Aprenda a criar um jogo do zero.",
+      "th": "เรียนรู้วิธีสร้างเกมตั้งแต่เริ่มต้น",
+      "ru": "Научитесь создавать игру с нуля.",
+      "sl": "Naučite se ustvariti igro iz nič.",
+      "sq": "Mësoni të krijoni një lojë nga zeroja.",
+      "uk": "Навчіться створювати гру з нуля.",
+      "zh": "学习从零开始创建游戏。"
     },
     {
-      "en": "Add a leaderboard to your game."
+      "en": "Add a leaderboard to your game.",
+      "fr": "Ajoutez un classement à votre jeu.",
+      "ar": "أضف لوحة المتصدرين إلى لعبتك.",
+      "de": "Füge deinem Spiel eine Rangliste hinzu.",
+      "es": "Agrega una tabla de clasificación a tu juego.",
+      "it": "Aggiungi una classifica al tuo gioco.",
+      "ja": "ゲームにリーダーボードを追加します。",
+      "ko": "게임에 리더보드를 추가하세요.",
+      "pl": "Dodaj tabelę wyników do swojej gry.",
+      "pt": "Adicione uma tabela de classificação ao seu jogo.",
+      "th": "เพิ่มกระดานผู้นำในเกมของคุณ",
+      "ru": "Добавьте таблицу лидеров в вашу игру.",
+      "sl": "Dodajte lestvico najboljših svoji igri.",
+      "sq": "Shto një tabelë të drejtuesve në lojën tuaj.",
+      "uk": "Додайте таблицю лідерів до вашої гри.",
+      "zh": "为您的游戏添加排行榜。"
     }
   ],
   "editorSwitches": {
@@ -65,7 +110,14 @@
       "scene": "startScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "es",
+    "pt",
+    "th",
+    "ar"
+  ],
   "endDialog": {
     "content": [
       {

@@ -1,14 +1,59 @@
 {
   "id": "healthBar",
   "titleByLocale": {
-    "en": "Let's communicate to the player the remaining health points"
+    "en": "Let's communicate to the player the remaining health points",
+    "fr": "Communiquons au joueur les points de vie restants",
+    "ar": "لنخبر اللاعب بنقاط الصحة المتبقية",
+    "de": "Teilen wir dem Spieler die verbleibenden Gesundheitspunkte mit",
+    "es": "Comuniquemos al jugador los puntos de salud restantes",
+    "it": "Comunichiamo al giocatore i punti salute rimanenti",
+    "ja": "プレイヤーに残りの体力ポイントを伝えましょう",
+    "ko": "플레이어에게 남은 체력 포인트를 알려줍시다",
+    "pl": "Przekażmy graczowi pozostałe punkty zdrowia",
+    "pt": "Vamos comunicar ao jogador os pontos de saúde restantes",
+    "th": "สื่อสารกับผู้เล่นเกี่ยวกับแต้มสุขภาพที่เหลืออยู่",
+    "ru": "Сообщим игроку оставшиеся очки здоровья",
+    "sl": "Sporočimo igralcu preostale točke zdravja",
+    "sq": "Le të komunikojmë me lojtarin pikët e mbetura të shëndetit",
+    "uk": "Повідомимо гравцеві про залишок очок здоров'я",
+    "zh": "让我们告诉玩家剩余的健康点数"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Use a prefab for a health bar"
+      "en": "Use a prefab for a health bar",
+      "fr": "Utilisez un préfabriqué pour une barre de santé",
+      "ar": "استخدم نموذجاً جاهزاً لشريط الصحة",
+      "de": "Verwende ein vorgefertigtes Modell für eine Gesundheitsleiste",
+      "es": "Usa un prefab para una barra de salud",
+      "it": "Usa un prefab per una barra della salute",
+      "ja": "ヘルスバーのプレハブを使用する",
+      "ko": "체력 바를 위한 프리팹 사용",
+      "pl": "Użyj prefabrykatu dla paska zdrowia",
+      "pt": "Use um prefab para uma barra de saúde",
+      "th": "ใช้พรีแฟบสำหรับแถบสุขภาพ",
+      "ru": "Используйте префаб для индикатора здоровья",
+      "sl": "Uporabite predlogo za zdravstveno vrstico",
+      "sq": "Përdorni një prefab për një shirit shëndeti",
+      "uk": "Використовуйте префаб для індикатора здоров'я",
+      "zh": "使用预制件作为健康条"
     },
     {
-      "en": "Update the health bar based on the player's health"
+      "en": "Update the health bar based on the player's health",
+      "fr": "Mettre à jour la barre de santé en fonction de la santé du joueur",
+      "ar": "تحديث شريط الصحة بناءً على صحة اللاعب",
+      "de": "Aktualisiere die Gesundheitsleiste basierend auf der Gesundheit des Spielers",
+      "es": "Actualizar la barra de salud según la salud del jugador",
+      "it": "Aggiorna la barra della salute in base alla salute del giocatore",
+      "ja": "プレイヤーの健康に基づいてヘルスバーを更新する",
+      "ko": "플레이어의 체력에 따라 체력 바를 업데이트하세요",
+      "pl": "Aktualizuj pasek zdrowia w oparciu o zdrowie gracza",
+      "pt": "Atualize a barra de saúde com base na saúde do jogador",
+      "th": "อัปเดตแถบสุขภาพตามสุขภาพของผู้เล่น",
+      "ru": "Обновите индикатор здоровья в зависимости от здоровья игрока",
+      "sl": "Posodobite zdravstveno vrstico glede na zdravje igralca",
+      "sq": "Përditësoni shiritin e shëndetit bazuar në shëndetin e lojtarit",
+      "uk": "Оновіть індикатор здоров'я відповідно до здоров'я гравця",
+      "zh": "根据玩家的健康状况更新健康条"
     }
   ],
   "editorSwitches": {

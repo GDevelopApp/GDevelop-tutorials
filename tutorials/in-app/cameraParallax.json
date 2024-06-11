@@ -1,17 +1,77 @@
 {
   "id": "cameraParallax",
   "titleByLocale": {
-    "en": "Let's improve the camera and the background"
+    "en": "Let's improve the camera and the background",
+    "fr": "Améliorons la caméra et l'arrière-plan",
+    "ar": "لنحسن الكاميرا والخلفية",
+    "de": "Verbessern wir die Kamera und den Hintergrund",
+    "es": "Mejoremos la cámara y el fondo",
+    "it": "Miglioriamo la fotocamera e lo sfondo",
+    "ja": "カメラと背景を改善しましょう",
+    "ko": "카메라와 배경을 개선합시다",
+    "pl": "Poprawmy kamerę i tło",
+    "pt": "Vamos melhorar a câmera e o fundo",
+    "th": "มาปรับปรุงกล้องและพื้นหลังกันเถอะ",
+    "ru": "Давайте улучшим камеру и фон",
+    "sl": "Izboljšajmo kamero in ozadje",
+    "sq": "Le të përmirësojmë kamerën dhe sfondin",
+    "uk": "Покращимо камеру та фон",
+    "zh": "让我们改进相机和背景"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Add a background with parallax effect"
+      "en": "Add a background with parallax effect",
+      "fr": "Ajouter un arrière-plan avec effet de parallaxe",
+      "ar": "أضف خلفية مع تأثير المنظر المتحرك",
+      "de": "Füge einen Hintergrund mit Parallax-Effekt hinzu",
+      "es": "Agregar un fondo con efecto de paralaje",
+      "it": "Aggiungi uno sfondo con effetto parallasse",
+      "ja": "パララックス効果のある背景を追加する",
+      "ko": "패럴럭스 효과가 있는 배경 추가",
+      "pl": "Dodaj tło z efektem paralaksy",
+      "pt": "Adicionar um fundo com efeito de paralaxe",
+      "th": "เพิ่มพื้นหลังที่มีเอฟเฟกต์พารัลแลกซ์",
+      "ru": "Добавить фон с эффектом параллакса",
+      "sl": "Dodajte ozadje s paralaksnim učinkom",
+      "sq": "Shto një sfond me efekt paralaksi",
+      "uk": "Додайте фон з ефектом паралакса",
+      "zh": "添加具有视差效果的背景"
     },
     {
-      "en": "Add an extension"
+      "en": "Add an extension",
+      "fr": "Ajouter une extension",
+      "ar": "أضف ملحق",
+      "de": "Eine Erweiterung hinzufügen",
+      "es": "Agregar una extensión",
+      "it": "Aggiungi un'estensione",
+      "ja": "拡張機能を追加する",
+      "ko": "확장 추가",
+      "pl": "Dodaj rozszerzenie",
+      "pt": "Adicionar uma extensão",
+      "th": "เพิ่มส่วนขยาย",
+      "ru": "Добавить расширение",
+      "sl": "Dodajte razširitev",
+      "sq": "Shto një zgjerim",
+      "uk": "Додайте розширення",
+      "zh": "添加扩展"
     },
     {
-      "en": "Use basic camera movements to follow the player"
+      "en": "Use basic camera movements to follow the player",
+      "fr": "Utiliser des mouvements de caméra de base pour suivre le joueur",
+      "ar": "استخدم حركات الكاميرا الأساسية لمتابعة اللاعب",
+      "de": "Verwende grundlegende Kamerabewegungen, um dem Spieler zu folgen",
+      "es": "Usa movimientos básicos de cámara para seguir al jugador",
+      "it": "Usa movimenti di base della fotocamera per seguire il giocatore",
+      "ja": "プレイヤーを追うために基本的なカメラの動きを使用する",
+      "ko": "플레이어를 따라가는 기본적인 카메라 움직임을 사용하세요",
+      "pl": "Użyj podstawowych ruchów kamery, aby śledzić gracza",
+      "pt": "Use movimentos básicos de câmera para seguir o jogador",
+      "th": "ใช้การเคลื่อนไหวของกล้องพื้นฐานเพื่อติดตามผู้เล่น",
+      "ru": "Используйте базовые движения камеры, чтобы следовать за игроком",
+      "sl": "Uporabite osnovne premike kamere za sledenje igralcu",
+      "sq": "Përdorni lëvizjet themelore të kamerës për të ndjekur lojtarin",
+      "uk": "Використовуйте базові рухи камери для стеження за гравцем",
+      "zh": "使用基本的摄像机移动跟随玩家"
     }
   ],
   "editorSwitches": {
