@@ -1,14 +1,59 @@
 {
   "id": "knightPlatformer",
   "titleByLocale": {
-    "en": "Let's make a platformer game"
+    "en": "Let's make a platformer game",
+    "fr": "Faisons un jeu de plateforme",
+    "ar": "لنصنع لعبة بلاتفورمر",
+    "de": "Lass uns ein Plattformspiel machen",
+    "es": "Hagamos un juego de plataformas",
+    "it": "Facciamo un gioco platform",
+    "ja": "プラットフォーマーゲームを作ろう",
+    "ko": "플랫폼 게임을 만들어 보자",
+    "pl": "Zróbmy grę platformową",
+    "pt": "Vamos fazer um jogo de plataforma",
+    "th": "มาทำเกมแพลตฟอร์มกันเถอะ",
+    "ru": "Сделаем платформер",
+    "sl": "Naredimo igro platforme",
+    "sq": "Le të bëjmë një lojë platformë",
+    "uk": "Зробимо платформер",
+    "zh": "让我们制作一个平台游戏"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Use a behavior to mark an object as a platform."
+      "en": "Use a behavior to mark an object as a platform.",
+      "fr": "Utilisez un comportement pour marquer un objet comme une plateforme.",
+      "ar": "استخدم سلوكًا لتحديد كائن كمنصة.",
+      "de": "Verwende ein Verhalten, um ein Objekt als Plattform zu markieren.",
+      "es": "Usa un comportamiento para marcar un objeto como plataforma.",
+      "it": "Usa un comportamento per segnare un oggetto come piattaforma.",
+      "ja": "オブジェクトをプラットフォームとしてマークするために動作を使用します。",
+      "ko": "객체를 플랫폼으로 표시하는 동작을 사용합니다.",
+      "pl": "Użyj zachowania, aby oznaczyć obiekt jako platformę.",
+      "pt": "Use um comportamento para marcar um objeto como plataforma.",
+      "th": "ใช้พฤติกรรมเพื่อทำเครื่องหมายวัตถุเป็นแพลตฟอร์ม",
+      "ru": "Используйте поведение, чтобы отметить объект как платформу.",
+      "sl": "Uporabite vedenje za označitev predmeta kot platformo.",
+      "sq": "Përdorni një sjellje për të shënuar një objekt si një platformë.",
+      "uk": "Використовуйте поведінку, щоб позначити об'єкт як платформу.",
+      "zh": "使用行为将对象标记为平台。"
     },
     {
-      "en": "Use another behavior to control the player."
+      "en": "Use another behavior to control the player.",
+      "fr": "Utilisez un autre comportement pour contrôler le joueur.",
+      "ar": "استخدم سلوكًا آخر للتحكم في اللاعب.",
+      "de": "Verwende ein anderes Verhalten, um den Spieler zu steuern.",
+      "es": "Usa otro comportamiento para controlar al jugador.",
+      "it": "Usa un altro comportamento per controllare il giocatore.",
+      "ja": "プレイヤーを操作するために別の動作を使用します。",
+      "ko": "플레이어를 제어하기 위해 다른 행동을 사용합니다.",
+      "pl": "Użyj innego zachowania, aby kontrolować gracza.",
+      "pt": "Use outro comportamento para controlar o jogador.",
+      "th": "ใช้พฤติกรรมอื่นในการควบคุมผู้เล่น",
+      "ru": "Используйте другое поведение, чтобы управлять игроком.",
+      "sl": "Uporabite drugo vedenje za nadzor igralca.",
+      "sq": "Përdorni një sjellje tjetër për të kontrolluar lojtarin.",
+      "uk": "Використовуйте іншу поведінку для керування гравцем.",
+      "zh": "使用另一种行为来控制玩家。"
     }
   ],
   "editorSwitches": {

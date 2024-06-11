@@ -1,17 +1,77 @@
 {
   "id": "plinkoMultiplier",
   "titleByLocale": {
-    "en": "Let's improve a scoring system"
+    "en": "Let's improve a scoring system",
+    "fr": "Améliorons un système de score",
+    "ar": "لنحسن نظام تسجيل النقاط",
+    "de": "Verbessern wir ein Punktesystem",
+    "es": "Mejoremos un sistema de puntuación",
+    "it": "Miglioriamo un sistema di punteggio",
+    "ja": "スコアリングシステムを改善しましょう",
+    "ko": "점수 시스템을 개선합시다",
+    "pl": "Ulepszmy system punktacji",
+    "pt": "Vamos melhorar um sistema de pontuação",
+    "th": "มาปรับปรุงระบบการให้คะแนนกันเถอะ",
+    "ru": "Улучшите систему подсчета очков",
+    "sl": "Izboljšajmo sistem točkovanja",
+    "sq": "Le të përmirësojmë një sistem të pikëzimit",
+    "uk": "Покращимо систему підрахунку очок",
+    "zh": "改进记分系统"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Making objects disappear or appear when colliding"
+      "en": "Make objects disappear or appear when colliding",
+      "fr": "Faire disparaître ou apparaître des objets lors d'une collision",
+      "ar": "جعل الكائنات تختفي أو تظهر عند الاصطدام",
+      "de": "Objekte beim Zusammenstoß verschwinden oder erscheinen lassen",
+      "es": "Hacer que los objetos desaparezcan o aparezcan al chocar",
+      "it": "Far scomparire o apparire oggetti in caso di collisione",
+      "ja": "衝突時にオブジェクトを消去または表示する",
+      "ko": "충돌 시 객체를 사라지게 하거나 나타나게 하기",
+      "pl": "Spraw, aby obiekty znikały lub pojawiały się przy kolizji",
+      "pt": "Fazer objetos desaparecerem ou aparecerem ao colidir",
+      "th": "ทำให้วัตถุหายไปหรือปรากฏขึ้นเมื่อชนกัน",
+      "ru": "Заставлять объекты исчезать или появляться при столкновении",
+      "sl": "Naj predmeti izginejo ali se pojavijo ob trku",
+      "sq": "Bëj që objektet të zhduken ose të shfaqen kur përplasen",
+      "uk": "Змушуйте об'єкти зникати або з'являтися при зіткненні",
+      "zh": "在碰撞时使对象消失或出现"
     },
     {
-      "en": "Creating, modifying and accessing a scene variable"
+      "en": "Create, modify and access a scene variable",
+      "fr": "Créer, modifier et accéder à une variable de scène",
+      "ar": "إنشاء وتعديل والوصول إلى متغير المشهد",
+      "de": "Erstellen, ändern und auf eine Szenenvariable zugreifen",
+      "es": "Crear, modificar y acceder a una variable de escena",
+      "it": "Creare, modificare e accedere a una variabile di scena",
+      "ja": "シーン変数を作成、変更、およびアクセスする",
+      "ko": "씬 변수를 생성, 수정 및 액세스",
+      "pl": "Tworzenie, modyfikowanie i dostęp do zmiennej sceny",
+      "pt": "Criar, modificar e acessar uma variável de cena",
+      "th": "สร้าง แก้ไข และเข้าถึงตัวแปรฉาก",
+      "ru": "Создание, изменение и доступ к переменной сцены",
+      "sl": "Ustvarite, spremenite in dostopajte do spremenljivke scene",
+      "sq": "Krijoni, modifikoni dhe aksesoni një variabël të skenës",
+      "uk": "Створюйте, змінюйте та отримуйте доступ до змінної сцени",
+      "zh": "创建、修改和访问场景变量"
     },
     {
-      "en": "Updating a score accordingly"
+      "en": "Update a score accordingly",
+      "fr": "Mettre à jour un score en conséquence",
+      "ar": "تحديث النتيجة وفقًا لذلك",
+      "de": "Passen Sie den Punktestand entsprechend an",
+      "es": "Actualizar una puntuación en consecuencia",
+      "it": "Aggiorna di conseguenza un punteggio",
+      "ja": "スコアを適宜更新する",
+      "ko": "점수를 적절히 업데이트",
+      "pl": "Aktualizuj wynik odpowiednio",
+      "pt": "Atualizar uma pontuação de acordo",
+      "th": "อัปเดตคะแนนตามนั้น",
+      "ru": "Обновите счет соответственно",
+      "sl": "Posodobite rezultat ustrezno",
+      "sq": "Përditësoni një rezultat në përputhje me rrethanat",
+      "uk": "Відповідно оновлюйте оцінку",
+      "zh": "相应地更新分数"
     }
   ],
   "editorSwitches": {
