@@ -1,5 +1,5 @@
 {
-    "id": "TopDownRPGMovement",
+    "id": "topDownRPGMovement",
     "titleByLocale": {
       "en": "Let's make a Top-Down RPG game"
     },
@@ -14,14 +14,14 @@
     "editorSwitches": {
       "Start": {
         "editor": "Scene",
-        "scene": "Overworld"
+        "scene1": "Overworld"
       }
     },
     "availableLocales": [
       "en"
     ],
     "initialProjectData": {
-      "Player": "Player",
+      "player": "Player",
       "scene1": "Overworld"
     },
     "flow": [
@@ -79,7 +79,7 @@
             "expectedValue": "1700",
             "description": {
               "messageByLocale": {
-                "en": "Let's update the max speed to **100**, so the player can move faster."
+                "en": "Let's update the max speed to **100**, so the player can move slightly slower."
               }
             }
           },
@@ -104,12 +104,12 @@
         ],
         "objectHighlightDescription": {
           "messageByLocale": {
-            "en": "Let's add movement to our player with the help of a **behavior**.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**."
+            "en": "Let's add movement to our player with the help of the Top-down movement **behavior**.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**."
           }
         },
         "objectHighlightTouchDescription": {
           "messageByLocale": {
-            "en": "Let's add movement to our player with the help of a **behavior**.\n\nSelect, then long press on **$(player)**, then select **Edit behaviors**."
+            "en": "Let's add movement to our player with the help of the Top-down movement **behavior**.\n\nSelect, then long press on **$(player)**, then select **Edit behaviors**."
           }
         },
         "finishedConfigurationDescription": {
