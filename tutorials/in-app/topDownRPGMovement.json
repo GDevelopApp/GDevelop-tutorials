@@ -27,38 +27,6 @@
     "flow": [
       {
         "id": "Start",
-        "nextStepTrigger": {
-          "clickOnTooltipButton": {
-            "messageByLocale": {
-              "en": "Let's go!",
-              "fr": "C'est parti !",
-              "ar": "لنبدأ!",
-              "de": "Los geht's!",
-              "es": "¡Vamos!",
-              "it": "Andiamo!",
-              "ja": "さあ、始めましょう！",
-              "ko": "출발!",
-              "pl": "Zaczynamy!",
-              "pt": "Vamos lá!",
-              "ru": "Поехали!",
-              "sl": "Gremo!",
-              "sq": "Hajde shkojme!",
-              "th": "ไปกันเลย!",
-              "uk": "Почнемо!",
-              "zh": "让我们开始吧！"
-            }
-          }
-        },
-        "tooltip": {
-          "standalone": true,
-          "description": {
-            "messageByLocale": {
-              "en": "This game is a platformer, where you have to get the character to the goal button, while avoiding the red objects.\n\nBut it's not finished yet, so let's complete it!"
-            }
-          }
-        }
-      },
-      {
         "metaKind": "launch-preview",
         "nextStep": "previewLaunched",
         "description": {
