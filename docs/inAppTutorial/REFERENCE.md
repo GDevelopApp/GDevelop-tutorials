@@ -124,7 +124,9 @@ At the moment, only one trigger can be specified to go the next step. Here is th
 - `presenceOfElement` (string): the CSS selector of an element present in the DOM or a custom selector
 - `absenceOfElement` (string): the CSS selector of an element absent from the DOM or a custom selector
 - `valueHasChanged` (true): the CSS selector of an input whose value has changed
-- `valueEquals` (string): the CSS selector of an input whose value is equal to the string (even for numbers, it has to be a string, ex: "2")
+- `valueEquals` (string | boolean): the CSS selector of an input whose value is equal to the string:
+  - for numbers, it has to be a string (ex: "2")
+  - for booleans (checkboxes), use booleans (ex: true)
 - `objectAddedInLayout` (true): an object has been added to the scene (from scratch, duplication or the asset store)
 - `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene
   - `instancesCount` (number): the number of instances that should be present on the scene (to be used with `instanceAddedOnScene`)
