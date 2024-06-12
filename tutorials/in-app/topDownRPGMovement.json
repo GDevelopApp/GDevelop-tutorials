@@ -85,18 +85,16 @@
           },
           {
             "parameterId": "#AllowDiagonals",
+            "expectedValue": "false",
             "description": {
               "messageByLocale": {
                 "en": "Uncheck this case, so the player can move only on x and y axis."
               }
-            },
-            "nextStepTrigger": {
-              "valueHasChanged": true
             }
           },
           {
             "parameterId": "#RotateObject",
-            "valueHasChanged": false,
+            "valueHasChanged": true,
             "description": {
               "messageByLocale": {
                 "en": "Uncheck this case, this way the player wont rotate to the direction you're moving to."
