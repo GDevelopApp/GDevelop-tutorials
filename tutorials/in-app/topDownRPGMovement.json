@@ -1,0 +1,253 @@
+{
+    "id": "TopDownRPGMovement",
+    "titleByLocale": {
+      "en": "Let's make a Top-Down RPG game"
+    },
+    "bulletPointsByLocale": [
+      {
+        "en": "Use a behavior to control a top-down character."
+      },
+      {
+        "en": "Use another behavior for the pixel perfect movement ."
+      }
+    ],
+    "editorSwitches": {
+      "Start": {
+        "editor": "Scene",
+        "scene": "Overworld"
+      }
+    },
+    "availableLocales": [
+      "en"
+    ],
+    "initialProjectData": {
+      "Player": "Player",
+      "scene1": "Overworld"
+    },
+    "flow": [
+      {
+        "id": "Start",
+        "metaKind": "launch-preview",
+        "nextStep": "previewLaunched",
+        "description": {
+          "messageByLocale": {
+            "en": "This game is for that classic pixel perfect rpg style movement system, the game have ready some camera boundaries and an end screen when the player walks in to the house. Let's see the current game state.\n\nClick on the **preview** button to play."
+          }
+        }
+      },
+      {
+        "tooltip": {
+          "standalone": true,
+          "description": {
+            "messageByLocale": {
+              "en": "The player cannot move yet, the behavior Top-down movement is missing on the **$(player)** object.\n\nLet's add it."
+            }
+          }
+        },
+        "nextStepTrigger": {
+          "clickOnTooltipButton": {
+            "messageByLocale": {
+              "en": "Next",
+              "fr": "Suivant",
+              "ar": "التالي",
+              "de": "Weiter",
+              "es": "Siguiente",
+              "it": "Avanti",
+              "ja": "次へ",
+              "ko": "다음",
+              "pl": "Następny",
+              "pt": "Próximo",
+              "th": "ถัดไป",
+              "ru": "Далее",
+              "sl": "Naprej",
+              "sq": "Tjetër",
+              "uk": "Далі",
+              "zh": "下一个"
+            }
+          }
+        }
+      },
+      {
+        "metaKind": "add-behavior",
+        "objectKey": "player",
+        "behaviorListItemId": "#behavior-item-TopDownMovementBehavior--TopDownMovementBehavior",
+        "behaviorParameterPanelId": "#behavior-parameters-TopDownMovement",
+        "behaviorDisplayName": "Top-down movement",
+        "parameters": [
+          {
+            "parameterId": "#MaxSpeed",
+            "expectedValue": "1700",
+            "description": {
+              "messageByLocale": {
+                "en": "Let's update the max speed to **100**, so the player can move faster."
+              }
+            }
+          },
+          {
+            "parameterId": "#AllowDiagonals",
+            "valueHasChanged": false,
+            "description": {
+              "messageByLocale": {
+                "en": "Uncheck this case, so the player can move only on x and y axis."
+              }
+            }
+          },
+          {
+            "parameterId": "#RotateObject",
+            "valueHasChanged": false,
+            "description": {
+              "messageByLocale": {
+                "en": "Uncheck this case, this way the player wont rotate to the direction you're moving to."
+              }
+            }
+          }
+        ],
+        "objectHighlightDescription": {
+          "messageByLocale": {
+            "en": "Let's add movement to our player with the help of a **behavior**.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**."
+          }
+        },
+        "objectHighlightTouchDescription": {
+          "messageByLocale": {
+            "en": "Let's add movement to our player with the help of a **behavior**.\n\nSelect, then long press on **$(player)**, then select **Edit behaviors**."
+          }
+        },
+        "finishedConfigurationDescription": {
+          "messageByLocale": {
+            "en": "That's it! Now the player can move on both axis, like in Pokemon!"
+          }
+        }
+      },
+      {
+        "metaKind": "launch-preview",
+        "nextStep": {
+          "clickOnTooltipButton": {
+            "messageByLocale": {
+              "en": "Next",
+              "fr": "Suivant",
+              "ar": "التالي",
+              "de": "Weiter",
+              "es": "Siguiente",
+              "it": "Avanti",
+              "ja": "次へ",
+              "ko": "다음",
+              "pl": "Następny",
+              "pt": "Próximo",
+              "th": "ถัดไป",
+              "ru": "Далее",
+              "sl": "Naprej",
+              "sq": "Tjetër",
+              "uk": "Далі",
+              "zh": "下一个"
+            }
+          }
+        },
+        "description": {
+          "messageByLocale": {
+            "en": "If you are previewing the game now the player can move on two axis.\n\nBut the player movement isn't pixel perfect yet.\nLet's add a new behavior for this use to the **$(player)**."
+          }
+        }
+      },
+      {
+        "metaKind": "add-behavior",
+        "objectKey": "player",
+        "behaviorListItemId": "#behavior-item-PixelPerfectMovement--PixelPerfectTopDownMovement",
+        "behaviorParameterPanelId": "#behavior-parameters-PixelPerfectTopDownMovement",
+        "behaviorDisplayName": "Pixel perfect top-down movement",
+        "parameters": [],
+        "objectHighlightDescription": {
+          "messageByLocale": {
+            "en": "Open this object to be able to add the Pixel perfect top-down movement **behavior** on it.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**."
+          }
+        },
+        "objectHighlightTouchDescription": {
+          "messageByLocale": {
+            "en": "Open this object to be able to add the Pixel perfect top-down movement **behavior** on it.\n\nSelect, then long press on **$(player)**, then select **Edit behaviors**."
+          }
+        },
+        "finishedConfigurationDescription": {
+          "messageByLocale": {
+            "en": "That's it! Now the player can move and be aligned with the pixel grid and all other pixel art elements of the game."
+          }
+        }
+      },
+      {
+        "metaKind": "launch-preview",
+        "nextStep": "previewLaunched",
+        "description": {
+          "messageByLocale": {
+            "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button."
+          }
+        }
+      }
+    ],
+    "endDialog": {
+      "content": [
+        {
+          "messageByLocale": {
+            "en": "# You've finished this lesson!",
+            "fr": "# Vous avez terminé cette leçon !",
+            "ar": "# لقد انتهيت من هذا الدرس!",
+            "de": "# Du hast diese Lektion abgeschlossen!",
+            "es": "# ¡Has terminado esta lección!",
+            "it": "# Hai completato questa lezione!",
+            "ja": "# このレッスンは終了しました！",
+            "ko": "# 이 레슨을 마쳤습니다!",
+            "pl": "# Zakończyłeś tę lekcję!",
+            "pt": "# Você terminou esta lição!",
+            "th": "# คุณได้เสร็จสิ้นบทเรียนนี้แล้ว!",
+            "ru": "# Вы завершили это урок!",
+            "sl": "# Dokončali ste ta pouk!",
+            "sq": "# Keni përfunduar këtë mësim!",
+            "uk": "# Ви завершили цей урок!",
+            "zh": "# 你已完成本课程！"
+          }
+        },
+        {
+          "messageByLocale": {
+            "en": "Well done, in this tutorial you've learned how to:",
+            "fr": "Bien joué, dans ce tutoriel vous avez appris comment :",
+            "ar": "أحسنت، في هذا الدرس التعليمي تعلمت كيفية :",
+            "de": "Gut gemacht, in diesem Tutorial haben Sie gelernt, wie Sie:",
+            "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+            "it": "Ben fatto, in questo tutorial hai imparato come:",
+            "ja": "お疲れ様です、このチュートリアルでは以下の方法を学びました：",
+            "ko": "잘 했어요, 이 튜토리얼에서는 다음을 배웠습니다:",
+            "pl": "Dobrze wykonane, w tym samouczku nauczyłeś się, jak:",
+            "pt": "Bem feito, neste tutorial você aprendeu como:",
+            "th": "เก่งมาก เรียนรู้วิธีทำดังนี้ในบทแนะนำนี้",
+            "ru": "Отлично сработано, в этом учебнике вы узнали, как:",
+            "sl": "Dobro opravljeno, v tem vadnem programu ste se naučili, kako:",
+            "sq": "Mirë, në këtë udhëzues keni mësuar si të:",
+            "uk": "Добре зроблено, у цьому підручнику ви вивчили, як:",
+            "zh": "干得好，在这个教程中，您学会了如何："
+          }
+        },
+        {
+          "messageByLocale": {
+            "en": "- How to control a player with a top-down behaviors\n\n- How to make the top-down player movement pixel perfect"
+          }
+        },
+        {
+          "messageByLocale": {
+            "en": "You can keep adding stuff to this game or publish it!",
+            "fr": "Vous pouvez continuer à ajouter des éléments à ce jeu ou le publier !",
+            "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+            "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
+            "es": "¡Puedes seguir añadiendo cosas a este juego o publicarlo!",
+            "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+            "ja": "このゲームにさらに要素を追加するか、それを公開することができます！",
+            "ko": "이 게임에 계속해서 새로운 요소를 추가하거나 게임을 게시할 수 있습니다!",
+            "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
+            "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+            "th": "คุณสามารถเพิ่มสิ่งต่างๆในเกมนี้ต่อได้หรือตีพิมพ์!",
+            "ru": "Вы можете продолжать добавлять вещи в эту игру или опубликовать ее!",
+            "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+            "sq": "Mund të vazhdoni të shtoni gjëra në këtë lojë ose ta publikoni atë!",
+            "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+            "zh": "您可以继续添加内容到这个游戏中或发布它！"
+          }
+        }
+      ]
+    }
+  }
