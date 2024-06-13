@@ -1,0 +1,510 @@
+{
+  "id": "topDownRPGMovement",
+  "titleByLocale": {
+    "en": "Let's make a Top-Down RPG game"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Use a behavior to control a top-down character.",
+      "fr": "Utilisez un comportement pour contrôler un personnage de haut en bas.",
+      "ar": "استخدم سلوكًا للتحكم في شخصية من الأعلى إلى الأسفل.",
+      "de": "Verwenden Sie ein Verhalten, um eine Top-Down-Figur zu steuern.",
+      "es": "Utilice un comportamiento para controlar un personaje desde arriba hacia abajo.",
+      "it": "Usa un comportamento per controllare un personaggio top-down.",
+      "ja": "トップダウンキャラクターを制御するための行動を使用します。",
+      "ko": "탑다운 캐릭터를 제어하기 위한 동작을 사용하십시오.",
+      "pl": "Użyj zachowania do kontrolowania postaci z góry na dół.",
+      "pt": "Use um comportamento para controlar um personagem de cima para baixo.",
+      "th": "ใช้พฤติกรรมเพื่อควบคุมตัวละครแบบ top-down",
+      "ru": "Используйте поведение для управления персонажем сверху вниз.",
+      "sl": "Uporabite vedenje za nadzor lika od zgoraj navzdol.",
+      "sq": "Përdorni një sjellje për të kontrolluar një personazh nga lart-dhe-poshtë.",
+      "uk": "Використовуйте поведінку для управління персонажем зверху донизу.",
+      "zh": "使用一种行为来控制自上而下的角色。"
+    },
+    {
+      "en": "Use another behavior for the pixel perfect movement.",
+      "fr": "Utilisez un autre comportement pour le mouvement pixel parfait.",
+      "ar": "استخدم سلوكًا آخر للحركة المثالية بالبكسل.",
+      "de": "Verwenden Sie ein weiteres Verhalten für die pixelgenaue Bewegung.",
+      "es": "Utiliza otro comportamiento para el movimiento perfecto por píxeles.",
+      "it": "Usa un altro comportamento per il movimento perfetto a livello di pixel.",
+      "ja": "ピクセル完璧な移動のために別の行動を使用します。",
+      "ko": "픽셀 완벽한 움직임을 위해 다른 동작을 사용하십시오.",
+      "pl": "Użyj innego zachowania do idealnego ruchu pikselowego.",
+      "pt": "Use outro comportamento para o movimento perfeito por pixels.",
+      "th": "ใช้พฤติกรรมอื่นสำหรับการเคลื่อนที่ที่ละเอียดพิกเซล",
+      "ru": "Используйте другое поведение для пиксельно точного движения.",
+      "sl": "Uporabite drugo vedenje za gibanje z natančnostjo na pike.",
+      "sq": "Përdorni një sjellje tjetër për lëvizjen perfekte me piksel.",
+      "uk": "Використовуйте інше поведінку для піксельно точного руху.",
+      "zh": "使用另一种行为进行像素完美的移动。"
+    }
+  ],
+  "editorSwitches": {
+    "Start": {
+      "editor": "Scene",
+      "scene1": "Overworld"
+    }
+  },
+  "availableLocales": [
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "ru",
+    "sl",
+    "sq",
+    "uk",
+    "zh"
+  ],
+  "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/topDownRPGMovement/game.json",
+  "initialProjectData": {
+    "player": "Player",
+    "scene1": "Overworld"
+  },
+  "flow": [
+    {
+      "id": "Start",
+      "metaKind": "launch-preview",
+      "nextStep": "previewLaunched",
+      "description": {
+        "messageByLocale": {
+          "en": "This game is for that classic pixel perfect RPG style movement system, the game has already set up some camera boundaries and an end screen when the player walks into the house. Let's see the current game state.\n\nClick on the **preview** button to play.",
+          "fr": "Ce jeu est destiné à ce système de mouvement classique de style RPG pixel parfait, le jeu a déjà configuré certaines limites de caméra et un écran de fin lorsque le joueur entre dans la maison. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **Aperçu** pour jouer.",
+          "ar": "هذه اللعبة مخصصة لنظام حركة ألعاب الأدوار الكلاسيكية المثالي بالبكسل، اللعبة قد وضعت بالفعل بعض حدود الكاميرا وشاشة نهاية عندما يدخل اللاعب إلى المنزل. دعونا نرى حالة اللعبة الحالية.\n\nانقر على زر **معاينة** للعب.",
+          "de": "Dieses Spiel ist für das klassische pixelgenaue RPG-Stil-Bewegungssystem gedacht. Das Spiel hat bereits einige Kameragrenzen und einen Endbildschirm eingerichtet, wenn der Spieler ins Haus geht. Lassen Sie uns den aktuellen Spielstand sehen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
+          "es": "Este juego está diseñado para el clásico sistema de movimiento estilo RPG pixel perfecto. El juego ya tiene configurados algunos límites de cámara y una pantalla final cuando el jugador entra en la casa. Veamos el estado actual del juego.\n\nHaz clic en el botón **Vista previa** para jugar.",
+          "it": "Questo gioco è pensato per il classico sistema di movimento stile RPG pixel perfetto, il gioco ha già impostato alcuni limiti della telecamera e una schermata di fine quando il giocatore entra nella casa. Vediamo lo stato attuale del gioco.\n\nFai clic sul pulsante **Anteprima** per giocare.",
+          "ja": "このゲームはクラシックなピクセル完璧なRPGスタイルの移動システムに向けており、プレイヤーが家に入るときにカメラの境界やエンド画面がすでに設定されています。現在のゲームの状態を見てみましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。",
+          "ko": "이 게임은 클래식 픽셀 완벽한 RPG 스타일의 움직임 시스템을 위한 것입니다. 게임은 이미 플레이어가 집으로 들어갈 때 일부 카메라 경계와 종료 화면을 설정했습니다. 현재 게임 상태를 확인해 봅시다.\n\n**미리보기** 버튼을 클릭하여 플레이하세요.",
+          "pl": "Ta gra jest przeznaczona dla klasycznego systemu ruchu stylu RPG pixel perfect. Gra już ustawiła pewne granice kamery i ekran końcowy, gdy gracz wchodzi do domu. Zobaczmy obecny stan gry.\n\nKliknij przycisk **Podgląd**, aby zagrać.",
+          "pt": "Este jogo é para aquele sistema clássico de movimento estilo RPG pixel perfecto. O jogo já tem algumas fronteiras de câmera configuradas e uma tela final quando o jogador entra na casa. Vamos ver o estado atual do jogo.\n\nClique no botão **pré-visualização** para jogar.",
+          "th": "เกมนี้เหมาะสำหรับระบบการเคลื่อนที่แบบ pixel perfect สไตล์ RPG คลาสสิค และเกมได้ตั้งค่าขอบเขตกล้องบางอย่างและหน้าจอจบเมื่อผู้เล่นเดินเข้าบ้านแล้ว มาดูสถานะปัจจุบันของเกมกันเถอะ\n\nคลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+          "ru": "Эта игра предназначена для классической системы движения в стиле RPG с идеальной точностью пикселей, игра уже установила некоторые границы камеры и экран завершения, когда игрок заходит в дом. Давайте посмотрим на текущее состояние игры.\n\nНажмите кнопку **Предварительный просмотр**, чтобы начать игру.",
+          "sl": "Ta igra je namenjena klasičnemu sistem gibanja v slogu RPG s popolno natančnostjo pikslov, igra je že nastavila nekatere meje kamere in končni zaslon, ko igralec vstopi v hišo. Poglejmo trenutno stanje igre.\n\nKliknite gumb **Predogled**, da začnete igrati.",
+          "sq": "Kjo lojë është për atë sistem lëvizjeje të stilit klasik pixel perfect RPG, loja tashmë ka vendosur disa kufij kamerash dhe një ekran fundor kur lojtari hyen në shtëpi. Le të shohim gjendjen aktuale të lojës.\n\nKliko në butonin **Parashikimi** për të luajtur.",
+          "uk": "Ця гра призначена для класичної системи руху у стилі RPG з ідеальною точністю пікселів, гра вже встановила деякі межі камери та екран завершення, коли гравець заходить в будинок. Давайте подивимося на поточний стан гри.\n\nНатисніть кнопку **Попередній перегляд**, щоб почати гру.",
+          "zh": "这款游戏适用于经典的像素完美 RPG 风格移动系统，当玩家走进房子时，游戏已经设置了一些摄像机边界和结束画面。让我们看看当前游戏状态。\n\n点击 **预览** 按钮开始游戏。"
+        }
+      }
+    },
+    {
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "The player cannot move yet because the **Top-down movement** behavior is missing on the **$(player)** object.\n\nLet's add it.",
+            "fr": "Le joueur ne peut pas encore se déplacer car le comportement **Mouvement haut-bas** est manquant sur l'objet **$(player)**.\n\nAjoutons-le.",
+            "ar": "اللاعب لا يمكنه التحرك بعد لأن السلوك **الحركة من الأعلى إلى الأسفل** مفقود على كائن **$(player)**.\n\nلنضيفه.",
+            "de": "Der Spieler kann sich noch nicht bewegen, weil das Verhalten **Top-down movement** am Objekt **$(player)** fehlt.\n\nLass es uns hinzufügen.",
+            "es": "El jugador aún no puede moverse porque falta el comportamiento de **Movimiento de arriba hacia abajo** en el objeto **$(player)**.\n\nVamos a añadirlo.",
+            "it": "Il giocatore non può ancora muoversi perché manca il comportamento **Movimento dall'alto verso il basso** sull'oggetto **$(player)**.\n\nAggiungiamolo.",
+            "ja": "**$(player)**オブジェクトに**Top-down movement**の動作が不足しているため、プレイヤーはまだ移動できません。\n\n追加しましょう。",
+            "ko": "**$(player)** 객체에서 **Top-down movement** 동작이 누락되어 플레이어가 아직 움직일 수 없습니다.\n\n추가해 보겠습니다.",
+            "pl": "Gracz nie może się jeszcze poruszać, ponieważ brakuje zachowania **Ruchu góra-dół** na obiekcie **$(player)**.\n\nDodajmy je.",
+            "pt": "O jogador ainda não pode se mover porque o comportamento **Movimento de cima para baixo** está faltando no objeto **$(player)**.\n\nVamos adicioná-lo.",
+            "th": "ผู้เล่นยังไม่สามารถเคลื่อนที่ได้เนื่องจากขาดการกระทำ **การเคลื่อนที่จากด้านบนลงด้านล่าง** บนวัตถุ **$(player)**\n\nเรามาเพิ่มมันดูกัน",
+            "ru": "Игрок пока не может двигаться, потому что поведение **Движение сверху вниз** отсутствует на объекте **$(player)**.\n\nДобавим его.",
+            "sl": "Igralec se še ne more premikati, ker manjka vedenje **Gibanje od zgoraj navzdol** na predmetu **$(player)**.\n\nDodajmo ga.",
+            "sq": "Lojtari nuk mund të lëvizë ende sepse mungon sjellja **Lëvizja nga lart-dheun** në objektin **$(player)**.\n\nTa shtojmë atë.",
+            "uk": "Гравець ще не може рухатися, оскільки відсутнє поведінка **Рух зверху вниз** на об'єкті **$(player)**.\n\nДавайте додамо його.",
+            "zh": "玩家尚无法移动，因为**$(player)**对象上缺少**Top-down movement**行为。\n\n让我们添加它。"
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Let's go!",
+            "fr": "C'est parti !",
+            "ar": "لنبدأ!",
+            "de": "Los geht's!",
+            "es": "¡Vamos!",
+            "it": "Andiamo!",
+            "ja": "さあ、始めましょう！",
+            "ko": "출발!",
+            "pl": "Zaczynamy!",
+            "pt": "Vamos lá!",
+            "ru": "Поехали!",
+            "sl": "Gremo!",
+            "sq": "Hajde shkojme!",
+            "th": "ไปกันเลย!",
+            "uk": "Почнемо!",
+            "zh": "让我们开始吧！"
+          }
+        }
+      }
+    },
+    {
+      "metaKind": "add-behavior",
+      "objectKey": "player",
+      "isOnClosableDialog": true,
+      "behaviorListItemId": "#behavior-item-TopDownMovementBehavior--TopDownMovementBehavior",
+      "behaviorParameterPanelId": "#behavior-parameters-TopDownMovement",
+      "objectHighlightDescription": {
+        "messageByLocale": {
+          "en": "Let's add movement to our $(player) with the help of the **Top-down movement** behavior.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
+          "fr": "Ajoutons du mouvement à notre $(player) avec l'aide du comportement **Mouvement haut-bas**.\n\nCliquez sur le menu des 3 points, ou faites un clic droit sur **$(player)**, puis sélectionnez **Modifier les comportements**.",
+          "ar": "لنضيف الحركة إلى $(player) الخاص بنا بمساعدة سلوك **الحركة من الأعلى إلى الأسفل**.\n\nانقر على قائمة النقاط الثلاثة، أو انقر بزر الماوس الأيمن فوق **$(player)**، وحدد **تحرير السلوك**.",
+          "de": "Lassen Sie uns mit Hilfe des **Top-down movement**-Verhaltens Bewegung zu unserem $(player) hinzufügen.\n\nKlicken Sie auf das Menü mit den 3 Punkten oder klicken Sie mit der rechten Maustaste auf **$(player)** und wählen Sie **Verhalten bearbeiten** aus.",
+          "es": "Añadamos movimiento a nuestro $(player) con la ayuda del comportamiento **Movimiento de arriba hacia abajo**.\n\nHaz clic en el menú de los 3 puntos, o haz clic derecho en **$(player)** y selecciona **Editar comportamientos**.",
+          "it": "Aggiungiamo del movimento al nostro $(player) con l'aiuto del comportamento **Movimento dall'alto verso il basso**.\n\nFai clic sul menu a 3 punti, o fai clic destro su **$(player)** e seleziona **Modifica comportamenti**.",
+          "ja": " **Top-down movement**動作の助けを借りて、$(player)に動きを追加しましょう。\n\n3点メニューをクリックするか、$(player)を右クリックし、「動作の編集」を選択します。",
+          "ko": " **Top-down movement** 동작을 사용하여 $(player)에 움직임을 추가해 봅시다.\n\n3 점 메뉴를 클릭하거나 $(player)를 마우스 오른쪽 버튼으로 클릭한 다음 **동작 편집**을 선택하세요.",
+          "pl": "Dodajmy ruch do naszego $(player) przy pomocy zachowania **Ruchu góra-dół**.\n\nKliknij menu trzech kropek lub kliknij prawym przyciskiem myszy na **$(player)** i wybierz **Edytuj zachowania**.",
+          "pt": "Vamos adicionar movimento ao nosso $(player) com a ajuda do comportamento **Movimento de cima para baixo**.\n\nClique no menu de 3 pontos, ou clique com o botão direito em **$(player)** e selecione **Editar comportamentos**.",
+          "th": "เพิ่มการเคลื่อนที่ให้กับ $(player) ของเราด้วยการกระทำ **การเคลื่อนที่จากด้านบนลงด้านล่าง**.\n\nคลิกที่เมนู 3 จุด หรือคลิกขวาที่ **$(player)** แล้วเลือก **แก้ไขพฤติกรรม**.",
+          "ru": "Давайте добавим движение к нашему $(player) с помощью поведения **Движение сверху вниз**.\n\nНажмите на меню с тремя точками, или щелкните правой кнопкой мыши на **$(player)** и выберите **Редактировать поведение**.",
+          "sl": "Dodajmo gibanje našemu $(player) s pomočjo vedenja **Gibanje od zgoraj navzdol**.\n\nKliknite na meni s 3 pikami ali z desno miškino tipko kliknite na **$(player)** in izberite **Uredi vedenje**.",
+          "sq": "Le të shtojmë lëvizje në $(player) tonë me ndihmën e sjelljes **Lëvizja nga lart-dheun**.\n\nKlikoni në menynë e 3 pikave, ose klikoni me të djathtën në **$(player)** dhe zgjidhni **Redakto sjelljet**.",
+          "uk": "Додаймо рух до нашого $(player) за допомогою поведінки **Рух зверху вниз**.\n\nНатисніть на меню з трьома крапками або правою кнопкою миші на **$(player)** і виберіть **Редагувати поведінку**.",
+          "zh": "让我们通过**Top-down movement**行为为我们的$(player)添加移动。\n\n单击3个点的菜单，或右键单击**$(player)**，然后选择**编辑行为**。"
+        }
+      },
+      "objectHighlightTouchDescription": {
+        "messageByLocale": {
+          "en": "Let's add movement to our $(player) with the help of the **Top-down movement** behavior.\n\nSelect, then long press on **$(player)**, then select **Edit behaviors**.",
+          "fr": "Ajoutons du mouvement à notre $(player) avec l'aide du comportement **Mouvement haut-bas**.\n\nSélectionnez, puis appuyez longuement sur **$(player)**, puis sélectionnez **Modifier les comportements**.",
+          "ar": "لنضيف الحركة إلى $(player) مع مساعدة سلوك **الحركة من الأعلى إلى الأسفل**.\n\nحدد، ثم اضغط لفترة طويلة على **$(player)**، ثم اختر **تعديل السلوك**.",
+          "de": "Lassen Sie uns mit Hilfe des **Top-down movement**-Verhaltens Bewegung zu unserem $(player) hinzufügen.\n\nWählen Sie **$(player)** aus, drücken Sie lange darauf und wählen Sie dann **Verhalten bearbeiten** aus.",
+          "es": "Añadamos movimiento a nuestro $(player) con la ayuda del comportamiento **Movimiento de arriba hacia abajo**.\n\nSelecciona, luego mantén pulsado **$(player)**, y selecciona **Editar comportamientos**.",
+          "it": "Aggiungiamo movimento al nostro $(player) con l'aiuto del comportamento **Movimento dall'alto verso il basso**.\n\nSeleziona, quindi tieni premuto su **$(player)**, quindi seleziona **Modifica comportamenti**.",
+          "ja": "**Top-down movement**動作の助けを借りて、$(player)に動きを追加しましょう。\n\n選択して、**$(player)**を長押しし、次に**動作の編集**を選択します。",
+          "ko": "**Top-down movement** 동작을 사용하여 $(player)에 움직임을 추가해 봅시다.\n\n**$(player)**를 선택한 다음 길게 누르고 **동작 편집**을 선택하세요.",
+          "pl": "Dodajmy ruch do naszego $(player) przy pomocy zachowania **Ruchu góra-dół**.\n\nWybierz, następnie przytrzymaj **$(player)**, a następnie wybierz **Edytuj zachowania**.",
+          "pt": "Vamos adicionar movimento ao nosso $(player) com a ajuda do comportamento **Movimento de cima para baixo**.\n\nSelecione, então pressione e segure **$(player)**, e selecione **Editar comportamentos**.",
+          "th": "เพิ่มการเคลื่อนที่ให้กับ $(player) ด้วยการกระทำ **การเคลื่อนที่จากด้านบนลงด้านล่าง**\n\nเลือก แล้วกดค้างที่ **$(player)** จากนั้นเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Давайте добавим движение к нашему $(player) с помощью поведения **Движение сверху вниз**.\n\nВыберите, затем удерживайте нажатие на **$(player)**, затем выберите **Редактировать поведение**.",
+          "sl": "Dodajmo gibanje našemu $(player) s pomočjo vedenja **Gibanje od zgoraj navzdol**.\n\nIzberite, nato dolgo pritisnite na **$(player)**, nato pa izberite **Uredi vedenje**.",
+          "sq": "Le të shtojmë lëvizje në $(player) me ndihmën e sjelljes **Lëvizja nga lart-dheun**.\n\nZgjidh, pastaj shtypni gjatë në **$(player)**, pastaj zgjidhni **Redakto sjelljet**.",
+          "uk": "Додаймо рух до нашого $(player) за допомогою поведінки **Рух зверху вниз**.\n\nВиберіть, потім утримуйте натиск на **$(player)**, потім виберіть **Редагувати поведінку**.",
+          "zh": "让我们通过**Top-down movement**行为为我们的$(player)添加动作。\n\n选择，然后长按 **$(player)**，然后选择 **编辑行为**。"
+        }
+      },
+      "behaviorDisplayName": "**Top-down movement**",
+      "parameters": [
+        {
+          "parameterId": "#MaxSpeed",
+          "expectedValue": "100",
+          "description": {
+            "messageByLocale": {
+              "en": "Let's update the max speed to **100**, so the $(player) can move slightly slower.",
+              "fr": "Mettez à jour la vitesse maximale à **100**, afin que $(player) puisse se déplacer légèrement plus lentement.",
+              "ar": "دعونا نحدث السرعة القصوى إلى **100**، حتى يمكن لـ $(player) التحرك ببطء قليلاً.",
+              "de": "Aktualisieren wir die maximale Geschwindigkeit auf **100**, damit sich $(player) etwas langsamer bewegen kann.",
+              "es": "Actualicemos la velocidad máxima a **100**, para que $(player) pueda moverse un poco más lento.",
+              "it": "Aggiorniamo la velocità massima a **100**, così $(player) può muoversi leggermente più lentamente.",
+              "ja": "最大速度を**100**に更新して、$(player)が少し遅く移動できるようにしましょう。",
+              "ko": "최대 속도를 **100**으로 업데이트하여 $(player)이(가) 조금 더 느리게 이동할 수 있도록 합시다.",
+              "pl": "Zaktualizujmy maksymalną prędkość do **100**, aby $(player) mógł poruszać się nieco wolniej.",
+              "pt": "Vamos atualizar a velocidade máxima para **100**, para que $(player) possa se mover um pouco mais devagar.",
+              "th": "ปรับปรุงความเร็วสูงสุดเป็น **100** เพื่อให้ $(player) สามารถเคลื่อนที่ช้าลงเล็กน้อย",
+              "ru": "Обновим максимальную скорость до **100**, чтобы $(player) мог двигаться немного медленнее.",
+              "sl": "Posodobimo največjo hitrost na **100**, tako da se $(player) lahko premika nekoliko počasneje.",
+              "sq": "Le të përditësojmë shpejtësinë maksimale në **100**, kështu që $(player) mund të lëvizë pak më ngadalë.",
+              "uk": "Оновімо максимальну швидкість до **100**, щоб $(player) міг рухатися трохи повільніше.",
+              "zh": "让我们将最大速度更新为 **100**，这样 $(player) 可以稍微慢些移动。"
+            }
+          }
+        },
+        {
+          "parameterId": "#AllowDiagonals",
+          "expectedValue": false,
+          "description": {
+            "messageByLocale": {
+              "en": "Uncheck this case, so the $(player) can move only on x and y axis.",
+              "fr": "Décochez cette case pour que $(player) ne puisse se déplacer que sur les axes x et y.",
+              "ar": "قم بإلغاء تحديد هذه الحالة حتى يمكن لـ $(player) التحرك فقط على محاور x و y.",
+              "de": "Deaktivieren Sie dieses Kontrollkästchen, damit sich $(player) nur auf den x- und y-Achsen bewegen kann.",
+              "es": "Desmarca esta casilla para que $(player) solo pueda moverse en los ejes x e y.",
+              "it": "Deseleziona questa casella in modo che $(player) possa muoversi solo sugli assi x e y.",
+              "ja": "このケースのチェックを外して、$(player)がx軸とy軸のみで移動できるようにします。",
+              "ko": "이 상자의 체크를 해제하여 $(player)이(가) x 및 y 축에서만 이동할 수 있도록 합니다.",
+              "pl": "Odznacz to pole, aby $(player) mógł poruszać się tylko po osiach x i y.",
+              "pt": "Desmarque esta caixa para que $(player) possa se mover apenas nos eixos x e y.",
+              "th": "ยกเลิกการเลือกกล่องนี้เพื่อให้ $(player) สามารถเคลื่อนที่ได้เฉพาะแกน x และ y เท่านั้น",
+              "ru": "Снимите отметку с этого поля, чтобы $(player) мог двигаться только по осям x и y.",
+              "sl": "Odkljukajte to polje, da se $(player) lahko premika le po osi x in y.",
+              "sq": "Hiqni vlerën e kësaj rasti, kështu që $(player) mund të lëvizë vetëm në x dhe y ekuador.",
+              "uk": "Зніміть позначку з цього поля, щоб $(player) міг рухатися тільки по вісях x і y.",
+              "zh": "取消选中此框，以便 $(player) 只能在 x 和 y 轴上移动。"
+            }
+          }
+        },
+        {
+          "parameterId": "#RotateObject",
+          "expectedValue": false,
+          "description": {
+            "messageByLocale": {
+              "en": "Uncheck this box to prevent the $(player) from rotating in the direction you are moving.",
+              "fr": "Décochez cette case pour empêcher $(player) de tourner dans la direction où vous vous déplacez.",
+              "ar": "قم بإلغاء تحديد هذا المربع لمنع $(player) من التدوير في الاتجاه الذي تتحرك فيه.",
+              "de": "Deaktivieren Sie dieses Kontrollkästchen, um zu verhindern, dass sich $(player) in die Richtung dreht, in die Sie sich bewegen.",
+              "es": "Desmarca esta casilla para evitar que $(player) rote en la dirección en la que te estás moviendo.",
+              "it": "Desseleziona questa casella per impedire a $(player) di ruotare nella direzione in cui ti stai muovendo.",
+              "ja": "このボックスのチェックを外してください。そうすると、$(player) はあなたが移動している方向に回転しなくなります。",
+              "ko": "이 상자의 체크를 해제하면 $(player)이(가) 이동하는 방향으로 회전하지 않습니다.",
+              "pl": "Odznacz to pole, aby zapobiec obrotowi $(player) w kierunku, w którym się poruszasz.",
+              "pt": "Desmarque esta caixa para impedir que $(player) gire na direção em que você está se movendo.",
+              "th": "ยกเลิกการเลือกกล่องนี้เพื่อป้องกัน $(player) ไม่ให้หมุนในทิศทางที่คุณกำลังเคลื่อนที่",
+              "ru": "Снимите отметку с этого флажка, чтобы предотвратить вращение $(player) в направлении, куда вы двигаетесь.",
+              "sl": "Odkljukajte to polje, da preprečite, da bi se $(player) vrtel v smeri, v katero se premikate.",
+              "sq": "Hiqni vlerën e këtij kutie për të parandaluar $(player) nga të kthyerit në drejtimin në të cilin po lëvizni.",
+              "uk": "Зніміть позначку з цього поля, щоб запобігти обертанню $(player) в напрямку, в якому ви рухаєтеся.",
+              "zh": "取消选中此框，以防止 $(player) 在您移动的方向上旋转。"
+            }
+          }
+        }
+      ],
+      "finishedConfigurationDescription": {
+        "messageByLocale": {
+          "en": "That's it! Now the $(player) can move on both axis, like in Pokemon!",
+          "fr": "C'est tout ! Maintenant, $(player) peut se déplacer sur les deux axes, comme dans Pokémon !",
+          "ar": "!هذا كل شيء الآن يمكن $(player) أن يتحرك على كلا المحورين، مثل في بوكيمون",
+          "de": "Das ist es! Jetzt kann sich $(player) auf beiden Achsen bewegen, wie in Pokémon!",
+          "es": "¡Eso es! ¡Ahora $(player) puede moverse en ambos ejes, como en Pokémon!",
+          "it": "È tutto qui! Ora $(player) può muoversi su entrambi gli assi, come in Pokémon!",
+          "ja": "それでおしまい！今、$(player) はポケモンのように両軸で動けます！",
+          "ko": "이제 $(player)가 포켓몬처럼 양 축에서 움직일 수 있습니다!",
+          "pl": "To wszystko! Teraz $(player) może poruszać się na obu osiach, tak jak w Pokemonie!",
+          "pt": "É isso aí! Agora o $(player) pode se mover em ambos os eixos, como em Pokémon!",
+          "th": "เป็นอันเสร็จสิ้น! ตอนนี้ $(player) สามารถเคลื่อนที่ได้ทั้งสองแกนเหมือนในเกม Pokemon!",
+          "ru": "Это все! Теперь $(player) может двигаться по обеим осям, как в Покемоне!",
+          "sl": "To je to! Zdaj se lahko $(player) premika po obeh oseh, kot v Pokemonu!",
+          "sq": "Kështu është! Tani $(player) mund të lëvizë në të dyja boshtet, si në Pokemon!",
+          "uk": "Ось і все! Тепер $(player) може рухатися по обох вісях, як у Покемоні!",
+          "zh": "就是这样！现在 $(player) 可以像神奇宝贝一样在两个轴上移动了！"
+        }
+      }
+    },
+    {
+      "metaKind": "launch-preview",
+      "nextStep": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Avanti",
+            "ja": "次へ",
+            "ko": "다음",
+            "pl": "Następny",
+            "pt": "Próximo",
+            "th": "ถัดไป",
+            "ru": "Далее",
+            "sl": "Naprej",
+            "sq": "Tjetër",
+            "uk": "Далі",
+            "zh": "下一个"
+          }
+        }
+      },
+      "description": {
+        "messageByLocale": {
+          "en": "If you are previewing the game now the character can move on two axis.\n\nBut the movement isn't pixel perfect yet.\nLet's add a new behavior for this use to the **$(player)**.",
+          "fr": "Si vous prévisualisez le jeu maintenant, le personnage peut se déplacer sur deux axes.\n\nMais le mouvement n'est pas encore parfait au pixel près.\nAjoutons un nouveau comportement pour cet usage à **$(player)**.",
+          "ar": "إذا كنت تراجع اللعبة الآن، يمكن للشخصية التحرك على محورين.\n\nلكن الحركة ليست مثالية بالبيكسل بعد.\nدعونا نضيف سلوكًا جديدًا لهذا الاستخدام إلى **$(player)**.",
+          "de": "Wenn Sie das Spiel jetzt in der Vorschau anzeigen, kann sich der Charakter auf zwei Achsen bewegen.\n\nAber die Bewegung ist noch nicht pixelgenau.\nFügen wir eine neue Verhaltensweise für diesen Zweck zu **$(player)** hinzu.",
+          "es": "Si estás viendo la vista previa del juego ahora, el personaje puede moverse en dos ejes.\n\nPero el movimiento aún no es perfecto en píxeles.\nVamos a agregar un nuevo comportamiento para este uso a **$(player)**.",
+          "it": "Se stai visualizzando in anteprima il gioco ora, il personaggio può muoversi su due assi.\n\nMa il movimento non è ancora perfetto al pixel.\nAggiungiamo un nuovo comportamento per questo utilizzo a **$(player)**.",
+          "ja": "ゲームをプレビューしている場合、キャラクターは二軸で移動できます。\n\nしかし、動きはまだピクセルパーフェクトではありません。\nこのために新しい挙動を**$(player)**に追加しましょう。",
+          "ko": "게임을 미리 보기 중이라면 이제 캐릭터가 두 축에서 이동할 수 있습니다.\n\n하지만 움직임이 아직 픽셀 완벽하지 않습니다.\n이 용도를 위해 새로운 동작을 **$(player)**에 추가합시다.",
+          "pl": "Jeśli teraz podglądasz grę, postać może poruszać się na dwóch osiach.\n\nAle ruch nie jest jeszcze idealny co do piksela.\nDodajmy nowe zachowanie do tego użycia do **$(player)**.",
+          "pt": "Se você estiver visualizando o jogo agora, o personagem pode se mover em dois eixos.\n\nMas o movimento ainda não é perfeito em pixels.\nVamos adicionar um novo comportamento para esse uso ao **$(player)**.",
+          "th": "หากคุณกำลังดูตัวอย่างเกมอยู่ ตอนนี้ตัวละครสามารถเคลื่อนที่ได้ในสองแกน\n\nแต่การเคลื่อนไหวยังไม่สมบูรณ์แบบในระดับพิกเซล\nเพิ่มพฤติกรรมใหม่สำหรับการใช้งานนี้ใน **$(player)**",
+          "ru": "Если вы сейчас просматриваете игру, персонаж может двигаться по двум осям.\n\nНо движение пока не пиксельно точно.\nДавайте добавим новое поведение для этого к **$(player)**.",
+          "sl": "Če trenutno predogledujete igro, se lahko lik premika po dveh oseh.\n\nToda gibanje še ni natančno na ravni pikslov.\nDodajmo novo vedenje za to uporabo k **$(player)**.",
+          "sq": "Nëse jeni duke parë paraprakisht lojën, tani personazhi mund të lëvizë në dy akse.\n\nPor lëvizja nuk është ende perfekte me piksel.\nLe të shtojmë një sjellje të re për këtë përdorim tek **$(player)**.",
+          "uk": "Якщо ви переглядаєте гру зараз, персонаж може рухатися по двох осях.\n\nАле рух ще не є піксельно точним.\nДавайте додамо нову поведінку для цього до **$(player)**.",
+          "zh": "如果你现在正在预览游戏，角色可以在两个轴上移动。\n\n但移动尚未达到像素完美。\n让我们为此向**$(player)**添加一个新的行为。"
+        }
+      }
+    },
+    {
+      "metaKind": "add-behavior",
+      "objectKey": "player",
+      "behaviorListItemId": "#behavior-item-PixelPerfectMovement--PixelPerfectTopDownMovement",
+      "behaviorParameterPanelId": "#behavior-parameters-PixelPerfectTopDownMovement",
+      "behaviorDisplayName": "**Pixel perfect top-down movement**",
+      "parameters": [],
+      "objectHighlightDescription": {
+        "messageByLocale": {
+          "en": "Open this object to be able to add the **Pixel perfect top-down movement** behavior on it.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
+          "fr": "Ouvrez cet objet pour pouvoir ajouter le comportement **Mouvement parfait de haut en bas en pixels**.\n\nCliquez sur le menu à 3 points ou faites un clic droit sur **$(player)** et sélectionnez **Modifier les comportements**.",
+          "ar": "افتح هذا الكائن لتتمكن من إضافة سلوك **الحركة المثالية من أعلى إلى أسفل بالبيكسل** عليه.\n\nانقر على قائمة النقاط الثلاث، أو انقر بزر الماوس الأيمن على **$(player)**، ثم اختر **تعديل السلوكيات**.",
+          "de": "Öffnen Sie dieses Objekt, um das Verhalten **Pixelgenaue Top-Down-Bewegung** hinzuzufügen.\n\nKlicken Sie auf das 3-Punkte-Menü oder klicken Sie mit der rechten Maustaste auf **$(player)** und wählen Sie **Verhalten bearbeiten**.",
+          "es": "Abre este objeto para poder añadir el comportamiento **Movimiento perfecto de arriba hacia abajo en píxeles**.\n\nHaz clic en el menú de 3 puntos, o haz clic derecho en **$(player)** y selecciona **Editar comportamientos**.",
+          "it": "Apri questo oggetto per poter aggiungere il comportamento **Movimento perfetto dall'alto verso il basso in pixel**.\n\nFai clic sul menu a 3 punti o fai clic con il pulsante destro del mouse su **$(player)** e seleziona **Modifica comportamenti**.",
+          "ja": "このオブジェクトを開いて、**ピクセルパーフェクトなトップダウン移動**の挙動を追加します。\n\n3点メニューをクリックするか、**$(player)**を右クリックして、**動作を編集**を選択します。",
+          "ko": "이 오브젝트를 열어 **픽셀 완벽한 탑다운 움직임** 동작을 추가하세요.\n\n3점 메뉴를 클릭하거나 **$(player)**를 마우스 오른쪽 버튼으로 클릭하고 **동작 편집**을 선택하세요.",
+          "pl": "Otwórz ten obiekt, aby dodać zachowanie **Ruch z góry na dół z dokładnością do piksela**.\n\nKliknij menu z 3 kropkami lub kliknij prawym przyciskiem myszy na **$(player)** i wybierz **Edytuj zachowania**.",
+          "pt": "Abra este objeto para poder adicionar o comportamento **Movimento perfeito de cima para baixo em pixels**.\n\nClique no menu de 3 pontos, ou clique com o botão direito do mouse em **$(player)** e selecione **Editar comportamentos**.",
+          "th": "เปิดวัตถุนี้เพื่อเพิ่มพฤติกรรม **การเคลื่อนไหวแบบพิกเซลเพอร์เฟคจากบนลงล่าง**\n\nคลิกที่เมนูจุด 3 จุด หรือคลิกขวาที่ **$(player)** แล้วเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Откройте этот объект, чтобы добавить поведение **Пиксельно точное движение сверху вниз**.\n\nНажмите на меню из 3 точек или щелкните правой кнопкой мыши на **$(player)** и выберите **Редактировать поведение**.",
+          "sl": "Odprite ta predmet, da lahko dodate vedenje **Piksel natančno premikanje od zgoraj navzdol**.\n\nKliknite na meni s 3 pikami ali desni klik na **$(player)** in izberite **Uredi vedenje**.",
+          "sq": "Hapni këtë objekt për të shtuar sjelljen **Lëvizje e përkryer nga lart poshtë me piksel** mbi të.\n\nKlikoni në menunë me 3 pika, ose klikoni me të djathtën mbi **$(player)** dhe zgjidhni **Redakto sjelljet**.",
+          "uk": "Відкрийте цей об'єкт, щоб додати поведінку **Піксельно точний рух зверху вниз**.\n\nНатисніть на меню з 3 крапками або клацніть правою кнопкою миші на **$(player)** і виберіть **Редагувати поведінки**.",
+          "zh": "打开此对象，以便添加**像素级精确的俯视移动**行为。\n\n点击三点菜单，或右键单击**$(player)**，然后选择**编辑行为**。"
+        }
+      },
+      "objectHighlightTouchDescription": {
+        "messageByLocale": {
+          "en": "Open this object to be able to add the **Pixel perfect top-down movement** behavior on it.\n\nSelect, then long press on **$(player)**, then select **Edit behaviors**.",
+          "fr": "Ouvrez cet objet pour pouvoir ajouter le comportement **Mouvement parfait de haut en bas en pixels**.\n\nSélectionnez, puis appuyez longuement sur **$(player)**, puis sélectionnez **Modifier les comportements**.",
+          "ar": "افتح هذا الكائن لإضافة سلوك **حركة مثالية من أعلى إلى أسفل بالبيكسل** عليه.\n\nاختر ثم اضغط مطولًا على **$(player)**، ثم اختر **تعديل السلوكيات**.",
+          "de": "Öffnen Sie dieses Objekt, um das Verhalten **Pixelgenaue Top-Down-Bewegung** hinzuzufügen.\n\nWählen Sie, dann drücken Sie lange auf **$(player)**, und wählen Sie **Verhalten bearbeiten**.",
+          "es": "Abre este objeto para poder añadir el comportamiento de **Movimiento perfecto de arriba hacia abajo en píxeles**.\n\nSelecciona y luego mantén presionado **$(player)**, luego selecciona **Editar comportamientos**.",
+          "it": "Apri questo oggetto per poter aggiungere il comportamento **Movimento perfetto dall'alto verso il basso in pixel**.\n\nSeleziona, poi premi a lungo su **$(player)**, quindi seleziona **Modifica comportamenti**.",
+          "ja": "このオブジェクトを開いて、**ピクセルパーフェクトなトップダウン移動**の挙動を追加します。\n\n選択してから**$(player)**を長押しして、**動作を編集**を選択します。",
+          "ko": "이 오브젝트를 열어 **픽셀 완벽한 탑다운 움직임** 동작을 추가하세요.\n\n**$(player)**를 선택한 후 길게 눌러서 **동작 편집**을 선택하세요.",
+          "pl": "Otwórz ten obiekt, aby dodać zachowanie **Ruch z góry na dół z dokładnością do piksela**.\n\nWybierz, a następnie przytrzymaj **$(player)**, a potem wybierz **Edytuj zachowania**.",
+          "pt": "Abra este objeto para poder adicionar o comportamento **Movimento perfeito de cima para baixo em pixels**.\n\nSelecione, depois pressione e segure **$(player)**, em seguida selecione **Editar comportamentos**.",
+          "th": "เปิดวัตถุนี้เพื่อเพิ่มพฤติกรรม **การเคลื่อนไหวแบบพิกเซลเพอร์เฟคจากบนลงล่าง**\n\nเลือก จากนั้นกดค้างที่ **$(player)** จากนั้นเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Откройте этот объект, чтобы добавить поведение **Пиксельно точное движение сверху вниз**.\n\nВыберите, затем нажмите и удерживайте **$(player)**, затем выберите **Редактировать поведение**.",
+          "sl": "Odprite ta predmet, da lahko dodate vedenje **Piksel natančno premikanje od zgoraj navzdol**.\n\nIzberite, nato pritisnite in zadržite **$(player)**, nato izberite **Uredi vedenje**.",
+          "sq": "Hapni këtë objekt për të shtuar sjelljen **Lëvizje e përkryer nga lart poshtë me piksel** mbi të.\n\nZgjidhni dhe mbani shtypur **$(player)**, pastaj zgjidhni **Redakto sjelljet**.",
+          "uk": "Відкрийте цей об'єкт, щоб додати поведінку **Піксельно точний рух зверху вниз**.\n\nВиберіть, потім натисніть і утримуйте **$(player)**, потім виберіть **Редагувати поведінки**.",
+          "zh": "打开此对象，以便添加**像素级精确的俯视移动**行为。\n\n选择，然后长按**$(player)**，然后选择**编辑行为**。"
+        }
+      },
+      "finishedConfigurationDescription": {
+        "messageByLocale": {
+          "en": "That's it! Now the character can move and be aligned with the pixel grid and all other pixel art elements of the game.",
+          "fr": "Ça y est ! Maintenant, le personnage peut se déplacer et être aligné avec la grille de pixels et tous les autres éléments en pixel art du jeu.",
+          "ar": "هذا كل شيء! الآن يمكن للشخصية التحرك والتوافق مع شبكة البيكسل وجميع العناصر الفنية الأخرى للعبة.",
+          "de": "Das war's! Jetzt kann sich der Charakter bewegen und ist mit dem Pixelgitter und allen anderen Pixel-Art-Elementen des Spiels ausgerichtet.",
+          "es": "¡Eso es todo! Ahora el personaje puede moverse y alinearse con la cuadrícula de píxeles y todos los demás elementos de arte en píxeles del juego.",
+          "it": "Ecco fatto! Ora il personaggio può muoversi ed essere allineato con la griglia di pixel e tutti gli altri elementi di pixel art del gioco.",
+          "ja": "これで完了です！キャラクターはピクセルグリッドおよび他のすべてのピクセルアート要素に合わせて移動できるようになりました。",
+          "ko": "끝났습니다! 이제 캐릭터는 픽셀 그리드와 게임의 다른 모든 픽셀 아트 요소에 맞춰 움직일 수 있습니다.",
+          "pl": "To wszystko! Teraz postać może się poruszać i być wyrównana z siatką pikseli oraz wszystkimi innymi elementami pixel art w grze.",
+          "pt": "É isso aí! Agora o personagem pode se mover e se alinhar com a grade de pixels e todos os outros elementos de arte em pixels do jogo.",
+          "th": "เสร็จแล้ว! ตอนนี้ตัวละครสามารถเคลื่อนที่และจัดตำแหน่งตามตารางพิกเซลและองค์ประกอบศิลปะพิกเซลอื่นๆ ในเกมได้แล้ว",
+          "ru": "Вот и всё! Теперь персонаж может двигаться и быть выровненным по пиксельной сетке и всем другим пиксельным элементам игры.",
+          "sl": "To je to! Zdaj se lahko lik premika in je poravnan s pikselno mrežo in vsemi drugimi elementi pikselne umetnosti v igri.",
+          "sq": "Kjo është! Tani karakteri mund të lëvizë dhe të jetë i rreshtuar me rrjetën e pikselëve dhe të gjitha elementet e tjera të artit piksel të lojës.",
+          "uk": "Ось і все! Тепер персонаж може рухатися та бути вирівняним за піксельною сіткою та всіма іншими елементами піксельного арту гри.",
+          "zh": "就这样！现在角色可以移动并与像素网格和游戏的所有其他像素艺术元素对齐了。"
+        }
+      }
+    },
+    {
+      "metaKind": "launch-preview",
+      "nextStep": "previewLaunched",
+      "description": {
+        "messageByLocale": {
+          "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button.",
+          "fr": "Nous avons terminé !\nTestons notre jeu pour voir les changements que nous avons effectués !\n\nCliquez sur le bouton **Aperçu**.",
+          "ar": "لقد انتهينا!\nدعونا نختبر لعبتنا لنرى التغييرات التي قمنا بها!\n\nاضغط على زر **معاينة**.",
+          "de": "Wir sind fertig!\nLass uns unser Spiel testen, um die vorgenommenen Änderungen zu sehen!\n\nKlicken Sie auf die **Vorschau**-Taste.",
+          "es": "¡Hemos terminado!\nProbemos nuestro juego para ver los cambios que hemos hecho.\n\nHaz clic en el botón **Vista previa**.",
+          "it": "Abbiamo finito!\nTestiamo il nostro gioco per vedere i cambiamenti che abbiamo fatto!\n\nClicca sul pulsante **Anteprima**.",
+          "ja": "完了しました！\nゲームをテストして、行った変更を確認しましょう！\n\n**プレビュー**ボタンをクリックしてください。",
+          "ko": "우리가 끝냈습니다!\n변경 사항을 확인하기 위해 게임을 테스트해봅시다!\n\n**미리보기** 버튼을 클릭하세요.",
+          "pl": "Zrobione!\nPrzetestujmy naszą grę, aby zobaczyć wprowadzone zmiany!\n\nKliknij przycisk **Podgląd**.",
+          "pt": "Terminamos!\nVamos testar nosso jogo para ver as mudanças que fizemos!\n\nClique no botão **Pré-visualizar**.",
+          "th": "เสร็จแล้ว!\nลองทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำ!\n\nคลิกที่ปุ่ม **ดูตัวอย่าง**.",
+          "ru": "Мы закончили!\nДавайте протестируем нашу игру, чтобы увидеть внесенные изменения!\n\nНажмите кнопку **Предварительный просмотр**.",
+          "sl": "Končali smo!\nTestirajmo našo igro, da vidimo spremembe, ki smo jih naredili!\n\nKliknite gumb **Predogled**.",
+          "sq": "Mbaruam!\nLe të testojmë lojën tonë për të parë ndryshimet që kemi bërë!\n\nKlikoni butonin **Paraqitje**.",
+          "uk": "Ми завершили!\nДавайте протестуємо нашу гру, щоб побачити зроблені зміни!\n\nНатисніть кнопку **Попередній перегляд**.",
+          "zh": "完成了！\n让我们测试一下游戏，看看我们做了哪些更改！\n\n点击**预览**按钮。"
+        }
+      }
+    }
+  ],
+  "endDialog": {
+    "content": [
+      {
+        "messageByLocale": {
+          "en": "# You've finished this lesson!",
+          "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد انتهيت من هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
+          "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai completato questa lezione!",
+          "ja": "# このレッスンは終了しました！",
+          "ko": "# 이 레슨을 마쳤습니다!",
+          "pl": "# Zakończyłeś tę lekcję!",
+          "pt": "# Você terminou esta lição!",
+          "th": "# คุณได้เสร็จสิ้นบทเรียนนี้แล้ว!",
+          "ru": "# Вы завершили это урок!",
+          "sl": "# Dokončali ste ta pouk!",
+          "sq": "# Keni përfunduar këtë mësim!",
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你已完成本课程！"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "Well done, in this tutorial you've learned how to:",
+          "fr": "Bien joué, dans ce tutoriel vous avez appris comment :",
+          "ar": "أحسنت، في هذا الدرس التعليمي تعلمت كيفية :",
+          "de": "Gut gemacht, in diesem Tutorial haben Sie gelernt, wie Sie:",
+          "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+          "it": "Ben fatto, in questo tutorial hai imparato come:",
+          "ja": "お疲れ様です、このチュートリアルでは以下の方法を学びました：",
+          "ko": "잘 했어요, 이 튜토리얼에서는 다음을 배웠습니다:",
+          "pl": "Dobrze wykonane, w tym samouczku nauczyłeś się, jak:",
+          "pt": "Bem feito, neste tutorial você aprendeu como:",
+          "th": "เก่งมาก เรียนรู้วิธีทำดังนี้ในบทแนะนำนี้",
+          "ru": "Отлично сработано, в этом учебнике вы узнали, как:",
+          "sl": "Dobro opravljeno, v tem vadnem programu ste se naučili, kako:",
+          "sq": "Mirë, në këtë udhëzues keni mësuar si të:",
+          "uk": "Добре зроблено, у цьому підручнику ви вивчили, як:",
+          "zh": "干得好，在这个教程中，您学会了如何："
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "- How to control a player with a top-down behavior\n\n- How to make the top-down player movement pixel perfect",
+          "fr": "- Comment contrôler un joueur avec un comportement de haut en bas\n\n- Comment rendre le mouvement du joueur en vue de dessus parfait en pixels",
+          "ar": "- كيفية التحكم في لاعب بسلوك من أعلى إلى أسفل\n\n- كيفية جعل حركة اللاعب من الأعلى إلى الأسفل مثالية على مستوى البكسل",
+          "de": "- Wie man einen Spieler mit einem Top-Down-Verhalten steuert\n\n- Wie man die Bewegung des Top-Down-Spielers pixelgenau macht",
+          "es": "- Cómo controlar a un jugador con un comportamiento de vista superior\n\n- Cómo hacer que el movimiento del jugador en vista superior sea perfecto en píxeles",
+          "it": "- Come controllare un giocatore con un comportamento dall'alto verso il basso\n\n- Come rendere perfetto il movimento del giocatore dall'alto verso il basso pixel per pixel",
+          "ja": "- トップダウンの動作でプレイヤーを制御する方法\n\n- トップダウンプレイヤーの動きをピクセル単位で完璧にする方法",
+          "ko": "- 탑다운 행동으로 플레이어를 제어하는 방법\n\n- 탑다운 플레이어의 움직임을 픽셀 단위로 완벽하게 만드는 방법",
+          "pl": "- Jak kontrolować gracza z widokiem z góry\n\n- Jak sprawić, aby ruch gracza z widokiem z góry był idealny na poziomie pikseli",
+          "pt": "- Como controlar um jogador com um comportamento de visão de cima\n\n- Como tornar o movimento do jogador de cima perfeito em pixels",
+          "th": "- วิธีควบคุมผู้เล่นด้วยพฤติกรรมแบบมองจากด้านบน\n\n- วิธีทำให้การเคลื่อนไหวของผู้เล่นแบบมองจากด้านบนสมบูรณ์แบบพิกเซลต่อพิกเซล",
+          "ru": "- Как управлять игроком с поведением сверху вниз\n\n- Как сделать движение игрока сверху вниз пиксельно точным",
+          "sl": "- Kako nadzorovati igralca s pogledom od zgoraj navzdol\n\n- Kako narediti gibanje igralca od zgoraj navzdol piksel popolno",
+          "sq": "- Si të kontrolloni një lojtar me sjellje nga lart-poshtë\n\n- Si të bëni lëvizjen e lojtarit nga lart-poshtë piksel për piksel të përsosur",
+          "uk": "- Як керувати гравцем з поведінкою зверху вниз\n\n- Як зробити рух гравця зверху вниз ідеально точним",
+          "zh": "- 如何用俯视视角控制玩家\n\n- 如何使俯视视角玩家的移动达到像素级精度"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "You can keep adding stuff to this game or publish it!",
+          "fr": "Vous pouvez continuer à ajouter des éléments à ce jeu ou le publier !",
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+          "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
+          "es": "¡Puedes seguir añadiendo cosas a este juego o publicarlo!",
+          "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+          "ja": "このゲームにさらに要素を追加するか、それを公開することができます！",
+          "ko": "이 게임에 계속해서 새로운 요소를 추가하거나 게임을 게시할 수 있습니다!",
+          "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
+          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "th": "คุณสามารถเพิ่มสิ่งต่างๆในเกมนี้ต่อได้หรือตีพิมพ์!",
+          "ru": "Вы можете продолжать добавлять вещи в эту игру или опубликовать ее!",
+          "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+          "sq": "Mund të vazhdoni të shtoni gjëra në këtë lojë ose ta publikoni atë!",
+          "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+          "zh": "您可以继续添加内容到这个游戏中或发布它！"
+        }
+      }
+    ]
+  }
+}
