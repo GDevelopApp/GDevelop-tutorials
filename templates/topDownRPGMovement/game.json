@@ -483,7 +483,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -491,7 +491,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.4983515239813464,
         "windowMask": false
       },
@@ -3713,6 +3713,8 @@
         "mMR36hCjO5dlcYmhNSuVtcREM473"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [
         {
           "description": "Return the speed necessary to cover a distance according to the deceleration.",
@@ -5651,6 +5653,8 @@
         "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [
         {
           "description": "Check if a button is pressed on a gamepad.",
@@ -10369,6 +10373,8 @@
       ],
       "authorIds": [],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -12009,6 +12015,8 @@
         "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
