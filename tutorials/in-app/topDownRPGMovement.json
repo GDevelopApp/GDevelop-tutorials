@@ -65,6 +65,7 @@
     "uk",
     "zh"
   ],
+  "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/topDownRPGMovement/game.json",
   "initialProjectData": {
     "player": "Player",
     "scene1": "Overworld"
