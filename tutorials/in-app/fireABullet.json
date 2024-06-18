@@ -44,7 +44,11 @@
   "editorSwitches": {
     "Start": {
       "editor": "Scene",
-      "scene1": "PlayScene"
+      "scene": "PlayScene"
+    },
+    "SwitchToEvents1": {
+      "editor": "EventsSheet",
+      "scene": "PlayScene"
     }
   },
   "availableLocales": [
@@ -69,7 +73,7 @@
   "initialProjectData": {
     "player": "Player",
     "bullet": "Bullet",
-    "scene1": "PlayScene"
+    "PlayScene": "PlayScene"
   },
   "flow": [
     {
@@ -148,8 +152,8 @@
       "metaKind": "add-behavior",
       "objectKey": "player",
       "isOnClosableDialog": true,
-      "behaviorListItemId": "#behavior-item-TopDownMovementBehavior--TopDownMovementBehavior",
-      "behaviorParameterPanelId": "#behavior-parameters-TopDownMovement",
+      "behaviorListItemId": "#behavior-item-FireBullet--FireBullet",
+      "behaviorParameterPanelId": "#behavior-parameters-FireBullet",
       "objectHighlightDescription": {
         "messageByLocale": {
           "en": "Let's add the capability for our $(player) to shoot with the help of the **Fire Bullet** behavior.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
@@ -190,10 +194,10 @@
           "zh": "temp"
         }
       },
-      "behaviorDisplayName": "**Fire Bullet**",
+      "behaviorDisplayName": "**Fire Bullets**",
       "finishedConfigurationDescription": {
         "messageByLocale": {
-          "en": "That's it for now with the behavior! Now we'll add the action to open the fire when its trigger by the player. We're not too far from a Star Wars show!",
+          "en": "That's it for now with the behavior!\n\nNow we'll add the action to open the fire when its trigger by the player.\nWe're not too far from a Star Wars show!",
           "fr": "temp",
           "ar": "temp",
           "de": "temp",
@@ -214,7 +218,35 @@
     },
     {
       "id": "SwitchToEvents1",
-      "elementToHighlightId": "#events-editor[data-active] #event-1-actions #add-action-button-empty",
+      "elementToHighlightId": "editorTab:PlayScene:EventsSheet",
+      "nextStepTrigger": {
+        "presenceOfElement": "#events-editor[data-active]"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "We are now going to add some logic to our game.",
+            "fr": "temp",
+            "ar": "temp",
+            "de": "temp",
+            "es": "temp",
+            "it": "temp",
+            "ja": "temp",
+            "ko": "temp",
+            "pl": "temp",
+            "pt": "temp",
+            "th": "temp",
+            "ru": "temp",
+            "sl": "temp",
+            "sq": "temp",
+            "uk": "temp",
+            "zh": "temp"
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "#events-editor[data-active] #event-1-1-actions #add-action-button-empty",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -367,7 +399,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Here enter the object that will be fired from the ship, for this use we'll using the $(Bullet) object.",
+            "en": "Here enter the object that will be fired from the ship, for this use we'll using the $(bullet) object.",
             "fr": "temp",
             "ar": "temp",
             "de": "temp",
@@ -420,7 +452,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-5-expression-field",
+      "elementToHighlightId": "#parameter-6-expression-field",
       "nextStepTrigger": {
         "valueEquals": "175"
       },
@@ -480,70 +512,25 @@
     },
     {
       "metaKind": "launch-preview",
-      "nextStep": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "it": "Avanti",
-            "ja": "次へ",
-            "ko": "다음",
-            "pl": "Następny",
-            "pt": "Próximo",
-            "th": "ถัดไป",
-            "ru": "Далее",
-            "sl": "Naprej",
-            "sq": "Tjetër",
-            "uk": "Далі",
-            "zh": "下一个"
-          }
-        }
-      },
-      "description": {
-        "messageByLocale": {
-          "en": "If you are previewing the game now the character can move on two axis.\n\nBut the movement isn't pixel perfect yet.\nLet's add a new behavior for this use to the **$(player)**.",
-          "fr": "Si vous prévisualisez le jeu maintenant, le personnage peut se déplacer sur deux axes.\n\nMais le mouvement n'est pas encore parfait au pixel près.\nAjoutons un nouveau comportement pour cet usage à **$(player)**.",
-          "ar": "إذا كنت تراجع اللعبة الآن، يمكن للشخصية التحرك على محورين.\n\nلكن الحركة ليست مثالية بالبيكسل بعد.\nدعونا نضيف سلوكًا جديدًا لهذا الاستخدام إلى **$(player)**.",
-          "de": "Wenn Sie das Spiel jetzt in der Vorschau anzeigen, kann sich der Charakter auf zwei Achsen bewegen.\n\nAber die Bewegung ist noch nicht pixelgenau.\nFügen wir eine neue Verhaltensweise für diesen Zweck zu **$(player)** hinzu.",
-          "es": "Si estás viendo la vista previa del juego ahora, el personaje puede moverse en dos ejes.\n\nPero el movimiento aún no es perfecto en píxeles.\nVamos a agregar un nuevo comportamiento para este uso a **$(player)**.",
-          "it": "Se stai visualizzando in anteprima il gioco ora, il personaggio può muoversi su due assi.\n\nMa il movimento non è ancora perfetto al pixel.\nAggiungiamo un nuovo comportamento per questo utilizzo a **$(player)**.",
-          "ja": "ゲームをプレビューしている場合、キャラクターは二軸で移動できます。\n\nしかし、動きはまだピクセルパーフェクトではありません。\nこのために新しい挙動を**$(player)**に追加しましょう。",
-          "ko": "게임을 미리 보기 중이라면 이제 캐릭터가 두 축에서 이동할 수 있습니다.\n\n하지만 움직임이 아직 픽셀 완벽하지 않습니다.\n이 용도를 위해 새로운 동작을 **$(player)**에 추가합시다.",
-          "pl": "Jeśli teraz podglądasz grę, postać może poruszać się na dwóch osiach.\n\nAle ruch nie jest jeszcze idealny co do piksela.\nDodajmy nowe zachowanie do tego użycia do **$(player)**.",
-          "pt": "Se você estiver visualizando o jogo agora, o personagem pode se mover em dois eixos.\n\nMas o movimento ainda não é perfeito em pixels.\nVamos adicionar um novo comportamento para esse uso ao **$(player)**.",
-          "th": "หากคุณกำลังดูตัวอย่างเกมอยู่ ตอนนี้ตัวละครสามารถเคลื่อนที่ได้ในสองแกน\n\nแต่การเคลื่อนไหวยังไม่สมบูรณ์แบบในระดับพิกเซล\nเพิ่มพฤติกรรมใหม่สำหรับการใช้งานนี้ใน **$(player)**",
-          "ru": "Если вы сейчас просматриваете игру, персонаж может двигаться по двум осям.\n\nНо движение пока не пиксельно точно.\nДавайте добавим новое поведение для этого к **$(player)**.",
-          "sl": "Če trenutno predogledujete igro, se lahko lik premika po dveh oseh.\n\nToda gibanje še ni natančno na ravni pikslov.\nDodajmo novo vedenje za to uporabo k **$(player)**.",
-          "sq": "Nëse jeni duke parë paraprakisht lojën, tani personazhi mund të lëvizë në dy akse.\n\nPor lëvizja nuk është ende perfekte me piksel.\nLe të shtojmë një sjellje të re për këtë përdorim tek **$(player)**.",
-          "uk": "Якщо ви переглядаєте гру зараз, персонаж може рухатися по двох осях.\n\nАле рух ще не є піксельно точним.\nДавайте додамо нову поведінку для цього до **$(player)**.",
-          "zh": "如果你现在正在预览游戏，角色可以在两个轴上移动。\n\n但移动尚未达到像素完美。\n让我们为此向**$(player)**添加一个新的行为。"
-        }
-      }
-    },
-    {
-      "metaKind": "launch-preview",
       "nextStep": "previewLaunched",
       "description": {
         "messageByLocale": {
-          "en": "We're done!\nLet's test our game to see the changes we've made!\n\nClick on the **Preview** button.",
-          "fr": "Nous avons terminé !\nTestons notre jeu pour voir les changements que nous avons effectués !\n\nCliquez sur le bouton **Aperçu**.",
-          "ar": "لقد انتهينا!\nدعونا نختبر لعبتنا لنرى التغييرات التي قمنا بها!\n\nاضغط على زر **معاينة**.",
-          "de": "Wir sind fertig!\nLass uns unser Spiel testen, um die vorgenommenen Änderungen zu sehen!\n\nKlicken Sie auf die **Vorschau**-Taste.",
-          "es": "¡Hemos terminado!\nProbemos nuestro juego para ver los cambios que hemos hecho.\n\nHaz clic en el botón **Vista previa**.",
-          "it": "Abbiamo finito!\nTestiamo il nostro gioco per vedere i cambiamenti che abbiamo fatto!\n\nClicca sul pulsante **Anteprima**.",
-          "ja": "完了しました！\nゲームをテストして、行った変更を確認しましょう！\n\n**プレビュー**ボタンをクリックしてください。",
-          "ko": "우리가 끝냈습니다!\n변경 사항을 확인하기 위해 게임을 테스트해봅시다!\n\n**미리보기** 버튼을 클릭하세요.",
-          "pl": "Zrobione!\nPrzetestujmy naszą grę, aby zobaczyć wprowadzone zmiany!\n\nKliknij przycisk **Podgląd**.",
-          "pt": "Terminamos!\nVamos testar nosso jogo para ver as mudanças que fizemos!\n\nClique no botão **Pré-visualizar**.",
-          "th": "เสร็จแล้ว!\nลองทดสอบเกมของเราเพื่อดูการเปลี่ยนแปลงที่เราทำ!\n\nคลิกที่ปุ่ม **ดูตัวอย่าง**.",
-          "ru": "Мы закончили!\nДавайте протестируем нашу игру, чтобы увидеть внесенные изменения!\n\nНажмите кнопку **Предварительный просмотр**.",
-          "sl": "Končali smo!\nTestirajmo našo igro, da vidimo spremembe, ki smo jih naredili!\n\nKliknite gumb **Predogled**.",
-          "sq": "Mbaruam!\nLe të testojmë lojën tonë për të parë ndryshimet që kemi bërë!\n\nKlikoni butonin **Paraqitje**.",
-          "uk": "Ми завершили!\nДавайте протестуємо нашу гру, щоб побачити зроблені зміни!\n\nНатисніть кнопку **Попередній перегляд**.",
-          "zh": "完成了！\n让我们测试一下游戏，看看我们做了哪些更改！\n\n点击**预览**按钮。"
+          "en": "We're done!\nLet's test our game to shoot the asteroids!\n\nClick on the **Preview** button.",
+          "fr": "temp",
+          "ar": "temp",
+          "de": "temp",
+          "es": "temp",
+          "it": "temp",
+          "ja": "temp",
+          "ko": "temp",
+          "pl": "temp",
+          "pt": "temp",
+          "ru": "temp",
+          "sl": "temp",
+          "sq": "temp",
+          "th": "temp",
+          "uk": "temp",
+          "zh": "temp"
         }
       }
     }
@@ -592,7 +579,7 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to add the Fire Bullet behavior\n\n- How to use an action from the Fire Bullet behavior to open the fire from a specified point on a sprite",
+          "en": "- Add the Fire Bullet behavior\n\n- Use an action from the Fire Bullet behavior\n\n - Filled an action to open the fire from a specified X and Y point on a sprite",
           "fr": "temp",
           "ar": "temp",
           "de": "temp",
