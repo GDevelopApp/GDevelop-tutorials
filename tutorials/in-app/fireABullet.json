@@ -1,0 +1,622 @@
+{
+  "id": "fireABullet",
+  "titleByLocale": {
+    "en": "Let's fire a bullet"
+  },
+  "bulletPointsByLocale": [
+    {
+      "en": "Use a behavior to fire a bullet.",
+      "fr": "Utilisez un comportement pour tirer une balle.",
+      "ar": "استخدم سلوكًا لاطلاق النار بالرصاصة.",
+      "de": "Verwenden Sie ein Verhalten, um eine Kugel abzufeuern.",
+      "es": "Utiliza un comportamiento para disparar una bala.",
+      "it": "Usa un comportamento per sparare un proiettile.",
+      "ja": "行動を使用して弾を発射します。",
+      "ko": "행동을 사용하여 총알을 발사하십시오.",
+      "pl": "Użyj zachowania, aby strzelać pociskiem.",
+      "pt": "Use um comportamento para disparar uma bala.",
+      "th": "ใช้พฤติกรรมเพื่อยิงลูกพลัด.",
+      "ru": "Используйте поведение для выстрела пулей.",
+      "sl": "Uporabite vedenje za strel iz strele.",
+      "sq": "Përdorni një sjellje për të qëlluar një plumb.",
+      "uk": "Використовуйте поведінку для пострілу кулею.",
+      "zh": "使用行为来开火。"
+    },
+    {
+      "en": "Add an action to fire the bullet in the good direction.",
+      "fr": "Ajoutez une action pour tirer la balle dans la bonne direction.",
+      "ar": "أضف إجراءً لإطلاق الرصاصة في الاتجاه الصحيح.",
+      "de": "Fügen Sie eine Aktion hinzu, um die Kugel in die richtige Richtung abzufeuern.",
+      "es": "Agrega una acción para disparar la bala en la dirección correcta.",
+      "it": "Aggiungi un'azione per sparare il proiettile nella giusta direzione.",
+      "ja": "良い方向に弾を発射するためのアクションを追加します。",
+      "ko": "좋은 방향으로 총알을 발사하기 위한 동작을 추가하십시오.",
+      "pl": "Dodaj akcję, aby strzelać pociskiem w dobrym kierunku.",
+      "pt": "Adicione uma ação para disparar a bala na direção correta.",
+      "th": "เพิ่มการกระทำเพื่อยิงกระสุนในทิศทางที่ดี",
+      "ru": "Добавьте действие для выстрела пулей в нужном направлении.",
+      "sl": "Dodajte dejanje za streljanje krogle v pravo smer.",
+      "sq": "Shtoni një veprim për të qëlluar plumbin në drejtimin e duhur.",
+      "uk": "Додайте дію для вистрілу кулею в потрібному напрямку.",
+      "zh": "添加一个动作，以正确的方向射击子弹。"
+    }
+  ],
+  "editorSwitches": {
+    "Start": {
+      "editor": "Scene",
+      "scene": "PlayScene"
+    },
+    "SwitchToEvents1": {
+      "editor": "EventsSheet",
+      "scene": "PlayScene"
+    }
+  },
+  "availableLocales": [
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "ru",
+    "sl",
+    "sq",
+    "uk",
+    "zh"
+  ],
+  "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/fireABullet/game.json",
+  "initialProjectData": {
+    "player": "Player",
+    "bullet": "Bullet",
+    "PlayScene": "PlayScene"
+  },
+  "flow": [
+    {
+      "id": "Start",
+      "metaKind": "launch-preview",
+      "nextStep": "previewLaunched",
+      "description": {
+        "messageByLocale": {
+          "en": "This game is a space shooter. We'll add the capability for the ship to shoot the asteroids using the **Fire Bullet behavior**.\n\nLet's see the current game state.\nClick on the **preview** button to play.",
+          "fr": "Ce jeu est un jeu de tir spatial. Nous ajouterons la capacité pour le vaisseau de tirer sur les astéroïdes en utilisant le comportement **Fire Bullet**.\n\nVoyons l'état actuel du jeu.\nCliquez sur le bouton **aperçu** pour jouer.",
+          "ar": "هذه اللعبة هي لعبة إطلاق نار فضائية. سنضيف القدرة للسفينة على إطلاق النار على الكويكبات باستخدام سلوك **Fire Bullet**.\n\nلنرى حالة اللعبة الحالية.\nانقر فوق زر **معاينة** للعب.",
+          "de": "Dieses Spiel ist ein Weltraum-Shooter. Wir werden die Fähigkeit für das Schiff hinzufügen, die Asteroiden mit dem **Fire Bullet Verhalten** zu beschießen.\n\nLassen Sie uns den aktuellen Spielzustand sehen.\nKlicken Sie auf die **Vorschau**-Schaltfläche, um zu spielen.",
+          "es": "Este juego es un shooter espacial. Añadiremos la capacidad para que la nave dispare a los asteroides utilizando el comportamiento **Fire Bullet**.\n\nVeamos el estado actual del juego.\nHaz clic en el botón **vista previa** para jugar.",
+          "it": "Questo gioco è uno sparatutto spaziale. Aggiungeremo la capacità per la nave di sparare agli asteroidi utilizzando il comportamento **Fire Bullet**.\n\nVediamo lo stato attuale del gioco.\nClicca sul pulsante **anteprima** per giocare.",
+          "ja": "このゲームは宇宙シューティングゲームです。**Fire Bullet** の振る舞いを使って、宇宙船が小惑星を撃つ能力を追加します。\n\n現在のゲームの状態を見てみましょう。\n**プレビュー** ボタンをクリックしてプレイします。",
+          "ko": "이 게임은 우주 슈팅 게임입니다. 우리는 **Fire Bullet** 동작을 사용하여 우주선이 소행성을 격파할 수 있는 능력을 추가할 것입니다.\n\n현재 게임 상태를 확인해 봅시다.\n**미리보기** 버튼을 클릭하여 플레이하세요.",
+          "pl": "Ta gra to strzelanka kosmiczna. Dodamy możliwość strzelania statku do asteroid za pomocą zachowania **Fire Bullet**.\n\nZobaczmy obecny stan gry.\nKliknij przycisk **Podgląd**, aby zagrać.",
+          "pt": "Este jogo é um shooter espacial. Vamos adicionar a capacidade para a nave disparar nos asteroides usando o comportamento **Fire Bullet**.\n\nVamos ver o estado atual do jogo.\nClique no botão **pré-visualização** para jogar.",
+          "th": "เกมนี้เป็นเกมยิงอวกาศ เราจะเพิ่มความสามารถให้กับเรือในการยิงหินดาวด้วยพฤติกรรม **Fire Bullet**\n\nมาดูสถานะปัจจุบันของเกมกัน\nคลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+          "ru": "Эта игра является космическим шутером. Мы добавим возможность кораблю стрелять по астероидам с использованием поведения **Fire Bullet**.\n\nДавайте посмотрим на текущее состояние игры.\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
+          "sl": "Ta igra je vesoljski strelec. Dodali bomo zmožnost za ladjo, da strelja asteroide z uporabo vedenja **Fire Bullet**.\n\nPoglejmo trenutno stanje igre.\nKliknite gumb **predogled**, da začnete igrati.",
+          "sq": "Kjo lojë është një lojë që qëlloi hapësirën. Do të shtojmë aftësinë për anijen për të qëlloi asteroidet duke përdorur sjelljen **Fire Bullet**.\n\nTani le të shohim gjendjen aktuale të lojës.\nKlikoni në butonin **parashikim** për të luajtur.",
+          "uk": "Ця гра є космічним шутером. Ми додамо можливість для корабля стріляти в астероїди за допомогою поведінки **Fire Bullet**.\n\nДавайте подивимося на поточний стан гри.\nНатисніть кнопку **перегляд**, щоб грати.",
+          "zh": "这款游戏是一款太空射击游戏。我们将使用 **Fire Bullet** 行为为飞船添加射击小行星的能力。\n\n让我们查看当前游戏状态。\n点击 **预览** 按钮开始游戏。"
+        }
+      }
+    },
+    {
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "The ship can move, but it cannot yet open fire because the **Fire Bullet behavior** is missing from the $(player) object.\n\nLet's add it.",
+            "fr": "Le vaisseau peut se déplacer, mais il ne peut pas encore ouvrir le feu car le comportement **Fire Bullet** est absent de l'objet **$(player)**.\n\nAjoutons-le.",
+            "ar": "السفينة يمكنها الحركة، لكنها لا تستطيع فتح النار بعد لأن سلوك **Fire Bullet** مفقود من كائن **$(player)**.\n\nلنضيفه.",
+            "de": "Das Schiff kann sich bewegen, aber es kann noch nicht feuern, weil das **Fire Bullet Verhalten** im $(player) Objekt fehlt.\n\nLassen Sie uns das hinzufügen.",
+            "es": "La nave puede moverse, pero aún no puede abrir fuego porque falta el comportamiento **Fire Bullet** en el objeto **$(player)**.\n\nVamos a añadirlo.",
+            "it": "La nave può muoversi, ma non può ancora aprire il fuoco perché manca il comportamento **Fire Bullet** nell'oggetto **$(player)**.\n\nAggiungiamolo.",
+            "ja": "宇宙船は動くことができますが、**Fire Bullet** の振る舞いが **$(player)** オブジェクトにないため、まだ射撃できません。\n\n追加しましょう。",
+            "ko": "우주선은 움직일 수 있지만 **Fire Bullet** 동작이 **$(player)** 객체에 없기 때문에 아직 발사할 수 없습니다.\n\n추가해 봅시다.",
+            "pl": "Statek może się poruszać, ale nie może jeszcze otworzyć ognia, ponieważ brakuje zachowania **Fire Bullet** w obiekcie $(player).\n\nDodajmy to.",
+            "pt": "A nave pode se mover, mas ainda não pode abrir fogo porque o comportamento **Fire Bullet** está ausente do objeto **$(player)**.\n\nVamos adicioná-lo.",
+            "th": "เรือสามารถเคลื่อนที่ได้ แต่ยังไม่สามารถเปิดไฟได้เพราะ **Fire Bullet behavior** หายไปจาก $(player) object.\n\nเรามาเพิ่มมัน.",
+            "ru": "Корабль может двигаться, но пока не может открывать огонь, потому что поведение **Fire Bullet** отсутствует у объекта **$(player)**.\n\nДобавим его.",
+            "sl": "Ladja se lahko premika, vendar še ne more odpreti ognja, ker manjka vedenje **Fire Bullet** v objektu **$(player)**.\n\nDodajmo ga.",
+            "sq": "Ankandi mund të lëvizë, por nuk mund të hapë zjarrin ende sepse sjellja **Fire Bullet** mungon nga objekti $(player).\n\nTa shtojmë atë.",
+            "uk": "Корабель може рухатись, але він ще не може відкривати вогонь, тому що поведінка **Fire Bullet** відсутня у об'єкта $(player).\n\nДодаймо його.",
+            "zh": "飞船可以移动，但由于 **$(player)** 对象中缺少 **Fire Bullet** 行为，因此尚无法开火。\n\n让我们添加它。"
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Let's go!",
+            "fr": "C'est parti !",
+            "ar": "لنبدأ!",
+            "de": "Los geht's!",
+            "es": "¡Vamos!",
+            "it": "Andiamo!",
+            "ja": "さあ、始めましょう！",
+            "ko": "출발!",
+            "pl": "Zaczynamy!",
+            "pt": "Vamos lá!",
+            "ru": "Поехали!",
+            "sl": "Gremo!",
+            "sq": "Hajde shkojme!",
+            "th": "ไปกันเลย!",
+            "uk": "Почнемо!",
+            "zh": "让我们开始吧！"
+          }
+        }
+      }
+    },
+    {
+      "metaKind": "add-behavior",
+      "objectKey": "player",
+      "isOnClosableDialog": true,
+      "behaviorListItemId": "#behavior-item-FireBullet--FireBullet",
+      "behaviorParameterPanelId": "#behavior-parameters-FireBullet",
+      "objectHighlightDescription": {
+        "messageByLocale": {
+          "en": "Let's add the capability for our $(player) to shoot with the help of the **Fire Bullet** behavior.\n\nClick on the 3 dot menu, or right-click on **$(player)**, and select **Edit behaviors**.",
+          "fr": "Ajoutons la capacité pour notre $(player) de tirer avec l'aide du comportement **Fire Bullet**.\n\nCliquez sur le menu à trois points, ou faites un clic droit sur **$(player)**, et sélectionnez **Modifier les comportements**.",
+          "ar": "لنضيف القدرة لـ $(player) لاطلاق النار بمساعدة سلوك **Fire Bullet**.\n\nانقر فوق القائمة المنسدلة بثلاث نقاط، أو انقر بزر الماوس الأيمن على **$(player)**، وحدد **تعديل السلوكيات**.",
+          "de": "Lassen Sie uns die Fähigkeit für unseren $(player) hinzufügen, mit Hilfe des **Fire Bullet**-Verhaltens zu schießen.\n\nKlicken Sie auf das Menü mit den drei Punkten oder klicken Sie mit der rechten Maustaste auf **$(player)** und wählen Sie **Verhalten bearbeiten** aus.",
+          "es": "Vamos a añadir la capacidad para nuestro $(player) de disparar con la ayuda del comportamiento **Fire Bullet**.\n\nHaz clic en el menú de tres puntos o haz clic derecho en **$(player)** y selecciona **Editar comportamientos**.",
+          "it": "Aggiungiamo la capacità per il nostro $(player) di sparare con l'aiuto del comportamento **Fire Bullet**.\n\nFai clic sul menu a tre punti o fai clic con il pulsante destro del mouse su **$(player)** e seleziona **Modifica comportamenti**.",
+          "ja": "$(player) に **Fire Bullet** 振る舞いの助けを借りて撃つ能力を追加しましょう。\n\n3つの点のメニューをクリックするか、**$(player)** を右クリックして **動作を編集** を選択してください。",
+          "ko": "우리 $(player)에게 **Fire Bullet** 동작을 사용하여 발사할 수 있는 능력을 추가해 봅시다.\n\n3 점 메뉴를 클릭하거나 **$(player)**를 마우스 오른쪽 버튼으로 클릭하고 **동작 편집**을 선택하세요.",
+          "pl": "Dodajmy zdolność strzelania dla naszego $(player) przy pomocy zachowania **Fire Bullet**.\n\nKliknij menu z trzema kropkami lub kliknij prawym przyciskiem myszy na **$(player)** i wybierz **Edytuj zachowania**.",
+          "pt": "Vamos adicionar a capacidade para o nosso $(player) disparar com a ajuda do comportamento **Fire Bullet**.\n\nClique no menu de três pontos, ou clique com o botão direito do mouse em **$(player)** e selecione **Editar comportamentos**.",
+          "th": "เพิ่มความสามารถให้กับ $(player) ของเราในการยิงด้วยความช่วยเหลือของพฤติกรรม **Fire Bullet**\n\nคลิกที่เมนู 3 จุด หรือคลิกขวาที่ **$(player)** และเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Добавим возможность для нашего $(player) стрелять с помощью поведения **Fire Bullet**.\n\nНажмите на меню с тремя точками или щелкните правой кнопкой мыши на **$(player)** и выберите **Изменить поведение**.",
+          "sl": "Dodajmo sposobnost za našega $(player) za streljanje s pomočjo vedenja **Fire Bullet**.\n\nKliknite na meni s tremi pikami ali desno kliknite na **$(player)** in izberite **Uredi vedenja**.",
+          "sq": "Të shtojmë aftësinë për $(player) tonë për të qëlluar me ndihmën e sjelljes **Fire Bullet**.\n\nKlikoni në menunë me tre pikë ose bëni klik djathtas në **$(player)** dhe zgjidhni **Redakto sjelljet**.",
+          "uk": "Додамо можливість для нашого $(player) стріляти за допомогою поведінки **Fire Bullet**.\n\nНатисніть на меню з трьома крапками або клацніть правою кнопкою миші на **$(player)** і виберіть **Редагувати поведінку**.",
+          "zh": "让我们使用 **Fire Bullet** 行为帮助我们的 $(player) 添加射击能力。\n\n点击三个点菜单，或右键点击 **$(player)**，然后选择 **编辑行为**。"
+        }
+      },
+      "objectHighlightTouchDescription": {
+        "messageByLocale": {
+          "en": "Let's add the capability for our $(player) to shoot with the help of the **Fire Bullet** behavior.\n\nSelect, then long press on **$(player)**, then select **Edit behaviors**.",
+          "fr": "Ajoutons la capacité pour notre $(player) de tirer avec l'aide du comportement **Fire Bullet**.\n\nSélectionnez, puis maintenez enfoncé sur **$(player)**, puis sélectionnez **Modifier les comportements**.",
+          "ar": "لنضيف القدرة لـ $(player) لإطلاق النار بمساعدة سلوك **Fire Bullet**.\n\nحدد، ثم اضغط بشكل طويل على **$(player)**، ثم حدد **تعديل السلوكيات**.",
+          "de": "Lassen Sie uns die Fähigkeit für unseren $(player) hinzufügen, mit Hilfe des **Fire Bullet**-Verhaltens zu schießen.\n\nWählen Sie, dann halten Sie lange auf **$(player)**, dann wählen Sie **Verhalten bearbeiten**.",
+          "es": "Vamos a añadir la capacidad para nuestro $(player) de disparar con la ayuda del comportamiento **Fire Bullet**.\n\nSelecciona, luego mantén presionado en **$(player)**, luego selecciona **Editar comportamientos**.",
+          "it": "Aggiungiamo la capacità per il nostro $(player) di sparare con l'aiuto del comportamento **Fire Bullet**.\n\nSeleziona, quindi tieni premuto su **$(player)**, quindi seleziona **Modifica comportamenti**.",
+          "ja": "私たちの $(player) に **Fire Bullet** 振る舞いの助けを借りて撃つ能力を追加しましょう。\n\n**$(player)** を選択し、長押しして、**動作を編集** を選択してください。",
+          "ko": "우리 $(player)에게 **Fire Bullet** 동작을 사용하여 발사할 수 있는 능력을 추가해 봅시다.\n\n**$(player)**를 선택한 후 길게 누르세요. 그리고 **동작 편집**을 선택하세요.",
+          "pl": "Dodajmy zdolność strzelania dla naszego $(player) przy pomocy zachowania **Fire Bullet**.\n\nWybierz, następnie przytrzymaj **$(player)**, a następnie wybierz **Edytuj zachowania**.",
+          "pt": "Vamos adicionar a capacidade para o nosso $(player) disparar com a ajuda do comportamento **Fire Bullet**.\n\nSelecione, em seguida, pressione e segure em **$(player)**, depois selecione **Editar comportamentos**.",
+          "th": "เพิ่มความสามารถให้กับ $(player) ของเราในการยิงด้วยความช่วยเหลือของพฤติกรรม **Fire Bullet**\n\nเลือก จากนั้นกดค้างที่ **$(player)** แล้วเลือก **แก้ไขพฤติกรรม**",
+          "ru": "Добавим возможность для нашего $(player) стрелять с помощью поведения **Fire Bullet**.\n\nВыберите, затем удерживайте на **$(player)**, затем выберите **Изменить поведение**.",
+          "sl": "Dodajmo sposobnost za našega $(player) za streljanje s pomočjo vedenja **Fire Bullet**.\n\nIzberite, nato dolgo pritisnite na **$(player)**, nato izberite **Uredi vedenja**.",
+          "sq": "Të shtojmë aftësinë për $(player) tonë për të qëlluar me ndihmën e sjelljes **Fire Bullet**.\n\nZgjidhni, pastaj mbani shtypur gjatë në **$(player)**, pastaj zgjidhni **Redakto sjelljet**.",
+          "uk": "Додамо можливість для нашого $(player) стріляти за допомогою поведінки **Fire Bullet**.\n\nВиберіть, потім утримуйте на **$(player)**, потім виберіть **Редагувати поведінку**.",
+          "zh": "让我们使用 **Fire Bullet** 行为帮助我们的 $(player) 添加射击能力。\n\n选择，然后长按 **$(player)**，然后选择 **编辑行为**。"
+        }
+      },
+      "behaviorDisplayName": "**Fire Bullets**",
+      "finishedConfigurationDescription": {
+        "messageByLocale": {
+          "en": "That's it for now with the behavior!\n\nNow we'll add the action to open fire when it's triggered by the player.\n\nWe're not too far from a Star Wars show!",
+          "fr": "C'est tout pour le moment avec ce comportement !\n\nMaintenant, nous allons ajouter l'action pour ouvrir le feu lorsque le joueur le déclenche.\n\nNous ne sommes pas très loin d'un spectacle Star Wars !",
+          "ar": "هذا كل شيء للآن مع السلوك!\n\nالآن سنقوم بإضافة الإجراء لفتح النار عندما يتم تشغيله بواسطة اللاعب.\n\nلسنا بعيدين كثيرًا عن عرض حرب النجوم!",
+          "de": "Das war es vorerst mit dem Verhalten!\n\nJetzt werden wir die Aktion hinzufügen, um das Feuer zu eröffnen, wenn es vom Spieler ausgelöst wird.\n\nWir sind nicht weit von einer Star Wars Show entfernt!",
+          "es": "¡Eso es todo por ahora con el comportamiento!\n\nAhora añadiremos la acción para abrir fuego cuando lo active el jugador.\n\n¡No estamos muy lejos de un espectáculo de Star Wars!",
+          "it": "Per ora è tutto con il comportamento!\n\nOra aggiungeremo l'azione per aprire il fuoco quando viene attivato dal giocatore.\n\nNon siamo troppo lontani da uno spettacolo di Star Wars!",
+          "ja": "これで行動についてはこれで終わりです！\n\n次に、プレイヤーがトリガーしたときに火を開くアクションを追加します。\n\nスター・ウォーズのショーまであと少しです！",
+          "ko": "이제 행동으로는 여기까지입니다!\n\n이제 플레이어가 트리거할 때 발사를 시작하는 작업을 추가하겠습니다.\n\n스타 워즈 쇼에서 멀지 않습니다!",
+          "pl": "To na razie wszystko, jeśli chodzi o zachowanie!\n\nTeraz dodamy akcję otwierania ognia, gdy zostanie to uruchomione przez gracza.\n\nNie jesteśmy zbyt daleko od show Star Wars!",
+          "pt": "Por enquanto, é isso com o comportamento!\n\nAgora vamos adicionar a ação de abrir fogo quando for acionada pelo jogador.\n\nNão estamos muito longe de um show de Star Wars!",
+          "th": "นั่นคือทุกอย่างที่เกี่ยวกับพฤติกรรมตอนนี้!\n\nตอนนี้เราจะเพิ่มการกระทำในการเปิดไฟเมื่อมีการเรียกใช้โดยผู้เล่น\n\nเราไม่ไกลจากการแสดง Star Wars มากนัก!",
+          "ru": "На этом пока все с поведением!\n\nТеперь мы добавим действие для открытия огня, когда это сработает игрок.\n\nМы не так уж далеко от шоу Звездных войн!",
+          "sl": "To je za zdaj vse s vedenjem!\n\nZdaj bomo dodali dejanje za odprtje ognja, ko ga sproži igralec.\n\nNismo daleč od predstave Zvezdnih vojn!",
+          "sq": "Kjo është gjithçka për tani me sjelljen!\n\nTani do të shtojmë veprimin për të hapur zjarrin kur të aktivizohet nga lojtari.\n\nNuk jemi shumë larg nga një shfaqje e Star Wars!",
+          "uk": "На цьому поки все з поведінкою!\n\nТепер ми додамо дію для відкриття вогню, коли це викличе гравець.\n\nМи не так далеко від шоу Зоряних війн!",
+          "zh": "目前为止，这就是关于行为的全部内容！\n\n现在我们将添加一个动作，在玩家触发时开火。\n\n我们离星球大战秀不远了！"
+        }
+      }
+    },
+    {
+      "id": "SwitchToEvents1",
+      "elementToHighlightId": "editorTab:PlayScene:EventsSheet",
+      "nextStepTrigger": {
+        "presenceOfElement": "#events-editor[data-active]"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's add the fire action to the $(player) object in the event sheet editor.",
+            "fr": "C'est tout pour le moment avec ce comportement !\n\nMaintenant, nous allons ajouter l'action pour ouvrir le feu lorsque le joueur le déclenche.\n\nNous ne sommes pas très loin d'un spectacle Star Wars !",
+            "ar": "هذا كل شيء للآن مع السلوك!\n\nالآن سنقوم بإضافة الإجراء لفتح النار عندما يتم تشغيله بواسطة اللاعب.\n\nلسنا بعيدين كثيرًا عن عرض حرب النجوم!",
+            "de": "Das war es vorerst mit dem Verhalten!\n\nJetzt werden wir die Aktion hinzufügen, um das Feuer zu eröffnen, wenn es vom Spieler ausgelöst wird.\n\nWir sind nicht weit von einer Star Wars Show entfernt!",
+            "es": "¡Eso es todo por ahora con el comportamiento!\n\nAhora añadiremos la acción para abrir fuego cuando lo active el jugador.\n\n¡No estamos muy lejos de un espectáculo de Star Wars!",
+            "it": "Per ora è tutto con il comportamento!\n\nOra aggiungeremo l'azione per aprire il fuoco quando viene attivato dal giocatore.\n\nNon siamo troppo lontani da uno spettacolo di Star Wars!",
+            "ja": "これで行動についてはこれで終わりです！\n\n次に、プレイヤーがトリガーしたときに火を開くアクションを追加します。\n\nスター・ウォーズのショーまであと少しです！",
+            "ko": "이제 행동으로는 여기까지입니다!\n\n이제 플레이어가 트리거할 때 발사를 시작하는 작업을 추가하겠습니다.\n\n스타 워즈 쇼에서 멀지 않습니다!",
+            "pl": "To na razie wszystko, jeśli chodzi o zachowanie!\n\nTeraz dodamy akcję otwierania ognia, gdy zostanie to uruchomione przez gracza.\n\nNie jesteśmy zbyt daleko od show Star Wars!",
+            "pt": "Por enquanto, é isso com o comportamento!\n\nAgora vamos adicionar a ação de abrir fogo quando for acionada pelo jogador.\n\nNão estamos muito longe de um show de Star Wars!",
+            "th": "นั่นคือทุกอย่างที่เกี่ยวกับพฤติกรรมตอนนี้!\n\nตอนนี้เราจะเพิ่มการกระทำในการเปิดไฟเมื่อมีการเรียกใช้โดยผู้เล่น\n\nเราไม่ไกลจากการแสดง Star Wars มากนัก!",
+            "ru": "На этом пока все с поведением!\n\nТеперь мы добавим действие для открытия огня, когда это сработает игрок.\n\nМы не так уж далеко от шоу Звездных войн!",
+            "sl": "To je za zdaj vse s vedenjem!\n\nZdaj bomo dodali dejanje za odprtje ognja, ko ga sproži igralec.\n\nNismo daleč od predstave Zvezdnih vojn!",
+            "sq": "Kjo është gjithçka për tani me sjelljen!\n\nTani do të shtojmë veprimin për të hapur zjarrin kur të aktivizohet nga lojtari.\n\nNuk jemi shumë larg nga një shfaqje e Star Wars!",
+            "uk": "На цьому поки все з поведінкою!\n\nТепер ми додамо дію для відкриття вогню, коли це викличе гравець.\n\nМи не так далеко від шоу Зоряних війн!",
+            "zh": "目前为止，这就是关于行为的全部内容！\n\n现在我们将添加一个动作，在玩家触发时开火。\n\n我们离星球大战秀不远了！"
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "#events-editor[data-active] #event-1-1-actions #add-action-button-empty",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Thanks to the previously added behavior on the $(player) object, new actions are available.\n\nLet's add the one to **fire bullets** from the $(player).",
+            "fr": "Grâce au comportement précédemment ajouté sur l'objet $(player), de nouvelles actions sont disponibles.\n\nAjoutons celle pour **tirer des balles** depuis $(player).",
+            "ar": "بفضل السلوك الذي تمت إضافته سابقًا على كائن $(player)، هناك أفعال جديدة متاحة.\n\nلنضيف واحدة لـ **إطلاق الرصاص** من $(player).",
+            "de": "Dank des zuvor hinzugefügten Verhaltens am $(player)-Objekt stehen neue Aktionen zur Verfügung.\n\nFügen wir eine hinzu, um **Kugeln abzufeuern** von $(player).",
+            "es": "Gracias al comportamiento añadido previamente en el objeto $(player), hay nuevas acciones disponibles.\n\nAñadamos la de **disparar balas** desde $(player).",
+            "it": "Grazie al comportamento precedentemente aggiunto sull'oggetto $(player), sono disponibili nuove azioni.\n\nAggiungiamo quella per **sparare proiettili** da $(player).",
+            "ja": "$(player) オブジェクトに以前追加された振る舞いのおかげで、新しいアクションが利用可能になりました。\n\n$(player) から**弾丸を発射**するアクションを追加しましょう。",
+            "ko": "$(player) 객체에 이전에 추가된 동작 덕분에 새로운 동작이 가능해졌습니다.\n\n$(player)에서 **총알을 발사**하는 하나를 추가해 봅시다.",
+            "pl": "Dzięki wcześniej dodanemu zachowaniu na obiekcie $(player) dostępne są nowe działania.\n\nDodajmy to, aby **strzelać pociskami** z $(player).",
+            "pt": "Graças ao comportamento previamente adicionado no objeto $(player), novas ações estão disponíveis.\n\nVamos adicionar a de **disparar balas** a partir de $(player).",
+            "ru": "Благодаря ранее добавленному поведению на объекте $(player) стали доступны новые действия.\n\nДобавим возможность **стрелять пулями** от $(player).",
+            "sl": "Zahvaljujoč predhodno dodanemu vedenju na predmetu $(player) so na voljo nove akcije.\n\nDodajmo tisto za **streljanje krogel** iz $(player).",
+            "sq": "Falë sjelljes së shtuar më parë në objektin $(player), janë në dispozicion veprime të reja.\n\nTë shtojmë atë për **të qëlluar me gëzhojë** nga $(player).",
+            "th": "ด้วยพฤติกรรมที่เพิ่มไว้ก่อนหน้านี้บนวัตถุ $(player) ทำให้มีการกระทำใหม่ที่ใช้ได้\n\nเราจะเพิ่มอันหนึ่งในการ**ยิงกระสุน** จาก $(player)",
+            "uk": "Завдяки раніше доданому поведінці на об'єкті $(player) доступні нові дії.\n\nДодамо ту, що **стріляти кулями** з $(player).",
+            "zh": "多亏了之前添加到$(player)对象上的行为，现在有了新的动作可用。\n\n让我们添加一个**从$(player)发射子弹**的动作。"
+          }
+        }
+      }
+    },
+    {
+      "elementToHighlightId": "objectInObjectOrResourceSelector:player",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-item-FireBullet--FireBullet--Fire"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select **$(player)**.",
+            "fr": "Sélectionnez **$(player)**.",
+            "ar": "حدد **$(player)**.",
+            "de": "Wählen Sie **$(player)** aus.",
+            "es": "Selecciona **$(player)**.",
+            "it": "Seleziona **$(player)**.",
+            "ja": "**$(player)** を選択してください。",
+            "ko": "**$(player)**를 선택하세요.",
+            "pl": "Wybierz **$(player)**.",
+            "pt": "Selecione **$(player)**.",
+            "ru": "Выберите **$(player)**.",
+            "sl": "Izberite **$(player)**.",
+            "sq": "Zgjidh **$(player)**.",
+            "th": "เลือก **$(player)**.",
+            "uk": "Виберіть **$(player)**.",
+            "zh": "选择 **$(player)**。"
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-item-FireBullet--FireBullet--Fire",
+      "nextStepTrigger": {
+        "presenceOfElement": "#parameter-2-expression-field"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Select this action.",
+            "fr": "Sélectionnez cette action.",
+            "ar": "حدد هذا الإجراء.",
+            "de": "Wählen Sie diese Aktion aus.",
+            "es": "Seleccione esta acción.",
+            "it": "Seleziona questa azione.",
+            "ja": "このアクションを選択してください。",
+            "ko": "이 작업을 선택하세요.",
+            "pl": "Wybierz tę akcję.",
+            "pt": "Selecione esta ação.",
+            "ru": "Выберите это действие.",
+            "sl": "Izberite to dejanje.",
+            "sq": "Zgjidh këtë veprim.",
+            "th": "เลือกการกระทำนี้",
+            "uk": "Виберіть цю дію.",
+            "zh": "选择此操作。"
+          }
+        }
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-2-expression-field",
+      "nextStepTrigger": {
+        "valueEquals": "Player.PointX(\"BulletSpawn\")"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's make the bullet fire from a specific point of the ship. The point **BulletSpawn** is already set on the $(player) object; let's use it.\n\n Type the formula: `Player.PointX(\"BulletSpawn\")`",
+            "fr": "Faisons tirer la balle d'un point spécifique du vaisseau. Le point **BulletSpawn** est déjà défini sur l'objet $(player); utilisons-le.\n\n Tapez la formule : `Player.PointX(\"BulletSpawn\")`",
+            "ar": "لنجعل الرصاص يطلق من نقطة محددة في السفينة. النقطة **BulletSpawn** معينة بالفعل على كائن $(player)؛ لنستخدمها.\n\n اكتب الصيغة: `Player.PointX(\"BulletSpawn\")`",
+            "de": "Lassen Sie die Kugel aus einem bestimmten Punkt des Schiffes feuern. Der Punkt **BulletSpawn** ist bereits auf dem $(player)-Objekt festgelegt; lassen Sie uns ihn verwenden.\n\n Geben Sie die Formel ein: `Player.PointX(\"BulletSpawn\")`",
+            "es": "Vamos a hacer que la bala se dispare desde un punto específico de la nave. El punto **BulletSpawn** ya está configurado en el objeto $(player); vamos a usarlo.\n\n Escribe la fórmula: `Player.PointX(\"BulletSpawn\")`",
+            "it": "Facciamo sparare il proiettile da un punto specifico della nave. Il punto **BulletSpawn** è già impostato sull'oggetto $(player); usiamolo.\n\n Scrivi la formula: `Player.PointX(\"BulletSpawn\")`",
+            "ja": "弾丸を船の特定のポイントから発射しましょう。ポイント **BulletSpawn** はすでに$(player)オブジェクトに設定されています。使いましょう。\n\n 以下の式を入力してください：`Player.PointX(\"BulletSpawn\")`",
+            "ko": "총알을 선박의 특정 지점에서 발사하도록 만들어 봅시다. **BulletSpawn** 지점은 이미 $(player) 객체에 설정되어 있습니다. 이를 사용해 봅시다.\n\n 다음 공식을 입력하세요: `Player.PointX(\"BulletSpawn\")`",
+            "pl": "Pozwólmy, aby pocisk strzelał z określonego punktu statku. Punkt **BulletSpawn** jest już ustawiony na obiekcie $(player); użyjmy go.\n\n Wprowadź wzór: `Player.PointX(\"BulletSpawn\")`",
+            "pt": "Vamos fazer a bala disparar de um ponto específico da nave. O ponto **BulletSpawn** já está definido no objeto $(player); vamos usá-lo.\n\n Digite a fórmula: `Player.PointX(\"BulletSpawn\")`",
+            "ru": "Давайте сделаем так, чтобы пуля выстреливала из определенной точки корабля. Точка **BulletSpawn** уже установлена на объекте $(player); давайте использовать ее.\n\n Введите формулу: `Player.PointX(\"BulletSpawn\")`",
+            "sl": "Naj pustimo, da krogla izstreli iz določene točke ladje. Točka **BulletSpawn** je že nastavljena na $(player) objektu; uporabimo jo.\n\n Vpišite formulo: `Player.PointX(\"BulletSpawn\")`",
+            "sq": "Le të bëjmë që guri të qëllojë nga një pikë specifike e anijes. Pika **BulletSpawn** është tashmë vendosur në objektin $(player); le ta përdorim.\n\n Shtypni formulën: `Player.PointX(\"BulletSpawn\")`",
+            "th": "เรามาให้กระสุนถูกยิงจากจุดที่แน่นอนของเรือ จุด **BulletSpawn** ได้ถูกตั้งค่าไว้กับวัตถุ $(player) แล้ว เรามาใช้มันกัน\n\n พิมพ์สูตร: `Player.PointX(\"BulletSpawn\")`",
+            "uk": "Давайте зробимо кулю вистрілювати з конкретної точки корабля. Точка **BulletSpawn** вже встановлена на об'єкті $(player); давайте використовувати її.\n\n Введіть формулу: `Player.PointX(\"BulletSpawn\")`",
+            "zh": "让子弹从船的特定点发射。点 **BulletSpawn** 已经设置在 $(player) 对象上；让我们使用它。\n\n 输入公式：`Player.PointX(\"BulletSpawn\")`"
+          }
+        },
+        "placement": "bottom"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-3-expression-field",
+      "nextStepTrigger": {
+        "valueEquals": "Player.PointY(\"BulletSpawn\")"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Apply the second formula for the **Y** point: `Player.PointY(\"BulletSpawn\")`",
+            "fr": "Appliquez la deuxième formule pour le point **Y** : `Player.PointY(\"BulletSpawn\")`",
+            "ar": "قم بتطبيق الصيغة الثانية للنقطة **Y** : `Player.PointY(\"BulletSpawn\")`",
+            "de": "Wenden Sie die zweite Formel für den **Y**-Punkt an: `Player.PointY(\"BulletSpawn\")`",
+            "es": "Aplica la segunda fórmula para el punto **Y**: `Player.PointY(\"BulletSpawn\")`",
+            "it": "Applica la seconda formula per il punto **Y**: `Player.PointY(\"BulletSpawn\")`",
+            "ja": "2番目の式を適用して **Y** 座標を求めます：`Player.PointY(\"BulletSpawn\")`",
+            "ko": "**Y** 좌표에 대한 두 번째 공식 적용: `Player.PointY(\"BulletSpawn\")`",
+            "pl": "Zastosuj drugą formułę dla punktu **Y**: `Player.PointY(\"BulletSpawn\")`",
+            "pt": "Aplique a segunda fórmula para o ponto **Y**: `Player.PointY(\"BulletSpawn\")`",
+            "ru": "Примените вторую формулу для **Y** координаты: `Player.PointY(\"BulletSpawn\")`",
+            "sl": "Uporabite drugo formulo za točko **Y**: `Player.PointY(\"BulletSpawn\")`",
+            "sq": "Zbatojeni formulën e dytë për pikën **Y**: `Player.PointY(\"BulletSpawn\")`",
+            "th": "ใช้สูตรที่สองสำหรับจุด **Y** : `Player.PointY(\"BulletSpawn\")`",
+            "uk": "Застосуйте другу формулу для **Y** точки: `Player.PointY(\"BulletSpawn\")`",
+            "zh": "应用第二个公式到 **Y** 点：`Player.PointY(\"BulletSpawn\")`"
+          }
+        },
+        "placement": "bottom"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-4-object-selector",
+      "nextStepTrigger": {
+        "valueEquals": "Bullet"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Here, enter the object that will be fired from the ship. For this, we'll use the **$(bullet)** object.",
+            "fr": "Ici, entrez l'objet qui sera tiré depuis le vaisseau. Pour cela, nous utiliserons l'objet **$(bullet)**.",
+            "ar": "هنا، أدخل الكائن الذي سيتم إطلاقه من السفينة. لهذا، سنستخدم كائن **$(bullet)**.",
+            "de": "Geben Sie hier das Objekt ein, das von dem Schiff abgefeuert wird. Dafür verwenden wir das **$(bullet)** Objekt.",
+            "es": "Aquí, ingresa el objeto que será disparado desde la nave. Para esto, usaremos el objeto **$(bullet)**.",
+            "it": "Qui, inserisci l'oggetto che verrà sparato dalla nave. Per questo, useremo l'oggetto **$(bullet)**.",
+            "ja": "ここに、船から発射されるオブジェクトを入力してください。このために、**$(bullet)** オブジェクトを使用します。",
+            "ko": "여기에 선박에서 발사될 객체를 입력하세요. 이를 위해 **$(bullet)** 객체를 사용할 것입니다.",
+            "pl": "Tutaj wprowadź obiekt, który zostanie wystrzelony z statku. W tym celu użyjemy obiektu **$(bullet)**.",
+            "pt": "Aqui, insira o objeto que será disparado pela nave. Para isso, vamos usar o objeto **$(bullet)**.",
+            "ru": "Здесь введите объект, который будет выпущен из корабля. Для этого мы будем использовать объект **$(bullet)**.",
+            "sl": "Tu vnesite objekt, ki bo izstreljen iz ladje. Za to bomo uporabili objekt **$(bullet)**.",
+            "sq": "Këtu, futni objektin që do të shtyhet nga anija. Për këtë, ne do të përdorim objektin **$(bullet)**.",
+            "th": "ที่นี่ใส่วัตถุที่จะถูกยิงจากเรือ สำหรับนี้เราจะใช้วัตถุ **$(bullet)**",
+            "uk": "Тут введіть об'єкт, який буде вистрілюватися з корабля. Для цього ми використовуватимемо об'єкт **$(bullet)**.",
+            "zh": "在这里，输入将从船上发射的对象。为此，我们将使用 **$(bullet)** 对象。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-5-expression-field",
+      "nextStepTrigger": {
+        "valueEquals": "Player.Angle()"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "The bullet have to be fired based on the same angle as the $(player). Enter the angle expression from the $(player) object, which is: `Player.Angle()`",
+            "fr": "La balle doit être tirée selon le même angle que $(player). Entrez l'expression d'angle de l'objet $(player), qui est : `Player.Angle()`",
+            "ar": "يجب أن يتم إطلاق الرصاص بناءً على نفس الزاوية التي $(player) يوجهها. أدخل تعبير الزاوية من كائن $(player)، وهو: `Player.Angle()`",
+            "de": "Die Kugel muss unter dem gleichen Winkel wie $(player) abgefeuert werden. Geben Sie den Winkelausdruck vom $(player) Objekt ein, der lautet: `Player.Angle()`",
+            "es": "La bala debe ser disparada con el mismo ángulo que $(player). Ingresa la expresión del ángulo desde el objeto $(player), que es: `Player.Angle()`",
+            "it": "Il proiettile deve essere sparato con lo stesso angolo di $(player). Inserisci l'espressione dell'angolo dall'oggetto $(player), che è: `Player.Angle()`",
+            "ja": "弾丸は $(player) と同じ角度で発射される必要があります。$(player) オブジェクトからの角度式を入力してください。式は `Player.Angle()` です。",
+            "ko": "총알은 $(player)와 동일한 각도로 발사되어야 합니다. $(player) 객체에서 각도 표현식을 입력하세요. 표현식은 `Player.Angle()`입니다.",
+            "pl": "Pocisk musi być wystrzelony pod tym samym kątem co $(player). Wprowadź wyrażenie kąta z obiektu $(player), które wynosi: `Player.Angle()`",
+            "pt": "A bala deve ser disparada com o mesmo ângulo que $(player). Insira a expressão de ângulo do objeto $(player), que é: `Player.Angle()`",
+            "ru": "Пуля должна быть выпущена под тем же углом, что и $(player). Введите выражение угла из объекта $(player), которое: `Player.Angle()`",
+            "sl": "Krogla mora biti izstreljena pod enakim kotom kot $(player). Vnesite izraz kota iz objekta $(player), ki je: `Player.Angle()`",
+            "sq": "Plumba duhet të çahet në bazë të të njëjtës kënd si $(player). Fut shprehjen e këndit nga objekti $(player), që është: `Player.Angle()`",
+            "th": "กระสุนต้องถูกยิงตามมุมเดียวกับ $(player) กรุณาใส่สูตรมุมจาก $(player) ซึ่งคือ: `Player.Angle()`",
+            "uk": "Куля повинна бути випущена під тим самим кутом, що і $(player). Введіть вираз кута з об'єкта $(player), який: `Player.Angle()`",
+            "zh": "子弹必须按照 $(player) 的相同角度发射。请输入从 $(player) 对象获取的角度表达式，即 `Player.Angle()`"
+          }
+        },
+        "placement": "bottom"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#parameter-6-expression-field",
+      "nextStepTrigger": {
+        "valueEquals": "175"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Finally, to complete these parameters, fill in this field with a speed of `175`.",
+            "fr": "Enfin, pour compléter ces paramètres, remplissez ce champ avec une vitesse de `175`.",
+            "ar": "أخيرًا، لإكمال هذه الوسائط، قم بملء هذا الحقل بسرعة `175`.",
+            "de": "Abschließend, um diese Parameter zu vervollständigen, füllen Sie dieses Feld mit einer Geschwindigkeit von `175` aus.",
+            "es": "Finalmente, para completar estos parámetros, llene este campo con una velocidad de `175`.",
+            "it": "Infine, per completare questi parametri, compilare questo campo con una velocità di `175`.",
+            "ja": "最後に、これらのパラメータを完成させるために、このフィールドに速度 `175` を入力してください。",
+            "ko": "마지막으로, 이 매개변수를 완성하려면 이 필드를 속도 `175`으로 채우세요.",
+            "pl": "Na koniec, aby uzupełnić te parametry, wypełnij to pole prędkością `175`.",
+            "pt": "Finalmente, para completar esses parâmetros, preencha este campo com uma velocidade de `175`.",
+            "ru": "Наконец, чтобы завершить эти параметры, заполните это поле со скоростью `175`.",
+            "sl": "Na koncu, da dokončate te parametre, izpolnite to polje s hitrostjo `175`.",
+            "sq": "Përfundimisht, për të plotësuar këto parametra, mbushni këtë fushë me një shpejtësi prej `175`.",
+            "th": "สุดท้ายที่สุดเพื่อสมบูรณ์พารามิเตอร์เหล่านี้ กรุณากรอกช่องนี้ด้วยความเร็ว `175`",
+            "uk": "На завершення, щоб завершити ці параметри, заповніть це поле зі швидкістю `175`.",
+            "zh": "最后，为了完成这些参数，请在此字段中填写速度 `175`。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "isOnClosableDialog": true
+    },
+    {
+      "elementToHighlightId": "#instruction-editor-dialog #ok-button",
+      "nextStepTrigger": {
+        "absenceOfElement": "#instruction-editor-dialog"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Now let's save this.",
+            "fr": "Enregistrons maintenant cela.",
+            "ar": "جميل! الآن هيّا نحفظ هذا.",
+            "de": "Lassen Sie uns das jetzt speichern.",
+            "es": "Ahora guardemos esto.",
+            "it": "Ora salviamo questo.",
+            "ja": "これを保存しましょう。",
+            "ko": "이제 이것을 저장해 봅시다.",
+            "pl": "Teraz zapiszmy to.",
+            "pt": "Agora vamos salvar isso.",
+            "ru": "Теперь давайте сохраните это.",
+            "sl": "Sedaj shranimo to.",
+            "sq": "Tani le të ruajmë këtë.",
+            "th": "มาบันทึกสิ่งนี้",
+            "uk": "Тепер давайте збережемо це.",
+            "zh": "现在让我们保存这个。"
+          }
+        },
+        "placement": "top"
+      }
+    },
+    {
+      "metaKind": "launch-preview",
+      "nextStep": "previewLaunched",
+      "description": {
+        "messageByLocale": {
+          "en": "We're done!\nLet's test our game to shoot the asteroids!\n\nClick on the **Preview** button.",
+          "fr": "C'est fini !\nTestons notre jeu pour tirer sur les astéroïdes !\n\nCliquez sur le bouton **Aperçu**.",
+          "ar": "لقد انتهينا!\nلنختبر لعبتنا لإطلاق النار على النيازك!\n\nانقر على زر **معاينة**.",
+          "de": "Wir sind fertig!\nTesten wir unser Spiel, um auf die Asteroiden zu schießen!\n\nKlicken Sie auf die **Vorschau**-Schaltfläche.",
+          "es": "¡Hemos terminado!\n¡Probemos nuestro juego para disparar a los asteroides!\n\nHaz clic en el botón **Vista previa**.",
+          "it": "Abbiamo finito!\nProviamo il nostro gioco per sparare agli asteroidi!\n\nFai clic sul pulsante **Anteprima**.",
+          "ja": "完了しました！\n小惑星を撃つためにゲームをテストしましょう！\n\n**プレビュー** ボタンをクリックします。",
+          "ko": "완료되었습니다!\n우리 게임을 테스트하여 소행성을 격추해 봅시다!\n\n**미리보기** 버튼을 클릭하세요.",
+          "pl": "Skończone!\nPrzetestujmy naszą grę, aby strzelać do asteroid!\n\nKliknij przycisk **Podgląd**.",
+          "pt": "Terminamos!\nVamos testar nosso jogo para atirar nos asteroides!\n\nClique no botão **Visualizar**.",
+          "ru": "Мы закончили!\nДавайте протестируем нашу игру, чтобы стрелять по астероидам!\n\nНажмите кнопку **Просмотр**.",
+          "sl": "Končali smo!\nPreizkusimo našo igro za streljanje asteroidov!\n\nKliknite na gumb **Predogled**.",
+          "sq": "Jemi gati!\nLe të testojmë lojën tonë për të qëlluar asteroidët!\n\nKliko në butonin **Parashiko**.",
+          "th": "เราเสร็จสิ้นแล้ว!\nลองทดสอบเกมของเราเพื่อยิงดาวเคราะห์!\n\nคลิกที่ปุ่ม **ดูตัวอย่าง**",
+          "uk": "Ми закінчили!\nПеревіримо нашу гру, щоб вистріляти в астероїди!\n\nНатисніть кнопку **Попередній перегляд**.",
+          "zh": "我们完成了！\n让我们测试游戏以射击小行星！\n\n点击 **预览** 按钮。"
+        }
+      }
+    }
+  ],
+  "endDialog": {
+    "content": [
+      {
+        "messageByLocale": {
+          "en": "# You've finished this lesson!",
+          "fr": "# Vous avez terminé cette leçon !",
+          "ar": "# لقد انتهيت من هذا الدرس!",
+          "de": "# Du hast diese Lektion abgeschlossen!",
+          "es": "# ¡Has terminado esta lección!",
+          "it": "# Hai completato questa lezione!",
+          "ja": "# このレッスンは終了しました！",
+          "ko": "# 이 레슨을 마쳤습니다!",
+          "pl": "# Zakończyłeś tę lekcję!",
+          "pt": "# Você terminou esta lição!",
+          "th": "# คุณได้เสร็จสิ้นบทเรียนนี้แล้ว!",
+          "ru": "# Вы завершили это урок!",
+          "sl": "# Dokončali ste ta pouk!",
+          "sq": "# Keni përfunduar këtë mësim!",
+          "uk": "# Ви завершили цей урок!",
+          "zh": "# 你已完成本课程！"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "Well done, in this tutorial you've learned how to:",
+          "fr": "Bien joué, dans ce tutoriel vous avez appris comment :",
+          "ar": "أحسنت، في هذا الدرس التعليمي تعلمت كيفية :",
+          "de": "Gut gemacht, in diesem Tutorial haben Sie gelernt, wie Sie:",
+          "es": "¡Bien hecho, en este tutorial has aprendido cómo:",
+          "it": "Ben fatto, in questo tutorial hai imparato come:",
+          "ja": "お疲れ様です、このチュートリアルでは以下の方法を学びました：",
+          "ko": "잘 했어요, 이 튜토리얼에서는 다음을 배웠습니다:",
+          "pl": "Dobrze wykonane, w tym samouczku nauczyłeś się, jak:",
+          "pt": "Bem feito, neste tutorial você aprendeu como:",
+          "th": "เก่งมาก เรียนรู้วิธีทำดังนี้ในบทแนะนำนี้",
+          "ru": "Отлично сработано, в этом учебнике вы узнали, как:",
+          "sl": "Dobro opravljeno, v tem vadnem programu ste se naučili, kako:",
+          "sq": "Mirë, në këtë udhëzues keni mësuar si të:",
+          "uk": "Добре зроблено, у цьому підручнику ви вивчили, як:",
+          "zh": "干得好，在这个教程中，您学会了如何："
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "- Add the Fire Bullet behavior\n\n- Use an action from the Fire Bullet behavior\n\n - Set up an action to fire from a specified X and Y point on a sprite",
+          "fr": "- Ajoutez le comportement Fire Bullet\n\n- Utilisez une action du comportement Fire Bullet\n\n - Configurez une action pour tirer depuis un point spécifié X et Y sur un sprite",
+          "ar": "- أضف سلوك Fire Bullet\n\n- استخدم إجراء من سلوك Fire Bullet\n\n - قم بإعداد إجراء لإطلاق النار من نقطة معينة X و Y على رسم متحرك",
+          "de": "- Fügen Sie das Fire Bullet-Verhalten hinzu\n\n- Verwenden Sie eine Aktion aus dem Fire Bullet-Verhalten\n\n - Richten Sie eine Aktion ein, um von einem bestimmten X- und Y-Punkt auf einem Sprite aus zu schießen",
+          "es": "- Agrega el comportamiento Fire Bullet\n\n- Usa una acción del comportamiento Fire Bullet\n\n - Configura una acción para disparar desde un punto específico X e Y en un sprite",
+          "it": "- Aggiungi il comportamento Fire Bullet\n\n- Usa un'azione dal comportamento Fire Bullet\n\n - Configura un'azione per sparare da un punto specifico X e Y su uno sprite",
+          "ja": "- Fire Bullet の動作を追加する\n\n- Fire Bullet の動作からアクションを使用する\n\n - スプライトの指定された X と Y のポイントからの発射を設定する",
+          "ko": "- Fire Bullet 동작 추가\n\n- Fire Bullet 동작에서 작업 사용\n\n - 스프라이트의 지정된 X 및 Y 지점에서 발사하기 위한 작업 설정",
+          "pl": "- Dodaj zachowanie Fire Bullet\n\n- Użyj akcji z zachowania Fire Bullet\n\n - Skonfiguruj akcję strzelania z określonego punktu X i Y na sprite",
+          "pt": "- Adicione o comportamento Fire Bullet\n\n- Use uma ação do comportamento Fire Bullet\n\n - Configure uma ação para disparar de um ponto especificado X e Y em um sprite",
+          "th": "- เพิ่มพฤติกรรม Fire Bullet\n\n- ใช้การกระทำจากพฤติกรรม Fire Bullet\n\n - ตั้งค่าการกระทำให้ยิงจากจุด X และ Y ที่ระบุบนสไปรต์",
+          "ru": "- Добавьте поведение Fire Bullet\n\n- Используйте действие из поведения Fire Bullet\n\n - Настройте действие для стрельбы из указанной точки X и Y на спрайте",
+          "sl": "- Dodaj vedenje Fire Bullet\n\n- Uporabite ukrep iz vedenja Fire Bullet\n\n - Nastavite ukrep za streljanje iz določene točke X in Y na sliki",
+          "sq": "- Shtoni sjelljen Fire Bullet\n\n- Përdorni një veprim nga sjellja Fire Bullet\n\n - Vendos një veprim për të qëlluar nga një pikë të caktuar X dhe Y në një sprit",
+          "uk": "- Додайте поведінку Fire Bullet\n\n- Використовуйте дію з поведінки Fire Bullet\n\n - Налаштуйте дію для стрільби з вказаної точки X та Y на спрайті",
+          "zh": "- 添加 Fire Bullet 行为\n\n- 使用 Fire Bullet 行为中的动作\n\n - 设置从精灵上指定的 X 和 Y 点射击的动作"
+        }
+      },
+      {
+        "messageByLocale": {
+          "en": "You can keep adding stuff to this game or publish it!",
+          "fr": "Vous pouvez continuer à ajouter des éléments à ce jeu ou le publier !",
+          "ar": "يمكنك الاستمرار في إضافة أشياء إلى هذه اللعبة أو نشرها!",
+          "de": "Sie können weiterhin Dinge zu diesem Spiel hinzufügen oder es veröffentlichen!",
+          "es": "¡Puedes seguir añadiendo cosas a este juego o publicarlo!",
+          "it": "Puoi continuare ad aggiungere cose a questo gioco o pubblicarlo!",
+          "ja": "このゲームにさらに要素を追加するか、それを公開することができます！",
+          "ko": "이 게임에 계속해서 새로운 요소를 추가하거나 게임을 게시할 수 있습니다!",
+          "pl": "Możesz dalej dodawać rzeczy do tej gry lub ją opublikować!",
+          "pt": "Você pode continuar adicionando coisas a este jogo ou publicá-lo!",
+          "th": "คุณสามารถเพิ่มสิ่งต่างๆในเกมนี้ต่อได้หรือตีพิมพ์!",
+          "ru": "Вы можете продолжать добавлять вещи в эту игру или опубликовать ее!",
+          "sl": "Lahko še naprej dodajate stvari v to igro ali jo objavite!",
+          "sq": "Mund të vazhdoni të shtoni gjëra në këtë lojë ose ta publikoni atë!",
+          "uk": "Ви можете продовжувати додавати речі до цієї гри або опублікувати її!",
+          "zh": "您可以继续添加内容到这个游戏中或发布它！"
+        }
+      }
+    ]
+  }
+}
