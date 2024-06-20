@@ -616,7 +616,7 @@
     {
       "elementToHighlightId": "#scene-variables-dialog #variable-0-type",
       "nextStepTrigger": {
-        "valueEquals": "1"
+        "valueEquals": "2"
       },
       "tooltip": {
         "description": {
@@ -1196,56 +1196,56 @@
     {
       "elementToHighlightId": "#instruction-editor-dialog #search-bar",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-ModVarScene"
+        "presenceOfElement": "#instruction-item-SetNumberVariable"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Search for **scene variable**.",
-            "fr": "Recherchez **variable de scène**.",
-            "ar": "البحث عن **متغير المشهد**.",
-            "de": "Suchen Sie nach **Szenevariable**.",
-            "es": "Busque **variable de escena**.",
-            "it": "Cerca **variabile di scena**.",
-            "ja": "**シーン変数**を検索します。",
-            "ko": "**씬 변수**를 검색하세요.",
-            "pl": "Szukaj **zmiennej sceny**.",
-            "pt": "Procure **variável de cena**.",
-            "ru": "Ищите **переменную сцены**.",
-            "sl": "Išči **spremenljivko prizorišča**.",
-            "sq": "Kërkoni **variabël e skenës**.",
-            "th": "ค้นหา **ตัวแปรของ scene",
-            "uk": "Шукайте **змінну сцени**.",
-            "zh": "搜索**场景变量**。"
+            "en": "Search for **Change variable value**.",
+            "fr": "Recherchez **Modifier la valeur de la variable**.",
+            "ar": "البحث عن **تغيير قيمة المتغير**.",
+            "de": "Suchen Sie nach **Ändern Sie den Variablenwert**.",
+            "es": "Busque **Cambiar el valor de la variable**.",
+            "it": "Cerca **Cambia il valore della variabile**.",
+            "ja": "**変数の値を変更**を検索します。",
+            "ko": "**변수 값 변경**을 검색하세요.",
+            "pl": "Szukaj **Zmień wartość zmiennej**.",
+            "pt": "Procure **Alterar o valor da variável**.",
+            "ru": "Ищите **Изменить значение переменной**.",
+            "sl": "Išči **Spremeni vrednost spremenljivke**.",
+            "sq": "Kërkoni **Ndrysho vlerën e variablës**.",
+            "th": "ค้นหา **เปลี่ยนค่าตัวแปร**.",
+            "uk": "Шукайте **Змінити значення змінної**.",
+            "zh": "搜索**更改变量值**。"
           }
         }
       },
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-ModVarScene",
+      "elementToHighlightId": "#instruction-item-SetNumberVariable",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Our multiplier is a number, so let's select **Change number variable** action.",
+            "en": "Our multiplier is a number, so let's select **Change variable value** action.",
             "fr": "Notre multiplicateur est un nombre, donc sélectionnons l'action **Modifier une variable numérique**.",
-            "ar": "مضاعِفاتنا عبارة عن عدد، لذلك هيّا نقوم بتحديد الإجراء **تغيير متغير عدد**.",
-            "de": "Unser Multiplikator ist eine Zahl, also wählen wir die **Zahlvariable ändern**-Aktion.",
-            "es": "Nuestro multiplicador es un número, por lo que seleccionemos la acción **Cambiar variable numérica**.",
-            "it": "Il nostro moltiplicatore è un numero, quindi selezioniamo l'azione **Modifica variabile numerica**.",
-            "ja": "私たちの乗数は数字なので、**数値変数を変更**アクションを選択しましょう。",
-            "ko": "우리의 배수는 숫자이므로 **숫자 변수 변경** 조치를 선택해봅시다.",
-            "pl": "Nasz mnożnik to liczba, więc wybierzmy akcję **Zmień zmienną liczbową**.",
-            "pt": "Nosso multiplicador é um número, então vamos selecionar a ação **Alterar variável numérica**.",
-            "ru": "Наш множитель - это число, поэтому давайте выберем действие **Изменить числовую переменную**.",
-            "sl": "Naš množitelj je število, zato izberimo akcijo **Spremeni številsko spremenljivko**.",
-            "sq": "Shumëzuesi ynë është një numër, kështu që le të zgjedhim veprimin **Ndrysho variablën numër**.",
-            "th": "multiplier ของเราเป็นตัวเลข ดังนั้นเลือกการกระทำ **เปลี่ยนตัวเลขตัวแปร**",
-            "uk": "Наш множник - це число, тому давайте виберемо дію **Змінити числову змінну**.",
-            "zh": "我们的乘数是一个数字，所以让我们选择**更改数字变量**动作。"
+            "ar": "مضاعِفاتنا عبارة عن عدد، لذلك هيّا نقوم بتحديد الإجراء **تغيير قيمة المتغير**.",
+            "de": "Unser Multiplikator ist eine Zahl, also wählen wir die Aktion **Ändern Sie den Variablenwert**.",
+            "es": "Nuestro multiplicador es un número, por lo que seleccionemos la acción **Cambiar valor de variable**.",
+            "it": "Il nostro moltiplicatore è un numero, quindi selezioniamo l'azione **Cambia valore della variabile**.",
+            "ja": "私たちの乗数は数字なので、**変数の値を変更**アクションを選択しましょう。",
+            "ko": "우리의 배수는 숫자이므로 **변수 값 변경** 조치를 선택해봅시다.",
+            "pl": "Nasz mnożnik to liczba, więc wybierzmy akcję **Zmień wartość zmiennej**.",
+            "pt": "Nosso multiplicador é um número, então vamos selecionar a ação **Alterar valor da variável**.",
+            "ru": "Наш множитель - это число, поэтому давайте выберем действие **Изменить значение переменной**.",
+            "sl": "Naš množitelj je število, zato izberimo akcijo **Spremeni vrednost spremenljivke**.",
+            "sq": "Shumëzuesi ynë është një numër, kështu që le të zgjedhim veprimin **Ndrysho vlerën e variablës**.",
+            "th": "ตัวคูณของเราเป็นตัวเลข ดังนั้นเลือกการกระทำ **เปลี่ยนค่าตัวแปร**",
+            "uk": "Наш множник - це число, тому давайте виберемо дію **Змінити значення змінної**.",
+            "zh": "我们的乘数是一个数字，所以让我们选择**更改变量值**动作。"
           }
         }
       },

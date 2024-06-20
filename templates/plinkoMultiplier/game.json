@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.plinkoLesson",
@@ -510,6 +512,9 @@
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -537,7 +542,7 @@
       "title": "",
       "v": 65,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -545,8 +550,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.2,
-        "snap": true,
-        "zoomFactor": 0.3859628308770131,
+        "snap": false,
+        "zoomFactor": 0.8275910924187377,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1542,9 +1547,9 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Multiplier",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1593,7 +1598,6 @@
           "italic": false,
           "name": "ScoreMultiplier",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -1612,6 +1616,26 @@
             "b": 28,
             "g": 231,
             "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "x1",
+            "font": "PTSans-Bold.ttf",
+            "textAlignment": "",
+            "characterSize": 30,
+            "color": "248;231;28"
           }
         },
         {
@@ -1623,6 +1647,7 @@
           "emitterForceMax": 70,
           "emitterForceMin": 30,
           "flow": 100,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 300,
           "name": "PegStar_Particle",
           "particleAlpha1": 255,
@@ -1650,7 +1675,6 @@
           "rendererParam1": 3,
           "rendererParam2": 1,
           "rendererType": "Quad",
-          "tags": "",
           "tank": 6,
           "textureParticleName": "assets\\starGold.png",
           "type": "ParticleSystem::ParticleEmitter",
@@ -1660,9 +1684,9 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Peg_Basic",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1729,9 +1753,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Peg_Move",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1814,9 +1838,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Peg_Bigger",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1883,9 +1907,9 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Ball",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -1976,7 +2000,6 @@
           "italic": false,
           "name": "Score",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -1995,6 +2018,26 @@
             "b": 255,
             "g": 255,
             "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Score: 0",
+            "font": "PTSans-Bold.ttf",
+            "textAlignment": "",
+            "characterSize": 40,
+            "color": "255;255;255"
           }
         },
         {
@@ -2003,7 +2046,6 @@
           "italic": false,
           "name": "Lives",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2022,13 +2064,32 @@
             "b": 255,
             "g": 255,
             "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Lives: 0",
+            "font": "PTSans-Bold.ttf",
+            "textAlignment": "",
+            "characterSize": 40,
+            "color": "255;255;255"
           }
         },
         {
           "assetStoreId": "",
           "height": 70,
           "name": "Walls",
-          "tags": "",
           "texture": "elementMetal013.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 220,
@@ -2069,6 +2130,7 @@
           "emitterForceMax": 0,
           "emitterForceMin": 0,
           "flow": 1,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 300,
           "name": "PegDeath_Particle",
           "particleAlpha1": 100,
@@ -2096,7 +2158,6 @@
           "rendererParam1": 3,
           "rendererParam2": 1,
           "rendererType": "Quad",
-          "tags": "",
           "tank": 1,
           "textureParticleName": "assets\\StonePeg.png",
           "type": "ParticleSystem::ParticleEmitter",
@@ -2114,6 +2175,7 @@
           "emitterForceMax": 0,
           "emitterForceMin": 0,
           "flow": 1,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 300,
           "name": "PegBig_Particle",
           "particleAlpha1": 100,
@@ -2141,7 +2203,6 @@
           "rendererParam1": 3,
           "rendererParam2": 1,
           "rendererType": "Quad",
-          "tags": "",
           "tank": 1,
           "textureParticleName": "assets\\DoublePeg.png",
           "type": "ParticleSystem::ParticleEmitter",
@@ -2151,9 +2212,9 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Darkening",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -2197,7 +2258,6 @@
           "italic": false,
           "name": "GameOver",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2216,6 +2276,26 @@
             "b": 255,
             "g": 255,
             "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "GAME OVER",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 100,
+            "color": "255;255;255"
           }
         },
         {
@@ -2225,7 +2305,6 @@
           "leftMargin": 20,
           "name": "UI_Block",
           "rightMargin": 20,
-          "tags": "",
           "texture": "metalPanel.png",
           "tiled": true,
           "topMargin": 20,
@@ -2243,7 +2322,6 @@
         {
           "assetStoreId": "",
           "name": "NewTextInput",
-          "tags": "",
           "type": "TextInput::TextInputObject",
           "variables": [],
           "effects": [],
@@ -2270,7 +2348,6 @@
           "italic": false,
           "name": "SubmitScore",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2284,6 +2361,26 @@
             "b": 255,
             "g": 255,
             "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Submit Score",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 50,
+            "color": "255;255;255"
           }
         },
         {
@@ -2292,7 +2389,6 @@
           "italic": false,
           "name": "RestartGame",
           "smoothed": true,
-          "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -2306,13 +2402,32 @@
             "b": 255,
             "g": 255,
             "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Restart",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 50,
+            "color": "255;255;255"
           }
         },
         {
           "assetStoreId": "520d7b3a4681a42df216ea3ef7fa0f589eb73e9b020056cc9fa530c3994ea5c0",
           "height": 128,
           "name": "CloudLayer3",
-          "tags": "",
           "texture": "tiled_Cloud layer (3).png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -2331,7 +2446,6 @@
           "assetStoreId": "3ab58f0740dbc4aaac3552dc7c172d0b7c45fbd38c1b6c7c42dcfd6d86faa404",
           "height": 128,
           "name": "Background",
-          "tags": "",
           "texture": "tiled_Background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -2340,6 +2454,71 @@
           "behaviors": []
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Multiplier"
+          },
+          {
+            "objectName": "ScoreMultiplier"
+          },
+          {
+            "objectName": "PegStar_Particle"
+          },
+          {
+            "objectName": "Peg_Basic"
+          },
+          {
+            "objectName": "Peg_Move"
+          },
+          {
+            "objectName": "Peg_Bigger"
+          },
+          {
+            "objectName": "Ball"
+          },
+          {
+            "objectName": "Score"
+          },
+          {
+            "objectName": "Lives"
+          },
+          {
+            "objectName": "Walls"
+          },
+          {
+            "objectName": "PegDeath_Particle"
+          },
+          {
+            "objectName": "PegBig_Particle"
+          },
+          {
+            "objectName": "Darkening"
+          },
+          {
+            "objectName": "GameOver"
+          },
+          {
+            "objectName": "UI_Block"
+          },
+          {
+            "objectName": "NewTextInput"
+          },
+          {
+            "objectName": "SubmitScore"
+          },
+          {
+            "objectName": "RestartGame"
+          },
+          {
+            "objectName": "CloudLayer3"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
+      },
       "events": [
         {
           "colorB": 116,
@@ -2361,8 +2540,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Setting up some default settings and effects to make the game functional and more appealing to look at.",
-              "comment2": ""
+              "comment": "Setting up some default settings and effects to make the game functional and more appealing to look at."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2371,7 +2549,9 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [""]
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -2396,43 +2576,71 @@
                   "type": {
                     "value": "TextObject::String"
                   },
-                  "parameters": ["ScoreMultiplier", "=", "\"\""]
+                  "parameters": [
+                    "ScoreMultiplier",
+                    "=",
+                    "\"\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "CentreCamera"
                   },
-                  "parameters": ["", "Background", "", "\"Background\"", ""]
+                  "parameters": [
+                    "",
+                    "Background",
+                    "",
+                    "\"Background\"",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::SetColor"
                   },
-                  "parameters": ["Background", "\"233;178;178\""]
+                  "parameters": [
+                    "Background",
+                    "\"233;178;178\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::XOffset"
                   },
-                  "parameters": ["Background", "-", "100"]
+                  "parameters": [
+                    "Background",
+                    "-",
+                    "100"
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::SetOpacity"
                   },
-                  "parameters": ["CloudLayer3", "=", "100"]
+                  "parameters": [
+                    "CloudLayer3",
+                    "=",
+                    "100"
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::SetColor"
                   },
-                  "parameters": ["CloudLayer3", "\"143;98;168\""]
+                  "parameters": [
+                    "CloudLayer3",
+                    "\"143;98;168\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Ball", "Physics2", "no"]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "no"
+                  ]
                 }
               ]
             }
@@ -2458,8 +2666,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "If the ball collides with a breakable, add points to the score based on the current score multiplier.",
-              "comment2": ""
+              "comment": "If the ball collides with a breakable, add points to the score based on the current score multiplier."
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -2469,15 +2676,24 @@
                   "type": {
                     "value": "Physics2::CollisionStarted"
                   },
-                  "parameters": ["Ball", "Physics2", "Breakable_Pegs", ""]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "Breakable_Pegs",
+                    ""
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarGlobal"
+                    "value": "SetNumberVariable"
                   },
-                  "parameters": ["Score", "+", "1"]
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "1"
+                  ]
                 },
                 {
                   "type": {
@@ -2510,27 +2726,43 @@
                 },
                 {
                   "type": {
-                    "value": "Opacity"
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
                   },
-                  "parameters": ["Breakable_Pegs", "-", "30"]
+                  "parameters": [
+                    "Breakable_Pegs",
+                    "Opacity",
+                    "-",
+                    "30"
+                  ]
                 },
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "SetNumberObjectVariable"
                   },
-                  "parameters": ["Ball", "Pitch", "+", "0.05"]
+                  "parameters": [
+                    "Ball",
+                    "Pitch",
+                    "+",
+                    "0.05"
+                  ]
                 },
                 {
                   "type": {
                     "value": "ResetTimer"
                   },
-                  "parameters": ["", "\"Ball_Pitch\""]
+                  "parameters": [
+                    "",
+                    "\"Ball_Pitch\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ChangeColor"
                   },
-                  "parameters": ["Breakable_Pegs", "\"114;114;114\""]
+                  "parameters": [
+                    "Breakable_Pegs",
+                    "\"114;114;114\""
+                  ]
                 }
               ],
               "events": [
@@ -2544,8 +2776,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "If below a certain opacity value, delete the peg and spawn a death particle",
-                  "comment2": ""
+                  "comment": "If below a certain opacity value, delete the peg and spawn a death particle"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2554,7 +2785,11 @@
                       "type": {
                         "value": "Opacity"
                       },
-                      "parameters": ["Breakable_Pegs", "<", "180"]
+                      "parameters": [
+                        "Breakable_Pegs",
+                        "<",
+                        "180"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2562,7 +2797,10 @@
                       "type": {
                         "value": "Delete"
                       },
-                      "parameters": ["Breakable_Pegs", ""]
+                      "parameters": [
+                        "Breakable_Pegs",
+                        ""
+                      ]
                     },
                     {
                       "type": {
@@ -2580,7 +2818,11 @@
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": ["PegDeath_Particle", "=", "0"]
+                      "parameters": [
+                        "PegDeath_Particle",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -2596,8 +2838,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "If the ball collides with a bigger peg, add points to the score based on the current score multiplier times 2.",
-              "comment2": ""
+              "comment": "If the ball collides with a bigger peg, add points to the score based on the current score multiplier times 2."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2606,21 +2847,36 @@
                   "type": {
                     "value": "Physics2::CollisionStarted"
                   },
-                  "parameters": ["Ball", "Physics2", "Peg_Bigger", ""]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "Peg_Bigger",
+                    ""
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarGlobal"
+                    "value": "SetNumberVariable"
                   },
-                  "parameters": ["Score", "+", "2"]
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "2"
+                  ]
                 },
                 {
                   "type": {
                     "value": "PlaySound"
                   },
-                  "parameters": ["", "ClickerBeep.wav", "", "30", "0.8"]
+                  "parameters": [
+                    "",
+                    "ClickerBeep.wav",
+                    "",
+                    "30",
+                    "0.8"
+                  ]
                 },
                 {
                   "type": {
@@ -2641,15 +2897,23 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "SetNumberObjectVariable"
                   },
-                  "parameters": ["Ball", "Pitch", "+", "0.05"]
+                  "parameters": [
+                    "Ball",
+                    "Pitch",
+                    "+",
+                    "0.05"
+                  ]
                 },
                 {
                   "type": {
                     "value": "ResetTimer"
                   },
-                  "parameters": ["", "\"Ball_Pitch\""]
+                  "parameters": [
+                    "",
+                    "\"Ball_Pitch\""
+                  ]
                 },
                 {
                   "type": {
@@ -2667,7 +2931,11 @@
                   "type": {
                     "value": "ChangePlan"
                   },
-                  "parameters": ["PegDeath_Particle", "=", "0"]
+                  "parameters": [
+                    "PegDeath_Particle",
+                    "=",
+                    "0"
+                  ]
                 },
                 {
                   "type": {
@@ -2709,8 +2977,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "If the ball collides with the score multiplier object, delete it and create particles, and change the multiplier variable as well as the text displaying that variables value.",
-              "comment2": ""
+              "comment": "If the ball collides with the score multiplier object, delete it and create particles, and change the multiplier variable as well as the text displaying that variables value."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2725,7 +2992,6 @@
           "colorG": 116,
           "colorR": 116,
           "creationTime": 0,
-          "folded": true,
           "name": "Game management events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2740,8 +3006,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Reseting the ball's collision pitch to 1, if the ball hasn't collided with any pegs for more than 0.5 seconds.",
-              "comment2": ""
+              "comment": "Reseting the ball's collision pitch to 1, if the ball hasn't collided with any pegs for more than 0.5 seconds."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2750,7 +3015,12 @@
                   "type": {
                     "value": "CompareTimer"
                   },
-                  "parameters": ["", "\"Ball_Pitch\"", ">", "0.5"]
+                  "parameters": [
+                    "",
+                    "\"Ball_Pitch\"",
+                    ">",
+                    "0.5"
+                  ]
                 },
                 {
                   "type": {
@@ -2762,9 +3032,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "SetNumberObjectVariable"
                   },
-                  "parameters": ["Ball", "Pitch", "=", "1"]
+                  "parameters": [
+                    "Ball",
+                    "Pitch",
+                    "=",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -2778,8 +3053,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "If the ball falls below 1000 along the Y axis, reset it's starting properties andmove it back to the top of the play field.\n\nBut only if the player has more than 0 lives left.",
-              "comment2": ""
+              "comment": "If the ball falls below 1000 along the Y axis, reset it's starting properties andmove it back to the top of the play field.\n\nBut only if the player has more than 0 lives left."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2788,7 +3062,11 @@
                   "type": {
                     "value": "PosY"
                   },
-                  "parameters": ["Ball", ">", "1000"]
+                  "parameters": [
+                    "Ball",
+                    ">",
+                    "1000"
+                  ]
                 }
               ],
               "actions": [
@@ -2796,19 +3074,32 @@
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Ball", "Physics2", "no"]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "no"
+                  ]
                 },
                 {
                   "type": {
                     "value": "MettreY"
                   },
-                  "parameters": ["Ball", "=", "120"]
+                  "parameters": [
+                    "Ball",
+                    "=",
+                    "120"
+                  ]
                 },
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "SetBooleanObjectVariable"
                   },
-                  "parameters": ["Ball", "Dropped", "False"]
+                  "parameters": [
+                    "Ball",
+                    "Dropped",
+                    "False",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -2834,9 +3125,14 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "NumberObjectVariable"
                       },
-                      "parameters": ["Ball", "Lives", ">", "0"]
+                      "parameters": [
+                        "Ball",
+                        "Lives",
+                        ">",
+                        "0"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2844,7 +3140,13 @@
                       "type": {
                         "value": "PlaySound"
                       },
-                      "parameters": ["", "BallRespawn.wav", "", "45", "1.2"]
+                      "parameters": [
+                        "",
+                        "BallRespawn.wav",
+                        "",
+                        "45",
+                        "1.2"
+                      ]
                     }
                   ]
                 },
@@ -2853,9 +3155,14 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "NumberObjectVariable"
                       },
-                      "parameters": ["Ball", "Lives", "<", "1"]
+                      "parameters": [
+                        "Ball",
+                        "Lives",
+                        "<",
+                        "1"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2863,13 +3170,19 @@
                       "type": {
                         "value": "Delete"
                       },
-                      "parameters": ["Ball", ""]
+                      "parameters": [
+                        "Ball",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "ShowLayer"
                       },
-                      "parameters": ["", "\"GameOver\""]
+                      "parameters": [
+                        "",
+                        "\"GameOver\""
+                      ]
                     }
                   ]
                 }
@@ -2885,17 +3198,21 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "If the balls \"Dropped\" boolean variable is set to false, have it follow the mouse and allow access to the sub event that will drop the ball is the left mouse button was released.",
-              "comment2": ""
+              "comment": "If the balls \"Dropped\" boolean variable is set to false, have it follow the mouse and allow access to the sub event that will drop the ball is the left mouse button was released."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "ObjectVariableAsBoolean"
+                    "value": "BooleanObjectVariable"
                   },
-                  "parameters": ["Ball", "Dropped", ""]
+                  "parameters": [
+                    "Ball",
+                    "Dropped",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -2903,7 +3220,11 @@
                   "type": {
                     "value": "MettreX"
                   },
-                  "parameters": ["Ball", "=", "clamp(48, MouseX(), 752)"]
+                  "parameters": [
+                    "Ball",
+                    "=",
+                    "clamp(48, MouseX(), 752)"
+                  ]
                 }
               ],
               "events": [
@@ -2914,7 +3235,10 @@
                       "type": {
                         "value": "MouseButtonReleased"
                       },
-                      "parameters": ["", "Left"]
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
                     },
                     {
                       "type": {
@@ -2926,27 +3250,47 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "SetObjectVariableAsBoolean"
+                        "value": "SetBooleanObjectVariable"
                       },
-                      "parameters": ["Ball", "Dropped", "True"]
+                      "parameters": [
+                        "Ball",
+                        "Dropped",
+                        "True",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": ["Ball", "Physics2", "yes"]
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "yes"
+                      ]
                     },
                     {
                       "type": {
                         "value": "PlaySound"
                       },
-                      "parameters": ["", "ClickerBeep.wav", "", "50", "0.8"]
+                      "parameters": [
+                        "",
+                        "ClickerBeep.wav",
+                        "",
+                        "50",
+                        "0.8"
+                      ]
                     },
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "SetNumberObjectVariable"
                       },
-                      "parameters": ["Ball", "Lives", "-", "1"]
+                      "parameters": [
+                        "Ball",
+                        "Lives",
+                        "-",
+                        "1"
+                      ]
                     },
                     {
                       "type": {
@@ -2978,8 +3322,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Display the score and lives left",
-              "comment2": ""
+              "comment": "Display the score and lives left"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2987,7 +3330,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarGlobal"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "ScoreDisplay",
@@ -2997,22 +3340,24 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Score",
+                    "Lives",
+                    "Text",
                     "=",
-                    "\"Score: \" + GlobalVariableString(ScoreDisplay)"
+                    "\"Lives: \" + Ball.Lives"
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Lives",
+                    "Score",
+                    "Text",
                     "=",
-                    "\"Lives: \" + Ball.VariableString(Lives)"
+                    "\"Score: \" + ScoreDisplay"
                   ]
                 }
               ]
@@ -3027,8 +3372,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "When the GameOver kayer has become visible, allow the sub events to be triggered.",
-              "comment2": ""
+              "comment": "When the GameOver kayer has become visible, allow the sub events to be triggered."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3037,7 +3381,10 @@
                   "type": {
                     "value": "LayerVisible"
                   },
-                  "parameters": ["", "\"GameOver\""]
+                  "parameters": [
+                    "",
+                    "\"GameOver\""
+                  ]
                 }
               ],
               "actions": [],
@@ -3057,7 +3404,13 @@
                       "type": {
                         "value": "PlaySound"
                       },
-                      "parameters": ["", "GameOver.wav", "", "40", "1"]
+                      "parameters": [
+                        "",
+                        "GameOver.wav",
+                        "",
+                        "40",
+                        "1"
+                      ]
                     },
                     {
                       "type": {
@@ -3077,15 +3430,23 @@
                     },
                     {
                       "type": {
-                        "value": "Opacity"
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
                       },
-                      "parameters": ["Darkening", "=", "220"]
+                      "parameters": [
+                        "Darkening",
+                        "Opacity",
+                        "=",
+                        "220"
+                      ]
                     },
                     {
                       "type": {
                         "value": "ChangeLayer"
                       },
-                      "parameters": ["Score", "\"Score\""]
+                      "parameters": [
+                        "Score",
+                        "\"Score\""
+                      ]
                     }
                   ]
                 },
@@ -3099,8 +3460,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "When cursor hovers over the SubmitScore text object, and the left mouse button is released, it will take the text from the text input object and send that to the selected leaderboard and then display the loading screen for the leaderboard and reset the global values for score and score display.",
-                  "comment2": ""
+                  "comment": "When cursor hovers over the SubmitScore text object, and the left mouse button is released, it will take the text from the text input object and send that to the selected leaderboard and then display the loading screen for the leaderboard and reset the global values for score and score display."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3109,7 +3469,12 @@
                       "type": {
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["SubmitScore", "", "", ""]
+                      "parameters": [
+                        "SubmitScore",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -3129,7 +3494,10 @@
                           "type": {
                             "value": "TextObject::ChangeColor"
                           },
-                          "parameters": ["SubmitScore", "\"255;235;0\""]
+                          "parameters": [
+                            "SubmitScore",
+                            "\"255;235;0\""
+                          ]
                         }
                       ]
                     },
@@ -3140,7 +3508,10 @@
                           "type": {
                             "value": "MouseButtonReleased"
                           },
-                          "parameters": ["", "Left"]
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
                         },
                         {
                           "type": {
@@ -3173,15 +3544,23 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarGlobal"
+                            "value": "SetNumberVariable"
                           },
-                          "parameters": ["Score", "=", "0"]
+                          "parameters": [
+                            "ScoreDisplay",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
-                            "value": "ModVarGlobal"
+                            "value": "SetNumberVariable"
                           },
-                          "parameters": ["ScoreDisplay", "=", "0"]
+                          "parameters": [
+                            "Score",
+                            "=",
+                            "0"
+                          ]
                         }
                       ]
                     }
@@ -3195,7 +3574,12 @@
                         "inverted": true,
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["SubmitScore", "", "", ""]
+                      "parameters": [
+                        "SubmitScore",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -3203,7 +3587,10 @@
                       "type": {
                         "value": "TextObject::ChangeColor"
                       },
-                      "parameters": ["SubmitScore", "\"255;255;255\""]
+                      "parameters": [
+                        "SubmitScore",
+                        "\"255;255;255\""
+                      ]
                     }
                   ]
                 },
@@ -3217,8 +3604,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "When cursor hovers over the RestartGame text object, and the left mouse button is released, it will reset the global variables and change the scene back to the GameScene which will allow the player to start over.",
-                  "comment2": ""
+                  "comment": "When cursor hovers over the RestartGame text object, and the left mouse button is released, it will reset the global variables and change the scene back to the GameScene which will allow the player to start over."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3227,7 +3613,12 @@
                       "type": {
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["RestartGame", "", "", ""]
+                      "parameters": [
+                        "RestartGame",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -3247,7 +3638,10 @@
                           "type": {
                             "value": "TextObject::ChangeColor"
                           },
-                          "parameters": ["RestartGame", "\"255;235;0\""]
+                          "parameters": [
+                            "RestartGame",
+                            "\"255;235;0\""
+                          ]
                         }
                       ]
                     },
@@ -3258,7 +3652,10 @@
                           "type": {
                             "value": "MouseButtonReleased"
                           },
-                          "parameters": ["", "Left"]
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
                         },
                         {
                           "type": {
@@ -3270,21 +3667,33 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "ModVarGlobal"
+                            "value": "SetNumberVariable"
                           },
-                          "parameters": ["ScoreDisplay", "=", "0"]
+                          "parameters": [
+                            "ScoreDisplay",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
-                            "value": "ModVarGlobal"
+                            "value": "SetNumberVariable"
                           },
-                          "parameters": ["Score", "=", "0"]
+                          "parameters": [
+                            "Score",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
                             "value": "Scene"
                           },
-                          "parameters": ["", "\"GameScene\"", ""]
+                          "parameters": [
+                            "",
+                            "\"GameScene\"",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -3298,7 +3707,12 @@
                         "inverted": true,
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["RestartGame", "", "", ""]
+                      "parameters": [
+                        "RestartGame",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -3306,7 +3720,10 @@
                       "type": {
                         "value": "TextObject::ChangeColor"
                       },
-                      "parameters": ["RestartGame", "\"255;255;255\""]
+                      "parameters": [
+                        "RestartGame",
+                        "\"255;255;255\""
+                      ]
                     }
                   ]
                 },
@@ -3320,8 +3737,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "When the leaderboard has finished loading, change the game scene to the \"leaderboard\" game scene so the player is isolated from the game and can only interact with the leaderboard.",
-                  "comment2": ""
+                  "comment": "When the leaderboard has finished loading, change the game scene to the \"leaderboard\" game scene so the player is isolated from the game and can only interact with the leaderboard."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -3338,7 +3754,11 @@
                       "type": {
                         "value": "Scene"
                       },
-                      "parameters": ["", "\"Leaderboard\"", ""]
+                      "parameters": [
+                        "",
+                        "\"Leaderboard\"",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -3354,8 +3774,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Randomizing the object variable \"Speed\" of the cloud object that will be use in the below event to make them drift at a randomized speed.",
-              "comment2": ""
+              "comment": "Randomizing the object variable \"Speed\" of the cloud object that will be use in the below event to make them drift at a randomized speed."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3364,13 +3783,15 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [""]
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
                     "CloudLayer3",
@@ -3391,8 +3812,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "A constant addition to the X offset of the cloud objects so they'll drift slowly across the screen.",
-              "comment2": ""
+              "comment": "A constant addition to the X offset of the cloud objects so they'll drift slowly across the screen."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3419,9 +3839,15 @@
           "ambientLightColorB": 8187816,
           "ambientLightColorG": 6040208,
           "ambientLightColorR": 7389680,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Background",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -3430,9 +3856,15 @@
           "ambientLightColorB": 19952200,
           "ambientLightColorG": 6043600,
           "ambientLightColorR": 10052400,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Clouds",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -3441,9 +3873,15 @@
           "ambientLightColorB": 32,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -3476,9 +3914,15 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 6040208,
           "ambientLightColorR": 9174096,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "GameOver",
+          "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -3487,9 +3931,15 @@
           "ambientLightColorB": 9248840,
           "ambientLightColorG": 6040208,
           "ambientLightColorR": 7389680,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "Score",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": [
@@ -3558,6 +4008,9 @@
       "variables": [],
       "instances": [],
       "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -3569,8 +4022,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "When the player exits the leaderboard, send them back to GameScene so they can restart the game.",
-          "comment2": ""
+          "comment": "When the player exits the leaderboard, send them back to GameScene so they can restart the game."
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3588,7 +4040,11 @@
               "type": {
                 "value": "Scene"
               },
-              "parameters": ["", "\"GameScene\"", "no"]
+              "parameters": [
+                "",
+                "\"GameScene\"",
+                "no"
+              ]
             }
           ]
         }
@@ -3598,9 +4054,15 @@
           "ambientLightColorB": 2,
           "ambientLightColorG": 134217728,
           "ambientLightColorR": 1597132097,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -3667,8 +4129,12 @@
         "rotate",
         "angle"
       ],
-      "authorIds": ["gqDaZjCfevOOxBYkK6zlhtZnXCg1"],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -3703,8 +4169,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Start/Reset duration timer",
-                      "comment2": ""
+                      "comment": "Start/Reset duration timer"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3731,8 +4196,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
-                      "comment2": ""
+                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3805,8 +4269,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Determine if the shake should keep going until stopped",
-                      "comment2": ""
+                      "comment": "Determine if the shake should keep going until stopped"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3831,7 +4294,9 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": ["\"ShakeForever\""]
+                          "parameters": [
+                            "\"ShakeForever\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -3857,8 +4322,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Add default values if none were provided",
-                      "comment2": ""
+                      "comment": "Add default values if none were provided"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3928,8 +4392,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
-                      "comment2": ""
+                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3970,8 +4433,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Detect initial shake",
-                      "comment2": ""
+                      "comment": "Detect initial shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -4012,8 +4474,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Initiate the onScenePostEvents function",
-                      "comment2": ""
+                      "comment": "Initiate the onScenePostEvents function"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -4133,8 +4594,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Keep object shaking forever (if desired)",
-                              "comment2": ""
+                              "comment": "Keep object shaking forever (if desired)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -4192,8 +4652,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Run once before every shake movement",
-                                  "comment2": ""
+                                  "comment": "Run once before every shake movement"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -4270,8 +4729,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Move to correct any drift from previous shake",
-                                          "comment2": ""
+                                          "comment": "Move to correct any drift from previous shake"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -4368,8 +4826,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Reset drift detection variables",
-                                          "comment2": ""
+                                          "comment": "Reset drift detection variables"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -4423,8 +4880,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Position Shake",
-                                      "comment2": ""
+                                      "comment": "Calculate Position Shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -4472,8 +4928,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
-                                          "comment2": ""
+                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -4485,8 +4940,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
-                                          "comment2": ""
+                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -4575,8 +5029,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "After initial shake pick a random direction",
-                                          "comment2": ""
+                                          "comment": "After initial shake pick a random direction"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -4667,8 +5120,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Rotation (angle) shake ",
-                                      "comment2": ""
+                                      "comment": "Calculate Rotation (angle) shake "
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -4697,8 +5149,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"even\" shake, rotate clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"even\" shake, rotate clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -4710,8 +5161,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -4751,8 +5201,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, rotate counter-clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"odd\" shake, rotate counter-clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -4764,8 +5213,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -4807,8 +5255,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save that initial shake has been processed",
-                                      "comment2": ""
+                                      "comment": "Save that initial shake has been processed"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -4851,8 +5298,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate the fraction of shake that occured during this frame",
-                                  "comment2": ""
+                                  "comment": "Calculate the fraction of shake that occured during this frame"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -4881,8 +5327,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Increase change for the first half of the shake (move away from original values)",
-                                  "comment2": ""
+                                  "comment": "Increase change for the first half of the shake (move away from original values)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -4911,8 +5356,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -4981,8 +5425,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -5024,8 +5467,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -5064,8 +5506,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -5098,8 +5539,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Decrease change the second half of the shake (return to original position)",
-                                  "comment2": ""
+                                  "comment": "Decrease change the second half of the shake (return to original position)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -5127,8 +5567,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -5197,8 +5636,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -5240,8 +5678,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -5280,8 +5717,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -5331,8 +5767,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
-                          "comment2": ""
+                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -5417,8 +5852,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Move to correct any drift from previous shake",
-                                  "comment2": ""
+                                  "comment": "Move to correct any drift from previous shake"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -5515,8 +5949,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Reset drift detection variables",
-                                  "comment2": ""
+                                  "comment": "Reset drift detection variables"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -5598,7 +6031,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngle::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -5658,7 +6095,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -5714,8 +6153,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Start/Reset duration timer",
-                      "comment2": ""
+                      "comment": "Start/Reset duration timer"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5742,8 +6180,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
-                      "comment2": ""
+                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5827,8 +6264,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Determine if the shake should keep going until stopped",
-                      "comment2": ""
+                      "comment": "Determine if the shake should keep going until stopped"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5853,7 +6289,9 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": ["\"ShakeForever\""]
+                          "parameters": [
+                            "\"ShakeForever\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -5879,8 +6317,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Add default values if none were provided",
-                      "comment2": ""
+                      "comment": "Add default values if none were provided"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5950,8 +6387,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
-                      "comment2": ""
+                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -5992,8 +6428,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Detect initial shake",
-                      "comment2": ""
+                      "comment": "Detect initial shake"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -6034,8 +6469,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Initiate the onScenePostEvents function",
-                      "comment2": ""
+                      "comment": "Initiate the onScenePostEvents function"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -6161,8 +6595,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Keep object shaking forever (if desired)",
-                              "comment2": ""
+                              "comment": "Keep object shaking forever (if desired)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -6220,8 +6653,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Run once before every shake movement",
-                                  "comment2": ""
+                                  "comment": "Run once before every shake movement"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -6299,8 +6731,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Move to correct any drift from previous shake",
-                                          "comment2": ""
+                                          "comment": "Move to correct any drift from previous shake"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -6425,8 +6856,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Reset drift detection variables",
-                                          "comment2": ""
+                                          "comment": "Reset drift detection variables"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -6491,8 +6921,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Position Shake",
-                                      "comment2": ""
+                                      "comment": "Calculate Position Shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -6540,8 +6969,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
-                                          "comment2": ""
+                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -6553,8 +6981,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
-                                          "comment2": ""
+                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -6643,8 +7070,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "After initial shake pick a random direction",
-                                          "comment2": ""
+                                          "comment": "After initial shake pick a random direction"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -6735,8 +7161,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Rotation (angle) shake ",
-                                      "comment2": ""
+                                      "comment": "Calculate Rotation (angle) shake "
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -6765,8 +7190,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"even\" shake, rotate clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"even\" shake, rotate clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -6778,8 +7202,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -6819,8 +7242,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, rotate counter-clockwise",
-                                          "comment2": ""
+                                          "comment": "Every \"odd\" shake, rotate counter-clockwise"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -6832,8 +7254,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                          "comment2": ""
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -6875,8 +7296,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate Scale shake",
-                                      "comment2": ""
+                                      "comment": "Calculate Scale shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -6905,8 +7325,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Calculate object scale displacement, with linear decay over time",
-                                          "comment2": ""
+                                          "comment": "Calculate object scale displacement, with linear decay over time"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -6918,8 +7337,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
-                                          "comment2": ""
+                                          "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -6931,8 +7349,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every even shake, increase scale",
-                                          "comment2": ""
+                                          "comment": "Every even shake, increase scale"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -6972,8 +7389,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Every \"odd\" shake, decrease scale",
-                                          "comment2": ""
+                                          "comment": "Every \"odd\" shake, decrease scale"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Comment",
@@ -6985,8 +7401,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
-                                          "comment2": ""
+                                          "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -7028,8 +7443,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save that initial shake has been processed",
-                                      "comment2": ""
+                                      "comment": "Save that initial shake has been processed"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -7072,8 +7486,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate the fraction of shake that occured during this frame",
-                                  "comment2": ""
+                                  "comment": "Calculate the fraction of shake that occured during this frame"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -7102,8 +7515,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Increase change for the first half of the shake (move away from original values)",
-                                  "comment2": ""
+                                  "comment": "Increase change for the first half of the shake (move away from original values)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -7132,8 +7544,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -7202,8 +7613,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -7245,8 +7655,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -7285,8 +7694,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -7317,8 +7725,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change scale",
-                                      "comment2": ""
+                                      "comment": "Change scale"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -7357,8 +7764,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -7391,8 +7797,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Decrease change the second half of the shake (return to original position)",
-                                  "comment2": ""
+                                  "comment": "Decrease change the second half of the shake (return to original position)"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -7420,8 +7825,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change position",
-                                      "comment2": ""
+                                      "comment": "Change position"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -7490,8 +7894,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -7533,8 +7936,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change angle",
-                                      "comment2": ""
+                                      "comment": "Change angle"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -7573,8 +7975,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -7605,8 +8006,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Change scale",
-                                      "comment2": ""
+                                      "comment": "Change scale"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -7645,8 +8045,7 @@
                                             "textG": 0,
                                             "textR": 0
                                           },
-                                          "comment": "Save movement to calculate drift",
-                                          "comment2": ""
+                                          "comment": "Save movement to calculate drift"
                                         },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
@@ -7696,8 +8095,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
-                          "comment2": ""
+                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -7782,8 +8180,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Move to correct any drift from previous shake",
-                                  "comment2": ""
+                                  "comment": "Move to correct any drift from previous shake"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -7908,8 +8305,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Reset drift detection variables",
-                                  "comment2": ""
+                                  "comment": "Reset drift detection variables"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -8003,7 +8399,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -8064,7 +8464,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -8144,6 +8546,8 @@
         "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
       ],
       "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -8177,8 +8581,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Set the center of movement to the initial location of the object",
-                      "comment2": ""
+                      "comment": "Set the center of movement to the initial location of the object"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -8187,13 +8590,23 @@
                           "type": {
                             "value": "RectangularMovement::RectangularMovement::PropertyCenterPointX"
                           },
-                          "parameters": ["Object", "Behavior", "=", "0"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
                             "value": "RectangularMovement::RectangularMovement::PropertyCenterPointY"
                           },
-                          "parameters": ["Object", "Behavior", "=", "0"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -8238,7 +8651,10 @@
                                 "inverted": true,
                                 "value": "RectangularMovement::RectangularMovement::PropertyConstantSpeed"
                               },
-                              "parameters": ["Object", "Behavior"]
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
                             }
                           ],
                           "actions": [],
@@ -8262,8 +8678,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Horizontal movement is the same for both methods",
-                                  "comment2": ""
+                                  "comment": "Horizontal movement is the same for both methods"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -8303,8 +8718,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Vertical movement is reversed based on the parameter",
-                                  "comment2": ""
+                                  "comment": "Vertical movement is reversed based on the parameter"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -8331,7 +8745,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8354,7 +8771,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8439,8 +8859,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Skip if no horizontal movement is desired",
-                                      "comment2": ""
+                                      "comment": "Skip if no horizontal movement is desired"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8481,8 +8900,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8569,8 +8987,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Skip if no vertical movement is desired",
-                                      "comment2": ""
+                                      "comment": "Skip if no vertical movement is desired"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8611,8 +9028,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8622,7 +9038,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8646,7 +9065,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8731,8 +9153,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Skip if no horizontal movement is desired",
-                                      "comment2": ""
+                                      "comment": "Skip if no horizontal movement is desired"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8773,8 +9194,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8861,8 +9281,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Skip if no vertical movement is desired",
-                                      "comment2": ""
+                                      "comment": "Skip if no vertical movement is desired"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8903,8 +9322,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -8914,7 +9332,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8938,7 +9359,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8967,8 +9391,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Reset the counter after the rectangular path is completed",
-                                  "comment2": ""
+                                  "comment": "Reset the counter after the rectangular path is completed"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -9023,7 +9446,10 @@
                               "type": {
                                 "value": "RectangularMovement::RectangularMovement::PropertyConstantSpeed"
                               },
-                              "parameters": ["Object", "Behavior"]
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
                             }
                           ],
                           "actions": [],
@@ -9047,8 +9473,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Vertical movement is the same for both methods",
-                                  "comment2": ""
+                                  "comment": "Vertical movement is the same for both methods"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -9088,8 +9513,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "",
-                                  "comment2": ""
+                                  "comment": ""
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -9116,7 +9540,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9139,7 +9566,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9253,8 +9683,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -9263,7 +9692,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9288,7 +9720,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9391,8 +9826,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -9457,8 +9891,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Detect when Progress crosses 0 (or if horizontal movement is disabled)",
-                                      "comment2": ""
+                                      "comment": "Detect when Progress crosses 0 (or if horizontal movement is disabled)"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -9529,8 +9962,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -9539,7 +9971,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9564,7 +9999,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9627,8 +10065,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Detect when Progress crosses 0 (or if vertical movement is disabled)",
-                                      "comment2": ""
+                                      "comment": "Detect when Progress crosses 0 (or if vertical movement is disabled)"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -9699,8 +10136,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Record direction",
-                                      "comment2": ""
+                                      "comment": "Record direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -9763,7 +10199,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyProgressY()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyProgressY()"
+                      ]
                     }
                   ]
                 }
@@ -9801,7 +10239,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyProgressX()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyProgressX()"
+                      ]
                     }
                   ]
                 }
@@ -9879,7 +10319,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyVerticalSpeed()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyVerticalSpeed()"
+                      ]
                     }
                   ]
                 }
@@ -9997,7 +10439,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyCenterPointX()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterPointX()"
+                      ]
                     }
                   ]
                 }
@@ -10035,7 +10479,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyCenterPointY()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterPointY()"
+                      ]
                     }
                   ]
                 }
@@ -10342,7 +10788,9 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10350,7 +10798,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyCounterClockwise"
                       },
-                      "parameters": ["Object", "Behavior", "yes"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -10362,7 +10814,9 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10370,7 +10824,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyCounterClockwise"
                       },
-                      "parameters": ["Object", "Behavior", "no"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
                     }
                   ]
                 }
@@ -10409,7 +10867,9 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10417,7 +10877,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyConstantSpeed"
                       },
-                      "parameters": ["Object", "Behavior", "yes"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -10429,7 +10893,9 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10437,7 +10903,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyConstantSpeed"
                       },
-                      "parameters": ["Object", "Behavior", "no"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
                     }
                   ]
                 }
@@ -10477,19 +10947,34 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyProgressX"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     },
                     {
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyProgressY"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     },
                     {
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyRectangularCounter"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -10523,7 +11008,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Down\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Down\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10531,7 +11021,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10565,7 +11057,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Up\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Up\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10573,7 +11070,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10607,7 +11106,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Left\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Left\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10615,7 +11119,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10649,7 +11155,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Right\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Right\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10657,7 +11168,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10686,7 +11199,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "HorizontalSpeed"
             },
             {
@@ -10696,7 +11208,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "VerticalSpeed"
             },
             {
@@ -10706,7 +11217,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "HorizontalDistance"
             },
             {
@@ -10716,7 +11226,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "VerticalDistance"
             },
             {
@@ -10726,7 +11235,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "CenterPointX"
             },
             {
@@ -10736,7 +11244,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "CenterPointY"
             },
             {
@@ -10776,7 +11283,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "ConstantSpeed"
             },
             {
@@ -10786,7 +11292,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "CounterClockwise"
             },
             {
@@ -10795,7 +11300,12 @@
               "label": "Current direction the object is moving",
               "description": "",
               "group": "",
-              "extraInformation": ["Left", "Right", "Up", "Down"],
+              "extraInformation": [
+                "Left",
+                "Right",
+                "Up",
+                "Down"
+              ],
               "hidden": true,
               "name": "CurrentDirection"
             }
