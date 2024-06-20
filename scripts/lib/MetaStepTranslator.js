@@ -56,6 +56,37 @@ const translateMetaStep = (metaStep) => {
     case 'add-behavior':
       return [
         {
+          elementToHighlightId: '#toolbar-open-objects-panel-button',
+          nextStepTrigger: {
+            presenceOfElement: '#add-new-object-button',
+          },
+          tooltip: {
+            description: {
+              messageByLocale: {
+                en: 'Open the **Objects** panel.',
+                fr: 'Ouvrez le panneau des **objets**.',
+                ar: 'فتح لوحة **الكائنات**.',
+                de: 'Öffnen Sie das **Objekte**-Panel.',
+                es: 'Abre el panel de **objetos**.',
+                it: 'Apri il pannello **Oggetti**.',
+                ja: '**オブジェクト**パネルを開いてください。',
+                ko: '**오브젝트** 패널을 엽니다.',
+                pl: 'Otwórz panel **Obiekty**.',
+                pt: 'Abra o painel de **objetos**.',
+                ru: 'Откройте панель **Объекты**.',
+                sl: 'Odpri panel **Predmeti**.',
+                sq: 'Hapni panelin e **objekteve**.',
+                th: 'เปิดแผงควบคุม **วัตถุ**',
+                uk: "Відкрийте панель **Об'єкти**.",
+                zh: '打开**对象**面板。',
+              },
+            },
+            placement: 'bottom',
+            mobilePlacement: 'top',
+          },
+          skippable: true,
+        },
+        {
           elementToHighlightId: `objectInObjectsList:${metaStep.objectKey}`,
           nextStepTrigger: {
             presenceOfElement: '#object-editor-dialog',
