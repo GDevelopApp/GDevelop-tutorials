@@ -549,7 +549,7 @@
             "zh": "在$(gameScene)上**长按**（或使用*3点菜单*），然后选择**编辑场景变量**。"
           }
         },
-        "placement": "bottom"
+        "placement": "top"
       },
       "isOnClosableDialog": true
     },
