@@ -12,15 +12,15 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.topdownrpg",
+    "packageName": "com.example.topdownrpgtutorial",
     "pixelsRounding": false,
     "projectUuid": "17ab4c4f-d152-49a4-9990-ae19add06e3e",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
-    "templateSlug": "top-down-rpg",
+    "templateSlug": "top-down-rpg-tutorial",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Top down RPG movement",
+    "name": "Top down RPG movement Tutorial",
     "description": "A top down RPG style movement game example with mobile controls.",
     "author": "",
     "windowWidth": 1280,
@@ -81,12 +81,8 @@
     },
     "authorIds": [],
     "authorUsernames": [],
-    "categories": [
-      "rpg"
-    ],
-    "playableDevices": [
-      "keyboard"
-    ],
+    "categories": ["rpg"],
+    "playableDevices": ["keyboard"],
     "extensionProperties": [],
     "platforms": [
       {
@@ -2528,9 +2524,7 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [
-                    ""
-                  ]
+                  "parameters": [""]
                 }
               ],
               "actions": [
@@ -2538,50 +2532,31 @@
                   "type": {
                     "value": "ZoomCamera"
                   },
-                  "parameters": [
-                    "",
-                    "4",
-                    "",
-                    ""
-                  ]
+                  "parameters": ["", "4", "", ""]
                 },
                 {
                   "type": {
                     "value": "ZoomCamera"
                   },
-                  "parameters": [
-                    "",
-                    "1.5",
-                    "\"Transition\"",
-                    ""
-                  ]
+                  "parameters": ["", "1.5", "\"Transition\"", ""]
                 },
                 {
                   "type": {
                     "value": "ChangePlan"
                   },
-                  "parameters": [
-                    "WorldObjects",
-                    "=",
-                    "WorldObjects.Y()"
-                  ]
+                  "parameters": ["WorldObjects", "=", "WorldObjects.Y()"]
                 },
                 {
                   "type": {
                     "value": "HideLayer"
                   },
-                  "parameters": [
-                    "",
-                    "\"Collision\""
-                  ]
+                  "parameters": ["", "\"Collision\""]
                 },
                 {
                   "type": {
                     "value": "Cache"
                   },
-                  "parameters": [
-                    "WinMarker"
-                  ]
+                  "parameters": ["WinMarker"]
                 }
               ]
             },
@@ -2594,33 +2569,19 @@
                   "type": {
                     "value": "SeparateFromObjects"
                   },
-                  "parameters": [
-                    "Player",
-                    "Collisions",
-                    "yes"
-                  ]
+                  "parameters": ["Player", "Collisions", "yes"]
                 },
                 {
                   "type": {
                     "value": "ChangePlan"
                   },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "Player.Y()"
-                  ]
+                  "parameters": ["Player", "=", "Player.Y()"]
                 },
                 {
                   "type": {
                     "value": "CentreCamera"
                   },
-                  "parameters": [
-                    "",
-                    "Player",
-                    "",
-                    "",
-                    ""
-                  ]
+                  "parameters": ["", "Player", "", "", ""]
                 },
                 {
                   "type": {
@@ -2656,18 +2617,14 @@
                       "type": {
                         "value": "DepartScene"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     },
                     {
                       "type": {
                         "inverted": true,
                         "value": "SystemInfo::HasTouchScreen"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -2675,10 +2632,7 @@
                       "type": {
                         "value": "Delete"
                       },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        ""
-                      ]
+                      "parameters": ["ShadedDarkJoystick", ""]
                     }
                   ]
                 },
@@ -2690,11 +2644,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Up\"",
-                        ""
-                      ]
+                      "parameters": ["ShadedDarkJoystick", "\"Up\"", ""]
                     }
                   ],
                   "actions": [
@@ -2702,11 +2652,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Up\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Up\""]
                     }
                   ]
                 },
@@ -2718,11 +2664,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Right\"",
-                        ""
-                      ]
+                      "parameters": ["ShadedDarkJoystick", "\"Right\"", ""]
                     }
                   ],
                   "actions": [
@@ -2730,11 +2672,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Right\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Right\""]
                     }
                   ]
                 },
@@ -2746,11 +2684,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Left\"",
-                        ""
-                      ]
+                      "parameters": ["ShadedDarkJoystick", "\"Left\"", ""]
                     }
                   ],
                   "actions": [
@@ -2758,11 +2692,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Left\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Left\""]
                     }
                   ]
                 },
@@ -2774,11 +2704,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": [
-                        "ShadedDarkJoystick",
-                        "\"Down\"",
-                        ""
-                      ]
+                      "parameters": ["ShadedDarkJoystick", "\"Down\"", ""]
                     }
                   ],
                   "actions": [
@@ -2786,11 +2712,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Down\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Down\""]
                     }
                   ]
                 }
@@ -2815,11 +2737,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Up\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Up\""]
                     }
                   ],
                   "actions": [
@@ -2827,12 +2745,7 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Up\""
-                      ]
+                      "parameters": ["Player", "Animation", "=", "\"Up\""]
                     }
                   ]
                 },
@@ -2844,11 +2757,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Down\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Down\""]
                     }
                   ],
                   "actions": [
@@ -2856,12 +2765,7 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Down\""
-                      ]
+                      "parameters": ["Player", "Animation", "=", "\"Down\""]
                     }
                   ]
                 },
@@ -2873,11 +2777,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Right\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Right\""]
                     }
                   ],
                   "actions": [
@@ -2885,12 +2785,7 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Right\""
-                      ]
+                      "parameters": ["Player", "Animation", "=", "\"Right\""]
                     }
                   ]
                 },
@@ -2902,11 +2797,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "\"Left\""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", "\"Left\""]
                     }
                   ],
                   "actions": [
@@ -2914,12 +2805,7 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"Left\""
-                      ]
+                      "parameters": ["Player", "Animation", "=", "\"Left\""]
                     }
                   ]
                 },
@@ -2932,10 +2818,7 @@
                         "inverted": true,
                         "value": "TopDownMovementBehavior::IsMoving"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement"
-                      ]
+                      "parameters": ["Player", "TopDownMovement"]
                     }
                   ],
                   "actions": [
@@ -2943,10 +2826,7 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
                       },
-                      "parameters": [
-                        "Player",
-                        "Animation"
-                      ]
+                      "parameters": ["Player", "Animation"]
                     }
                   ]
                 },
@@ -2958,10 +2838,7 @@
                       "type": {
                         "value": "TopDownMovementBehavior::IsMoving"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement"
-                      ]
+                      "parameters": ["Player", "TopDownMovement"]
                     }
                   ],
                   "actions": [
@@ -2969,10 +2846,7 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
                       },
-                      "parameters": [
-                        "Player",
-                        "Animation"
-                      ]
+                      "parameters": ["Player", "Animation"]
                     }
                   ]
                 }
@@ -3008,10 +2882,7 @@
                         "inverted": true,
                         "value": "TopDownMovementBehavior::IsMoving"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement"
-                      ]
+                      "parameters": ["Player", "TopDownMovement"]
                     },
                     {
                       "type": {
@@ -3025,11 +2896,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        ""
-                      ]
+                      "parameters": ["Player", "TopDownMovement", ""]
                     },
                     {
                       "type": {
@@ -3050,19 +2917,13 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": [
-                        "1"
-                      ]
+                      "parameters": ["1"]
                     },
                     {
                       "type": {
                         "value": "Scene"
                       },
-                      "parameters": [
-                        "",
-                        "\"EndScreen\"",
-                        ""
-                      ]
+                      "parameters": ["", "\"EndScreen\"", ""]
                     }
                   ]
                 }
@@ -3495,9 +3356,7 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [
-                ""
-              ]
+              "parameters": [""]
             }
           ],
           "actions": [
@@ -3505,12 +3364,7 @@
               "type": {
                 "value": "ZoomCamera"
               },
-              "parameters": [
-                "",
-                "1.5",
-                "\"Transition\"",
-                ""
-              ]
+              "parameters": ["", "1.5", "\"Transition\"", ""]
             },
             {
               "type": {
@@ -3731,11 +3585,7 @@
                   "type": {
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
-                  "parameters": [
-                    "GetArgumentAsNumber(\"Distance\")",
-                    ">=",
-                    "0"
-                  ]
+                  "parameters": ["GetArgumentAsNumber(\"Distance\")", ">=", "0"]
                 }
               ],
               "actions": [
@@ -3756,11 +3606,7 @@
                   "type": {
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
-                  "parameters": [
-                    "GetArgumentAsNumber(\"Distance\")",
-                    "<",
-                    "0"
-                  ]
+                  "parameters": ["GetArgumentAsNumber(\"Distance\")", "<", "0"]
                 }
               ],
               "actions": [
@@ -3847,10 +3693,7 @@
                   "type": {
                     "value": "GlobalVariableAsBoolean"
                   },
-                  "parameters": [
-                    "__pixelPerfect.TopDownClassesDefined",
-                    ""
-                  ]
+                  "parameters": ["__pixelPerfect.TopDownClassesDefined", ""]
                 }
               ],
               "actions": [
@@ -3858,10 +3701,7 @@
                   "type": {
                     "value": "SetGlobalVariableAsBoolean"
                   },
-                  "parameters": [
-                    "__pixelPerfect.TopDownClassesDefined",
-                    "True"
-                  ]
+                  "parameters": ["__pixelPerfect.TopDownClassesDefined", "True"]
                 }
               ],
               "events": [
@@ -4344,10 +4184,7 @@
                       "type": {
                         "value": "PixelPerfectMovement::DefineJavaScriptForTopDown"
                       },
-                      "parameters": [
-                        "",
-                        ""
-                      ]
+                      "parameters": ["", ""]
                     }
                   ]
                 },
@@ -4505,10 +4342,7 @@
                           "type": {
                             "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyIsDecelerating"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior"
-                          ]
+                          "parameters": ["Object", "Behavior"]
                         },
                         {
                           "type": {
@@ -4578,12 +4412,7 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionX"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "1"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "1"]
                                 }
                               ],
                               "events": [
@@ -4696,12 +4525,7 @@
                               "type": {
                                 "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyTargetDirectionX"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "1"
-                              ]
+                              "parameters": ["Object", "Behavior", "=", "1"]
                             }
                           ],
                           "actions": [
@@ -4735,12 +4559,7 @@
                               "type": {
                                 "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyTargetDirectionX"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "-1"
-                              ]
+                              "parameters": ["Object", "Behavior", "=", "-1"]
                             }
                           ],
                           "actions": [
@@ -4842,12 +4661,7 @@
                               "type": {
                                 "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionX"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "0"
-                              ]
+                              "parameters": ["Object", "Behavior", "=", "0"]
                             },
                             {
                               "type": {
@@ -4902,10 +4716,7 @@
                           "type": {
                             "value": "PlatformBehavior::IsOnLadder"
                           },
-                          "parameters": [
-                            "Object",
-                            "PlatformerCharacter"
-                          ]
+                          "parameters": ["Object", "PlatformerCharacter"]
                         }
                       ],
                       "actions": [],
@@ -4976,12 +4787,7 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionY"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "1"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "1"]
                                 }
                               ],
                               "events": [
@@ -5147,12 +4953,7 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyTargetDirectionY"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "1"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "1"]
                                 }
                               ],
                               "actions": [
@@ -5291,12 +5092,7 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionY"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "0"]
                                 }
                               ]
                             },
@@ -5404,11 +5200,7 @@
                       "type": {
                         "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyIsDecelerating"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     }
                   ]
                 },
@@ -5450,11 +5242,7 @@
                       "type": {
                         "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyIsDecelerating"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     }
                   ]
                 },
@@ -5682,9 +5470,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -5730,9 +5516,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -5991,9 +5775,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6028,9 +5810,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6065,9 +5845,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6102,9 +5880,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -6163,9 +5939,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6200,9 +5974,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6237,9 +6009,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6274,9 +6044,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6311,9 +6079,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6348,9 +6114,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6385,9 +6149,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             },
@@ -6422,9 +6184,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -6496,9 +6256,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -6576,9 +6334,7 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": [
-                    "True"
-                  ]
+                  "parameters": ["True"]
                 }
               ]
             }
@@ -6969,11 +6725,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 }
@@ -7007,11 +6759,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 }
@@ -7044,9 +6792,7 @@
                       "type": {
                         "value": "HasGameJustResumed"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -7054,11 +6800,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ]
                 },
@@ -7078,9 +6820,7 @@
                           "type": {
                             "value": "HasAnyTouchOrMouseStarted"
                           },
-                          "parameters": [
-                            ""
-                          ]
+                          "parameters": [""]
                         }
                       ],
                       "actions": [
@@ -7088,12 +6828,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "0"]
                         }
                       ],
                       "events": [
@@ -7110,12 +6845,7 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "=",
-                                    "0"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "=", "0"]
                                 },
                                 {
                                   "type": {
@@ -7150,12 +6880,7 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                                   },
-                                  "parameters": [
-                                    "Object",
-                                    "Behavior",
-                                    "+",
-                                    "1"
-                                  ]
+                                  "parameters": ["Object", "Behavior", "+", "1"]
                                 }
                               ]
                             }
@@ -7193,11 +6918,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ]
                     }
@@ -7220,12 +6941,7 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "!=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "!=", "0"]
                         }
                       ],
                       "actions": [
@@ -7288,9 +7004,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyJoystickForce()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyJoystickForce()"]
                     }
                   ]
                 }
@@ -7381,9 +7095,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Object.Behavior::PropertyJoystickAngle()"
-                      ]
+                      "parameters": ["Object.Behavior::PropertyJoystickAngle()"]
                     }
                   ]
                 }
@@ -7582,9 +7294,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -7648,9 +7358,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -7690,12 +7398,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "!=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "!=", "0"]
                     }
                   ],
                   "actions": [
@@ -7703,9 +7406,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -7741,24 +7442,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickForce"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0", ""]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ]
                 }
@@ -8112,11 +7802,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -8124,22 +7810,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ]
+                      "parameters": ["Object", "Behavior", "no"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "\"Idle\"",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "\"Idle\"", ""]
                     }
                   ]
                 },
@@ -8151,19 +7828,13 @@
                         "inverted": true,
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "HasAnyTouchOrMouseStarted"
                       },
-                      "parameters": [
-                        ""
-                      ]
+                      "parameters": [""]
                     }
                   ],
                   "actions": [
@@ -8171,12 +7842,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ],
                   "events": [
@@ -8233,12 +7899,7 @@
                               "type": {
                                 "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "+",
-                                "1"
-                              ]
+                              "parameters": ["Object", "Behavior", "+", "1"]
                             }
                           ]
                         }
@@ -8253,20 +7914,13 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
                         "value": "HasTouchEnded"
                       },
-                      "parameters": [
-                        "",
-                        "Object.Behavior::PropertyTouchId()"
-                      ]
+                      "parameters": ["", "Object.Behavior::PropertyTouchId()"]
                     }
                   ],
                   "actions": [
@@ -8274,33 +7928,19 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "\"Released\"",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", "\"Released\"", ""]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "Behavior", "yes"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "0"]
                     }
                   ]
                 }
@@ -8334,10 +7974,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyIsReleased"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -8345,9 +7982,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -8381,12 +8016,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyTouchId"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "!=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "Behavior", "!=", "0"]
                     }
                   ],
                   "actions": [
@@ -8394,9 +8024,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -8549,10 +8177,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -8577,10 +8202,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -8605,19 +8227,13 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateUpKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     },
                     {
                       "type": {
                         "value": "PlatformBehavior::SimulateLadderKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -8642,10 +8258,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateDownKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 },
@@ -8669,10 +8282,7 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
-                      "parameters": [
-                        "Object",
-                        "Property"
-                      ]
+                      "parameters": ["Object", "Property"]
                     }
                   ]
                 }
@@ -8720,10 +8330,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "Controls",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -8757,12 +8364,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Analog\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"Analog\""]
                     }
                   ],
                   "actions": [
@@ -8786,12 +8388,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"360°\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"360°\""]
                     }
                   ],
                   "actions": [
@@ -8833,10 +8430,7 @@
                             "inverted": true,
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": [
-                            "Object",
-                            "TopDownMovement"
-                          ]
+                          "parameters": ["Object", "TopDownMovement"]
                         }
                       ],
                       "actions": [],
@@ -8862,10 +8456,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -8890,10 +8481,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -8918,10 +8506,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -8946,10 +8531,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         }
@@ -8962,10 +8544,7 @@
                           "type": {
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": [
-                            "Object",
-                            "TopDownMovement"
-                          ]
+                          "parameters": ["Object", "TopDownMovement"]
                         }
                       ],
                       "actions": [],
@@ -8991,10 +8570,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -9019,10 +8595,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -9047,10 +8620,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -9075,10 +8645,7 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -9103,19 +8670,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -9140,19 +8701,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -9177,19 +8732,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         },
@@ -9214,19 +8763,13 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": [
-                                "Object",
-                                "TopDownMovement"
-                              ]
+                              "parameters": ["Object", "TopDownMovement"]
                             }
                           ]
                         }
@@ -9278,10 +8821,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -9290,11 +8830,7 @@
               "label": "Stick mode",
               "description": "",
               "group": "Controls",
-              "extraInformation": [
-                "Analog",
-                "360°",
-                "8 Directions"
-              ],
+              "extraInformation": ["Analog", "360°", "8 Directions"],
               "name": "StickMode"
             }
           ],
@@ -9322,87 +8858,49 @@
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": [
-                        "",
-                        "Border",
-                        "0",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["", "Border", "0", "0", ""]
                     },
                     {
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": [
-                        "",
-                        "Thumb",
-                        "0",
-                        "0",
-                        ""
-                      ]
+                      "parameters": ["", "Thumb", "0", "0", ""]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": [
-                        "Border",
-                        "=",
-                        "1"
-                      ]
+                      "parameters": ["Border", "=", "1"]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": [
-                        "Thumb",
-                        "=",
-                        "2"
-                      ]
+                      "parameters": ["Thumb", "=", "2"]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": [
-                        "Border",
-                        "=",
-                        "0",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Border", "=", "0", "=", "0"]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": [
-                        "Thumb",
-                        "=",
-                        "0",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Thumb", "=", "0", "=", "0"]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
+                      "parameters": ["Object", ""]
                     },
                     {
                       "type": {
                         "value": "SetIncludedInParentCollisionMask"
                       },
-                      "parameters": [
-                        "Thumb",
-                        ""
-                      ]
+                      "parameters": ["Thumb", ""]
                     }
                   ]
                 }
@@ -9465,10 +8963,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
+                      "parameters": ["Object", ""]
                     }
                   ]
                 }
@@ -9559,9 +9054,7 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"ShouldActivate\""
-                      ]
+                      "parameters": ["\"ShouldActivate\""]
                     }
                   ],
                   "actions": [
@@ -9569,11 +9062,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "no"
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "no"]
                     }
                   ]
                 },
@@ -9584,9 +9073,7 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": [
-                        "\"ShouldActivate\""
-                      ]
+                      "parameters": ["\"ShouldActivate\""]
                     }
                   ],
                   "actions": [
@@ -9594,11 +9081,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "yes"
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "yes"]
                     }
                   ]
                 }
@@ -9632,11 +9115,7 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::IsPressed"
                       },
-                      "parameters": [
-                        "Border",
-                        "MultitouchJoystick",
-                        "!="
-                      ]
+                      "parameters": ["Border", "MultitouchJoystick", "!="]
                     }
                   ],
                   "actions": [
@@ -9644,9 +9123,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -9747,9 +9224,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Border.MultitouchJoystick::StickForceX()"
-                      ]
+                      "parameters": ["Border.MultitouchJoystick::StickForceX()"]
                     }
                   ]
                 }
@@ -9782,9 +9257,7 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": [
-                        "Border.MultitouchJoystick::StickForceY()"
-                      ]
+                      "parameters": ["Border.MultitouchJoystick::StickForceY()"]
                     }
                   ]
                 }
@@ -9900,9 +9373,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -9950,9 +9421,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -10206,10 +9675,7 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": [
-                "Primary",
-                "Secondary"
-              ],
+              "extraInformation": ["Primary", "Secondary"],
               "name": "JoystickIdentifier"
             },
             {
@@ -10227,9 +9693,7 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": [
-                "Thumb"
-              ],
+              "extraInformation": ["Thumb"],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -10249,9 +9713,7 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": [
-                "Thumb"
-              ],
+              "extraInformation": ["Thumb"],
               "hidden": true,
               "name": "ThumbIsScaledProportionally"
             },
@@ -10365,12 +9827,7 @@
         "identifier": "FlashTransitionPainter",
         "name": "gdevelop-extension-store"
       },
-      "tags": [
-        "shape painter",
-        "flash",
-        "transition",
-        "effect"
-      ],
+      "tags": ["shape painter", "flash", "transition", "effect"],
       "authorIds": [],
       "dependencies": [],
       "globalVariables": [],
@@ -10409,11 +9866,7 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     },
                     {
                       "type": {
@@ -10476,20 +9929,13 @@
                       "type": {
                         "value": "PrimitiveDrawing::ClearBetweenFrames"
                       },
-                      "parameters": [
-                        "Object",
-                        "yes"
-                      ]
+                      "parameters": ["Object", "yes"]
                     },
                     {
                       "type": {
                         "value": "PrimitiveDrawing::OutlineSize"
                       },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "0"
-                      ]
+                      "parameters": ["Object", "=", "0"]
                     },
                     {
                       "type": {
@@ -10598,23 +10044,13 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "\"\""
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "\"\""]
                         },
                         {
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "\"Flash\""
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "\"Flash\""]
                         }
                       ]
                     }
@@ -10670,11 +10106,7 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                ""
-                              ]
+                              "parameters": ["Object", "Behavior", ""]
                             }
                           ]
                         }
@@ -10700,11 +10132,7 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ]
                     },
@@ -10827,11 +10255,7 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                ""
-                              ]
+                              "parameters": ["Object", "Behavior", ""]
                             }
                           ]
                         }
@@ -10857,11 +10281,7 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ]
                     },
@@ -10976,12 +10396,7 @@
                       "type": {
                         "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Vertical\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"Vertical\""]
                     }
                   ],
                   "actions": [],
@@ -11035,11 +10450,7 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                ""
-                              ]
+                              "parameters": ["Object", "Behavior", ""]
                             }
                           ]
                         }
@@ -11065,11 +10476,7 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ]
                     },
@@ -11184,12 +10591,7 @@
                       "type": {
                         "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Circular\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"Circular\""]
                     }
                   ],
                   "actions": [],
@@ -11243,11 +10645,7 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                ""
-                              ]
+                              "parameters": ["Object", "Behavior", ""]
                             }
                           ]
                         }
@@ -11273,11 +10671,7 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ]
+                          "parameters": ["Object", "Behavior", ""]
                         }
                       ]
                     },
@@ -11508,10 +10902,7 @@
                         "inverted": true,
                         "value": "BehaviorActivated"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
+                      "parameters": ["Object", "Behavior"]
                     }
                   ],
                   "actions": [
@@ -11611,12 +11002,7 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyTimer"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "0"
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "0"]
                         }
                       ],
                       "actions": [
@@ -11624,12 +11010,7 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::SetPropertyTimer"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "0.2"
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "0.2"]
                         }
                       ]
                     },
@@ -11640,12 +11021,7 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyDirection"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "\"Both\""
-                          ]
+                          "parameters": ["Object", "Behavior", "=", "\"Both\""]
                         }
                       ],
                       "actions": [
@@ -11737,11 +11113,7 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "yes"
-                          ]
+                          "parameters": ["Object", "Behavior", "yes"]
                         }
                       ]
                     }
@@ -11859,9 +11231,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 },
@@ -11872,12 +11242,7 @@
                       "type": {
                         "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyDirection"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "\"Both\""
-                      ]
+                      "parameters": ["Object", "Behavior", "=", "\"Both\""]
                     },
                     {
                       "type": {
@@ -11895,9 +11260,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -12011,9 +11374,7 @@
         "rotate",
         "angle"
       ],
-      "authorIds": [
-        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
-      ],
+      "authorIds": ["gqDaZjCfevOOxBYkK6zlhtZnXCg1"],
       "dependencies": [],
       "globalVariables": [],
       "sceneVariables": [],
@@ -12176,9 +11537,7 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": [
-                            "\"ShakeForever\""
-                          ]
+                          "parameters": ["\"ShakeForever\""]
                         }
                       ],
                       "actions": [
@@ -13915,11 +13274,7 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngle::IsShaking"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -13979,9 +13334,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }
@@ -14173,9 +13526,7 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": [
-                            "\"ShakeForever\""
-                          ]
+                          "parameters": ["\"ShakeForever\""]
                         }
                       ],
                       "actions": [
@@ -16285,11 +15636,7 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
                       },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
+                      "parameters": ["Object", "Behavior", ""]
                     }
                   ],
                   "actions": [
@@ -16350,9 +15697,7 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": [
-                        "True"
-                      ]
+                      "parameters": ["True"]
                     }
                   ]
                 }

@@ -10,15 +10,15 @@
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.TimerLesson",
+    "packageName": "com.example.timer-tutorial",
     "pixelsRounding": false,
     "projectUuid": "fe846a3b-b0bc-4d7b-b74f-06220320d73d",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
-    "templateSlug": "",
+    "templateSlug": "timer-tutorial",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Timer Lesson",
+    "name": "Timer Tutorial",
     "description": "Game example showing how to set up a timer and to use that timer to check the time taken to win a game.",
     "author": "",
     "windowWidth": 1280,
@@ -683,9 +683,7 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [
-                    ""
-                  ]
+                  "parameters": [""]
                 }
               ],
               "actions": [
@@ -705,9 +703,7 @@
                   "type": {
                     "value": "Cache"
                   },
-                  "parameters": [
-                    "YouWin"
-                  ]
+                  "parameters": ["YouWin"]
                 }
               ]
             },
@@ -769,11 +765,7 @@
                   "type": {
                     "value": "Scene"
                   },
-                  "parameters": [
-                    "",
-                    "\"GameScene\"",
-                    ""
-                  ]
+                  "parameters": ["", "\"GameScene\"", ""]
                 }
               ]
             },
@@ -815,41 +807,25 @@
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": [
-                    "Key",
-                    "Draggable",
-                    "no"
-                  ]
+                  "parameters": ["Key", "Draggable", "no"]
                 },
                 {
                   "type": {
                     "value": "PlaySound"
                   },
-                  "parameters": [
-                    "",
-                    "YouWin",
-                    "",
-                    "",
-                    ""
-                  ]
+                  "parameters": ["", "YouWin", "", "", ""]
                 },
                 {
                   "type": {
                     "value": "Montre"
                   },
-                  "parameters": [
-                    "YouWin",
-                    ""
-                  ]
+                  "parameters": ["YouWin", ""]
                 },
                 {
                   "type": {
                     "value": "ChangeTimeScale"
                   },
-                  "parameters": [
-                    "",
-                    "0"
-                  ]
+                  "parameters": ["", "0"]
                 }
               ]
             }

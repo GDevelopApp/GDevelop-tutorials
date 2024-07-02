@@ -87,6 +87,8 @@ axios
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/topDownRPGMovement/game.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/fireABullet.json',
         'https://resources.gdevelop-app.com/in-app-tutorials/templates/fireABullet/game.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/coopPlatformer.json',
+        'https://resources.gdevelop-app.com/in-app-tutorials/templates/coopPlatformer/game.json',
       ],
     },
     {
