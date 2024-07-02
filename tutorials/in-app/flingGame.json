@@ -110,14 +110,7 @@
       "scene": "startScene"
     }
   },
-  "availableLocales": [
-    "en",
-    "fr",
-    "es",
-    "pt",
-    "th",
-    "ar"
-  ],
+  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
   "endDialog": {
     "content": [
       {

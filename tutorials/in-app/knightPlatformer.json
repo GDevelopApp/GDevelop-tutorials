@@ -62,9 +62,7 @@
       "scene": "level1"
     }
   },
-  "availableLocales": [
-    "en"
-  ],
+  "availableLocales": ["en"],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/knightPlatformer/game.json",
   "initialProjectData": {
     "playerHitBox": "KnightHitBox",
