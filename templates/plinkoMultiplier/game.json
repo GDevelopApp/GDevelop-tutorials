@@ -604,7 +604,7 @@
           "customSize": true,
           "height": 56,
           "layer": "",
-          "name": "Score",
+          "name": "TotalScore",
           "persistentUuid": "a2b81b92-9142-4065-8c49-ee304ccc74d7",
           "width": 334,
           "x": 564,
@@ -1998,7 +1998,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Score",
+          "name": "TotalScore",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -2479,7 +2479,7 @@
             "objectName": "Ball"
           },
           {
-            "objectName": "Score"
+            "objectName": "TotalScore"
           },
           {
             "objectName": "Lives"
@@ -2549,7 +2549,9 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [""]
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -2574,43 +2576,71 @@
                   "type": {
                     "value": "TextObject::String"
                   },
-                  "parameters": ["ScoreMultiplier", "=", "\"\""]
+                  "parameters": [
+                    "ScoreMultiplier",
+                    "=",
+                    "\"\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "CentreCamera"
                   },
-                  "parameters": ["", "Background", "", "\"Background\"", ""]
+                  "parameters": [
+                    "",
+                    "Background",
+                    "",
+                    "\"Background\"",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::SetColor"
                   },
-                  "parameters": ["Background", "\"233;178;178\""]
+                  "parameters": [
+                    "Background",
+                    "\"233;178;178\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::XOffset"
                   },
-                  "parameters": ["Background", "-", "100"]
+                  "parameters": [
+                    "Background",
+                    "-",
+                    "100"
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::SetOpacity"
                   },
-                  "parameters": ["CloudLayer3", "=", "100"]
+                  "parameters": [
+                    "CloudLayer3",
+                    "=",
+                    "100"
+                  ]
                 },
                 {
                   "type": {
                     "value": "TiledSpriteObject::SetColor"
                   },
-                  "parameters": ["CloudLayer3", "\"143;98;168\""]
+                  "parameters": [
+                    "CloudLayer3",
+                    "\"143;98;168\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Ball", "Physics2", "no"]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "no"
+                  ]
                 }
               ]
             }
@@ -2646,7 +2676,12 @@
                   "type": {
                     "value": "Physics2::CollisionStarted"
                   },
-                  "parameters": ["Ball", "Physics2", "Breakable_Pegs", ""]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "Breakable_Pegs",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -2654,7 +2689,11 @@
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Score", "+", "1"]
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "1"
+                  ]
                 },
                 {
                   "type": {
@@ -2689,25 +2728,41 @@
                   "type": {
                     "value": "OpacityCapability::OpacityBehavior::SetValue"
                   },
-                  "parameters": ["Breakable_Pegs", "Opacity", "-", "30"]
+                  "parameters": [
+                    "Breakable_Pegs",
+                    "Opacity",
+                    "-",
+                    "30"
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetNumberObjectVariable"
                   },
-                  "parameters": ["Ball", "Pitch", "+", "0.05"]
+                  "parameters": [
+                    "Ball",
+                    "Pitch",
+                    "+",
+                    "0.05"
+                  ]
                 },
                 {
                   "type": {
                     "value": "ResetTimer"
                   },
-                  "parameters": ["", "\"Ball_Pitch\""]
+                  "parameters": [
+                    "",
+                    "\"Ball_Pitch\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ChangeColor"
                   },
-                  "parameters": ["Breakable_Pegs", "\"114;114;114\""]
+                  "parameters": [
+                    "Breakable_Pegs",
+                    "\"114;114;114\""
+                  ]
                 }
               ],
               "events": [
@@ -2730,7 +2785,11 @@
                       "type": {
                         "value": "Opacity"
                       },
-                      "parameters": ["Breakable_Pegs", "<", "180"]
+                      "parameters": [
+                        "Breakable_Pegs",
+                        "<",
+                        "180"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2738,7 +2797,10 @@
                       "type": {
                         "value": "Delete"
                       },
-                      "parameters": ["Breakable_Pegs", ""]
+                      "parameters": [
+                        "Breakable_Pegs",
+                        ""
+                      ]
                     },
                     {
                       "type": {
@@ -2756,7 +2818,11 @@
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": ["PegDeath_Particle", "=", "0"]
+                      "parameters": [
+                        "PegDeath_Particle",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -2781,7 +2847,12 @@
                   "type": {
                     "value": "Physics2::CollisionStarted"
                   },
-                  "parameters": ["Ball", "Physics2", "Peg_Bigger", ""]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "Peg_Bigger",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -2789,13 +2860,23 @@
                   "type": {
                     "value": "SetNumberVariable"
                   },
-                  "parameters": ["Score", "+", "2"]
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "2"
+                  ]
                 },
                 {
                   "type": {
                     "value": "PlaySound"
                   },
-                  "parameters": ["", "ClickerBeep.wav", "", "30", "0.8"]
+                  "parameters": [
+                    "",
+                    "ClickerBeep.wav",
+                    "",
+                    "30",
+                    "0.8"
+                  ]
                 },
                 {
                   "type": {
@@ -2818,13 +2899,21 @@
                   "type": {
                     "value": "SetNumberObjectVariable"
                   },
-                  "parameters": ["Ball", "Pitch", "+", "0.05"]
+                  "parameters": [
+                    "Ball",
+                    "Pitch",
+                    "+",
+                    "0.05"
+                  ]
                 },
                 {
                   "type": {
                     "value": "ResetTimer"
                   },
-                  "parameters": ["", "\"Ball_Pitch\""]
+                  "parameters": [
+                    "",
+                    "\"Ball_Pitch\""
+                  ]
                 },
                 {
                   "type": {
@@ -2842,14 +2931,18 @@
                   "type": {
                     "value": "ChangePlan"
                   },
-                  "parameters": ["PegDeath_Particle", "=", "0"]
+                  "parameters": [
+                    "PegDeath_Particle",
+                    "=",
+                    "0"
+                  ]
                 },
                 {
                   "type": {
                     "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
                   },
                   "parameters": [
-                    "Score",
+                    "TotalScore",
                     "ShakeObject_PositionAngle",
                     "1",
                     "0",
@@ -2922,7 +3015,12 @@
                   "type": {
                     "value": "CompareTimer"
                   },
-                  "parameters": ["", "\"Ball_Pitch\"", ">", "0.5"]
+                  "parameters": [
+                    "",
+                    "\"Ball_Pitch\"",
+                    ">",
+                    "0.5"
+                  ]
                 },
                 {
                   "type": {
@@ -2936,7 +3034,12 @@
                   "type": {
                     "value": "SetNumberObjectVariable"
                   },
-                  "parameters": ["Ball", "Pitch", "=", "1"]
+                  "parameters": [
+                    "Ball",
+                    "Pitch",
+                    "=",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -2959,7 +3062,11 @@
                   "type": {
                     "value": "PosY"
                   },
-                  "parameters": ["Ball", ">", "1000"]
+                  "parameters": [
+                    "Ball",
+                    ">",
+                    "1000"
+                  ]
                 }
               ],
               "actions": [
@@ -2967,19 +3074,32 @@
                   "type": {
                     "value": "ActivateBehavior"
                   },
-                  "parameters": ["Ball", "Physics2", "no"]
+                  "parameters": [
+                    "Ball",
+                    "Physics2",
+                    "no"
+                  ]
                 },
                 {
                   "type": {
                     "value": "MettreY"
                   },
-                  "parameters": ["Ball", "=", "120"]
+                  "parameters": [
+                    "Ball",
+                    "=",
+                    "120"
+                  ]
                 },
                 {
                   "type": {
                     "value": "SetBooleanObjectVariable"
                   },
-                  "parameters": ["Ball", "Dropped", "False", ""]
+                  "parameters": [
+                    "Ball",
+                    "Dropped",
+                    "False",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -3007,7 +3127,12 @@
                       "type": {
                         "value": "NumberObjectVariable"
                       },
-                      "parameters": ["Ball", "Lives", ">", "0"]
+                      "parameters": [
+                        "Ball",
+                        "Lives",
+                        ">",
+                        "0"
+                      ]
                     }
                   ],
                   "actions": [
@@ -3015,7 +3140,13 @@
                       "type": {
                         "value": "PlaySound"
                       },
-                      "parameters": ["", "BallRespawn.wav", "", "45", "1.2"]
+                      "parameters": [
+                        "",
+                        "BallRespawn.wav",
+                        "",
+                        "45",
+                        "1.2"
+                      ]
                     }
                   ]
                 },
@@ -3026,7 +3157,12 @@
                       "type": {
                         "value": "NumberObjectVariable"
                       },
-                      "parameters": ["Ball", "Lives", "<", "1"]
+                      "parameters": [
+                        "Ball",
+                        "Lives",
+                        "<",
+                        "1"
+                      ]
                     }
                   ],
                   "actions": [
@@ -3034,13 +3170,19 @@
                       "type": {
                         "value": "Delete"
                       },
-                      "parameters": ["Ball", ""]
+                      "parameters": [
+                        "Ball",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "ShowLayer"
                       },
-                      "parameters": ["", "\"GameOver\""]
+                      "parameters": [
+                        "",
+                        "\"GameOver\""
+                      ]
                     }
                   ]
                 }
@@ -3065,7 +3207,12 @@
                   "type": {
                     "value": "BooleanObjectVariable"
                   },
-                  "parameters": ["Ball", "Dropped", "", ""]
+                  "parameters": [
+                    "Ball",
+                    "Dropped",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -3073,7 +3220,11 @@
                   "type": {
                     "value": "MettreX"
                   },
-                  "parameters": ["Ball", "=", "clamp(48, MouseX(), 752)"]
+                  "parameters": [
+                    "Ball",
+                    "=",
+                    "clamp(48, MouseX(), 752)"
+                  ]
                 }
               ],
               "events": [
@@ -3084,7 +3235,10 @@
                       "type": {
                         "value": "MouseButtonReleased"
                       },
-                      "parameters": ["", "Left"]
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
                     },
                     {
                       "type": {
@@ -3098,25 +3252,45 @@
                       "type": {
                         "value": "SetBooleanObjectVariable"
                       },
-                      "parameters": ["Ball", "Dropped", "True", ""]
+                      "parameters": [
+                        "Ball",
+                        "Dropped",
+                        "True",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": ["Ball", "Physics2", "yes"]
+                      "parameters": [
+                        "Ball",
+                        "Physics2",
+                        "yes"
+                      ]
                     },
                     {
                       "type": {
                         "value": "PlaySound"
                       },
-                      "parameters": ["", "ClickerBeep.wav", "", "50", "0.8"]
+                      "parameters": [
+                        "",
+                        "ClickerBeep.wav",
+                        "",
+                        "50",
+                        "0.8"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetNumberObjectVariable"
                       },
-                      "parameters": ["Ball", "Lives", "-", "1"]
+                      "parameters": [
+                        "Ball",
+                        "Lives",
+                        "-",
+                        "1"
+                      ]
                     },
                     {
                       "type": {
@@ -3180,7 +3354,7 @@
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Score",
+                    "TotalScore",
                     "Text",
                     "=",
                     "\"Score: \" + ScoreDisplay"
@@ -3207,7 +3381,10 @@
                   "type": {
                     "value": "LayerVisible"
                   },
-                  "parameters": ["", "\"GameOver\""]
+                  "parameters": [
+                    "",
+                    "\"GameOver\""
+                  ]
                 }
               ],
               "actions": [],
@@ -3227,7 +3404,13 @@
                       "type": {
                         "value": "PlaySound"
                       },
-                      "parameters": ["", "GameOver.wav", "", "40", "1"]
+                      "parameters": [
+                        "",
+                        "GameOver.wav",
+                        "",
+                        "40",
+                        "1"
+                      ]
                     },
                     {
                       "type": {
@@ -3249,13 +3432,21 @@
                       "type": {
                         "value": "OpacityCapability::OpacityBehavior::SetValue"
                       },
-                      "parameters": ["Darkening", "Opacity", "=", "220"]
+                      "parameters": [
+                        "Darkening",
+                        "Opacity",
+                        "=",
+                        "220"
+                      ]
                     },
                     {
                       "type": {
                         "value": "ChangeLayer"
                       },
-                      "parameters": ["Score", "\"Score\""]
+                      "parameters": [
+                        "TotalScore",
+                        "\"Score\""
+                      ]
                     }
                   ]
                 },
@@ -3278,7 +3469,12 @@
                       "type": {
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["SubmitScore", "", "", ""]
+                      "parameters": [
+                        "SubmitScore",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -3298,7 +3494,10 @@
                           "type": {
                             "value": "TextObject::ChangeColor"
                           },
-                          "parameters": ["SubmitScore", "\"255;235;0\""]
+                          "parameters": [
+                            "SubmitScore",
+                            "\"255;235;0\""
+                          ]
                         }
                       ]
                     },
@@ -3309,7 +3508,10 @@
                           "type": {
                             "value": "MouseButtonReleased"
                           },
-                          "parameters": ["", "Left"]
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
                         },
                         {
                           "type": {
@@ -3344,13 +3546,21 @@
                           "type": {
                             "value": "SetNumberVariable"
                           },
-                          "parameters": ["ScoreDisplay", "=", "0"]
+                          "parameters": [
+                            "ScoreDisplay",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
                             "value": "SetNumberVariable"
                           },
-                          "parameters": ["Score", "=", "0"]
+                          "parameters": [
+                            "Score",
+                            "=",
+                            "0"
+                          ]
                         }
                       ]
                     }
@@ -3364,7 +3574,12 @@
                         "inverted": true,
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["SubmitScore", "", "", ""]
+                      "parameters": [
+                        "SubmitScore",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -3372,7 +3587,10 @@
                       "type": {
                         "value": "TextObject::ChangeColor"
                       },
-                      "parameters": ["SubmitScore", "\"255;255;255\""]
+                      "parameters": [
+                        "SubmitScore",
+                        "\"255;255;255\""
+                      ]
                     }
                   ]
                 },
@@ -3395,7 +3613,12 @@
                       "type": {
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["RestartGame", "", "", ""]
+                      "parameters": [
+                        "RestartGame",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -3415,7 +3638,10 @@
                           "type": {
                             "value": "TextObject::ChangeColor"
                           },
-                          "parameters": ["RestartGame", "\"255;235;0\""]
+                          "parameters": [
+                            "RestartGame",
+                            "\"255;235;0\""
+                          ]
                         }
                       ]
                     },
@@ -3426,7 +3652,10 @@
                           "type": {
                             "value": "MouseButtonReleased"
                           },
-                          "parameters": ["", "Left"]
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
                         },
                         {
                           "type": {
@@ -3440,19 +3669,31 @@
                           "type": {
                             "value": "SetNumberVariable"
                           },
-                          "parameters": ["ScoreDisplay", "=", "0"]
+                          "parameters": [
+                            "ScoreDisplay",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
                             "value": "SetNumberVariable"
                           },
-                          "parameters": ["Score", "=", "0"]
+                          "parameters": [
+                            "Score",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
                             "value": "Scene"
                           },
-                          "parameters": ["", "\"GameScene\"", ""]
+                          "parameters": [
+                            "",
+                            "\"GameScene\"",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -3466,7 +3707,12 @@
                         "inverted": true,
                         "value": "SourisSurObjet"
                       },
-                      "parameters": ["RestartGame", "", "", ""]
+                      "parameters": [
+                        "RestartGame",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -3474,7 +3720,10 @@
                       "type": {
                         "value": "TextObject::ChangeColor"
                       },
-                      "parameters": ["RestartGame", "\"255;255;255\""]
+                      "parameters": [
+                        "RestartGame",
+                        "\"255;255;255\""
+                      ]
                     }
                   ]
                 },
@@ -3505,7 +3754,11 @@
                       "type": {
                         "value": "Scene"
                       },
-                      "parameters": ["", "\"Leaderboard\"", ""]
+                      "parameters": [
+                        "",
+                        "\"Leaderboard\"",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -3530,7 +3783,9 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [""]
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -3785,7 +4040,11 @@
               "type": {
                 "value": "Scene"
               },
-              "parameters": ["", "\"GameScene\"", "no"]
+              "parameters": [
+                "",
+                "\"GameScene\"",
+                "no"
+              ]
             }
           ]
         }
@@ -3870,7 +4129,9 @@
         "rotate",
         "angle"
       ],
-      "authorIds": ["gqDaZjCfevOOxBYkK6zlhtZnXCg1"],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
       "dependencies": [],
       "globalVariables": [],
       "sceneVariables": [],
@@ -4033,7 +4294,9 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": ["\"ShakeForever\""]
+                          "parameters": [
+                            "\"ShakeForever\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -5768,7 +6031,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngle::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -5828,7 +6095,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -6020,7 +6289,9 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": ["\"ShakeForever\""]
+                          "parameters": [
+                            "\"ShakeForever\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -8128,7 +8399,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -8189,7 +8464,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -8313,13 +8590,23 @@
                           "type": {
                             "value": "RectangularMovement::RectangularMovement::PropertyCenterPointX"
                           },
-                          "parameters": ["Object", "Behavior", "=", "0"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
                         },
                         {
                           "type": {
                             "value": "RectangularMovement::RectangularMovement::PropertyCenterPointY"
                           },
-                          "parameters": ["Object", "Behavior", "=", "0"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -8364,7 +8651,10 @@
                                 "inverted": true,
                                 "value": "RectangularMovement::RectangularMovement::PropertyConstantSpeed"
                               },
-                              "parameters": ["Object", "Behavior"]
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
                             }
                           ],
                           "actions": [],
@@ -8455,7 +8745,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8478,7 +8771,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8742,7 +9038,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -8766,7 +9065,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9030,7 +9332,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9054,7 +9359,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9138,7 +9446,10 @@
                               "type": {
                                 "value": "RectangularMovement::RectangularMovement::PropertyConstantSpeed"
                               },
-                              "parameters": ["Object", "Behavior"]
+                              "parameters": [
+                                "Object",
+                                "Behavior"
+                              ]
                             }
                           ],
                           "actions": [],
@@ -9229,7 +9540,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9252,7 +9566,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9375,7 +9692,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9400,7 +9720,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9648,7 +9971,10 @@
                                           "type": {
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9673,7 +9999,10 @@
                                             "inverted": true,
                                             "value": "RectangularMovement::RectangularMovement::PropertyCounterClockwise"
                                           },
-                                          "parameters": ["Object", "Behavior"]
+                                          "parameters": [
+                                            "Object",
+                                            "Behavior"
+                                          ]
                                         }
                                       ],
                                       "actions": [
@@ -9870,7 +10199,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyProgressY()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyProgressY()"
+                      ]
                     }
                   ]
                 }
@@ -9908,7 +10239,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyProgressX()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyProgressX()"
+                      ]
                     }
                   ]
                 }
@@ -9986,7 +10319,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyVerticalSpeed()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyVerticalSpeed()"
+                      ]
                     }
                   ]
                 }
@@ -10104,7 +10439,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyCenterPointX()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterPointX()"
+                      ]
                     }
                   ]
                 }
@@ -10142,7 +10479,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyCenterPointY()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyCenterPointY()"
+                      ]
                     }
                   ]
                 }
@@ -10449,7 +10788,9 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10457,7 +10798,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyCounterClockwise"
                       },
-                      "parameters": ["Object", "Behavior", "yes"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -10469,7 +10814,9 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10477,7 +10824,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyCounterClockwise"
                       },
-                      "parameters": ["Object", "Behavior", "no"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
                     }
                   ]
                 }
@@ -10516,7 +10867,9 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10524,7 +10877,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyConstantSpeed"
                       },
-                      "parameters": ["Object", "Behavior", "yes"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -10536,7 +10893,9 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"Value\""]
+                      "parameters": [
+                        "\"Value\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10544,7 +10903,11 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyConstantSpeed"
                       },
-                      "parameters": ["Object", "Behavior", "no"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
                     }
                   ]
                 }
@@ -10584,19 +10947,34 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyProgressX"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     },
                     {
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyProgressY"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     },
                     {
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::SetPropertyRectangularCounter"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -10630,7 +11008,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Down\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Down\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10638,7 +11021,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10672,7 +11057,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Up\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Up\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10680,7 +11070,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10714,7 +11106,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Left\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Left\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10722,7 +11119,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10756,7 +11155,12 @@
                       "type": {
                         "value": "RectangularMovement::RectangularMovement::PropertyCurrentDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Right\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Right\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -10764,7 +11168,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -10894,7 +11300,12 @@
               "label": "Current direction the object is moving",
               "description": "",
               "group": "",
-              "extraInformation": ["Left", "Right", "Up", "Down"],
+              "extraInformation": [
+                "Left",
+                "Right",
+                "Up",
+                "Down"
+              ],
               "hidden": true,
               "name": "CurrentDirection"
             }
