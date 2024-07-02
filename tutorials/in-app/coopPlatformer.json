@@ -2,7 +2,7 @@
   "id": "coopPlatformer",
   "titleByLocale": {
     "en": "Let's make a Co-op Multiplayer game",
-    "fr": "Faisons un jeu multijoueur coopératif",
+    "fr": "Créons un jeu multijoueur coopératif",
     "ar": "لنصنع لعبة جماعية متعددة اللاعبين",
     "de": "Lass uns ein Koop-Multiplayer-Spiel machen",
     "es": "Hagamos un juego multijugador cooperativo",
@@ -38,7 +38,7 @@
       "zh": "如何添加和配置多人行为"
     },
     {
-      "en": "How an online player can control his character with the multiplayer ownership system",
+      "en": "How an online player can control their character with the multiplayer ownership system",
       "fr": "Comment un joueur en ligne peut contrôler son personnage avec le système de propriété multijoueur",
       "ar": "كيف يمكن للاعب عبر الإنترنت التحكم في شخصيته باستخدام نظام الملكية المتعددة اللاعبين",
       "de": "Wie ein Online-Spieler seinen Charakter mit dem Mehrspieler-Eigentumssystem steuern kann",
@@ -150,22 +150,22 @@
         "placement": "bottom",
         "description": {
           "messageByLocale": {
-            "en": "First, you have to know the game have to be launched from the lobby scene to see the multiplayer fully functional.\n\nClick on the **down arrow** next of the Preview button, then click **Use this scene to start all previews**.",
-            "fr": "Tout d'abord, vous devez savoir que le jeu doit être lancé à partir de la scène du lobby pour voir le mode multijoueur pleinement fonctionnel.\n\nCliquez sur la **flèche vers le bas** à côté du bouton Aperçu, puis cliquez sur **Utiliser cette scène pour démarrer toutes les prévisualisations**.",
-            "ar": "أولاً، يجب أن تعرف أن اللعبة يجب أن تبدأ من مشهد اللوبي لرؤية وضع اللاعبين المتعددين يعمل بشكل كامل.\n\nانقر على **السهم لأسفل** بجوار زر المعاينة، ثم انقر على **استخدام هذا المشهد لبدء جميع المعاينات**.",
-            "de": "Zuerst müssen Sie wissen, dass das Spiel aus der Lobby-Szene gestartet werden muss, um den Mehrspielermodus vollständig funktionsfähig zu sehen.\n\nKlicken Sie auf den **Pfeil nach unten** neben der Vorschau-Schaltfläche und klicken Sie dann auf **Diese Szene verwenden, um alle Vorschauen zu starten**.",
-            "es": "Primero, debes saber que el juego debe lanzarse desde la escena del lobby para ver el modo multijugador completamente funcional.\n\nHaz clic en la **flecha hacia abajo** junto al botón de Vista Previa, luego haz clic en **Usar esta escena para iniciar todas las vistas previas**.",
-            "it": "Innanzitutto, devi sapere che il gioco deve essere lanciato dalla scena della lobby per vedere il multiplayer completamente funzionante.\n\nClicca sulla **freccia in basso** accanto al pulsante Anteprima, quindi clicca su **Usa questa scena per avviare tutte le anteprime**.",
-            "ja": "まず、ゲームがロビーシーンから開始される必要があることを知っておいてください。そうしないと、マルチプレイヤーが完全に機能しません。\n\nプレビュー ボタンの隣の**下矢印**をクリックし、次に**このシーンを使用してすべてのプレビューを開始**をクリックします。",
-            "ko": "먼저, 게임은 멀티플레이어가 완전히 작동하도록 하기 위해 로비 씬에서 시작해야 한다는 것을 알아야 합니다.\n\n미리보기 버튼 옆의 **아래 화살표**를 클릭한 다음, **이 씬을 사용하여 모든 미리보기를 시작**을 클릭하십시오.",
-            "pl": "Najpierw musisz wiedzieć, że gra musi być uruchomiona z poziomu lobby, aby tryb wieloosobowy był w pełni funkcjonalny.\n\nKliknij **strzałkę w dół** obok przycisku Podgląd, a następnie kliknij **Użyj tej sceny do uruchomienia wszystkich podglądów**.",
-            "pt": "Primeiro, você precisa saber que o jogo deve ser iniciado a partir da cena do lobby para ver o multiplayer totalmente funcional.\n\nClique na **seta para baixo** ao lado do botão Pré-visualização, depois clique em **Usar esta cena para iniciar todas as pré-visualizações**.",
-            "th": "ก่อนอื่น คุณต้องรู้ว่าเกมต้องเริ่มจากฉากล็อบบี้เพื่อให้เห็นผู้เล่นหลายคนใช้งานได้เต็มที่\n\nคลิกที่ **ลูกศรลง** ข้างปุ่มแสดงตัวอย่าง จากนั้นคลิก **ใช้ฉากนี้เพื่อเริ่มการแสดงตัวอย่างทั้งหมด**",
-            "ru": "Во-первых, вы должны знать, что игра должна быть запущена из сцены лобби, чтобы многопользовательский режим работал полностью функционально.\n\nНажмите на **стрелку вниз** рядом с кнопкой Предварительный просмотр, затем нажмите **Использовать эту сцену для запуска всех предварительных просмотров**.",
-            "sl": "Najprej morate vedeti, da je treba igro zagnati iz prizorišča v avli, da bo večigralstvo popolnoma funkcionalno.\n\nKliknite na **puščico navzdol** poleg gumba Predogled in nato kliknite **Uporabi ta prizor za začetek vseh predogledov**.",
-            "sq": "Së pari, duhet të dini që loja duhet të fillojë nga skena e lobit për të parë që multiplayer-i është plotësisht funksional.\n\nKlikoni në **shigjetën poshtë** pranë butonit të Parashikimit, pastaj klikoni **Përdorni këtë skenë për të filluar të gjitha parashikimet**.",
-            "uk": "По-перше, ви повинні знати, що гру потрібно запускати з лобі, щоб побачити багатокористувацький режим у повній функціональності.\n\nНатисніть на **стрілку вниз** поруч з кнопкою Попередній перегляд, потім натисніть **Використовувати цю сцену для запуску всіх попередніх переглядів**.",
-            "zh": "首先，您需要知道游戏必须从大厅场景启动才能看到多人游戏的完整功能。\n\n点击预览按钮旁边的**向下箭头**，然后点击**使用此场景启动所有预览**。"
+            "en": "First, let's configure the preview to always launch from the lobby scene, as this will help us test our game easily.\n\nClick on the **down arrow** next of the Preview button, then click **Use this scene to start all previews**.",
+            "fr": "Tout d'abord, configurons l'aperçu pour qu'il se lance toujours à partir de la scène de lobby, car cela nous aidera à tester notre jeu facilement.\n\nCliquez sur la **flèche vers le bas** à côté du bouton Aperçu, puis cliquez sur **Utiliser cette scène pour démarrer tous les aperçus**.",
+            "ar": "أولاً، دعونا نقوم بتكوين المعاينة لتشغيلها دائمًا من مشهد اللوبي، حيث سيساعدنا هذا في اختبار لعبتنا بسهولة.\n\nانقر على **السهم السفلي** بجوار زر المعاينة، ثم انقر على **استخدام هذا المشهد لبدء جميع المعاينات**.",
+            "de": "Konfigurieren wir zuerst die Vorschau so, dass sie immer von der Lobby-Szene aus gestartet wird, da uns dies dabei hilft, unser Spiel leicht zu testen.\n\nKlicken Sie auf den **Pfeil nach unten** neben der Schaltfläche Vorschau und dann auf **Verwenden Sie diese Szene, um alle Vorschauen zu starten**.",
+            "es": "Primero, configuremos la vista previa para que siempre se inicie desde la escena del lobby, ya que esto nos ayudará a probar nuestro juego fácilmente.\n\nHaz clic en la **flecha hacia abajo** junto al botón de Vista previa, y luego haz clic en **Usar esta escena para iniciar todas las vistas previas**.",
+            "it": "Innanzitutto, configuriamo l'anteprima in modo che venga sempre avviata dalla scena della lobby, poiché ciò ci aiuterà a testare facilmente il nostro gioco.\n\nFai clic sulla **freccia in basso** accanto al pulsante Anteprima, quindi fai clic su **Usa questa scena per avviare tutte le anteprime**.",
+            "ja": "まず、プレビューを常にロビーシーンから起動するように構成しましょう。これにより、ゲームを簡単にテストできます。\n\nプレビューボタンの隣にある**下向き矢印**をクリックし、**このシーンを使用してすべてのプレビューを開始**をクリックします。",
+            "ko": "먼저 미리보기를 항상 로비 장면에서 시작하도록 구성하겠습니다. 이렇게 하면 게임을 쉽게 테스트할 수 있습니다.\n\n미리보기 버튼 옆의 **아래쪽 화살표**를 클릭한 다음 **모든 미리보기 시작에 이 씬 사용**을 클릭하세요.",
+            "pl": "Najpierw skonfigurujmy podgląd tak, aby zawsze uruchamiał się z sceny lobby, co ułatwi nam testowanie gry.\n\nKliknij **strzałkę w dół** obok przycisku Podgląd, a następnie kliknij **Użyj tej sceny do uruchamiania wszystkich podglądów**.",
+            "pt": "Primeiro, vamos configurar a visualização para sempre iniciar a partir da cena do lobby, pois isso nos ajudará a testar nosso jogo facilmente.\n\nClique na **seta para baixo** ao lado do botão de Visualização e, em seguida, clique em **Usar esta cena para iniciar todas as visualizações**.",
+            "th": "เริ่มต้นด้วยการกำหนดค่าการแสดงตัวอย่างให้เริ่มต้นจากฉากล็อบบี้เสมอ เนื่องจากนี่จะช่วยให้เราทดสอบเกมได้อย่างง่ายดาย\n\nคลิกที่ **ลูกศรลง** ข้างขวาปุ่มแสดงตัวอย่าง จากนั้นคลิกที่ **ใช้ฉากนี้เพื่อเริ่มต้นแสดงตัวอย่างทั้งหมด**",
+            "ru": "Сначала давайте настроим предварительный просмотр так, чтобы он всегда запускался из сцены лобби, так как это поможет нам легко тестировать нашу игру.\n\nНажмите на **стрелку вниз** рядом с кнопкой Предварительный просмотр, затем нажмите **Использовать эту сцену для запуска всех предварительных просмотров**.",
+            "sl": "Najprej konfigurirajmo predogled, da se vedno začne iz prizorišča predprostora, saj nam bo to pomagalo enostavno preizkusiti našo igro.\n\nKliknite na **puščico navzdol** ob gumbu Predogled, nato kliknite **Uporabi to sceno za zagon vseh predogledov**.",
+            "sq": "Fillimisht, le të konfigurojmë paraparjen që të nisë gjithmonë nga skena e sallës së pritjes, pasi kjo do të na ndihmojë të testojmë lojën tonë lehtë.\n\nKlikoni mbi **shigjetën poshtë** pranë butonit Paraparje, pastaj klikoni **Përdor këtë skenë për të filluar të gjitha paraparjet**.",
+            "uk": "Спочатку давайте налаштуємо попередній перегляд так, щоб він завжди запускався з сцени лобі, оскільки це допоможе нам легко тестувати нашу гру.\n\nНатисніть на **стрілку вниз** поряд з кнопкою Попередній перегляд, а потім натисніть **Використовувати цю сцену для запуску всіх попередніх переглядів**.",
+            "zh": "首先，让我们配置预览，使其始终从大厅场景启动，这将帮助我们轻松测试游戏。\n\n点击预览按钮旁边的**向下箭头**，然后点击**使用此场景启动所有预览**。"
           }
         }
       },
@@ -304,22 +304,22 @@
           "expectedValue": "1",
           "description": {
             "messageByLocale": {
-              "en": "Let's change the ownership of the object by 1. Which will allow to connect the **$(Player1)** object with the first player to connect into the game",
-              "fr": "Changeons la propriété de l'objet de 1. Cela permettra de connecter l'objet **$(Player1)** au premier joueur à se connecter au jeu.",
-              "ar": "لنقم بتغيير ملكية الكائن بمقدار واحد. مما سيسمح بربط كائن **$(Player1)** بأول لاعب يتصل باللعبة.",
-              "de": "Ändern wir das Eigentum des Objekts um 1. Dies wird es ermöglichen, das **$(Player1)**-Objekt mit dem ersten Spieler zu verbinden, der sich im Spiel anmeldet.",
-              "es": "Cambiamos la propiedad del objeto en 1. Lo que permitirá conectar el objeto **$(Player1)** con el primer jugador que se conecte al juego.",
-              "it": "Cambia la proprietà dell'oggetto di 1. Questo permetterà di collegare l'oggetto **$(Player1)** al primo giocatore che si connette al gioco.",
-              "ja": "オブジェクトの所有権を1に変更しましょう。これにより、**$(Player1)** オブジェクトが最初にゲームに接続するプレイヤーと接続できるようになります。",
-              "ko": "객체의 소유권을 1로 변경합시다. 이는 **$(Player1)** 객체를 게임에 처음 연결된 플레이어와 연결할 수 있게 할 것입니다.",
-              "pl": "Zmienimy właśność obiektu o 1. Pozwoli to połączyć obiekt **$(Player1)** z pierwszym graczem, który połączy się z grą.",
-              "pt": "Vamos alterar a propriedade do objeto em 1. Isso permitirá conectar o objeto **$(Player1)** ao primeiro jogador a se conectar no jogo.",
-              "th": "เรามาเปลี่ยนการเป็นเจ้าของของวัตถุด้วย 1 ซึ่งจะช่วยให้เชื่อมต่อกับวัตถุ **$(Player1)** กับผู้เล่นคนแรกที่เชื่อมต่อเข้าสู่เกมได้",
-              "ru": "Давайте изменим собственность объекта на 1. Это позволит связать объект **$(Player1)** с первым игроком, подключившимся к игре.",
-              "sl": "Spremenimo lastništvo predmeta za 1. To bo omogočilo povezavo predmeta **$(Player1)** z prvim igralcem, ki se poveže v igro.",
-              "sq": "Le të ndryshojmë pronësinë e objektit me 1. Kjo do të lejojë të lidhet objekti **$(Player1)** me lojtarin e parë që lidhet në lojë.",
-              "uk": "Змінимо власність об'єкта на 1. Це дозволить підключити об'єкт **$(Player1)** до першого гравця, який приєднався до гри.",
-              "zh": "让我们将对象的所有权改为1。这将允许将 **$(Player1)** 对象与首位连接到游戏中的玩家连接起来。"
+              "en": "Let's change the ownership of the object to 1. Which will allow to connect the **$(Player1)** object with the first player to connect into the game",
+              "fr": "Changeons la propriété de l'objet à 1. Cela permettra de connecter l'objet **$(Player1)** au premier joueur à se connecter au jeu.",
+              "ar": "لنقم بتغيير ملكية الكائن إلى 1. والذي سيسمح بربط كائن **$(Player1)** باللاعب الأول الذي يتصل باللعبة",
+              "de": "Ändern wir das Eigentum des Objekts auf 1. Dadurch wird das **$(Player1)**-Objekt mit dem ersten Spieler verbunden, der sich mit dem Spiel verbindet.",
+              "es": "Cambiemos la propiedad del objeto a 1. Lo que permitirá conectar el objeto **$(Player1)** con el primer jugador que se conecte al juego.",
+              "it": "Cambia la proprietà dell'oggetto a 1. Ciò permetterà di collegare l'oggetto **$(Player1)** al primo giocatore che si connette al gioco.",
+              "ja": "オブジェクトの所有権を1に変更しましょう。これにより、**$(Player1)** オブジェクトを最初にゲームに接続するプレイヤーに接続できます",
+              "ko": "객체의 소유권을 1로 변경합시다. 이렇게 하면 **$(Player1)** 객체를 게임에 연결하는 첫 번째 플레이어와 연결할 수 있습니다.",
+              "pl": "Zmienimy właścicielstwo obiektu na 1. Pozwoli to połączyć obiekt **$(Player1)** z pierwszym graczem, który dołączy do gry.",
+              "pt": "Vamos alterar a propriedade do objeto para 1. Isso permitirá conectar o objeto **$(Player1)** ao primeiro jogador a se conectar ao jogo.",
+              "th": "เรามาเปลี่ยนเจ้าของของวัตถุเป็น 1 ซึ่งจะช่วยให้เชื่อมต่อกับวัตถุ **$(Player1)** กับผู้เล่นคนแรกที่เชื่อมต่อเข้าสู่เกม",
+              "ru": "Изменим собственность объекта на 1. Это позволит подключить объект **$(Player1)** к первому игроку, подключающемуся к игре.",
+              "sl": "Spremenimo lastništvo predmeta na 1. To bo omogočilo povezavo predmeta **$(Player1)** s prvim igralcem, ki se bo povezal v igro.",
+              "sq": "Le të ndryshojmë pronësinë e objektit në 1. Çka do të lejojë të lidhet objekti **$(Player1)** me lojtarin e parë që të lidhet në lojë.",
+              "uk": "Змінимо власність об'єкта на 1. Це дозволить підключити об'єкт **$(Player1)** до першого гравця, який приєднується до гри.",
+              "zh": "让我们将对象的所有权更改为 1。这将允许将 **$(Player1)** 对象与第一个连接到游戏的玩家连接起来。"
             }
           }
         }
@@ -398,18 +398,18 @@
           "expectedValue": "2",
           "description": {
             "messageByLocale": {
-              "en": "Let's change the ownership of the object by 2. Which will allow to connect the **$(Player2)** object with the second player to connect into the game",
-              "fr": "Modifions la propriété de l'objet de 2. Cela permettra de connecter l'objet **$(Player2)** au deuxième joueur à se connecter au jeu.",
-              "ar": "لنقم بتغيير ملكية الكائن بمقدار 2. مما سيسمح بربط كائن **$(Player2)** باللاعب الثاني الذي يتصل باللعبة.",
-              "de": "Ändern wir das Eigentum des Objekts um 2. Dies wird es ermöglichen, das **$(Player2)**-Objekt mit dem zweiten Spieler zu verbinden, der sich im Spiel anmeldet.",
+              "en": "Let's change the ownership of the object to 2. Which will allow to connect the **$(Player2)** object with the second player to connect into the game",
+              "fr": "Modifions la propriété de l'objet à 2. Cela permettra de connecter l'objet **$(Player2)** au deuxième joueur à se connecter au jeu.",
+              "ar": "لنقم بتغيير ملكية الكائن إلى 2. مما سيسمح بربط كائن **$(Player2)** باللاعب الثاني الذي يتصل باللعبة.",
+              "de": "Ändern wir das Eigentum des Objekts auf 2. Dies wird es ermöglichen, das **$(Player2)**-Objekt mit dem zweiten Spieler zu verbinden, der sich im Spiel anmeldet.",
               "es": "Cambiamos la propiedad del objeto en 2. Lo que permitirá conectar el objeto **$(Player2)** con el segundo jugador que se conecte al juego.",
-              "it": "Cambia la proprietà dell'oggetto di 2. Questo permetterà di collegare l'oggetto **$(Player2)** al secondo giocatore che si connette al gioco.",
-              "ja": "オブジェクトの所有権を2に変更しましょう。これにより、**$(Player2)** オブジェクトが2番目にゲームに接続するプレイヤーと接続できるようになります。",
+              "it": "Cambia la proprietà dell'oggetto in 2. Questo permetterà di collegare l'oggetto **$(Player2)** al secondo giocatore che si connette al gioco.",
+              "ja": "オブジェクトの所有権を2に変更しましょう。これにより、**$(Player2)** オブジェクトがゲームに接続する2番目のプレイヤーと接続できるようになります。",
               "ko": "객체의 소유권을 2로 변경합시다. 이는 **$(Player2)** 객체를 게임에 두 번째로 연결된 플레이어와 연결할 수 있게 할 것입니다.",
-              "pl": "Zmienimy właśność obiektu o 2. Pozwoli to połączyć obiekt **$(Player2)** z drugim graczem, który połączy się z grą.",
+              "pl": "Zmienimy właśność obiektu na 2. Pozwoli to połączyć obiekt **$(Player2)** z drugim graczem, który połączy się z grą.",
               "pt": "Vamos alterar a propriedade do objeto em 2. Isso permitirá conectar o objeto **$(Player2)** ao segundo jogador a se conectar no jogo.",
-              "th": "เรามาเปลี่ยนการเป็นเจ้าของของวัตถุด้วย 2 ซึ่งจะช่วยให้เชื่อมต่อกับวัตถุ **$(Player2)** กับผู้เล่นที่สองที่เชื่อมต่อเข้าสู่เกมได้",
-              "ru": "Давайте изменим собственность объекта на 2. Это позволит связать объект **$(Player2)** с вторым игроком, подключившимся к игре.",
+              "th": "เรามาเปลี่ยนการเป็นเจ้าของของวัตถุด้วย 2 ซึ่งจะช่วยให้เชื่อมต่อกับวัตถุ **$(Player2)** กับผู้เล่นคนที่สองที่เชื่อมต่อเข้าสู่เกมได้",
+              "ru": "Давайте изменим собственность объекта на 2. Это позволит связать объект **$(Player2)** со вторым игроком, подключившимся к игре.",
               "sl": "Spremenimo lastništvo predmeta za 2. To bo omogočilo povezavo predmeta **$(Player2)** z drugim igralcem, ki se poveže v igro.",
               "sq": "Le të ndryshojmë pronësinë e objektit me 2. Kjo do të lejojë të lidhet objekti **$(Player2)** me lojtarin e dytë që lidhet në lojë.",
               "uk": "Змінимо власність об'єкта на 2. Це дозволить підключити об'єкт **$(Player2)** до другого гравця, який приєднався до гри.",
@@ -420,7 +420,7 @@
       ],
       "finishedConfigurationDescription": {
         "messageByLocale": {
-          "en": "That's it for the objects!\n\nNow we will let online players controlling their own object by adding some logic into the eventsheet.",
+          "en": "That's it for the objects!\n\nNow we will let online players control their own object by adding some logic into the eventsheet.",
           "fr": "C'est tout pour les objets !\n\nMaintenant, nous permettrons aux joueurs en ligne de contrôler leur propre objet en ajoutant de la logique dans la feuille d'événements.",
           "ar": "هذا كل شيء بالنسبة للكائنات!\n\nالآن سنسمح للاعبين عبر الإنترنت بالتحكم في كائناتهم الخاصة عن طريق إضافة بعض المنطق إلى ورقة الأحداث.",
           "de": "Das war's mit den Objekten!\n\nJetzt werden wir es den Online-Spielern ermöglichen, ihre eigenen Objekte zu steuern, indem wir einige Logik in das Ereignisblatt einfügen.",
@@ -476,7 +476,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Thanks to the previously added behavior on the **$(Player1)** and **$(Player2)** objects, new conditions are available on these two objects.\n\nTo reduce the count of conditions, we've placed these objects in an **Object Group** named **PlayerObjects**.\n\nLet's add a new condition that will check if the objects from the group are owned by the right player.",
+            "en": "Thanks to the previously added behavior on the **$(Player1)** and **$(Player2)** objects, new conditions are available on these two objects.\n\nTo reduce the number of conditions, we've placed these objects in an **Object Group** named **PlayerObjects**.\n\nLet's add a new condition that will check if the objects from the group are owned by the right player.",
             "fr": "Grâce aux comportements précédemment ajoutés sur les objets **$(Player1)** et **$(Player2)**, de nouvelles conditions sont disponibles sur ces deux objets.\n\nPour réduire le nombre de conditions, nous avons placé ces objets dans un **Groupe d'objets** nommé **PlayerObjects**.\n\nAjoutons une nouvelle condition qui vérifiera si les objets du groupe sont possédés par le bon joueur.",
             "ar": "بفضل السلوكيات المضافة سابقاً على أشياء **$(Player1)** و **$(Player2)** ، تتوفر شروط جديدة على هاتين الكائنتين.\n\nلتقليل عدد الشروط ، قمنا بوضع هذه الكائنات في **مجموعة كائنات** تحت اسم **PlayerObjects**.\n\nلنضيف شرطًا جديدًا سيتحقق مما إذا كانت الكائنات من المجموعة تمتلكها اللاعب الصحيح.",
             "de": "Dank des zuvor hinzugefügten Verhaltens auf den Objekten **$(Player1)** und **$(Player2)** stehen neue Bedingungen für diese beiden Objekte zur Verfügung.\n\nUm die Anzahl der Bedingungen zu reduzieren, haben wir diese Objekte in einer **Objektgruppe** namens **PlayerObjects** platziert.\n\nLassen Sie uns eine neue Bedingung hinzufügen, die überprüft, ob die Objekte aus der Gruppe dem richtigen Spieler gehören.",
@@ -658,7 +658,7 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to add and configure the multiplayer behavior\n\n - How an online player can control his character with the multiplayer ownership system",
+          "en": "- How to add and configure the multiplayer behavior\n\n - How an online player can control their character with the multiplayer ownership system",
           "fr": "- Comment ajouter et configurer le comportement multijoueur\n\n - Comment un joueur en ligne peut contrôler son personnage avec le système de propriété multijoueur",
           "ar": "- كيفية إضافة وتكوين سلوك متعدد اللاعبين\n\n - كيف يمكن للاعب عبر الإنترنت التحكم في شخصيته باستخدام نظام الملكية متعدد اللاعبين",
           "de": "- Wie man das Mehrspieler-Verhalten hinzufügt und konfiguriert\n\n - Wie ein Online-Spieler seinen Charakter mit dem Mehrspieler-Eigentumssystem steuern kann",
