@@ -222,36 +222,6 @@
       }
     },
     {
-      "elementToHighlightId": "#toolbar-open-objects-panel-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#add-new-object-button"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Open the **Objects** panel.",
-            "fr": "Ouvrez le panneau **Objets**.",
-            "ar": "افتح لوحة **الكائنات**.",
-            "de": "Öffne das **Objekte**-Panel.",
-            "es": "Abre el panel de **Objetos**.",
-            "it": "Apri il pannello **Oggetti**.",
-            "ja": "**オブジェクト** パネルを開く。",
-            "ko": "**오브젝트** 패널을 열어주세요.",
-            "pl": "Otwórz panel **Obiekty**.",
-            "pt": "Abra o painel **Objetos**.",
-            "th": "เปิดแผง **วัตถุ**",
-            "ru": "Откройте панель **Объекты**.",
-            "sl": "Odpri panel **Predmeti**.",
-            "sq": "Hapni panelin **Objekte**.",
-            "uk": "Відкрийте панель **Об'єкти**.",
-            "zh": "打开 **对象** 面板。"
-          }
-        },
-        "placement": "bottom"
-      },
-      "skippable": true
-    },
-    {
       "metaKind": "add-behavior",
       "objectKey": "Player1",
       "isOnClosableDialog": true,
@@ -502,7 +472,6 @@
         "presenceOfElement": "#object-instruction-selector"
       },
       "tooltip": {
-        "placement": "right",
         "description": {
           "messageByLocale": {
             "en": "Select this object group, it contains our **$(Player1)** and **$(Player2)** objects.",
@@ -522,7 +491,9 @@
             "uk": "Виберіть цю групу об'єктів, вона містить наші об'єкти **$(Player1)** і **$(Player2)**.",
             "zh": "选择这个对象组，它包含我们的 **$(Player1)** 和 **$(Player2)** 对象。"
           }
-        }
+        },
+        "placement": "top",
+        "mobilePlacement": "top"
       },
       "isOnClosableDialog": true
     },
@@ -587,7 +558,6 @@
     {
       "elementToHighlightId": "#toolbar-preview-split-menu-button",
       "tooltip": {
-        "placement": "left",
         "description": {
           "messageByLocale": {
             "en": "We're done! Let's test our game in multiple previews to emulate two online players!\n\nClick on the **down arrow**, then click **Launch preview in...** > **2 previews in 2 windows**",
@@ -607,7 +577,29 @@
             "uk": "Ми закінчили! Давайте протестуємо нашу гру в кількох попередніх переглядах, щоб емулювати двох онлайн гравців!\n\nНатисніть на **стрілку вниз**, потім виберіть **Запустити попередній перегляд у...** > **2 попередні перегляди в 2 вікнах**",
             "zh": "完成了！让我们在多个预览中测试我们的游戏，以模拟两名在线玩家！\n\n点击 **向下箭头**，然后点击 **在...中启动预览** > **2个窗口中的2个预览**"
           }
-        }
+        },
+        "touchDescription": {
+          "messageByLocale": {
+            "en": "We're done! Let's test our game by launching a preview!",
+            "fr": "Nous avons terminé ! Testons notre jeu en lançant une prévisualisation !",
+            "ar": "لقد انتهينا! دعونا نختبر لعبتنا عن طريق تشغيل معاينة!",
+            "de": "Wir sind fertig! Testen wir unser Spiel, indem wir eine Vorschau starten!",
+            "es": "¡Hemos terminado! ¡Vamos a probar nuestro juego lanzando una previsualización!",
+            "it": "Abbiamo finito! Testiamo il nostro gioco avviando una anteprima!",
+            "ja": "完了です！プレビューを起動してゲームをテストしましょう！",
+            "ko": "작업을 마쳤습니다! 미리보기를 시작하여 게임을 테스트해 봅시다!",
+            "pl": "Skończyliśmy! Przetestujmy naszą grę, uruchamiając podgląd!",
+            "pt": "Terminamos! Vamos testar nosso jogo iniciando uma pré-visualização!",
+            "th": "เราเสร็จแล้ว! มาทดสอบเกมของเราโดยการเริ่มต้นการแสดงตัวอย่าง!",
+            "ru": "Мы закончили! Давайте протестируем нашу игру, запустив предпросмотр!",
+            "sl": "To je to! Testirajmo našo igro z zagonom predogleda!",
+            "sq": "Kështu është! Le të testojmë lojën tonë duke lansuar një paraparje!",
+            "uk": "Ми закінчили! Давайте протестуємо нашу гру, запустивши попередній перегляд!",
+            "zh": "完成了！让我们通过启动预览来测试我们的游戏！"
+          }
+        },
+        "placement": "bottom",
+        "mobilePlacement": "bottom"
       },
       "nextStepTrigger": {
         "previewLaunched": true
