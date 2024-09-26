@@ -35,7 +35,7 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "In this tutorial we'll complete the game by editing the terrain.\n\nBut first, launch the game to see the current state and see what to do next.\n\nLet's click on the **Preview** button to play."
+            "en": "In this tutorial we'll complete the game by editing the terrain, and pick the red apple.\n\nBut first, launch the game to see the current state and see what to do next.\n\nLet's click on the **Preview** button to play."
           }
         }
       },
@@ -50,14 +50,14 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "The **$(player)** cannot jump over the pit!\n\nWe've to edit the terrain to add a bridge!"
+            "en": "The **$(player)** cannot jump over the pit!\nWe've to edit the terrain to add a bridge.\n\nSelect the terrain!"
           }
         }
       },
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Let's add it!"
+            "en": "Next"
           }
         }
       }
@@ -99,7 +99,23 @@
         }
       }
     },
-
+    {
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "Now if you're playing the game, the player can pass trought the bridge. Let's see how to add a collision on it."
+          }
+        }
+      },
+     "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Next"
+          }
+        }
+      }
+    },
 
     {
       "elementToHighlightId": "objectInObjectsList:tilemap",
@@ -114,26 +130,6 @@
           }  
         }  
       }  
-    },  
-
-    {
-      "elementToHighlightId": "#tileSize",
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "This value is the size of a tile square, here the value is 16 pixels."
-          }  
-        },  
-        "placement": "bottom"
-      },  
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next"
-          }  
-        }  
-      },  
-      "isOnClosableDialog": true
     },  
 
     {
@@ -156,9 +152,7 @@
           }  
         }  
       }  
-    }  
-,    
-    
+    },
      
     {
       "elementToHighlightId": "#object-editor-dialog #apply-button",
@@ -168,10 +162,61 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click Apply, then select the terrain on the scene."          }
+            "en": "Click Apply."
+          }
         }    
       }  
-    }  
+    },
+
+    {
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "Launch the **preview** to see what changed.\n\nTry to catch the red apple!"
+          }
+        }
+      },
+      "elementToHighlightId": "#toolbar-preview-button",
+      "nextStepTrigger": {
+        "previewLaunched": true
+      }
+    },
+
+    {
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "IT seem the apple are still in the tree.\n\nLet see how to remove the apple wthen the character is on it."
+          }
+        }
+      },
+     "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Next"
+          }
+        }
+      }
+    },
+    
+    {
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **eventsheet** to edit the game logic."
+          }
+        }
+      },
+      "elementToHighlightId": "editorTab:gameScene:EventsSheet",
+      "nextStepTrigger": {
+        "editorIsActive": "gameScene:EventsSheet"
+      }
+    }
+
+
 
 
   ],
