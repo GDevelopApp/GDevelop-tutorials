@@ -62,17 +62,13 @@
         }
       }
     },
-    
 
-
-
-    ,
     {
       "elementToHighlightId": "#paintBrush",
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This is the Paint tool, click on it then select the bridge just below to be able to paint on the terrain."
+            "en": "Click here on the **paint brush tool**, then select the bridge on right, just above the red apple."
           }
         },
         "placement": "top"
@@ -80,14 +76,30 @@
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
+            "en": "I selected the bridge, what's next!"
+          }
+        }
+      }
+    },
+        
+    {
+      "tooltip": {
+        "standalone": true,
+        "description": {
+          "messageByLocale": {
+            "en": "On the scene paint the bridge to fill the gap over the pit.\n"
+          }
+        }
+      },
+     "nextStepTrigger": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
             "en": "Next"
           }
         }
       }
-    }
-    
+    },
 
-,
 
     {
       "elementToHighlightId": "objectInObjectsList:tilemap",
