@@ -1,17 +1,77 @@
 {
   "id": "tilemapPlatformer",
   "titleByLocale": {
-    "en": "Let's see how to use the Tilemap object."
+    "en": "Let's see how to use the Tilemap object.",
+    "fr": "Voyons comment utiliser l'objet Tilemap.",
+    "ar": "لنرى كيفية استخدام كائن Tilemap.",
+    "de": "Sehen wir uns an, wie man das Tilemap-Objekt verwendet.",
+    "es": "Veamos cómo usar el objeto Tilemap.",
+    "it": "Vediamo come usare l'oggetto Tilemap.",
+    "ja": "タイルマップオブジェクトの使い方を見てみましょう。",
+    "ko": "타일맵 객체를 사용하는 방법을 살펴보겠습니다.",
+    "pl": "Zobaczmy, jak używać obiektu Tilemap.",
+    "pt": "Vamos ver como usar o objeto Tilemap.",
+    "ru": "Посмотрим, как использовать объект Tilemap.",
+    "sl": "Poglejmo, kako uporabiti objekt Tilemap.",
+    "sq": "Le të shohim se si të përdorim objektin Tilemap.",
+    "th": "มาดูวิธีใช้วัตถุแผนที่ไทล์กัน",
+    "uk": "Подивімося, як використовувати об'єкт Tilemap.",
+    "zh": "让我们看看如何使用 Tilemap 对象。"
   },
   "bulletPointsByLocale": [
     {
-      "en": "Use and edit a tilemap object."
+      "en": "Use and edit a Tilemap object.",
+      "fr": "Utiliser et modifier un objet Tilemap.",
+      "ar": "استخدام وتحرير كائن Tilemap.",
+      "de": "Verwenden und Bearbeiten eines Tilemap-Objekts.",
+      "es": "Usar y editar un objeto Tilemap.",
+      "it": "Utilizzare e modificare un oggetto Tilemap.",
+      "ja": "タイルマップオブジェクトを使用して編集します。",
+      "ko": "타일맵 객체를 사용하고 편집합니다.",
+      "pl": "Używanie i edytowanie obiektu Tilemap.",
+      "pt": "Usar e editar um objeto Tilemap.",
+      "ru": "Использовать и редактировать объект Tilemap.",
+      "sl": "Uporaba in urejanje objekta Tilemap.",
+      "sq": "Përdorni dhe modifikoni një objekt Tilemap.",
+      "th": "ใช้และแก้ไขวัตถุแผนที่ไทล์",
+      "uk": "Використовувати та редагувати об'єкт Tilemap.",
+      "zh": "使用和编辑 Tilemap 对象。"
     },
     {
-      "en": "Add collisions to the tilemap."
+      "en": "Add collisions to the Tilemap.",
+      "fr": "Ajouter des collisions à la Tilemap.",
+      "ar": "إضافة التصادمات إلى كائن Tilemap.",
+      "de": "Fügen Sie der Tilemap Kollisionen hinzu.",
+      "es": "Añadir colisiones al Tilemap.",
+      "it": "Aggiungi collisioni alla Tilemap.",
+      "ja": "タイルマップに衝突を追加します。",
+      "ko": "타일맵에 충돌을 추가합니다.",
+      "pl": "Dodaj kolizje do Tilemap.",
+      "pt": "Adicionar colisões ao Tilemap.",
+      "ru": "Добавить столкновения к Tilemap.",
+      "sl": "Dodajte trke na Tilemap.",
+      "sq": "Shtoni përplasjet në Tilemap.",
+      "th": "เพิ่มการชนกันในแผนที่ไทล์",
+      "uk": "Додайте зіткнення до Tilemap.",
+      "zh": "向 Tilemap 添加碰撞。"
     },
     {
-      "en": "Use the events to edit the tilemap in realtime."
+      "en": "Use the events to edit the tilemap in real time.",
+      "fr": "Utilisez les événements pour modifier la Tilemap en temps réel.",
+      "ar": "استخدم الأحداث لتحرير كائن Tilemap في الوقت الفعلي.",
+      "de": "Verwenden Sie die Ereignisse, um die Tilemap in Echtzeit zu bearbeiten.",
+      "es": "Usa los eventos para editar el Tilemap en tiempo real.",
+      "it": "Usa gli eventi per modificare la Tilemap in tempo reale.",
+      "ja": "イベントを使用してタイルマップをリアルタイムで編集します。",
+      "ko": "이벤트를 사용하여 타일맵을 실시간으로 편집합니다.",
+      "pl": "Użyj zdarzeń do edycji Tilemap w czasie rzeczywistym.",
+      "pt": "Use os eventos para editar o Tilemap em tempo real.",
+      "ru": "Используйте события для редактирования Tilemap в реальном времени.",
+      "sl": "Uporabite dogodke za urejanje Tilemap v realnem času.",
+      "sq": "Përdorni ngjarjet për të modifikuar Tilemap në kohë reale.",
+      "th": "ใช้เหตุการณ์เพื่อแก้ไขแผนที่ไทล์แบบเรียลไทม์",
+      "uk": "Використовуйте події для редагування Tilemap у реальному часі.",
+      "zh": "使用事件实时编辑 Tilemap。"
     }
   ],
   "editorSwitches": {
@@ -25,7 +85,22 @@
     }
   },
   "availableLocales": [
-    "en"
+    "en",
+    "fr",
+    "ar",
+    "de",
+    "es",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "ru",
+    "sl",
+    "sq",
+    "th",
+    "uk",
+    "zh"
   ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/tilemapPlatformer/game.json",
   "initialProjectData": {
@@ -40,7 +115,22 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "In this tutorial we'll complete the game by editing the terrain, and remove the apple in the tree when the Slime in on it.\n\nBut first, launch the game to see the current game state and see we'll have to do next.\n\nLet's click on the **Preview** button to play."
+            "en": "In this tutorial, we'll complete the game by editing the terrain and removing the apple from the tree when the Slime is on it.\n\nBut first, launch the game to see the current game state and what we'll need to do next.\n\nClick the **Preview** button to play.",
+            "fr": "Dans ce tutoriel, nous allons terminer le jeu en modifiant le terrain et en retirant la pomme de l'arbre lorsque le Slime est dessus.\n\nMais d'abord, lancez le jeu pour voir l'état actuel du jeu et ce que nous devrons faire ensuite.\n\nCliquez sur le bouton **Aperçu** pour jouer.",
+            "ar": "في هذا البرنامج التعليمي، سنكمل اللعبة من خلال تعديل التضاريس وإزالة التفاحة من الشجرة عندما يكون السلايم عليها.\n\nولكن أولاً، قم بتشغيل اللعبة لرؤية حالة اللعبة الحالية وما سنحتاج إلى القيام به بعد ذلك.\n\nاضغط على زر **معاينة** للعب.",
+            "de": "In diesem Tutorial werden wir das Spiel abschließen, indem wir das Terrain bearbeiten und den Apfel vom Baum entfernen, wenn der Schleim darauf ist.\n\nAber zuerst starten Sie das Spiel, um den aktuellen Spielstatus zu sehen und was wir als Nächstes tun müssen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
+            "es": "En este tutorial, completaremos el juego editando el terreno y quitando la manzana del árbol cuando el Slime esté sobre él.\n\nPero primero, inicie el juego para ver el estado actual del juego y lo que necesitaremos hacer a continuación.\n\nHaga clic en el botón **Vista previa** para jugar.",
+            "it": "In questo tutorial, completeremo il gioco modificando il terreno e rimuovendo la mela dall'albero quando lo Slime è su di esso.\n\nMa prima, avvia il gioco per vedere lo stato attuale del gioco e cosa dovremo fare dopo.\n\nFai clic sul pulsante **Anteprima** per giocare.",
+            "ja": "このチュートリアルでは、スライムが木の上にいるときに地形を編集して、木からリンゴを取り除くことでゲームを完成させます。\n\nしかしまず、ゲームを起動して現在のゲーム状態と次に何をする必要があるかを確認してください。\n\n**プレビュー**ボタンをクリックしてプレイします。",
+            "ko": "이 튜토리얼에서는 슬라임이 나무 위에 있을 때 지형을 수정하고 나무에서 사과를 제거하여 게임을 완성합니다.\n\n하지만 먼저 게임을 시작하여 현재 게임 상태와 다음에 해야 할 일을 확인하세요.\n\n플레이하려면 **미리보기** 버튼을 클릭하세요.",
+            "pl": "W tym samouczku ukończymy grę, edytując teren i usuwając jabłko z drzewa, gdy Slime będzie na nim.\n\nAle najpierw uruchom grę, aby zobaczyć aktualny stan gry i co będziemy musieli zrobić dalej.\n\nKliknij przycisk **Podgląd**, aby grać.",
+            "pt": "Neste tutorial, vamos completar o jogo editando o terreno e removendo a maçã da árvore quando o Slime estiver nela.\n\nMas primeiro, inicie o jogo para ver o estado atual do jogo e o que precisaremos fazer a seguir.\n\nClique no botão **Pré-visualizar** para jogar.",
+            "ru": "В этом уроке мы завершим игру, редактируя местность и убирая яблоко с дерева, когда Слизень находится на нем.\n\nНо сначала запустите игру, чтобы увидеть текущее состояние игры и что нам нужно будет сделать дальше.\n\nНажмите кнопку **Предпросмотр**, чтобы играть.",
+            "sl": "V tem priročniku bomo zaključili igro tako, da bomo uredili teren in odstranili jabolko z drevesa, ko bo Slime na njem.\n\nAmpak najprej zaženite igro, da vidite trenutno stanje igre in kaj bomo morali narediti naprej.\n\nKliknite gumb **Predogled**, da igrate.",
+            "sq": "Në këtë tutorial, do të përfundojmë lojën duke redaktuar terrenin dhe duke hequr mollën nga pema kur Slime është mbi të.\n\nPor së pari, filloni lojën për të parë gjendjen aktuale të lojës dhe atë që do të na duhet të bëjmë më pas.\n\nKlikoni butonin **Parashikim** për të luajtur.",
+            "th": "ในบทช่วยสอนนี้ เราจะทำเกมให้เสร็จโดยการแก้ไขภูมิประเทศและเอาแอปเปิ้ลออกจากต้นไม้เมื่อ Slime อยู่บนต้นไม้\n\nแต่ก่อนอื่น ให้เริ่มเกมเพื่อดูสถานะปัจจุบันของเกมและสิ่งที่เราจะต้องทำถัดไป\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+            "uk": "У цьому уроці ми завершимо гру, редагуючи рельєф і видаляючи яблуко з дерева, коли Слизень на ньому.\n\nАле спочатку запустіть гру, щоб побачити поточний стан гри та що нам потрібно буде зробити далі.\n\nНатисніть кнопку **Попередній перегляд**, щоб грати.",
+            "zh": "在本教程中，我们将通过编辑地形和在史莱姆在上面时从树上移除苹果来完成游戏。\n\n但首先，启动游戏以查看当前的游戏状态以及我们接下来需要做的事情。\n\n点击 **预览** 按钮开始游戏。"
           }
         }
       },
@@ -54,7 +144,22 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "The **$(player)** cannot jump over the pit!\nWe've to edit the terrain to add a bridge.\n\nSelect the terrain on the scene!"
+            "en": "The **$(player)** cannot jump over the pit!\nWe have to edit the terrain to add a bridge.\n\nSelect the terrain in the scene!",
+            "fr": "Le **$(player)** ne peut pas sauter par-dessus le fossé !\nNous devons modifier le terrain pour ajouter un pont.\n\nSélectionnez le terrain dans la scène !",
+            "ar": "لا يمكن لـ **$(player)** القفز فوق الحفرة!\nعلينا تعديل التضاريس لإضافة جسر.\n\nحدد التضاريس في المشهد!",
+            "de": "Der **$(player)** kann nicht über die Grube springen!\nWir müssen das Terrain bearbeiten, um eine Brücke hinzuzufügen.\n\nWählen Sie das Terrain in der Szene aus!",
+            "es": "¡El **$(player)** no puede saltar sobre la trinchera!\nTenemos que editar el terreno para agregar un puente.\n\n¡Selecciona el terreno en la escena!",
+            "it": "Il **$(player)** non può saltare oltre il fossato!\nDobbiamo modificare il terreno per aggiungere un ponte.\n\nSeleziona il terreno nella scena!",
+            "ja": "**$(player)**は穴を飛び越えることができません！\n橋を追加するために地形を編集する必要があります。\n\nシーンで地形を選択してください！",
+            "ko": "**$(player)**는 구덩이를 넘을 수 없습니다!\n다리를 추가하기 위해 지형을 수정해야 합니다.\n\n장면에서 지형을 선택하세요!",
+            "pl": "**$(player)** nie może przeskoczyć przez dół!\nMusimy edytować teren, aby dodać most.\n\nWybierz teren na scenie!",
+            "pt": "O **$(player)** não pode pular sobre a cova!\nPrecisamos editar o terreno para adicionar uma ponte.\n\nSelecione o terreno na cena!",
+            "ru": "**$(player)** не может перепрыгнуть через яму!\nНам нужно отредактировать местность, чтобы добавить мост.\n\nВыберите местность на сцене!",
+            "sl": "**$(player)** ne more skočiti čez jamo!\nUrediti moramo teren, da dodamo most.\n\nIzberite teren v prizoru!",
+            "sq": "**$(player)** nuk mund të saltojë mbi gropën!\nDuhet të redaktojmë terrenin për të shtuar një urë.\n\nZgjidhni terrenin në skenë!",
+            "th": "**$(player)** ไม่สามารถกระโดดข้ามหลุมได้!\nเราต้องแก้ไขภูมิประเทศเพื่อเพิ่มสะพาน\n\nเลือกภูมิประเทศในฉาก!",
+            "uk": "**$(player)** не може стрибати через яму!\nНам потрібно редагувати рельєф, щоб додати міст.\n\nВиберіть рельєф у сцені!",
+            "zh": "**$(player)**无法跳过坑！\n我们必须编辑地形以添加桥梁。\n\n在场景中选择地形！"
           }
         }
       },
@@ -71,7 +176,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Open the **instance** properties panel and select the instance of $(tilemap) on the scene."
+            "en": "Open the **instance** properties panel and select the instance of $(tilemap) in the scene.",
+            "fr": "Ouvrez le panneau des propriétés de l'**instance** et sélectionnez l'instance de $(tilemap) dans la scène.",
+            "ar": "افتح لوحة خصائص **النسخة** وحدد النسخة من $(tilemap) في المشهد.",
+            "de": "Öffnen Sie das Eigenschaftenfeld der **Instanz** und wählen Sie die Instanz von $(tilemap) in der Szene aus.",
+            "es": "Abre el panel de propiedades de la **instancia** y selecciona la instancia de $(tilemap) en la escena.",
+            "it": "Apri il pannello delle proprietà dell'**istanza** e seleziona l'istanza di $(tilemap) nella scena.",
+            "ja": "**インスタンス**のプロパティパネルを開き、シーン内の$(tilemap)のインスタンスを選択します。",
+            "ko": "**인스턴스** 속성 패널을 열고 장면에서 $(tilemap)의 인스턴스를 선택합니다.",
+            "pl": "Otwórz panel właściwości **instancji** i wybierz instancję $(tilemap) w scenie.",
+            "pt": "Abra o painel de propriedades da **instância** e selecione a instância de $(tilemap) na cena.",
+            "ru": "Откройте панель свойств **экземпляра** и выберите экземпляр $(tilemap) на сцене.",
+            "sl": "Odprite ploščo lastnosti **instance** in izberite instanco $(tilemap) v prizoru.",
+            "sq": "Hapni panelin e pronave të **instancës** dhe zgjidhni instancën e $(tilemap) në skenë.",
+            "th": "เปิดแผงคุณสมบัติของ **อินสแตนซ์** และเลือกอินสแตนซ์ของ $(tilemap) ในฉาก",
+            "uk": "Відкрийте панель властивостей **екземпляра** та виберіть екземпляр $(tilemap) на сцені.",
+            "zh": "打开 **实例** 属性面板，并选择场景中的 $(tilemap) 实例。"
           }
         }
       },
@@ -85,7 +205,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "This is the **paint brush tool**, this tool is used to paint tile on the terrain.\nClick on it, then click on the bridge, just above the red apple."
+            "en": "This is the **paint brush tool**; this tool is used to paint tiles on the terrain.\nClick on it, then click on the bridge, just above the red apple.",
+            "fr": "Ceci est l'**outil pinceau** ; cet outil est utilisé pour peindre des tuiles sur le terrain.\nCliquez dessus, puis cliquez sur le pont, juste au-dessus de la pomme rouge.",
+            "ar": "هذه هي **أداة فرشاة الطلاء**؛ تُستخدم هذه الأداة لطلاء البلاط على التضاريس.\nانقر عليها، ثم انقر على الجسر، مباشرة فوق التفاح الأحمر.",
+            "de": "Dies ist das **Pinselwerkzeug**; dieses Werkzeug wird verwendet, um Fliesen auf dem Gelände zu malen.\nKlicken Sie darauf und dann auf die Brücke, direkt über dem roten Apfel.",
+            "es": "Esta es la **herramienta de pincel**; esta herramienta se utiliza para pintar losetas en el terreno.\nHaz clic en ella, luego haz clic en el puente, justo encima de la manzana roja.",
+            "it": "Questo è lo **strumento pennello**; questo strumento viene utilizzato per dipingere le piastrelle sul terreno.\nFai clic su di esso, quindi fai clic sul ponte, appena sopra la mela rossa.",
+            "ja": "これは**ペイントブラシツール**です。このツールは、地形にタイルをペイントするために使用されます。\nそれをクリックし、次に赤いリンゴのすぐ上にある橋をクリックします。",
+            "ko": "이것은 **페인트 브러시 도구**입니다. 이 도구는 지형에 타일을 그리는 데 사용됩니다.\n그것을 클릭한 다음, 빨간 사과 바로 위에 있는 다리를 클릭합니다.",
+            "pl": "To jest **narzędzie pędzla**; to narzędzie służy do malowania płytek na terenie.\nKliknij je, a następnie kliknij most, tuż nad czerwoną jabłkiem.",
+            "pt": "Esta é a **ferramenta de pincel**; esta ferramenta é usada para pintar ladrilhos no terreno.\nClique nela e depois clique na ponte, logo acima da maçã vermelha.",
+            "ru": "Это **инструмент кисти**; этот инструмент используется для рисования плиток на местности.\nЩелкните по нему, а затем щелкните по мосту, прямо над красным яблоком.",
+            "sl": "To je **orodje za čopič**; to orodje se uporablja za barvanje ploščic na terenu.\nKliknite nanj in nato kliknite na most, neposredno nad rdečo jabolko.",
+            "sq": "Kjo është **instrumenti i furçës së bojës**; ky instrument përdoret për të pikturuar pllakat në terren.\nKlikoni mbi të, pastaj klikoni mbi urën, menjëherë mbi mollën e kuqe.",
+            "th": "นี่คือ **เครื่องมือแปรงทาสี**; เครื่องมือนี้ใช้สำหรับทาสีแผ่นกระเบื้องบนภูมิประเทศ\nคลิกที่มัน จากนั้นคลิกที่สะพาน ขึ้นไปเหนือแอปเปิ้ลแดง",
+            "uk": "Це **інструмент для малювання**; цей інструмент використовується для малювання плиток на рельєфі.\nНатисніть на нього, а потім натисніть на міст, прямо над червоним яблуком.",
+            "zh": "这是 **画笔工具**；此工具用于在地形上绘制瓦片。\n点击它，然后点击桥，就在红苹果上方。"
           }
         },
         "placement": "top"
@@ -93,7 +228,22 @@
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "The bridge is selected, what's next!"
+            "en": "The bridge is selected. What's next?",
+            "fr": "Le pont est sélectionné. Quelle est la suite ?",
+            "ar": "تم تحديد الجسر. ماذا بعد؟",
+            "de": "Die Brücke ist ausgewählt. Was kommt als Nächstes?",
+            "es": "El puente está seleccionado. ¿Cuál es el siguiente paso?",
+            "it": "Il ponte è selezionato. Qual è il prossimo passo?",
+            "ja": "橋が選択されました。次は何ですか？",
+            "ko": "다리가 선택되었습니다. 다음은 무엇인가요?",
+            "pl": "Most jest wybrany. Co dalej?",
+            "pt": "A ponte está selecionada. Qual é o próximo passo?",
+            "ru": "Мост выбран. Что дальше?",
+            "sl": "Most je izbran. Kaj je naslednje?",
+            "sq": "Ura është zgjedhur. Çfarë vjen pas?",
+            "th": "สะพานถูกเลือกแล้ว ถัดไปคืออะไร?",
+            "uk": "Міст обрано. Що далі?",
+            "zh": "桥已被选中。接下来是什么？"
           }
         }
       }
@@ -103,14 +253,44 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Now you have the paint tool active and selected the birdge tile, you can paint the bridge on the terrain to fill the gap over the pit.\n"
+            "en": "Now that you have the paint tool active and have selected the bridge tile, you can paint the bridge on the terrain to fill the gap over the pit.",
+            "fr": "Maintenant que vous avez l'outil de peinture actif et que vous avez sélectionné la tuile de pont, vous pouvez peindre le pont sur le terrain pour combler le trou au-dessus du fossé.",
+            "ar": "الآن بعد أن أصبح لديك أداة الطلاء نشطة وقمت بتحديد بلاطة الجسر، يمكنك طلاء الجسر على التضاريس لملء الفجوة فوق الحفرة.",
+            "de": "Jetzt, da Sie das Malwerkzeug aktiv haben und die Brückenfliese ausgewählt haben, können Sie die Brücke auf das Gelände malen, um die Lücke über der Grube zu füllen.",
+            "es": "Ahora que tienes la herramienta de pintura activa y has seleccionado la losa del puente, puedes pintar el puente en el terreno para llenar el hueco sobre la trinchera.",
+            "it": "Ora che hai attivo lo strumento pennello e hai selezionato la piastrella del ponte, puoi dipingere il ponte sul terreno per riempire il vuoto sopra il fossato.",
+            "ja": "塗りツールがアクティブになり、橋のタイルが選択されているので、地形に橋を描いて穴を埋めることができます。",
+            "ko": "이제 페인트 도구가 활성화되고 다리 타일이 선택되었으므로, 지형에 다리를 그려 구덩이 위의 빈 공간을 채울 수 있습니다.",
+            "pl": "Teraz, gdy masz aktywne narzędzie do malowania i wybraną płytkę mostu, możesz namalować most na terenie, aby wypełnić lukę nad dołem.",
+            "pt": "Agora que você tem a ferramenta de pintura ativa e selecionou a telha da ponte, você pode pintar a ponte no terreno para preencher a lacuna sobre o buraco.",
+            "ru": "Теперь, когда у вас активен инструмент рисования и выбрана плитка моста, вы можете нарисовать мост на местности, чтобы заполнить промежуток над ямой.",
+            "sl": "Zdajati zdaj, ko imate aktivno orodje za slikanje in ste izbrali ploščico mostu, lahko most naslikate na terenu, da zapolnite praznino nad jamo.",
+            "sq": "Tani që keni aktivizuar instrumentin e bojës dhe keni zgjedhur pllakat e urës, mund të pikturoni urën në terren për të mbushur hapësirën mbi gropën.",
+            "th": "ตอนนี้คุณมีเครื่องมือทาสีที่เปิดใช้งานและได้เลือกกระเบื้องสะพานแล้ว คุณสามารถทาสะพานบนภูมิประเทศเพื่อเติมช่องว่างเหนือหลุมได้",
+            "uk": "Тепер, коли у вас активний інструмент малювання і вибрано плитку мосту, ви можете намалювати міст на рельєфі, щоб заповнити прогалину над ямою.",
+            "zh": "现在您已激活绘图工具并选择了桥块，可以在地形上绘制桥以填补坑上的空隙。"
           }
         }
       },
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Next"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Prossimo",
+            "ja": "次",
+            "ko": "다음",
+            "pl": "Dalej",
+            "pt": "Próximo",
+            "ru": "Далее",
+            "sl": "Naslednji",
+            "sq": "Tjetër",
+            "th": "ถัดไป",
+            "uk": "Далі",
+            "zh": "下一步"
           }
         }
       }
@@ -120,14 +300,44 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Now if you're playing the game, the player can pass trought the bridge. Let's see how to add a collision on it."
+            "en": "Now, if you're playing the game, the player can pass through the bridge. Let's see how to add a collision to it.",
+            "fr": "Maintenant, si vous jouez au jeu, le joueur peut traverser le pont. Voyons comment ajouter une collision.",
+            "ar": "الآن، إذا كنت تلعب اللعبة، يمكن للاعب المرور عبر الجسر. دعنا نرى كيف نضيف تصادماً له.",
+            "de": "Jetzt, wenn Sie das Spiel spielen, kann der Spieler über die Brücke gehen. Lassen Sie uns sehen, wie wir eine Kollision hinzufügen.",
+            "es": "Ahora, si estás jugando el juego, el jugador puede pasar a través del puente. Veamos cómo agregar una colisión.",
+            "it": "Ora, se stai giocando al gioco, il giocatore può attraversare il ponte. Vediamo come aggiungere una collisione.",
+            "ja": "さて、ゲームをプレイしている場合、プレイヤーは橋を通過できます。それに衝突を追加する方法を見てみましょう。",
+            "ko": "이제 게임을 플레이하고 있다면 플레이어가 다리를 통과할 수 있습니다. 충돌을 추가하는 방법을 살펴보겠습니다.",
+            "pl": "Teraz, jeśli grasz w grę, gracz może przejść przez most. Zobaczmy, jak dodać do niego kolizję.",
+            "pt": "Agora, se você estiver jogando o jogo, o jogador pode passar pela ponte. Vamos ver como adicionar uma colisão a ela.",
+            "ru": "Теперь, если вы играете в игру, игрок может пройти через мост. Давайте посмотрим, как добавить к нему столкновение.",
+            "sl": "Zdajati zdaj, če igrate igro, lahko igralec prečka most. Poglejmo, kako dodati trčenje nanj.",
+            "sq": "Tani, nëse po luani lojën, lojtari mund të kalojë nëpër urë. Le të shohim se si të shtojmë një përplasje.",
+            "th": "ตอนนี้ถ้าคุณกำลังเล่นเกม ผู้เล่นสามารถข้ามสะพานได้ มาดูวิธีเพิ่มการชนกันกันเถอะ",
+            "uk": "Тепер, якщо ви граєте в гру, гравець може пройти через міст. Давайте подивимося, як додати до нього зіткнення.",
+            "zh": "现在，如果您正在玩游戏，玩家可以通过桥。让我们看看如何为其添加碰撞。"
           }
         }
       },
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Next"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Prossimo",
+            "ja": "次",
+            "ko": "다음",
+            "pl": "Dalej",
+            "pt": "Próximo",
+            "ru": "Далее",
+            "sl": "Naslednji",
+            "sq": "Tjetër",
+            "th": "ถัดไป",
+            "uk": "Далі",
+            "zh": "下一步"
           }
         }
       }
@@ -141,11 +351,21 @@
         "description": {
           "messageByLocale": {
             "en": "Open the **Objects** panel.",
-            "fr": "Ouvrez le panneau des **objets**.",
-            "es": "Abre el panel de **objetos**.",
-            "pt": "Abra o painel de **objetos**.",
-            "th": "เปิดแผงควบคุม **วัตถุ**",
-            "ar": "فتح لوحة **الكائنات**."
+            "fr": "Ouvrez le panneau des **Objets**.",
+            "ar": "افتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **Objetos**.",
+            "it": "Apri il pannello degli **Oggetti**.",
+            "ja": "**オブジェクト**パネルを開きます。",
+            "ko": "**객체** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **Objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odprite ploščo **Predmeti**.",
+            "sq": "Hapni panelin e **Objekteve**.",
+            "th": "เปิดแผง **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开 **对象** 面板。"
           }
         },
         "placement": "bottom"
@@ -161,7 +381,22 @@
         "placement": "left",
         "description": {
           "messageByLocale": {
-            "en": "Open the **$(tilemap)** object.\n\nDouble click on it."
+            "en": "Open the **$(tilemap)** object.\n\nDouble-click on it.",
+            "fr": "Ouvrez l'objet **$(tilemap)**.\n\nDouble-cliquez dessus.",
+            "ar": "افتح كائن **$(tilemap)**.\n\nانقر نقرًا مزدوجًا عليه.",
+            "de": "Öffnen Sie das **$(tilemap)**-Objekt.\n\nDoppelklicken Sie darauf.",
+            "es": "Abre el objeto **$(tilemap)**.\n\nHaz doble clic en él.",
+            "it": "Apri l'oggetto **$(tilemap)**.\n\nFai doppio clic su di esso.",
+            "ja": "**$(tilemap)**オブジェクトを開きます。\n\nそれをダブルクリックします。",
+            "ko": "**$(tilemap)** 개체를 엽니다.\n\n더블 클릭합니다.",
+            "pl": "Otwórz obiekt **$(tilemap)**.\n\nKliknij dwukrotnie na nim.",
+            "pt": "Abra o objeto **$(tilemap)**.\n\nClique duas vezes nele.",
+            "ru": "Откройте объект **$(tilemap)**.\n\nДважды щелкните по нему.",
+            "sl": "Odprite objekt **$(tilemap)**.\n\nDvakrat kliknite nanj.",
+            "sq": "Hapni objektin **$(tilemap)**.\n\nKlikoni dy herë mbi të.",
+            "th": "เปิดวัตถุ **$(tilemap)**\n\nคลิกสองครั้งที่มัน",
+            "uk": "Відкрийте об'єкт **$(tilemap)**.\n\nДвічі клацніть на ньому.",
+            "zh": "打开 **$(tilemap)** 对象。\n\n双击它。"
           }
         }
       }
@@ -171,7 +406,22 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "To add a collision on the bridge click on the tile of the bridge which is above the apple.\n\nA red square collisions should appear around the tile."
+            "en": "To add a collision on the bridge, click on the tile of the bridge that is above the apple.\n\nA red square collision should appear around the tile.",
+            "fr": "Pour ajouter une collision sur le pont, cliquez sur la tuile du pont qui est au-dessus de la pomme.\n\nUne collision carrée rouge devrait apparaître autour de la tuile.",
+            "ar": "لإضافة تصادم على الجسر، انقر فوق بلاطة الجسر التي فوق التفاحة.\n\nيجب أن تظهر تصادم مربع أحمر حول البلاطة.",
+            "de": "Um eine Kollision auf der Brücke hinzuzufügen, klicken Sie auf die Fliese der Brücke, die sich über dem Apfel befindet.\n\nEin rotes quadratisches Kollision sollte um die Fliese erscheinen.",
+            "es": "Para agregar una colisión en el puente, haz clic en la losa del puente que está encima de la manzana.\n\nUna colisión cuadrada roja debería aparecer alrededor de la losa.",
+            "it": "Per aggiungere una collisione sul ponte, fai clic sulla piastrella del ponte che si trova sopra la mela.\n\nUna collisione quadrata rossa dovrebbe apparire attorno alla piastrella.",
+            "ja": "橋に衝突を追加するには、リンゴの上にある橋のタイルをクリックします。\n\n赤い正方形の衝突がタイルの周りに表示されるはずです。",
+            "ko": "다리에 충돌을 추가하려면 사과 위에 있는 다리 타일을 클릭하세요.\n\n타일 주위에 빨간색 사각형 충돌이 나타나야 합니다.",
+            "pl": "Aby dodać kolizję na moście, kliknij płytkę mostu, która znajduje się nad jabłkiem.\n\nCzerwona kwadratowa kolizja powinna pojawić się wokół płytki.",
+            "pt": "Para adicionar uma colisão na ponte, clique na telha da ponte que está acima da maçã.\n\nUma colisão quadrada vermelha deve aparecer ao redor da telha.",
+            "ru": "Чтобы добавить столкновение на мосту, щелкните по плитке моста, которая находится над яблоком.\n\nКрасный квадрат столкновения должен появиться вокруг плитки.",
+            "sl": "Za dodajanje trčenja na mostu kliknite na ploščico mostu, ki je nad jabolkom.\n\nRdeča kvadratna trčenja naj bi se pojavila okoli ploščice.",
+            "sq": "Për të shtuar një përplasje në urë, klikoni mbi pllakat e urës që është mbi mollë.\n\nNjë përplasje katrore e kuqe duhet të shfaqet rreth pllakat.",
+            "th": "เพื่อเพิ่มการชนกันบนสะพาน ให้คลิกที่กระเบื้องของสะพานที่อยู่เหนือแอปเปิ้ล\n\nการชนกันรูปสี่เหลี่ยมสีแดงควรปรากฏรอบ ๆ กระเบื้อง",
+            "uk": "Щоб додати зіткнення на мосту, клацніть на плитку моста, яка знаходиться над яблуком.\n\nЧервоний квадрат зіткнення має з’явитися навколо плитки.",
+            "zh": "要在桥上添加碰撞，请单击位于苹果上方的桥砖。\n\n应该在瓷砖周围出现红色方形碰撞。"
           }
         },
         "placement": "top",
@@ -182,7 +432,22 @@
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "I'm done"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Prossimo",
+            "ja": "次",
+            "ko": "다음",
+            "pl": "Dalej",
+            "pt": "Próximo",
+            "ru": "Далее",
+            "sl": "Naslednji",
+            "sq": "Tjetër",
+            "th": "ถัดไป",
+            "uk": "Далі",
+            "zh": "下一步"
           }
         }
       }
@@ -195,7 +460,21 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Tips: If you hover a tile a tooltip with a number appear, this number is the tile id, this can be useful to edit the terrain from the eventsheet.\n\nClick **Apply** to continue."
+            "en": "Tip: If you hold the cursor over a tile, a number appears in the tooltip. This is the number of the tile, which is useful for editing the Tilemap object from the event sheet.\n\nClick **Apply** to continue.",
+            "fr": "Astuce : Si vous survolez une tuile avec le curseur, un numéro apparaît dans l'infobulle. Il s'agit du numéro de la tuile, ce qui est utile pour modifier l'objet Tilemap depuis la feuille d'événements.\n\nCliquez sur **Appliquer** pour continuer.",
+            "ar": "نصيحة: إذا وضعنا المؤشر فوق بلاطة، يظهر رقم في النص التوضيحي. هذا هو رقم البلاطة، وهو مفيد لتحرير كائن Tilemap من ورقة الأحداث.\n\nانقر فوق **تطبيق** للمتابعة.",
+            "de": "Tipp: Wenn Sie den Cursor über eine Kachel halten, erscheint eine Zahl im Tooltip. Dies ist die Nummer der Kachel, die zum Bearbeiten des Tilemap-Objekts aus dem Event-Sheet nützlich ist.\n\nKlicken Sie auf **Anwenden**, um fortzufahren.",
+            "es": "Consejo: Si mantienes el cursor sobre un mosaico, aparece un número en la descripción emergente. Este es el número del mosaico, que es útil para editar el objeto Tilemap desde la hoja de eventos.\n\nHaz clic en **Aplicar** para continuar.",
+            "it": "Suggerimento: Se tieni il cursore su una piastrella, appare un numero nel suggerimento. Questo è il numero della piastrella, che è utile per modificare l'oggetto Tilemap dalla scheda degli eventi.\n\nFai clic su **Applica** per continuare.",
+            "ja": "ヒント: タイルの上にカーソルを置くと、ツールチップに番号が表示されます。これはタイルの番号であり、イベントシートからTilemapオブジェクトを編集する際に便利です。\n\n**適用**をクリックして続行します。",
+            "ko": "팁: 타일 위에 커서를 올려두면 툴팁에 숫자가 나타납니다. 이는 타일의 번호이며, 이벤트 시트에서 Tilemap 객체를 편집할 때 유용합니다.\n\n**적용**을 클릭하여 계속하세요.",
+            "pl": "Wskazówka: Jeśli zatrzymasz kursor nad kafelkiem, w podpowiedzi pojawi się liczba. Jest to numer kafelka, który jest przydatny do edycji obiektu Tilemap z arkusza zdarzeń.\n\nKliknij **Zastosuj**, aby kontynuować.",
+            "pt": "Dica: Se você mantiver o cursor sobre um ladrilho, um número aparecerá na dica de ferramenta. Este é o número do ladrilho, que é útil para editar o objeto Tilemap da folha de eventos.\n\nClique em **Aplicar** para continuar.",
+            "ru": "Совет: Если вы наведете курсор на плитку, в подсказке появится число. Это номер плитки, который полезен для редактирования объекта Tilemap из листа событий.\n\nНажмите **Применить**, чтобы продолжить.",
+            "sl": "Namig: Če držite kazalec nad ploščico, se v orodni nasvet prikaže številka. To je številka ploščice, ki je uporabna za urejanje predmeta Tilemap iz lista dogodkov.\n\nKliknite **Uporabi**, da nadaljujete.",
+            "sq": "Këshillë: Nëse mbani kursorin mbi një tjegull, një numër shfaqet në tooltip. Ky është numri i tjegullit, i cili është i dobishëm për modifikimin e objektit Tilemap nga tabela e ngjarjeve.\n\nKlikoni **Apliko** për të vazhduar.",
+            "th": "เคล็ดลับ: หากคุณวางเคอร์เซอร์เหนือกระเบื้อง จะมีตัวเลขปรากฏในคำแนะนำเครื่องมือ นี่คือหมายเลขของกระเบื้อง ซึ่งมีประโยชน์สำหรับการแก้ไขวัตถุ Tilemap จากแผ่นงานเหตุการณ์\n\nคลิก **ใช้** เพื่อดำเนินการต่อ""uk": "Порада: Якщо ви наведете курсор на плитку, у підказці з'явиться число. Це номер плитки, який корисний для редагування об'єкта Tilemap з аркуша подій.\n\nНатисніть **Застосувати**, щоб продовжити.",
+            "zh": "提示：如果将光标悬停在磁贴上，工具提示中会出现一个数字。这是磁贴的编号，对于从事件表编辑 Tilemap 对象很有用。\n\n单击 **应用** 以继续。"
           }
         }
       }
@@ -205,7 +484,22 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Launch the **preview** to see what changed.\n\nTry to catch the red apple!"
+            "en": "Launch the **preview** to see what has changed.\n\nTry to catch the red apple!",
+            "fr": "Lancez l'**aperçu** pour voir ce qui a changé.\n\nEssayez d'attraper la pomme rouge !",
+            "ar": "قم بتشغيل **المعاينة** لرؤية ما تغير.\n\nحاول التقاط التفاحة الحمراء!",
+            "de": "Starten Sie die **Vorschau**, um zu sehen, was sich geändert hat.\n\nVersuchen Sie, den roten Apfel zu fangen!",
+            "es": "Lanza la **vista previa** para ver qué ha cambiado.\n\n¡Intenta atrapar la manzana roja!",
+            "it": "Avvia l'**anteprima** per vedere cosa è cambiato.\n\nProva a catturare la mela rossa!",
+            "ja": "**プレビュー**を起動して、何が変更されたかを確認します。\n\n赤いリンゴをキャッチしてみてください！",
+            "ko": "**미리보기**를 실행하여 무엇이 변경되었는지 확인하십시오.\n\n빨간 사과를 잡아보세요!",
+            "pl": "Uruchom **podgląd**, aby zobaczyć, co się zmieniło.\n\nSpróbuj złapać czerwoną jabłko!",
+            "pt": "Inicie a **prévia** para ver o que mudou.\n\nTente pegar a maçã vermelha!",
+            "ru": "Запустите **предпросмотр**, чтобы увидеть, что изменилось.\n\nПопробуйте поймать красное яблоко!",
+            "sl": "Zaženi **predogled**, da vidiš, kaj se je spremenilo.\n\nPoskusi ujeti rdečo jabolko!",
+            "sq": "Lanso **paraprakun** për të parë se çfarë ka ndryshuar.\n\nProvoni të kapni mollën e kuqe!",
+            "th": "เปิด **ดูตัวอย่าง** เพื่อดูว่าอะไรเปลี่ยนไป\n\nลองจับแอปเปิ้ลแดง!",
+            "uk": "Запустіть **попередній перегляд**, щоб побачити, що змінилося.\n\nСпробуйте зловити червоне яблуко!",
+            "zh": "启动**预览**以查看发生了什么变化。\n\n试着抓住红苹果！"
           }
         }
       },
@@ -219,14 +513,44 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "It seem the apple cannot be picked.\n\nLet see how to remove the apple when the **$(player)** is on it by adding some game logic."
+            "en": "It seems the apple cannot be picked.\n\nLet's see how to remove the apple when the **$(player)** is on it by adding some game logic.",
+            "fr": "Il semble que la pomme ne puisse pas être ramassée.\n\nVoyons comment supprimer la pomme lorsque le **$(player)** est dessus en ajoutant un peu de logique de jeu.",
+            "ar": "يبدو أنه لا يمكن قطف التفاحة.\n\nلنرَ كيفية إزالة التفاحة عندما يكون **$(player)** عليها عن طريق إضافة بعض منطق اللعبة.",
+            "de": "Es scheint, dass der Apfel nicht gepflückt werden kann.\n\nLass uns sehen, wie wir den Apfel entfernen können, wenn der **$(player)** darauf steht, indem wir etwas Spiel-Logik hinzufügen.",
+            "es": "Parece que la manzana no se puede recoger.\n\nVeamos cómo quitar la manzana cuando el **$(player)** está sobre ella añadiendo algo de lógica del juego.",
+            "it": "Sembra che la mela non possa essere raccolta.\n\nVediamo come rimuovere la mela quando il **$(player)** è sopra di essa aggiungendo un po' di logica di gioco.",
+            "ja": "どうやらリンゴは拾えないようです。\n\n**$(player)** が上にいるときにリンゴを削除する方法を見てみましょう。ゲームロジックを追加することで。",
+            "ko": "사과를 따는 것은 불가능한 것 같습니다.\n\n**$(player)** 가 그 위에 있을 때 사과를 제거하는 방법을 보겠습니다. 게임 로직을 추가하여.",
+            "pl": "Wygląda na to, że jabłko nie może być zerwane.\n\nZobaczmy, jak usunąć jabłko, gdy **$(player)** jest na nim, dodając trochę logiki gry.",
+            "pt": "Parece que a maçã não pode ser colhida.\n\nVamos ver como remover a maçã quando o **$(player)** está sobre ela, adicionando um pouco de lógica de jogo.",
+            "ru": "Похоже, что яблоко нельзя собрать.\n\nДавайте посмотрим, как удалить яблоко, когда **$(player)** находится на нем, добавив немного игровой логики.",
+            "sl": "Zdi se, da jabolka ni mogoče pobrati.\n\nPoglejmo, kako odstraniti jabolko, ko je **$(player)** na njem, tako da dodamo nekaj logike igre.",
+            "sq": "Duket se molla nuk mund të merret.\n\nLe të shohim se si të heqim mollën kur **$(player)** është mbi të, duke shtuar pak logjikë lojërash.",
+            "th": "ดูเหมือนว่าไม่สามารถเก็บแอปเปิ้ลได้\n\nมาดูกันว่าสามารถลบแอปเปิ้ลเมื่อ **$(player)** อยู่บนมันโดยการเพิ่มตรรกะเกมได้อย่างไร",
+            "uk": "Схоже, що яблуко не можна зібрати.\n\nДавайте подивимося, як видалити яблуко, коли **$(player)** на ньому, додавши трохи ігрової логіки.",
+            "zh": "似乎苹果无法被摘取。\n\n让我们看看如何在 **$(player)** 站在上面时通过添加一些游戏逻辑来移除苹果。"
           }
         }
       },
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Next"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Prossimo",
+            "ja": "次",
+            "ko": "다음",
+            "pl": "Dalej",
+            "pt": "Próximo",
+            "ru": "Далее",
+            "sl": "Naslednji",
+            "sq": "Tjetër",
+            "th": "ถัดไป",
+            "uk": "Далі",
+            "zh": "下一步"
           }
         }
       }
@@ -236,7 +560,22 @@
         "placement": "bottom",
         "description": {
           "messageByLocale": {
-            "en": "Open the **eventsheet** to edit the game logic."
+            "en": "Open the **event sheet** to edit the game logic.",
+            "fr": "Ouvrez la **feuille d'événements** pour éditer la logique du jeu.",
+            "ar": "افتح **ورقة الأحداث** لتحرير منطق اللعبة.",
+            "de": "Öffnen Sie das **Ereignisblatt**, um die Spiel-Logik zu bearbeiten.",
+            "es": "Abre la **hoja de eventos** para editar la lógica del juego.",
+            "it": "Apri il **foglio eventi** per modificare la logica del gioco.",
+            "ja": "**イベントシート**を開いてゲームロジックを編集します。",
+            "ko": "**이벤트 시트**를 열어 게임 로직을 편집합니다.",
+            "pl": "Otwórz **arkusz zdarzeń**, aby edytować logikę gry.",
+            "pt": "Abra a **folha de eventos** para editar a lógica do jogo.",
+            "ru": "Откройте **лист событий**, чтобы редактировать игровую логику.",
+            "sl": "Odprite **list dogodkov**, da uredite logiko igre.",
+            "sq": "Hapni **fletën e ngjarjeve** për të redaktuar logjikën e lojës.",
+            "th": "เปิด **แผ่นเหตุการณ์** เพื่อแก้ไขตรรกะเกม",
+            "uk": "Відкрийте **лист подій**, щоб редагувати ігрову логіку.",
+            "zh": "打开**事件表**以编辑游戏逻辑。"
           }
         }
       },
@@ -251,14 +590,44 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "We will add a new event that check what is the tile under the player, and if that tile is the apple, then we will remove the tile."
+            "en": "We will add a new event that checks what tile is under the player, and if that tile is the apple, then we will remove it.",
+            "fr": "Nous allons ajouter un nouvel événement qui vérifie quelle tuile se trouve sous le joueur, et si cette tuile est la pomme, alors nous l'enlèverons.",
+            "ar": "سنضيف حدثًا جديدًا يتحقق من أي بلاطة تحت اللاعب، وإذا كانت تلك البلاطة هي التفاحة، فسنقوم بإزالتها.",
+            "de": "Wir werden ein neues Ereignis hinzufügen, das überprüft, welche Fliese sich unter dem Spieler befindet, und wenn diese Fliese der Apfel ist, entfernen wir ihn.",
+            "es": "Agregaremos un nuevo evento que verifica qué losa está debajo del jugador, y si esa losa es la manzana, entonces la eliminaremos.",
+            "it": "Aggiungeremo un nuovo evento che controlla quale piastrella si trova sotto il giocatore, e se quella piastrella è la mela, allora la rimuoveremo.",
+            "ja": "プレイヤーの下にあるタイルを確認する新しいイベントを追加します。そのタイルがリンゴであれば、リンゴを削除します。",
+            "ko": "플레이어 아래에 있는 타일을 확인하는 새 이벤트를 추가합니다. 그 타일이 사과라면 우리는 그것을 제거할 것입니다.",
+            "pl": "Dodamy nowe zdarzenie, które sprawdza, która płytka znajduje się pod graczem, a jeśli ta płytka to jabłko, to je usuniemy.",
+            "pt": "Vamos adicionar um novo evento que verifica qual telha está sob o jogador e, se essa telha for a maçã, então a removeremos.",
+            "ru": "Мы добавим новое событие, которое проверяет, какая плитка находится под игроком, и если эта плитка — яблоко, то мы его удалим.",
+            "sl": "Dodali bomo nov dogodek, ki preveri, katera ploščica je pod igralcem, in če je ta ploščica jabolko, jo bomo odstranili.",
+            "sq": "Ne do të shtojmë një ngjarje të re që kontrollon se cila pllaka është nën lojtarin, dhe nëse ajo pllaka është molla, atëherë ne do ta heqim atë.",
+            "th": "เราจะเพิ่มเหตุการณ์ใหม่ที่ตรวจสอบว่ามีกระเบื้องอะไรอยู่ใต้ผู้เล่น และถ้ากระเบื้องนั้นคือแอปเปิ้ล เราจะลบมันออก",
+            "uk": "Ми додамо нову подію, яка перевіряє, яка плитка під гравцем, і якщо ця плитка — яблуко, то ми її видалимо.",
+            "zh": "我们将添加一个新事件，检查玩家下面是什么瓷砖，如果那块瓷砖是苹果，那么我们将移除它。"
           }
         }
       },
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Next"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Prossimo",
+            "ja": "次",
+            "ko": "다음",
+            "pl": "Dalej",
+            "pt": "Próximo",
+            "ru": "Далее",
+            "sl": "Naslednji",
+            "sq": "Tjetër",
+            "th": "ถัดไป",
+            "uk": "Далі",
+            "zh": "下一步"
           }
         }
       }
@@ -271,7 +640,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click to add a new event."
+            "en": "Click to add a new event.",
+            "fr": "Cliquez pour ajouter un nouvel événement.",
+            "ar": "انقر لإضافة حدث جديد.",
+            "de": "Klicken Sie, um ein neues Ereignis hinzuzufügen.",
+            "es": "Haz clic para agregar un nuevo evento.",
+            "it": "Clicca per aggiungere un nuovo evento.",
+            "ja": "新しいイベントを追加するにはクリックしてください。",
+            "ko": "새 이벤트를 추가하려면 클릭하세요.",
+            "pl": "Kliknij, aby dodać nowe zdarzenie.",
+            "pt": "Clique para adicionar um novo evento.",
+            "ru": "Нажмите, чтобы добавить новое событие.",
+            "sl": "Kliknite za dodajanje novega dogodka.",
+            "sq": "Klikoni për të shtuar një ngjarje të re.",
+            "th": "คลิกเพื่อเพิ่มเหตุการณ์ใหม่",
+            "uk": "Натисніть, щоб додати нову подію.",
+            "zh": "点击添加新事件。"
           }
         }
       },
@@ -286,11 +670,21 @@
         "title": {
           "messageByLocale": {
             "en": "Let's add our first **Event**!",
-            "fr": "Créons notre premier **évènement** !",
-            "es": "¡Añadamos nuestro primer **evento**!",
-            "pt": "Vamos adicionar nosso primeiro **evento**!",
-            "th": "มาเพิ่ม **อีเวนท์** แรกกันเถอะ!",
-            "ar": "هيّا نقوم بإضافة أول **حدث** لنا!"
+            "fr": "Ajoutons notre premier **Événement** !",
+            "ar": "دعونا نضيف حدثنا الأول **!إيفينت**",
+            "de": "Lass uns unser erstes **Ereignis** hinzufügen!",
+            "es": "¡Añadamos nuestro primer **Evento**!",
+            "it": "Aggiungiamo il nostro primo **Evento**!",
+            "ja": "最初の**イベント**を追加しましょう！",
+            "ko": "첫 번째 **이벤트**를 추가해 보겠습니다!",
+            "pl": "Dodajmy nasze pierwsze **Zdarzenie**!",
+            "pt": "Vamos adicionar nosso primeiro **Evento**!",
+            "ru": "Давайте добавим наше первое **Событие**!",
+            "sl": "Dodajmo naš prvi **Dogodek**!",
+            "sq": "Le të shtojmë ngjarjen tonë të parë **!Ngjarje**",
+            "th": "มาลงทะเบียน **เหตุการณ์** แรกของเรากันเถอะ!",
+            "uk": "Давайте додамо наше перше **Подія**!",
+            "zh": "让我们添加第一个**事件**！"
           }
         }
       }
@@ -303,7 +697,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Add a **condition**."
+            "en": "Add a **condition**.",
+            "fr": "Ajoutez une **condition**.",
+            "ar": "أضف **شرطًا**.",
+            "de": "Fügen Sie eine **Bedingung** hinzu.",
+            "es": "Agrega una **condición**.",
+            "it": "Aggiungi una **condizione**.",
+            "ja": "**条件**を追加します。",
+            "ko": "**조건**을 추가하세요.",
+            "pl": "Dodaj **warunek**.",
+            "pt": "Adicione uma **condição**.",
+            "ru": "Добавьте **условие**.",
+            "sl": "Dodajte **pogoj**.",
+            "sq": "Shto një **kusht**.",
+            "th": "เพิ่ม **เงื่อนไข**.",
+            "uk": "Додайте **умову**.",
+            "zh": "添加一个**条件**。"
           }
         }
       }
@@ -316,7 +725,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the **$(tilemap)** object."
+            "en": "Select the **$(tilemap)** object.",
+            "fr": "Sélectionnez l'objet **$(tilemap)**.",
+            "ar": "حدد الكائن **$(tilemap)**.",
+            "de": "Wählen Sie das **$(tilemap)**-Objekt aus.",
+            "es": "Selecciona el objeto **$(tilemap)**.",
+            "it": "Seleziona l'oggetto **$(tilemap)**.",
+            "ja": "**$(tilemap)**オブジェクトを選択します。",
+            "ko": "**$(tilemap)** 객체를 선택하세요.",
+            "pl": "Wybierz obiekt **$(tilemap)**.",
+            "pt": "Selecione o objeto **$(tilemap)**.",
+            "ru": "Выберите объект **$(tilemap)**.",
+            "sl": "Izberite objekt **$(tilemap)**.",
+            "sq": "Zgjidhni objektin **$(tilemap)**.",
+            "th": "เลือกวัตถุ **$(tilemap)**.",
+            "uk": "Виберіть об'єкт **$(tilemap)**.",
+            "zh": "选择**$(tilemap)**对象。"
           }
         }
       },
@@ -330,7 +754,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the condition **Tile (at position)**."
+            "en": "Select the condition **Tile (at position)**.",
+            "fr": "Sélectionnez la condition **Tuile (à la position)**.",
+            "ar": "حدد الشرط **بلاطة (في الموضع)**.",
+            "de": "Wählen Sie die Bedingung **Fliese (an Position)** aus.",
+            "es": "Selecciona la condición **Azulejo (en posición)**.",
+            "it": "Seleziona la condizione **Piastrella (in posizione)**.",
+            "ja": "**位置にあるタイル**の条件を選択します。",
+            "ko": "**위치에 있는 타일** 조건을 선택하세요.",
+            "pl": "Wybierz warunek **Płytka (na pozycji)**.",
+            "pt": "Selecione a condição **Azulejo (na posição)**.",
+            "ru": "Выберите условие **Плитка (в позиции)**.",
+            "sl": "Izberite pogoj **Ploščica (na položaju)**.",
+            "sq": "Zgjidhni kushtin **Pllaka (në pozita)**.",
+            "th": "เลือกเงื่อนไข **กระเบื้อง (ที่ตำแหน่ง)**.",
+            "uk": "Виберіть умову **Плитка (на позиції)**.",
+            "zh": "选择条件**瓷砖（在位置）**。"
           }
         }
       },
@@ -345,7 +784,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Here we'll enter the tile id of the apple on our **$(tilemap)** object, the tile id is **13**."
+            "en": "Here we'll enter the tile id of the apple on our **$(tilemap)** object; the tile id is **13**.",
+            "fr": "Ici, nous entrerons l'ID de la tuile de la pomme sur notre objet **$(tilemap)** ; l'ID de la tuile est **13**.",
+            "ar": "هنا سنقوم بإدخال معرف البلاطة للتفاحة على كائن **$(tilemap)** الخاص بنا؛ معرف البلاطة هو **13**.",
+            "de": "Hier geben wir die Kachel-ID des Apfels auf unserem **$(tilemap)**-Objekt ein; die Kachel-ID ist **13**.",
+            "es": "Aquí ingresaremos el ID de la losa de la manzana en nuestro objeto **$(tilemap)**; el ID de la losa es **13**.",
+            "it": "Qui inseriremo l'ID della piastrella della mela sul nostro oggetto **$(tilemap)**; l'ID della piastrella è **13**.",
+            "ja": "ここでは、私たちの**$(tilemap)**オブジェクトにあるリンゴのタイルIDを入力します。タイルIDは**13**です。",
+            "ko": "여기에서 우리의 **$(tilemap)** 객체에 있는 사과의 타일 ID를 입력합니다. 타일 ID는 **13**입니다.",
+            "pl": "Tutaj wpiszemy identyfikator płytki jabłka w naszym obiekcie **$(tilemap)**; identyfikator płytki to **13**.",
+            "pt": "Aqui vamos inserir o ID da telha da maçã em nosso objeto **$(tilemap)**; o ID da telha é **13**.",
+            "ru": "Здесь мы введем ID плитки яблока на нашем объекте **$(tilemap)**; ID плитки — **13**.",
+            "sl": "Tukaj bomo vnesli ID ploščice jabolka na našem objektu **$(tilemap)**; ID ploščice je **13**.",
+            "sq": "Këtu do të hyjmë ID-në e pllaks së mollës në objektin tonë **$(tilemap)**; ID e pllaks është **13**.",
+            "th": "ที่นี่เราจะป้อน ID ของกระเบื้องแอปเปิ้ลในวัตถุ **$(tilemap)** ของเรา; ID ของกระเบื้องคือ **13**.",
+            "uk": "Тут ми введемо ID плитки яблука на нашому об'єкті **$(tilemap)**; ID плитки — **13**.",
+            "zh": "在这里，我们将输入我们**$(tilemap)**对象中苹果的瓷砖ID；瓷砖ID是**13**。"
           }
         },
         "placement": "left"
@@ -360,7 +814,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Here we enter the **$(player)** position on the x-axis."
+            "en": "Here we enter the **$(player)** position on the x-axis.",
+            "fr": "Ici, nous entrons la position de **$(player)** sur l'axe des x.",
+            "ar": "هنا ندخل موضع **$(player)** على المحور السيني.",
+            "de": "Hier geben wir die Position des **$(player)** auf der x-Achse ein.",
+            "es": "Aquí ingresamos la posición del **$(player)** en el eje x.",
+            "it": "Qui inseriamo la posizione del **$(player)** sull'asse x.",
+            "ja": "ここでは、x軸上の**$(player)**の位置を入力します。",
+            "ko": "여기에서 x축에서 **$(player)**의 위치를 입력합니다.",
+            "pl": "Tutaj wprowadzamy pozycję **$(player)** na osi x.",
+            "pt": "Aqui inserimos a posição do **$(player)** no eixo x.",
+            "ru": "Здесь мы вводим позицию **$(player)** по оси x.",
+            "sl": "Tukaj vnesemo položaj **$(player)** na x-osi.",
+            "sq": "Këtu hyjmë pozitat e **$(player)** në aksin x.",
+            "th": "ที่นี่เราจะป้อนตำแหน่งของ **$(player)** บนแกน x.",
+            "uk": "Тут ми вводимо позицію **$(player)** по осі x.",
+            "zh": "在这里，我们输入**$(player)**在x轴上的位置。"
           }
         },
         "placement": "left"
@@ -391,20 +860,20 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's save this.",
-            "fr": "Enregistrons maintenant cela.",
-            "ar": "جميل! الآن هيّا نحفظ هذا.",
-            "de": "Lassen Sie uns das jetzt speichern.",
+            "fr": "Maintenant, sauvegardons cela.",
+            "ar": "الآن دعنا نحفظ هذا.",
+            "de": "Lass uns das jetzt speichern.",
             "es": "Ahora guardemos esto.",
             "it": "Ora salviamo questo.",
-            "ja": "これを保存しましょう。",
-            "ko": "이제 이것을 저장해 봅시다.",
+            "ja": "さあ、これを保存しましょう。",
+            "ko": "이제 이것을 저장합시다.",
             "pl": "Teraz zapiszmy to.",
             "pt": "Agora vamos salvar isso.",
-            "ru": "Теперь давайте сохраните это.",
-            "sl": "Sedaj shranimo to.",
-            "sq": "Tani le të ruajmë këtë.",
-            "th": "มาบันทึกสิ่งนี้",
-            "uk": "Тепер давайте збережемо це.",
+            "ru": "Теперь давайте это сохраним.",
+            "sl": "Zdajmo to shraniti.",
+            "sq": "Tani le ta ruajmë këtë.",
+            "th": "ตอนนี้เรามาบันทึกสิ่งนี้กันเถอะ",
+            "uk": "Тепер давайте це збережемо.",
             "zh": "现在让我们保存这个。"
           }
         },
@@ -416,14 +885,44 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "We correctly set a condition to check the tile at the player's postion.\n\nLet **add an action** now to remove the tile at this same position."
+            "en": "We correctly set a condition to check the tile at the player's position.\n\nLet’s **add an action** now to remove the tile at this same position.",
+            "fr": "Nous avons correctement défini une condition pour vérifier la tuile à la position du joueur.\n\nAjoutons maintenant une **action** pour supprimer la tuile à cette même position.",
+            "ar": "لقد قمنا بتعيين شرط بشكل صحيح للتحقق من البلاطة في موضع اللاعب.\n\nدعنا **نضيف إجراءً** الآن لإزالة البلاطة في نفس الموضع.",
+            "de": "Wir haben eine Bedingung korrekt festgelegt, um die Kachel an der Position des Spielers zu überprüfen.\n\nLass uns jetzt eine **Aktion hinzufügen**, um die Kachel an dieser Position zu entfernen.",
+            "es": "Hemos establecido correctamente una condición para verificar la losa en la posición del jugador.\n\nAhora **agreguemos una acción** para eliminar la losa en esta misma posición.",
+            "it": "Abbiamo impostato correttamente una condizione per controllare la piastrella nella posizione del giocatore.\n\nAggiungiamo ora un'**azione** per rimuovere la piastrella in questa stessa posizione.",
+            "ja": "プレイヤーの位置にあるタイルをチェックする条件を正しく設定しました。\n\n今、同じ位置にあるタイルを削除するために**アクションを追加**しましょう。",
+            "ko": "플레이어의 위치에 있는 타일을 확인하는 조건을 올바르게 설정했습니다.\n\n이제 이 동일한 위치에서 타일을 제거하기 위해 **액션을 추가**합시다.",
+            "pl": "Prawidłowo ustawiliśmy warunek, aby sprawdzić płytkę w pozycji gracza.\n\nTeraz **dodajmy akcję**, aby usunąć płytkę w tej samej pozycji.",
+            "pt": "Definimos corretamente uma condição para verificar a tile na posição do jogador.\n\nAgora vamos **adicionar uma ação** para remover a tile nessa mesma posição.",
+            "ru": "Мы правильно установили условие для проверки плитки в позиции игрока.\n\nТеперь давайте **добавим действие**, чтобы удалить плитку в этом же месте.",
+            "sl": "Pravilno smo nastavili pogoj za preverjanje ploščice na položaju igralca.\n\nZdaj dodajmo **ukaz**, da odstranimo ploščico na tej isti poziciji.",
+            "sq": "Ne kemi vendosur saktësisht një kusht për të kontrolluar pllaken në pozitat e lojtarit.\n\nTani le të **shtojmë një veprim** për të hequr pllaken në këtë pozitë të njëjtë.",
+            "th": "เราตั้งเงื่อนไขเพื่อตรวจสอบกระเบื้องที่ตำแหน่งของผู้เล่นได้อย่างถูกต้อง\n\nตอนนี้เรามา **เพิ่มการกระทำ** เพื่อลบกระเบื้องที่ตำแหน่งเดียวกันนี้กันเถอะ",
+            "uk": "Ми правильно встановили умову для перевірки плитки на позиції гравця.\n\nТепер давайте **додамо дію**, щоб видалити плитку в цій самій позиції.",
+            "zh": "我们正确设置了一个条件，以检查玩家位置上的瓷砖。\n\n现在让我们**添加一个动作**，以删除该位置上的瓷砖。"
           }
         }
       },
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Next"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Avanti",
+            "ja": "次へ",
+            "ko": "다음",
+            "pl": "Dalej",
+            "pt": "Próximo",
+            "ru": "Далее",
+            "sl": "Naprej",
+            "sq": "Tjetër",
+            "th": "ถัดไป",
+            "uk": "Далі",
+            "zh": "下一步"
           }
         }
       }
@@ -436,7 +935,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Click to add an **action**."
+            "en": "Click to add an **action**.",
+            "fr": "Cliquez pour ajouter une **action**.",
+            "ar": "انقر لإضافة **إجراء**.",
+            "de": "Klicken Sie, um eine **Aktion** hinzuzufügen.",
+            "es": "Haz clic para agregar una **acción**.",
+            "it": "Clicca per aggiungere un'**azione**.",
+            "ja": "**アクション**を追加するにはクリックしてください。",
+            "ko": "**액션**을 추가하려면 클릭하세요.",
+            "pl": "Kliknij, aby dodać **akcję**.",
+            "pt": "Clique para adicionar uma **ação**.",
+            "ru": "Нажмите, чтобы добавить **действие**.",
+            "sl": "Kliknite za dodajanje **ukaza**.",
+            "sq": "Klikoni për të shtuar një **veprim**.",
+            "th": "คลิกเพื่อเพิ่ม **การกระทำ**.",
+            "uk": "Натисніть, щоб додати **дію**.",
+            "zh": "点击以添加一个**动作**。"
           }
         }
       }
@@ -449,7 +963,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the **$(tilemap)** object."
+            "en": "Select the **$(tilemap)** object.",
+            "fr": "Sélectionnez l'objet **$(tilemap)**.",
+            "ar": "اختر كائن **$(tilemap)**.",
+            "de": "Wählen Sie das **$(tilemap)**-Objekt aus.",
+            "es": "Selecciona el objeto **$(tilemap)**.",
+            "it": "Seleziona l'oggetto **$(tilemap)**.",
+            "ja": "**$(tilemap)**オブジェクトを選択してください。",
+            "ko": "**$(tilemap)** 객체를 선택하세요.",
+            "pl": "Wybierz obiekt **$(tilemap)**.",
+            "pt": "Selecione o objeto **$(tilemap)**.",
+            "ru": "Выберите объект **$(tilemap)**.",
+            "sl": "Izberite objekt **$(tilemap)**.",
+            "sq": "Zgjidhni objektin **$(tilemap)**.",
+            "th": "เลือกวัตถุ **$(tilemap)**.",
+            "uk": "Виберіть об'єкт **$(tilemap)**.",
+            "zh": "选择 **$(tilemap)** 对象。"
           }
         }
       },
@@ -463,7 +992,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Select the action **Remove tile (at position)**."
+            "en": "Select the action **Remove tile (at position)**.",
+            "fr": "Sélectionnez l'action **Supprimer la tuile (à la position)**.",
+            "ar": "اختر الإجراء **إزالة البلاطة (في الموضع)**.",
+            "de": "Wählen Sie die Aktion **Kachel entfernen (an Position)** aus.",
+            "es": "Selecciona la acción **Eliminar losa (en la posición)**.",
+            "it": "Seleziona l'azione **Rimuovi piastrella (alla posizione)**.",
+            "ja": "**位置でタイルを削除**するアクションを選択してください。",
+            "ko": "**위치에서 타일 제거** 작업을 선택하세요.",
+            "pl": "Wybierz akcję **Usuń płytkę (na pozycji)**.",
+            "pt": "Selecione a ação **Remover tile (na posição)**.",
+            "ru": "Выберите действие **Удалить плитку (в позиции)**.",
+            "sl": "Izberite dejanje **Odstrani ploščico (na položaju)**.",
+            "sq": "Zgjidhni veprimin **Hiq pllaken (në pozitë)**.",
+            "th": "เลือกการกระทำ **ลบกระเบื้อง (ที่ตำแหน่ง)**.",
+            "uk": "Виберіть дію **Видалити плитку (за позицією)**.",
+            "zh": "选择操作 **移除瓷砖（在位置）**。"
           }
         }
       },
@@ -478,7 +1022,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Here we enter the **$(player)** position on the x-axis."
+            "en": "Here we enter the **$(player)** position on the x-axis.",
+            "fr": "Ici nous entrons la position de **$(player)** sur l'axe x.",
+            "ar": "هنا ندخل موقع **$(player)** على المحور السيني.",
+            "de": "Hier geben wir die Position von **$(player)** auf der x-Achse ein.",
+            "es": "Aquí introducimos la posición de **$(player)** en el eje x.",
+            "it": "Qui inseriamo la posizione di **$(player)** sull'asse x.",
+            "ja": "ここでは、x軸上の**$(player)**の位置を入力します。",
+            "ko": "여기에서 x축의 **$(player)** 위치를 입력합니다.",
+            "pl": "Tutaj wprowadzamy pozycję **$(player)** na osi x.",
+            "pt": "Aqui inserimos a posição do **$(player)** no eixo x.",
+            "ru": "Здесь мы вводим положение **$(player)** по оси x.",
+            "sl": "Tukaj vnesemo položaj **$(player)** na x osi.",
+            "sq": "Këtu vendosim pozicionin e **$(player)** në boshtin x.",
+            "th": "ที่นี่เราป้อนตำแหน่งของ **$(player)** บนแกน x",
+            "uk": "Тут ми вводимо позицію **$(player)** на осі x.",
+            "zh": "在这里，我们输入**$(player)**在x轴上的位置。"
           }
         },
         "placement": "left"
@@ -493,7 +1052,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Then on the y-axis."
+            "en": "Then on the y-axis.",
+            "fr": "Puis sur l'axe y.",
+            "ar": "ثم على المحور الصادي.",
+            "de": "Dann auf der y-Achse.",
+            "es": "Luego en el eje y.",
+            "it": "Poi sull'asse y.",
+            "ja": "次にy軸上で。",
+            "ko": "그다음 y축에서.",
+            "pl": "Następnie na osi y.",
+            "pt": "Depois no eixo y.",
+            "ru": "Затем по оси y.",
+            "sl": "Nato na y osi.",
+            "sq": "Pastaj në boshtin y.",
+            "th": "จากนั้นบนแกน y",
+            "uk": "Потім на осі y.",
+            "zh": "然后是y轴。"
           }
         },
         "placement": "left"
@@ -509,20 +1083,20 @@
         "description": {
           "messageByLocale": {
             "en": "Now let's save this.",
-            "fr": "Enregistrons maintenant cela.",
-            "ar": "جميل! الآن هيّا نحفظ هذا.",
-            "de": "Lassen Sie uns das jetzt speichern.",
+            "fr": "Maintenant, sauvegardons ceci.",
+            "ar": "الآن دعنا نحفظ هذا.",
+            "de": "Jetzt lass uns das speichern.",
             "es": "Ahora guardemos esto.",
             "it": "Ora salviamo questo.",
             "ja": "これを保存しましょう。",
-            "ko": "이제 이것을 저장해 봅시다.",
+            "ko": "이제 이것을 저장하겠습니다.",
             "pl": "Teraz zapiszmy to.",
-            "pt": "Agora vamos salvar isso.",
-            "ru": "Теперь давайте сохраните это.",
-            "sl": "Sedaj shranimo to.",
-            "sq": "Tani le të ruajmë këtë.",
-            "th": "มาบันทึกสิ่งนี้",
-            "uk": "Тепер давайте збережемо це.",
+            "pt": "Agora vamos salvar isto.",
+            "ru": "Теперь давайте сохраним это.",
+            "sl": "Zdaj shranimo to.",
+            "sq": "Tani ta ruajmë këtë.",
+            "th": "ตอนนี้มาบันทึกสิ่งนี้กัน",
+            "uk": "Тепер збережімо це.",
             "zh": "现在让我们保存这个。"
           }
         },
@@ -534,7 +1108,22 @@
         "placement": "bottom",
         "description": {
           "messageByLocale": {
-            "en": "We're done!\nLet's test our game and try to pick the apple by passing on it.\n\nLet's click on the **Preview** button to play."
+            "en": "We're done!\nLet's test our game and try to pick the apple by passing on it.\n\nLet's click on the **Preview** button to play.",
+            "fr": "Nous avons terminé !\nTestons notre jeu et essayons de ramasser la pomme en passant dessus.\n\nCliquons sur le bouton **Aperçu** pour jouer.",
+            "ar": "انتهينا!\nدعنا نختبر لعبتنا ونحاول التقاط التفاحة بالمرور عليها.\n\nفلننقر على زر **معاينة** للعب.",
+            "de": "Wir sind fertig!\nLassen Sie uns unser Spiel testen und versuchen, den Apfel aufzuheben, indem wir darüber gehen.\n\nKlicken wir auf die **Vorschau**-Schaltfläche zum Spielen.",
+            "es": "¡Hemos terminado!\nVamos a probar nuestro juego e intentar recoger la manzana pasando sobre ella.\n\nHagamos clic en el botón **Vista previa** para jugar.",
+            "it": "Abbiamo finito!\nProviamo il nostro gioco e cerchiamo di raccogliere la mela passandoci sopra.\n\nClicchiamo sul pulsante **Anteprima** per giocare.",
+            "ja": "完了です！\nゲームをテストして、リンゴの上を通って拾ってみましょう。\n\n**プレビュー**ボタンをクリックしてプレイしましょう。",
+            "ko": "완료되었습니다!\n게임을 테스트하고 사과 위를 지나가서 사과를 집어보겠습니다.\n\n**미리보기** 버튼을 클릭하여 플레이해봅시다.",
+            "pl": "Gotowe!\nProzetestujmy naszą grę i spróbujmy podnieść jabłko przechodząc po nim.\n\nKliknijmy przycisk **Podgląd**, aby zagrać.",
+            "pt": "Terminamos!\nVamos testar nosso jogo e tentar pegar a maçã passando por cima dela.\n\nVamos clicar no botão **Visualizar** para jogar.",
+            "ru": "Готово!\nДавайте протестируем нашу игру и попробуем подобрать яблоко, пройдя по нему.\n\nНажмем на кнопку **Предпросмотр**, чтобы начать игру.",
+            "sl": "Končali smo!\nPreizkusimo našo igro in poskusimo pobrati jabolko tako, da gremo čezenj.\n\nKliknimo gumb **Predogled** za igranje.",
+            "sq": "Kemi mbaruar!\nLe të testojmë lojën tonë dhe të përpiqemi të marrim mollën duke kaluar mbi të.\n\nLe të klikojmë butonin **Parapamje** për të luajtur.",
+            "th": "เสร็จแล้ว!\nมาทดสอบเกมของเราและลองเก็บแอปเปิ้ลโดยการเดินผ่านมัน\n\nคลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+            "uk": "Готово!\nДавайте протестуємо нашу гру і спробуємо підібрати яблуко, пройшовши по ньому.\n\nНатиснемо кнопку **Попередній перегляд**, щоб почати гру.",
+            "zh": "我们完成了！\n让我们测试游戏，尝试通过走过苹果来捡起它。\n\n点击**预览**按钮开始游戏。"
           }
         }
       },
@@ -588,7 +1177,22 @@
       },
       {
         "messageByLocale": {
-          "en": "- How to paint on a Tilemap object\n\n- How to edit the collisions on a Tilemap object\n\n- How to use the events to act on the Tilemap object"
+          "en": "- How to paint on a Tilemap object\n- How to edit the collisions on a Tilemap object\n- How to use the events to act on the Tilemap object",
+          "fr": "- Comment peindre sur un objet Tilemap\n- Comment modifier les collisions sur un objet Tilemap\n- Comment utiliser les événements pour agir sur un objet Tilemap",
+          "ar": "- كيفية الطلاء على كائن Tilemap\n- كيفية تحرير التصادمات على كائن Tilemap\n- كيفية استخدام الأحداث للتأثير على كائن Tilemap",
+          "de": "- Wie man auf einem Tilemap-Objekt malt\n- Wie man die Kollisionen auf einem Tilemap-Objekt bearbeitet\n- Wie man Ereignisse verwendet, um auf ein Tilemap-Objekt einzuwirken",
+          "es": "- Cómo pintar en un objeto Tilemap\n- Cómo editar las colisiones en un objeto Tilemap\n- Cómo usar los eventos para actuar sobre un objeto Tilemap",
+          "it": "- Come dipingere su un oggetto Tilemap\n- Come modificare le collisioni su un oggetto Tilemap\n- Come usare gli eventi per agire su un oggetto Tilemap",
+          "ja": "- Tilemapオブジェクトにペイントする方法\n- Tilemapオブジェクトの衝突を編集する方法\n- イベントを使用してTilemapオブジェクトに作用する方法",
+          "ko": "- Tilemap 객체에 페인트하는 방법\n- Tilemap 객체의 충돌을 편집하는 방법\n- 이벤트를 사용하여 Tilemap 객체에 작용하는 방법",
+          "pl": "- Jak malować na obiekcie Tilemap\n- Jak edytować kolizje na obiekcie Tilemap\n- Jak używać zdarzeń, aby działać na obiekcie Tilemap",
+          "pt": "- Como pintar em um objeto Tilemap\n- Como editar as colisões em um objeto Tilemap\n- Como usar os eventos para agir no objeto Tilemap",
+          "ru": "- Как рисовать на объекте Tilemap\n- Как редактировать коллизии на объекте Tilemap\n- Как использовать события для воздействия на объект Tilemap",
+          "sl": "- Kako slikati na Tilemap objektu\n- Kako urediti trke na Tilemap objektu\n- Kako uporabiti dogodke za delovanje na Tilemap objektu",
+          "sq": "- Si pikturoj në një objekt Tilemap\n- Si modifikoj përplasjet në një objekt Tilemap\n- Si të përdorim ngjarjet për të vepruar mbi një objekt Tilemap",
+          "th": "- วิธีการวาดบนวัตถุ Tilemap\n- วิธีการแก้ไขการชนบนวัตถุ Tilemap\n- วิธีการใช้อีเวนต์เพื่อกระทำต่อวัตถุ Tilemap",
+          "uk": "- Як малювати на об'єкті Tilemap\n- Як редагувати зіткнення на об'єкті Tilemap\n- Як використовувати події для впливу на об'єкт Tilemap",
+          "zh": "- 如何在 Tilemap 对象上绘画\n- 如何编辑 Tilemap 对象上的碰撞\n- 如何使用事件来作用于 Tilemap 对象"
         }
       },
       {
