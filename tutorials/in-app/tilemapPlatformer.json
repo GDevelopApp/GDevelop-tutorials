@@ -1,11 +1,11 @@
 {
   "id": "tilemapPlatformer",
   "titleByLocale": {
-    "en": "Let's see how to use the Tilemap object"
+    "en": "Let's see how to use the Tilemap object."
   },
   "bulletPointsByLocale": [
     {
-      "en": "USe and edit a tilemap object."
+      "en": "Use and edit a tilemap object."
     },
     {
       "en": "Add collisions to the tilemap."
@@ -67,6 +67,20 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-properties-panel-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **instance** properties panel and select the instance of $(tilemap) on the scene."
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "#paintBrush"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "#paintBrush",
       "tooltip": {
         "description": {
@@ -117,6 +131,26 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "es": "Abre el panel de **objetos**.",
+            "pt": "Abra o painel de **objetos**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "ar": "فتح لوحة **الكائنات**."
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:tilemap",
