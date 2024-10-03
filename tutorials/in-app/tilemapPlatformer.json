@@ -166,7 +166,22 @@
       "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
-            "en": "Next"
+            "en": "Next",
+            "fr": "Suivant",
+            "ar": "التالي",
+            "de": "Weiter",
+            "es": "Siguiente",
+            "it": "Avanti",
+            "ja": "次へ",
+            "ko": "다음",
+            "pl": "Dalej",
+            "pt": "Próximo",
+            "ru": "Далее",
+            "sl": "Naprej",
+            "sq": "Tjetër",
+            "th": "ถัดไป",
+            "uk": "Далі",
+            "zh": "下一步"
           }
         }
       }
@@ -473,7 +488,8 @@
             "ru": "Совет: Если вы наведете курсор на плитку, в подсказке появится число. Это номер плитки, который полезен для редактирования объекта Tilemap из листа событий.\n\nНажмите **Применить**, чтобы продолжить.",
             "sl": "Namig: Če držite kazalec nad ploščico, se v orodni nasvet prikaže številka. To je številka ploščice, ki je uporabna za urejanje predmeta Tilemap iz lista dogodkov.\n\nKliknite **Uporabi**, da nadaljujete.",
             "sq": "Këshillë: Nëse mbani kursorin mbi një tjegull, një numër shfaqet në tooltip. Ky është numri i tjegullit, i cili është i dobishëm për modifikimin e objektit Tilemap nga tabela e ngjarjeve.\n\nKlikoni **Apliko** për të vazhduar.",
-            "th": "เคล็ดลับ: หากคุณวางเคอร์เซอร์เหนือกระเบื้อง จะมีตัวเลขปรากฏในคำแนะนำเครื่องมือ นี่คือหมายเลขของกระเบื้อง ซึ่งมีประโยชน์สำหรับการแก้ไขวัตถุ Tilemap จากแผ่นงานเหตุการณ์\n\nคลิก **ใช้** เพื่อดำเนินการต่อ""uk": "Порада: Якщо ви наведете курсор на плитку, у підказці з'явиться число. Це номер плитки, який корисний для редагування об'єкта Tilemap з аркуша подій.\n\nНатисніть **Застосувати**, щоб продовжити.",
+            "th": "เคล็ดลับ: หากคุณวางเคอร์เซอร์เหนือกระเบื้อง จะมีตัวเลขปรากฏในคำแนะนำเครื่องมือ นี่คือหมายเลขของกระเบื้อง ซึ่งมีประโยชน์สำหรับการแก้ไขวัตถุ Tilemap จากแผ่นงานเหตุการณ์\n\nคลิก **ใช้** เพื่อดำเนินการต่อ",
+            "uk": "Порада: Якщо ви наведете курсор на плитку, у підказці з'явиться число. Це номер плитки, який корисний для редагування об'єкта Tilemap з аркуша подій.\n\nНатисніть **Застосувати**, щоб продовжити.",
             "zh": "提示：如果将光标悬停在磁贴上，工具提示中会出现一个数字。这是磁贴的编号，对于从事件表编辑 Tilemap 对象很有用。\n\n单击 **应用** 以继续。"
           }
         }
@@ -844,7 +860,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Then on the y-axis."
+            "en": "Then on the y-axis.",
+            "fr": "Puis sur l'axe y.",
+            "ar": "ثم على المحور الصادي.",
+            "de": "Dann auf der y-Achse.",
+            "es": "Luego en el eje y.",
+            "it": "Poi sull'asse y.",
+            "ja": "次にy軸上で。",
+            "ko": "그다음 y축에서.",
+            "pl": "Następnie na osi y.",
+            "pt": "Depois no eixo y.",
+            "ru": "Затем по оси y.",
+            "sl": "Nato na y osi.",
+            "sq": "Pastaj në boshtin y.",
+            "th": "จากนั้นบนแกน y",
+            "uk": "Потім на осі y.",
+            "zh": "然后是y轴。"
           }
         },
         "placement": "left"
