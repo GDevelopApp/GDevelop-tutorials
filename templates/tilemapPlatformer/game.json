@@ -253,7 +253,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.5991525916796543,
+        "zoomFactor": 2.353003667872166,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1131,35 +1131,6 @@
             "textR": 0
           },
           "comment": "Instruction to implement to pick the apple:\n\nIf the Slime collide with tile of the apple, then remove the tile at the same position of the Slime."
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TileMap::SimpleTileMap::TileIdAtPosition"
-              },
-              "parameters": [
-                "Tilemap",
-                "=",
-                "13",
-                "Slime.CenterX()",
-                "Slime.CenterY()"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TileMap::RemoveTileAtPosition"
-              },
-              "parameters": [
-                "Tilemap",
-                "Slime.CenterX()",
-                "Slime.CenterY()"
-              ]
-            }
-          ]
         }
       ],
       "layers": [
