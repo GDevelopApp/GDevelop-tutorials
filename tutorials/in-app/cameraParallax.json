@@ -196,229 +196,48 @@
   "flow": [
     {
       "id": "Start",
-      "elementToHighlightId": "#main-toolbar-project-manager-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-tab-extensions"
+      "nextStep": {
+        "clickOnTooltipButton": {
+          "messageByLocale": {
+            "en": "Let's go!",
+            "fr": "C'est parti !",
+            "ar": "لنبدأ!",
+            "de": "Los geht's!",
+            "es": "¡Vamos!",
+            "it": "Andiamo!",
+            "ja": "さあ、始めましょう！",
+            "ko": "출발!",
+            "pl": "Zaczynamy!",
+            "pt": "Vamos lá!",
+            "ru": "Поехали!",
+            "sl": "Gremo!",
+            "sq": "Hajde shkojme!",
+            "th": "ไปกันเลย!",
+            "uk": "Почнемо!",
+            "zh": "让我们开始吧！"
+          }
+        }
       },
-      "tooltip": {
-        "title": {
-          "messageByLocale": {
-            "en": "Let's improve this platformer game by following the character with the camera!",
-            "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra !",
-            "ar": "هيّا نحسن لعبة المنصات هذه بمتابعة الشخصية بواسطة الكاميرا!",
-            "de": "Verbessern wir dieses Plattformspiel, indem wir dem Charakter mit der Kamera folgen!",
-            "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara!",
-            "it": "Miglioriamo questo gioco platform seguendo il personaggio con la telecamera!",
-            "ja": "キャラクターをカメラで追いかけることで、このプラットフォーマーゲームを改善しましょう！",
-            "ko": "캐릭터를 카메라로 따라가면서 이 플랫포머 게임을 개선해 봅시다!",
-            "pl": "Ulepszmy tę grę platformową, śledząc postać za pomocą kamery!",
-            "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera!",
-            "ru": "Улучшим эту платформенную игру, следуя за персонажем с помощью камеры!",
-            "sl": "Izboljšajmo to platformno igro, tako da sledimo liku s kamero!",
-            "sq": "Përmirësojmë këtë lojë platforme duke ndjekur personazhin me kamerën!",
-            "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ",
-            "uk": "Покращимо цю платформенну гру, слідуючи за персонажем за допомогою камери!",
-            "zh": "让我们通过用摄像机跟随角色来改进这个平台游戏！"
-          }
-        },
-        "description": {
-          "messageByLocale": {
-            "en": "For this, we will install an **extension**.\n\nOpen the **Project Manager**.",
-            "fr": "Pour cela, nous allons installer une **extension**.\n\nOuvrez le **Gestionnaire de projet**.",
-            "ar": "لفعل هذا، سوف نقوم بتثبيت **ملحق**.\n\nفتح **مدير المشروع**.",
-            "de": "Dafür werden wir eine **Erweiterung** installieren.\n\nÖffnen Sie den **Projekt-Manager**.",
-            "es": "Para esto, instalaremos una **extensión**.\n\nAbre el **Administrador de proyectos**.",
-            "it": "Per questo, installeremo un **estensione**.\n\nApri il **Gestore del progetto**.",
-            "ja": "そのために、**拡張機能**をインストールします。\n\n**プロジェクトマネージャ**を開きます。",
-            "ko": "이를 위해 **확장 기능**을 설치할 것입니다.\n\n**프로젝트 관리자**를 엽니다.",
-            "pl": "W tym celu zainstalujemy **rozszerzenie**.\n\nOtwórz **Menedżera projektu**.",
-            "pt": "Para isso, instalaremos uma **extensão**.\n\nAbra o **Gerenciador de projetos**.",
-            "ru": "Для этого мы установим **расширение**.\n\nОткройте **Менеджер проектов**.",
-            "sl": "Za to bomo namestili **razširitev**.\n\nOdpri **Upravitelj projekta**.",
-            "sq": "Për këtë, ne do të instalojmë një **zgjerim**.\n\nHapni **Menaxherin e Projektit**.",
-            "th": "โดยเราจะติดตั้ง **extension**.\n\nเปิด **โปรเจกต์เมเนเจอร์**",
-            "uk": "Для цього ми встановимо **розширення**.\n\nВідкрийте **Менеджер проектів**.",
-            "zh": "为此，我们将安装一个**扩展**。\n\n打开**项目管理器**。"
-          }
+      "description": {
+        "messageByLocale": {
+          "en": "Let's improve this platformer game by following the character with the camera! For this, we will add an **extension**.",
+          "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra ! Pour cela, nous allons ajouter une **extension**.",
+          "ar": "لنحسن هذه اللعبة النموذجية عن طريق متابعة الشخصية بالكاميرا! لهذا، سنضيف **ملحق**.",
+          "de": "Verbessern wir dieses Plattformspiel, indem wir dem Charakter mit der Kamera folgen! Dazu fügen wir eine **Erweiterung** hinzu.",
+          "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara! Para esto, agregaremos una **extensión**.",
+          "it": "Miglioriamo questo gioco platform seguendo il personaggio con la telecamera! Per fare questo, aggiungeremo un'estensione.",
+          "ja": "キャラクターをカメラで追いかけることで、このプラットフォーマーゲームを改善しましょう！そのために、**拡張機能**を追加します。",
+          "ko": "캐릭터를 카메라로 따라가면서 이 플랫포머 게임을 개선해 봅시다! 이를 위해 **확장**을 추가할 것입니다.",
+          "pl": "Ulepszmy tę grę platformową, śledząc postać za pomocą kamery! W tym celu dodamy **rozszerzenie**.",
+          "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera! Para isso, vamos adicionar uma **extensão**.",
+          "ru": "Улучшим эту платформенную игру, следуя за персонажем с помощью камеры! Для этого мы добавим **расширение**.",
+          "sl": "Izboljšajmo to platformno igro, tako da sledimo liku s kamero! Za to bomo dodali **razširitev**.",
+          "sq": "Përmirësojmë këtë lojë platforme duke ndjekur personazhin me kamerën! Për këtë, do të shtojmë një **zgjerim**.",
+          "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ! เพื่อทำเช่นนี้ เราจะเพิ่ม **ส่วนขยาย**",
+          "uk": "Покращимо цю платформенну гру, слідуючи за персонажем за допомогою камери! Для цього ми додамо **розширення**.",
+          "zh": "让我们通过用摄像机跟随角色来改进这个平台游戏！为此，我们将添加一个**扩展**。"
         }
       }
-    },
-    {
-      "elementToHighlightId": "#project-manager-extension-search-or-create",
-      "nextStepTrigger": {
-        "presenceOfElement": "#extension-search-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's add an **Extension**.",
-            "fr": "Ajoutons une **extension**.",
-            "ar": "هيّا نضيف **ملحق**.",
-            "de": "Fügen wir eine **Erweiterung** hinzu.",
-            "es": "Agreguemos una **extensión**.",
-            "it": "Aggiungiamo un **estensione**.",
-            "ja": "**拡張機能**を追加しましょう。",
-            "ko": "**확장 기능**을 추가해 봅시다.",
-            "pl": "Dodajmy **rozszerzenie**.",
-            "pt": "Vamos adicionar uma **extensão**.",
-            "ru": "Добавим **расширение**.",
-            "sl": "Dodajmo **razširitev**.",
-            "sq": "Le të shtojmë një **zgjerim**.",
-            "th": "เรามาเพิ่ม **extension**",
-            "uk": "Додамо **розширення**.",
-            "zh": "让我们添加一个**扩展**。"
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#extension-search-bar",
-      "nextStepTrigger": {
-        "presenceOfElement": "#extension-list-item-SmoothCamera"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Search for the **smooth camera** extension.",
-            "fr": "Cherchez l'extension **smooth camera**.",
-            "ar": "البحث عن الملحق **smooth camera**.",
-            "de": "Suchen Sie nach der **smooth camera**-Erweiterung.",
-            "es": "Busca la extensión **smooth camera**.",
-            "it": "Cerca l'estensione **smooth camera**.",
-            "ja": "**smooth camera** 拡張機能を検索します。",
-            "ko": "**smooth camera** 확장 기능을 검색합니다.",
-            "pl": "Wyszukaj rozszerzenie **smooth camera**.",
-            "pt": "Procure pela extensão **smooth camera**.",
-            "ru": "Ищите расширение **smooth camera**.",
-            "sl": "Iščite po **smooth camera** razširitvi.",
-            "sq": "Kërkoni për zgjerimin **smooth camera**.",
-            "th": "ค้นหา extension **smooth camera**",
-            "uk": "Шукайте розширення **smooth camera**.",
-            "zh": "搜索**smooth camera**扩展。"
-          }
-        }
-      },
-      "isOnClosableDialog": true,
-      "skippable": true
-    },
-    {
-      "elementToHighlightId": "#extension-list-item-SmoothCamera",
-      "nextStepTrigger": {
-        "presenceOfElement": "#install-extension-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Click on the extension **Smooth Camera**.",
-            "fr": "Cliquez sur l'extension **Smooth Camera**.",
-            "ar": "الضغط على الملحق **Smooth Camera**.",
-            "de": "Klicken Sie auf die **Smooth Camera**-Erweiterung.",
-            "es": "Haz clic en la extensión **Smooth Camera**.",
-            "it": "Fai clic sull'estensione **Smooth Camera**.",
-            "ja": "拡張機能 **Smooth Camera** をクリックします。",
-            "ko": "확장 기능 **Smooth Camera**을 클릭합니다.",
-            "pl": "Kliknij rozszerzenie **Smooth Camera**.",
-            "pt": "Clique na extensão **Smooth Camera**.",
-            "ru": "Нажмите на расширение **Smooth Camera**.",
-            "sl": "Kliknite na razširitev **Smooth Camera**.",
-            "sq": "Klikoni në zgjerimin **Smooth Camera**.",
-            "th": "คลิกที่ extension **Smooth Camera**",
-            "uk": "Клацніть на розширення **Smooth Camera**.",
-            "zh": "点击**Smooth Camera**扩展。"
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#install-extension-dialog #install-extension-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#install-extension-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Install the extension in your project.",
-            "fr": "Installez l'extension au projet.",
-            "ar": "تثبيت الملحق في مشروعك.",
-            "de": "Installieren Sie die Erweiterung in Ihrem Projekt.",
-            "es": "Instala la extensión en tu proyecto.",
-            "it": "Installa l'estensione nel tuo progetto.",
-            "ja": "プロジェクトに拡張機能をインストールします。",
-            "ko": "프로젝트에 확장 기능을 설치합니다.",
-            "pl": "Zainstaluj rozszerzenie w swoim projekcie.",
-            "pt": "Instale a extensão no seu projeto.",
-            "ru": "Установите расширение в свой проект.",
-            "sl": "Namestite razširitev v svojem projektu.",
-            "sq": "Instaloni zgjerimin në projektin tuaj.",
-            "th": "ติดตั้ง extension ในโปรเจกต์ของคุณ",
-            "uk": "Встановіть розширення в свій проект.",
-            "zh": "在您的项目中安装扩展。"
-          }
-        },
-        "placement": "top"
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "#extension-search-dialog #close-button",
-      "nextStepTrigger": {
-        "absenceOfElement": "#extension-search-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's close this dialog.",
-            "fr": "Fermons cette fenêtre.",
-            "ar": "هيّا نغلق هذا.",
-            "de": "Schließen wir diesen Dialog.",
-            "es": "Cerramos esta ventana.",
-            "it": "Chiudiamo questo dialogo.",
-            "ja": "このダイアログを閉じましょう。",
-            "ko": "이 대화 상자를 닫아 봅시다.",
-            "pl": "Zamknijmy to okno dialogowe.",
-            "pt": "Vamos fechar esta janela.",
-            "ru": "Давайте закроем это диалоговое окно.",
-            "sl": "Zaprimo ta pogovorno okno.",
-            "sq": "Le të mbyejmë këtë dialog.",
-            "th": "ปิดหน้าต่างนี้",
-            "uk": "Давайте закриємо це діалогове вікно.",
-            "zh": "让我们关闭这个对话框。"
-          }
-        }
-      },
-      "isOnClosableDialog": true
-    },
-    {
-      "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close",
-      "nextStepTrigger": {
-        "absenceOfElement": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Let's close the menu.",
-            "fr": "Fermons le menu.",
-            "ar": "لنغلق هذه القائمة.",
-            "de": "Schließen wir das Menü.",
-            "es": "Cerramos el menú.",
-            "it": "Chiudiamo il menu.",
-            "ja": "メニューを閉じましょう。",
-            "ko": "메뉴를 닫아 봅시다.",
-            "pl": "Zamknijmy menu.",
-            "pt": "Vamos fechar o menu.",
-            "ru": "Давайте закроем меню.",
-            "sl": "Zaprimo meni.",
-            "sq": "Le të mbyejmë menunë.",
-            "th": "ปิดเมนู",
-            "uk": "Давайте закриємо меню.",
-            "zh": "让我们关闭菜单。"
-          }
-        }
-      },
-      "skippable": true
     },
     {
       "elementToHighlightId": "#toolbar-open-objects-panel-button",
@@ -538,22 +357,22 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Let's add the **Smooth Camera** behavior that we've just installed.",
-            "fr": "Ajoutons le comportement **Smooth Camera** que nous venons d'installer.",
-            "ar": "هيّا نقوم بإضافة السلوك **Smooth Camera** الذي قمنا بتثبيته للتو.",
-            "de": "Fügen wir das **Smooth Camera**-Verhalten hinzu, das wir gerade installiert haben.",
-            "es": "Añadamos el comportamiento **Smooth Camera** que acabamos de instalar.",
-            "it": "Aggiungiamo il comportamento **Smooth Camera** che abbiamo appena installato.",
-            "ja": "さっきインストールした**Smooth Camera**の振る舞いを追加しましょう。",
-            "ko": "방금 설치한 **Smooth Camera** 행동을 추가해 봅시다.",
-            "pl": "Dodajmy zachowanie **Smooth Camera**, które właśnie zainstalowaliśmy.",
-            "pt": "Vamos adicionar o comportamento **Smooth Camera** que acabamos de instalar.",
-            "ru": "Добавим поведение **Smooth Camera**, которое мы только что установили.",
-            "sl": "Dodajmo **Smooth Camera** vedenje, ki smo ga pravkar namestili.",
-            "sq": "Le të shtojmë sjelljen **Smooth Camera** që sapo instaluam.",
-            "th": "เพิ่มพฤติกรรม **Smooth Camera** ที่เพิ่งได้ติดตั้ง",
-            "uk": "Додамо поведінку **Smooth Camera**, яку ми щойно встановили.",
-            "zh": "让我们添加刚刚安装的**Smooth Camera**行为。"
+            "en": "Let's add the **Smooth Camera** behavior.",
+            "fr": "Ajoutons le comportement **Smooth Camera**.",
+            "ar": "لنضيف سلوك **Smooth Camera**.",
+            "de": "Fügen wir das **Smooth Camera**-Verhalten hinzu.",
+            "es": "Añadamos el comportamiento **Smooth Camera**.",
+            "it": "Aggiungiamo il comportamento **Smooth Camera**.",
+            "ja": "さっきインストールした**Smooth Camera**。",
+            "ko": "방금 설치한 **Smooth Camera**.",
+            "pl": "Dodajmy zachowanie **Smooth Camera**.",
+            "pt": "Vamos adicionar o comportamento **Smooth Camera**.",
+            "ru": "Добавим поведение **Smooth Camera**.",
+            "sl": "Dodajmo **Smooth Camera** vedenje.",
+            "sq": "Le të shtojmë sjelljen **Smooth Camera**.",
+            "th": "เพิ่มพฤติกรรม **Smooth Camera**",
+            "uk": "Додамо поведінку **Smooth Camera**.",
+            "zh": "让我们添加刚刚安装的**Smooth Camera**。"
           }
         }
       },
