@@ -616,7 +616,7 @@
     {
       "elementToHighlightId": "#scene-variables-dialog #variable-0-type",
       "nextStepTrigger": {
-        "valueEquals": "2"
+        "valueEquals": "3"
       },
       "tooltip": {
         "description": {
@@ -639,6 +639,7 @@
             "zh": "让我们将其类型更改为**数字**。"
           }
         },
+        "skippable": true,
         "placement": "bottom"
       },
       "isOnClosableDialog": true
