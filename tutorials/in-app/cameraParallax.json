@@ -219,6 +219,7 @@
         }
       },
       "tooltip": {
+        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "Let's improve this platformer game by following the character with the camera! For this, we will add an **extension**.",
