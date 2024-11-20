@@ -196,7 +196,7 @@
   "flow": [
     {
       "id": "Start",
-      "nextStep": {
+      "nextStepTrigger": {
         "clickOnTooltipButton": {
           "messageByLocale": {
             "en": "Let's go!",
