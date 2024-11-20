@@ -218,24 +218,26 @@
           }
         }
       },
-      "description": {
-        "messageByLocale": {
-          "en": "Let's improve this platformer game by following the character with the camera! For this, we will add an **extension**.",
-          "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra ! Pour cela, nous allons ajouter une **extension**.",
-          "ar": "لنحسن هذه اللعبة النموذجية عن طريق متابعة الشخصية بالكاميرا! لهذا، سنضيف **ملحق**.",
-          "de": "Verbessern wir dieses Plattformspiel, indem wir dem Charakter mit der Kamera folgen! Dazu fügen wir eine **Erweiterung** hinzu.",
-          "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara! Para esto, agregaremos una **extensión**.",
-          "it": "Miglioriamo questo gioco platform seguendo il personaggio con la telecamera! Per fare questo, aggiungeremo un'estensione.",
-          "ja": "キャラクターをカメラで追いかけることで、このプラットフォーマーゲームを改善しましょう！そのために、**拡張機能**を追加します。",
-          "ko": "캐릭터를 카메라로 따라가면서 이 플랫포머 게임을 개선해 봅시다! 이를 위해 **확장**을 추가할 것입니다.",
-          "pl": "Ulepszmy tę grę platformową, śledząc postać za pomocą kamery! W tym celu dodamy **rozszerzenie**.",
-          "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera! Para isso, vamos adicionar uma **extensão**.",
-          "ru": "Улучшим эту платформенную игру, следуя за персонажем с помощью камеры! Для этого мы добавим **расширение**.",
-          "sl": "Izboljšajmo to platformno igro, tako da sledimo liku s kamero! Za to bomo dodali **razširitev**.",
-          "sq": "Përmirësojmë këtë lojë platforme duke ndjekur personazhin me kamerën! Për këtë, do të shtojmë një **zgjerim**.",
-          "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ! เพื่อทำเช่นนี้ เราจะเพิ่ม **ส่วนขยาย**",
-          "uk": "Покращимо цю платформенну гру, слідуючи за персонажем за допомогою камери! Для цього ми додамо **розширення**.",
-          "zh": "让我们通过用摄像机跟随角色来改进这个平台游戏！为此，我们将添加一个**扩展**。"
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's improve this platformer game by following the character with the camera! For this, we will add an **extension**.",
+            "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra ! Pour cela, nous allons ajouter une **extension**.",
+            "ar": "لنحسن هذه اللعبة النموذجية عن طريق متابعة الشخصية بالكاميرا! لهذا، سنضيف **ملحق**.",
+            "de": "Verbessern wir dieses Plattformspiel, indem wir dem Charakter mit der Kamera folgen! Dazu fügen wir eine **Erweiterung** hinzu.",
+            "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara! Para esto, agregaremos una **extensión**.",
+            "it": "Miglioriamo questo gioco platform seguendo il personaggio con la telecamera! Per fare questo, aggiungeremo un'estensione.",
+            "ja": "キャラクターをカメラで追いかけることで、このプラットフォーマーゲームを改善しましょう！そのために、**拡張機能**を追加します。",
+            "ko": "캐릭터를 카메라로 따라가면서 이 플랫포머 게임을 개선해 봅시다! 이를 위해 **확장**을 추가할 것입니다.",
+            "pl": "Ulepszmy tę grę platformową, śledząc postać za pomocą kamery! W tym celu dodamy **rozszerzenie**.",
+            "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera! Para isso, vamos adicionar uma **extensão**.",
+            "ru": "Улучшим эту платформенную игру, следуя за персонажем с помощью камеры! Для этого мы добавим **расширение**.",
+            "sl": "Izboljšajmo to platformno igro, tako da sledimo liku s kamero! Za to bomo dodali **razširitev**.",
+            "sq": "Përmirësojmë këtë lojë platforme duke ndjekur personazhin me kamerën! Për këtë, do të shtojmë një **zgjerim**.",
+            "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ! เพื่อทำเช่นนี้ เราจะเพิ่ม **ส่วนขยาย**",
+            "uk": "Покращимо цю платформенну гру, слідуючи за персонажем за допомогою камери! Для цього ми додамо **розширення**.",
+            "zh": "让我们通过用摄像机跟随角色来改进这个平台游戏！为此，我们将添加一个**扩展**。"
+          }
         }
       }
     },
