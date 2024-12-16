@@ -154,14 +154,14 @@
   "flow": [
     {
       "id": "GoToBuildSection",
-      "elementToHighlightId": "#home-build-tab",
+      "elementToHighlightId": "#home-build-tab, #home-create-tab",
       "nextStepTrigger": {
         "presenceOfElement": "#home-create-project-button"
       },
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Head over to the **Build section**.",
+            "en": "Head over to the **Create section**.",
             "fr": "Commençons par aller dans l'onglet **Créer**.",
             "es": "Vamos a la sección **Crear**.",
             "pt": "Vamos para a seção **Criar**.",
@@ -175,7 +175,7 @@
     {
       "elementToHighlightId": "#home-create-project-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#create-project-button"
+        "presenceOfElement": "#empty-project-tile, #create-project-button"
       },
       "tooltip": {
         "description": {
@@ -189,6 +189,26 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#empty-project-tile",
+      "nextStepTrigger": {
+        "presenceOfElement": "#create-project-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Let's create an **empty project**.",
+            "fr": "Créons un **projet vide**.",
+            "es": "¡Creemos un **proyecto vacío**!",
+            "pt": "Vamos criar um **projeto vazio**.",
+            "th": "มาสร้าง **โปรเจกต์เปล่า**",
+            "ar": "لنقم بإنشاء **مشروع فارغ**."
+          }
+        }
+      },
+      "isOnClosableDialog": true,
+      "skippable": true
     },
     {
       "elementToHighlightId": "#create-project-button",
