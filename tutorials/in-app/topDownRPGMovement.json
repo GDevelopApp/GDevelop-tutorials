@@ -365,7 +365,33 @@
       "behaviorListItemId": "#behavior-item-PixelPerfectMovement--PixelPerfectTopDownMovement",
       "behaviorParameterPanelId": "#behavior-parameters-PixelPerfectTopDownMovement",
       "behaviorDisplayName": "**Pixel perfect top-down movement**",
-      "parameters": [],
+      "parameters": [
+        {
+          "parameterId": "#PixelSize",
+          "expectedValue": "16",
+          "description": {
+            "messageByLocale": {
+              "en": "Let's update the Pixel Size to **16**, so that $(player) moves by 16-pixel tiles.",
+              "fr": "Mettez à jour le Pixel Size à **16**, afin que $(player) puisse se déplacer par case de 16 pixels.",
+              "ar": "دعونا نقوم بتحديث حجم البكسل إلى **16**، حتى يتمكن $(player) من التحرك بمربعات بحجم 16 بكسل.",
+              "de": "Aktualisieren wir die Pixelgröße auf **16**, damit sich $(player) in 16-Pixel-Kacheln bewegt.",
+              "es": "Actualicemos el tamaño de píxel a **16**, para que $(player) se mueva en casillas de 16 píxeles.",
+              "it": "Aggiorniamo la dimensione dei pixel a **16**, così $(player) si muove di 16 pixel per volta.",
+              "tr": "Piksel boyutunu **16** olarak güncelleyelim, böylece $(player) 16 piksellik kareler halinde hareket eder.",
+              "ja": "ピクセルサイズを**16**に更新して、$(player)が16ピクセルごとに移動できるようにしましょう。",
+              "ko": "픽셀 크기를 **16**으로 업데이트하여 $(player)이(가) 16픽셀 단위로 이동할 수 있도록 합시다.",
+              "pl": "Zaktualizujmy rozmiar piksela do **16**, aby $(player) poruszał się o 16 pikseli na raz.",
+              "pt": "Vamos atualizar o tamanho do pixel para **16**, para que $(player) se mova em blocos de 16 pixels.",
+              "th": "อัปเดตขนาดพิกเซลเป็น **16** เพื่อให้ $(player) เคลื่อนที่เป็นช่องขนาด 16 พิกเซล",
+              "ru": "Обновим размер пикселя до **16**, чтобы $(player) перемещался по 16-пиксельным клеткам.",
+              "sl": "Posodobimo velikost piksla na **16**, tako da se $(player) premika po 16-pikselnih poljih.",
+              "sq": "Le të përditësojmë madhësinë e pikselit në **16**, që $(player) të lëvizë me blloqe prej 16 pikselësh.",
+              "uk": "Оновімо розмір пікселя до **16**, щоб $(player) переміщувався по 16-піксельних клітинках.",
+              "zh": "让我们将像素大小更新为 **16**，这样 $(player) 可以以 16 像素为单位移动。"
+            }
+          }
+        }
+      ],
       "objectHighlightDescription": {
         "messageByLocale": {
           "en": "Open this object to be able to add the **Pixel perfect top-down movement** behavior on it.\n\nClick on the 3 dot menu, or right click on **$(player)**, and select **Edit behaviors**.",
