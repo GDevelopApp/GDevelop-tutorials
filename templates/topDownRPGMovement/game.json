@@ -481,7 +481,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.6445453867276523,
+        "zoomFactor": 2.795727157437007,
         "windowMask": false
       },
       "objectsGroups": [
@@ -716,8 +716,8 @@
           "persistentUuid": "eb3eb9c8-9e76-4d2e-89c0-600889f54713",
           "width": 0,
           "x": 800,
-          "y": 336,
-          "zOrder": 500,
+          "y": 352,
+          "zOrder": 600,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1410,14 +1410,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 160,
+          "height": 144,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "285fba02-6539-4bd0-98bb-24ef4e3d91ed",
           "width": 16,
           "x": 512,
-          "y": 256,
+          "y": 272,
           "zOrder": 516,
           "numberProperties": [],
           "stringProperties": [],
@@ -3371,12 +3371,20 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "PixelPerfectTopDownMovement",
+          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     },
