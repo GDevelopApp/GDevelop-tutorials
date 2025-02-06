@@ -52,6 +52,9 @@ type LaunchPreviewMetaStep = {
   id?: string;
   metaKind: 'launch-preview';
   description?: TranslatedText;
+  inGameMessage?: TranslatedText;
+  inGameTouchMessage?: TranslatedText;
+  inGameMessagePosition?: string;
   nextStep:
     | 'previewLaunched'
     | {
@@ -78,9 +81,9 @@ export type InAppTutorialFlowStepTrigger =
     }
   | {
       previewLaunched: true;
-      inGameMessage: TranslatedText;
-      inGameTouchMessage: TranslatedText;
-      inGameMessagePosition: string;
+      inGameMessage?: TranslatedText;
+      inGameTouchMessage?: TranslatedText;
+      inGameMessagePosition?: string;
     }
   | {
       editorIsActive: string;
