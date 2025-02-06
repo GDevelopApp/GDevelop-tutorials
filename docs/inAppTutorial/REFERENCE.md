@@ -131,7 +131,7 @@ At the moment, only one trigger can be specified to go the next step. Here is th
 - `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene. With this additional option, at the same level
   - `instancesCount` (number): the number of instances that should be present on the scene.
 - `previewLaunched` (true): a preview has been launched. With those additional options, at the same level:
-  - `inGameMessage` (`messageByLocale` object): when the user launches the preview, this message will be displayed as a standalone tooltip in the preview.
+  - `inGameMessage` (`messageByLocale` object): when the user launches the preview, this message will be displayed as a standalone tooltip in the preview. Placeholders can be used but markdown won't be interpreted.
   - `inGameTouchMessage` (`messageByLocale` object): same as above, for touch devices.
   - `inGameMessagePosition` (string): a string that contains the position of the avatar in the preview (for instance `top-right`).
     - For horizontal placement, it must contain `right` or `left`.
