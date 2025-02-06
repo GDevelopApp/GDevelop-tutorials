@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 224,
+    "major": 5,
+    "minor": 5,
     "revision": 0
   },
   "properties": {
@@ -18,7 +18,6 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "top-down-rpg-tutorial",
-    "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "Top down RPG movement Tutorial",
     "description": "A top down RPG style movement game example with mobile controls.",
@@ -81,8 +80,12 @@
     },
     "authorIds": [],
     "authorUsernames": [],
-    "categories": ["rpg"],
-    "playableDevices": ["keyboard"],
+    "categories": [
+      "rpg"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -94,7 +97,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown1.png",
         "kind": "image",
         "metadata": "",
@@ -103,7 +105,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown2.png",
         "kind": "image",
         "metadata": "",
@@ -112,7 +113,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown3.png",
         "kind": "image",
         "metadata": "",
@@ -121,7 +121,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharDown4.png",
         "kind": "image",
         "metadata": "",
@@ -130,7 +129,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight1.png",
         "kind": "image",
         "metadata": "",
@@ -139,7 +137,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight2.png",
         "kind": "image",
         "metadata": "",
@@ -148,7 +145,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight3.png",
         "kind": "image",
         "metadata": "",
@@ -157,7 +153,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACgarRight4.png",
         "kind": "image",
         "metadata": "",
@@ -166,7 +161,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft1.png",
         "kind": "image",
         "metadata": "",
@@ -175,7 +169,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft2.png",
         "kind": "image",
         "metadata": "",
@@ -184,7 +177,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft3.png",
         "kind": "image",
         "metadata": "",
@@ -193,7 +185,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharLeft4.png",
         "kind": "image",
         "metadata": "",
@@ -202,7 +193,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp1.png",
         "kind": "image",
         "metadata": "",
@@ -211,7 +201,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp2.png",
         "kind": "image",
         "metadata": "",
@@ -220,7 +209,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp3.png",
         "kind": "image",
         "metadata": "",
@@ -229,7 +217,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ACharUp4.png",
         "kind": "image",
         "metadata": "",
@@ -238,7 +225,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Dock1.png",
         "kind": "image",
         "metadata": "",
@@ -247,7 +233,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Tree1.png",
         "kind": "image",
         "metadata": "",
@@ -256,7 +241,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Tree2.png",
         "kind": "image",
         "metadata": "",
@@ -265,7 +249,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bush1.png",
         "kind": "image",
         "metadata": "",
@@ -274,7 +257,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/House2.png",
         "kind": "image",
         "metadata": "",
@@ -283,7 +265,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterCorner.png",
         "kind": "image",
         "metadata": "",
@@ -292,16 +273,14 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Grass1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Grass1.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Grass1.png",
         "smoothed": false,
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterEdgeRight.png",
         "kind": "image",
         "metadata": "",
@@ -310,7 +289,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterEdgeUp.png",
         "kind": "image",
         "metadata": "",
@@ -319,7 +297,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Water1.png",
         "kind": "image",
         "metadata": "",
@@ -328,7 +305,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/RoadEdge1.png",
         "kind": "image",
         "metadata": "",
@@ -337,7 +313,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Enemy_Spawn_Location.png",
         "kind": "image",
         "metadata": "",
@@ -346,7 +321,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Road1.png",
         "kind": "image",
         "metadata": "",
@@ -355,7 +329,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WaterCorner2.png",
         "kind": "image",
         "metadata": "",
@@ -364,7 +337,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/thumbnail.png",
         "kind": "image",
         "metadata": "",
@@ -373,7 +345,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded dark joystick border.png",
         "kind": "image",
         "metadata": "",
@@ -386,7 +357,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded dark joystick thumb.png",
         "kind": "image",
         "metadata": "",
@@ -399,7 +369,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/WinCollision.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -416,6 +385,30 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Chevron-Arrow-Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/4d60f7b4465cbd647b3569d9ffaf5589b3dacdf5db475e7a175335167fb92683_Chevron-Arrow-Left.png",
+          "name": "Chevron-Arrow-Left.png"
+        }
+      },
+      {
+        "file": "assets/Chevron-Arrow-Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Up.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/36d8c56187710c0ea7742d44eb20825ee099bf2e0976f342bca1c04da5f1644a_Chevron-Arrow-Up.png",
+          "name": "Chevron-Arrow-Up.png"
         }
       }
     ],
@@ -442,19 +435,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -479,7 +472,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -487,8 +480,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4983515239813464,
+        "snap": true,
+        "zoomFactor": 1.6445453867276523,
         "windowMask": false
       },
       "objectsGroups": [
@@ -530,12 +523,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 225,
+          "height": 128,
           "layer": "",
           "name": "Grass",
           "persistentUuid": "15a3b7f4-f78f-4898-9037-58d9fc07eab8",
-          "width": 444,
-          "x": 338,
+          "width": 688,
+          "x": 336,
           "y": 192,
           "zOrder": -200,
           "numberProperties": [],
@@ -550,8 +543,8 @@
           "name": "CornerWater",
           "persistentUuid": "c4db8498-f834-4193-851a-6edf548d92a7",
           "width": 0,
-          "x": 770,
-          "y": 313,
+          "x": 768,
+          "y": 320,
           "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
@@ -560,13 +553,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 88,
+          "depth": 1,
+          "height": 80,
           "layer": "",
           "name": "WaterEdgeRight",
           "persistentUuid": "06e0d51e-cafa-4f12-80ad-c7e158682e81",
           "width": 16,
-          "x": 770,
-          "y": 329,
+          "x": 768,
+          "y": 336,
           "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
@@ -580,26 +574,10 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "e7946e06-fbb2-4d69-a4de-8257e68caf91",
-          "width": 159,
-          "x": 786,
-          "y": 313,
+          "width": 240,
+          "x": 784,
+          "y": 320,
           "zOrder": -100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "layer": "",
-          "name": "Road1",
-          "persistentUuid": "b8a2b635-b626-4392-be21-6fa6fc7377fb",
-          "width": 32,
-          "x": 721,
-          "y": 224,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -612,9 +590,9 @@
           "layer": "",
           "name": "RoadEdge1",
           "persistentUuid": "d0d4b9a5-3ba0-4ffb-a30c-d5c9b19b58aa",
-          "width": 416,
-          "x": 337,
-          "y": 384,
+          "width": 240,
+          "x": 528,
+          "y": 368,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -628,10 +606,10 @@
           "layer": "",
           "name": "Road1",
           "persistentUuid": "859ff938-47b0-4884-a81b-647e4e158ae7",
-          "width": 385,
-          "x": 336,
-          "y": 352,
-          "zOrder": 8,
+          "width": 263,
+          "x": 513,
+          "y": 336,
+          "zOrder": -92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -644,41 +622,9 @@
           "layer": "",
           "name": "RoadEdge1",
           "persistentUuid": "23e1b8be-0d93-433c-b724-582f9e59c65f",
-          "width": 384,
-          "x": 337,
-          "y": 347,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 5,
-          "layer": "",
-          "name": "RoadEdge1",
-          "persistentUuid": "eec3ba6d-5a91-4a21-b913-71d066e57200",
-          "width": 161,
-          "x": 675,
-          "y": 301,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 4,
-          "layer": "",
-          "name": "RoadEdge1",
-          "persistentUuid": "2ef1961f-419f-44d7-8ca4-49b9aa5e0e58",
-          "width": 128,
-          "x": 655,
-          "y": 286,
+          "width": 256,
+          "x": 512,
+          "y": 331,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -693,7 +639,7 @@
           "persistentUuid": "6d1893bf-7a30-4d60-9821-9367ab6b28ef",
           "width": 0,
           "x": 770,
-          "y": 337,
+          "y": 341,
           "zOrder": -90,
           "numberProperties": [],
           "stringProperties": [],
@@ -702,13 +648,14 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 1,
           "height": 16,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "9a418a0e-ca5b-43c6-bc5a-47dd3e7c9395",
           "width": 432,
-          "x": 338,
-          "y": 417,
+          "x": 336,
+          "y": 416,
           "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
@@ -732,22 +679,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 121,
-          "layer": "",
-          "name": "Grass",
-          "persistentUuid": "753fd074-6b60-4410-b871-257718ecbb5a",
-          "width": 175,
-          "x": 770,
-          "y": 192,
-          "zOrder": -5200,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -755,69 +686,8 @@
           "persistentUuid": "50cf5a76-1b21-413d-b097-4006410e19a0",
           "width": 0,
           "x": 576,
-          "y": 328,
+          "y": 312,
           "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "f136c286-969a-41e3-ac47-14e650ec4a14",
-          "width": 0,
-          "x": 473,
-          "y": 335,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "f26ea0bd-2b9b-4ed4-9841-f24f79223808",
-          "width": 0,
-          "x": 425,
-          "y": 332,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "d9e26baa-9441-49d3-a4d9-4751a12e41f7",
-          "width": 0,
-          "x": 713,
-          "y": 300,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "d8010b2f-02ab-4edc-9132-c60fac7a68a5",
-          "width": 16,
-          "x": 416,
-          "y": 320,
-          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -845,24 +715,9 @@
           "name": "Player",
           "persistentUuid": "eb3eb9c8-9e76-4d2e-89c0-600889f54713",
           "width": 0,
-          "x": 624,
+          "x": 800,
           "y": 336,
-          "zOrder": 511,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "73e6c36d-2f81-41c4-b21c-aa9c9455d192",
-          "width": 0,
-          "x": 401,
-          "y": 302,
-          "zOrder": 22,
+          "zOrder": 500,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -875,8 +730,8 @@
           "name": "WaterCorner2",
           "persistentUuid": "35b1989e-4eec-45cf-95f5-0e883f81f798",
           "width": 0,
-          "x": 770,
-          "y": 417,
+          "x": 768,
+          "y": 416,
           "zOrder": 512,
           "numberProperties": [],
           "stringProperties": [],
@@ -892,7 +747,7 @@
           "persistentUuid": "8256bb0e-129f-40a9-a043-6d00aa892d9e",
           "width": 32,
           "x": 576,
-          "y": 320,
+          "y": 304,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -922,23 +777,8 @@
           "name": "Tree1",
           "persistentUuid": "117271b2-0854-4285-859b-eff1f76aa827",
           "width": 0,
-          "x": 785,
-          "y": 302,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "d34c6a28-4ceb-4580-84a6-374c4e3f1dd4",
-          "width": 0,
-          "x": 657,
-          "y": 302,
+          "x": 832,
+          "y": 315,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -952,8 +792,8 @@
           "name": "Tree1",
           "persistentUuid": "b37f8d2f-bbe3-46bb-bf50-527d2194d607",
           "width": 0,
-          "x": 625,
-          "y": 302,
+          "x": 672,
+          "y": 286,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -967,8 +807,8 @@
           "name": "Tree1",
           "persistentUuid": "89319449-88e2-45ef-9a81-20cfb0911250",
           "width": 0,
-          "x": 593,
-          "y": 302,
+          "x": 640,
+          "y": 286,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -982,8 +822,8 @@
           "name": "Tree1",
           "persistentUuid": "fc862578-f7d7-4931-a156-02e7064289b0",
           "width": 0,
-          "x": 561,
-          "y": 302,
+          "x": 608,
+          "y": 286,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -997,8 +837,8 @@
           "name": "Tree1",
           "persistentUuid": "2caf059a-c395-4dd3-901b-3b65efd121a2",
           "width": 0,
-          "x": 529,
-          "y": 302,
+          "x": 576,
+          "y": 286,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1012,8 +852,8 @@
           "name": "Tree1",
           "persistentUuid": "712cc7b2-5fbf-40fe-9403-8bd640b60b29",
           "width": 0,
-          "x": 497,
-          "y": 302,
+          "x": 544,
+          "y": 286,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1027,24 +867,9 @@
           "name": "Tree1",
           "persistentUuid": "1ab83325-fd86-4ae7-8c90-e355d2d3bc13",
           "width": 0,
-          "x": 465,
-          "y": 302,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "c4401717-93e9-4abb-99d3-bca7c521ff03",
-          "width": 0,
-          "x": 433,
-          "y": 302,
-          "zOrder": 22,
+          "x": 512,
+          "y": 286,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1057,8 +882,8 @@
           "name": "Tree1",
           "persistentUuid": "9c2d3d79-48f0-4012-b2e6-7b4952ea2996",
           "width": 0,
-          "x": 689,
-          "y": 302,
+          "x": 704,
+          "y": 286,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1099,41 +924,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "c8eace09-4292-475c-864f-4354a4588ad7",
-          "width": 0,
-          "x": 505,
-          "y": 399,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "09d2792a-f5af-433a-bc92-c0b07093ec70",
-          "width": 0,
-          "x": 441,
-          "y": 399,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "Bush1",
           "persistentUuid": "b8793104-b06b-4da5-9d7b-9416cf22662d",
           "width": 0,
-          "x": 665,
-          "y": 332,
+          "x": 680,
+          "y": 316,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -1148,8 +943,8 @@
           "name": "CollisionDetect",
           "persistentUuid": "d73d3965-8c68-4bdd-a87b-d6b00532c06d",
           "width": 16,
-          "x": 656,
-          "y": 320,
+          "x": 672,
+          "y": 304,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -1163,8 +958,8 @@
           "name": "Bush1",
           "persistentUuid": "5935199e-8198-4eeb-8e48-5b7d8dbd9213",
           "width": 0,
-          "x": 697,
-          "y": 332,
+          "x": 728,
+          "y": 316,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -1178,7 +973,7 @@
           "name": "Bush1",
           "persistentUuid": "cf2ea1be-e0b8-4707-a10e-e26fc02f29c2",
           "width": 0,
-          "x": 745,
+          "x": 728,
           "y": 396,
           "zOrder": 34,
           "numberProperties": [],
@@ -1194,39 +989,8 @@
           "name": "CollisionDetect",
           "persistentUuid": "4c7a8282-332c-4d5b-bc7a-5231c3cb2e08",
           "width": 16,
-          "x": 736,
+          "x": 720,
           "y": 384,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Bush1",
-          "persistentUuid": "1f2e8d57-8278-4cf0-b97e-607b968c4099",
-          "width": 0,
-          "x": 409,
-          "y": 332,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "22074a6d-c756-4b27-bdfa-6eec7cd45220",
-          "width": 16,
-          "x": 400,
-          "y": 320,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -1240,9 +1004,9 @@
           "layer": "",
           "name": "Water1",
           "persistentUuid": "f232ff55-d911-4a03-ad1d-60f9d2679168",
-          "width": 160,
-          "x": 785,
-          "y": 321,
+          "width": 240,
+          "x": 784,
+          "y": 320,
           "zOrder": -10000,
           "numberProperties": [],
           "stringProperties": [],
@@ -1257,9 +1021,9 @@
           "layer": "",
           "name": "CameraBoundaryTop",
           "persistentUuid": "53f479ea-6a01-4251-8851-7603058b9984",
-          "width": 416,
-          "x": 368,
-          "y": 256,
+          "width": 480,
+          "x": 336,
+          "y": 192,
           "zOrder": 513,
           "numberProperties": [],
           "stringProperties": [],
@@ -1269,14 +1033,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 160,
+          "height": 224,
           "keepRatio": true,
           "layer": "",
           "name": "CameraBoundaryLeft",
           "persistentUuid": "5640b585-e779-436f-b21e-075ed63dd151",
           "width": 16,
-          "x": 368,
-          "y": 272,
+          "x": 336,
+          "y": 208,
           "zOrder": 514,
           "numberProperties": [],
           "stringProperties": [],
@@ -1291,8 +1055,8 @@
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "f930efde-8901-442f-8032-af76914eab63",
-          "width": 400,
-          "x": 384,
+          "width": 320,
+          "x": 512,
           "y": 416,
           "zOrder": 515,
           "numberProperties": [],
@@ -1303,13 +1067,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 144,
+          "height": 16,
           "keepRatio": true,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "5183342d-1b2a-4c03-86b6-4edf0b854812",
-          "width": 16,
-          "x": 768,
+          "width": 288,
+          "x": 528,
           "y": 272,
           "zOrder": 516,
           "numberProperties": [],
@@ -1326,55 +1090,6 @@
           "persistentUuid": "93027125-bdab-4134-b0e2-9ec51d0b4dfe",
           "width": 0,
           "x": 672,
-          "y": 384,
-          "zOrder": 517,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "cbc5ca32-0391-4499-83aa-df132883c484",
-          "width": 336,
-          "x": 384,
-          "y": 288,
-          "zOrder": 517,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "c7e77eba-155c-4783-a2b9-eed342edd8f0",
-          "width": 0,
-          "x": 464,
-          "y": 320,
-          "zOrder": 517,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "da5d6cba-c9f2-4b8c-995f-2636077bdeff",
-          "width": 0,
-          "x": 496,
           "y": 384,
           "zOrder": 517,
           "numberProperties": [],
@@ -1407,7 +1122,7 @@
           "persistentUuid": "353b498a-ad06-4b3e-8a93-93725c7b2a9f",
           "width": 0,
           "x": 560,
-          "y": 336,
+          "y": 320,
           "zOrder": 518,
           "numberProperties": [],
           "stringProperties": [],
@@ -1424,7 +1139,7 @@
           "persistentUuid": "ae603ccd-b675-4734-bd81-7a18ec37836b",
           "width": 16,
           "x": 544,
-          "y": 320,
+          "y": 304,
           "zOrder": 519,
           "numberProperties": [],
           "stringProperties": [],
@@ -1440,7 +1155,7 @@
           "persistentUuid": "4a6752da-ff30-4d17-9867-9a1dde709513",
           "width": 0,
           "x": 560,
-          "y": 320,
+          "y": 304,
           "zOrder": 520,
           "numberProperties": [],
           "stringProperties": [],
@@ -1453,11 +1168,191 @@
           "height": 16,
           "layer": "Collision",
           "name": "CollisionDetect",
-          "persistentUuid": "cdf96c41-43d6-4b9b-91a3-1bf70cbdbcbd",
-          "width": 16,
-          "x": 688,
-          "y": 272,
+          "persistentUuid": "09f9b85a-f18d-4986-ab3d-517b4ffe41dc",
+          "width": 48,
+          "x": 768,
+          "y": 320,
           "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "05405897-51fb-4c80-9994-9b527792b9bc",
+          "width": 0,
+          "x": 832,
+          "y": 286,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "5b170436-187e-4b6b-b313-4ca60ccb3e9a",
+          "width": 0,
+          "x": 800,
+          "y": 286,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "eb1eb2f7-61dc-40ee-9e84-914b4784016c",
+          "width": 0,
+          "x": 768,
+          "y": 286,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "5889754e-9657-46c6-a6da-8fb92cfb3d77",
+          "width": 0,
+          "x": 736,
+          "y": 286,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "aafc02e9-d122-442a-a39f-5f676fcd17f1",
+          "width": 0,
+          "x": 512,
+          "y": 302,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "a92f670c-5cec-4620-a91b-7dc444d3bf48",
+          "width": 0,
+          "x": 512,
+          "y": 318,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "2eb3a8a3-0c36-4bc1-869a-a782e0b4de2f",
+          "width": 0,
+          "x": 512,
+          "y": 334,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "67dba107-f32e-46ab-bfb3-c04c4b7bfd81",
+          "width": 0,
+          "x": 512,
+          "y": 414,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "f6f42492-94f7-42de-8b9a-b62681f1a038",
+          "width": 0,
+          "x": 512,
+          "y": 350,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "d8bede98-c286-4628-9dd1-6df1a4edd436",
+          "width": 0,
+          "x": 512,
+          "y": 366,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "379fc1c5-2b0b-4d13-8b0a-06914cd84b57",
+          "width": 0,
+          "x": 512,
+          "y": 382,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Tree1",
+          "persistentUuid": "cfe14151-caf8-47dc-9a14-c2b2bd907489",
+          "width": 0,
+          "x": 512,
+          "y": 398,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1469,11 +1364,61 @@
           "height": 16,
           "layer": "Collision",
           "name": "CollisionDetect",
-          "persistentUuid": "09f9b85a-f18d-4986-ab3d-517b4ffe41dc",
+          "persistentUuid": "44b6e830-4ced-4086-8fcb-e0e13495545c",
           "width": 16,
-          "x": 688,
-          "y": 320,
+          "x": 720,
+          "y": 304,
           "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "07c058fd-7929-4d0f-acac-2420fba1248b",
+          "width": 48,
+          "x": 768,
+          "y": 368,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 144,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "37405abd-7167-40f5-a31c-f2deba2ff182",
+          "width": 16,
+          "x": 816,
+          "y": 272,
+          "zOrder": 516,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "285fba02-6539-4bd0-98bb-24ef4e3d91ed",
+          "width": 16,
+          "x": 512,
+          "y": 256,
+          "zOrder": 516,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1483,13 +1428,93 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "239ce49a-3c7d-401e-b472-0a65244c9ace",
+          "layer": "",
+          "name": "ChevronArrowLeft",
+          "persistentUuid": "4ebde66f-24e9-4283-afba-2143049b1744",
           "width": 0,
-          "x": 432,
-          "y": 384,
-          "zOrder": 517,
+          "x": 612,
+          "y": 345,
+          "zOrder": 521,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ChevronArrowLeft",
+          "persistentUuid": "00f1f4c6-4224-4b85-b863-c377d5751684",
+          "width": 0,
+          "x": 756,
+          "y": 345,
+          "zOrder": 521,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ChevronArrowLeft",
+          "persistentUuid": "b8879e8b-f6f6-4017-a58d-dbd20286b0cc",
+          "width": 0,
+          "x": 708,
+          "y": 345,
+          "zOrder": 521,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ChevronArrowLeft",
+          "persistentUuid": "0f679e6d-269e-403d-b6de-9b09b4b95d3e",
+          "width": 0,
+          "x": 660,
+          "y": 345,
+          "zOrder": 521,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ChevronArrowUp",
+          "persistentUuid": "182b95dd-be64-4cb5-86af-0118d8bcf73b",
+          "width": 0,
+          "x": 561,
+          "y": 347,
+          "zOrder": 522,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Grass",
+          "persistentUuid": "9a84e3c8-66e4-4d9f-9b31-66a5515d3267",
+          "width": 432,
+          "x": 336,
+          "y": 320,
+          "zOrder": -200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2426,6 +2451,126 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "7844d6869edba6e65f65bb2c5f5b06bafbe542f3b0fbfa464d6788e579b7a0a4",
+          "name": "ChevronArrowLeft",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chevron-Arrow-Left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 14
+                          },
+                          {
+                            "x": 0,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "00a1702ecb9e41fef7bfdb3f1c4b0de7a9c99ddcdd1a5c13da577d5c3a89f3e4",
+          "name": "ChevronArrowUp",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chevron-Arrow-Up.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2433,6 +2578,12 @@
         "children": [
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "ChevronArrowUp"
+          },
+          {
+            "objectName": "ChevronArrowLeft"
           },
           {
             "objectName": "ShadedDarkJoystick"
@@ -2511,7 +2662,6 @@
           "colorG": 155,
           "colorR": 155,
           "creationTime": 0,
-          "folded": true,
           "name": "Gameplay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2524,7 +2674,9 @@
                   "type": {
                     "value": "DepartScene"
                   },
-                  "parameters": [""]
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -2532,31 +2684,50 @@
                   "type": {
                     "value": "ZoomCamera"
                   },
-                  "parameters": ["", "4", "", ""]
+                  "parameters": [
+                    "",
+                    "4",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ZoomCamera"
                   },
-                  "parameters": ["", "1.5", "\"Transition\"", ""]
+                  "parameters": [
+                    "",
+                    "1.5",
+                    "\"Transition\"",
+                    ""
+                  ]
                 },
                 {
                   "type": {
                     "value": "ChangePlan"
                   },
-                  "parameters": ["WorldObjects", "=", "WorldObjects.Y()"]
+                  "parameters": [
+                    "WorldObjects",
+                    "=",
+                    "WorldObjects.Y()"
+                  ]
                 },
                 {
                   "type": {
                     "value": "HideLayer"
                   },
-                  "parameters": ["", "\"Collision\""]
+                  "parameters": [
+                    "",
+                    "\"Collision\""
+                  ]
                 },
                 {
                   "type": {
                     "value": "Cache"
                   },
-                  "parameters": ["WinMarker"]
+                  "parameters": [
+                    "WinMarker"
+                  ]
                 }
               ]
             },
@@ -2569,19 +2740,33 @@
                   "type": {
                     "value": "SeparateFromObjects"
                   },
-                  "parameters": ["Player", "Collisions", "yes"]
+                  "parameters": [
+                    "Player",
+                    "Collisions",
+                    "yes"
+                  ]
                 },
                 {
                   "type": {
                     "value": "ChangePlan"
                   },
-                  "parameters": ["Player", "=", "Player.Y()"]
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "Player.Y()"
+                  ]
                 },
                 {
                   "type": {
                     "value": "CentreCamera"
                   },
-                  "parameters": ["", "Player", "", "", ""]
+                  "parameters": [
+                    "",
+                    "Player",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
                 {
                   "type": {
@@ -2617,14 +2802,18 @@
                       "type": {
                         "value": "DepartScene"
                       },
-                      "parameters": [""]
+                      "parameters": [
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "inverted": true,
                         "value": "SystemInfo::HasTouchScreen"
                       },
-                      "parameters": [""]
+                      "parameters": [
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2632,7 +2821,10 @@
                       "type": {
                         "value": "Delete"
                       },
-                      "parameters": ["ShadedDarkJoystick", ""]
+                      "parameters": [
+                        "ShadedDarkJoystick",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -2644,7 +2836,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": ["ShadedDarkJoystick", "\"Up\"", ""]
+                      "parameters": [
+                        "ShadedDarkJoystick",
+                        "\"Up\"",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2652,7 +2848,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Up\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Up\""
+                      ]
                     }
                   ]
                 },
@@ -2664,7 +2864,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": ["ShadedDarkJoystick", "\"Right\"", ""]
+                      "parameters": [
+                        "ShadedDarkJoystick",
+                        "\"Right\"",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2672,7 +2876,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Right\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Right\""
+                      ]
                     }
                   ]
                 },
@@ -2684,7 +2892,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": ["ShadedDarkJoystick", "\"Left\"", ""]
+                      "parameters": [
+                        "ShadedDarkJoystick",
+                        "\"Left\"",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2692,7 +2904,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Left\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Left\""
+                      ]
                     }
                   ]
                 },
@@ -2704,7 +2920,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::IsDirectionPushed4Way"
                       },
-                      "parameters": ["ShadedDarkJoystick", "\"Down\"", ""]
+                      "parameters": [
+                        "ShadedDarkJoystick",
+                        "\"Down\"",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2712,7 +2932,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::SimulateControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Down\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Down\""
+                      ]
                     }
                   ]
                 }
@@ -2737,7 +2961,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Up\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Up\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2745,7 +2973,12 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": ["Player", "Animation", "=", "\"Up\""]
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Up\""
+                      ]
                     }
                   ]
                 },
@@ -2757,7 +2990,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Down\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Down\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2765,7 +3002,12 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": ["Player", "Animation", "=", "\"Down\""]
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Down\""
+                      ]
                     }
                   ]
                 },
@@ -2777,7 +3019,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Right\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Right\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2785,7 +3031,12 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": ["Player", "Animation", "=", "\"Right\""]
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Right\""
+                      ]
                     }
                   ]
                 },
@@ -2797,7 +3048,11 @@
                       "type": {
                         "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
                       },
-                      "parameters": ["Player", "TopDownMovement", "\"Left\""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        "\"Left\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -2805,7 +3060,12 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
-                      "parameters": ["Player", "Animation", "=", "\"Left\""]
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Left\""
+                      ]
                     }
                   ]
                 },
@@ -2818,7 +3078,10 @@
                         "inverted": true,
                         "value": "TopDownMovementBehavior::IsMoving"
                       },
-                      "parameters": ["Player", "TopDownMovement"]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2826,7 +3089,10 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
                       },
-                      "parameters": ["Player", "Animation"]
+                      "parameters": [
+                        "Player",
+                        "Animation"
+                      ]
                     }
                   ]
                 },
@@ -2838,7 +3104,10 @@
                       "type": {
                         "value": "TopDownMovementBehavior::IsMoving"
                       },
-                      "parameters": ["Player", "TopDownMovement"]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2846,7 +3115,10 @@
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
                       },
-                      "parameters": ["Player", "Animation"]
+                      "parameters": [
+                        "Player",
+                        "Animation"
+                      ]
                     }
                   ]
                 }
@@ -2858,7 +3130,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "End screen",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2882,7 +3153,10 @@
                         "inverted": true,
                         "value": "TopDownMovementBehavior::IsMoving"
                       },
-                      "parameters": ["Player", "TopDownMovement"]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
                     },
                     {
                       "type": {
@@ -2896,7 +3170,11 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": ["Player", "TopDownMovement", ""]
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement",
+                        ""
+                      ]
                     },
                     {
                       "type": {
@@ -2917,13 +3195,19 @@
                       "type": {
                         "value": "Wait"
                       },
-                      "parameters": ["1"]
+                      "parameters": [
+                        "1"
+                      ]
                     },
                     {
                       "type": {
                         "value": "Scene"
                       },
-                      "parameters": ["", "\"EndScreen\"", ""]
+                      "parameters": [
+                        "",
+                        "\"EndScreen\"",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -3216,6 +3500,7 @@
             "text": "Game End",
             "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 200,
             "color": "255;255;255"
           }
@@ -3356,7 +3641,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -3364,7 +3651,12 @@
               "type": {
                 "value": "ZoomCamera"
               },
-              "parameters": ["", "1.5", "\"Transition\"", ""]
+              "parameters": [
+                "",
+                "1.5",
+                "\"Transition\"",
+                ""
+              ]
             },
             {
               "type": {
@@ -3585,7 +3877,11 @@
                   "type": {
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
-                  "parameters": ["GetArgumentAsNumber(\"Distance\")", ">=", "0"]
+                  "parameters": [
+                    "GetArgumentAsNumber(\"Distance\")",
+                    ">=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -3606,7 +3902,11 @@
                   "type": {
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
-                  "parameters": ["GetArgumentAsNumber(\"Distance\")", "<", "0"]
+                  "parameters": [
+                    "GetArgumentAsNumber(\"Distance\")",
+                    "<",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -3693,7 +3993,10 @@
                   "type": {
                     "value": "GlobalVariableAsBoolean"
                   },
-                  "parameters": ["__pixelPerfect.TopDownClassesDefined", ""]
+                  "parameters": [
+                    "__pixelPerfect.TopDownClassesDefined",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -3701,7 +4004,10 @@
                   "type": {
                     "value": "SetGlobalVariableAsBoolean"
                   },
-                  "parameters": ["__pixelPerfect.TopDownClassesDefined", "True"]
+                  "parameters": [
+                    "__pixelPerfect.TopDownClassesDefined",
+                    "True"
+                  ]
                 }
               ],
               "events": [
@@ -4184,7 +4490,10 @@
                       "type": {
                         "value": "PixelPerfectMovement::DefineJavaScriptForTopDown"
                       },
-                      "parameters": ["", ""]
+                      "parameters": [
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -4342,7 +4651,10 @@
                           "type": {
                             "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyIsDecelerating"
                           },
-                          "parameters": ["Object", "Behavior"]
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
                         },
                         {
                           "type": {
@@ -4412,7 +4724,12 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionX"
                                   },
-                                  "parameters": ["Object", "Behavior", "=", "1"]
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "1"
+                                  ]
                                 }
                               ],
                               "events": [
@@ -4525,7 +4842,12 @@
                               "type": {
                                 "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyTargetDirectionX"
                               },
-                              "parameters": ["Object", "Behavior", "=", "1"]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "1"
+                              ]
                             }
                           ],
                           "actions": [
@@ -4559,7 +4881,12 @@
                               "type": {
                                 "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyTargetDirectionX"
                               },
-                              "parameters": ["Object", "Behavior", "=", "-1"]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "-1"
+                              ]
                             }
                           ],
                           "actions": [
@@ -4661,7 +4988,12 @@
                               "type": {
                                 "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionX"
                               },
-                              "parameters": ["Object", "Behavior", "=", "0"]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "=",
+                                "0"
+                              ]
                             },
                             {
                               "type": {
@@ -4716,7 +5048,10 @@
                           "type": {
                             "value": "PlatformBehavior::IsOnLadder"
                           },
-                          "parameters": ["Object", "PlatformerCharacter"]
+                          "parameters": [
+                            "Object",
+                            "PlatformerCharacter"
+                          ]
                         }
                       ],
                       "actions": [],
@@ -4787,7 +5122,12 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionY"
                                   },
-                                  "parameters": ["Object", "Behavior", "=", "1"]
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "1"
+                                  ]
                                 }
                               ],
                               "events": [
@@ -4953,7 +5293,12 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::PropertyTargetDirectionY"
                                   },
-                                  "parameters": ["Object", "Behavior", "=", "1"]
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "1"
+                                  ]
                                 }
                               ],
                               "actions": [
@@ -5092,7 +5437,12 @@
                                   "type": {
                                     "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyTargetDirectionY"
                                   },
-                                  "parameters": ["Object", "Behavior", "=", "0"]
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "0"
+                                  ]
                                 }
                               ]
                             },
@@ -5200,7 +5550,11 @@
                       "type": {
                         "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyIsDecelerating"
                       },
-                      "parameters": ["Object", "Behavior", "no"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
                     }
                   ]
                 },
@@ -5242,7 +5596,11 @@
                       "type": {
                         "value": "PixelPerfectMovement::PixelPerfectPlatformerCharacter::SetPropertyIsDecelerating"
                       },
-                      "parameters": ["Object", "Behavior", "yes"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -5470,7 +5828,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             }
@@ -5516,7 +5876,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             }
@@ -5775,7 +6137,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -5810,7 +6174,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -5845,7 +6211,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -5880,7 +6248,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             }
@@ -5939,7 +6309,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -5974,7 +6346,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -6009,7 +6383,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -6044,7 +6420,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -6079,7 +6457,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -6114,7 +6494,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -6149,7 +6531,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             },
@@ -6184,7 +6568,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             }
@@ -6256,7 +6642,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             }
@@ -6334,7 +6722,9 @@
                   "type": {
                     "value": "SetReturnBoolean"
                   },
-                  "parameters": ["True"]
+                  "parameters": [
+                    "True"
+                  ]
                 }
               ]
             }
@@ -6725,7 +7115,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -6759,7 +7153,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -6792,7 +7190,9 @@
                       "type": {
                         "value": "HasGameJustResumed"
                       },
-                      "parameters": [""]
+                      "parameters": [
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -6800,7 +7200,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -6820,7 +7224,9 @@
                           "type": {
                             "value": "HasAnyTouchOrMouseStarted"
                           },
-                          "parameters": [""]
+                          "parameters": [
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -6828,7 +7234,12 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                           },
-                          "parameters": ["Object", "Behavior", "=", "0"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
                         }
                       ],
                       "events": [
@@ -6845,7 +7256,12 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                                   },
-                                  "parameters": ["Object", "Behavior", "=", "0"]
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "0"
+                                  ]
                                 },
                                 {
                                   "type": {
@@ -6880,7 +7296,12 @@
                                   "type": {
                                     "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchIndex"
                                   },
-                                  "parameters": ["Object", "Behavior", "+", "1"]
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "+",
+                                    "1"
+                                  ]
                                 }
                               ]
                             }
@@ -6918,7 +7339,11 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::Reset"
                           },
-                          "parameters": ["Object", "Behavior", ""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -6941,7 +7366,12 @@
                           "type": {
                             "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                           },
-                          "parameters": ["Object", "Behavior", "!=", "0"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "!=",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -7004,7 +7434,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyJoystickForce()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyJoystickForce()"
+                      ]
                     }
                   ]
                 }
@@ -7095,7 +7527,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Object.Behavior::PropertyJoystickAngle()"]
+                      "parameters": [
+                        "Object.Behavior::PropertyJoystickAngle()"
+                      ]
                     }
                   ]
                 }
@@ -7294,7 +7728,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -7358,7 +7794,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -7398,7 +7836,12 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::PropertyTouchId"
                       },
-                      "parameters": ["Object", "Behavior", "!=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
                     }
                   ],
                   "actions": [
@@ -7406,7 +7849,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -7442,13 +7887,24 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetJoystickForce"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::SetPropertyTouchId"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -7802,7 +8258,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsReleased"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -7810,13 +8270,22 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": ["Object", "Behavior", "no"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": ["Object", "Behavior", "\"Idle\"", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "\"Idle\"",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -7828,13 +8297,19 @@
                         "inverted": true,
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "HasAnyTouchOrMouseStarted"
                       },
-                      "parameters": [""]
+                      "parameters": [
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -7842,7 +8317,12 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     }
                   ],
                   "events": [
@@ -7899,7 +8379,12 @@
                               "type": {
                                 "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchIndex"
                               },
-                              "parameters": ["Object", "Behavior", "+", "1"]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         }
@@ -7914,13 +8399,20 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "HasTouchEnded"
                       },
-                      "parameters": ["", "Object.Behavior::PropertyTouchId()"]
+                      "parameters": [
+                        "",
+                        "Object.Behavior::PropertyTouchId()"
+                      ]
                     }
                   ],
                   "actions": [
@@ -7928,19 +8420,33 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetButtonState"
                       },
-                      "parameters": ["Object", "Behavior", "\"Released\"", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "\"Released\"",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyIsReleased"
                       },
-                      "parameters": ["Object", "Behavior", "yes"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::SetPropertyTouchId"
                       },
-                      "parameters": ["Object", "Behavior", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -7974,7 +8480,10 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyIsReleased"
                       },
-                      "parameters": ["Object", "Behavior"]
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
                     }
                   ],
                   "actions": [
@@ -7982,7 +8491,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -8016,7 +8527,12 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchButton::PropertyTouchId"
                       },
-                      "parameters": ["Object", "Behavior", "!=", "0"]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
                     }
                   ],
                   "actions": [
@@ -8024,7 +8540,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -8177,7 +8695,10 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
-                      "parameters": ["Object", "Property"]
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
                     }
                   ]
                 },
@@ -8202,7 +8723,10 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
-                      "parameters": ["Object", "Property"]
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
                     }
                   ]
                 },
@@ -8227,13 +8751,19 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateUpKey"
                       },
-                      "parameters": ["Object", "Property"]
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
                     },
                     {
                       "type": {
                         "value": "PlatformBehavior::SimulateLadderKey"
                       },
-                      "parameters": ["Object", "Property"]
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
                     }
                   ]
                 },
@@ -8258,7 +8788,10 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateDownKey"
                       },
-                      "parameters": ["Object", "Property"]
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
                     }
                   ]
                 },
@@ -8282,7 +8815,10 @@
                       "type": {
                         "value": "PlatformBehavior::SimulateJumpKey"
                       },
-                      "parameters": ["Object", "Property"]
+                      "parameters": [
+                        "Object",
+                        "Property"
+                      ]
                     }
                   ]
                 }
@@ -8330,7 +8866,10 @@
               "label": "Joystick name",
               "description": "",
               "group": "Controls",
-              "extraInformation": ["Primary", "Secondary"],
+              "extraInformation": [
+                "Primary",
+                "Secondary"
+              ],
               "name": "JoystickIdentifier"
             },
             {
@@ -8364,7 +8903,12 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Analog\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Analog\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -8388,7 +8932,12 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::TopDownMultitouchMapper::PropertyStickMode"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"360°\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"360°\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -8430,7 +8979,10 @@
                             "inverted": true,
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": ["Object", "TopDownMovement"]
+                          "parameters": [
+                            "Object",
+                            "TopDownMovement"
+                          ]
                         }
                       ],
                       "actions": [],
@@ -8456,7 +9008,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8481,7 +9036,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8506,7 +9064,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8531,7 +9092,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         }
@@ -8544,7 +9108,10 @@
                           "type": {
                             "value": "TopDownMovementBehavior::DiagonalsAllowed"
                           },
-                          "parameters": ["Object", "TopDownMovement"]
+                          "parameters": [
+                            "Object",
+                            "TopDownMovement"
+                          ]
                         }
                       ],
                       "actions": [],
@@ -8570,7 +9137,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8595,7 +9165,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8620,7 +9193,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8645,7 +9221,10 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8670,13 +9249,19 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8701,13 +9286,19 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateUpKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8732,13 +9323,19 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateLeftKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         },
@@ -8763,13 +9360,19 @@
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateDownKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             },
                             {
                               "type": {
                                 "value": "TopDownMovementBehavior::SimulateRightKey"
                               },
-                              "parameters": ["Object", "TopDownMovement"]
+                              "parameters": [
+                                "Object",
+                                "TopDownMovement"
+                              ]
                             }
                           ]
                         }
@@ -8821,7 +9424,10 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": ["Primary", "Secondary"],
+              "extraInformation": [
+                "Primary",
+                "Secondary"
+              ],
               "name": "JoystickIdentifier"
             },
             {
@@ -8830,7 +9436,11 @@
               "label": "Stick mode",
               "description": "",
               "group": "Controls",
-              "extraInformation": ["Analog", "360°", "8 Directions"],
+              "extraInformation": [
+                "Analog",
+                "360°",
+                "8 Directions"
+              ],
               "name": "StickMode"
             }
           ],
@@ -8839,9 +9449,16 @@
       ],
       "eventsBasedObjects": [
         {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
           "defaultName": "Joystick",
           "description": "Joystick for touchscreens.",
           "fullName": "Multitouch Joystick",
+          "isUsingLegacyInstancesRenderer": true,
           "name": "SpriteMultitouchJoystick",
           "eventsFunctions": [
             {
@@ -8858,49 +9475,87 @@
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": ["", "Border", "0", "0", ""]
+                      "parameters": [
+                        "",
+                        "Border",
+                        "0",
+                        "0",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "Create"
                       },
-                      "parameters": ["", "Thumb", "0", "0", ""]
+                      "parameters": [
+                        "",
+                        "Thumb",
+                        "0",
+                        "0",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": ["Border", "=", "1"]
+                      "parameters": [
+                        "Border",
+                        "=",
+                        "1"
+                      ]
                     },
                     {
                       "type": {
                         "value": "ChangePlan"
                       },
-                      "parameters": ["Thumb", "=", "2"]
+                      "parameters": [
+                        "Thumb",
+                        "=",
+                        "2"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": ["Border", "=", "0", "=", "0"]
+                      "parameters": [
+                        "Border",
+                        "=",
+                        "0",
+                        "=",
+                        "0"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetCenter"
                       },
-                      "parameters": ["Thumb", "=", "0", "=", "0"]
+                      "parameters": [
+                        "Thumb",
+                        "=",
+                        "0",
+                        "=",
+                        "0"
+                      ]
                     },
                     {
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": ["Object", ""]
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
                     },
                     {
                       "type": {
                         "value": "SetIncludedInParentCollisionMask"
                       },
-                      "parameters": ["Thumb", ""]
+                      "parameters": [
+                        "Thumb",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -8963,7 +9618,10 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::SpriteMultitouchJoystick::UpdateConfiguration"
                       },
-                      "parameters": ["Object", ""]
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -9054,7 +9712,9 @@
                         "inverted": true,
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"ShouldActivate\""]
+                      "parameters": [
+                        "\"ShouldActivate\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -9062,7 +9722,11 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": ["Border", "MultitouchJoystick", "no"]
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "no"
+                      ]
                     }
                   ]
                 },
@@ -9073,7 +9737,9 @@
                       "type": {
                         "value": "GetArgumentAsBoolean"
                       },
-                      "parameters": ["\"ShouldActivate\""]
+                      "parameters": [
+                        "\"ShouldActivate\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -9081,7 +9747,11 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": ["Border", "MultitouchJoystick", "yes"]
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "yes"
+                      ]
                     }
                   ]
                 }
@@ -9115,7 +9785,11 @@
                       "type": {
                         "value": "SpriteMultitouchJoystick::MultitouchJoystick::IsPressed"
                       },
-                      "parameters": ["Border", "MultitouchJoystick", "!="]
+                      "parameters": [
+                        "Border",
+                        "MultitouchJoystick",
+                        "!="
+                      ]
                     }
                   ],
                   "actions": [
@@ -9123,7 +9797,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -9224,7 +9900,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Border.MultitouchJoystick::StickForceX()"]
+                      "parameters": [
+                        "Border.MultitouchJoystick::StickForceX()"
+                      ]
                     }
                   ]
                 }
@@ -9257,7 +9935,9 @@
                       "type": {
                         "value": "SetReturnNumber"
                       },
-                      "parameters": ["Border.MultitouchJoystick::StickForceY()"]
+                      "parameters": [
+                        "Border.MultitouchJoystick::StickForceY()"
+                      ]
                     }
                   ]
                 }
@@ -9373,7 +10053,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -9421,7 +10103,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -9675,7 +10359,10 @@
               "label": "Joystick name",
               "description": "",
               "group": "",
-              "extraInformation": ["Primary", "Secondary"],
+              "extraInformation": [
+                "Primary",
+                "Secondary"
+              ],
               "name": "JoystickIdentifier"
             },
             {
@@ -9693,7 +10380,9 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": ["Thumb"],
+              "extraInformation": [
+                "Thumb"
+              ],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -9713,7 +10402,9 @@
               "label": "",
               "description": "Only used by the scene editor.",
               "group": "",
-              "extraInformation": ["Thumb"],
+              "extraInformation": [
+                "Thumb"
+              ],
               "hidden": true,
               "name": "ThumbIsScaledProportionally"
             },
@@ -9799,7 +10490,39 @@
                 "objectName": "Border"
               }
             ]
-          }
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": []
         }
       ]
     },
@@ -9827,7 +10550,12 @@
         "identifier": "FlashTransitionPainter",
         "name": "gdevelop-extension-store"
       },
-      "tags": ["shape painter", "flash", "transition", "effect"],
+      "tags": [
+        "shape painter",
+        "flash",
+        "transition",
+        "effect"
+      ],
       "authorIds": [],
       "dependencies": [],
       "globalVariables": [],
@@ -9866,7 +10594,11 @@
                       "type": {
                         "value": "ActivateBehavior"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     },
                     {
                       "type": {
@@ -9929,13 +10661,20 @@
                       "type": {
                         "value": "PrimitiveDrawing::ClearBetweenFrames"
                       },
-                      "parameters": ["Object", "yes"]
+                      "parameters": [
+                        "Object",
+                        "yes"
+                      ]
                     },
                     {
                       "type": {
                         "value": "PrimitiveDrawing::OutlineSize"
                       },
-                      "parameters": ["Object", "=", "0"]
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "0"
+                      ]
                     },
                     {
                       "type": {
@@ -10044,13 +10783,23 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                           },
-                          "parameters": ["Object", "Behavior", "=", "\"\""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "\"\""
+                          ]
                         },
                         {
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                           },
-                          "parameters": ["Object", "Behavior", "=", "\"Flash\""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "\"Flash\""
+                          ]
                         }
                       ]
                     }
@@ -10106,7 +10855,11 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -10132,7 +10885,11 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": ["Object", "Behavior", ""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -10255,7 +11012,11 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -10281,7 +11042,11 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": ["Object", "Behavior", ""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -10396,7 +11161,12 @@
                       "type": {
                         "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Vertical\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Vertical\""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -10450,7 +11220,11 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -10476,7 +11250,11 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": ["Object", "Behavior", ""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -10591,7 +11369,12 @@
                       "type": {
                         "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyType"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Circular\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Circular\""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -10645,7 +11428,11 @@
                               "type": {
                                 "value": "ActivateBehavior"
                               },
-                              "parameters": ["Object", "Behavior", ""]
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ""
+                              ]
                             }
                           ]
                         }
@@ -10671,7 +11458,11 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": ["Object", "Behavior", ""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -10902,7 +11693,10 @@
                         "inverted": true,
                         "value": "BehaviorActivated"
                       },
-                      "parameters": ["Object", "Behavior"]
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
                     }
                   ],
                   "actions": [
@@ -11002,7 +11796,12 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyTimer"
                           },
-                          "parameters": ["Object", "Behavior", "=", "0"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -11010,7 +11809,12 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::SetPropertyTimer"
                           },
-                          "parameters": ["Object", "Behavior", "=", "0.2"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0.2"
+                          ]
                         }
                       ]
                     },
@@ -11021,7 +11825,12 @@
                           "type": {
                             "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyDirection"
                           },
-                          "parameters": ["Object", "Behavior", "=", "\"Both\""]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "\"Both\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -11113,7 +11922,11 @@
                           "type": {
                             "value": "ActivateBehavior"
                           },
-                          "parameters": ["Object", "Behavior", "yes"]
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "yes"
+                          ]
                         }
                       ]
                     }
@@ -11231,7 +12044,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 },
@@ -11242,7 +12057,12 @@
                       "type": {
                         "value": "FlashTransitionPainter::FlashTransitionPainter::PropertyDirection"
                       },
-                      "parameters": ["Object", "Behavior", "=", "\"Both\""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "\"Both\""
+                      ]
                     },
                     {
                       "type": {
@@ -11260,7 +12080,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -11374,7 +12196,9 @@
         "rotate",
         "angle"
       ],
-      "authorIds": ["gqDaZjCfevOOxBYkK6zlhtZnXCg1"],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
       "dependencies": [],
       "globalVariables": [],
       "sceneVariables": [],
@@ -11537,7 +12361,9 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": ["\"ShakeForever\""]
+                          "parameters": [
+                            "\"ShakeForever\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -13274,7 +14100,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngle::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -13334,7 +14164,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -13526,7 +14358,9 @@
                           "type": {
                             "value": "GetArgumentAsBoolean"
                           },
-                          "parameters": ["\"ShakeForever\""]
+                          "parameters": [
+                            "\"ShakeForever\""
+                          ]
                         }
                       ],
                       "actions": [
@@ -15636,7 +16470,11 @@
                       "type": {
                         "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
                       },
-                      "parameters": ["Object", "Behavior", ""]
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -15697,7 +16535,9 @@
                       "type": {
                         "value": "SetReturnBoolean"
                       },
-                      "parameters": ["True"]
+                      "parameters": [
+                        "True"
+                      ]
                     }
                   ]
                 }
@@ -15726,6 +16566,5 @@
       "eventsBasedObjects": []
     }
   ],
-  "externalLayouts": [],
-  "externalSourceFiles": []
+  "externalLayouts": []
 }
