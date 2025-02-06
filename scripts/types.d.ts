@@ -78,6 +78,9 @@ export type InAppTutorialFlowStepTrigger =
     }
   | {
       previewLaunched: true;
+      inGameMessage: TranslatedText;
+      inGameTouchMessage: TranslatedText;
+      inGameMessagePosition: string;
     }
   | {
       editorIsActive: string;

@@ -128,9 +128,14 @@ At the moment, only one trigger can be specified to go the next step. Here is th
   - for numbers, it has to be a string (ex: "2")
   - for booleans (checkboxes), use booleans (ex: true)
 - `objectAddedInLayout` (true): an object has been added to the scene (from scratch, duplication or the asset store)
-- `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene
-  - `instancesCount` (number): the number of instances that should be present on the scene (to be used with `instanceAddedOnScene`)
-- `previewLaunched` (true): a preview has been launched
+- `instanceAddedOnScene` (string): the name of an object for which an instance has been added on the scene. With this additional option, at the same level
+  - `instancesCount` (number): the number of instances that should be present on the scene.
+- `previewLaunched` (true): a preview has been launched. With those additional options, at the same level:
+  - `inGameMessage` (`messageByLocale` object): when the user launches the preview, this message will be displayed as a standalone tooltip in the preview.
+  - `inGameTouchMessage` (`messageByLocale` object): same as above, for touch devices.
+  - `inGameMessagePosition` (string): a string that contains the position of the avatar in the preview (for instance `top-right`).
+    - For horizontal placement, it must contain `right` or `left`.
+    - For vertical placement, it must contain `top` or `middle` or `bottom`.
 - `clickOnTooltipButton` (`messageByLocale` object): the label of the button displayed in the tooltip that the user has to click to go to the next step.
 - `editorIsActive` (string `scene:editor`): to detect when a user switched editors
   - `scene` is optional (if your tutorial only requires a single scene, no need to specify it). In that case, you can write `:EventsSheet` if you want to check the user is on the events sheet.
@@ -178,7 +183,10 @@ For each step, you can specify a tooltip to display next to the element you want
 
 - `title`: (optional) Translated text
 - `description`: (optional) Translated text
-- `placement`: The placement of the tooltip relatively to the element to highlight. Either one of those values: `bottom`, `top`, `left`, `right` (default value `bottom`)
+- `touchDescription`: (optional) Translated text on touch devices
+- `placement`: (optional) The placement of the tooltip relatively to the element to highlight. Either one of those values: `bottom`, `top`, `left`, `right` (default value `bottom`)
+- `mobilePlacement`: (optional) The placement of the tooltip on mobile
+- `standalone`: (optional) Boolean to display the tooltip as the Red Hero avatar on the bottom left corner of the app.
 
 Notes:
 
