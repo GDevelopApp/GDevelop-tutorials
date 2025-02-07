@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 224,
+    "build": 223,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -441,6 +441,14 @@
         "name": "assets\\Shadow.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Platform_Stone1-solid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Platform_Stone1-solid.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -614,14 +622,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 192,
+          "height": 256,
           "keepRatio": true,
           "layer": "",
           "name": "Tiles",
           "persistentUuid": "a0702caa-e471-4044-b70f-eba9a6439754",
           "width": 128,
           "x": -64,
-          "y": 64,
+          "y": 0,
           "zOrder": -200,
           "numberProperties": [],
           "stringProperties": [],
@@ -687,8 +695,8 @@
           "layer": "",
           "name": "Tiles",
           "persistentUuid": "38a721f6-59b7-47b6-a823-79624353246a",
-          "width": 768,
-          "x": 0,
+          "width": 896,
+          "x": -64,
           "y": 640,
           "zOrder": -200,
           "numberProperties": [],
@@ -721,7 +729,7 @@
           "layer": "",
           "name": "Tiles",
           "persistentUuid": "d1d62516-8bc4-4ab7-8b2d-934c28b565d3",
-          "width": 64,
+          "width": 128,
           "x": 704,
           "y": 0,
           "zOrder": -200,
@@ -765,33 +773,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 76,
           "keepRatio": true,
           "layer": "",
           "name": "KnightArtwork",
           "persistentUuid": "c762b7b1-7b81-4444-b77d-5a097ac1696f",
-          "width": 0,
+          "width": 76,
           "x": 442,
           "y": 352,
-          "zOrder": 1007,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floorcaps",
-          "persistentUuid": "4e056637-cbaf-4fa7-a9cf-e3eeedea0ba8",
-          "width": 128,
-          "x": 320,
-          "y": 384,
-          "zOrder": 1008,
+          "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -805,7 +797,7 @@
           "layer": "",
           "name": "Floorcaps",
           "persistentUuid": "57a2c5a1-f026-40f0-9d5e-0265da6c083e",
-          "width": 256,
+          "width": 384,
           "x": 64,
           "y": 640,
           "zOrder": -100,
@@ -860,6 +852,40 @@
           "x": 640,
           "y": 384,
           "zOrder": 1008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floorcaps_solid",
+          "persistentUuid": "13f6cf1c-e73e-41d6-a297-6adc7013d623",
+          "width": 128,
+          "x": 320,
+          "y": 384,
+          "zOrder": 1009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Floorcaps_solid",
+          "persistentUuid": "4a392bd7-cdb9-47e8-b581-f4a35892be79",
+          "width": 192,
+          "x": 448,
+          "y": 640,
+          "zOrder": 1009,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1770,15 +1796,7 @@
           "width": 64,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ]
+          "behaviors": []
         },
         {
           "assetStoreId": "",
@@ -1790,6 +1808,25 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 64,
+          "name": "Floorcaps_solid",
+          "texture": "assets\\Platform_Stone1-solid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1818,6 +1855,9 @@
           },
           {
             "objectName": "Floorcaps"
+          },
+          {
+            "objectName": "Floorcaps_solid"
           },
           {
             "objectName": "RightArrow"
@@ -3019,10 +3059,6 @@
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Resizable",
