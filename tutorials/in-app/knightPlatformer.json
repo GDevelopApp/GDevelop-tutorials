@@ -97,7 +97,7 @@
       "nextStep": "previewLaunched",
       "description": {
         "messageByLocale": {
-          "en": "This game is a Platformer where the player must get the key then read the door to open it. Let's see the current game state.\n\nClick on the **preview** button to play.",
+          "en": "This game is a Platformer where the player must get the key, then reach the door to open it. Let's see the current game state.\n\nClick on the **preview** button to play.",
           "fr": "Ce jeu est un jeu de plateforme où le joueur doit obtenir la clé puis lire la porte pour l'ouvrir. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **aperçu** pour jouer.",
           "ar": "هذه اللعبة هي لعبة منصات حيث يجب على اللاعب الحصول على المفتاح ثم قراءة الباب لفتحه. دعونا نرى حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.",
           "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler den Schlüssel holen und dann die Tür lesen muss, um sie zu öffnen. Lassen Sie uns den aktuellen Spielstand ansehen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
