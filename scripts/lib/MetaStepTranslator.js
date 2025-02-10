@@ -23,6 +23,9 @@ const translateMetaStep = (metaStep) => {
             metaStep.nextStep === 'previewLaunched'
               ? {
                   previewLaunched: true,
+                  inGameMessage: metaStep.inGameMessage,
+                  inGameTouchMessage: metaStep.inGameTouchMessage,
+                  inGameMessagePosition: metaStep.inGameMessagePosition,
                 }
               : {
                   clickOnTooltipButton: metaStep.nextStep.clickOnTooltipButton,
