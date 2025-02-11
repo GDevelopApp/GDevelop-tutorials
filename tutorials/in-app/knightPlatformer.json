@@ -122,7 +122,7 @@
         "inGameMessagePosition": "top-right",
         "inGameMessage": {
           "messageByLocale": {
-            "en": "Try to move the knight with left/right arrows.\n\nYou'll see that knight cannot move. Let's fix that.",
+            "en": "Try to move the knight with left/right arrows.\n\nYou'll see that it cannot move. Let's fix that.",
             "fr": "Essayez de déplacer le chevalier avec les flèches gauche et droite.\n\nLe chevalier ne peut pas bouger, le comportement Personnage de plateforme sur $(playerHitBox) est manquant.\n\nVoyons comment l'ajouter à l'objet.",
             "ar": "حاول تحريك الفارس باستخدام أسهم اليسار واليمين.\n\nلا يمكن للفارس التحرك، سلوك شخصية المنصات على $(playerHitBox) مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
             "de": "Versuche, den Ritter mit den Pfeiltasten nach links und rechts zu bewegen.\n\nDer Ritter kann sich nicht bewegen, das Verhalten Plattform-Charakter auf $(playerHitBox) fehlt.\n\nSchauen wir uns an, wie man es zum Objekt hinzufügt.",
@@ -265,9 +265,15 @@
           }
         }
       },
+
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "bottom-right",
+        "inGameMessage": {
+          "messageByLocale": {
       "description": {
         "messageByLocale": {
-          "en": "If you are previewing the game now the knight will fall in loop.\n\nLet's add the collision to the platforms.",
+          "en": "The knight will fall in loop.\n\nLet's add a new behavior to the green platform.",
           "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
           "ar": "إذا كنت تقوم بمعاينة اللعبة الآن، سيسقط الفارس في حلقة.\n\nلنضف التصادم إلى المنصات.",
           "de": "Wenn Sie das Spiel jetzt in der Vorschau ansehen, wird der Ritter in einer Schleife fallen.\n\nLassen Sie uns die Kollision zu den Plattformen hinzufügen.",
