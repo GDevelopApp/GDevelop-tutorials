@@ -117,10 +117,18 @@
         }
       }
     },
+
+    
     {
-      "tooltip": {
-        "standalone": true,
-        "description": {
+      "metaKind": "launch-preview",
+      "nextStep": "previewLaunched",
+      "inGameMessage": {
+        "messageByLocale": {
+          "en": "Try to move the knight with left right arrows."
+          }
+      },
+      "inGamesMessagePosition": "top-right",
+      "description": {
           "messageByLocale": {
             "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object.",
             "fr": "Le chevalier ne peut pas bouger, le comportement du personnage Platformer sur le **$(playerHitBox)** est manquant.\n\nVoyons comment l'ajouter à l'objet.",
