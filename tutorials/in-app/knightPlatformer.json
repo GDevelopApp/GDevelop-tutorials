@@ -117,60 +117,34 @@
         }
       }
     },
-
-    
     {
       "metaKind": "launch-preview",
       "nextStep": "previewLaunched",
       "inGameMessage": {
         "messageByLocale": {
           "en": "Try to move the knight with left right arrows."
-          }
-      },
-      "inGamesMessagePosition": "top-right",
-      "description": {
-          "messageByLocale": {
-            "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object.",
-            "fr": "Le chevalier ne peut pas bouger, le comportement du personnage Platformer sur le **$(playerHitBox)** est manquant.\n\nVoyons comment l'ajouter à l'objet.",
-            "ar": "الفارس لا يمكنه التحرك، سلوك شخصية منصة على **$(playerHitBox)** مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
-            "de": "Der Ritter kann sich nicht bewegen, das Verhalten des Platformer-Charakters auf der **$(playerHitBox)** fehlt.\n\nLassen Sie uns sehen, wie man es dem Objekt hinzufügt.",
-            "es": "El caballero no puede moverse, el comportamiento del personaje de plataformas en el **$(playerHitBox)** está ausente.\n\nVeamos cómo agregarlo al objeto.",
-            "it": "Il cavaliere non può muoversi, il comportamento del personaggio Platformer su **$(playerHitBox)** è mancante.\n\nVediamo come aggiungerlo all'oggetto.",
-            "tr": "Şövalye hareket edemiyor, **$(playerHitBox)** üzerindeki Platformer karakter davranışı eksik.\n\nNesneye nasıl ekleyeceğimizi görelim.",
-            "ja": "ナイトは動けません、**$(playerHitBox)** 上のプラットフォーマーキャラクターの動作が欠落しています。\n\nそれをオブジェクトに追加する方法を見てみましょう。",
-            "ko": "기사님이 움직일 수 없습니다. **$(playerHitBox)** 에 있는 플랫폼 캐릭터의 동작이 누락되었습니다.\n\n객체에 추가하는 방법을 알아봅시다.",
-            "pl": "Rycerz nie może się poruszać, brakuje zachowania postaci Platformera na **$(playerHitBox)**.\n\nZobaczmy, jak to dodać do obiektu.",
-            "pt": "O cavaleiro não pode se mover, o comportamento do personagem Platformer no **$(playerHitBox)** está faltando.\n\nVamos ver como adicioná-lo ao objeto.",
-            "th": "อัศวินไม่สามารถเคลื่อนไหวได้ พฤติกรรมของตัวละครแพลตฟอร์มบน **$(playerHitBox)** หายไป\n\nมาดูกันว่าจะเพิ่มมันเข้าไปในวัตถุอย่างไร",
-            "ru": "Рыцарь не может двигаться, отсутствует поведение персонажа Platformer на **$(playerHitBox)**.\n\nДавайте посмотрим, как это добавить в объект.",
-            "sl": "Vitez se ne more premikati, vedenje lika Platformer na **$(playerHitBox)** manjka.\n\nPoglejmo, kako to dodati predmetu.",
-            "sq": "Kalorësi nuk mund të lëvizë, mungon sjellja e karakterit Platformer në **$(playerHitBox)**.\n\nLe të shohim se si ta shtojmë atë në objekt.",
-            "uk": "Лицар не може рухатися, поведінка персонажа Platformer на **$(playerHitBox)** відсутня.\n\nДавайте подивимось, як це додати до об'єкта.",
-            "zh": "骑士无法移动，**$(playerHitBox)** 上的平台角色行为缺失。\n\n让我们看看如何将其添加到对象中。"
-          }
         }
       },
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "it": "Avanti",
-            "tr": "Sonraki",
-            "ja": "次へ",
-            "ko": "다음",
-            "pl": "Następny",
-            "pt": "Próximo",
-            "th": "ถัดไป",
-            "ru": "Далее",
-            "sl": "Naprej",
-            "sq": "Tjetër",
-            "uk": "Далі",
-            "zh": "下一个"
-          }
+      "inGameMessagePosition": "top-right",
+      "description": {
+        "messageByLocale": {
+          "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object.",
+          "fr": "Le chevalier ne peut pas bouger, le comportement du personnage Platformer sur le **$(playerHitBox)** est manquant.\n\nVoyons comment l'ajouter à l'objet.",
+          "ar": "الفارس لا يمكنه التحرك، سلوك شخصية منصة على **$(playerHitBox)** مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
+          "de": "Der Ritter kann sich nicht bewegen, das Verhalten des Platformer-Charakters auf der **$(playerHitBox)** fehlt.\n\nLassen Sie uns sehen, wie man es dem Objekt hinzufügt.",
+          "es": "El caballero no puede moverse, el comportamiento del personaje de plataformas en el **$(playerHitBox)** está ausente.\n\nVeamos cómo agregarlo al objeto.",
+          "it": "Il cavaliere non può muoversi, il comportamento del personaggio Platformer su **$(playerHitBox)** è mancante.\n\nVediamo come aggiungerlo all'oggetto.",
+          "tr": "Şövalye hareket edemiyor, **$(playerHitBox)** üzerindeki Platformer karakter davranışı eksik.\n\nNesneye nasıl ekleyeceğimizi görelim.",
+          "ja": "ナイトは動けません、**$(playerHitBox)** 上のプラットフォーマーキャラクターの動作が欠落しています。\n\nそれをオブジェクトに追加する方法を見てみましょう。",
+          "ko": "기사님이 움직일 수 없습니다. **$(playerHitBox)** 에 있는 플랫폼 캐릭터의 동작이 누락되었습니다.\n\n객체에 추가하는 방법을 알아봅시다.",
+          "pl": "Rycerz nie może się poruszać, brakuje zachowania postaci Platformera na **$(playerHitBox)**.\n\nZobaczmy, jak to dodać do obiektu.",
+          "pt": "O cavaleiro não pode se mover, o comportamento do personagem Platformer no **$(playerHitBox)** está faltando.\n\nVamos ver como adicioná-lo ao objeto.",
+          "th": "อัศวินไม่สามารถเคลื่อนไหวได้ พฤติกรรมของตัวละครแพลตฟอร์มบน **$(playerHitBox)** หายไป\n\nมาดูกันว่าจะเพิ่มมันเข้าไปในวัตถุอย่างไร",
+          "ru": "Рыцарь не может двигаться, отсутствует поведение персонажа Platformer на **$(playerHitBox)**.\n\nДавайте посмотрим, как это добавить в объект.",
+          "sl": "Vitez se ne more premikati, vedenje lika Platformer na **$(playerHitBox)** manjka.\n\nPoglejmo, kako to dodati predmetu.",
+          "sq": "Kalorësi nuk mund të lëvizë, mungon sjellja e karakterit Platformer në **$(playerHitBox)**.\n\nLe të shohim se si ta shtojmë atë në objekt.",
+          "uk": "Лицар не може рухатися, поведінка персонажа Platformer на **$(playerHitBox)** відсутня.\n\nДавайте подивимось, як це додати до об'єкта.",
+          "zh": "骑士无法移动，**$(playerHitBox)** 上的平台角色行为缺失。\n\n让我们看看如何将其添加到对象中。"
         }
       }
     },
