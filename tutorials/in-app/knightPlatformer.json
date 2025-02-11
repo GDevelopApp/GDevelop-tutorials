@@ -122,7 +122,7 @@
         "inGameMessagePosition": "top-right",
         "inGameMessage": {
           "messageByLocale": {
-            "en": "Try to move the knight with left right arrows.\n\nThe knight cannot move, the behavior Platformer character on the $(playerHitBox) is missing.\n\nLet's see how to add it to the object.",
+            "en": "Try to move the knight with left/right arrows.\n\nYou'll see that knight cannot move. Let's fix that.",
             "fr": "Essayez de déplacer le chevalier avec les flèches gauche et droite.\n\nLe chevalier ne peut pas bouger, le comportement Personnage de plateforme sur $(playerHitBox) est manquant.\n\nVoyons comment l'ajouter à l'objet.",
             "ar": "حاول تحريك الفارس باستخدام أسهم اليسار واليمين.\n\nلا يمكن للفارس التحرك، سلوك شخصية المنصات على $(playerHitBox) مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
             "de": "Versuche, den Ritter mit den Pfeiltasten nach links und rechts zu bewegen.\n\nDer Ritter kann sich nicht bewegen, das Verhalten Plattform-Charakter auf $(playerHitBox) fehlt.\n\nSchauen wir uns an, wie man es zum Objekt hinzufügt.",
