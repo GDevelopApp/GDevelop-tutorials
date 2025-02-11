@@ -93,58 +93,53 @@
   "flow": [
     {
       "id": "Start",
-      "metaKind": "launch-preview",
-      "nextStep": "previewLaunched",
-      "description": {
-        "messageByLocale": {
-          "en": "This game is a Platformer where the player must get the key then read the door to open it. Let's see the current game state.\n\nClick on the **preview** button to play.",
-          "fr": "Ce jeu est un jeu de plateforme où le joueur doit obtenir la clé puis lire la porte pour l'ouvrir. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **aperçu** pour jouer.",
-          "ar": "هذه اللعبة هي لعبة منصات حيث يجب على اللاعب الحصول على المفتاح ثم قراءة الباب لفتحه. دعونا نرى حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.",
-          "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler den Schlüssel holen und dann die Tür lesen muss, um sie zu öffnen. Lassen Sie uns den aktuellen Spielstand ansehen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
-          "es": "Este juego es un plataformas donde el jugador debe conseguir la llave y luego leer la puerta para abrirla. Veamos el estado actual del juego.\n\nHaz clic en el botón **vista previa** para jugar.",
-          "it": "Questo gioco è un platformer in cui il giocatore deve ottenere la chiave e poi leggere la porta per aprirla. Vediamo lo stato attuale del gioco.\n\nClicca sul pulsante **anteprima** per giocare.",
-          "tr": "Bu oyun, oyuncunun anahtarı alıp ardından kapıyı açmak için okuması gereken bir Platformer oyunudur. Mevcut oyun durumunu görelim.\n\nOynamak için **önizleme** düğmesine tıklayın.",
-          "ja": "このゲームは、プレイヤーが鍵を手に入れ、ドアを読んで開ける必要があるプラットフォーマーです。現在のゲームの状態を見てみましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。",
-          "ko": "이 게임은 플레이어가 열쇠를 얻고 문을 읽어 열어야 하는 플랫폼 게임입니다. 현재 게임 상태를 확인해 보겠습니다.\n\n플레이하려면 **미리보기** 버튼을 클릭하십시오.",
-          "pl": "Ta gra to platformówka, w której gracz musi zdobyć klucz, a następnie przeczytać drzwi, aby je otworzyć. Zobaczmy aktualny stan gry.\n\nKliknij przycisk **podgląd**, aby zagrać.",
-          "pt": "Este jogo é um jogo de plataforma onde o jogador deve pegar a chave e depois ler a porta para abri-la. Vamos ver o estado atual do jogo.\n\nClique no botão **pré-visualização** para jogar.",
-          "th": "เกมนี้เป็นเกมแพลตฟอร์มที่ผู้เล่นต้องได้รับกุญแจแล้วอ่านประตูเพื่อเปิดมัน ดูสถานะเกมปัจจุบัน\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
-          "ru": "Эта игра - платформер, где игрок должен получить ключ, а затем прочитать дверь, чтобы открыть ее. Давайте посмотрим текущее состояние игры.\n\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
-          "sl": "Ta igra je platformer, kjer mora igralec dobiti ključ in nato prebrati vrata, da jih odpre. Poglejmo trenutni stanje igre.\n\nKliknite gumb **predogled**, da igrate.",
-          "sq": "Kjo lojë është një platformer ku lojtari duhet të marrë çelësin dhe pastaj të lexojë derën për ta hapur atë. Le të shohim gjendjen aktuale të lojës.\n\nKlikoni butonin **parashikim** për të luajtur.",
-          "uk": "Ця гра - платформер, де гравець повинен отримати ключ, а потім прочитати двері, щоб відкрити її. Давайте подивимося на поточний стан гри.\n\nНатисніть кнопку **попередній перегляд**, щоб грати.",
-          "zh": "这个游戏是一款平台游戏，玩家必须得到钥匙然后读取门以打开它。让我们看看当前的游戏状态。\n\n点击 **预览** 按钮开始游戏。"
-        }
-      }
-    },
-    {
-      "metaKind": "launch-preview",
-      "nextStep": "previewLaunched",
-      "inGameMessage": {
-        "messageByLocale": {
-          "en": "Try to move the knight with left right arrows."
+      "elementToHighlightId": "#toolbar-preview-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "This game is a Platformer where the player must get the key then reach the door to open it. Let's see the current game state.\n\nClick on the **preview** button to play.",
+            "fr": "Ce jeu est un jeu de plateforme où le joueur doit obtenir la clé puis atteindre la porte pour l'ouvrir. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **aperçu** pour jouer.",
+            "ar": "هذه اللعبة هي لعبة منصات حيث يجب على اللاعب الحصول على المفتاح ثم الوصول إلى الباب لفتحه. دعونا نرى حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.",
+            "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler den Schlüssel holen und dann die Tür erreichen muss, um sie zu öffnen. Lassen Sie uns den aktuellen Spielstand ansehen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
+            "es": "Este juego es un plataformas donde el jugador debe conseguir la llave y luego llegar a la puerta para abrirla. Veamos el estado actual del juego.\n\nHaz clic en el botón **vista previa** para jugar.",
+            "it": "Questo gioco è un platformer in cui il giocatore deve ottenere la chiave e poi raggiungere la porta per aprirla. Vediamo lo stato attuale del gioco.\n\nClicca sul pulsante **anteprima** per giocare.",
+            "tr": "Bu oyun, oyuncunun anahtarı alıp ardından kapıya ulaşarak açması gereken bir platform oyunudur. Mevcut oyun durumunu görelim.\n\nOynamak için **önizleme** düğmesine tıklayın.",
+            "ja": "このゲームは、プレイヤーが鍵を手に入れ、ドアに到達して開ける必要があるプラットフォーマーです。現在のゲームの状態を見てみましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。",
+            "ko": "이 게임은 플레이어가 열쇠를 얻고 문에 도달하여 열어야 하는 플랫폼 게임입니다. 현재 게임 상태를 확인해 보겠습니다.\n\n플레이하려면 **미리보기** 버튼을 클릭하세요.",
+            "pl": "Ta gra to platformówka, w której gracz musi zdobyć klucz, a następnie dotrzeć do drzwi, aby je otworzyć. Zobaczmy aktualny stan gry.\n\nKliknij przycisk **podgląd**, aby zagrać.",
+            "pt": "Este jogo é um jogo de plataforma onde o jogador deve pegar a chave e depois alcançar a porta para abri-la. Vamos ver o estado atual do jogo.\n\nClique no botão **pré-visualização** para jogar.",
+            "th": "เกมนี้เป็นเกมแพลตฟอร์มที่ผู้เล่นต้องได้รับกุญแจแล้วไปถึงประตูเพื่อเปิดมัน ดูสถานะเกมปัจจุบัน\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+            "ru": "Эта игра — платформер, где игрок должен получить ключ, а затем добраться до двери, чтобы открыть её. Давайте посмотрим текущее состояние игры.\n\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
+            "sl": "Ta igra je platformer, kjer mora igralec dobiti ključ in nato doseči vrata, da jih odpre. Poglejmo trenutni stanje igre.\n\nKliknite gumb **predogled**, da igrate.",
+            "sq": "Kjo lojë është një platformë ku lojtari duhet të marrë çelësin dhe pastaj të arrijë derën për ta hapur. Le të shohim gjendjen aktuale të lojës.\n\nKlikoni butonin **parashikim** për të luajtur.",
+            "uk": "Ця гра — платформер, де гравець повинен отримати ключ, а потім дістатися до дверей, щоб їх відкрити. Давайте подивимося на поточний стан гри.\n\nНатисніть кнопку **попередній перегляд**, щоб грати.",
+            "zh": "这个游戏是一款平台游戏，玩家必须得到钥匙然后到达门口以打开它。让我们看看当前的游戏状态。\n\n点击 **预览** 按钮开始游戏。"
+          }
         }
       },
-      "inGameMessagePosition": "top-right",
-      "description": {
-        "messageByLocale": {
-          "en": "The knight cannot move, the behavior Platformer character on the **$(playerHitBox)** is missing.\n\nLet's see how to add it to the object.",
-          "fr": "Le chevalier ne peut pas bouger, le comportement du personnage Platformer sur le **$(playerHitBox)** est manquant.\n\nVoyons comment l'ajouter à l'objet.",
-          "ar": "الفارس لا يمكنه التحرك، سلوك شخصية منصة على **$(playerHitBox)** مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
-          "de": "Der Ritter kann sich nicht bewegen, das Verhalten des Platformer-Charakters auf der **$(playerHitBox)** fehlt.\n\nLassen Sie uns sehen, wie man es dem Objekt hinzufügt.",
-          "es": "El caballero no puede moverse, el comportamiento del personaje de plataformas en el **$(playerHitBox)** está ausente.\n\nVeamos cómo agregarlo al objeto.",
-          "it": "Il cavaliere non può muoversi, il comportamento del personaggio Platformer su **$(playerHitBox)** è mancante.\n\nVediamo come aggiungerlo all'oggetto.",
-          "tr": "Şövalye hareket edemiyor, **$(playerHitBox)** üzerindeki Platformer karakter davranışı eksik.\n\nNesneye nasıl ekleyeceğimizi görelim.",
-          "ja": "ナイトは動けません、**$(playerHitBox)** 上のプラットフォーマーキャラクターの動作が欠落しています。\n\nそれをオブジェクトに追加する方法を見てみましょう。",
-          "ko": "기사님이 움직일 수 없습니다. **$(playerHitBox)** 에 있는 플랫폼 캐릭터의 동작이 누락되었습니다.\n\n객체에 추가하는 방법을 알아봅시다.",
-          "pl": "Rycerz nie może się poruszać, brakuje zachowania postaci Platformera na **$(playerHitBox)**.\n\nZobaczmy, jak to dodać do obiektu.",
-          "pt": "O cavaleiro não pode se mover, o comportamento do personagem Platformer no **$(playerHitBox)** está faltando.\n\nVamos ver como adicioná-lo ao objeto.",
-          "th": "อัศวินไม่สามารถเคลื่อนไหวได้ พฤติกรรมของตัวละครแพลตฟอร์มบน **$(playerHitBox)** หายไป\n\nมาดูกันว่าจะเพิ่มมันเข้าไปในวัตถุอย่างไร",
-          "ru": "Рыцарь не может двигаться, отсутствует поведение персонажа Platformer на **$(playerHitBox)**.\n\nДавайте посмотрим, как это добавить в объект.",
-          "sl": "Vitez se ne more premikati, vedenje lika Platformer na **$(playerHitBox)** manjka.\n\nPoglejmo, kako to dodati predmetu.",
-          "sq": "Kalorësi nuk mund të lëvizë, mungon sjellja e karakterit Platformer në **$(playerHitBox)**.\n\nLe të shohim se si ta shtojmë atë në objekt.",
-          "uk": "Лицар не може рухатися, поведінка персонажа Platformer на **$(playerHitBox)** відсутня.\n\nДавайте подивимось, як це додати до об'єкта.",
-          "zh": "骑士无法移动，**$(playerHitBox)** 上的平台角色行为缺失。\n\n让我们看看如何将其添加到对象中。"
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "top-right",
+        "inGameMessage": {
+          "messageByLocale": {
+            "en": "Try to move the knight with left right arrows.\n\nThe knight cannot move, the behavior Platformer character on the $(playerHitBox) is missing.\n\nLet's see how to add it to the object.",
+            "fr": "Essayez de déplacer le chevalier avec les flèches gauche et droite.\n\nLe chevalier ne peut pas bouger, le comportement Personnage de plateforme sur $(playerHitBox) est manquant.\n\nVoyons comment l'ajouter à l'objet.",
+            "ar": "حاول تحريك الفارس باستخدام أسهم اليسار واليمين.\n\nلا يمكن للفارس التحرك، سلوك شخصية المنصات على $(playerHitBox) مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
+            "de": "Versuche, den Ritter mit den Pfeiltasten nach links und rechts zu bewegen.\n\nDer Ritter kann sich nicht bewegen, das Verhalten Plattform-Charakter auf $(playerHitBox) fehlt.\n\nSchauen wir uns an, wie man es zum Objekt hinzufügt.",
+            "es": "Intenta mover al caballero con las flechas izquierda y derecha.\n\nEl caballero no puede moverse, el comportamiento de Personaje de plataformas en $(playerHitBox) falta.\n\nVeamos cómo añadirlo al objeto.",
+            "it": "Prova a muovere il cavaliere con le frecce sinistra e destra.\n\nIl cavaliere non può muoversi, il comportamento Personaggio platform su $(playerHitBox) è mancante.\n\nVediamo come aggiungerlo all'oggetto.",
+            "tr": "Şövalyeyi sol ve sağ ok tuşlarıyla hareket ettirmeyi deneyin.\n\nŞövalye hareket edemiyor, $(playerHitBox) üzerinde Platform karakteri davranışı eksik.\n\nBakalım bunu nesneye nasıl ekleyebiliriz.",
+            "ja": "ナイトを左右の矢印キーで動かしてみましょう。\n\nナイトは動けません。$(playerHitBox) にプラットフォーマーキャラクターの挙動がありません。\n\nオブジェクトに追加する方法を見てみましょう。",
+            "ko": "기사(나이트)를 좌우 화살표 키로 이동시켜 보세요.\n\n기사가 움직일 수 없습니다. $(playerHitBox)에 플랫폼 캐릭터 동작이 없습니다.\n\n객체에 추가하는 방법을 알아봅시다.",
+            "pl": "Spróbuj poruszyć rycerzem za pomocą strzałek w lewo i prawo.\n\nRycerz nie może się poruszać, brakuje zachowania Postać platformowa na $(playerHitBox).\n\nZobaczmy, jak dodać je do obiektu.",
+            "pt": "Tente mover o cavaleiro com as setas esquerda e direita.\n\nO cavaleiro não pode se mover, o comportamento de Personagem de plataforma no $(playerHitBox) está ausente.\n\nVamos ver como adicioná-lo ao objeto.",
+            "th": "ลองขยับอัศวินด้วยปุ่มลูกศรซ้ายและขวา\n\nอัศวินไม่สามารถเคลื่อนที่ได้ พฤติกรรมของตัวละครแพลตฟอร์มบน $(playerHitBox) หายไป\n\nมาดูกันว่าทำอย่างไรถึงจะเพิ่มมันลงในวัตถุได้",
+            "ru": "Попробуйте переместить рыцаря с помощью стрелок влево и вправо.\n\nРыцарь не может двигаться, отсутствует поведение Персонаж платформера на $(playerHitBox).\n\nДавайте посмотрим, как добавить его в объект.",
+            "sl": "Poskusite premakniti viteza s puščicama levo in desno.\n\nVitez se ne more premikati, obnašanje Platformni lik na $(playerHitBox) manjka.\n\nPoglejmo, kako ga dodati objektu.",
+            "sq": "Përpiquni të lëvizni kalorësin me shigjetat majtas dhe djathtas.\n\nKalorësi nuk mund të lëvizë, sjellja e Personazhit të platformës në $(playerHitBox) mungon.\n\nLe të shohim si ta shtojmë atë në objekt.",
+            "uk": "Спробуйте перемістити лицаря за допомогою стрілок вліво і вправо.\n\nЛицар не може рухатися, поведінка Персонаж платформера на $(playerHitBox) відсутня.\n\nДавайте подивимося, як додати його до об'єкта.",
+            "zh": "尝试使用左右箭头移动骑士。\n\n骑士无法移动，$(playerHitBox) 上缺少平台角色行为。\n\n让我们看看如何将其添加到对象中。"
+          }
         }
       }
     },
