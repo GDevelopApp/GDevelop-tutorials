@@ -123,22 +123,22 @@
         "inGameMessage": {
           "messageByLocale": {
             "en": "Try to move the knight with left/right arrows.\n\nYou'll see that it cannot move. Let's fix that.",
-            "fr": "Essayez de déplacer le chevalier avec les flèches gauche et droite.\n\nLe chevalier ne peut pas bouger, le comportement Personnage de plateforme sur $(playerHitBox) est manquant.\n\nVoyons comment l'ajouter à l'objet.",
-            "ar": "حاول تحريك الفارس باستخدام أسهم اليسار واليمين.\n\nلا يمكن للفارس التحرك، سلوك شخصية المنصات على $(playerHitBox) مفقود.\n\nدعونا نرى كيفية إضافته إلى الكائن.",
-            "de": "Versuche, den Ritter mit den Pfeiltasten nach links und rechts zu bewegen.\n\nDer Ritter kann sich nicht bewegen, das Verhalten Plattform-Charakter auf $(playerHitBox) fehlt.\n\nSchauen wir uns an, wie man es zum Objekt hinzufügt.",
-            "es": "Intenta mover al caballero con las flechas izquierda y derecha.\n\nEl caballero no puede moverse, el comportamiento de Personaje de plataformas en $(playerHitBox) falta.\n\nVeamos cómo añadirlo al objeto.",
-            "it": "Prova a muovere il cavaliere con le frecce sinistra e destra.\n\nIl cavaliere non può muoversi, il comportamento Personaggio platform su $(playerHitBox) è mancante.\n\nVediamo come aggiungerlo all'oggetto.",
-            "tr": "Şövalyeyi sol ve sağ ok tuşlarıyla hareket ettirmeyi deneyin.\n\nŞövalye hareket edemiyor, $(playerHitBox) üzerinde Platform karakteri davranışı eksik.\n\nBakalım bunu nesneye nasıl ekleyebiliriz.",
-            "ja": "ナイトを左右の矢印キーで動かしてみましょう。\n\nナイトは動けません。$(playerHitBox) にプラットフォーマーキャラクターの挙動がありません。\n\nオブジェクトに追加する方法を見てみましょう。",
-            "ko": "기사(나이트)를 좌우 화살표 키로 이동시켜 보세요.\n\n기사가 움직일 수 없습니다. $(playerHitBox)에 플랫폼 캐릭터 동작이 없습니다.\n\n객체에 추가하는 방법을 알아봅시다.",
-            "pl": "Spróbuj poruszyć rycerzem za pomocą strzałek w lewo i prawo.\n\nRycerz nie może się poruszać, brakuje zachowania Postać platformowa na $(playerHitBox).\n\nZobaczmy, jak dodać je do obiektu.",
-            "pt": "Tente mover o cavaleiro com as setas esquerda e direita.\n\nO cavaleiro não pode se mover, o comportamento de Personagem de plataforma no $(playerHitBox) está ausente.\n\nVamos ver como adicioná-lo ao objeto.",
-            "th": "ลองขยับอัศวินด้วยปุ่มลูกศรซ้ายและขวา\n\nอัศวินไม่สามารถเคลื่อนที่ได้ พฤติกรรมของตัวละครแพลตฟอร์มบน $(playerHitBox) หายไป\n\nมาดูกันว่าทำอย่างไรถึงจะเพิ่มมันลงในวัตถุได้",
-            "ru": "Попробуйте переместить рыцаря с помощью стрелок влево и вправо.\n\nРыцарь не может двигаться, отсутствует поведение Персонаж платформера на $(playerHitBox).\n\nДавайте посмотрим, как добавить его в объект.",
-            "sl": "Poskusite premakniti viteza s puščicama levo in desno.\n\nVitez se ne more premikati, obnašanje Platformni lik na $(playerHitBox) manjka.\n\nPoglejmo, kako ga dodati objektu.",
-            "sq": "Përpiquni të lëvizni kalorësin me shigjetat majtas dhe djathtas.\n\nKalorësi nuk mund të lëvizë, sjellja e Personazhit të platformës në $(playerHitBox) mungon.\n\nLe të shohim si ta shtojmë atë në objekt.",
-            "uk": "Спробуйте перемістити лицаря за допомогою стрілок вліво і вправо.\n\nЛицар не може рухатися, поведінка Персонаж платформера на $(playerHitBox) відсутня.\n\nДавайте подивимося, як додати його до об'єкта.",
-            "zh": "尝试使用左右箭头移动骑士。\n\n骑士无法移动，$(playerHitBox) 上缺少平台角色行为。\n\n让我们看看如何将其添加到对象中。"
+            "fr": "Essayez de déplacer le chevalier avec les flèches gauche/droite.\n\nVous verrez qu'il ne peut pas bouger. Corrigeons cela.",
+            "ar": "حاول تحريك الفارس باستخدام سهام اليسار/اليمين.\n\nسترى أنه لا يمكنه التحرك. دعنا نصلح ذلك.",
+            "de": "Versuche, den Ritter mit den Links-/Rechtspfeilen zu bewegen.\n\nDu wirst sehen, dass er sich nicht bewegen kann. Lassen wir das beheben.",
+            "es": "Intenta mover al caballero con las flechas izquierda/derecha.\n\nVerás que no puede moverse. Arreglémoslo.",
+            "it": "Prova a spostare il cavaliere con le frecce sinistra/destra.\n\nVedrai che non può muoversi. Sistemiamolo.",
+            "tr": "Şövalyeyi sol/sağ ok tuşlarıyla hareket ettirmeyi dene.\n\nHareket edemediğini göreceksin. Hadi bunu düzeltelim.",
+            "ja": "矢印キーの左/右でナイトを動かしてみてください。\n\n動かないことがわかりますね。修正しましょう。",
+            "ko": "왼쪽/오른쪽 화살표 키로 기사 이동을 시도해 보세요.\n\n움직이지 않는 것을 볼 수 있습니다. 수정해 봅시다.",
+            "pl": "Spróbuj poruszyć rycerzem za pomocą strzałek lewo/prawo.\n\nZobaczysz, że nie może się ruszyć. Naprawmy to.",
+            "pt": "Tente mover o cavaleiro com as setas esquerda/direita.\n\nVocê verá que ele não pode se mover. Vamos corrigir isso.",
+            "th": "ลองขยับอัศวินด้วยปุ่มลูกศรซ้าย/ขวา\n\nคุณจะเห็นว่าเขาไม่สามารถเคลื่อนที่ได้ มาแก้ไขกันเถอะ",
+            "ru": "Попробуйте переместить рыцаря с помощью стрелок влево/вправо.\n\nВы увидите, что он не может двигаться. Давайте это исправим.",
+            "sl": "Poskusi premakniti viteza s puščicama levo/desno.\n\nVideli boste, da se ne more premakniti. Popravimo to.",
+            "sq": "Provo ta lëvizësh kalorësin me shigjetat majtas/djathtas.\n\nDo të shohësh që nuk mund të lëvizë. Ta rregullojmë këtë.",
+            "uk": "Спробуйте перемістити лицаря стрілками вліво/вправо.\n\nВи побачите, що він не може рухатися. Давайте це виправимо.",
+            "zh": "尝试使用左右箭头移动骑士。\n\n你会发现它无法移动。让我们来修复它。"
           }
         }
       }
@@ -242,58 +242,27 @@
     },
     {
       "metaKind": "launch-preview",
-      "nextStep": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "it": "Avanti",
-            "tr": "Sonraki",
-            "ja": "次へ",
-            "ko": "다음",
-            "pl": "Następny",
-            "pt": "Próximo",
-            "th": "ถัดไป",
-            "ru": "Далее",
-            "sl": "Naprej",
-            "sq": "Tjetër",
-            "uk": "Далі",
-            "zh": "下一个"
-          }
-        }
-      },
-      {
-        "metaKind": "launch-preview",
-        "previewLaunched": true,
-        "inGameMessage": {
-          "messageByLocale": {
-            "en": "The knight will fall in loop.\n\nLet's add a new behavior to the green platform.",
-          }
-        },
-        "inGameMessagePosition": "bottom-right",
-        "description": {
+      "nextStep": "previewLaunched",
+      "inGameMessagePosition": "bottom-right",
+      "inGameMessage": {
         "messageByLocale": {
           "en": "The knight will fall in loop.\n\nLet's add a new behavior to the green platform.",
-          "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
-          "ar": "إذا كنت تقوم بمعاينة اللعبة الآن، سيسقط الفارس في حلقة.\n\nلنضف التصادم إلى المنصات.",
-          "de": "Wenn Sie das Spiel jetzt in der Vorschau ansehen, wird der Ritter in einer Schleife fallen.\n\nLassen Sie uns die Kollision zu den Plattformen hinzufügen.",
-          "es": "Si estás previsualizando el juego ahora, el caballero caerá en bucle.\n\nAgreguemos la colisión a las plataformas.",
-          "it": "Se stai visualizzando l'anteprima del gioco ora, il cavaliere cadrà in un loop.\n\nAggiungiamo la collisione alle piattaforme.",
-          "tr": "Eğer şu anda oyunu önizliyorsanız, şövalye döngü içinde düşer.\n\nPlatformlara çarpışmayı ekleyelim.",
-          "ja": "ゲームをプレビューしている場合、騎士はループして落ち続けます。\n\nプラットフォームに衝突を追加しましょう。",
-          "ko": "지금 게임을 미리 보기 중이라면 기사가 반복해서 떨어질 것입니다.\n\n플랫폼에 충돌을 추가해 보겠습니다.",
-          "pl": "Jeśli teraz podglądasz grę, rycerz będzie spadał w pętli.\n\nDodajmy kolizję do platform.",
-          "pt": "Se você estiver visualizando o jogo agora, o cavaleiro cairá em um loop.\n\nVamos adicionar a colisão às plataformas.",
-          "th": "หากคุณกำลังดูตัวอย่างเกมตอนนี้ อัศวินจะตกในลูป\n\nมาเพิ่มการชนกับแพลตฟอร์มกันเถอะ",
-          "ru": "Если вы просматриваете игру сейчас, рыцарь будет падать в цикле.\n\nДавайте добавим столкновение с платформами.",
-          "sl": "Če si zdaj ogledujete predogled igre, bo vitez padel v zanki.\n\nDodajmo trčenje na platforme.",
-          "sq": "Nëse po shikoni paraprakisht lojën tani, kalorësi do të bjerë në një rreth.\n\nLe të shtojmë përplasjen me platformat.",
-          "uk": "Якщо ви зараз переглядаєте гру, лицар буде падати в циклі.\n\nДавайте додамо зіткнення з платформами.",
-          "zh": "如果你现在预览游戏，骑士会在循环中掉落。\n\n让我们为平台添加碰撞。"
-        }
+          "fr": "Le chevalier tombera en boucle.\n\nAjoutons un nouveau comportement à la plateforme verte.",
+          "ar": "سيسقط الفارس في حلقة متكررة.\n\nلنُضف سلوكًا جديدًا إلى المنصة الخضراء.",
+          "de": "Der Ritter wird in einer Schleife fallen.\n\nLass uns der grünen Plattform ein neues Verhalten hinzufügen.",
+          "es": "El caballero caerá en un bucle.\n\nAñadamos un nuevo comportamiento a la plataforma verde.",
+          "it": "Il cavaliere cadrà in un loop.\n\nAggiungiamo un nuovo comportamento alla piattaforma verde.",
+          "tr": "Şövalye döngü içinde düşecek.\n\nYeşil platforma yeni bir davranış ekleyelim.",
+          "ja": "ナイトはループして落下します。\n\n緑のプラットフォームに新しい挙動を追加しましょう。",
+          "ko": "기사가 반복적으로 떨어질 것입니다.\n\n초록색 플랫폼에 새로운 동작을 추가해 봅시다.",
+          "pl": "Rycerz będzie spadał w pętli.\n\nDodajmy nowe zachowanie do zielonej platformy.",
+          "pt": "O cavaleiro cairá em um loop.\n\nVamos adicionar um novo comportamento à plataforma verde.",
+          "th": "อัศวินจะตกลงไปในลูป\n\nมาเพิ่มพฤติกรรมใหม่ให้กับแพลตฟอร์มสีเขียวกันเถอะ",
+          "ru": "Рыцарь будет падать в цикле.\n\nДавайте добавим новое поведение зелёной платформе.",
+          "sl": "Vitez bo padal v zanki.\n\nDodajmo novo vedenje zeleni platformi.",
+          "sq": "Kalorësi do të bjerë në një cikël të pafund.\n\nLe të shtojmë një sjellje të re në platformën e gjelbër.",
+          "uk": "Лицар буде падати в циклі.\n\nДодамо нову поведінку зеленій платформі.",
+          "zh": "骑士会不断掉落。\n\n让我们给绿色平台添加一个新行为。"
         }
       }
     },
