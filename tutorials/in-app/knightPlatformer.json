@@ -265,13 +265,16 @@
           }
         }
       },
-
-      "nextStepTrigger": {
+      {
+        "metaKind": "launch-preview",
         "previewLaunched": true,
-        "inGameMessagePosition": "bottom-right",
         "inGameMessage": {
           "messageByLocale": {
-      "description": {
+            "en": "The knight will fall in loop.\n\nLet's add a new behavior to the green platform.",
+          }
+        },
+        "inGameMessagePosition": "bottom-right",
+        "description": {
         "messageByLocale": {
           "en": "The knight will fall in loop.\n\nLet's add a new behavior to the green platform.",
           "fr": "Si vous prévisualisez le jeu maintenant, le chevalier tombera en boucle.\n\nAjoutons la collision aux plates-formes.",
@@ -290,6 +293,7 @@
           "sq": "Nëse po shikoni paraprakisht lojën tani, kalorësi do të bjerë në një rreth.\n\nLe të shtojmë përplasjen me platformat.",
           "uk": "Якщо ви зараз переглядаєте гру, лицар буде падати в циклі.\n\nДавайте додамо зіткнення з платформами.",
           "zh": "如果你现在预览游戏，骑士会在循环中掉落。\n\n让我们为平台添加碰撞。"
+        }
         }
       }
     },
