@@ -538,7 +538,49 @@
     {
       "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
-        "previewLaunched": true
+        "previewLaunched": true,
+        "inGameMessage": {
+          "messageByLocale": {
+            "en": "Great job! Now use your arrows and space bar to press the purple button.",
+            "fr": "Super travail ! Utilisez maintenant les flèches et la barre d'espace pour appuyer sur le bouton violet.",
+            "ar": "عمل رائع! الآن استخدم الأسهم وشريط المسافة للضغط على الزر الأرجواني.",
+            "de": "Tolle Arbeit! Verwende nun die Pfeiltasten und die Leertaste, um den violetten Knopf zu drücken.",
+            "es": "¡Buen trabajo! Ahora usa las flechas y la barra espaciadora para presionar el botón morado.",
+            "it": "Ottimo lavoro! Ora usa le frecce e la barra spaziatrice per premere il pulsante viola.",
+            "tr": "Harika iş çıkardın! Şimdi mor düğmeye basmak için ok tuşlarını ve boşluk tuşunu kullan.",
+            "ja": "よくできました！次は矢印キーとスペースバーで紫色のボタンを押しましょう。",
+            "ko": "잘했어요! 이제 화살표 키와 스페이스바를 사용하여 보라색 버튼을 누르세요.",
+            "pl": "Świetna robota! Teraz użyj strzałek i spacji, aby nacisnąć fioletowy przycisk.",
+            "pt": "Ótimo trabalho! Agora use as setas e a barra de espaço para pressionar o botão roxo.",
+            "ru": "Отличная работа! Теперь используйте стрелки и пробел, чтобы нажать фиолетовую кнопку.",
+            "sl": "Odlično opravljeno! Sedaj uporabi puščice in preslednico, da pritisneš vijolični gumb.",
+            "sq": "Pune e shkëlqyer! Tani përdor shigjetat dhe tastin e hapësirës për të shtypur butonin vjollcë.",
+            "th": "เยี่ยมมาก! ตอนนี้ใช้ปุ่มลูกศรและแป้นเว้นวรรคเพื่อกดปุ่มสีม่วง",
+            "uk": "Чудова робота! Тепер використайте стрілки та пробіл, щоб натиснути фіолетову кнопку.",
+            "zh": "干得好！现在使用箭头键和空格键按下紫色按钮。"
+          }
+        },
+        "inGameTouchMessage": {
+          "messageByLocale": {
+            "en": "Great job! Now use the joystick and A button to press the purple button.",
+            "fr": "Super travail ! Utilisez maintenant le joystick et le bouton A pour appuyer sur le bouton violet.",
+            "ar": "عمل رائع! الآن استخدم عصا التحكم والزر A للضغط على الزر الأرجواني.",
+            "de": "Tolle Arbeit! Verwende nun den Joystick und die A-Taste, um den violetten Knopf zu drücken.",
+            "es": "¡Buen trabajo! Ahora usa el joystick y el botón A para presionar el botón morado.",
+            "it": "Ottimo lavoro! Ora usa il joystick e il pulsante A per premere il pulsante viola.",
+            "tr": "Harika iş çıkardın! Şimdi mor düğmeye basmak için joystick ve A düğmesini kullan.",
+            "ja": "よくできました！次はジョイスティックとAボタンで紫色のボタンを押しましょう。",
+            "ko": "잘했어요! 이제 조이스틱과 A 버튼을 사용하여 보라색 버튼을 누르세요.",
+            "pl": "Świetna robota! Teraz użyj joysticka i przycisku A, aby nacisnąć fioletowy przycisk.",
+            "pt": "Ótimo trabalho! Agora use o joystick e o botão A para pressionar o botão roxo.",
+            "ru": "Отличная работа! Теперь используйте джойстик и кнопку A, чтобы нажать фиолетовую кнопку.",
+            "sl": "Odlično opravljeno! Sedaj uporabi joystick in gumb A, da pritisneš vijolični gumb.",
+            "sq": "Pune e shkëlqyer! Tani përdor joystick-un dhe butonin A për të shtypur butonin vjollcë.",
+            "th": "เยี่ยมมาก! ตอนนี้ใช้จอยสติ๊กและปุ่ม A เพื่อกดปุ่มสีม่วง",
+            "uk": "Чудова робота! Тепер використайте джойстик і кнопку A, щоб натиснути фіолетову кнопку.",
+            "zh": "干得好！现在使用摇杆和A键按下紫色按钮。"
+          }
+        }
       },
       "tooltip": {
         "description": {
