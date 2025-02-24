@@ -441,22 +441,6 @@
         "name": "assets\\Shadow.png",
         "smoothed": false,
         "userAdded": true
-      },
-      {
-        "file": "assets/Platform_Stone1-solid.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Platform_Stone1-solid.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Platform_Metal-solid.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Platform_Metal-solid.png",
-        "smoothed": false,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -540,7 +524,7 @@
           "layer": "",
           "name": "KnightHitBox",
           "persistentUuid": "0e59309a-e0ab-4975-bf90-02e652466dd9",
-          "width": 64,
+          "width": 40,
           "x": 64,
           "y": 364,
           "zOrder": 1,
@@ -783,40 +767,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floorcaps",
-          "persistentUuid": "57a2c5a1-f026-40f0-9d5e-0265da6c083e",
-          "width": 576,
-          "x": 64,
-          "y": 640,
-          "zOrder": -100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floorcaps",
-          "persistentUuid": "ce3b7bec-f98b-41c5-928a-6a7893376011",
-          "width": 384,
-          "x": 64,
-          "y": 384,
-          "zOrder": 1008,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 768,
           "keepRatio": true,
           "layer": "",
@@ -837,29 +787,12 @@
           "height": 64,
           "keepRatio": true,
           "layer": "",
-          "name": "Floorcaps",
-          "persistentUuid": "7bd6e515-bf34-4e81-8d84-ea3d71ae2435",
-          "width": 192,
-          "x": 640,
-          "y": 384,
-          "zOrder": 1008,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floorcaps_solid",
-          "persistentUuid": "13f6cf1c-e73e-41d6-a297-6adc7013d623",
-          "width": 192,
+          "name": "Tiles",
+          "persistentUuid": "e1f2ec5e-3f65-4234-bee6-f725487d4d78",
+          "width": 512,
           "x": -64,
           "y": 384,
-          "zOrder": 1009,
+          "zOrder": -200,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1763,17 +1696,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 64,
-          "name": "Floorcaps",
-          "texture": "Platform_Stone1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
           "height": 768,
           "name": "BackgroundTiled",
           "texture": "assets\\Clouds.png",
@@ -1782,25 +1704,6 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 64,
-          "name": "Floorcaps_solid",
-          "texture": "assets\\Platform_Metal-solid.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1826,12 +1729,6 @@
           },
           {
             "objectName": "BackgroundTiled"
-          },
-          {
-            "objectName": "Floorcaps"
-          },
-          {
-            "objectName": "Floorcaps_solid"
           },
           {
             "objectName": "RightArrow"
@@ -2057,14 +1954,14 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "MettreXY"
+                            "value": "SetCenter"
                           },
                           "parameters": [
                             "KnightArtwork",
                             "=",
-                            "KnightHitBox.X()",
+                            "KnightHitBox.CenterX()",
                             "=",
-                            "KnightHitBox.Y()"
+                            "KnightHitBox.CenterY()"
                           ]
                         }
                       ]
@@ -3029,10 +2926,6 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "Resizable",
