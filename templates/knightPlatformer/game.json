@@ -441,6 +441,14 @@
         "name": "assets\\Shadow.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Platform_Stone1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Platform_Stone1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -793,6 +801,23 @@
           "x": -64,
           "y": 384,
           "zOrder": -200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TilesWithGrass",
+          "persistentUuid": "10cd0309-0692-4da2-a79f-768318265039",
+          "width": 192,
+          "x": -64,
+          "y": 384,
+          "zOrder": 2001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1704,6 +1729,25 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 64,
+          "name": "TilesWithGrass",
+          "texture": "assets/Platform_Stone1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1717,6 +1761,9 @@
           },
           {
             "objectName": "Tiles"
+          },
+          {
+            "objectName": "TilesWithGrass"
           },
           {
             "objectName": "KnightArtwork"
@@ -2926,6 +2973,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "Resizable",
