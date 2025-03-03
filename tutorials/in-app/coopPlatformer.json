@@ -486,7 +486,7 @@
       }
     },
     {
-      "elementToHighlightId": "div[data-object-name=PlayerObjects]",
+      "elementToHighlightId": "div[data-group-name=PlayerObjects]",
       "nextStepTrigger": {
         "presenceOfElement": "#object-instruction-selector"
       },
