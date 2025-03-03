@@ -862,23 +862,23 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Here we enter the **$(player)** position on the x-axis.",
-            "fr": "Ici, nous entrons la position de **$(player)** sur l'axe des x.",
-            "ar": "هنا ندخل موضع **$(player)** على المحور السيني.",
-            "de": "Hier geben wir die Position des **$(player)** auf der x-Achse ein.",
-            "es": "Aquí ingresamos la posición del **$(player)** en el eje x.",
-            "it": "Qui inseriamo la posizione del **$(player)** sull'asse x.",
-            "tr": "Burada **$(player)**'ın x eksenindeki konumunu giriyoruz.",
-            "ja": "ここでは、x軸上の**$(player)**の位置を入力します。",
-            "ko": "여기에서 x축에서 **$(player)**의 위치를 입력합니다.",
-            "pl": "Tutaj wprowadzamy pozycję **$(player)** na osi x.",
-            "pt": "Aqui inserimos a posição do **$(player)** no eixo x.",
-            "ru": "Здесь мы вводим позицию **$(player)** по оси x.",
-            "sl": "Tukaj vnesemo položaj **$(player)** na x-osi.",
-            "sq": "Këtu hyjmë pozitat e **$(player)** në aksin x.",
-            "th": "ที่นี่เราจะป้อนตำแหน่งของ **$(player)** บนแกน x.",
-            "uk": "Тут ми вводимо позицію **$(player)** по осі x.",
-            "zh": "在这里，我们输入**$(player)**在x轴上的位置。"
+            "en": "Here we enter the **$(player)** position on the x-axis.\n\nEnter **Slime.CenterX()**.",
+            "fr": "Ici, nous entrons la position de **$(player)** sur l'axe des x.\n\nEntrez **Slime.CenterX()**.",
+            "ar": "هنا ندخل موضع **$(player)** على المحور السيادي.\n\nأدخل **Slime.CenterX()**.",
+            "de": "Hier geben wir die Position des **$(player)** auf der x-Achse ein.\n\nGeben Sie **Slime.CenterX()** ein.",
+            "es": "Aquí ingresamos la posición del **$(player)** en el eje x.\n\nIngresa **Slime.CenterX()**.",
+            "it": "Qui inseriamo la posizione del **$(player)** sull'asse x.\n\nInserisci **Slime.CenterX()**.",
+            "tr": "Burada **$(player)**'ın x eksenindeki konumunu giriyoruz.\n\n**Slime.CenterX()**'yi girin.",
+            "ja": "ここでは、x軸上の**$(player)**の位置を入力します。\n\n**Slime.CenterX()**を入力します。",
+            "ko": "여기에서 x축에서 **$(player)**의 위치를 입력합니다.\n\n**Slime.CenterX()**를 입력하세요.",
+            "pl": "Tutaj wprowadzamy pozycję **$(player)** na osi x.\n\nWprowadź **Slime.CenterX()**.",
+            "pt": "Aqui inserimos a posição do **$(player)** no eixo x.\n\nInsira **Slime.CenterX()**.",
+            "ru": "Здесь мы вводим позицию **$(player)** по оси x.\n\nВведите **Slime.CenterX()**.",
+            "sl": "Tukaj vnesemo položaj **$(player)** na x osi.\n\nVnesite **Slime.CenterX()**.",
+            "sq": "Këtu hyjmë pozicionin e **$(player)** në boshtin x.\n\nHyni **Slime.CenterX()**.",
+            "th": "ที่นี่เราจะป้อนตำแหน่งของ **$(player)** บนแกน x\n\nป้อน **Slime.CenterX()**",
+            "uk": "Тут ми вводимо позицію **$(player)** на осі x.\n\nВведіть **Slime.CenterX()**.",
+            "zh": "在这里，我们输入**$(player)**在x轴上的位置。\n\n输入**Slime.CenterX()**。"
           }
         },
         "placement": "left"
@@ -893,23 +893,23 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Then on the y-axis.",
-            "fr": "Puis sur l'axe y.",
-            "ar": "ثم على المحور الصادي.",
-            "de": "Dann auf der y-Achse.",
-            "es": "Luego en el eje y.",
-            "it": "Poi sull'asse y.",
-            "tr": "Sonra y ekseninde.",
-            "ja": "次にy軸上で。",
-            "ko": "그다음 y축에서.",
-            "pl": "Następnie na osi y.",
-            "pt": "Depois no eixo y.",
-            "ru": "Затем по оси y.",
-            "sl": "Nato na y osi.",
-            "sq": "Pastaj në boshtin y.",
-            "th": "จากนั้นบนแกน y",
-            "uk": "Потім на осі y.",
-            "zh": "然后是y轴。"
+            "en": "Then on the y-axis.\n\nEnter **Slime.CenterY()**.",
+            "fr": "Puis sur l'axe des y.\n\nEntrez **Slime.CenterY()**.",
+            "ar": "ثم على المحور الصادي.\n\nأدخل **Slime.CenterY()**.",
+            "de": "Dann auf der y-Achse.\n\nGeben Sie **Slime.CenterY()** ein.",
+            "es": "Luego en el eje y.\n\nIngresa **Slime.CenterY()**.",
+            "it": "Poi sull'asse y.\n\nInserisci **Slime.CenterY()**.",
+            "tr": "Sonra y ekseninde.\n\n**Slime.CenterY()**'yi girin.",
+            "ja": "次にy軸に。\n\n**Slime.CenterY()**を入力します。",
+            "ko": "그런 다음 y축에서.\n\n**Slime.CenterY()**를 입력하세요.",
+            "pl": "Następnie na osi y.\n\nWprowadź **Slime.CenterY()**.",
+            "pt": "Então no eixo y.\n\nInsira **Slime.CenterY()**.",
+            "ru": "Затем по оси y.\n\nВведите **Slime.CenterY()**.",
+            "sl": "Nato na y osi.\n\nVnesite **Slime.CenterY()**.",
+            "sq": "Pastaj në boshtin y.\n\nHyni **Slime.CenterY()**.",
+            "th": "จากนั้นบนแกน y\n\nป้อน **Slime.CenterY()**",
+            "uk": "Потім по осі y.\n\nВведіть **Slime.CenterY()**.",
+            "zh": "然后在y轴上。\n\n输入**Slime.CenterY()**。"
           }
         },
         "placement": "left"
@@ -1093,23 +1093,23 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Here we enter the **$(player)** position on the x-axis.",
-            "fr": "Ici nous entrons la position de **$(player)** sur l'axe x.",
-            "ar": "هنا ندخل موقع **$(player)** على المحور السيني.",
-            "de": "Hier geben wir die Position von **$(player)** auf der x-Achse ein.",
-            "es": "Aquí introducimos la posición de **$(player)** en el eje x.",
-            "it": "Qui inseriamo la posizione di **$(player)** sull'asse x.",
-            "tr": "**$(player)**'ın x eksenindeki konumunu buraya giriyoruz.",
-            "ja": "ここでは、x軸上の**$(player)**の位置を入力します。",
-            "ko": "여기에서 x축의 **$(player)** 위치를 입력합니다.",
-            "pl": "Tutaj wprowadzamy pozycję **$(player)** na osi x.",
-            "pt": "Aqui inserimos a posição do **$(player)** no eixo x.",
-            "ru": "Здесь мы вводим положение **$(player)** по оси x.",
-            "sl": "Tukaj vnesemo položaj **$(player)** na x osi.",
-            "sq": "Këtu vendosim pozicionin e **$(player)** në boshtin x.",
-            "th": "ที่นี่เราป้อนตำแหน่งของ **$(player)** บนแกน x",
-            "uk": "Тут ми вводимо позицію **$(player)** на осі x.",
-            "zh": "在这里，我们输入**$(player)**在x轴上的位置。"
+            "en": "Here we enter the **$(player)** position on the x-axis.\n\nEnter **Slime.CenterX()**.",
+            "fr": "Ici, nous entrons la position de **$(player)** sur l'axe des x.\n\nEntrez **Slime.CenterX()**.",
+            "ar": "هنا ندخل موضع **$(player)** على المحور السيادي.\n\nأدخل **Slime.CenterX()**.",
+            "de": "Hier geben wir die Position des **$(player)** auf der x-Achse ein.\n\nGeben Sie **Slime.CenterX()** ein.",
+            "es": "Aquí ingresamos la posición del **$(player)** en el eje x.\n\nIngresa **Slime.CenterX()**.",
+            "it": "Qui inseriamo la posizione del **$(player)** sull'asse x.\n\nInserisci **Slime.CenterX()**.",
+            "tr": "Burada **$(player)**'ın x eksenindeki konumunu giriyoruz.\n\n**Slime.CenterX()**'yi girin.",
+            "ja": "ここでは、x軸上の**$(player)**の位置を入力します。\n\n**Slime.CenterX()**を入力します。",
+            "ko": "여기에서 x축에서 **$(player)**의 위치를 입력합니다.\n\n**Slime.CenterX()**를 입력하세요.",
+            "pl": "Tutaj wprowadzamy pozycję **$(player)** na osi x.\n\nWprowadź **Slime.CenterX()**.",
+            "pt": "Aqui inserimos a posição do **$(player)** no eixo x.\n\nInsira **Slime.CenterX()**.",
+            "ru": "Здесь мы вводим позицию **$(player)** по оси x.\n\nВведите **Slime.CenterX()**.",
+            "sl": "Tukaj bomo vnesli položaj **$(player)** na x osi.\n\nVnesite **Slime.CenterX()**.",
+            "sq": "Këtu hyjmë pozicionin e **$(player)** në boshtin x.\n\nHyni **Slime.CenterX()**.",
+            "th": "ที่นี่เราจะป้อนตำแหน่งของ **$(player)** บนแกน x\n\nป้อน **Slime.CenterX()**",
+            "uk": "Тут ми вводимо позицію **$(player)** на осі x.\n\nВведіть **Slime.CenterX()**.",
+            "zh": "在这里，我们输入**$(player)**在x轴上的位置。\n\n输入**Slime.CenterX()**。"
           }
         },
         "placement": "left"
@@ -1124,23 +1124,23 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Then on the y-axis.",
-            "fr": "Puis sur l'axe y.",
-            "ar": "ثم على المحور الصادي.",
-            "de": "Dann auf der y-Achse.",
-            "es": "Luego en el eje y.",
-            "it": "Poi sull'asse y.",
-            "tr": "Sonra y ekseninde.",
-            "ja": "次にy軸上で。",
-            "ko": "그다음 y축에서.",
-            "pl": "Następnie na osi y.",
-            "pt": "Depois no eixo y.",
-            "ru": "Затем по оси y.",
-            "sl": "Nato na y osi.",
-            "sq": "Pastaj në boshtin y.",
-            "th": "จากนั้นบนแกน y",
-            "uk": "Потім на осі y.",
-            "zh": "然后是y轴。"
+            "en": "Then on the y-axis.\n\nEnter **Slime.CenterY()**.",
+            "fr": "Puis sur l'axe des y.\n\nEntrez **Slime.CenterY()**.",
+            "ar": "ثم على المحور الصادي.\n\nأدخل **Slime.CenterY()**.",
+            "de": "Dann auf der y-Achse.\n\nGeben Sie **Slime.CenterY()** ein.",
+            "es": "Luego en el eje y.\n\nIngresa **Slime.CenterY()**.",
+            "it": "Poi sull'asse y.\n\nInserisci **Slime.CenterY()**.",
+            "tr": "Sonra y ekseninde.\n\n**Slime.CenterY()**'yi girin.",
+            "ja": "次にy軸に。\n\n**Slime.CenterY()**を入力します。",
+            "ko": "그런 다음 y축에서.\n\n**Slime.CenterY()**를 입력하세요.",
+            "pl": "Następnie na osi y.\n\nWprowadź **Slime.CenterY()**.",
+            "pt": "Então no eixo y.\n\nInsira **Slime.CenterY()**.",
+            "ru": "Затем по оси y.\n\nВведите **Slime.CenterY()**.",
+            "sl": "Nato na y osi.\n\nVnesite **Slime.CenterY()**.",
+            "sq": "Pastaj në boshtin y.\n\nHyni **Slime.CenterY()**.",
+            "th": "จากนั้นบนแกน y\n\nป้อน **Slime.CenterY()**",
+            "uk": "Потім по осі y.\n\nВведіть **Slime.CenterY()**.",
+            "zh": "然后在y轴上。\n\n输入**Slime.CenterY()**。"
           }
         },
         "placement": "left"
