@@ -510,6 +510,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:border",
       "nextStepTrigger": {
         "instanceAddedOnScene": "border"
@@ -688,6 +719,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:projectile",
       "nextStepTrigger": {
         "instanceAddedOnScene": "projectile",
@@ -831,6 +893,37 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:target",
@@ -977,6 +1070,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:block",
       "nextStepTrigger": {
         "instanceAddedOnScene": "block",
@@ -994,6 +1118,37 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:border",
@@ -1120,6 +1275,37 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:projectile",
@@ -1278,6 +1464,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:target",
       "nextStepTrigger": {
         "presenceOfElement": "#object-editor-dialog"
@@ -1360,6 +1577,37 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:block",
@@ -1579,6 +1827,37 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:projectile",
@@ -1869,6 +2148,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:background",
       "nextStepTrigger": {
         "instanceAddedOnScene": "background"
@@ -2125,6 +2435,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:obstacle",
       "nextStepTrigger": {
         "presenceOfElement": "#object-editor-dialog"
@@ -2249,6 +2590,37 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:obstacle",
@@ -2431,6 +2803,37 @@
       "mapProjectData": {
         "youWinText": "sceneLastObjectName:playScene"
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:youWinText",
@@ -3000,6 +3403,37 @@
           }
         }
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:grabArea",
@@ -3645,6 +4079,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:background",
       "nextStepTrigger": {
         "presenceOfElement": "#objects-list [data-global=true]"
@@ -3723,6 +4188,37 @@
         },
         "placement": "right"
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "id": "CreateNewScene",
@@ -3940,6 +4436,37 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
+    },
+    {
       "elementToHighlightId": "objectInObjectsList:title",
       "nextStepTrigger": {
         "instanceAddedOnScene": "title:startScene"
@@ -3958,6 +4485,37 @@
         "placement": "left"
       },
       "interactsWithCanvas": true
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:title",
@@ -3980,6 +4538,37 @@
       "mapProjectData": {
         "startText": "sceneLastObjectName:startScene"
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:startText",
@@ -4080,6 +4669,37 @@
       "mapProjectData": {
         "startText": "sceneLastObjectName:startScene"
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:startText",
@@ -4583,6 +5203,37 @@
       "mapProjectData": {
         "scoreText": "sceneLastObjectName:playScene"
       }
+    },
+    {
+      "elementToHighlightId": "#toolbar-open-objects-panel-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "#add-new-object-button"
+      },
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "Open the **Objects** panel.",
+            "fr": "Ouvrez le panneau des **objets**.",
+            "ar": "فتح لوحة **الكائنات**.",
+            "de": "Öffnen Sie das **Objekte**-Panel.",
+            "es": "Abre el panel de **objetos**.",
+            "it": "Apri il pannello **Oggetti**.",
+            "tr": "**Nesneler** panelini açın.",
+            "ja": "**オブジェクト**パネルを開いてください。",
+            "ko": "**오브젝트** 패널을 엽니다.",
+            "pl": "Otwórz panel **Obiekty**.",
+            "pt": "Abra o painel de **objetos**.",
+            "ru": "Откройте панель **Объекты**.",
+            "sl": "Odpri panel **Predmeti**.",
+            "sq": "Hapni panelin e **objekteve**.",
+            "th": "เปิดแผงควบคุม **วัตถุ**",
+            "uk": "Відкрийте панель **Об'єкти**.",
+            "zh": "打开**对象**面板。"
+          }
+        },
+        "placement": "bottom"
+      },
+      "skippable": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:scoreText",
