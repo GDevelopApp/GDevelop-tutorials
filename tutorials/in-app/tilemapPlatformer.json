@@ -150,23 +150,23 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "The **$(player)** cannot jump over the pit!\nWe have to edit the terrain to add a bridge.\n\nSelect the terrain in the scene!",
-            "fr": "Le **$(player)** ne peut pas sauter par-dessus le fossé !\nNous devons modifier le terrain pour ajouter un pont.\n\nSélectionnez le terrain dans la scène !",
-            "ar": "لا يمكن لـ **$(player)** القفز فوق الحفرة!\nعلينا تعديل التضاريس لإضافة جسر.\n\nحدد التضاريس في المشهد!",
-            "de": "Der **$(player)** kann nicht über die Grube springen!\nWir müssen das Terrain bearbeiten, um eine Brücke hinzuzufügen.\n\nWählen Sie das Terrain in der Szene aus!",
-            "es": "¡El **$(player)** no puede saltar sobre la trinchera!\nTenemos que editar el terreno para agregar un puente.\n\n¡Selecciona el terreno en la escena!",
-            "it": "Il **$(player)** non può saltare oltre il fossato!\nDobbiamo modificare il terreno per aggiungere un ponte.\n\nSeleziona il terreno nella scena!",
-            "tr": "**$(player)** hendek üzerinden atlayamaz!\nKöprü eklemek için araziyi düzenlememiz gerekiyor.\n\nSahnedeki araziyi seçin!",
-            "ja": "**$(player)**は穴を飛び越えることができません！\n橋を追加するために地形を編集する必要があります。\n\nシーンで地形を選択してください！",
+            "en": "The **$(player)** cannot jump over the pit!\nWe have to edit the terrain to add a bridge.",
+            "fr": "Le **$(player)** ne peut pas sauter par-dessus le fossé !\nNous devons modifier le terrain pour ajouter un pont.",
+            "ar": "لا يمكن لـ **$(player)** القفز فوق الحفرة!\nعلينا تعديل التضاريس لإضافة جسر.",
+            "de": "Der **$(player)** kann nicht über die Grube springen!\nWir müssen das Terrain bearbeiten, um eine Brücke hinzuzufügen.",
+            "es": "¡El **$(player)** no puede saltar sobre la trinchera!\nTenemos que editar el terreno para agregar un puente.",
+            "it": "Il **$(player)** non può saltare oltre il fossato!\nDobbiamo modificare il terreno per aggiungere un ponte.",
+            "tr": "**$(player)** hendek üzerinden atlayamaz!\nKöprü eklemek için araziyi düzenlememiz gerekiyor.",
+            "ja": "**$(player)**は穴を飛び越えることができません！\n橋を追加するために地形を編集する必要があります。",
             "ko": "**$(player)**는 구덩이를 넘을 수 없습니다!\n다리를 추가하기 위해 지형을 수정해야 합니다.\n\n장면에서 지형을 선택하세요!",
-            "pl": "**$(player)** nie może przeskoczyć przez dół!\nMusimy edytować teren, aby dodać most.\n\nWybierz teren na scenie!",
-            "pt": "O **$(player)** não pode pular sobre a cova!\nPrecisamos editar o terreno para adicionar uma ponte.\n\nSelecione o terreno na cena!",
-            "ru": "**$(player)** не может перепрыгнуть через яму!\nНам нужно отредактировать местность, чтобы добавить мост.\n\nВыберите местность на сцене!",
-            "sl": "**$(player)** ne more skočiti čez jamo!\nUrediti moramo teren, da dodamo most.\n\nIzberite teren v prizoru!",
-            "sq": "**$(player)** nuk mund të saltojë mbi gropën!\nDuhet të redaktojmë terrenin për të shtuar një urë.\n\nZgjidhni terrenin në skenë!",
-            "th": "**$(player)** ไม่สามารถกระโดดข้ามหลุมได้!\nเราต้องแก้ไขภูมิประเทศเพื่อเพิ่มสะพาน\n\nเลือกภูมิประเทศในฉาก!",
-            "uk": "**$(player)** не може стрибати через яму!\nНам потрібно редагувати рельєф, щоб додати міст.\n\nВиберіть рельєф у сцені!",
-            "zh": "**$(player)**无法跳过坑！\n我们必须编辑地形以添加桥梁。\n\n在场景中选择地形！"
+            "pl": "**$(player)** nie może przeskoczyć przez dół!\nMusimy edytować teren, aby dodać most.",
+            "pt": "O **$(player)** não pode pular sobre a cova!\nPrecisamos editar o terreno para adicionar uma ponte.",
+            "ru": "**$(player)** не может перепрыгнуть через яму!\nНам нужно отредактировать местность, чтобы добавить мост.",
+            "sl": "**$(player)** ne more skočiti čez jamo!\nUrediti moramo teren, da dodamo most.",
+            "sq": "**$(player)** nuk mund të saltojë mbi gropën!\nDuhet të redaktojmë terrenin për të shtuar një urë.",
+            "th": "**$(player)** ไม่สามารถกระโดดข้ามหลุมได้!\nเราต้องแก้ไขภูมิประเทศเพื่อเพิ่มสะพาน",
+            "uk": "**$(player)** не може стрибати через яму!\nНам потрібно редагувати рельєф, щоб додати міст.",
+            "zh": "**$(player)**无法跳过坑！\n我们必须编辑地形以添加桥梁。"
           }
         }
       },
@@ -222,30 +222,33 @@
       "nextStepTrigger": {
         "presenceOfElement": "#paintBrush"
       },
-      "skippable": true
+      "skippable": true,
+      "interactsWithCanvas": true
     },
     {
       "elementToHighlightId": "#paintBrush",
+      "disableBlockingLayer": true,
       "tooltip": {
+        "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "This is the **paint brush tool**; this tool is used to paint tiles on the terrain.\nClick on it, then click on the bridge, just above the red apple.",
-            "fr": "Ceci est l'**outil pinceau** ; cet outil est utilisé pour peindre des tuiles sur le terrain.\nCliquez dessus, puis cliquez sur le pont, juste au-dessus de la pomme rouge.",
-            "ar": "هذه هي **أداة فرشاة الطلاء**؛ تُستخدم هذه الأداة لطلاء البلاط على التضاريس.\nانقر عليها، ثم انقر على الجسر، مباشرة فوق التفاح الأحمر.",
-            "de": "Dies ist das **Pinselwerkzeug**; dieses Werkzeug wird verwendet, um Fliesen auf dem Gelände zu malen.\nKlicken Sie darauf und dann auf die Brücke, direkt über dem roten Apfel.",
-            "es": "Esta es la **herramienta de pincel**; esta herramienta se utiliza para pintar losetas en el terreno.\nHaz clic en ella, luego haz clic en el puente, justo encima de la manzana roja.",
-            "it": "Questo è lo **strumento pennello**; questo strumento viene utilizzato per dipingere le piastrelle sul terreno.\nFai clic su di esso, quindi fai clic sul ponte, appena sopra la mela rossa.",
-            "tr": "Bu, **boya fırçası aracıdır**; bu araç, arazideki kiremitleri boyamak için kullanılır.\nÜzerine tıklayın, ardından kırmızı elmanın hemen üstündeki köprüye tıklayın.",
-            "ja": "これは**ペイントブラシツール**です。このツールは、地形にタイルをペイントするために使用されます。\nそれをクリックし、次に赤いリンゴのすぐ上にある橋をクリックします。",
-            "ko": "이것은 **페인트 브러시 도구**입니다. 이 도구는 지형에 타일을 그리는 데 사용됩니다.\n그것을 클릭한 다음, 빨간 사과 바로 위에 있는 다리를 클릭합니다.",
-            "pl": "To jest **narzędzie pędzla**; to narzędzie służy do malowania płytek na terenie.\nKliknij je, a następnie kliknij most, tuż nad czerwoną jabłkiem.",
-            "pt": "Esta é a **ferramenta de pincel**; esta ferramenta é usada para pintar ladrilhos no terreno.\nClique nela e depois clique na ponte, logo acima da maçã vermelha.",
-            "ru": "Это **инструмент кисти**; этот инструмент используется для рисования плиток на местности.\nЩелкните по нему, а затем щелкните по мосту, прямо над красным яблоком.",
-            "sl": "To je **orodje za čopič**; to orodje se uporablja za barvanje ploščic na terenu.\nKliknite nanj in nato kliknite na most, neposredno nad rdečo jabolko.",
-            "sq": "Kjo është **instrumenti i furçës së bojës**; ky instrument përdoret për të pikturuar pllakat në terren.\nKlikoni mbi të, pastaj klikoni mbi urën, menjëherë mbi mollën e kuqe.",
-            "th": "นี่คือ **เครื่องมือแปรงทาสี**; เครื่องมือนี้ใช้สำหรับทาสีแผ่นกระเบื้องบนภูมิประเทศ\nคลิกที่มัน จากนั้นคลิกที่สะพาน ขึ้นไปเหนือแอปเปิ้ลแดง",
-            "uk": "Це **інструмент для малювання**; цей інструмент використовується для малювання плиток на рельєфі.\nНатисніть на нього, а потім натисніть на міст, прямо над червоним яблуком.",
-            "zh": "这是 **画笔工具**；此工具用于在地形上绘制瓦片。\n点击它，然后点击桥，就在红苹果上方。"
+            "en": "In the panel, you can see the **paint brush tool**; this tool is used to paint tiles on the terrain.\nClick on it, then click on the bridge, just above the red apple.",
+            "fr": "Dans le panneau, vous pouvez voir l'**outil pinceau** ; cet outil est utilisé pour peindre des tuiles sur le terrain.\nCliquez dessus, puis cliquez sur le pont, juste au-dessus de la pomme rouge.",
+            "ar": "في اللوحة، يمكنك رؤية **أداة فرشاة الطلاء**؛ تُستخدم هذه الأداة لرسم البلاط على التضاريس.\nانقر عليها، ثم انقر على الجسر، مباشرة فوق التفاحة الحمراء.",
+            "de": "Im Panel sehen Sie das **Pinselwerkzeug**; dieses Werkzeug wird verwendet, um Fliesen auf dem Gelände zu malen.\nKlicken Sie darauf und klicken Sie dann auf die Brücke, direkt über dem roten Apfel.",
+            "es": "En el panel, puedes ver la **herramienta de pincel**; esta herramienta se utiliza para pintar azulejos en el terreno.\nHaz clic en ella, luego haz clic en el puente, justo encima de la manzana roja.",
+            "it": "Nel pannello, puoi vedere lo **strumento pennello**; questo strumento viene utilizzato per dipingere le piastrelle sul terreno.\nClicca su di esso, quindi clicca sul ponte, proprio sopra la mela rossa.",
+            "tr": "Panoda **boya fırçası aracını** görebilirsiniz; bu araç, arazide kiremitleri boyamak için kullanılır.\nÜzerine tıklayın ve ardından kırmızı elmanın hemen üstündeki köprüye tıklayın.",
+            "ja": "パネルには**ペイントブラシツール**が表示されます。このツールは地形にタイルを描くために使用されます。\nそれをクリックして、赤いリンゴのすぐ上の橋をクリックします。",
+            "ko": "패널에서 **페인트 브러시 도구**를 볼 수 있습니다. 이 도구는 지형에 타일을 그리는 데 사용됩니다.\n클릭한 다음 빨간 사과 바로 위의 다리를 클릭하세요.",
+            "pl": "W panelu możesz zobaczyć **narzędzie pędzla**; narzędzie to służy do malowania kafelków na terenie.\nKliknij na nie, a następnie kliknij na most, tuż nad czerwonym jabłkiem.",
+            "pt": "No painel, você pode ver a **ferramenta de pincel**; esta ferramenta é usada para pintar azulejos no terreno.\nClique nele e, em seguida, clique na ponte, logo acima da maçã vermelha.",
+            "ru": "В панели вы можете увидеть **инструмент кисти**; этот инструмент используется для рисования плиток на местности.\nНажмите на него, а затем нажмите на мост, прямо над красным яблоком.",
+            "sl": "V plošči lahko vidite **orodje za slikanje**; to orodje se uporablja za slikanje ploščic na terenu.\nKliknite nanj in nato kliknite na most, tik nad rdečim jabolkom.",
+            "sq": "Në panel, mund të shihni **mjetin e furçës së bojës**; ky mjet përdoret për të bojë kafshët në terren.\nKliko mbi të, pastaj kliko mbi urën, menjëherë mbi mollën e kuqe.",
+            "th": "ในแผงคุณสมบัติคุณสามารถเห็น **เครื่องมือพู่กัน**; เครื่องมือนี้ใช้สำหรับการวาดกระเบื้องบนภูมิประเทศ\nคลิกที่นั้น แล้วคลิกที่สะพาน ที่อยู่เหนือแอปเปิลสีแดง",
+            "uk": "У панелі ви можете побачити **інструмент кисті**; цей інструмент використовується для малювання плиток на місцевості.\nКлацніть на нього, а потім клацніть на міст, безпосередньо над червоною яблуко.",
+            "zh": "在面板中，您可以看到**画笔工具**；此工具用于在地形上绘制瓷砖。\n点击它，然后点击桥，就在红苹果上方。"
           }
         },
         "placement": "top"
@@ -321,7 +324,8 @@
             "zh": "下一步"
           }
         }
-      }
+      },
+      "interactsWithCanvas": true
     },
     {
       "tooltip": {
@@ -434,6 +438,7 @@
       }
     },
     {
+      "elementToHighlightId": "#object-editor-dialog",
       "tooltip": {
         "standalone": true,
         "description": {
@@ -626,6 +631,10 @@
     },
     {
       "id": "SwitchToEvents1",
+      "elementToHighlightId": "#toolbar-add-event-button",
+      "nextStepTrigger": {
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
+      },
       "tooltip": {
         "standalone": true,
         "description": {
@@ -647,88 +656,6 @@
             "th": "เราจะเพิ่มเหตุการณ์ใหม่ที่ตรวจสอบว่ามีกระเบื้องอะไรอยู่ใต้ผู้เล่น และถ้ากระเบื้องนั้นคือแอปเปิ้ล เราจะลบมันออก",
             "uk": "Ми додамо нову подію, яка перевіряє, яка плитка під гравцем, і якщо ця плитка — яблуко, то ми її видалимо.",
             "zh": "我们将添加一个新事件，检查玩家下面是什么瓷砖，如果那块瓷砖是苹果，那么我们将移除它。"
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "it": "Prossimo",
-            "tr": "Sonraki",
-            "ja": "次",
-            "ko": "다음",
-            "pl": "Dalej",
-            "pt": "Próximo",
-            "ru": "Далее",
-            "sl": "Naslednji",
-            "sq": "Tjetër",
-            "th": "ถัดไป",
-            "uk": "Далі",
-            "zh": "下一步"
-          }
-        }
-      }
-    },
-    {
-      "elementToHighlightId": "#toolbar-add-event-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Click to add a new event.",
-            "fr": "Cliquez pour ajouter un nouvel événement.",
-            "ar": "انقر لإضافة حدث جديد.",
-            "de": "Klicken Sie, um ein neues Ereignis hinzuzufügen.",
-            "es": "Haz clic para agregar un nuevo evento.",
-            "it": "Clicca per aggiungere un nuovo evento.",
-            "tr": "Yeni bir olay eklemek için tıklayın.",
-            "ja": "新しいイベントを追加するにはクリックしてください。",
-            "ko": "새 이벤트를 추가하려면 클릭하세요.",
-            "pl": "Kliknij, aby dodać nowe zdarzenie.",
-            "pt": "Clique para adicionar um novo evento.",
-            "ru": "Нажмите, чтобы добавить новое событие.",
-            "sl": "Kliknite za dodajanje novega dogodka.",
-            "sq": "Klikoni për të shtuar një ngjarje të re.",
-            "th": "คลิกเพื่อเพิ่มเหตุการณ์ใหม่",
-            "uk": "Натисніть, щоб додати нову подію.",
-            "zh": "点击添加新事件。"
-          }
-        }
-      },
-      "skippable": true
-    },
-    {
-      "elementToHighlightId": "[data-active=\"true\"] #add-event-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "#events-editor[data-active] #event-4-conditions #add-condition-button-empty"
-      },
-      "tooltip": {
-        "title": {
-          "messageByLocale": {
-            "en": "Let's add our first **Event**!",
-            "fr": "Ajoutons notre premier **Événement** !",
-            "ar": "دعونا نضيف حدثنا الأول **!إيفينت**",
-            "de": "Lass uns unser erstes **Ereignis** hinzufügen!",
-            "es": "¡Añadamos nuestro primer **Evento**!",
-            "it": "Aggiungiamo il nostro primo **Evento**!",
-            "tr": "İlk **Olay**ımızı ekleyelim!",
-            "ja": "最初の**イベント**を追加しましょう！",
-            "ko": "첫 번째 **이벤트**를 추가해 보겠습니다!",
-            "pl": "Dodajmy nasze pierwsze **Zdarzenie**!",
-            "pt": "Vamos adicionar nosso primeiro **Evento**!",
-            "ru": "Давайте добавим наше первое **Событие**!",
-            "sl": "Dodajmo naš prvi **Dogodek**!",
-            "sq": "Le të shtojmë ngjarjen tonë të parë **!Ngjarje**",
-            "th": "มาลงทะเบียน **เหตุการณ์** แรกของเรากันเถอะ!",
-            "uk": "Давайте додамо наше перше **Подія**!",
-            "zh": "让我们添加第一个**事件**！"
           }
         }
       }
@@ -947,8 +874,11 @@
       }
     },
     {
+      "elementToHighlightId": "#events-editor[data-active] #event-4-actions #add-action-button-empty",
+      "nextStepTrigger": {
+        "presenceOfElement": "#instruction-editor-dialog"
+      },
       "tooltip": {
-        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "We correctly set a condition to check the tile at the player's position.\n\nLet’s **add an action** now to remove the tile at this same position.",
@@ -968,58 +898,6 @@
             "th": "เราตั้งเงื่อนไขเพื่อตรวจสอบกระเบื้องที่ตำแหน่งของผู้เล่นได้อย่างถูกต้อง\n\nตอนนี้เรามา **เพิ่มการกระทำ** เพื่อลบกระเบื้องที่ตำแหน่งเดียวกันนี้กันเถอะ",
             "uk": "Ми правильно встановили умову для перевірки плитки на позиції гравця.\n\nТепер давайте **додамо дію**, щоб видалити плитку в цій самій позиції.",
             "zh": "我们正确设置了一个条件，以检查玩家位置上的瓷砖。\n\n现在让我们**添加一个动作**，以删除该位置上的瓷砖。"
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "it": "Avanti",
-            "tr": "Sonraki",
-            "ja": "次へ",
-            "ko": "다음",
-            "pl": "Dalej",
-            "pt": "Próximo",
-            "ru": "Далее",
-            "sl": "Naprej",
-            "sq": "Tjetër",
-            "th": "ถัดไป",
-            "uk": "Далі",
-            "zh": "下一步"
-          }
-        }
-      }
-    },
-    {
-      "elementToHighlightId": "#events-editor[data-active] #event-4-actions #add-action-button-empty",
-      "nextStepTrigger": {
-        "presenceOfElement": "#instruction-editor-dialog"
-      },
-      "tooltip": {
-        "description": {
-          "messageByLocale": {
-            "en": "Click to add an **action**.",
-            "fr": "Cliquez pour ajouter une **action**.",
-            "ar": "انقر لإضافة **إجراء**.",
-            "de": "Klicken Sie, um eine **Aktion** hinzuzufügen.",
-            "es": "Haz clic para agregar una **acción**.",
-            "it": "Clicca per aggiungere un'**azione**.",
-            "tr": "**Eylem** eklemek için tıklayın.",
-            "ja": "**アクション**を追加するにはクリックしてください。",
-            "ko": "**액션**을 추가하려면 클릭하세요.",
-            "pl": "Kliknij, aby dodać **akcję**.",
-            "pt": "Clique para adicionar uma **ação**.",
-            "ru": "Нажмите, чтобы добавить **действие**.",
-            "sl": "Kliknite za dodajanje **ukaza**.",
-            "sq": "Klikoni për të shtuar një **veprim**.",
-            "th": "คลิกเพื่อเพิ่ม **การกระทำ**.",
-            "uk": "Натисніть, щоб додати **дію**.",
-            "zh": "点击以添加一个**动作**。"
           }
         }
       }

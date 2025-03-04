@@ -268,7 +268,8 @@
           }
         },
         "placement": "top"
-      }
+      },
+      "disableBlockingLayer": true
     },
     {
       "elementToHighlightId": "div[role=\"presentation\"]:is([data-open=true], :not([aria-hidden=true])) #project-manager-drawer-close",
@@ -431,7 +432,8 @@
           }
         },
         "placement": "top"
-      }
+      },
+      "interactsWithCanvas": true
     },
     {
       "elementToHighlightId": "objectInObjectsList:scoreMultiplier",
@@ -482,7 +484,8 @@
           }
         },
         "placement": "bottom"
-      }
+      },
+      "interactsWithCanvas": true
     },
     {
       "id": "OpenPropertiesManagerForScene",
