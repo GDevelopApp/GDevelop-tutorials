@@ -613,7 +613,8 @@
             "zh": "选择 **$(joystick)**，然后将它拖到场景中。"
           }
         }
-      }
+      },
+      "interactsWithCanvas": true
     },
     {
       "nextStepTrigger": {
@@ -666,7 +667,8 @@
         "image": {
           "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSIxMjcuMjc5IDY2LjI3NSAyMTkuNDAyIDI5Ny4zNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczpieD0iaHR0cHM6Ly9ib3h5LXN2Zy5jb20iPgogIDxyZWN0IHg9IjEyNy4yNzkiIHk9IjY2LjUwOSIgd2lkdGg9IjIxOS40MDIiIGhlaWdodD0iMjk2LjY0OSIgc3R5bGU9InN0cm9rZTogcmdiKDAsIDAsIDApOyBmaWxsOiByZ2IoODcsIDg1LCA4NSk7Ii8+CiAgPHBhdGggZD0iTSAyMzguMzI2IDIzMC40NDMgTCAyNTUuMDI1IDI2Mi44NjUgTCAyMjEuNjI4IDI2Mi44NjUgTCAyMzguMzI2IDIzMC40NDMgWiIgc3R5bGU9InN0cm9rZTogcmdiKDAsIDAsIDApOyBmaWxsOiByZ2IoMjU1LCAxNjIsIDU2KTsiIGJ4OnNoYXBlPSJ0cmlhbmdsZSAyMjEuNjI4IDIzMC40NDMgMzMuMzk3IDMyLjQyMiAwLjUgMCAxQDZlMjg1NDhlIi8+CiAgPGVsbGlwc2Ugc3R5bGU9InN0cm9rZTogcmdiKDAsIDAsIDApOyBmaWxsOiByZ2IoNTksIDIyMiwgOTcpOyIgY3g9IjIzNy45OTEiIGN5PSIzMTkuNjU5IiByeD0iMjEuMjc5IiByeT0iMTkuODUzIi8+CiAgPHJlY3QgeD0iMTI3LjM5MyIgeT0iNjYuMjc1IiB3aWR0aD0iMTAiIGhlaWdodD0iMjk3LjM2IiBzdHlsZT0ic3Ryb2tlOiByZ2IoMCwgMCwgMCk7IGZpbGw6IHJnYigyMDgsIDM3LCAzNyk7Ii8+CiAgPHJlY3QgeD0iMzM2LjMzMyIgeT0iNjYuOTI3IiB3aWR0aD0iOS43NiIgaGVpZ2h0PSIyOTUuOTg3IiBzdHlsZT0ic3Ryb2tlOiByZ2IoMCwgMCwgMCk7IGZpbGw6IHJnYigyMzIsIDQ0LCA0NCk7Ii8+CiAgPHJlY3QgeD0iMTM2Ljk3IiB5PSI2Ni42NDIiIHdpZHRoPSIxOTkuNDkzIiBoZWlnaHQ9IjkuMjAxIiBzdHlsZT0ic3Ryb2tlOiByZ2IoMCwgMCwgMCk7IGZpbGw6IHJnYigyMzMsIDQ2LCA0Nik7Ii8+CiAgPHJlY3QgeD0iMTM4LjIyOSIgeT0iMzU0LjE4IiB3aWR0aD0iMTk3LjE1NSIgaGVpZ2h0PSI4LjUwMiIgc3R5bGU9InN0cm9rZTogcmdiKDAsIDAsIDApOyBmaWxsOiByZ2IoMjMwLCA1MywgNTMpOyIvPgo8L3N2Zz4="
         }
-      }
+      },
+      "interactsWithCanvas": true
     },
     {
       "metaKind": "add-behavior",
