@@ -237,7 +237,8 @@
           }
         },
         "placement": "top"
-      }
+      },
+      "disableBlockingLayer": true
     },
     {
       "id": "CreateLeaderboard",
