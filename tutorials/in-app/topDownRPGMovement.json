@@ -97,7 +97,7 @@
         "messageByLocale": {
           "en": "Try to use the arrow keys and see that the player can not move. Let's fix this!\nClose this window and go back to the editor.",
           "fr": "Essayez d'utiliser les touches fléchées pour déplacer le joueur. Voyons comment résoudre ce problème !\nFermez cette fenêtre et retournez à l'éditeur.",
-          "ar":"!هذا كل شيء الآن يمكن $(player) أن يتحرك على كلا المحورين، مثل في بوكيمون\nأغلق هذه النافذة وعد إلى المحرر",
+          "ar": "!هذا كل شيء الآن يمكن $(player) أن يتحرك على كلا المحورين، مثل في بوكيمون\nأغلق هذه النافذة وعد إلى المحرر",
           "de": "Versuchen Sie, die Pfeiltasten zu verwenden, und sehen Sie, dass der Spieler sich nicht bewegen kann. Lassen Sie uns das beheben!\nSchließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
           "es": "Intenta usar las teclas de flecha y verás que el jugador no puede moverse. ¡Vamos a arreglarlo!\nCierra esta ventana y vuelve al editor.",
           "it": "Prova a usare i tasti freccia e vedrai che il giocatore non può muoversi. Correggiamolo!\nChiudi questa finestra e torna all'editor.",
@@ -112,7 +112,6 @@
           "sq": "Përpiquni të përdorni butonat e shigjetave dhe do të shihni që lojtari nuk mund të lëvizë. Ta rregullojmë këtë!\nMbyll këtë dritare dhe kthehu në redaktor.",
           "uk": "Спробуйте використати стрілки і побачите, що гравець не може рухатися. Давайте виправимо це!\nЗакрийте це вікно і поверніться до редактора.",
           "zh": "尝试使用方向键，看看玩家无法移动。让我们来解决这个问题！\n关闭此窗口并返回编辑器。"
-          }
         }
       },
       "inGameTouchMessage": {
@@ -135,9 +134,8 @@
           "uk": "Спробуйте використати джойстик і побачите, що гравець не може рухатися. Давайте виправимо це!",
           "zh": "尝试使用操纵杆，看看玩家无法移动。让我们来解决这个问题！"
         }
-      },   
-      "description":
-      {
+      },
+      "description": {
         "messageByLocale": {
           "en": "This game is a classic 'pixel perfect RPG'. Let’s play it in its current state.\n\nClick on the **preview** button to play.",
           "fr": "Ce jeu est un classique 'RPG pixel parfait'. Jouons-y dans son état actuel.\n\nCliquez sur le bouton **Aperçu** pour jouer.",
@@ -358,30 +356,6 @@
     },
     {
       "metaKind": "launch-preview",
-      "nextStep": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "it": "Avanti",
-            "tr": "Sonraki",
-            "ja": "次へ",
-            "ko": "다음",
-            "pl": "Następny",
-            "pt": "Próximo",
-            "th": "ถัดไป",
-            "ru": "Далее",
-            "sl": "Naprej",
-            "sq": "Tjetër",
-            "uk": "Далі",
-            "zh": "下一个"
-          }
-        }
-      },
-      "metaKind": "launch-preview",
       "nextStep": "previewLaunched",
       "inGameMessage": {
         "messageByLocale": {
@@ -507,7 +481,7 @@
       "nextStep": "previewLaunched",
       "description": {
         "messageByLocale": {
-          "en": "We're done!\nLet's play our game to see how the character matches pertefctly the squared grid!\n\nClick on the **Preview** button.",
+          "en": "We're done!\nLet's play our game to see how the character matches perfectly the squared grid!\n\nClick on the **Preview** button.",
           "fr": "Nous avons terminé !\nJouons à notre jeu pour voir comment le personnage s'aligne parfaitement sur la grille carrée !\n\nCliquez sur le bouton **Aperçu**.",
           "ar": "لقد انتهينا!\nلنلعب لعبتنا لنرى كيف يتطابق الشخصية تمامًا مع الشبكة المربعة!\n\nانقر على زر **معاينة**.",
           "de": "Wir sind fertig!\nLassen Sie uns unser Spiel spielen, um zu sehen, wie der Charakter perfekt zum quadratischen Raster passt!\n\nKlicken Sie auf die Schaltfläche **Vorschau**.",
