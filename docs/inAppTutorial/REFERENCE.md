@@ -116,6 +116,8 @@ Here is the structure of a step (all fields are optional):
 - `skippable` (true): if the step can be skipped (useful when the user interaction can result in this step not being mandatory)
 - `isOnClosableDialog` (true): if the step is on a closable dialog, if the element to highlight is missing (meaning the dialog has been closed), the flow will go back to the previous step that is not on a closable dialog.
 - `mapProjectData` (object): allow to read data in the GDevelop project object and store it during the duration of the tutorial. This data can then be used in the tooltips. See [Available Project Data](#available-project-data)
+- `interactsWithCanvas` (true): if the step requires interacting with the canvas (useful when a blocking layer is displayed, so the step allows the user to interact with the canvas)
+- `disableBlockingLayer` (true): if the blocking layer should be disabled for this step. (useful when the step requires interacting with multiple things, and the blocking layer would prevent it)
 
 #### **Triggers**
 

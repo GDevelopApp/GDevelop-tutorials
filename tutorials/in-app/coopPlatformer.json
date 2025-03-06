@@ -203,6 +203,7 @@
     {
       "id": "SwitchToGameScene",
       "elementToHighlightId": "editorTab:GameScene:Scene",
+      "isTriggerFlickering": true,
       "nextStepTrigger": {
         "editorIsActive": "GameScene:Scene"
       },
