@@ -135,6 +135,7 @@
           "zh": "尝试使用操纵杆，看看玩家无法移动。让我们来解决这个问题！"
         }
       },
+      "inGameMessagePosition": "bottom-right",
       "description": {
         "messageByLocale": {
           "en": "This game is a classic 'pixel perfect RPG'. Let’s play it in its current state.\n\nClick on the **preview** button to play.",
@@ -377,7 +378,8 @@
           "uk": "Чудова робота! Тепер ви можете рухати свого персонажа по обох вісях. Але рух поки не піксельно точний. Давайте додамо нову поведінку для цього до **$(player)**.\n\nЗакрийте це вікно і поверніться до редактора.",
           "zh": "干得好！现在你可以在两个轴上移动你的角色。但是移动还不是完美的像素。让我们为**$(player)**添加一个新的行为。\n\n关闭这个窗口，回到编辑器。"
         }
-      }
+      },
+      "inGameMessagePosition": "bottom-right"
     },
     {
       "metaKind": "add-behavior",
