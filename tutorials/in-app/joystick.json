@@ -732,7 +732,26 @@
       "objectKey": "ship",
       "behaviorListItemId": "#behavior-item-SpriteMultitouchJoystick--TopDownMultitouchMapper",
       "behaviorParameterPanelId": "#behavior-parameters-TopDownMultitouchMapper",
-      "behaviorDisplayName": "Top down multi-touch controller mapper",
+      "behaviorDisplayNameByLocale": {
+        "en": "Top down multi-touch controller mapper",
+        "fr": "Contrôleur multi-touch de haut en bas",
+        "ar": "محول تحكم متعدد اللمسات من الأعلى إلى الأسفل",
+        "de": "Top-Down-Multitouch-Controller-Mapper",
+        "es": "Mapeador de controlador multitáctil de arriba abajo",
+        "fi": "Ylhäältä alas monikosketusohjain",
+        "it": "Mappatore del controller multitouch dall'alto verso il basso",
+        "tr": "Üstten aşağı çoklu dokunmatik denetleyici haritalayıcı",
+        "ja": "トップダウンマルチタッチコントローラーマッパー",
+        "ko": "탑 다운 멀티터치 컨트롤러 매퍼",
+        "pl": "Maper kontrolera wielodotykowego od góry do dołu",
+        "pt": "Mapeador de controlador multitouch de cima para baixo",
+        "ru": "Маппер контроллера мультитач сверху вниз",
+        "sl": "Maper krmilnika večkratnega dotika od zgoraj navzdol",
+        "sq": "Mapuesi i kontrolluesit të shumë prekjeve nga lart-dhe-poshtë",
+        "th": "ตัวแมปคอนโทรลเลอร์แบบหลายจุดสัมผัสจากบนลงล่าง",
+        "uk": "Мапер контролера багатодотикового зверху донизу",
+        "zh": "自上而下的多点触控控制器映射器"
+      },
       "parameters": [
         {
           "parameterId": "#StickMode",

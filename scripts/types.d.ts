@@ -37,7 +37,7 @@ type AddBehaviorMetaStep = {
   objectKey: string;
   behaviorListItemId: string;
   behaviorParameterPanelId: string;
-  behaviorDisplayName: string;
+  behaviorDisplayNameByLocale: MessageByLocale;
   parameters: Array<{
     parameterId: string;
     expectedValue: string;

@@ -266,7 +266,26 @@
           "zh": "让我们通过**Top-down movement**行为为我们的$(player)添加动作。\n\n选择，然后长按 **$(player)**，然后选择 **编辑行为**。"
         }
       },
-      "behaviorDisplayName": "**Top-down movement**",
+      "behaviorDisplayNameByLocale": {
+        "en": "**Top-down movement**",
+        "fr": "**Mouvement vu de haut**",
+        "ar": "**الحركة من الأعلى إلى الأسفل**",
+        "de": "**Top-down movement**",
+        "es": "**Movimiento de arriba hacia abajo**",
+        "fi": "**Ylhäältä alas liike**",
+        "it": "**Movimento dall'alto verso il basso**",
+        "tr": "**Üstten Aşağı hareket**",
+        "ja": "**Top-down movement**",
+        "ko": "**Top-down movement**",
+        "pl": "**Ruch góra-dół**",
+        "pt": "**Movimento de cima para baixo**",
+        "th": "**การเคลื่อนที่จากด้านบนลงด้านล่าง**",
+        "ru": "**Движение сверху вниз**",
+        "sl": "**Gibanje od zgoraj navzdol**",
+        "sq": "**Lëvizja nga lart-dheun**",
+        "uk": "**Рух зверху вниз**",
+        "zh": "**Top-down movement**"
+      },
       "parameters": [
         {
           "parameterId": "#MaxSpeed",
@@ -402,7 +421,26 @@
       "objectKey": "player",
       "behaviorListItemId": "#behavior-item-PixelPerfectMovement--PixelPerfectTopDownMovement",
       "behaviorParameterPanelId": "#behavior-parameters-PixelPerfectTopDownMovement",
-      "behaviorDisplayName": "**Pixel perfect top-down movement**",
+      "behaviorDisplayNameByLocale": {
+        "en": "**Pixel perfect top-down movement**",
+        "fr": "**Mouvement pixel-perfect de haut en bas**",
+        "ar": "**الحركة المثالية من أعلى إلى أسفل بالبيكسل**",
+        "de": "**Pixelgenaue Top-Down-Bewegung**",
+        "es": "**Movimiento de arriba hacia abajo perfecto en píxeles**",
+        "fi": "**Pikselin tarkka ylhäältä alas liike**",
+        "it": "**Movimento dall'alto verso il basso perfetto al pixel**",
+        "tr": "**Piksel mükemmel üstten aşağı hareket**",
+        "ja": "**ピクセル完璧なトップダウン移動**",
+        "ko": "**픽셀 완벽한 상하 이동**",
+        "pl": "**Ruch góra-dół idealny w pikselach**",
+        "pt": "**Movimento de cima para baixo perfeito em pixels**",
+        "th": "**การเคลื่อนที่จากด้านบนลงด้านล่างที่สมบูรณ์แบบในระดับพิกเซล**",
+        "ru": "**Движение сверху вниз с пиксельной точностью**",
+        "sl": "**Gibanje od zgoraj navzdol popolno v pikslih**",
+        "sq": "**Lëvizja nga lart-dheun e përkryer në piksel**",
+        "uk": "**Рух зверху вниз з піксельною точністю**",
+        "zh": "**像素完美的自上而下移动**"
+      },
       "parameters": [
         {
           "parameterId": "#PixelSize",

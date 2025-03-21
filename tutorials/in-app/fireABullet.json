@@ -227,7 +227,26 @@
           "zh": "让我们使用 **Fire Bullet** 行为帮助我们的 $(player) 添加射击能力。\n\n选择，然后长按 **$(player)**，然后选择 **编辑行为**。"
         }
       },
-      "behaviorDisplayName": "**Fire Bullets**",
+      "behaviorDisplayNameByLocale": {
+        "en": "**Fire bullets**",
+        "fr": "**Tirer des balles**",
+        "ar": "**إطلاق الرصاص**",
+        "de": "**Feuerkugeln abfeuern**",
+        "es": "**Disparar balas**",
+        "fi": "**Ampua luoteja**",
+        "it": "**Spara proiettili**",
+        "tr": "**Ateş etmek**",
+        "ja": "**弾を発射する**",
+        "ko": "**총알 발사**",
+        "pl": "**Strzelanie pociskami**",
+        "pt": "**Disparar balas**",
+        "th": "**ยิงกระสุน**",
+        "ru": "**Выстрелить пулями**",
+        "sl": "**Streljanje krogel**",
+        "sq": "**Qëllimi i plumbave**",
+        "uk": "**Вистрілити кулями**",
+        "zh": "**发射子弹**"
+      },
       "finishedConfigurationDescription": {
         "messageByLocale": {
           "en": "That's it for now with the behavior!\n\nNow we'll add the action to open fire when it's triggered by the player.\n\nWe're not too far from a Star Wars show!",
