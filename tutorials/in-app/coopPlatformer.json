@@ -290,7 +290,26 @@
           "zh": "让我们给 $(Player1) 对象添加多人游戏行为。\n\n选择 **$(Player1)**，长按后选择 **编辑行为**。"
         }
       },
-      "behaviorDisplayName": "**Multiplayer**",
+      "behaviorDisplayNameByLocale": {
+        "en": "**Multiplayer**",
+        "fr": "**Multijoueur**",
+        "ar": "**اللاعبين المتعددين**",
+        "de": "**Mehrspieler**",
+        "es": "**Multijugador**",
+        "fi": "**Moninpeli**",
+        "it": "**Multigiocatore**",
+        "tr": "**Çok Oyunculu**",
+        "ja": "**マルチプレイヤー**",
+        "ko": "**멀티플레이어**",
+        "pl": "**Wieloosobowy**",
+        "pt": "**Multijogador**",
+        "th": "**หลายผู้เล่น**",
+        "ru": "**Многопользователь**",
+        "sl": "**Večigralsko**",
+        "sq": "**Multiplayer**",
+        "uk": "**Багатокористувацький**",
+        "zh": "**多人游戏**"
+      },
       "parameters": [
         {
           "parameterId": "#playerNumber",
@@ -392,7 +411,26 @@
           "zh": "让我们为 $(Player2) 对象添加多人游戏行为。\n\n选择，然后长按 **$(Player2)**，然后选择 **编辑行为**。"
         }
       },
-      "behaviorDisplayName": "**Multiplayer**",
+      "behaviorDisplayNameByLocale": {
+        "en": "**Multiplayer**",
+        "fr": "**Multijoueur**",
+        "ar": "**اللاعبين المتعددين**",
+        "de": "**Mehrspieler**",
+        "es": "**Multijugador**",
+        "fi": "**Moninpeli**",
+        "it": "**Multigiocatore**",
+        "tr": "**Çok Oyunculu**",
+        "ja": "**マルチプレイヤー**",
+        "ko": "**멀티플레이어**",
+        "pl": "**Wieloosobowy**",
+        "pt": "**Multijogador**",
+        "th": "**หลายผู้เล่น**",
+        "ru": "**Многопользователь**",
+        "sl": "**Večigralsko**",
+        "sq": "**Multiplayer**",
+        "uk": "**Багатокористувацький**",
+        "zh": "**多人游戏**"
+      },
       "parameters": [
         {
           "parameterId": "#playerNumber",
