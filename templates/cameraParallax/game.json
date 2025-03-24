@@ -1509,6 +1509,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ending dialog",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
