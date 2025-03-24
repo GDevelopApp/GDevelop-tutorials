@@ -127,24 +127,24 @@
         "inGameMessagePosition": "top-right",
         "inGameMessage": {
           "messageByLocale": {
-            "en": "Try to move the knight with left/right arrows.\n\nYou'll see that it cannot move. Let's fix that.",
-            "fr": "Essayez de déplacer le chevalier avec les flèches gauche/droite.\n\nVous verrez qu'il ne peut pas bouger. Corrigeons cela.",
-            "ar": "حاول تحريك الفارس باستخدام سهام اليسار/اليمين.\n\nسترى أنه لا يمكنه التحرك. دعنا نصلح ذلك.",
-            "de": "Versuche, den Ritter mit den Links-/Rechtspfeilen zu bewegen.\n\nDu wirst sehen, dass er sich nicht bewegen kann. Lassen wir das beheben.",
-            "es": "Intenta mover al caballero con las flechas izquierda/derecha.\n\nVerás que no puede moverse. Arreglémoslo.",
-            "fi": "Yritä siirtää ritaria vasen/oikea nuolinäppäimillä.\n\nHuomaat, että se ei voi liikkua. Korjataan se.",
-            "it": "Prova a spostare il cavaliere con le frecce sinistra/destra.\n\nVedrai che non può muoversi. Sistemiamolo.",
-            "tr": "Şövalyeyi sol/sağ ok tuşlarıyla hareket ettirmeyi dene.\n\nHareket edemediğini göreceksin. Hadi bunu düzeltelim.",
-            "ja": "矢印キーの左/右でナイトを動かしてみてください。\n\n動かないことがわかりますね。修正しましょう。",
-            "ko": "왼쪽/오른쪽 화살표 키로 기사 이동을 시도해 보세요.\n\n움직이지 않는 것을 볼 수 있습니다. 수정해 봅시다.",
-            "pl": "Spróbuj poruszyć rycerzem za pomocą strzałek lewo/prawo.\n\nZobaczysz, że nie może się ruszyć. Naprawmy to.",
-            "pt": "Tente mover o cavaleiro com as setas esquerda/direita.\n\nVocê verá que ele não pode se mover. Vamos corrigir isso.",
-            "th": "ลองขยับอัศวินด้วยปุ่มลูกศรซ้าย/ขวา\n\nคุณจะเห็นว่าเขาไม่สามารถเคลื่อนที่ได้ มาแก้ไขกันเถอะ",
-            "ru": "Попробуйте переместить рыцаря с помощью стрелок влево/вправо.\n\nВы увидите, что он не может двигаться. Давайте это исправим.",
-            "sl": "Poskusi premakniti viteza s puščicama levo/desno.\n\nVideli boste, da se ne more premakniti. Popravimo to.",
-            "sq": "Provo ta lëvizësh kalorësin me shigjetat majtas/djathtas.\n\nDo të shohësh që nuk mund të lëvizë. Ta rregullojmë këtë.",
-            "uk": "Спробуйте перемістити лицаря стрілками вліво/вправо.\n\nВи побачите, що він не може рухатися. Давайте це виправимо.",
-            "zh": "尝试使用左右箭头移动骑士。\n\n你会发现它无法移动。让我们来修复它。"
+            "en": "Try to move the knight with left/right arrows.\n\nYou'll see that it cannot move. Let's fix this!\nClose this window and go back to the editor.",
+            "fr": "Essayez de déplacer le chevalier avec les flèches gauche/droite.\n\nVous verrez qu'il ne peut pas bouger. Corrigeons cela !\nFermez cette fenêtre et retournez à l'éditeur.",
+            "ar": "حاول تحريك الفارس باستخدام سهام اليسار/اليمين.\n\nسترى أنه لا يمكنه التحرك. دعنا نصلح ذلك!\nأغلق هذه النافذة وارجع إلى المحرر.",
+            "de": "Versuche, den Ritter mit den Links-/Rechtspfeilen zu bewegen.\n\nDu wirst sehen, dass er sich nicht bewegen kann. Lassen wir das beheben!\nSchließe dieses Fenster und gehe zurück zum Editor.",
+            "es": "Intenta mover al caballero con las flechas izquierda/derecha.\n\nVerás que no puede moverse. ¡Arreglémoslo!\nCierra esta ventana y vuelve al editor.",
+            "fi": "Yritä liikuttaa ritaria vasemmalle/oikealle nuolinäppäimillä.\n\nHuomaat, että se ei voi liikkua. Korjataan tämä!\nSulje tämä ikkuna ja palaa editoriin.",
+            "it": "Prova a spostare il cavaliere con le frecce sinistra/destra.\n\nVedrai che non può muoversi. Sistemiamolo!\nChiudi questa finestra e torna all'editor.",
+            "tr": "Şövalyeyi sol/sağ ok tuşlarıyla hareket ettirmeyi dene.\n\nHareket edemediğini göreceksin. Hadi bunu düzeltelim!\nBu pencereyi kapat ve editöre geri dön.",
+            "ja": "矢印キーの左/右でナイトを動かしてみてください。\n\n動かないことがわかりますね。修正しましょう！\nこのウィンドウを閉じてエディターに戻ってください。",
+            "ko": "왼쪽/오른쪽 화살표 키로 기사를 이동해 보세요.\n\n움직이지 않는 것을 볼 수 있습니다. 수정해 봅시다!\n이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Spróbuj poruszyć rycerzem za pomocą strzałek lewo/prawo.\n\nZobaczysz, że nie może się ruszyć. Naprawmy to!\nZamknij to okno i wróć do edytora.",
+            "pt": "Tente mover o cavaleiro com as setas esquerda/direita.\n\nVocê verá que ele não pode se mover. Vamos corrigir isso!\nFeche esta janela e volte para o editor.",
+            "th": "ลองขยับอัศวินด้วยปุ่มลูกศรซ้าย/ขวา\n\nคุณจะเห็นว่าเขาไม่สามารถเคลื่อนที่ได้ มาแก้ไขกันเถอะ!\nปิดหน้าต่างนี้แล้วกลับไปที่ตัวแก้ไข",
+            "ru": "Попробуйте переместить рыцаря с помощью стрелок влево/вправо.\n\nВы увидите, что он не может двигаться. Давайте это исправим!\nЗакройте это окно и вернитесь в редактор.",
+            "sl": "Poskusi premakniti viteza s puščicama levo/desno.\n\nVideli boste, da se ne more premakniti. Popravimo to!\nZaprite to okno in se vrnite v urejevalnik.",
+            "sq": "Provo ta lëvizësh kalorësin me shigjetat majtas/djathtas.\n\nDo të shohësh që nuk mund të lëvizë. Ta rregullojmë këtë!\nMbylle këtë dritare dhe kthehu te redaktori.",
+            "uk": "Спробуйте перемістити лицаря стрілками вліво/вправо.\n\nВи побачите, що він не може рухатися. Давайте це виправимо!\nЗакрийте це вікно і поверніться до редактора.",
+            "zh": "尝试使用左右箭头移动骑士。\n\n你会发现它无法移动。让我们来修复它！\n关闭此窗口并返回编辑器。"
           }
         }
       }
