@@ -599,11 +599,7 @@
     {
       "id": "SwitchToEvents1",
       "elementToHighlightId": "#toolbar-add-event-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
-      },
       "tooltip": {
-        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "We will add a new event that checks what tile is under the player, and if that tile is the apple, then we will remove it.",
@@ -626,7 +622,13 @@
             "zh": "我们将添加一个新事件，检查玩家下面是什么瓷砖，如果那块瓷砖是苹果，那么我们将移除它。"
           }
         }
-      }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
+      },
+      "skippable": true,
+      "disableBlockingLayer": true,
+      "interactsWithCanvas": true
     },
     {
       "elementToHighlightId": "#events-editor[data-active] #event-5-conditions #add-condition-button-empty",
