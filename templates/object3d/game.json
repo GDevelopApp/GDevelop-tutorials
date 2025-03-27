@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 226,
+    "build": 227,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -907,10 +907,10 @@
               "JumpButton": "A"
             },
             {
-              "jumpSpeed": 1000,
-              "jumpSustainTime": 0.2,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "jumpSpeed": 1000,
+              "jumpSustainTime": 0.2,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -2522,15 +2522,7 @@
           "type": "Scene3D::Cube3DObject",
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "content": {
             "width": 128,
             "height": 128,
@@ -3267,10 +3259,6 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
         },
         {
           "name": "PlatformerCharacterAnimator",
