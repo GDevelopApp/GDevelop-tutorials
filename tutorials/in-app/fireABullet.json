@@ -101,28 +101,55 @@
   "flow": [
     {
       "id": "Start",
-      "metaKind": "launch-preview",
-      "nextStep": "previewLaunched",
-      "description": {
-        "messageByLocale": {
-          "en": "This game is a space shooter. We'll add the capability for the ship to shoot the asteroids using the **Fire Bullet behavior**.\n\nLet's see the current game state.\nClick on the **preview** button to play.",
-          "fr": "Ce jeu est un jeu de tir spatial. Nous ajouterons la capacité pour le vaisseau de tirer sur les astéroïdes en utilisant le comportement **Fire Bullet**.\n\nVoyons l'état actuel du jeu.\nCliquez sur le bouton **aperçu** pour jouer.",
-          "ar": "هذه اللعبة هي لعبة إطلاق نار فضائية. سنضيف القدرة للسفينة على إطلاق النار على الكويكبات باستخدام سلوك **Fire Bullet**.\n\nلنرى حالة اللعبة الحالية.\nانقر فوق زر **معاينة** للعب.",
-          "de": "Dieses Spiel ist ein Weltraum-Shooter. Wir werden die Fähigkeit für das Schiff hinzufügen, die Asteroiden mit dem **Fire Bullet Verhalten** zu beschießen.\n\nLassen Sie uns den aktuellen Spielzustand sehen.\nKlicken Sie auf die **Vorschau**-Schaltfläche, um zu spielen.",
-          "es": "Este juego es un shooter espacial. Añadiremos la capacidad para que la nave dispare a los asteroides utilizando el comportamiento **Fire Bullet**.\n\nVeamos el estado actual del juego.\nHaz clic en el botón **vista previa** para jugar.",
-          "fi": "Tämä peli on avaruusammuskelu. Lisäämme alukselle kyvyn ampua asteroidit käyttämällä **Fire Bullet -käyttäytymistä**.\n\nKatsotaan nykyinen pelitila.\nKlikkaa **esikatselu**-painiketta pelataksesi.",
-          "it": "Questo gioco è uno sparatutto spaziale. Aggiungeremo la capacità per la nave di sparare agli asteroidi utilizzando il comportamento **Fire Bullet**.\n\nVediamo lo stato attuale del gioco.\nClicca sul pulsante **anteprima** per giocare.",
-          "tr": "Bu oyun bir uzay atış oyunudur. **Fire Bullet davranışı** kullanarak geminin asteroidlere ateş etme yeteneğini ekleyeceğiz.\n\nMevcut oyun durumunu görelim.\nOynamak için **önizleme** düğmesine tıklayın.",
-          "ja": "このゲームは宇宙シューティングゲームです。**Fire Bullet** の振る舞いを使って、宇宙船が小惑星を撃つ能力を追加します。\n\n現在のゲームの状態を見てみましょう。\n**プレビュー** ボタンをクリックしてプレイします。",
-          "ko": "이 게임은 우주 슈팅 게임입니다. 우리는 **Fire Bullet** 동작을 사용하여 우주선이 소행성을 격파할 수 있는 능력을 추가할 것입니다.\n\n현재 게임 상태를 확인해 봅시다.\n**미리보기** 버튼을 클릭하여 플레이하세요.",
-          "pl": "Ta gra to strzelanka kosmiczna. Dodamy możliwość strzelania statku do asteroid za pomocą zachowania **Fire Bullet**.\n\nZobaczmy obecny stan gry.\nKliknij przycisk **Podgląd**, aby zagrać.",
-          "pt": "Este jogo é um shooter espacial. Vamos adicionar a capacidade para a nave disparar nos asteroides usando o comportamento **Fire Bullet**.\n\nVamos ver o estado atual do jogo.\nClique no botão **pré-visualização** para jogar.",
-          "th": "เกมนี้เป็นเกมยิงอวกาศ เราจะเพิ่มความสามารถให้กับเรือในการยิงหินดาวด้วยพฤติกรรม **Fire Bullet**\n\nมาดูสถานะปัจจุบันของเกมกัน\nคลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
-          "ru": "Эта игра является космическим шутером. Мы добавим возможность кораблю стрелять по астероидам с использованием поведения **Fire Bullet**.\n\nДавайте посмотрим на текущее состояние игры.\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
-          "sl": "Ta igra je vesoljski strelec. Dodali bomo zmožnost za ladjo, da strelja asteroide z uporabo vedenja **Fire Bullet**.\n\nPoglejmo trenutno stanje igre.\nKliknite gumb **predogled**, da začnete igrati.",
-          "sq": "Kjo lojë është një lojë që qëlloi hapësirën. Do të shtojmë aftësinë për anijen për të qëlloi asteroidet duke përdorur sjelljen **Fire Bullet**.\n\nTani le të shohim gjendjen aktuale të lojës.\nKlikoni në butonin **parashikim** për të luajtur.",
-          "uk": "Ця гра є космічним шутером. Ми додамо можливість для корабля стріляти в астероїди за допомогою поведінки **Fire Bullet**.\n\nДавайте подивимося на поточний стан гри.\nНатисніть кнопку **перегляд**, щоб грати.",
-          "zh": "这款游戏是一款太空射击游戏。我们将使用 **Fire Bullet** 行为为飞船添加射击小行星的能力。\n\n让我们查看当前游戏状态。\n点击 **预览** 按钮开始游戏。"
+      "elementToHighlightId": "#toolbar-preview-button",
+      "tooltip": {
+        "description": {
+          "messageByLocale": {
+            "en": "This game is a space shooter. We'll add the capability for the ship to shoot the asteroids using the **Fire Bullet behavior**.\n\nLet's see the current game state.\nClick on the **preview** button to play.",
+            "fr": "Ce jeu est un jeu de tir spatial. Nous ajouterons la capacité pour le vaisseau de tirer sur les astéroïdes en utilisant le comportement **Fire Bullet**.\n\nVoyons l'état actuel du jeu.\nCliquez sur le bouton **aperçu** pour jouer.",
+            "ar": "هذه اللعبة هي لعبة إطلاق نار فضائية. سنضيف القدرة للسفينة على إطلاق النار على الكويكبات باستخدام سلوك **Fire Bullet**.\n\nلنرى حالة اللعبة الحالية.\nانقر فوق زر **معاينة** للعب.",
+            "de": "Dieses Spiel ist ein Weltraum-Shooter. Wir werden die Fähigkeit für das Schiff hinzufügen, die Asteroiden mit dem **Fire Bullet Verhalten** zu beschießen.\n\nLassen Sie uns den aktuellen Spielzustand sehen.\nKlicken Sie auf die **Vorschau**-Schaltfläche, um zu spielen.",
+            "es": "Este juego es un shooter espacial. Añadiremos la capacidad para que la nave dispare a los asteroides utilizando el comportamiento **Fire Bullet**.\n\nVeamos el estado actual del juego.\nHaz clic en el botón **vista previa** para jugar.",
+            "fi": "Tämä peli on avaruusammuskelu. Lisäämme alukselle kyvyn ampua asteroidit käyttämällä **Fire Bullet -käyttäytymistä**.\n\nKatsotaan nykyinen pelitila.\nKlikkaa **esikatselu**-painiketta pelataksesi.",
+            "it": "Questo gioco è uno sparatutto spaziale. Aggiungeremo la capacità per la nave di sparare agli asteroidi utilizzando il comportamento **Fire Bullet**.\n\nVediamo lo stato attuale del gioco.\nClicca sul pulsante **anteprima** per giocare.",
+            "tr": "Bu oyun bir uzay atış oyunudur. **Fire Bullet davranışı** kullanarak geminin asteroidlere ateş etme yeteneğini ekleyeceğiz.\n\nMevcut oyun durumunu görelim.\nOynamak için **önizleme** düğmesine tıklayın.",
+            "ja": "このゲームは宇宙シューティングゲームです。**Fire Bullet** の振る舞いを使って、宇宙船が小惑星を撃つ能力を追加します。\n\n現在のゲームの状態を見てみましょう。\n**プレビュー** ボタンをクリックしてプレイします。",
+            "ko": "이 게임은 우주 슈팅 게임입니다. 우리는 **Fire Bullet** 동작을 사용하여 우주선이 소행성을 격파할 수 있는 능력을 추가할 것입니다.\n\n현재 게임 상태를 확인해 봅시다.\n**미리보기** 버튼을 클릭하여 플레이하세요.",
+            "pl": "Ta gra to strzelanka kosmiczna. Dodamy możliwość strzelania statku do asteroid za pomocą zachowania **Fire Bullet**.\n\nZobaczmy obecny stan gry.\nKliknij przycisk **Podgląd**, aby zagrać.",
+            "pt": "Este jogo é um shooter espacial. Vamos adicionar a capacidade para a nave disparar nos asteroides usando o comportamento **Fire Bullet**.\n\nVamos ver o estado atual do jogo.\nClique no botão **pré-visualização** para jogar.",
+            "th": "เกมนี้เป็นเกมยิงอวกาศ เราจะเพิ่มความสามารถให้กับเรือในการยิงหินดาวด้วยพฤติกรรม **Fire Bullet**\n\nมาดูสถานะปัจจุบันของเกมกัน\nคลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+            "ru": "Эта игра является космическим шутером. Мы добавим возможность кораблю стрелять по астероидам с использованием поведения **Fire Bullet**.\n\nДавайте посмотрим на текущее состояние игры.\nНажмите кнопку **предварительный просмотр**, чтобы играть.",
+            "sl": "Ta igra je vesoljski strelec. Dodali bomo zmožnost za ladjo, da strelja asteroide z uporabo vedenja **Fire Bullet**.\n\nPoglejmo trenutno stanje igre.\nKliknite gumb **predogled**, da začnete igrati.",
+            "sq": "Kjo lojë është një lojë që qëlloi hapësirën. Do të shtojmë aftësinë për anijen për të qëlloi asteroidet duke përdorur sjelljen **Fire Bullet**.\n\nTani le të shohim gjendjen aktuale të lojës.\nKlikoni në butonin **parashikim** për të luajtur.",
+            "uk": "Ця гра є космічним шутером. Ми додамо можливість для корабля стріляти в астероїди за допомогою поведінки **Fire Bullet**.\n\nДавайте подивимося на поточний стан гри.\nНатисніть кнопку **перегляд**, щоб грати.",
+            "zh": "这款游戏是一款太空射击游戏。我们将使用 **Fire Bullet** 行为为飞船添加射击小行星的能力。\n\n让我们查看当前游戏状态。\n点击 **预览** 按钮开始游戏。"
+          }
+        }
+      },
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "bottom-right",
+        "inGameMessage": {
+          "messageByLocale": {
+            "en": "The ship can move, but it cannot yet open fire because the **Fire Bullet behavior** is missing from the $(player) object.\n\nLet's fix it! Close this window and return to the editor.",
+            "fr": "Le vaisseau peut se déplacer, mais il ne peut pas encore ouvrir le feu car le comportement **Fire Bullet** est absent de l'objet **$(player)**.\n\nAjoutons-le. Fermez cette fenêtre et revenez à l'éditeur.",
+            "ar": "السفينة يمكنها الحركة، لكنها لا تستطيع فتح النار بعد لأن سلوك **Fire Bullet** مفقود من كائن **$(player)**.\n\nلنضيفه. أغلق هذه النافذة وعد إلى المحرر.",
+            "de": "Das Schiff kann sich bewegen, aber es kann noch nicht feuern, weil das **Fire Bullet Verhalten** im $(player) Objekt fehlt.\n\nLassen Sie uns das hinzufügen. Schließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
+            "es": "La nave puede moverse, pero aún no puede abrir fuego porque falta el comportamiento **Fire Bullet** en el objeto **$(player)**.\n\nVamos a añadirlo. Cierra esta ventana y regresa al editor.",
+            "fi": "Alus voi liikkua, mutta se ei voi vielä avata tulta, koska **Fire Bullet -käyttäytymistä** ei ole $(player) -kohteessa.\n\nLisätään se. Sulje tämä ikkuna ja palaa editoriin.",
+            "it": "La nave può muoversi, ma non può ancora aprire il fuoco perché manca il comportamento **Fire Bullet** nell'oggetto **$(player)**.\n\nAggiungiamolo. Chiudi questa finestra e torna all'editor.",
+            "tr": "Gemimiz hareket edebilir, ancak henüz **Fire Bullet davranışı** $(player) nesnesinden eksik olduğu için henüz ateş edemez.\n\nEkleyelim. Bu pencereyi kapatın ve düzenleyiciye geri dönün.",
+            "ja": "宇宙船は動くことができますが、**Fire Bullet** の振る舞いが **$(player)** オブジェクトにないため、まだ射撃できません。\n\n追加しましょう。 このウィンドウを閉じてエディターに戻ってください。",
+            "ko": "우주선은 움직일 수 있지만 **Fire Bullet** 동작이 **$(player)** 객체에 없기 때문에 아직 발사할 수 없습니다.\n\n추가해 봅시다. 이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Statek może się poruszać, ale nie może jeszcze otworzyć ognia, ponieważ brakuje zachowania **Fire Bullet** w obiekcie $(player).\n\nDodajmy to. Zamknij to okno i wróć do edytora.",
+            "pt": "A nave pode se mover, mas ainda não pode abrir fogo porque o comportamento **Fire Bullet** está ausente do objeto **$(player)**.\n\nVamos adicioná-lo. Feche esta janela e volte para o editor.",
+            "th": "เรือสามารถเคลื่อนที่ได้ แต่ยังไม่สามารถเปิดไฟได้เพราะ **Fire Bullet behavior** หายไปจาก $(player) object.\n\nเรามาเพิ่มมัน. ปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไข",
+            "ru": "Корабль может двигаться, но пока не может открывать огонь, потому что поведение **Fire Bullet** отсутствует у объекта **$(player)**.\n\nДобавим его. Закройте это окно и вернитесь в редактор.",
+            "sl": "Ladja se lahko premika, vendar še ne more odpreti ognja, ker manjka vedenje **Fire Bullet** v objektu **$(player)**.\n\nDodajmo ga. Zapri to okno in se vrni v urejevalnik.",
+            "sq": "Ankandi mund të lëvizë, por nuk mund të hapë zjarrin ende sepse sjellja **Fire Bullet** mungon nga objekti $(player).\n\nTa shtojmë atë. Mbyllni këtë dritare dhe kthehuni te redaktori.",
+            "uk": "Корабель може рухатись, але він ще не може відкривати вогонь, тому що поведінка **Fire Bullet** відсутня у об'єкта $(player).\n\nДодаймо його. Закрийте це вікно та поверніться до редактора.",
+            "zh": "飞船可以移动，但由于 **$(player)** 对象中缺少 **Fire Bullet** 行为，因此尚无法开火。\n\n让我们添加它。 关闭此窗口并返回编辑器。"
+          }
         }
       }
     },
@@ -131,24 +158,24 @@
         "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "The ship can move, but it cannot yet open fire because the **Fire Bullet behavior** is missing from the $(player) object.\n\nLet's add it.",
-            "fr": "Le vaisseau peut se déplacer, mais il ne peut pas encore ouvrir le feu car le comportement **Fire Bullet** est absent de l'objet **$(player)**.\n\nAjoutons-le.",
-            "ar": "السفينة يمكنها الحركة، لكنها لا تستطيع فتح النار بعد لأن سلوك **Fire Bullet** مفقود من كائن **$(player)**.\n\nلنضيفه.",
-            "de": "Das Schiff kann sich bewegen, aber es kann noch nicht feuern, weil das **Fire Bullet Verhalten** im $(player) Objekt fehlt.\n\nLassen Sie uns das hinzufügen.",
-            "es": "La nave puede moverse, pero aún no puede abrir fuego porque falta el comportamiento **Fire Bullet** en el objeto **$(player)**.\n\nVamos a añadirlo.",
-            "fi": "Alus voi liikkua, mutta se ei voi vielä avata tulta, koska **Fire Bullet -käyttäytymistä** ei ole $(player) -kohteessa.\n\nLisätään se.",
-            "it": "La nave può muoversi, ma non può ancora aprire il fuoco perché manca il comportamento **Fire Bullet** nell'oggetto **$(player)**.\n\nAggiungiamolo.",
-            "tr": "Gemimiz hareket edebilir, ancak henüz **Fire Bullet davranışı** $(player) nesnesinden eksik olduğu için henüz ateş edemez.\n\nEkleyelim.",
-            "ja": "宇宙船は動くことができますが、**Fire Bullet** の振る舞いが **$(player)** オブジェクトにないため、まだ射撃できません。\n\n追加しましょう。",
-            "ko": "우주선은 움직일 수 있지만 **Fire Bullet** 동작이 **$(player)** 객체에 없기 때문에 아직 발사할 수 없습니다.\n\n추가해 봅시다.",
-            "pl": "Statek może się poruszać, ale nie może jeszcze otworzyć ognia, ponieważ brakuje zachowania **Fire Bullet** w obiekcie $(player).\n\nDodajmy to.",
-            "pt": "A nave pode se mover, mas ainda não pode abrir fogo porque o comportamento **Fire Bullet** está ausente do objeto **$(player)**.\n\nVamos adicioná-lo.",
-            "th": "เรือสามารถเคลื่อนที่ได้ แต่ยังไม่สามารถเปิดไฟได้เพราะ **Fire Bullet behavior** หายไปจาก $(player) object.\n\nเรามาเพิ่มมัน.",
-            "ru": "Корабль может двигаться, но пока не может открывать огонь, потому что поведение **Fire Bullet** отсутствует у объекта **$(player)**.\n\nДобавим его.",
-            "sl": "Ladja se lahko premika, vendar še ne more odpreti ognja, ker manjka vedenje **Fire Bullet** v objektu **$(player)**.\n\nDodajmo ga.",
-            "sq": "Ankandi mund të lëvizë, por nuk mund të hapë zjarrin ende sepse sjellja **Fire Bullet** mungon nga objekti $(player).\n\nTa shtojmë atë.",
-            "uk": "Корабель може рухатись, але він ще не може відкривати вогонь, тому що поведінка **Fire Bullet** відсутня у об'єкта $(player).\n\nДодаймо його.",
-            "zh": "飞船可以移动，但由于 **$(player)** 对象中缺少 **Fire Bullet** 行为，因此尚无法开火。\n\n让我们添加它。"
+            "en": "The ship can move, but it cannot yet open fire because the **Fire Bullet behavior** is missing from the $(player) object.\n\nLet's fix it! Close this window and return to the editor.",
+            "fr": "Le vaisseau peut se déplacer, mais il ne peut pas encore ouvrir le feu car le comportement **Fire Bullet** est absent de l'objet **$(player)**.\n\nAjoutons-le. Fermez cette fenêtre et revenez à l'éditeur.",
+            "ar": "السفينة يمكنها الحركة، لكنها لا تستطيع فتح النار بعد لأن سلوك **Fire Bullet** مفقود من كائن **$(player)**.\n\nلنضيفه. أغلق هذه النافذة وعد إلى المحرر.",
+            "de": "Das Schiff kann sich bewegen, aber es kann noch nicht feuern, weil das **Fire Bullet Verhalten** im $(player) Objekt fehlt.\n\nLassen Sie uns das hinzufügen. Schließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
+            "es": "La nave puede moverse, pero aún no puede abrir fuego porque falta el comportamiento **Fire Bullet** en el objeto **$(player)**.\n\nVamos a añadirlo. Cierra esta ventana y regresa al editor.",
+            "fi": "Alus voi liikkua, mutta se ei voi vielä avata tulta, koska **Fire Bullet -käyttäytymistä** ei ole $(player) -kohteessa.\n\nLisätään se. Sulje tämä ikkuna ja palaa editoriin.",
+            "it": "La nave può muoversi, ma non può ancora aprire il fuoco perché manca il comportamento **Fire Bullet** nell'oggetto **$(player)**.\n\nAggiungiamolo. Chiudi questa finestra e torna all'editor.",
+            "tr": "Gemimiz hareket edebilir, ancak henüz **Fire Bullet davranışı** $(player) nesnesinden eksik olduğu için henüz ateş edemez.\n\nEkleyelim. Bu pencereyi kapatın ve düzenleyiciye geri dönün.",
+            "ja": "宇宙船は動くことができますが、**Fire Bullet** の振る舞いが **$(player)** オブジェクトにないため、まだ射撃できません。\n\n追加しましょう。 このウィンドウを閉じてエディターに戻ってください。",
+            "ko": "우주선은 움직일 수 있지만 **Fire Bullet** 동작이 **$(player)** 객체에 없기 때문에 아직 발사할 수 없습니다.\n\n추가해 봅시다. 이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Statek może się poruszać, ale nie może jeszcze otworzyć ognia, ponieważ brakuje zachowania **Fire Bullet** w obiekcie $(player).\n\nDodajmy to. Zamknij to okno i wróć do edytora.",
+            "pt": "A nave pode se mover, mas ainda não pode abrir fogo porque o comportamento **Fire Bullet** está ausente do objeto **$(player)**.\n\nVamos adicioná-lo. Feche esta janela e volte para o editor.",
+            "th": "เรือสามารถเคลื่อนที่ได้ แต่ยังไม่สามารถเปิดไฟได้เพราะ **Fire Bullet behavior** หายไปจาก $(player) object.\n\nเรามาเพิ่มมัน. ปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไข",
+            "ru": "Корабль может двигаться, но пока не может открывать огонь, потому что поведение **Fire Bullet** отсутствует у объекта **$(player)**.\n\nДобавим его. Закройте это окно и вернитесь в редактор.",
+            "sl": "Ladja se lahko premika, vendar še ne more odpreti ognja, ker manjka vedenje **Fire Bullet** v objektu **$(player)**.\n\nDodajmo ga. Zapri to okno in se vrni v urejevalnik.",
+            "sq": "Ankandi mund të lëvizë, por nuk mund të hapë zjarrin ende sepse sjellja **Fire Bullet** mungon nga objekti $(player).\n\nTa shtojmë atë. Mbyllni këtë dritare dhe kthehuni te redaktori.",
+            "uk": "Корабель може рухатись, але він ще не може відкривати вогонь, тому що поведінка **Fire Bullet** відсутня у об'єкта $(player).\n\nДодаймо його. Закрийте це вікно та поверніться до редактора.",
+            "zh": "飞船可以移动，但由于 **$(player)** 对象中缺少 **Fire Bullet** 行为，因此尚无法开火。\n\n让我们添加它。 关闭此窗口并返回编辑器。"
           }
         }
       },
