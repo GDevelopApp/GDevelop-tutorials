@@ -214,52 +214,54 @@
   "flow": [
     {
       "id": "Start",
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
+      "elementToHighlightId": "#toolbar-preview-button",
+      "tooltip": {
+        "description": {
           "messageByLocale": {
-            "en": "Let's go!",
-            "fr": "C'est parti !",
-            "ar": "لنبدأ!",
-            "de": "Los geht's!",
-            "es": "¡Vamos!",
-            "fi": "Lähdetään!",
-            "it": "Andiamo!",
-            "tr": "Haydi başlayalım!",
-            "ja": "さあ、始めましょう！",
-            "ko": "출발!",
-            "pl": "Zaczynamy!",
-            "pt": "Vamos lá!",
-            "ru": "Поехали!",
-            "sl": "Gremo!",
-            "sq": "Hajde shkojme!",
-            "th": "ไปกันเลย!",
-            "uk": "Почнемо!",
-            "zh": "让我们开始吧！"
+            "en": "This game is a platform game with a character. We will improve this game by centering the camera on the character, and adding a parralax effect on the background, but for now let's see the current state of the game. Click on the **Preview** button to play",
+            "fr": "Ce jeu est un jeu de plateforme avec un personnage. Nous améliorerons ce jeu en centrant la caméra sur le personnage et en ajoutant un effet de parallaxe à l'arrière-plan, mais pour l'instant, voyons l'état actuel du jeu. Cliquez sur le bouton **aperçu** pour jouer.",
+            "ar": "هذه اللعبة هي لعبة منصات بشخصية. سنقوم بتحسين هذه اللعبة عن طريق توسيط الكاميرا على الشخصية، وإضافة تأثير المنظر للخلفية، ولكن الآن لنرى الحالة الحالية للعبة. انقر على زر **معاينة** للعب.",
+            "de": "Dieses Spiel ist ein Plattformspiel mit einer Figur. Wir werden dieses Spiel verbessern, indem wir die Kamera auf die Figur zentrieren und einen Parallax-Effekt auf den Hintergrund hinzufügen, aber lassen Sie uns jetzt den aktuellen Zustand des Spiels ansehen. Klicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
+            "es": "Este juego es un juego de plataformas con un personaje. Mejoraremos este juego centrando la cámara en el personaje y añadiendo un efecto de paralaje al fondo, pero por ahora veamos el estado actual del juego. Haz clic en el botón **Vista previa** para jugar.",
+            "fi": "Tämä peli on tasohyppelypeli, jossa on hahmo. Parannamme tätä peliä keskittämällä kameran hahmoon ja lisäämällä parallaksiefektin taustaan, mutta katsotaan nyt pelin nykyistä tilaa. Napsauta **Esikatselu**-painiketta pelataksesi.",
+            "it": "Questo gioco è un platform con un personaggio. Miglioreremo questo gioco centrando la telecamera sul personaggio e aggiungendo un effetto di parallasse allo sfondo, ma per ora vediamo lo stato attuale del gioco. Clicca sul pulsante **Anteprima** per giocare.",
+            "tr": "Bu oyun bir karakterli platform oyunudur. Kamerayı karakterin üzerine ortalayarak ve arka plana bir paralaks efekti ekleyerek bu oyunu geliştireceğiz, ancak şimdilik oyunun mevcut durumunu görelim. Oynamak için **Önizleme** düğmesine tıklayın.",
+            "ja": "このゲームはキャラクターが登場するプラットフォームゲームです。カメラをキャラクターに集中させ、背景に視差効果を追加することで、このゲームを改善します。ただし、今のところゲームの現在の状態を見てみましょう。**プレビュー** ボタンをクリックしてプレイします。",
+            "ko": "이 게임은 캐릭터가 등장하는 플랫폼 게임입니다. 카메라를 캐릭터에 집중시키고 배경에 시차 효과를 추가하여 이 게임을 개선할 것입니다. 하지만 지금은 게임의 현재 상태를 확인해 보겠습니다. 플레이하려면 **미리보기** 버튼을 클릭하세요.",
+            "pl": "Ta gra to platformówka z postacią. Ulepszymy tę grę, centrując kamerę na postaci i dodając efekt paralaksy do tła, ale na razie zobaczmy obecny stan gry. Kliknij przycisk **Podgląd**, aby zagrać.",
+            "pt": "Este jogo é um jogo de plataformas com um personagem. Vamos melhorar este jogo centrando a câmara no personagem e adicionando um efeito de paralaxe ao fundo, mas por agora vamos ver o estado atual do jogo. Clique no botão **Pré-visualização** para jogar.",
+            "th": "เกมนี้เป็นเกมแพลตฟอร์มที่มีตัวละคร เราจะปรับปรุงเกมนี้โดยการจัดกึ่งกลางกล้องไปที่ตัวละคร และเพิ่มเอฟเฟกต์พารัลแลกซ์ให้กับพื้นหลัง แต่ตอนนี้มาดูสถานะปัจจุบันของเกมกัน คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+            "ru": "Эта игра является платформенной игрой с персонажем. Мы улучшим эту игру, центрируя камеру на персонаже и добавляя эффект параллакса на фон, но давайте сейчас посмотрим на текущее состояние игры. Нажмите кнопку **предварительный просмотр**, чтобы играть.",
+            "sl": "Ta igra je platformna igra z likom. Izboljšali bomo to igro tako, da kameri centriramo na lik in dodamo paralaksni učinek na ozadje, vendar si za zdaj oglejmo trenutno stanje igre. Kliknite gumb **predogled**, da začnete igrati.",
+            "sq": "Kjo lojë është një lojë platformë me një personazh. Ne do ta përmirësojmë këtë lojë duke e qendruar kamerën në personazh dhe duke shtuar një efekt paralaks në sfond, por tani le të shohim gjendjen aktuale të lojës. Klikoni në butonin **parashikim** për të luajtur.",
+            "uk": "Ця гра є платформенною грою з персонажем. Ми покращимо цю гру, центрувавши камеру на персонажі та додавши ефект паралакса на фон, але наразі давайте подивимося на поточний стан гри. Натисніть кнопку **перегляд**, щоб грати.",
+            "zh": "这款游戏是一款带有角色的平台游戏。我们将通过将相机对准角色并在背景上添加视差效果来改进这款游戏，但现在让我们看看游戏的当前状态。点击 **预览** 按钮开始游戏。"
           }
         }
       },
-      "tooltip": {
-        "standalone": true,
-        "description": {
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "top-right",
+        "inGameMessage": {
           "messageByLocale": {
-            "en": "Let's improve this platformer game by following the character with the camera! For this, we will add an **extension**.",
-            "fr": "Améliorons ce jeu de plateforme en suivant le personnage avec la caméra ! Pour cela, nous allons ajouter une **extension**.",
-            "ar": "لنحسن هذه اللعبة النموذجية عن طريق متابعة الشخصية بالكاميرا! لهذا، سنضيف **ملحق**.",
-            "de": "Verbessern wir dieses Plattformspiel, indem wir dem Charakter mit der Kamera folgen! Dazu fügen wir eine **Erweiterung** hinzu.",
-            "es": "¡Mejoremos este juego de plataforma siguiendo al personaje con la cámara! Para esto, agregaremos una **extensión**.",
-            "fi": "Parannetaan tätä tasohyppelypeliä seuraamalla hahmoa kameralla! Tätä varten lisäämme **laajennuksen**.",
-            "it": "Miglioriamo questo gioco platform seguendo il personaggio con la telecamera! Per fare questo, aggiungeremo un'estensione.",
-            "tr": "Bu platform oyununu karakteri kamerayla takip ederek geliştirelim! Bunun için bir **uzantı** ekleyeceğiz.",
-            "ja": "キャラクターをカメラで追いかけることで、このプラットフォーマーゲームを改善しましょう！そのために、**拡張機能**を追加します。",
-            "ko": "캐릭터를 카메라로 따라가면서 이 플랫포머 게임을 개선해 봅시다! 이를 위해 **확장**을 추가할 것입니다.",
-            "pl": "Ulepszmy tę grę platformową, śledząc postać za pomocą kamery! W tym celu dodamy **rozszerzenie**.",
-            "pt": "Melhore este jogo de plataforma seguindo o personagem com a câmera! Para isso, vamos adicionar uma **extensão**.",
-            "ru": "Улучшим эту платформенную игру, следуя за персонажем с помощью камеры! Для этого мы добавим **расширение**.",
-            "sl": "Izboljšajmo to platformno igro, tako da sledimo liku s kamero! Za to bomo dodali **razširitev**.",
-            "sq": "Përmirësojmë këtë lojë platforme duke ndjekur personazhin me kamerën! Për këtë, do të shtojmë një **zgjerim**.",
-            "th": "มาทำให้เกม platformer เกมนี้ดีขึ้นจากการติดตามตัวละครด้วยกล้องกันเถอะ! เพื่อทำเช่นนี้ เราจะเพิ่ม **ส่วนขยาย**",
-            "uk": "Покращимо цю платформенну гру, слідуючи за персонажем за допомогою камери! Для цього ми додамо **розширення**.",
-            "zh": "让我们通过用摄像机跟随角色来改进这个平台游戏！为此，我们将添加一个**扩展**。"
+            "en": "The character can move, but the camera doesn't follow him yet.\n\nLet's fix it! Close this window and return to the editor.",
+            "fr": "Le personnage peut se déplacer, mais la caméra ne le suit pas encore.\n\nRéglons cela ! Fermez cette fenêtre et revenez à l'éditeur.",
+            "ar": "يمكن للشخصية أن تتحرك، لكن الكاميرا لا تتبعه بعد.\n\nلنصلح هذا! أغلق هذه النافذة وعد إلى المحرر.",
+            "de": "Die Figur kann sich bewegen, aber die Kamera folgt ihr noch nicht.\n\nLassen Sie uns das beheben! Schließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
+            "es": "El personaje puede moverse, pero la cámara aún no lo sigue.\n\n¡Vamos a arreglarlo! Cierra esta ventana y regresa al editor.",
+            "fi": "Hahmo voi liikkua, mutta kamera ei seuraa häntä vielä.\n\nKorjataan tämä! Sulje tämä ikkuna ja palaa editoriin.",
+            "it": "Il personaggio può muoversi, ma la telecamera non lo segue ancora.\n\nRisolviamo questo problema! Chiudi questa finestra e torna all'editor.",
+            "tr": "Karakter hareket edebilir, ancak kamera henüz onu takip etmiyor.\n\nBunu düzeltelim! Bu pencereyi kapatın ve düzenleyiciye geri dönün.",
+            "ja": "キャラクターは移動できますが、カメラはまだ彼を追跡しません。\n\nこれを修正しましょう！ このウィンドウを閉じてエディターに戻ってください。",
+            "ko": "캐릭터는 움직일 수 있지만 카메라는 아직 그를 따라가지 않습니다.\n\n이 문제를 해결해 봅시다! 이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Postać może się poruszać, ale kamera jeszcze za nią nie podąża.\n\nNaprawmy to! Zamknij to okno i wróć do edytora.",
+            "pt": "O personagem pode se mover, mas a câmera ainda não o segue.\n\nVamos corrigir isso! Feche esta janela e volte para o editor.",
+            "th": "ตัวละครสามารถเคลื่อนที่ได้ แต่กล้องยังไม่ติดตามเขา\n\nมาแก้ไขกัน! ปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไข",
+            "ru": "Персонаж может двигаться, но камера пока не следует за ним.\n\nДавайте это исправим! Закройте это окно и вернитесь в редактор.",
+            "sl": "Lik se lahko premika, vendar ga kamera še ne sledi.\n\nPopravimo to! Zapri to okno in se vrni v urejevalnik.",
+            "sq": "Personazhi mund të lëvizë, por kamera nuk e ndjek ende.\n\nTa rregullojmë këtë! Mbyllni këtë dritare dhe kthehuni te redaktori.",
+            "uk": "Персонаж може рухатися, але камера ще не слідує за ним.\n\nВиправимо це! Закрийте це вікно та поверніться до редактора.",
+            "zh": "角色可以移动，但相机尚未跟随他。\n\n让我们修复它！ 关闭此窗口并返回编辑器。"
           }
         }
       }
