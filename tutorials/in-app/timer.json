@@ -212,52 +212,53 @@
     {
       "id": "Start",
       "elementToHighlightId": "#toolbar-preview-button",
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
+      "tooltip": {
+        "description": {
           "messageByLocale": {
-            "en": "Let's go!",
-            "fr": "C'est parti !",
-            "ar": "لنبدأ!",
-            "de": "Los geht's!",
-            "es": "¡Vamos!",
-            "fi": "Lähdetään!",
-            "it": "Andiamo!",
-            "tr": "Haydi başlayalım!",
-            "ja": "さあ、始めましょう！",
-            "ko": "시작합시다!",
-            "pl": "Zaczynajmy!",
-            "pt": "Vamos lá!",
-            "ru": "Поехали!",
-            "sl": "Gremo!",
-            "sq": "Le të fillojmë!",
-            "th": "ไปกันเลย!",
-            "uk": "Почнемо!",
-            "zh": "让我们开始吧！"
+            "en": "This game is a speed game, but it's missing a timer!\n\nLet's see the current state of the game, click on the **preview** button to try it out.",
+            "fr": "Ce jeu est un jeu de rapidité, mais il lui manque un chronomètre !\n\nVoyons l'état actuel du jeu, cliquez sur le bouton **aperçu** pour l'essayer.",
+            "ar": "هذه لعبة سرعة، لكنها تفتقر إلى المؤقت!\n\nدعونا نرى الحالة الحالية للعبة، اضغط على زر **المعاينة** لتجربتها.",
+            "de": "Dieses Spiel ist ein Geschwindigkeitsspiel, aber es fehlt ein Timer!\n\nSehen wir uns den aktuellen Stand des Spiels an, klicken Sie auf die **Vorschau**-Schaltfläche, um es auszuprobieren.",
+            "es": "¡Este juego es de velocidad, pero le falta un temporizador!\n\nVeamos el estado actual del juego, haz clic en el botón **previsualización** para probarlo.",
+            "fi": "Tämä on nopeuspeli, mutta siitä puuttuu ajastin!\n\nKatsotaan pelin nykyinen tila, napsauta **esikatselu**-painiketta kokeillaksesi sitä.",
+            "it": "Questo è un gioco di velocità, ma manca un timer!\n\nVediamo lo stato attuale del gioco, clicca sul pulsante **anteprima** per provarlo.",
+            "tr": "Bu bir hız oyunu, ancak bir zamanlayıcı eksik!\n\nOyunun mevcut durumunu görelim, denemek için **önizleme** düğmesine tıklayın.",
+            "ja": "このゲームはスピードゲームですが、タイマーがありません！\n\nゲームの現在の状態を見てみましょう。**プレビュー** ボタンをクリックして試してみてください。",
+            "ko": "이 게임은 속도 게임이지만 타이머가 없습니다!\n\n게임의 현재 상태를 확인해 보세요. **미리보기** 버튼을 클릭하여 시도해보세요.",
+            "pl": "Ta gra to gra na szybkość, ale brakuje jej timera!\n\nZobaczmy aktualny stan gry, kliknij przycisk **podgląd**, aby ją wypróbować.",
+            "pt": "Este é um jogo de velocidade, mas está faltando um cronômetro!\n\nVamos ver o estado atual do jogo, clique no botão **pré-visualização** para experimentá-lo.",
+            "ru": "Эта игра на скорость, но в ней отсутствует таймер!\n\nДавайте посмотрим на текущее состояние игры, нажмите кнопку **предпросмотр**, чтобы попробовать.",
+            "sl": "Ta igra je hitrostna igra, vendar ji manjka časovnik!\n\nPoglejmo si trenutno stanje igre, kliknite gumb **predogled**, da jo preizkusite.",
+            "sq": "Kjo është një lojë shpejtësie, por i mungon një kohëmatës!\n\nLe të shohim gjendjen aktuale të lojës, klikoni butonin **parashikim** për ta provuar.",
+            "th": "นี่เป็นเกมที่เน้นความเร็ว แต่ยังขาดตัวจับเวลา!\n\nลองดูสถานะปัจจุบันของเกม คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อลองเล่น",
+            "uk": "Це гра на швидкість, але їй не вистачає таймера!\n\nДавайте подивимося на поточний стан гри, натисніть кнопку **попередній перегляд**, щоб спробувати.",
+            "zh": "这个游戏是一个速度游戏，但缺少计时器！\n\n让我们看看游戏的当前状态，点击 **预览** 按钮试试看。"
           }
         }
       },
-      "tooltip": {
-        "standalone": true,
-        "description": {
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "top-right",
+        "inGameMessage": {
           "messageByLocale": {
-            "en": "This game is quite simple! Use your mouse or finger to drag the key to the keyhole, whilst staying inside the pathway! Click on the **preview** button to try it out.",
-            "fr": "Ce jeu est assez simple ! Utilisez votre souris ou votre doigt pour faire glisser la clé dans la serrure, tout en restant dans le chemin ! Cliquez sur le bouton **aperçu** pour l'essayer.",
-            "ar": "هذه اللعبة بسيطة قليلًا! استخدام الفأرة أو إصبعك لسحب المفتاح إلى الفوهة مع البقاء داخل المسار! الضغط على الزر **معاينة** للتجربة.",
-            "de": "Dieses Spiel ist ziemlich einfach! Verwenden Sie Ihre Maus oder Ihren Finger, um den Schlüssel in das Schlüsselloch zu ziehen, während Sie sich im Pfad aufhalten! Klicken Sie auf die **Vorschau**-Schaltfläche, um es auszuprobieren.",
-            "es": "¡Este juego es bastante simple! Utiliza tu ratón o dedo para arrastrar la llave al agujero de la llave, ¡mientras te mantienes dentro del camino! Haz clic en el botón **previsualización** para probarlo.",
-            "fi": "Tämä peli on melko yksinkertainen! Käytä hiirtäsi tai sormeasi vetääksesi avaimen avaimenreikään, pysyen samalla polulla! Klikkaa **esikatselu**-painiketta kokeillaksesi sitä.",
-            "it": "Questo gioco è piuttosto semplice! Usa il mouse o il dito per trascinare la chiave nella serratura, rimanendo all'interno del percorso! Clicca sul pulsante **anteprima** per provarlo.",
-            "tr": "Bu oyun oldukça basit! Fare veya parmağınızı kullanarak anahtarı anahtar deliğine sürükleyin ve yol içinde kalın! Denemek için **önizleme** düğmesine tıklayın.",
-            "ja": "このゲームはかなりシンプルです！ マウスまたは指を使用して、パス内にとどまりながら鍵を鍵穴にドラッグします！ **プレビュー** ボタンをクリックして試してみてください。",
-            "ko": "이 게임은 꽤 간단합니다! 마우스 또는 손가락을 사용하여 키를 키홀에 드래그하면서 경로 안에 머무르십시오! **미리보기** 버튼을 클릭하여 시도해보세요.",
-            "pl": "Ta gra jest dość prosta! Użyj myszki lub palca, aby przeciągnąć klucz do zamka, pozostając w ścieżce! Kliknij przycisk **podgląd**, aby to wypróbować.",
-            "pt": "Este jogo é bastante simples! Use seu mouse ou dedo para arrastar a chave para a fechadura, enquanto permanece dentro do caminho! Clique no botão **pré-visualização** para experimentá-lo.",
-            "ru": "Эта игра довольно проста! Используйте мышь или палец, чтобы перетащить ключ в замочную скважину, находясь внутри пути! Нажмите на кнопку **предпросмотр**, чтобы попробовать.",
-            "sl": "Ta igra je precej preprosta! Uporabite miško ali prst, da ključ povlečete v ključavnico, medtem ko ostanete v notranjosti poti! Kliknite na gumb **predogled**, da ga preizkusite.",
-            "sq": "Kjo lojë është mjaft e thjeshtë! Përdorni mousen ose gishtin tuaj për të tërhequr çelësin në çelësin, duke qëndruar brenda rrugës! Klikoni në butonin **parashikim** për ta provuar.",
-            "th": "เกมนี้เป็นเกมง่ายๆ! ใช้เมาส์หรือนิ้วเพื่อลากกุญแจไปยังช่องกุญแจในขณะที่ยังอยู่ในเส้นทาง! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อลองเล่น",
-            "uk": "Ця гра досить проста! Використовуйте мишу або палець, щоб перетягнути ключ у замковий отвір, перебуваючи всередині шляху! Натисніть на кнопку **попередній перегляд**, щоб спробувати.",
-            "zh": "这个游戏相当简单！ 使用鼠标或手指将钥匙拖到钥匙孔中，同时保持在路径内！ 点击 **预览** 按钮试试看。"
+            "en": "Use your mouse or finger to slide the key to the keyhole, while staying inside the path!\n\nWhen you've tried it out, close this window and return to the editor to start adding a timer.",
+            "fr": "Utilisez votre souris ou votre doigt pour faire glisser la clé vers la serrure, tout en restant à l'intérieur du chemin !\n\nUne fois que vous avez essayé, fermez cette fenêtre et revenez à l'éditeur pour commencer à ajouter un minuteur.",
+            "ar": "استخدم الماوس أو إصبعك لتحريك المفتاح إلى ثقب المفتاح، مع البقاء داخل المسار!\n\nعندما تجرب ذلك، أغلق هذه النافذة وعد إلى المحرر لبدء إضافة مؤقت.",
+            "de": "Benutze deine Maus oder deinen Finger, um den Schlüssel in das Schlüsselloch zu schieben, während du innerhalb des Pfades bleibst!\n\nWenn du es ausprobiert hast, schließe dieses Fenster und kehre zum Editor zurück, um mit dem Hinzufügen eines Timers zu beginnen.",
+            "es": "Usa el ratón o el dedo para deslizar la llave hacia el ojo de la cerradura, ¡manteniéndote dentro del camino!\n\nCuando lo hayas probado, cierra esta ventana y regresa al editor para empezar a añadir un temporizador.",
+            "fi": "Käytä hiirtä tai sormeasi liu'uttaaksesi avaimen avaimenreikään pysyen polun sisällä!\n\nKun olet kokeillut sitä, sulje tämä ikkuna ja palaa editoriin aloittaaksesi ajastimen lisäämisen.",
+            "it": "Usa il mouse o il dito per far scorrere la chiave nella serratura, rimanendo all'interno del percorso!\n\nDopo averlo provato, chiudi questa finestra e torna all'editor per iniziare ad aggiungere un timer.",
+            "tr": "Yolu takip ederek anahtarı anahtar deliğine kaydırmak için farenizi veya parmağınızı kullanın!\n\nDenedikten sonra, bu pencereyi kapatın ve bir zamanlayıcı eklemeye başlamak için düzenleyiciye geri dönün.",
+            "ja": "マウスまたは指を使って、パスの内側にとどまりながら、鍵を鍵穴にスライドさせてください！\n\n試したら、このウィンドウを閉じてエディターに戻り、タイマーの追加を開始してください。",
+            "ko": "마우스나 손가락을 사용하여 경로 안쪽에 머물면서 열쇠를 열쇠 구멍으로 밀어 넣으세요!\n\n시도해 보셨으면 이 창을 닫고 편집기로 돌아가 타이머 추가를 시작하세요.",
+            "pl": "Użyj myszy lub palca, aby przesunąć klucz do dziurki od klucza, pozostając na ścieżce!\n\nPo wypróbowaniu zamknij to okno i wróć do edytora, aby rozpocząć dodawanie timera.",
+            "pt": "Use o mouse ou o dedo para deslizar a chave para o buraco da fechadura, mantendo-se dentro do caminho!\n\nDepois de experimentar, feche esta janela e volte para o editor para começar a adicionar um cronômetro.",
+            "ru": "Используйте мышь или палец, чтобы вставить ключ в замочную скважину, оставаясь внутри пути!\n\nПопробовав, закройте это окно и вернитесь в редактор, чтобы начать добавлять таймер.",
+            "sl": "Uporabi miško ali prst, da potisneš ključ v ključavnico, pri tem pa ostani znotraj poti!\n\nKo preizkusiš, zapri to okno in se vrni v urejevalnik, da začneš dodajati časovnik.",
+            "sq": "Përdorni miun ose gishtin për të rrëshqitur çelësin në vrimën e çelësit, duke qëndruar brenda shtegut!\n\nPasi ta provoni, mbyllni këtë dritare dhe kthehuni te redaktori për të filluar shtimin e një kohëmatësi.",
+            "th": "ใช้เมาส์หรือนิ้วของคุณเลื่อนกุญแจไปยังรูกุญแจ โดยอยู่ในเส้นทาง!\n\nเมื่อคุณลองแล้ว ให้ปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไขเพื่อเริ่มเพิ่มตัวจับเวลา",
+            "uk": "Використовуйте мишу або палець, щоб вставити ключ у замкову щілину, залишаючись у межах шляху!\n\nСпробувавши, закрийте це вікно та поверніться до редактора, щоб почати додавати таймер.",
+            "zh": "使用鼠标或手指将钥匙滑动到钥匙孔中，同时保持在路径内！\n\n尝试后，关闭此窗口并返回编辑器以开始添加计时器。"
           }
         }
       }
