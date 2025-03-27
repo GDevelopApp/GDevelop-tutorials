@@ -154,57 +154,6 @@
       }
     },
     {
-      "tooltip": {
-        "standalone": true,
-        "description": {
-          "messageByLocale": {
-            "en": "The ship can move, but it cannot yet open fire because the **Fire Bullet behavior** is missing from the $(player) object.\n\nLet's fix it! Close this window and return to the editor.",
-            "fr": "Le vaisseau peut se déplacer, mais il ne peut pas encore ouvrir le feu car le comportement **Fire Bullet** est absent de l'objet **$(player)**.\n\nAjoutons-le. Fermez cette fenêtre et revenez à l'éditeur.",
-            "ar": "السفينة يمكنها الحركة، لكنها لا تستطيع فتح النار بعد لأن سلوك **Fire Bullet** مفقود من كائن **$(player)**.\n\nلنضيفه. أغلق هذه النافذة وعد إلى المحرر.",
-            "de": "Das Schiff kann sich bewegen, aber es kann noch nicht feuern, weil das **Fire Bullet Verhalten** im $(player) Objekt fehlt.\n\nLassen Sie uns das hinzufügen. Schließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
-            "es": "La nave puede moverse, pero aún no puede abrir fuego porque falta el comportamiento **Fire Bullet** en el objeto **$(player)**.\n\nVamos a añadirlo. Cierra esta ventana y regresa al editor.",
-            "fi": "Alus voi liikkua, mutta se ei voi vielä avata tulta, koska **Fire Bullet -käyttäytymistä** ei ole $(player) -kohteessa.\n\nLisätään se. Sulje tämä ikkuna ja palaa editoriin.",
-            "it": "La nave può muoversi, ma non può ancora aprire il fuoco perché manca il comportamento **Fire Bullet** nell'oggetto **$(player)**.\n\nAggiungiamolo. Chiudi questa finestra e torna all'editor.",
-            "tr": "Gemimiz hareket edebilir, ancak henüz **Fire Bullet davranışı** $(player) nesnesinden eksik olduğu için henüz ateş edemez.\n\nEkleyelim. Bu pencereyi kapatın ve düzenleyiciye geri dönün.",
-            "ja": "宇宙船は動くことができますが、**Fire Bullet** の振る舞いが **$(player)** オブジェクトにないため、まだ射撃できません。\n\n追加しましょう。 このウィンドウを閉じてエディターに戻ってください。",
-            "ko": "우주선은 움직일 수 있지만 **Fire Bullet** 동작이 **$(player)** 객체에 없기 때문에 아직 발사할 수 없습니다.\n\n추가해 봅시다. 이 창을 닫고 편집기로 돌아가세요.",
-            "pl": "Statek może się poruszać, ale nie może jeszcze otworzyć ognia, ponieważ brakuje zachowania **Fire Bullet** w obiekcie $(player).\n\nDodajmy to. Zamknij to okno i wróć do edytora.",
-            "pt": "A nave pode se mover, mas ainda não pode abrir fogo porque o comportamento **Fire Bullet** está ausente do objeto **$(player)**.\n\nVamos adicioná-lo. Feche esta janela e volte para o editor.",
-            "th": "เรือสามารถเคลื่อนที่ได้ แต่ยังไม่สามารถเปิดไฟได้เพราะ **Fire Bullet behavior** หายไปจาก $(player) object.\n\nเรามาเพิ่มมัน. ปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไข",
-            "ru": "Корабль может двигаться, но пока не может открывать огонь, потому что поведение **Fire Bullet** отсутствует у объекта **$(player)**.\n\nДобавим его. Закройте это окно и вернитесь в редактор.",
-            "sl": "Ladja se lahko premika, vendar še ne more odpreti ognja, ker manjka vedenje **Fire Bullet** v objektu **$(player)**.\n\nDodajmo ga. Zapri to okno in se vrni v urejevalnik.",
-            "sq": "Ankandi mund të lëvizë, por nuk mund të hapë zjarrin ende sepse sjellja **Fire Bullet** mungon nga objekti $(player).\n\nTa shtojmë atë. Mbyllni këtë dritare dhe kthehuni te redaktori.",
-            "uk": "Корабель може рухатись, але він ще не може відкривати вогонь, тому що поведінка **Fire Bullet** відсутня у об'єкта $(player).\n\nДодаймо його. Закрийте це вікно та поверніться до редактора.",
-            "zh": "飞船可以移动，但由于 **$(player)** 对象中缺少 **Fire Bullet** 行为，因此尚无法开火。\n\n让我们添加它。 关闭此窗口并返回编辑器。"
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Let's go!",
-            "fr": "C'est parti !",
-            "ar": "لنبدأ!",
-            "de": "Los geht's!",
-            "es": "¡Vamos!",
-            "fi": "Lähdetään!",
-            "it": "Andiamo!",
-            "tr": "Hadi başlayalım!",
-            "ja": "さあ、始めましょう！",
-            "ko": "출발!",
-            "pl": "Zaczynamy!",
-            "pt": "Vamos lá!",
-            "ru": "Поехали!",
-            "sl": "Gremo!",
-            "sq": "Hajde shkojme!",
-            "th": "ไปกันเลย!",
-            "uk": "Почнемо!",
-            "zh": "让我们开始吧！"
-          }
-        }
-      }
-    },
-    {
       "metaKind": "add-behavior",
       "objectKey": "player",
       "isOnClosableDialog": true,
