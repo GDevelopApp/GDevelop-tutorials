@@ -193,52 +193,53 @@
     {
       "id": "Start",
       "elementToHighlightId": "#toolbar-preview-button",
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
+      "tooltip": {
+        "description": {
           "messageByLocale": {
-            "en": "Let's go!",
-            "fr": "C'est parti !",
-            "ar": "لنبدأ!",
-            "de": "Los geht's!",
-            "es": "¡Vamos!",
-            "fi": "Lähdetään!",
-            "it": "Andiamo!",
-            "tr": "Haydi başlayalım!",
-            "ja": "さあ、始めましょう！",
-            "ko": "출발!",
-            "pl": "Zaczynamy!",
-            "pt": "Vamos lá!",
-            "ru": "Поехали!",
-            "sl": "Gremo!",
-            "sq": "Hajde shkojme!",
-            "th": "ไปกันเลย!",
-            "uk": "Почнемо!",
-            "zh": "让我们开始吧！"
+            "en": "This game is a platformer where the player has only 3 lives, but there is no interface to display them yet. Let's check the current state of the game.\n\nClick on the **Preview** button to play.\n\nYou can move the player with the arrow keys and jump with the spacebar.",
+            "fr": "Ce jeu est un jeu de plateforme où le joueur n'a que 3 vies, mais il n'y a pas encore d'interface pour les afficher. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **Aperçu** pour jouer.\n\nVous pouvez déplacer le joueur avec les flèches directionnelles et sauter avec la barre d'espace.",
+            "ar": "هذه اللعبة هي لعبة منصات حيث يملك اللاعب 3 أرواح فقط، ولكن لا توجد واجهة لعرضها بعد. دعونا نتحقق من حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.\n\nيمكنك تحريك اللاعب باستخدام مفاتيح الأسهم والقفز باستخدام مفتاح المسافة.",
+            "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler nur 3 Leben hat, aber es gibt noch keine Anzeige dafür. Lassen Sie uns den aktuellen Spielstand überprüfen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.\n\nSie können die Figur mit den Pfeiltasten bewegen und mit der Leertaste springen.",
+            "es": "Este juego es un plataformas donde el jugador solo tiene 3 vidas, pero aún no hay una interfaz para mostrarlas. Veamos el estado actual del juego.\n\nHaz clic en el botón **Vista previa** para jugar.\n\nPuedes mover al jugador con las teclas de flecha y saltar con la barra espaciadora.",
+            "fi": "Tämä peli on tasohyppely, jossa pelaajalla on vain 3 elämää, mutta niiden näyttämiseen ei ole vielä käyttöliittymää. Katsotaan pelin nykytilaa.\n\nNapsauta **Esikatselu**-painiketta pelataksesi.\n\nVoit liikuttaa hahmoa nuolinäppäimillä ja hypätä välilyönnillä.",
+            "it": "Questo gioco è un platformer in cui il giocatore ha solo 3 vite, ma non c'è ancora un'interfaccia per mostrarle. Vediamo lo stato attuale del gioco.\n\nClicca sul pulsante **Anteprima** per giocare.\n\nPuoi muovere il personaggio con le frecce direzionali e saltare con la barra spaziatrice.",
+            "tr": "Bu oyun, oyuncunun yalnızca 3 cana sahip olduğu, ancak bunları gösterecek bir arayüzün henüz olmadığı bir platform oyunudur. Mevcut oyun durumunu kontrol edelim.\n\nOynamak için **Önizleme** düğmesine tıklayın.\n\nKarakteri ok tuşlarıyla hareket ettirebilir ve boşluk tuşuyla zıplatabilirsiniz.",
+            "ja": "このゲームは、プレイヤーが3つのライフしか持っていませんが、それを表示するインターフェースはまだありません。現在のゲームの状態を確認しましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。\n\n矢印キーでキャラクターを移動し、スペースバーでジャンプできます。",
+            "ko": "이 게임은 플레이어가 3개의 목숨만 가지고 있지만, 이를 표시할 인터페이스가 아직 없는 플랫폼 게임입니다. 현재 게임 상태를 확인해 보겠습니다.\n\n플레이하려면 **미리보기** 버튼을 클릭하세요.\n\n화살표 키로 캐릭터를 이동하고 스페이스바로 점프할 수 있습니다.",
+            "pl": "Ta gra to platformówka, w której gracz ma tylko 3 życia, ale nie ma jeszcze interfejsu do ich wyświetlania. Sprawdźmy aktualny stan gry.\n\nKliknij przycisk **Podgląd**, aby zagrać.\n\nMożesz poruszać się strzałkami i skakać spacją.",
+            "pt": "Este jogo é um jogo de plataforma onde o jogador tem apenas 3 vidas, mas ainda não há uma interface para exibi-las. Vamos verificar o estado atual do jogo.\n\nClique no botão **Pré-visualização** para jogar.\n\nVocê pode mover o personagem com as setas do teclado e pular com a barra de espaço.",
+            "th": "เกมนี้เป็นเกมแพลตฟอร์มที่ผู้เล่นมีเพียง 3 ชีวิต แต่ยังไม่มีอินเทอร์เฟซสำหรับแสดงผล มาดูสถานะปัจจุบันของเกมกัน\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น\n\nคุณสามารถเคลื่อนที่ด้วยปุ่มลูกศรและกระโดดด้วยแป้นเว้นวรรค",
+            "ru": "Эта игра — платформер, в котором у игрока всего 3 жизни, но пока нет интерфейса для их отображения. Давайте проверим текущее состояние игры.\n\nНажмите кнопку **Предварительный просмотр**, чтобы играть.\n\nВы можете двигаться с помощью стрелок и прыгать пробелом.",
+            "sl": "Ta igra je platformer, kjer ima igralec samo 3 življenja, vendar še ni vmesnika za njihovo prikazovanje. Preverimo trenutno stanje igre.\n\nKliknite gumb **Predogled**, da igrate.\n\nIgralca lahko premikate s puščičnimi tipkami in skačete s preslednico.",
+            "sq": "Kjo lojë është një platformë ku lojtari ka vetëm 3 jetë, por ende nuk ka një ndërfaqe për t'i shfaqur ato. Le të shohim gjendjen aktuale të lojës.\n\nKlikoni butonin **Parashikim** për të luajtur.\n\nMund të lëvizni lojtarin me shigjetat dhe të kërceheni me hapësirën.",
+            "uk": "Ця гра — платформер, у якій гравець має лише 3 життя, але поки що немає інтерфейсу для їх відображення. Давайте перевіримо поточний стан гри.\n\nНатисніть кнопку **Попередній перегляд**, щоб грати.\n\nПереміщайте гравця за допомогою стрілок і стрибайте пробілом.",
+            "zh": "这个游戏是一款平台游戏，玩家只有3条生命，但目前还没有界面显示它们。让我们检查当前的游戏状态。\n\n点击 **预览** 按钮开始游戏。\n\n你可以用方向键移动角色，并使用空格键跳跃。"
           }
         }
       },
-      "tooltip": {
-        "standalone": true,
-        "description": {
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "top-right",
+        "inGameMessage": {
           "messageByLocale": {
-            "en": "This game is a Platformer. Click on the **preview** button to play.\nYou can move the player with the arrow keys, and jump with space.",
-            "fr": "Ce jeu est un jeu de plateforme. Cliquez sur le bouton **Aperçu** pour y jouer.\nVous pouvez déplacer le joueur avec les flèches et sauter avec Espace.",
-            "ar": "هذه لعبة منصات. الضغط على الزر **معاينة** للعب.\nيمكنك تحريك الشخصية بواسطة مفاتيح الأسهم، والقفز بواسطة مفتاح المسافة.",
-            "de": "Dieses Spiel ist ein Plattformer. Klicken Sie auf die **Vorschau**-Schaltfläche, um zu spielen.\nSie können den Spieler mit den Pfeiltasten bewegen und mit der Leertaste springen.",
-            "es": "Este juego es un plataformero.\nPuedes mover al jugador con las flechas y saltar con la barra espaciadora.\n\n**Pruébalo** con el botón de **Previsualización**.",
-            "fi": "Tämä peli on tasohyppely. Klikkaa **esikatselu**-painiketta pelataksesi.\nVoit liikuttaa pelaajaa nuolinäppäimillä ja hypätä välilyönnillä.",
-            "it": "Questo gioco è un platformer. Clicca sul pulsante **Anteprima** per giocare.\nPuoi muovere il giocatore con i tasti freccia e saltare con lo spazio.",
-            "tr": "Bu oyun bir Platformer. Oynamak için **önizleme** düğmesine tıklayın.\nOyuncuyu ok tuşlarıyla hareket ettirebilir ve boşluk tuşuyla zıplayabilirsiniz.",
-            "ja": "このゲームはプラットフォーマーです。**プレビュー**ボタンをクリックしてプレイしてください。\n矢印キーでプレイヤーを動かし、スペースでジャンプできます。",
-            "ko": "이 게임은 플랫포머입니다. **미리보기** 버튼을 클릭하여 플레이하세요.\n화살표 키로 플레이어를 이동하고, 스페이스로 점프할 수 있습니다.",
-            "pl": "Ta gra to platformówka. Kliknij przycisk **Podgląd**, aby zagrać.\nMożesz poruszać się graczem za pomocą strzałek i skakać za pomocą spacji.",
-            "pt": "Este jogo é um plataforma.\nVocê pode mover o jogador com as teclas de seta e pular com espaço.\n\n**Teste-o** com o botão **pré-visualização**.",
-            "ru": "Эта игра - платформер. Нажмите на кнопку **предпросмотр**, чтобы поиграть.\nВы можете перемещать игрока с помощью стрелок и прыгать с помощью пробела.",
-            "sl": "Ta igra je platformer. Kliknite na gumb **predogled** za predvajanje.\nIgralca lahko premikate s puščičnimi tipkami in skočite s preslednico.",
-            "sq": "Ky lojë është një platformë. Klikoni në butonin **parashikim** për të luajtur.\nJu mund të lëvizni lojtarin me tastet e shigjetave dhe të kryeni një hop me hapësirën.",
-            "th": "นี่เป็นเกม platformer แบบเรียบง่าย\nคุณสามารถเคลื่อนที่ผู้เล่นด้วยปุ่มลูกศรและกระโดดด้วย space bar\n\n**ลดลองเล่นเกม** โดยกดปุ่ม **ดูตัวอย่าง**\n\nเมื่อพร้อมแล้ว กดปุ่มนี้เพื่อไปต่อ",
-            "uk": "Ця гра - платформер. Натисніть кнопку **попередній перегляд**, щоб грати.\nВи можете переміщати гравця за допомогою стрілок і стрибати за допомогою пробіла.",
-            "zh": "这个游戏是一个平台游戏。点击**预览**按钮进行游戏。\n你可以用方向键移动玩家，用空格键跳跃。"
+            "en": "The character loses a life when hitting a chainsaw. The game restarts after the player loses 3 lives, but there's no visible life bar yet. We're going to add one! Let's fix it! Close this window and return to the editor.",
+            "fr": "Le personnage perd une vie lorsqu'il touche une tronçonneuse. Le jeu redémarre après la perte de 3 vies, mais la barre de vie n'est pas encore visible. Nous allons en ajouter une ! Corrigeons cela ! Fermez cette fenêtre et retournez à l'éditeur.",
+            "ar": "تفقد الشخصية حياة عند الاصطدام بالمنشار. تُعاد اللعبة بعد فقدان اللاعب 3 أرواح، لكن شريط الحياة غير مرئي بعد. سنقوم بإضافته! لنصلح ذلك! أغلق هذه النافذة وارجع إلى المحرر.",
+            "de": "Die Figur verliert ein Leben, wenn sie eine Kettensäge berührt. Das Spiel startet neu, nachdem der Spieler 3 Leben verloren hat, aber die Lebensleiste ist noch nicht sichtbar. Wir werden eine hinzufügen! Lassen Sie es uns beheben! Schließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
+            "es": "El personaje pierde una vida al tocar una motosierra. El juego se reinicia después de perder 3 vidas, pero la barra de vida aún no es visible. ¡Vamos a añadir una! ¡Arreglémoslo! Cierra esta ventana y vuelve al editor.",
+            "fi": "Hahmo menettää elämän osuessaan moottorisahaan. Peli käynnistyy uudelleen, kun pelaaja menettää 3 elämää, mutta elämänpalkkia ei vielä näy. Lisätään se! Korjataan tämä! Sulje tämä ikkuna ja palaa editoriin.",
+            "it": "Il personaggio perde una vita quando tocca una motosega. Il gioco si riavvia dopo che il giocatore perde 3 vite, ma la barra della vita non è ancora visibile. La aggiungeremo! Sistemiamolo! Chiudi questa finestra e torna all'editor.",
+            "tr": "Karakter, bir testereye çarptığında bir can kaybeder. Oyuncu 3 can kaybettikten sonra oyun yeniden başlar, ancak henüz görünür bir can çubuğu yok. Bir tane ekleyeceğiz! Hadi düzeltelim! Bu pencereyi kapat ve editöre geri dön.",
+            "ja": "キャラクターはチェーンソーに当たるとライフを失います。プレイヤーが3回ライフを失うとゲームが再スタートしますが、ライフバーはまだ表示されていません。ライフバーを追加しましょう！修正しましょう！このウィンドウを閉じてエディターに戻ってください。",
+            "ko": "캐릭터는 전기톱에 닿으면 생명을 잃습니다. 플레이어가 3개의 생명을 모두 잃으면 게임이 다시 시작되지만, 아직 생명 막대가 보이지 않습니다. 추가하겠습니다! 수정해 봅시다! 이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Postać traci życie, gdy dotknie piły łańcuchowej. Gra restartuje się po utracie 3 żyć, ale pasek życia nie jest jeszcze widoczny. Dodamy go! Naprawmy to! Zamknij to okno i wróć do edytora.",
+            "pt": "O personagem perde uma vida ao tocar em uma serra elétrica. O jogo reinicia após o jogador perder 3 vidas, mas a barra de vida ainda não está visível. Vamos adicionar uma! Vamos corrigir isso! Feche esta janela e volte para o editor.",
+            "th": "ตัวละครสูญเสียพลังชีวิตเมื่อโดนเลื่อยไฟฟ้า เกมจะเริ่มใหม่หลังจากผู้เล่นเสียพลังชีวิต 3 ครั้ง แต่ยังไม่มีแถบพลังชีวิตให้เห็น เราจะเพิ่มมันเข้าไป! มาแก้ไขกันเถอะ! ปิดหน้าต่างนี้แล้วกลับไปที่ตัวแก้ไข",
+            "ru": "Персонаж теряет жизнь при столкновении с бензопилой. Игра перезапускается после потери 3 жизней, но шкала жизни пока не отображается. Мы её добавим! Давайте исправим это! Закройте это окно и вернитесь в редактор.",
+            "sl": "Lik izgubi življenje, ko zadene motorno žago. Igra se ponovno zažene po izgubi 3 življenj, vendar vrstica življenj še ni vidna. Dodali jo bomo! Popravimo to! Zaprite to okno in se vrnite v urejevalnik.",
+            "sq": "Karakteri humb një jetë kur prek një sharrë elektrike. Loja riniset pasi lojtari humbet 3 jetë, por shiritit i jetës nuk është ende i dukshëm. Do ta shtojmë! Ta rregullojmë këtë! Mbylle këtë dritare dhe kthehu te redaktori.",
+            "uk": "Персонаж втрачає життя при зіткненні з бензопилою. Гра перезапускається після втрати 3 життів, але шкала життя поки не відображається. Ми її додамо! Давайте це виправимо! Закрийте це вікно і поверніться до редактора.",
+            "zh": "角色碰到电锯时会失去一条生命。玩家失去3条生命后游戏会重新开始，但生命条尚未显示。我们将添加一个！让我们来修复它！关闭此窗口并返回编辑器。"
           }
         }
       }

@@ -188,51 +188,55 @@
   "flow": [
     {
       "id": "Start",
-      "metaKind": "launch-preview",
-      "nextStep": {
-        "clickOnTooltipButton": {
+      "elementToHighlightId": "#toolbar-preview-button",
+      "tooltip": {
+        "description": {
           "messageByLocale": {
-            "en": "Let's go!",
-            "fr": "C'est parti !",
-            "ar": "لنبدأ!",
-            "de": "Los geht's!",
-            "es": "¡Vamos!",
-            "fi": "Lähdetään!",
-            "it": "Andiamo!",
-            "tr": "Haydi başlayalım!",
-            "ja": "さあ、始めましょう！",
-            "ko": "출발!",
-            "pl": "Zaczynamy!",
-            "pt": "Vamos lá!",
-            "ru": "Поехали!",
-            "sl": "Gremo!",
-            "sq": "Hajde shkojme!",
-            "th": "ไปกันเลย!",
-            "uk": "Почнемо!",
-            "zh": "让我们开始吧！"
+            "en": "This game is a top-down space shooter! Click the **Preview** button to play.\nOn PC, you can move the spaceship with the arrow keys, but on mobile, this is not possible. We will add this feature step by step. Play for a bit and come back to the editor when you're ready.",
+            "fr": "Ce jeu est un jeu de tir dans l'espace en vue du dessus ! Clique sur le bouton **Aperçu** pour jouer.\nSur PC, tu peux déplacer le vaisseau avec les flèches du clavier, sur mobile ce n'est pas possible, nous allons ajouter cette possibilité étape par étape. Joue un peu et reviens à l'éditeur quand tu es prêt.",
+            "ar": "هذه اللعبة هي لعبة إطلاق نار في الفضاء بمنظور علوي! انقر على زر **المعاينة** للعب.\nعلى الكمبيوتر، يمكنك تحريك السفينة باستخدام أسهم لوحة المفاتيح، لكن على الهاتف المحمول، هذا غير ممكن. سنضيف هذه الميزة خطوة بخطوة. العب قليلاً ثم عد إلى المحرر عندما تكون مستعدًا.",
+            "de": "Dieses Spiel ist ein Top-Down-Weltraum-Shooter! Klicke auf die Schaltfläche **Vorschau**, um zu spielen.\nAuf dem PC kannst du das Raumschiff mit den Pfeiltasten bewegen, aber auf dem Handy ist das nicht möglich. Wir werden diese Funktion Schritt für Schritt hinzufügen. Spiele eine Weile und kehre zum Editor zurück, wenn du bereit bist.",
+            "es": "¡Este juego es un shooter espacial en vista cenital! Haz clic en el botón **Vista previa** para jugar.\nEn PC, puedes mover la nave con las flechas del teclado, pero en móvil esto no es posible. Vamos a añadir esta función paso a paso. Juega un poco y vuelve al editor cuando estés listo.",
+            "fi": "Tämä peli on ylhäältä kuvattu avaruusräiskintäpeli! Klikkaa **Esikatselu**-painiketta pelataksesi.\nTietokoneella voit liikuttaa avaruusalusta nuolinäppäimillä, mutta mobiililaitteella se ei ole mahdollista. Lisäämme tämän ominaisuuden askel askeleelta. Pelaa hetki ja palaa editoriin, kun olet valmis.",
+            "it": "Questo gioco è uno sparatutto spaziale con vista dall'alto! Clicca sul pulsante **Anteprima** per giocare.\nSu PC, puoi spostare l'astronave con i tasti freccia, ma su mobile non è possibile. Aggiungeremo questa funzione passo dopo passo. Gioca un po' e torna all'editor quando sei pronto.",
+            "tr": "Bu oyun, yukarıdan görünümlü bir uzay nişancı oyunudur! Oynamak için **Önizleme** düğmesine tıkla.\nBilgisayarda, uzay gemisini ok tuşlarıyla hareket ettirebilirsin, ancak mobilde bu mümkün değil. Bu özelliği adım adım ekleyeceğiz. Biraz oyna ve hazır olduğunda editöre geri dön.",
+            "ja": "このゲームはトップダウン型のスペースシューティングゲームです！プレイするには **プレビュー** ボタンをクリックしてください。\nPCでは矢印キーで宇宙船を動かせますが、モバイルでは動きません。この機能を段階的に追加していきます。少し遊んで、準備ができたらエディターに戻りましょう。",
+            "ko": "이 게임은 탑다운 방식의 우주 슈팅 게임입니다! **미리보기** 버튼을 클릭하여 플레이하세요.\nPC에서는 화살표 키로 우주선을 이동할 수 있지만, 모바일에서는 불가능합니다. 이 기능을 단계별로 추가할 것입니다. 잠시 플레이한 후 준비가 되면 편집기로 돌아오세요.",
+            "pl": "Ta gra to strzelanka kosmiczna z widokiem z góry! Kliknij przycisk **Podgląd**, aby zagrać.\nNa komputerze możesz poruszać statkiem kosmicznym za pomocą strzałek, ale na urządzeniach mobilnych nie jest to możliwe. Dodamy tę funkcję krok po kroku. Zagraj chwilę i wróć do edytora, gdy będziesz gotowy.",
+            "pt": "Este jogo é um shooter espacial visto de cima! Clique no botão **Pré-visualização** para jogar.\nNo PC, você pode mover a nave com as setas do teclado, mas no celular isso não é possível. Vamos adicionar essa funcionalidade passo a passo. Jogue um pouco e volte ao editor quando estiver pronto.",
+            "th": "เกมนี้เป็นเกมยิงในอวกาศมุมมองจากด้านบน! คลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น\nบนพีซี คุณสามารถควบคุมยานอวกาศได้ด้วยปุ่มลูกศร แต่บนมือถือยังไม่สามารถทำได้ เราจะเพิ่มฟีเจอร์นี้ทีละขั้นตอน ลองเล่นสักครู่แล้วกลับไปที่ตัวแก้ไขเมื่อคุณพร้อม",
+            "ru": "Эта игра — космический шутер с видом сверху! Нажмите кнопку **Предпросмотр**, чтобы сыграть.\nНа ПК вы можете управлять кораблём с помощью стрелок, но на мобильных устройствах это невозможно. Мы добавим эту возможность поэтапно. Поиграйте немного и вернитесь в редактор, когда будете готовы.",
+            "sl": "Ta igra je vesoljska strelska igra s pogledom od zgoraj! Kliknite gumb **Predogled**, da igrate.\nNa računalniku lahko premikate vesoljsko ladjo s puščičnimi tipkami, vendar na mobilnih napravah to ni mogoče. To možnost bomo dodali korak za korakom. Igrajte malo in se vrnite v urejevalnik, ko boste pripravljeni.",
+            "sq": "Kjo lojë është një lojë e qëlluar në hapësirë me pamje nga lart! Kliko butonin **Paraqitje** për të luajtur.\nNë kompjuter, mund të lëvizësh anijen me shigjetat e tastierës, por në celular kjo nuk është e mundur. Do ta shtojmë këtë funksion hap pas hapi. Luaj pak dhe kthehu te redaktori kur të jesh gati.",
+            "uk": "Ця гра — це космічний шутер з видом зверху! Натисніть кнопку **Попередній перегляд**, щоб грати.\nНа ПК ви можете рухати космічний корабель за допомогою стрілок, але на мобільних пристроях це неможливо. Ми додамо цю можливість поступово. Пограйте трохи і поверніться до редактора, коли будете готові.",
+            "zh": "这是一款俯视视角的太空射击游戏！点击 **预览** 按钮进行游戏。\n在电脑上，你可以使用方向键移动飞船，但在手机上无法做到。我们将逐步添加这个功能。先玩一会儿，准备好后返回编辑器。"
           }
         }
       },
-      "description": {
-        "messageByLocale": {
-          "en": "This game is a Top-down space shooter! Click on the **preview** button to play.\nYou can move the ship with the arrow keys, try to avoid touching the rocks!",
-          "fr": "Ce jeu est un jeu de tir dans l'espace en vue du dessus ! Clique sur le bouton **prévisualiser** pour jouer.\nTu peux déplacer le vaisseau avec les flèches du clavier, essaie d'éviter de toucher les rochers !",
-          "ar": "هذه لعبة إطلاق نار فضائية! الضغط على الزر **معاينة** للعب.\nيمكنك تحريك سفينة الفضاء بواسطة مفاتيح الأسهم، حاول تجنب ملامسة الصخور!",
-          "de": "Dieses Spiel ist ein Top-Down-Weltraum-Shooter! Klicken Sie auf die **Vorschau**-Schaltfläche, um zu spielen.\nSie können das Schiff mit den Pfeiltasten bewegen, versuchen Sie, die Felsen zu vermeiden!",
-          "es": "¡Este juego es un juego de disparos en el espacio en vista superior! Haz clic en el botón **previsualizar** para jugar.\n¡Puedes mover la nave con las flechas del teclado, intenta evitar tocar las rocas!",
-          "fi": "Tämä peli on ylhäältä alas suunnattu avaruusammuskelu! Klikkaa **esikatselu**-painiketta pelataksesi.\nVoit liikuttaa alusta nuolinäppäimillä, yritä välttää kivien koskettamista!",
-          "it": "Questo gioco è uno sparatutto spaziale dall'alto verso il basso! Clicca sul pulsante **anteprima** per giocare.\nPuoi muovere la nave con i tasti freccia, cerca di evitare di toccare le rocce!",
-          "tr": "Bu oyun, yukarıdan aşağıya bakış açılı bir uzay atış oyunudur! Oynamak için **önizleme** düğmesine tıkla.\nGemiyi ok tuşlarıyla hareket ettirebilirsin, kayalara dokunmamaya çalış!",
-          "ja": "このゲームは、上から見た宇宙シューティングゲームです！ **プレビュー** ボタンをクリックしてプレイしてください。\n矢印キーで宇宙船を動かすことができます。岩に触れないようにしてください！",
-          "ko": "이 게임은 탑다운 우주 슈팅 게임입니다! **미리보기** 버튼을 클릭하여 플레이하세요.\n화살표 키로 우주선을 움직일 수 있습니다. 돌에 닿지 않도록 하세요!",
-          "pl": "Ta gra to strzelanka kosmiczna z widokiem z góry! Kliknij przycisk **podgląd**, aby zagrać.\nMożesz poruszać statkiem za pomocą klawiszy strzałek, spróbuj unikać dotykania skał!",
-          "pt": "Este jogo é um jogo de tiro espacial de cima para baixo! Clique no botão **pré-visualizar** para jogar.\nVocê pode mover a nave com as setas do teclado, tente evitar tocar nas rochas!",
-          "ru": "Эта игра - космический шутер сверху вниз! Нажмите на кнопку **предпросмотр**, чтобы играть.\nВы можете перемещать корабль с помощью стрелок, попробуйте избегать касания камней!",
-          "sl": "Ta igra je vesoljski strelec zgoraj navzdol! Klikni na gumb **predogled** za igranje.\nLahko premikaš ladjo s puščičnimi tipkami, poskusi se izogniti dotikanju kamnov!",
-          "sq": "Kjo loje eshte nje Top-down (larte poshte) gjuajes ! Shtype buttoni qe shkruan  **preview**  per te luajtur.\n Ju mund te levizni anijen me taste shigjetat, provo mos t`i prekesh guret!",
-          "th": "เกมนี้เป็นเกมยิงสเปซที่มีมุมมองด้านบน! คลิกที่ปุ่ม **ดูตัวอย่าง** เพื่อเล่น\nคุณสามารถเคลื่อนย้ายยานอวกาศด้วยปุ่มลูกศร ลองหลีกเลี่ยงการชนกับหิน!",
-          "uk": "Ця гра - космічний шутер зверху вниз! Натисніть на кнопку **попередній перегляд**, щоб грати.\nВи можете переміщати корабель за допомогою стрілок, спробуйте уникати дотику до каменів!",
-          "zh": "这个游戏是一个自上而下的太空射击游戏！点击 **预览** 按钮进行游戏。\n你可以用方向键移动飞船，试着避免碰到岩石！"
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "top-right",
+        "inGameMessage": {
+          "messageByLocale": {
+            "en": "Using the left and right keyboard keys on a computer, the spaceship can move, but not on mobile. Let's add a joystick to control the spaceship with fingers on mobile!\nClose this window and go back to the editor.",
+            "fr": "A l'aide des touches gauche et droite du clavier sur ordinateur le vaisseau peut bouger, mais pas sur mobile, ajoutons un joystick pour pouvoir controler le vaisseau avec les doigts sur mobile!\nFerme cette fenêtre et retourne à l'éditeur.",
+            "ar": "باستخدام مفاتيح السهم اليسار واليمين على لوحة المفاتيح في الكمبيوتر، يمكن للمركبة التحرك، ولكن ليس على الهاتف المحمول. لنضف عصا تحكم لقيادة المركبة بالأصابع على الهاتف المحمول!\nأغلق هذه النافذة وارجع إلى المحرر.",
+            "de": "Mit den linken und rechten Tasten auf der Tastatur kann sich das Raumschiff auf dem Computer bewegen, aber nicht auf Mobilgeräten. Fügen wir einen Joystick hinzu, um das Raumschiff mit den Fingern auf dem Handy zu steuern!\nSchließe dieses Fenster und kehre zum Editor zurück.",
+            "es": "Usando las teclas izquierda y derecha del teclado en la computadora, la nave puede moverse, pero no en el móvil. ¡Agreguemos un joystick para controlar la nave con los dedos en el móvil!\nCierra esta ventana y vuelve al editor.",
+            "fi": "Tietokoneella avaruusalus voi liikkua vasemmalla ja oikealla nuolinäppäimellä, mutta ei mobiilissa. Lisätään ohjain, jotta sitä voi ohjata sormilla mobiililaitteella!\nSulje tämä ikkuna ja palaa editoriin.",
+            "it": "Usando i tasti sinistra e destra della tastiera su computer, l'astronave può muoversi, ma non su mobile. Aggiungiamo un joystick per controllare l'astronave con le dita su mobile!\nChiudi questa finestra e torna all'editor.",
+            "tr": "Bilgisayarda sol ve sağ ok tuşlarını kullanarak uzay gemisi hareket edebilir, ancak mobilde değil. Uzay gemisini mobilde parmaklarla kontrol etmek için bir joystick ekleyelim!\nBu pencereyi kapat ve editöre geri dön.",
+            "ja": "コンピューターではキーボードの左右キーを使って宇宙船を動かせますが、モバイルでは動きません。モバイルで指を使って操作できるようにジョイスティックを追加しましょう！\nこのウィンドウを閉じてエディターに戻ってください。",
+            "ko": "컴퓨터에서는 왼쪽 및 오른쪽 키보드를 사용하여 우주선을 움직일 수 있지만, 모바일에서는 불가능합니다. 모바일에서 손가락으로 조작할 수 있도록 조이스틱을 추가해 봅시다!\n이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Na komputerze statek kosmiczny może się poruszać za pomocą klawiszy strzałek w lewo i w prawo, ale nie na urządzeniach mobilnych. Dodajmy joystick, aby można było sterować statkiem palcami na telefonie!\nZamknij to okno i wróć do edytora.",
+            "pt": "No computador, a nave pode se mover com as teclas esquerda e direita do teclado, mas não no celular. Vamos adicionar um joystick para controlar a nave com os dedos no celular!\nFeche esta janela e volte para o editor.",
+            "th": "บนคอมพิวเตอร์สามารถใช้ปุ่มลูกศรซ้ายและขวาเพื่อควบคุมยานอวกาศได้ แต่บนมือถือทำไม่ได้ มาเพิ่มจอยสติ๊กเพื่อควบคุมยานด้วยนิ้วบนมือถือกันเถอะ!\nปิดหน้าต่างนี้แล้วกลับไปที่ตัวแก้ไข",
+            "ru": "На компьютере космический корабль можно перемещать с помощью клавиш влево и вправо, но на мобильном устройстве это невозможно. Давайте добавим джойстик, чтобы управлять кораблём пальцами на мобильном!\nЗакройте это окно и вернитесь в редактор.",
+            "sl": "Na računalniku se vesoljska ladja lahko premika s tipkama levo in desno, na mobilnih napravah pa ne. Dodajmo igralno palico, da bomo lahko ladjo nadzorovali s prsti na mobilniku!\nZaprite to okno in se vrnite v urejevalnik.",
+            "sq": "Në kompjuter, anija mund të lëvizë me tastet majtas dhe djathtas të tastierës, por jo në celular. Le të shtojmë një levë për të kontrolluar anijen me gishtat në celular!\nMbylle këtë dritare dhe kthehu te redaktori.",
+            "uk": "На комп'ютері космічний корабель можна рухати клавішами вліво та вправо, але на мобільному це неможливо. Додамо джойстик, щоб керувати кораблем пальцями на мобільному!\nЗакрийте це вікно і поверніться до редактора.",
+            "zh": "在电脑上，可以使用键盘的左右箭头移动飞船，但在手机上无法移动。让我们添加一个摇杆，使其可以在手机上用手指控制！\n关闭此窗口并返回编辑器。"
+          }
         }
       }
     },

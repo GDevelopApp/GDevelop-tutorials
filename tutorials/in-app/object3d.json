@@ -188,52 +188,54 @@
   "flow": [
     {
       "id": "Start",
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
+      "elementToHighlightId": "#toolbar-preview-button",
+      "tooltip": {
+        "description": {
           "messageByLocale": {
-            "en": "Let's go!",
-            "fr": "C'est parti !",
-            "ar": "لنبدأ!",
-            "de": "Los geht's!",
-            "es": "¡Vamos!",
-            "fi": "Lähdetään!",
-            "it": "Andiamo!",
-            "tr": "Haydi başlayalım!",
-            "ja": "さあ、始めましょう！",
-            "ko": "출발!",
-            "pl": "Zaczynamy!",
-            "pt": "Vamos lá!",
-            "ru": "Поехали!",
-            "sl": "Gremo!",
-            "sq": "Hajde shkojme!",
-            "th": "ไปกันเลย!",
-            "uk": "Почнемо!",
-            "zh": "让我们开始吧！"
+            "en": "This game is a platformer where the player must reach the goal button to complete the level. Let's check the current game state.\n\nClick the **Preview** button to play.",
+            "fr": "Ce jeu est un jeu de plateforme où le joueur doit atteindre le bouton d'objectif pour terminer le niveau. Voyons l'état actuel du jeu.\n\nCliquez sur le bouton **Aperçu** pour jouer.",
+            "ar": "هذه اللعبة هي لعبة منصات حيث يجب على اللاعب الوصول إلى زر الهدف لإنهاء المستوى. دعونا نتحقق من حالة اللعبة الحالية.\n\nانقر على زر **المعاينة** للعب.",
+            "de": "Dieses Spiel ist ein Platformer, bei dem der Spieler den Zielknopf erreichen muss, um das Level abzuschließen. Lassen Sie uns den aktuellen Spielstand überprüfen.\n\nKlicken Sie auf die Schaltfläche **Vorschau**, um zu spielen.",
+            "es": "Este juego es un plataformas donde el jugador debe alcanzar el botón de objetivo para completar el nivel. Veamos el estado actual del juego.\n\nHaz clic en el botón **Vista previa** para jugar.",
+            "fi": "Tämä peli on tasohyppely, jossa pelaajan on saavutettava tavoitenappi tason suorittamiseksi. Katsotaan pelin nykytilaa.\n\nNapsauta **Esikatselu**-painiketta pelataksesi.",
+            "it": "Questo gioco è un platformer in cui il giocatore deve raggiungere il pulsante obiettivo per completare il livello. Vediamo lo stato attuale del gioco.\n\nClicca sul pulsante **Anteprima** per giocare.",
+            "tr": "Bu oyun, oyuncunun seviyeyi tamamlamak için hedef düğmesine ulaşması gereken bir platform oyunudur. Mevcut oyun durumunu kontrol edelim.\n\nOynamak için **Önizleme** düğmesine tıklayın.",
+            "ja": "このゲームは、プレイヤーがゴールボタンに到達してレベルをクリアするプラットフォーマーです。現在のゲームの状態を確認しましょう。\n\n**プレビュー**ボタンをクリックしてプレイしてください。",
+            "ko": "이 게임은 플레이어가 목표 버튼에 도달하여 레벨을 완료해야 하는 플랫폼 게임입니다. 현재 게임 상태를 확인해 보겠습니다.\n\n플레이하려면 **미리보기** 버튼을 클릭하세요.",
+            "pl": "Ta gra to platformówka, w której gracz musi dotrzeć do przycisku celu, aby ukończyć poziom. Sprawdźmy aktualny stan gry.\n\nKliknij przycisk **Podgląd**, aby zagrać.",
+            "pt": "Este jogo é um jogo de plataforma onde o jogador deve alcançar o botão de objetivo para completar o nível. Vamos verificar o estado atual do jogo.\n\nClique no botão **Pré-visualização** para jogar.",
+            "th": "เกมนี้เป็นเกมแพลตฟอร์มที่ผู้เล่นต้องไปถึงปุ่มเป้าหมายเพื่อผ่านด่าน มาดูสถานะปัจจุบันของเกมกัน\n\nคลิกปุ่ม **ดูตัวอย่าง** เพื่อเล่น",
+            "ru": "Эта игра — платформер, в котором игрок должен достичь целевой кнопки, чтобы завершить уровень. Давайте проверим текущее состояние игры.\n\nНажмите кнопку **Предварительный просмотр**, чтобы играть.",
+            "sl": "Ta igra je platformer, kjer mora igralec doseči ciljni gumb, da dokonča stopnjo. Preverimo trenutno stanje igre.\n\nKliknite gumb **Predogled**, da igrate.",
+            "sq": "Kjo lojë është një platformë ku lojtari duhet të arrijë butonin e objektivit për të përfunduar nivelin. Le të shohim gjendjen aktuale të lojës.\n\nKlikoni butonin **Parashikim** për të luajtur.",
+            "uk": "Ця гра — платформер, у якій гравець повинен дістатися до цільової кнопки, щоб завершити рівень. Давайте перевіримо поточний стан гри.\n\nНатисніть кнопку **Попередній перегляд**, щоб грати.",
+            "zh": "这个游戏是一款平台游戏，玩家必须到达目标按钮才能完成关卡。让我们检查当前的游戏状态。\n\n点击 **预览** 按钮开始游戏。"
           }
         }
       },
-      "tooltip": {
-        "standalone": true,
-        "description": {
+      "nextStepTrigger": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "top-right",
+        "inGameMessage": {
           "messageByLocale": {
-            "en": "This game is a platformer, where you have to get the character to the goal button, while avoiding the red objects.\n\nBut it's not finished yet, so let's complete it!",
-            "fr": "Ce jeu est un jeu de plateforme, où vous devez amener le personnage jusqu'au bouton objectif, tout en évitant les objets rouges.\n\nMais il n'est pas encore terminé, alors terminons-le !",
-            "ar": "هذه لعبة منصات، حيث يتوجب عليك الوصول بالشخصية إلى زر الهدف، مع تجنب الكائنات الحمراء.\n\nولكنها لم تنته بعد، لذا هيّا نكملها!",
-            "de": "Dieses Spiel ist ein Plattformer, bei dem Sie die Figur zum Zielknopf bringen müssen, während Sie die roten Objekte vermeiden.\n\nAber es ist noch nicht fertig, also lass uns es fertigstellen!",
-            "es": "Este juego es un juego de plataformas, donde tienes que llevar al personaje al botón de objetivo, evitando los objetos rojos.\n\nPero aún no está terminado, ¡así que vamos a completarlo!",
-            "fi": "Tämä peli on tasohyppely, jossa sinun täytyy saada hahmo tavoitepainikkeeseen, välttäen punaisia esineitä.\n\nMutta se ei ole vielä valmis, joten viimeistellään se!",
-            "it": "Questo gioco è un platformer, dove devi portare il personaggio al pulsante obiettivo, evitando gli oggetti rossi.\n\nMa non è ancora finito, quindi completiamolo!",
-            "tr": "Bu oyun, karakteri hedef düğmeye ulaştırmanız gereken bir platform oyunudur, kırmızı nesnelerden kaçınarak.\n\nAncak henüz bitmedi, o yüzden tamamlayalım!",
-            "ja": "このゲームはプラットフォーマーで、赤いオブジェクトを避けながら、キャラクターをゴールボタンに移動させる必要があります。\n\nしかし、まだ完成していないので、完成させましょう！",
-            "ko": "이 게임은 플랫포머 게임으로, 빨간 물체를 피하면서 캐릭터를 목표 버튼으로 이동시켜야 합니다.\n\n하지만 아직 끝나지 않았으니 완성해 보죠!",
-            "pl": "Ta gra to platformówka, w której musisz doprowadzić postać do przycisku celu, unikając czerwonych obiektów.\n\nAle jeszcze nie jest skończona, więc dokończmy ją!",
-            "pt": "Este jogo é um jogo de plataforma, onde você tem que levar o personagem até o botão de objetivo, evitando os objetos vermelhos.\n\nMas ainda não está terminado, então vamos completá-lo!",
-            "ru": "Эта игра - платформер, в которой вам нужно довести персонажа до кнопки цели, избегая красных объектов.\n\nНо она еще не закончена, так что давайте завершим ее!",
-            "sl": "Ta igra je platformer, kjer morate osebo pripeljati do ciljnega gumba, pri tem pa se izogniti rdečim predmetom.\n\nAmpak še ni končano, zato ga dokončajmo!",
-            "sq": "Ky lojë është një platformë, ku duhet të merrni personazhin te butoni i qëllimit, duke shmangur objektet e kuqe.\n\nPor nuk është përfunduar ende, kështu që le të e përfundojmë!",
-            "th": "เกมนี้เป็นเกมแพลตฟอร์มเมอร์ ที่คุณต้องพาตัวละครไปยังปุ่มเป้าหมาย โดยหลีกเลี่ยงวัตถุสีแดง\n\nแต่ยังไม่เสร็จสิ้น ดังนั้นเรามาทำให้เสร็จสิ้นกันเถอะ!",
-            "uk": "Ця гра - платформер, в якій вам потрібно довести персонажа до кнопки цілі, уникайте червоних об'єктів.\n\nАле вона ще не закінчена, тому давайте завершимо її!",
-            "zh": "这个游戏是一个平台游戏，你必须将角色带到目标按钮，同时避开红色物体。\n\n但它还没有完成，所以让我们完成它！"
+            "en": "The character is stuck in a loop, continuously falling onto the red objects. We need to add solid ground beneath their feet using a platform object! Let's fix this!\nClose this window and go back to the editor.",
+            "fr": "Le personnage est coincé dans une boucle et tombe en continu sur les objets rouges. Nous devons ajouter un sol solide sous ses pieds avec un objet plateforme ! Corrigeons cela !\nFermez cette fenêtre et retournez à l'éditeur.",
+            "ar": "الشخصية عالقة في حلقة، تسقط باستمرار على الكائنات الحمراء. نحتاج إلى إضافة أرضية صلبة تحت قدميها باستخدام كائن منصة! لنصلح هذا!\nأغلق هذه النافذة وارجع إلى المحرر.",
+            "de": "Die Figur steckt in einer Schleife fest und fällt ständig auf die roten Objekte. Wir müssen festen Boden mit einem Plattform-Objekt unter ihren Füßen hinzufügen! Lassen wir das beheben!\nSchließe dieses Fenster und gehe zurück zum Editor.",
+            "es": "El personaje está atrapado en un bucle, cayendo continuamente sobre los objetos rojos. ¡Necesitamos añadir un suelo sólido debajo de sus pies con un objeto plataforma! ¡Arreglémoslo!\nCierra esta ventana y vuelve al editor.",
+            "fi": "Hahmo on jumissa silmukassa ja putoaa jatkuvasti punaisille esineille. Meidän täytyy lisätä kiinteä alusta sen jalkojen alle käyttämällä taso-objektia! Korjataan tämä!\nSulje tämä ikkuna ja palaa editoriin.",
+            "it": "Il personaggio è bloccato in un ciclo, cadendo continuamente sugli oggetti rossi. Dobbiamo aggiungere un terreno solido sotto i suoi piedi con un oggetto piattaforma! Sistemiamolo!\nChiudi questa finestra e torna all'editor.",
+            "tr": "Karakter bir döngü içinde sıkışmış ve sürekli kırmızı nesnelerin üzerine düşüyor. Ayaklarının altına bir platform nesnesiyle sağlam bir zemin eklemeliyiz! Hadi bunu düzeltelim!\nBu pencereyi kapat ve editöre geri dön.",
+            "ja": "キャラクターがループにはまり、赤いオブジェクトの上に落ち続けています。足元にプラットフォームオブジェクトを追加して、しっかりした地面を作りましょう！\nこのウィンドウを閉じてエディターに戻ってください。",
+            "ko": "캐릭터가 루프에 갇혀 계속 빨간 물체 위로 떨어지고 있습니다. 발 아래에 플랫폼 객체를 추가하여 단단한 바닥을 만들어야 합니다! 수정해 봅시다!\n이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Postać utknęła w pętli, ciągle spadając na czerwone obiekty. Musimy dodać solidne podłoże pod jej stopami za pomocą obiektu platformy! Naprawmy to!\nZamknij to okno i wróć do edytora.",
+            "pt": "O personagem está preso em um loop, caindo continuamente sobre os objetos vermelhos. Precisamos adicionar um chão sólido sob seus pés com um objeto de plataforma! Vamos corrigir isso!\nFeche esta janela e volte para o editor.",
+            "th": "ตัวละครติดอยู่ในลูป ตกลงบนวัตถุสีแดงตลอดเวลา เราจำเป็นต้องเพิ่มพื้นแข็งใต้เท้าของเขาโดยใช้วัตถุแพลตฟอร์ม! มาแก้ไขกันเถอะ!\nปิดหน้าต่างนี้แล้วกลับไปที่ตัวแก้ไข",
+            "ru": "Персонаж застрял в цикле, постоянно падая на красные объекты. Нам нужно добавить твердую землю под его ноги, используя объект платформы! Давайте это исправим!\nЗакройте это окно и вернитесь в редактор.",
+            "sl": "Lik je obtičal v zanki in neprestano pada na rdeče predmete. Pod njegove noge moramo dodati trdna tla s predmetom platforme! Popravimo to!\nZaprite to okno in se vrnite v urejevalnik.",
+            "sq": "Karakteri është bllokuar në një cikël, duke rënë vazhdimisht mbi objektet e kuqe. Duhet të shtojmë një tokë të qëndrueshme nën këmbët e tij me një objekt platforme! Ta rregullojmë këtë!\nMbylle këtë dritare dhe kthehu te redaktori.",
+            "uk": "Персонаж застряг у циклі, постійно падаючи на червоні об'єкти. Нам потрібно додати твердий ґрунт під його ноги, використовуючи об'єкт платформи! Давайте це виправимо!\nЗакрийте це вікно і поверніться до редактора.",
+            "zh": "角色陷入循环，不断掉落到红色物体上。我们需要使用平台对象在他脚下添加坚实的地面！让我们来修复它！\n关闭此窗口并返回编辑器。"
           }
         }
       }

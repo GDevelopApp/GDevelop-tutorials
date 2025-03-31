@@ -121,8 +121,8 @@
   "flow": [
     {
       "id": "Start",
+      "elementToHighlightId": "#toolbar-preview-button",
       "tooltip": {
-        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "In this tutorial, we'll complete the game by editing the terrain and removing the apple from the tree when the Slime is on it.\n\nBut first, launch the game to see the current game state and what we'll need to do next.\n\nClick the **Preview** button to play.",
@@ -146,58 +146,29 @@
           }
         }
       },
-      "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
-        "previewLaunched": true
-      }
-    },
-    {
-      "tooltip": {
-        "standalone": true,
-        "description": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "bottom-right",
+        "inGameMessage": {
           "messageByLocale": {
-            "en": "The **$(player)** cannot jump over the pit!\nWe have to edit the terrain to add a bridge.",
-            "fr": "Le **$(player)** ne peut pas sauter par-dessus le fossé !\nNous devons modifier le terrain pour ajouter un pont.",
-            "ar": "لا يمكن لـ **$(player)** القفز فوق الحفرة!\nعلينا تعديل التضاريس لإضافة جسر.",
-            "de": "Der **$(player)** kann nicht über die Grube springen!\nWir müssen das Terrain bearbeiten, um eine Brücke hinzuzufügen.",
-            "es": "¡El **$(player)** no puede saltar sobre la trinchera!\nTenemos que editar el terreno para agregar un puente.",
-            "fi": "**$(player)** ei voi hypätä kuopan yli!\nMeidän täytyy muokata maastoa lisätäksemme sillan.",
-            "it": "Il **$(player)** non può saltare oltre il fossato!\nDobbiamo modificare il terreno per aggiungere un ponte.",
-            "tr": "**$(player)** hendek üzerinden atlayamaz!\nKöprü eklemek için araziyi düzenlememiz gerekiyor.",
-            "ja": "**$(player)**は穴を飛び越えることができません！\n橋を追加するために地形を編集する必要があります。",
-            "ko": "**$(player)**는 구덩이를 넘을 수 없습니다!\n다리를 추가하기 위해 지형을 수정해야 합니다.\n\n장면에서 지형을 선택하세요!",
-            "pl": "**$(player)** nie może przeskoczyć przez dół!\nMusimy edytować teren, aby dodać most.",
-            "pt": "O **$(player)** não pode pular sobre a cova!\nPrecisamos editar o terreno para adicionar uma ponte.",
-            "ru": "**$(player)** не может перепрыгнуть через яму!\nНам нужно отредактировать местность, чтобы добавить мост.",
-            "sl": "**$(player)** ne more skočiti čez jamo!\nUrediti moramo teren, da dodamo most.",
-            "sq": "**$(player)** nuk mund të saltojë mbi gropën!\nDuhet të redaktojmë terrenin për të shtuar një urë.",
-            "th": "**$(player)** ไม่สามารถกระโดดข้ามหลุมได้!\nเราต้องแก้ไขภูมิประเทศเพื่อเพิ่มสะพาน",
-            "uk": "**$(player)** не може стрибати через яму!\nНам потрібно редагувати рельєф, щоб додати міст.",
-            "zh": "**$(player)**无法跳过坑！\n我们必须编辑地形以添加桥梁。"
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "fi": "Seuraava",
-            "it": "Avanti",
-            "tr": "Sonraki",
-            "ja": "次へ",
-            "ko": "다음",
-            "pl": "Dalej",
-            "pt": "Próximo",
-            "ru": "Далее",
-            "sl": "Naprej",
-            "sq": "Tjetër",
-            "th": "ถัดไป",
-            "uk": "Далі",
-            "zh": "下一步"
+            "en": "The **$(player)** cannot jump over the pit!\nWe have to edit the terrain to add a bridge. Let's fix this!\nClose this window and go back to the editor.",
+            "fr": "Le **$(player)** ne peut pas sauter par-dessus le fossé !\nNous devons modifier le terrain pour ajouter un pont. Réparons ça !\nFermez cette fenêtre et retournez à l’éditeur.",
+            "ar": "لا يمكن لـ **$(player)** القفز فوق الحفرة!\nعلينا تعديل التضاريس لإضافة جسر. لنصلح هذا!\nأغلق هذه النافذة وارجع إلى المحرر.",
+            "de": "Der **$(player)** kann nicht über die Grube springen!\nWir müssen das Terrain bearbeiten, um eine Brücke hinzuzufügen. Lassen Sie uns das beheben!\nSchließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
+            "es": "¡El **$(player)** no puede saltar sobre la trinchera!\nTenemos que editar el terreno para agregar un puente. ¡Vamos a arreglarlo!\nCierra esta ventana y vuelve al editor.",
+            "fi": "**$(player)** ei voi hypätä kuopan yli!\nMeidän täytyy muokata maastoa lisätäksemme sillan. Korjataan tämä!\nSulje tämä ikkuna ja palaa editoriin.",
+            "it": "Il **$(player)** non può saltare oltre il fossato!\nDobbiamo modificare il terreno per aggiungere un ponte. Sistemiamolo!\nChiudi questa finestra e torna all'editor.",
+            "tr": "**$(player)** hendek üzerinden atlayamaz!\nKöprü eklemek için araziyi düzenlememiz gerekiyor. Hadi bunu düzeltelim!\nBu pencereyi kapatın ve editöre geri dönün.",
+            "ja": "**$(player)**は穴を飛び越えることができません！\n橋を追加するために地形を編集する必要があります。修正しましょう！\nこのウィンドウを閉じてエディターに戻ってください。",
+            "ko": "**$(player)**는 구덩이를 넘을 수 없습니다!\n다리를 추가하기 위해 지형을 수정해야 합니다. 고쳐봅시다!\n이 창을 닫고 편집기로 돌아가세요。",
+            "pl": "**$(player)** nie może przeskoczyć przez dół!\nMusimy edytować teren, aby dodać most. Naprawmy to!\nZamknij to okno i wróć do edytora.",
+            "pt": "O **$(player)** não pode pular sobre a cova!\nPrecisamos editar o terreno para adicionar uma ponte. Vamos corrigir isso!\nFeche esta janela e volte para o editor.",
+            "ru": "**$(player)** не может перепрыгнуть через яму!\nНам нужно отредактировать местность, чтобы добавить мост. Давайте это исправим!\nЗакройте это окно и вернитесь в редактор.",
+            "sl": "**$(player)** ne more skočiti čez jamo!\nUrediti moramo teren, da dodamo most. Popravimo to!\nZaprite to okno in se vrnite v urejevalnik.",
+            "sq": "**$(player)** nuk mund të saltojë mbi gropën!\nDuhet të redaktojmë terrenin për të shtuar një urë. Le ta rregullojmë këtë!\nMbyllni këtë dritare dhe kthehuni te redaktori.",
+            "th": "**$(player)** ไม่สามารถกระโดดข้ามหลุมได้!\nเราต้องแก้ไขภูมิประเทศเพื่อเพิ่มสะพาน มาแก้ไขกันเถอะ!\nปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไข",
+            "uk": "**$(player)** не може стрибати через яму!\nНам потрібно редагувати рельєф, щоб додати міст. Давайте це виправимо!\nЗакрийте це вікно та поверніться до редактора.",
+            "zh": "**$(player)**无法跳过坑！\n我们必须编辑地形以添加桥梁。让我们修复它！\n关闭此窗口并返回编辑器。"
           }
         }
       }
@@ -207,7 +178,7 @@
       "tooltip": {
         "description": {
           "messageByLocale": {
-            "en": "Open the **instance** properties panel and select the instance of $(tilemap) in the scene.",
+            "en": "Open the **instance** properties panel. And click the terrain in the scene.",
             "fr": "Ouvrez le panneau des propriétés de l'**instance** et sélectionnez l'instance de $(tilemap) dans la scène.",
             "ar": "افتح لوحة خصائص **النسخة** وحدد النسخة من $(tilemap) في المشهد.",
             "de": "Öffnen Sie das Eigenschaftenfeld der **Instanz** und wählen Sie die Instanz von $(tilemap) in der Szene aus.",
@@ -238,7 +209,6 @@
       "elementToHighlightId": "#paintBrush",
       "disableBlockingLayer": true,
       "tooltip": {
-        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "In the panel, you can see the **paint brush tool**; this tool is used to paint tiles on the terrain.\nClick on it, then click on the bridge, just above the red apple.",
@@ -341,52 +311,54 @@
       "interactsWithCanvas": true
     },
     {
+      "elementToHighlightId": "#toolbar-preview-button",
       "tooltip": {
-        "standalone": true,
         "description": {
           "messageByLocale": {
-            "en": "Now, if you're playing the game, the player can pass through the bridge. Let's see how to add a collision to it.",
-            "fr": "Maintenant, si vous jouez au jeu, le joueur peut traverser le pont. Voyons comment ajouter une collision.",
-            "ar": "الآن، إذا كنت تلعب اللعبة، يمكن للاعب المرور عبر الجسر. دعنا نرى كيف نضيف تصادماً له.",
-            "de": "Jetzt, wenn Sie das Spiel spielen, kann der Spieler über die Brücke gehen. Lassen Sie uns sehen, wie wir eine Kollision hinzufügen.",
-            "es": "Ahora, si estás jugando el juego, el jugador puede pasar a través del puente. Veamos cómo agregar una colisión.",
-            "fi": "Nyt, jos pelaat peliä, pelaaja voi kulkea sillan läpi. Katsotaan, miten lisätään siihen törmäys.",
-            "it": "Ora, se stai giocando al gioco, il giocatore può attraversare il ponte. Vediamo come aggiungere una collisione.",
-            "tr": "Şimdi, eğer oyunu oynuyorsanız, oyuncu köprüden geçebilir. Ona bir çarpışma eklemeyi nasıl yapacağımızı görelim.",
-            "ja": "さて、ゲームをプレイしている場合、プレイヤーは橋を通過できます。それに衝突を追加する方法を見てみましょう。",
-            "ko": "이제 게임을 플레이하고 있다면 플레이어가 다리를 통과할 수 있습니다. 충돌을 추가하는 방법을 살펴보겠습니다.",
-            "pl": "Teraz, jeśli grasz w grę, gracz może przejść przez most. Zobaczmy, jak dodać do niego kolizję.",
-            "pt": "Agora, se você estiver jogando o jogo, o jogador pode passar pela ponte. Vamos ver como adicionar uma colisão a ela.",
-            "ru": "Теперь, если вы играете в игру, игрок может пройти через мост. Давайте посмотрим, как добавить к нему столкновение.",
-            "sl": "Zdajati zdaj, če igrate igro, lahko igralec prečka most. Poglejmo, kako dodati trčenje nanj.",
-            "sq": "Tani, nëse po luani lojën, lojtari mund të kalojë nëpër urë. Le të shohim se si të shtojmë një përplasje.",
-            "th": "ตอนนี้ถ้าคุณกำลังเล่นเกม ผู้เล่นสามารถข้ามสะพานได้ มาดูวิธีเพิ่มการชนกันกันเถอะ",
-            "uk": "Тепер, якщо ви граєте в гру, гравець може пройти через міст. Давайте подивимося, як додати до нього зіткнення.",
-            "zh": "现在，如果您正在玩游戏，玩家可以通过桥。让我们看看如何为其添加碰撞。"
+            "en": "Now that you've painted the bridge, you can launch the preview to see the state of the game. We've probably missed something, so let's run the game and see what happens.",
+            "fr": "Maintenant que vous avez peint le pont, vous pouvez lancer l'aperçu pour voir l'état du jeu. Nous avons probablement oublié quelque chose, alors lançons le jeu et voyons ce qui se passe.",
+            "ar": "الآن بعد أن قمتَ بطلاء الجسر، يمكنك تشغيل المعاينة لرؤية حالة اللعبة. من المحتمل أننا قد فاتنا شيء ما، لذا دعونا نشغل اللعبة ونرى ما سيحدث.",
+            "de": "Jetzt, da Sie die Brücke bemalt haben, können Sie die Vorschau starten, um den Zustand des Spiels zu sehen. Wahrscheinlich haben wir etwas übersehen, also lassen Sie uns das Spiel starten und sehen, was passiert.",
+            "es": "Ahora que has pintado el puente, puedes lanzar la vista previa para ver el estado del juego. Probablemente hayamos pasado algo por alto, así que ejecutemos el juego y veamos qué sucede.",
+            "fi": "Nyt kun olet maalannut sillan, voit käynnistää esikatselun nähdäksesi pelin tilan. Olemme luultavasti unohtaneet jotain, joten käynnistetään peli ja katsotaan, mitä tapahtuu.",
+            "it": "Ora che hai dipinto il ponte, puoi avviare l'anteprima per vedere lo stato del gioco. Probabilmente ci siamo persi qualcosa, quindi avviamo il gioco e vediamo cosa succede.",
+            "tr": "Köprüyü boyadıktan sonra, oyunun durumunu görmek için önizlemeyi başlatabilirsiniz. Muhtemelen bir şeyi gözden kaçırdık, bu yüzden oyunu çalıştıralım ve ne olacağını görelim.",
+            "ja": "橋を塗り終えたので、プレビューを起動してゲームの状態を確認できます。おそらく何かを見落としているかもしれません。ゲームを実行して何が起こるか見てみましょう。",
+            "ko": "이제 다리를 칠했으니 미리보기를 실행하여 게임 상태를 확인할 수 있습니다. 아마도 놓친 것이 있을 수 있으니 게임을 실행하여 확인해 봅시다.",
+            "pl": "Teraz, gdy pomalowałeś most, możesz uruchomić podgląd, aby zobaczyć stan gry. Prawdopodobnie coś przeoczyliśmy, więc uruchommy grę i zobaczmy, co się stanie.",
+            "pt": "Agora que você pintou a ponte, pode iniciar a pré-visualização para ver o estado do jogo. Provavelmente esquecemos de algo, então vamos rodar o jogo e ver o que acontece.",
+            "ru": "Теперь, когда вы покрасили мост, вы можете запустить предварительный просмотр, чтобы увидеть состояние игры. Вероятно, мы что-то упустили, так что давайте запустим игру и посмотрим, что произойдет.",
+            "sl": "Zdaj, ko ste pobarvali most, lahko zaženete predogled, da vidite stanje igre. Verjetno smo kaj spregledali, zato zaženimo igro in poglejmo, kaj se zgodi.",
+            "sq": "Tani që keni lyer urën, mund të nisni parapamjen për të parë gjendjen e lojës. Me siguri kemi harruar diçka, ndaj le të ekzekutojmë lojën dhe të shohim çfarë ndodh.",
+            "th": "ตอนนี้คุณได้ทาสะพานเสร็จแล้ว คุณสามารถเปิดดูตัวอย่างเพื่อดูสถานะของเกม เราอาจพลาดอะไรบางอย่างไป ลองรันเกมดูว่าเกิดอะไรขึ้น",
+            "uk": "Тепер, коли ви пофарбували міст, можете запустити попередній перегляд, щоб побачити стан гри. Можливо, ми щось пропустили, тож давайте запустимо гру і подивимося, що станеться.",
+            "zh": "现在你已经涂好桥了，可以启动预览来查看游戏的状态。我们可能遗漏了一些东西，所以让我们运行游戏看看会发生什么。"
           }
         }
       },
       "nextStepTrigger": {
-        "clickOnTooltipButton": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "bottom-right",
+        "inGameMessage": {
           "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "fi": "Seuraava",
-            "it": "Prossimo",
-            "tr": "Sonraki",
-            "ja": "次",
-            "ko": "다음",
-            "pl": "Dalej",
-            "pt": "Próximo",
-            "ru": "Далее",
-            "sl": "Naslednji",
-            "sq": "Tjetër",
-            "th": "ถัดไป",
-            "uk": "Далі",
-            "zh": "下一步"
+            "en": "Oh the **$(player)** can pass through the bridge. Let's see how to add a collision to it. Let's fix this!\nClose this window and go back to the editor.",
+            "fr": "Oh, le **$(player)** peut traverser le pont. Voyons comment y ajouter une collision. Réparons ça !\nFermez cette fenêtre et retournez à l’éditeur.",
+            "ar": "أوه، يمكن لـ **$(player)** المرور عبر الجسر. دعونا نرى كيف نضيف له تصادمًا. لنصلح هذا!\nأغلق هذه النافذة وارجع إلى المحرر.",
+            "de": "Oh, der **$(player)** kann durch die Brücke gehen. Schauen wir uns an, wie wir eine Kollision hinzufügen können. Lassen Sie uns das beheben!\nSchließen Sie dieses Fenster und kehren Sie zum Editor zurück.",
+            "es": "Oh, el **$(player)** puede atravesar el puente. Veamos cómo añadirle una colisión. ¡Vamos a arreglarlo!\nCierra esta ventana y vuelve al editor.",
+            "fi": "Oho, **$(player)** voi kulkea sillan läpi. Katsotaan, kuinka voimme lisätä törmäyksen. Korjataan tämä!\nSulje tämä ikkuna ja palaa editoriin.",
+            "it": "Oh, il **$(player)** può attraversare il ponte. Vediamo come aggiungere una collisione. Sistemiamolo!\nChiudi questa finestra e torna all'editor.",
+            "tr": "Ah, **$(player)** köprünün içinden geçebiliyor. Ona nasıl çarpışma ekleyeceğimizi görelim. Hadi bunu düzeltelim!\nBu pencereyi kapatın ve editöre geri dönün.",
+            "ja": "あれ？**$(player)**が橋をすり抜けてしまう！\n衝突判定を追加する方法を見てみましょう。修正しましょう！\nこのウィンドウを閉じてエディターに戻ってください。",
+            "ko": "어, **$(player)**가 다리를 통과할 수 있습니다! 충돌을 추가하는 방법을 살펴봅시다. 고쳐봅시다!\n이 창을 닫고 편집기로 돌아가세요。",
+            "pl": "Ojej, **$(player)** może przejść przez most. Zobaczmy, jak dodać kolizję. Naprawmy to!\nZamknij to okno i wróć do edytora.",
+            "pt": "Oh, o **$(player)** pode atravessar a ponte. Vamos ver como adicionar uma colisão. Vamos corrigir isso!\nFeche esta janela e volte para o editor.",
+            "ru": "Ой, **$(player)** может пройти сквозь мост! Давайте посмотрим, как добавить столкновение. Давайте это исправим!\nЗакройте это окно и вернитесь в редактор.",
+            "sl": "Oh, **$(player)** lahko gre skozi most. Poglejmo, kako dodati trk. Popravimo to!\nZaprite to okno in se vrnite v urejevalnik.",
+            "sq": "Oh, **$(player)** mund të kalojë përmes urës. Le të shohim si të shtojmë një përplasje. Le ta rregullojmë këtë!\nMbyllni këtë dritare dhe kthehuni te redaktori.",
+            "th": "โอ้ **$(player)** สามารถเดินผ่านสะพานได้! มาดูกันว่าทำอย่างไรจึงจะเพิ่มการชนได้ มาแก้ไขกันเถอะ!\nปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไข",
+            "uk": "Ой, **$(player)** може проходити крізь міст! Давайте подивимося, як додати зіткнення. Давайте це виправимо!\nЗакрийте це вікно та поверніться до редактора.",
+            "zh": "哦，**$(player)** 可以穿过桥！我们来看看如何给它添加碰撞。让我们修复它！\n关闭此窗口并返回编辑器。"
           }
         }
       }
@@ -541,8 +513,8 @@
       }
     },
     {
+      "elementToHighlightId": "#toolbar-preview-button",
       "tooltip": {
-        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "Launch the **preview** to see what has changed.\n\nTry to catch the red apple!",
@@ -566,58 +538,29 @@
           }
         }
       },
-      "elementToHighlightId": "#toolbar-preview-button",
       "nextStepTrigger": {
-        "previewLaunched": true
-      }
-    },
-    {
-      "tooltip": {
-        "standalone": true,
-        "description": {
+        "previewLaunched": true,
+        "inGameMessagePosition": "bottom-right",
+        "inGameMessage": {
           "messageByLocale": {
-            "en": "It seems the apple cannot be picked.\n\nLet's see how to remove the apple when the **$(player)** is on it by adding some game logic.",
-            "fr": "Il semble que la pomme ne puisse pas être ramassée.\n\nVoyons comment supprimer la pomme lorsque le **$(player)** est dessus en ajoutant un peu de logique de jeu.",
-            "ar": "يبدو أنه لا يمكن قطف التفاحة.\n\nلنرَ كيفية إزالة التفاحة عندما يكون **$(player)** عليها عن طريق إضافة بعض منطق اللعبة.",
-            "de": "Es scheint, dass der Apfel nicht gepflückt werden kann.\n\nLass uns sehen, wie wir den Apfel entfernen können, wenn der **$(player)** darauf steht, indem wir etwas Spiel-Logik hinzufügen.",
-            "es": "Parece que la manzana no se puede recoger.\n\nVeamos cómo quitar la manzana cuando el **$(player)** está sobre ella añadiendo algo de lógica del juego.",
-            "fi": "Omenaa ei voi poimia.\n\nKatsotaan, miten omena poistetaan, kun **$(player)** on sen päällä lisäämällä hieman pelilogiikkaa.",
-            "it": "Sembra che la mela non possa essere raccolta.\n\nVediamo come rimuovere la mela quando il **$(player)** è sopra di essa aggiungendo un po' di logica di gioco.",
-            "tr": "Elmayı toplamanın mümkün olmadığı görünüyor.\n\n**$(player)** üzerindeyken elmayı nasıl kaldıracağımızı görelim ve biraz oyun mantığı ekleyelim.",
-            "ja": "どうやらリンゴは拾えないようです。\n\n**$(player)** が上にいるときにリンゴを削除する方法を見てみましょう。ゲームロジックを追加することで。",
-            "ko": "사과를 따는 것은 불가능한 것 같습니다.\n\n**$(player)** 가 그 위에 있을 때 사과를 제거하는 방법을 보겠습니다. 게임 로직을 추가하여.",
-            "pl": "Wygląda na to, że jabłko nie może być zerwane.\n\nZobaczmy, jak usunąć jabłko, gdy **$(player)** jest na nim, dodając trochę logiki gry.",
-            "pt": "Parece que a maçã não pode ser colhida.\n\nVamos ver como remover a maçã quando o **$(player)** está sobre ela, adicionando um pouco de lógica de jogo.",
-            "ru": "Похоже, что яблоко нельзя собрать.\n\nДавайте посмотрим, как удалить яблоко, когда **$(player)** находится на нем, добавив немного игровой логики.",
-            "sl": "Zdi se, da jabolka ni mogoče pobrati.\n\nPoglejmo, kako odstraniti jabolko, ko je **$(player)** na njem, tako da dodamo nekaj logike igre.",
-            "sq": "Duket se molla nuk mund të merret.\n\nLe të shohim se si të heqim mollën kur **$(player)** është mbi të, duke shtuar pak logjikë lojërash.",
-            "th": "ดูเหมือนว่าไม่สามารถเก็บแอปเปิ้ลได้\n\nมาดูกันว่าสามารถลบแอปเปิ้ลเมื่อ **$(player)** อยู่บนมันโดยการเพิ่มตรรกะเกมได้อย่างไร",
-            "uk": "Схоже, що яблуко не можна зібрати.\n\nДавайте подивимося, як видалити яблуко, коли **$(player)** на ньому, додавши трохи ігрової логіки.",
-            "zh": "似乎苹果无法被摘取。\n\n让我们看看如何在 **$(player)** 站在上面时通过添加一些游戏逻辑来移除苹果。"
-          }
-        }
-      },
-      "nextStepTrigger": {
-        "clickOnTooltipButton": {
-          "messageByLocale": {
-            "en": "Next",
-            "fr": "Suivant",
-            "ar": "التالي",
-            "de": "Weiter",
-            "es": "Siguiente",
-            "fi": "Seuraava",
-            "it": "Prossimo",
-            "tr": "Sonraki",
-            "ja": "次",
-            "ko": "다음",
-            "pl": "Dalej",
-            "pt": "Próximo",
-            "ru": "Далее",
-            "sl": "Naslednji",
-            "sq": "Tjetër",
-            "th": "ถัดไป",
-            "uk": "Далі",
-            "zh": "下一步"
+            "en": "You can walk on the bridge, but the apple can't be picked up yet.\n\nLet's see how to remove the apple when **$(player)** is on it by adding some game logic. Let's fix this!\nClose this window and return to the editor.",
+            "fr": "Vous pouvez marcher sur le pont, mais la pomme ne peut pas encore être ramassée.\n\nVoyons comment la supprimer lorsque **$(player)** est dessus en ajoutant un peu de logique de jeu. Réglons cela !\nFermez cette fenêtre et retournez à l'éditeur.",
+            "ar": "يمكنك المشي على الجسر، لكن لا يمكن التقاط التفاحة بعد.\n\nلنرَ كيفية إزالة التفاحة عندما يكون **$(player)** عليها عن طريق إضافة بعض منطق اللعبة. دعونا نصلح هذا!\nأغلق هذه النافذة وارجع إلى المحرر.",
+            "de": "Du kannst über die Brücke gehen, aber der Apfel kann noch nicht aufgesammelt werden.\n\nLass uns sehen, wie wir den Apfel entfernen können, wenn **$(player)** darauf steht, indem wir etwas Spiel-Logik hinzufügen. Lassen wir das beheben!\nSchließe dieses Fenster und kehre zum Editor zurück.",
+            "es": "Puedes caminar sobre el puente, pero la manzana aún no se puede recoger.\n\nVeamos cómo eliminar la manzana cuando **$(player)** esté sobre ella añadiendo algo de lógica del juego. ¡Arreglémoslo!\nCierra esta ventana y regresa al editor.",
+            "fi": "Voit kävellä sillalla, mutta omenaa ei voi vielä poimia.\n\nKatsotaan, kuinka omena poistetaan, kun **$(player)** on sen päällä lisäämällä hieman pelilogiikkaa. Korjataan tämä!\nSulje tämä ikkuna ja palaa editoriin.",
+            "it": "Puoi camminare sul ponte, ma la mela non può ancora essere raccolta.\n\nVediamo come rimuoverla quando **$(player)** è sopra di essa aggiungendo un po' di logica di gioco. Risolviamo questo problema!\nChiudi questa finestra e torna all'editor.",
+            "tr": "Köprüde yürüyebilirsin, ancak elma henüz alınamaz.\n\n**$(player)** üzerindeyken elmayı nasıl kaldıracağımızı görmek için biraz oyun mantığı ekleyelim. Hadi bunu düzeltelim!\nBu pencereyi kapat ve editöre geri dön.",
+            "ja": "橋の上を歩くことはできますが、リンゴはまだ拾えません。\n\n**$(player)** が上にいるときにリンゴを削除する方法を、ゲームロジックを追加して見てみましょう。これを修正しましょう！\nこのウィンドウを閉じてエディターに戻ってください。",
+            "ko": "다리를 걸어갈 수는 있지만, 아직 사과를 주울 수 없습니다.\n\n**$(player)** 가 그 위에 있을 때 사과를 제거하는 방법을 게임 로직을 추가하여 살펴봅시다. 이 문제를 해결해 봅시다!\n이 창을 닫고 편집기로 돌아가세요.",
+            "pl": "Możesz chodzić po moście, ale jabłka nie można jeszcze podnieść.\n\nZobaczmy, jak usunąć jabłko, gdy **$(player)** jest na nim, dodając trochę logiki gry. Naprawmy to!\nZamknij to okno i wróć do edytora.",
+            "pt": "Você pode andar sobre a ponte, mas a maçã ainda não pode ser coletada.\n\nVamos ver como remover a maçã quando **$(player)** estiver sobre ela, adicionando um pouco de lógica de jogo. Vamos corrigir isso!\nFeche esta janela e volte para o editor.",
+            "ru": "Вы можете ходить по мосту, но яблоко пока нельзя подобрать.\n\nДавайте посмотрим, как удалить яблоко, когда **$(player)** находится на нем, добавив немного игровой логики. Давайте это исправим!\nЗакройте это окно и вернитесь в редактор.",
+            "sl": "Lahko hodiš po mostu, vendar jabolka še ne moreš pobrati.\n\nPoglejmo, kako odstraniti jabolko, ko je **$(player)** na njem, tako da dodamo nekaj logike igre. Popravimo to!\nZapri to okno in se vrni v urejevalnik.",
+            "sq": "Mund të ecësh mbi urë, por ende nuk mund të marrësh mollën.\n\nLe të shohim si ta heqim mollën kur **$(player)** është mbi të, duke shtuar pak logjikë lojërash. Le ta rregullojmë këtë!\nMbyll këtë dritare dhe kthehu te redaktori.",
+            "th": "คุณสามารถเดินบนสะพานได้ แต่ยังไม่สามารถเก็บแอปเปิ้ลได้\n\nลองดูวิธีลบแอปเปิ้ลเมื่อ **$(player)** อยู่บนมันโดยการเพิ่มตรรกะเกม มาปรับปรุงสิ่งนี้กันเถอะ!\nปิดหน้าต่างนี้และกลับไปที่ตัวแก้ไข",
+            "uk": "Ви можете ходити по мосту, але яблуко поки що не можна підібрати.\n\nДавайте подивимося, як видалити яблуко, коли **$(player)** знаходиться на ньому, додавши трохи ігрової логіки. Виправимо це!\nЗакрийте це вікно і поверніться до редактора.",
+            "zh": "你可以在桥上行走，但苹果还不能被拾取。\n\n让我们看看如何在 **$(player)** 站在上面时，通过添加一些游戏逻辑来移除苹果。让我们修复这个问题！\n关闭此窗口并返回编辑器。"
           }
         }
       }
@@ -656,11 +599,7 @@
     {
       "id": "SwitchToEvents1",
       "elementToHighlightId": "#toolbar-add-event-button",
-      "nextStepTrigger": {
-        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
-      },
       "tooltip": {
-        "standalone": true,
         "description": {
           "messageByLocale": {
             "en": "We will add a new event that checks what tile is under the player, and if that tile is the apple, then we will remove it.",
@@ -683,10 +622,16 @@
             "zh": "我们将添加一个新事件，检查玩家下面是什么瓷砖，如果那块瓷砖是苹果，那么我们将移除它。"
           }
         }
-      }
+      },
+      "nextStepTrigger": {
+        "presenceOfElement": "[data-active=\"true\"] #add-condition-button-empty"
+      },
+      "skippable": true,
+      "disableBlockingLayer": true,
+      "interactsWithCanvas": true
     },
     {
-      "elementToHighlightId": "#events-editor[data-active] #event-4-conditions #add-condition-button-empty",
+      "elementToHighlightId": "#events-editor[data-active] #event-5-conditions #add-condition-button-empty",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
@@ -906,7 +851,7 @@
       }
     },
     {
-      "elementToHighlightId": "#events-editor[data-active] #event-4-actions #add-action-button-empty",
+      "elementToHighlightId": "#events-editor[data-active] #event-5-actions #add-action-button-empty",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-editor-dialog"
       },
