@@ -673,7 +673,8 @@
           }
         }
       },
-      "interactsWithCanvas": true
+      "interactsWithCanvas": true,
+      "disableBlockingLayer": true
     },
     {
       "nextStepTrigger": {

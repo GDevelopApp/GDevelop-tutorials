@@ -711,7 +711,8 @@
           "dataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSI1Ni4yODcgMTc3LjEyMSA0MDIuNTczIDEyNC4zMzkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3QgeD0iNTYuMzY2IiB5PSIyODguNjg1IiB3aWR0aD0iNDAyLjQ5NCIgaGVpZ2h0PSIxMi43NzUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSI1Ni4yODciIHk9IjE3OC4yNSIgd2lkdGg9IjExLjEwMiIgaGVpZ2h0PSIxMTAuMzU5IiBzdHlsZT0ic3Ryb2tlOiByZ2IoMCwgMCwgMCk7IGZpbGw6IHJnYigxMjIsIDk1LCA5NSk7Ii8+CiAgPHJlY3QgeD0iNDQ3LjIzMyIgeT0iMTc4LjM0IiB3aWR0aD0iMTEuMjA5IiBoZWlnaHQ9IjExMC4zNTkiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDEyMiwgOTUsIDk1KTsiLz4KICA8cmVjdCB4PSIxNDMuNTcyIiB5PSIxNzcuMTIxIiB3aWR0aD0iMjE3LjM2NyIgaGVpZ2h0PSIxMjMuOTM5IiBzdHlsZT0iZmlsbDogcmdiKDIxNiwgMjE2LCAyMTYpOyBzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbC1vcGFjaXR5OiAwOyIvPgogIDxyZWN0IHg9IjE0My45ODQiIHk9IjE3Ny40MDYiIHdpZHRoPSIyMTYuNTIxIiBoZWlnaHQ9IjEyMy41MjUiIHN0eWxlPSJzdHJva2U6IHJnYigwLCAwLCAwKTsgZmlsbDogcmdiKDQ3LCAyNDIsIDQzKTsiLz4KPC9zdmc+"
         }
       },
-      "interactsWithCanvas": true
+      "interactsWithCanvas": true,
+      "disableBlockingLayer": true
     },
     {
       "elementToHighlightId": "#toolbar-open-objects-panel-button",
@@ -797,7 +798,8 @@
         },
         "placement": "top"
       },
-      "interactsWithCanvas": true
+      "interactsWithCanvas": true,
+      "disableBlockingLayer": true
     },
     {
       "nextStepTrigger": {

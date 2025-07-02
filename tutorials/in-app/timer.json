@@ -604,7 +604,8 @@
         },
         "placement": "top"
       },
-      "interactsWithCanvas": true
+      "interactsWithCanvas": true,
+      "disableBlockingLayer": true
     },
     {
       "nextStepTrigger": {
