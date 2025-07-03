@@ -451,7 +451,8 @@
         },
         "placement": "top"
       },
-      "interactsWithCanvas": true
+      "interactsWithCanvas": true,
+      "disableBlockingLayer": true
     },
     {
       "elementToHighlightId": "#toolbar-open-objects-panel-button",
