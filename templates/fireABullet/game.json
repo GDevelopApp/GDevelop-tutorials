@@ -845,11 +845,11 @@
         {
           "angle": 0,
           "customSize": false,
-          "height": 0,
+          "height": 50,
           "layer": "UI",
           "name": "LifeBar",
           "persistentUuid": "09c1a0ad-0d39-4964-86bd-357b756206b7",
-          "width": 0,
+          "width": 228,
           "x": 32,
           "y": 32,
           "zOrder": 29,
@@ -10490,7 +10490,24 @@
                       ]
                     }
                   ]
-                },
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TiledUnitsBar::TiledUnitsBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -10505,7 +10522,14 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -11065,36 +11089,28 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "TiledUnitsBar::LeftEdgeAnchor"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "TiledUnitsBar::LeftEdgeAnchor"
-                              },
-                              "parameters": [
-                                "",
-                                "=",
-                                "\"Max\"",
-                                "Bar",
-                                "Anchor",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "TiledUnitsBar::RightEdgeAnchor"
-                              },
-                              "parameters": [
-                                "",
-                                "=",
-                                "\"Max\"",
-                                "Bar",
-                                "Anchor",
-                                ""
-                              ]
-                            }
+                          "parameters": [
+                            "",
+                            "=",
+                            "\"Max\"",
+                            "Bar",
+                            "Anchor",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TiledUnitsBar::RightEdgeAnchor"
+                          },
+                          "parameters": [
+                            "",
+                            "=",
+                            "\"Max\"",
+                            "Bar",
+                            "Anchor",
+                            ""
                           ]
                         }
                       ],
@@ -11212,12 +11228,12 @@
                   "effects": [],
                   "behaviors": [
                     {
+                      "leftEdgeAnchor": 1,
                       "name": "Anchor",
+                      "rightEdgeAnchor": 2,
                       "type": "AnchorBehavior::AnchorBehavior",
                       "bottomEdgeAnchor": 4,
-                      "leftEdgeAnchor": 4,
                       "relativeToOriginalWindowSize": true,
-                      "rightEdgeAnchor": 4,
                       "topEdgeAnchor": 4,
                       "useLegacyBottomAndRightAnchors": false
                     },
@@ -11241,12 +11257,12 @@
                   "effects": [],
                   "behaviors": [
                     {
+                      "leftEdgeAnchor": 1,
                       "name": "Anchor",
+                      "rightEdgeAnchor": 2,
                       "type": "AnchorBehavior::AnchorBehavior",
                       "bottomEdgeAnchor": 4,
-                      "leftEdgeAnchor": 4,
                       "relativeToOriginalWindowSize": true,
-                      "rightEdgeAnchor": 4,
                       "topEdgeAnchor": 4,
                       "useLegacyBottomAndRightAnchors": false
                     }
