@@ -757,34 +757,7 @@
         "uk": "Мапер контролера багатодотикового зверху донизу",
         "zh": "自上而下的多点触控控制器映射器"
       },
-      "parameters": [
-        {
-          "parameterId": "#StickMode",
-          "expectedValue": "360°",
-          "description": {
-            "messageByLocale": {
-              "en": "Let's update the stick mode, so that it can be controlled at **360°**.",
-              "fr": "Changeons le mode de la manette, pour qu'elle puisse être contrôlée à **360°**.",
-              "ar": "هيّا نقوم بتحديث وضع عصا التحكم حتى يمكن التحكم به في وضع **360°**",
-              "de": "Aktualisieren wir den Stick-Modus, damit er bei **360°** gesteuert werden kann.",
-              "es": "Actualicemos el modo de la palanca, para que pueda ser controlada a **360°**.",
-              "fi": "Päivitetään joystick-tila, jotta sitä voidaan ohjata **360°**.",
-              "it": "Aggiorniamo la modalità del joystick, in modo che possa essere controllata a **360°**.",
-              "tr": "Joystick modunu güncelleyelim, böylece **360°**'de kontrol edilebilir.",
-              "ja": "スティックモードを更新して、**360°** で制御できるようにしましょう。",
-              "ko": "스틱 모드를 업데이트하여 **360°**에서 제어할 수 있도록 합시다.",
-              "pl": "Zaktualizujmy tryb joysticka, aby można go było sterować na **360°**.",
-              "pt": "Vamos atualizar o modo do joystick, para que ele possa ser controlado a **360°**.",
-              "ru": "Обновим режим джойстика, чтобы его можно было управлять на **360°**.",
-              "sl": "Posodobimo način palice, tako da jo lahko upravljamo pri **360°**.",
-              "sq": "Hajde te ndryshojme stik modin, qe te kontrollohet ne **360°** ",
-              "th": "อัปเดตโหมดของ joystick ให้สามารถควบคุมได้ทั้ง **360°**",
-              "uk": "Оновимо режим джойстика, щоб його можна було керувати на **360°**.",
-              "zh": "更新摇杆模式，使其可以在 **360°** 下控制。"
-            }
-          }
-        }
-      ],
+      "parameters": [],
       "objectHighlightDescription": {
         "messageByLocale": {
           "en": "Let's link our $(joystick) and our $(ship) thanks to the **behaviors** that came with the prefab:\n\nclick on the 3 dot menu, or right click on **$(ship)**, and select **Edit behaviors**.",
