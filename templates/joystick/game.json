@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 236,
+    "build": 237,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -524,9 +524,10 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 400,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "useLegacyTurnBack": false,
+              "acceleration": 400,
               "deceleration": 900,
               "maxSpeed": 300,
               "allowDiagonals": true,
