@@ -110,7 +110,14 @@
       "scene": "startScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "es",
+    "pt",
+    "th",
+    "ar"
+  ],
   "endDialog": {
     "content": [
       {
@@ -751,6 +758,7 @@
       "skippable": true
     },
     {
+      "interactsWithCanvas": true,
       "elementToHighlightId": "objectInObjectsList:projectile",
       "nextStepTrigger": {
         "instanceAddedOnScene": "projectile",
@@ -3914,7 +3922,21 @@
         "placement": "bottom"
       },
       "skippable": true,
-      "isOnClosableDialog": true
+      "isOnClosableDialog": true,
+      "shortcuts": [
+        {
+          "stepId": "ClickOnGenerateLink",
+          "trigger": {
+            "presenceOfElement": "[id$=online-web-button][id^=launch-export]"
+          }
+        },
+        {
+          "stepId": "Login",
+          "trigger": {
+            "presenceOfElement": "#login-dialog"
+          }
+        }
+      ]
     },
     {
       "elementToHighlightId": "#export-dialog #create-account-button",
@@ -3995,7 +4017,7 @@
       "id": "ClickOnGenerateLink",
       "elementToHighlightId": "[id$=online-web-button][id^=launch-export]",
       "nextStepTrigger": {
-        "presenceOfElement": "[id$=online-web-button][id^=launch-export][disabled]"
+        "presenceOfElement": "#open-online-export-button"
       },
       "tooltip": {
         "description": {
