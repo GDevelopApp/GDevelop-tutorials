@@ -329,7 +329,7 @@
     {
       "elementToHighlightId": "#new-object-from-scratch-tab",
       "nextStepTrigger": {
-        "presenceOfElement": "#object-category-TextObject--Text"
+        "presenceOfElement": "#object-item-TextObject--Text"
       },
       "tooltip": {
         "description": {
@@ -360,7 +360,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#object-category-TextObject--Text",
+      "elementToHighlightId": "#object-item-TextObject--Text",
       "nextStepTrigger": {
         "presenceOfElement": "#object-name"
       },
