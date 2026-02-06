@@ -728,7 +728,7 @@
     {
       "elementToHighlightId": "#instruction-editor-dialog #search-bar",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-DepartScene"
+        "presenceOfElement": "#instruction-item-SceneJustBegins"
       },
       "tooltip": {
         "description": {
@@ -757,7 +757,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-DepartScene",
+      "elementToHighlightId": "#instruction-item-SceneJustBegins",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },

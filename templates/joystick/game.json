@@ -831,7 +831,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "DepartScene"
+                        "value": "SceneJustBegins"
                       },
                       "parameters": [
                         ""
@@ -1106,7 +1106,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "DepartScene"
+                        "value": "SceneJustBegins"
                       },
                       "parameters": [
                         ""
@@ -1182,7 +1182,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "DepartScene"
+                        "value": "SceneJustBegins"
                       },
                       "parameters": [
                         ""
@@ -1399,7 +1399,7 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
+                            "value": "IsCursorOnObject"
                           },
                           "parameters": [
                             "FlatLightJoystick",
