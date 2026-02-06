@@ -4812,7 +4812,7 @@
     {
       "elementToHighlightId": "objectInObjectOrResourceSelector:startText",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-SourisSurObjet"
+        "presenceOfElement": "#instruction-item-IsCursorOnObject"
       },
       "tooltip": {
         "description": {
@@ -4829,7 +4829,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-SourisSurObjet",
+      "elementToHighlightId": "#instruction-item-IsCursorOnObject",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
@@ -5348,7 +5348,7 @@
     {
       "elementToHighlightId": "#instruction-editor-dialog #search-bar",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-DepartScene"
+        "presenceOfElement": "#instruction-item-SceneJustBegins"
       },
       "tooltip": {
         "description": {
@@ -5365,7 +5365,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-DepartScene",
+      "elementToHighlightId": "#instruction-item-SceneJustBegins",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
@@ -6263,7 +6263,7 @@
     {
       "elementToHighlightId": "#instruction-editor-dialog #search-bar",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-DepartScene"
+        "presenceOfElement": "#instruction-item-SceneJustBegins"
       },
       "tooltip": {
         "description": {
@@ -6280,7 +6280,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-DepartScene",
+      "elementToHighlightId": "#instruction-item-SceneJustBegins",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },

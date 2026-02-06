@@ -2518,7 +2518,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DepartScene"
+                    "value": "SceneJustBegins"
                   },
                   "parameters": [
                     ""
@@ -3438,7 +3438,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "SourisSurObjet"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
                         "SubmitScore",
@@ -3543,7 +3543,7 @@
                     {
                       "type": {
                         "inverted": true,
-                        "value": "SourisSurObjet"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
                         "SubmitScore",
@@ -3582,7 +3582,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "SourisSurObjet"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
                         "RestartGame",
@@ -3676,7 +3676,7 @@
                     {
                       "type": {
                         "inverted": true,
-                        "value": "SourisSurObjet"
+                        "value": "IsCursorOnObject"
                       },
                       "parameters": [
                         "RestartGame",
@@ -3752,7 +3752,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DepartScene"
+                    "value": "SceneJustBegins"
                   },
                   "parameters": [
                     ""
