@@ -200,13 +200,13 @@
         }
       },
       "nextStepTrigger": {
-        "presenceOfElement": "#paintBrush"
+        "presenceOfElement": "#freehandBrush"
       },
       "skippable": true,
       "interactsWithCanvas": true
     },
     {
-      "elementToHighlightId": "#paintBrush",
+      "elementToHighlightId": "#freehandBrush",
       "disableBlockingLayer": true,
       "tooltip": {
         "description": {
