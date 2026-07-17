@@ -202,9 +202,13 @@ const performStepAction = async ({
 
   if (trigger.clickOnTooltipButton) {
     const buttonLabel = getEnglishMessage(trigger.clickOnTooltipButton);
+    // There can be several tooltip poppers in the DOM (a previous step's
+    // tooltip whose exit transition did not complete keeps the same id):
+    // only consider the visible button.
     const button = page
-      .locator('#in-app-tutorial-tooltip-displayer')
+      .locator('[id="in-app-tutorial-tooltip-displayer"]')
       .getByRole('button', { name: buttonLabel })
+      .filter({ visible: true })
       .first();
     // The tooltip is often anchored to the bouncing avatar: it never stops
     // moving, so a regular click (which waits for the element to be stable)
@@ -212,6 +216,29 @@ const performStepAction = async ({
     try {
       await button.waitFor({ state: 'visible', timeout: 8 * 1000 });
     } catch (error) {
+      const tooltipState = await page
+        .evaluate(() =>
+          [
+            ...document.querySelectorAll(
+              '[id="in-app-tutorial-tooltip-displayer"]'
+            ),
+          ].map((popper) => ({
+            visibility: getComputedStyle(popper).visibility,
+            display: getComputedStyle(popper).display,
+            width: Math.round(popper.getBoundingClientRect().width),
+            height: Math.round(popper.getBoundingClientRect().height),
+            buttons: [...popper.querySelectorAll('button')].map((button) => ({
+              text: (button.textContent || '').slice(0, 25),
+              width: Math.round(button.getBoundingClientRect().width),
+              height: Math.round(button.getBoundingClientRect().height),
+              visibility: getComputedStyle(button).visibility,
+            })),
+          }))
+        )
+        .catch(() => null);
+      log(
+        `Tooltip button not visible. Poppers: ${JSON.stringify(tooltipState)}`
+      );
       // The tooltip is probably folded (only the avatar is visible):
       // clicking the avatar unfolds it.
       await clickAtCurrentPosition(
@@ -522,15 +549,25 @@ const playTutorial = async ({ page, context, tutorial, log = () => {} }) => {
       // those in the report as they usually explain "element not found"
       // failures.
       const pageDiagnostics = await page
-        .evaluate(() => {
-          const dialogTitles = [
-            ...document.querySelectorAll('[role="dialog"] h2'),
-          ].map((title) => (title.textContent || '').slice(0, 60));
+        .evaluate((elementToHighlightId) => {
+          const tooltip = document.querySelector(
+            '#in-app-tutorial-tooltip-displayer'
+          );
           return {
             hasErrorBoundary: !!document.querySelector('[data-error-boundary]'),
-            dialogTitles,
+            openDialogsCount:
+              document.querySelectorAll('[role="dialog"]').length,
+            highlightedElementExists: elementToHighlightId
+              ? !!document.querySelector(elementToHighlightId)
+              : null,
+            tooltipText: tooltip
+              ? (tooltip.textContent || '').trim().slice(0, 120)
+              : null,
+            avatarDisplayed: !!document.querySelector(
+              '#in-app-tutorial-avatar'
+            ),
           };
-        })
+        }, state.elementToHighlightId || null)
         .catch(() => null);
       throw new TutorialStepError(
         `Tutorial "${tutorial.id}" is broken at step ${state.stepIndex} ` +
@@ -540,9 +577,7 @@ const playTutorial = async ({ page, context, tutorial, log = () => {} }) => {
             ? `. The action could not be performed: ${actionError.message}`
             : '. The action was performed but the tutorial did not advance.') +
           (pageDiagnostics
-            ? ` Page state: error boundary displayed: ${
-                pageDiagnostics.hasErrorBoundary
-              }, open dialogs: [${pageDiagnostics.dialogTitles.join(' | ')}].`
+            ? ` Page state: ${JSON.stringify(pageDiagnostics)}.`
             : ''),
         { stepIndex: state.stepIndex, step, state }
       );
