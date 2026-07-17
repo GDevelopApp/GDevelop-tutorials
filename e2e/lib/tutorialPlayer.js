@@ -49,6 +49,20 @@ const extractAllBoldTexts = (step) => {
   return [...description.matchAll(/\*\*(.+?)\*\*/g)].map((match) => match[1]);
 };
 
+/**
+ * Clicks at the element's current position with a raw mouse click, bypassing
+ * Playwright's stability check — for elements that never stop moving (the
+ * tutorial avatar bounces indefinitely, and so does the tooltip anchored to
+ * it).
+ * @param {import('@playwright/test').Page} page
+ * @param {import('@playwright/test').Locator} locator
+ */
+const clickAtCurrentPosition = async (page, locator) => {
+  const box = await locator.boundingBox({ timeout: 5 * 1000 });
+  if (!box) throw new Error('Element to click is not visible.');
+  await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+};
+
 class TutorialStepError extends Error {
   /**
    * @param {string} message
@@ -190,28 +204,23 @@ const performStepAction = async ({
     const buttonLabel = getEnglishMessage(trigger.clickOnTooltipButton);
     const button = page
       .locator('#in-app-tutorial-tooltip-displayer')
-      .getByRole('button', { name: buttonLabel });
+      .getByRole('button', { name: buttonLabel })
+      .first();
+    // The tooltip is often anchored to the bouncing avatar: it never stops
+    // moving, so a regular click (which waits for the element to be stable)
+    // would time out. Click at the current position instead.
     try {
-      await button.click({ timeout: 5 * 1000 });
+      await button.waitFor({ state: 'visible', timeout: 8 * 1000 });
     } catch (error) {
-      // The tooltip can be folded (only the avatar is visible): unfold it by
-      // clicking the avatar, then click the button.
-      await page
-        .locator('#in-app-tutorial-avatar')
-        .click({ timeout: 5 * 1000 })
-        .catch(() => {});
-      try {
-        await button.click({ timeout: 5 * 1000 });
-      } catch (secondError) {
-        // The tooltip can be anchored to the bouncing avatar: the button then
-        // never stops moving so a regular click never considers it stable.
-        // Dispatch the click directly.
-        await button.waitFor({ state: 'attached', timeout: 5 * 1000 });
-        await button.evaluate((node) => node.click(), undefined, {
-          timeout: 5 * 1000,
-        });
-      }
+      // The tooltip is probably folded (only the avatar is visible):
+      // clicking the avatar unfolds it.
+      await clickAtCurrentPosition(
+        page,
+        page.locator('#in-app-tutorial-avatar')
+      );
+      await button.waitFor({ state: 'visible', timeout: 8 * 1000 });
     }
+    await clickAtCurrentPosition(page, button);
     return;
   }
 
