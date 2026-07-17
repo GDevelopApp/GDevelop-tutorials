@@ -517,13 +517,33 @@ const playTutorial = async ({ page, context, tutorial, log = () => {} }) => {
 
     const advanced = await waitForStepChange(page, state.stepIndex);
     if (!advanced && attemptsForCurrentStep >= MAX_ATTEMPTS_PER_STEP) {
+      // The tutorial tooltip/highlighter hides itself in some situations
+      // (error boundary displayed, another dialog opened above): include
+      // those in the report as they usually explain "element not found"
+      // failures.
+      const pageDiagnostics = await page
+        .evaluate(() => {
+          const dialogTitles = [
+            ...document.querySelectorAll('[role="dialog"] h2'),
+          ].map((title) => (title.textContent || '').slice(0, 60));
+          return {
+            hasErrorBoundary: !!document.querySelector('[data-error-boundary]'),
+            dialogTitles,
+          };
+        })
+        .catch(() => null);
       throw new TutorialStepError(
         `Tutorial "${tutorial.id}" is broken at step ${state.stepIndex} ` +
           `(highlighted element: ${state.elementToHighlightId || 'none'}, ` +
           `trigger: ${JSON.stringify(step.nextStepTrigger || {})})` +
           (actionError
             ? `. The action could not be performed: ${actionError.message}`
-            : '. The action was performed but the tutorial did not advance.'),
+            : '. The action was performed but the tutorial did not advance.') +
+          (pageDiagnostics
+            ? ` Page state: error boundary displayed: ${
+                pageDiagnostics.hasErrorBoundary
+              }, open dialogs: [${pageDiagnostics.dialogTitles.join(' | ')}].`
+            : ''),
         { stepIndex: state.stepIndex, step, state }
       );
     }
