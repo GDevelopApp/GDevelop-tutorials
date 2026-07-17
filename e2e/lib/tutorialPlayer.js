@@ -198,13 +198,30 @@ const performStepAction = async ({
       // clicking the avatar, then click the button.
       await page
         .locator('#in-app-tutorial-avatar')
-        .click({ timeout: 5 * 1000 });
-      await button.click({ timeout: 5 * 1000 });
+        .click({ timeout: 5 * 1000 })
+        .catch(() => {});
+      try {
+        await button.click({ timeout: 5 * 1000 });
+      } catch (secondError) {
+        // The tooltip can be anchored to the bouncing avatar: the button then
+        // never stops moving so a regular click never considers it stable.
+        // Dispatch the click directly.
+        await button.waitFor({ state: 'attached', timeout: 5 * 1000 });
+        await button.evaluate((node) => node.click(), undefined, {
+          timeout: 5 * 1000,
+        });
+      }
     }
     return;
   }
 
   if (trigger.previewLaunched) {
+    if (attempt > 1) {
+      // A menu opened by a previous attempt may still be there, its backdrop
+      // blocking the toolbar: dismiss it.
+      await page.keyboard.press('Escape');
+      await page.waitForTimeout(500);
+    }
     const popupPromise = context
       .waitForEvent('page', { timeout: STEP_ADVANCE_TIMEOUT_MS })
       .catch(() => null);
@@ -214,15 +231,20 @@ const performStepAction = async ({
       .click({ timeout: 10 * 1000 });
     // Some steps target a split/menu button (e.g. "Launch preview in... >
     // 2 previews in 2 windows"): follow the bold texts of the tooltip through
-    // the menus that opened.
+    // the menus that opened. Menus and submenus can take a moment to render,
+    // so wait for each item (not all bold texts are menu items, e.g. "down
+    // arrow": those are skipped after the wait times out).
     for (const boldText of extractAllBoldTexts(step)) {
       const menuItem = page
         .getByRole('menuitem', {
           name: boldText.replace(/(\.|…)+$/, ''),
         })
         .first();
-      if (await menuItem.isVisible().catch(() => false)) {
-        await menuItem.click({ timeout: 5000 }).catch(() => {});
+      try {
+        await menuItem.waitFor({ state: 'visible', timeout: 4000 });
+        await menuItem.click({ timeout: 5000 });
+      } catch (error) {
+        // Not a menu item: ignore.
       }
     }
     // The preview opens in a new page: keep it open (the trigger fires when

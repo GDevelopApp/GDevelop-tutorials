@@ -47,6 +47,8 @@ module.exports = defineConfig({
   use: {
     baseURL: editorUrl,
     viewport: { width: 1600, height: 900 },
+    // Safety net: no action should ever block until the test timeout.
+    actionTimeout: 15 * 1000,
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
     // On CI, record a video of every tutorial (uploaded as artifact), so that

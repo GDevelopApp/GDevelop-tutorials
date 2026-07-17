@@ -25,6 +25,19 @@ referencing elements that no longer exist in the editor, without running it.
 - The tutorial is started through the regular
   `?initial-dialog=guided-lesson&tutorial-id=<id>` flow.
 
+## CI
+
+The `.github/workflows/test-in-app-tutorials.yml` workflow runs the static
+selector check and plays every tutorial on each push (currently on the
+`automatic-tests` branch, against the `automatic-tests` branch of GDevelop). A
+video of each tutorial being played is uploaded as an artifact
+(`tutorial-videos-and-traces`), for passing and failing runs alike.
+
+Known broken tutorials are listed in `KNOWN_BROKEN_TUTORIAL_IDS`
+(`e2e/in-app-tutorials.spec.js`) and in the `--ignore` flag of the selector
+check step: they are still played and recorded, but expected to fail. When
+fixing one, remove it from both places.
+
 ## Running locally
 
 Requirements: a GDevelop checkout with `npm install` ran in `newIDE/app`,
