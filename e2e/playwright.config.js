@@ -1,0 +1,65 @@
+// @ts-check
+const { defineConfig } = require('@playwright/test');
+const path = require('path');
+
+/**
+ * End-to-end tests that play the in-app tutorials against a running GDevelop
+ * editor (web build).
+ *
+ * Environment variables:
+ * - GDEVELOP_EDITOR_URL: URL of a running editor (default http://localhost:3000).
+ *   If the editor is not running, it is started from GDEVELOP_ROOT_PATH.
+ * - GDEVELOP_ROOT_PATH: path to a GDevelop checkout with `npm install` ran in
+ *   newIDE/app (default: ./GDevelop or ../GDevelop relative to this repository).
+ * - TUTORIAL_IDS: comma-separated list of tutorial ids to test (default: all).
+ */
+
+const fs = require('fs');
+
+const findGDevelopRootPath = () => {
+  if (process.env.GDEVELOP_ROOT_PATH) {
+    return path.resolve(process.cwd(), process.env.GDEVELOP_ROOT_PATH);
+  }
+  const candidates = [
+    path.join(__dirname, '../GDevelop'),
+    path.join(__dirname, '../../GDevelop'),
+  ];
+  for (const candidate of candidates) {
+    if (fs.existsSync(path.join(candidate, 'newIDE/app'))) return candidate;
+  }
+  return null;
+};
+
+const editorUrl = process.env.GDEVELOP_EDITOR_URL || 'http://localhost:3000';
+const gdevelopRootPath = findGDevelopRootPath();
+
+module.exports = defineConfig({
+  testDir: __dirname,
+  // Playing a whole tutorial can take a while: each step advance is detected
+  // by the editor with 0.5-1s polls.
+  timeout: 10 * 60 * 1000,
+  // The editor is a heavy page (WebAssembly, PIXI): don't run too many at once.
+  workers: 2,
+  fullyParallel: true,
+  forbidOnly: !!process.env.CI,
+  retries: process.env.CI ? 1 : 0,
+  reporter: process.env.CI ? [['list'], ['github']] : [['list']],
+  use: {
+    baseURL: editorUrl,
+    viewport: { width: 1600, height: 900 },
+    screenshot: 'only-on-failure',
+    trace: 'retain-on-failure',
+  },
+  webServer: gdevelopRootPath
+    ? {
+        command: `npm start --prefix ${path.join(
+          gdevelopRootPath,
+          'newIDE/app'
+        )}`,
+        url: editorUrl,
+        reuseExistingServer: true,
+        timeout: 20 * 60 * 1000,
+        env: { BROWSER: 'none' },
+      }
+    : undefined,
+});
