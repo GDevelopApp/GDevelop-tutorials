@@ -49,6 +49,9 @@ module.exports = defineConfig({
     viewport: { width: 1600, height: 900 },
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
+    // On CI, record a video of every tutorial (uploaded as artifact), so that
+    // each run can be reviewed and failures can be diagnosed.
+    video: process.env.CI ? 'on' : 'retain-on-failure',
   },
   webServer: gdevelopRootPath
     ? {
@@ -59,7 +62,11 @@ module.exports = defineConfig({
         url: editorUrl,
         reuseExistingServer: true,
         timeout: 20 * 60 * 1000,
-        env: { BROWSER: 'none' },
+        env: {
+          BROWSER: 'none',
+          // The editor compilation (webpack) is memory hungry on CI.
+          NODE_OPTIONS: '--max-old-space-size=7168',
+        },
       }
     : undefined,
 });

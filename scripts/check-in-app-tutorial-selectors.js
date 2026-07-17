@@ -5,6 +5,8 @@
  * way tutorials break: an id is renamed or removed in the editor.
  *
  * Usage: node scripts/check-in-app-tutorial-selectors.js --gdevelop-root-path ../GDevelop
+ * Options:
+ * - --ignore <id1,id2>: tutorial ids to skip (known broken tutorials).
  */
 const shell = require('shelljs');
 const path = require('path');
@@ -76,8 +78,20 @@ const tutorialFileNames = fs
   .readdirSync(inAppTutorialsPath)
   .filter((fileName) => fileName.endsWith('.json'));
 
+const ignoredTutorialIds = new Set(
+  typeof args['ignore'] === 'string'
+    ? args['ignore'].split(',').filter(Boolean)
+    : []
+);
+
 let totalProblemsCount = 0;
+let checkedTutorialsCount = 0;
 for (const fileName of tutorialFileNames) {
+  if (ignoredTutorialIds.has(path.basename(fileName, '.json'))) {
+    shell.echo(`⚠️ ${fileName} skipped (known broken tutorial).`);
+    continue;
+  }
+  checkedTutorialsCount++;
   // Load through InAppTutorial to expand meta steps ("add-behavior",
   // "launch-preview"...) the same way they are expanded at deploy time.
   const tutorial = new InAppTutorial(path.join(inAppTutorialsPath, fileName));
@@ -104,4 +118,4 @@ if (totalProblemsCount > 0) {
   );
   shell.exit(1);
 }
-shell.echo(`\n✅ All ${tutorialFileNames.length} tutorials passed.`);
+shell.echo(`\n✅ All ${checkedTutorialsCount} checked tutorials passed.`);

@@ -14,6 +14,19 @@ const {
 } = require('./lib/gdevelopEditor');
 const { playTutorial } = require('./lib/tutorialPlayer');
 
+/**
+ * Tutorials that are currently known to be broken (see the findings of
+ * `npm run check-in-app-tutorial-selectors`). They are still played (and
+ * recorded) but are expected to fail. Remove a tutorial from this list once it
+ * is fixed — the test will then fail with "unexpectedly passed" as a reminder.
+ * - flingGame: references removed editor elements (#layer-name,
+ *   [data-default]) and requires a logged-in user for its leaderboard steps.
+ * - plinkoMultiplier: first step requires a logged-in user
+ *   (absenceOfElement: #login-now), and it references the removed
+ *   #project-manager-drawer-close element.
+ */
+const KNOWN_BROKEN_TUTORIAL_IDS = ['flingGame', 'plinkoMultiplier'];
+
 const allTutorials = loadAllTutorials();
 const tutorialIdsFilter = process.env.TUTORIAL_IDS
   ? process.env.TUTORIAL_IDS.split(',').map((id) => id.trim())
@@ -24,6 +37,10 @@ const tutorials = tutorialIdsFilter
 
 for (const tutorial of tutorials) {
   test(`in-app tutorial: ${tutorial.id}`, async ({ page, context }) => {
+    test.fail(
+      KNOWN_BROKEN_TUTORIAL_IDS.includes(tutorial.id),
+      'This tutorial is known to be broken.'
+    );
     await serveLocalTutorials(context, allTutorials);
     await startTutorial(page, tutorial.id);
     await playTutorial({

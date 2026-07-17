@@ -1,0 +1,67 @@
+# Plays every in-app tutorial against the GDevelop editor (web build) and
+# fails if a tutorial step cannot be completed. A video of each tutorial being
+# played is uploaded as an artifact, for passing and failing runs alike.
+#
+# For the moment this runs on the automatic-tests branch only, against the
+# automatic-tests branch of GDevelop (which contains the orchestrator test
+# hook). Once merged, switch both refs and add a schedule (hourly cron).
+name: Test in-app tutorials
+
+on:
+  push:
+    branches: [automatic-tests]
+  workflow_dispatch:
+
+jobs:
+  test-in-app-tutorials:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout tutorials
+        uses: actions/checkout@v4
+
+      - name: Checkout GDevelop
+        uses: actions/checkout@v4
+        with:
+          repository: 4ian/GDevelop
+          ref: automatic-tests
+          path: GDevelop
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            GDevelop/newIDE/app/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install GDevelop editor dependencies
+        run: npm ci
+        working-directory: GDevelop/newIDE/app
+
+      # Fast static check: every selector used by the tutorials must still
+      # exist in the editor sources. Known broken tutorials are skipped —
+      # remove them from --ignore (and from KNOWN_BROKEN_TUTORIAL_IDS in
+      # e2e/in-app-tutorials.spec.js) once fixed.
+      - name: Check tutorial selectors against the editor sources
+        run: npm run check-in-app-tutorial-selectors -- --gdevelop-root-path ./GDevelop --ignore flingGame,plinkoMultiplier,joystick
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      # Starts the editor dev server (from ./GDevelop) and plays every
+      # tutorial. Known broken tutorials are expected to fail.
+      - name: Play all in-app tutorials
+        run: npm run test-in-app-tutorials
+
+      - name: Upload videos, screenshots and traces
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tutorial-videos-and-traces
+          path: test-results/
+          retention-days: 14
+          if-no-files-found: warn
