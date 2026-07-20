@@ -87,11 +87,12 @@ jobs:
           changed=$(git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD)
           echo "Changed files:"; echo "$changed"
           ids=$(echo "$changed" | grep -E '^tutorials/in-app/[^/]+\.json$' | xargs -rn1 basename | sed 's/\.json$//' | paste -sd, -)
-          if [ -n "$ids" ]; then
+          if echo "$changed" | grep -qE '^(e2e/|scripts/|package(-lock)?\.json|\.github/workflows/)'; then
+            # The harness itself changed: play everything.
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+          elif [ -n "$ids" ]; then
             echo "ids=$ids" >> "$GITHUB_OUTPUT"
             echo "mode=modified-tutorials" >> "$GITHUB_OUTPUT"
-          elif echo "$changed" | grep -qE '^(e2e/|scripts/|package(-lock)?\.json|\.github/workflows/)'; then
-            echo "mode=all" >> "$GITHUB_OUTPUT"
           else
             echo "mode=none" >> "$GITHUB_OUTPUT"
           fi
