@@ -24,6 +24,15 @@ const { playTutorial } = require('./lib/tutorialPlayer');
  */
 const KNOWN_BROKEN_TUTORIAL_IDS = ['flingGame'];
 
+/**
+ * Tutorials known to be broken on the mobile layout only.
+ * - tilemapPlatformer: after selecting the terrain, the instance properties
+ *   panel (a drawer on mobile) closes again, #freehandBrush disappears and
+ *   the tutorial tooltip is not displayed anymore: a mobile user is left
+ *   without any guidance.
+ */
+const KNOWN_BROKEN_ON_MOBILE_TUTORIAL_IDS = ['tilemapPlatformer'];
+
 const allTutorials = loadAllTutorials();
 const tutorialIdsFilter = process.env.TUTORIAL_IDS
   ? process.env.TUTORIAL_IDS.split(',').map((id) => id.trim())
@@ -33,9 +42,14 @@ const tutorials = tutorialIdsFilter
   : allTutorials;
 
 for (const tutorial of tutorials) {
-  test(`in-app tutorial: ${tutorial.id}`, async ({ page, context }) => {
+  test(`in-app tutorial: ${tutorial.id}`, async ({
+    page,
+    context,
+  }, testInfo) => {
     test.fail(
-      KNOWN_BROKEN_TUTORIAL_IDS.includes(tutorial.id),
+      KNOWN_BROKEN_TUTORIAL_IDS.includes(tutorial.id) ||
+        (testInfo.project.name === 'mobile' &&
+          KNOWN_BROKEN_ON_MOBILE_TUTORIAL_IDS.includes(tutorial.id)),
       'This tutorial is known to be broken.'
     );
     await serveLocalTutorials(context, allTutorials);

@@ -46,7 +46,6 @@ module.exports = defineConfig({
   reporter: process.env.CI ? [['list'], ['github']] : [['list']],
   use: {
     baseURL: editorUrl,
-    viewport: { width: 1600, height: 900 },
     // Safety net: no action should ever block until the test timeout.
     actionTimeout: 15 * 1000,
     screenshot: 'only-on-failure',
@@ -55,6 +54,25 @@ module.exports = defineConfig({
     // each run can be reviewed and failures can be diagnosed.
     video: process.env.CI ? 'on' : 'retain-on-failure',
   },
+  // The editor has different layouts depending on the window size (see
+  // UI/Responsive/ResponsiveWindowMeasurer.js: mobile is width < 600 or
+  // height < 500, tablet/"medium" is width < 1150). Run the tutorials on
+  // each: select one with --project=desktop|tablet|mobile.
+  projects: [
+    {
+      name: 'desktop',
+      use: { viewport: { width: 1600, height: 900 } },
+    },
+    {
+      name: 'tablet',
+      use: { viewport: { width: 1024, height: 768 }, hasTouch: true },
+    },
+    {
+      name: 'mobile',
+      // Landscape phone: the editor is mostly used in landscape on mobile.
+      use: { viewport: { width: 844, height: 390 }, hasTouch: true },
+    },
+  ],
   webServer: gdevelopRootPath
     ? {
         command: `npm start --prefix ${path.join(

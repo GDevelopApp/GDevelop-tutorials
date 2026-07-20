@@ -14,6 +14,13 @@ on:
 
 jobs:
   test-in-app-tutorials:
+    # One job per editor layout (see the projects in e2e/playwright.config.js):
+    # they run in parallel and each uploads its own videos.
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [desktop, tablet, mobile]
+    name: test-in-app-tutorials (${{ matrix.project }})
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
@@ -47,6 +54,7 @@ jobs:
       # remove them from --ignore (and from KNOWN_BROKEN_TUTORIAL_IDS in
       # e2e/in-app-tutorials.spec.js) once fixed.
       - name: Check tutorial selectors against the editor sources
+        if: matrix.project == 'desktop'
         run: npm run check-in-app-tutorial-selectors -- --gdevelop-root-path ./GDevelop --ignore flingGame
 
       - name: Install Playwright browser
@@ -55,7 +63,7 @@ jobs:
       # Starts the editor dev server (from ./GDevelop) and plays every
       # tutorial. Known broken tutorials are expected to fail.
       - name: Play all in-app tutorials
-        run: npm run test-in-app-tutorials
+        run: npm run test-in-app-tutorials -- --project=${{ matrix.project }}
 
       # Playwright records webm, which does not play natively on macOS:
       # convert to mp4 (H.264) so the videos open with QuickTime/Quick Look.
@@ -71,7 +79,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: tutorial-videos
+          name: tutorial-videos-${{ matrix.project }}
           path: |
             test-results/**/*.mp4
             test-results/**/*.png
@@ -86,7 +94,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-traces
+          name: test-traces-${{ matrix.project }}
           path: test-results/**/trace.zip
           retention-days: 14
           if-no-files-found: ignore

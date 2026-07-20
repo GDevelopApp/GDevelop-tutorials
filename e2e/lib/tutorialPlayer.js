@@ -351,7 +351,21 @@ const performStepAction = async ({
       );
     }
     const source = page.locator(highlightedElementSelector).first();
-    await source.waitFor({ state: 'visible', timeout: 10 * 1000 });
+    try {
+      await source.waitFor({ state: 'visible', timeout: 5 * 1000 });
+    } catch (error) {
+      // On small layouts the objects list is a drawer that can be closed:
+      // open it like a user would.
+      await page
+        .locator(
+          '#scene-editor[data-active="true"] #toolbar-open-objects-panel-button'
+        )
+        .first()
+        .click({ timeout: 5 * 1000 });
+      await source.waitFor({ state: 'visible', timeout: 8 * 1000 });
+    }
+    // The object can also be below the fold of the list.
+    await source.scrollIntoViewIfNeeded().catch(() => {});
     const canvas = page
       .locator('#scene-editor[data-active="true"] canvas')
       .first();
@@ -362,6 +376,14 @@ const performStepAction = async ({
     if (!sourceBox || !canvasBox) {
       throw new Error('Could not find the drag source or the scene canvas.');
     }
+    // Select the object first ("Select then drag", as the mobile tooltips
+    // say — harmless on desktop), then drag. Drop in the upper part of the
+    // canvas: on mobile the lower part is covered by the objects drawer.
+    await page.mouse.click(
+      sourceBox.x + sourceBox.width / 2,
+      sourceBox.y + sourceBox.height / 2
+    );
+    await page.waitForTimeout(200);
     // The step can require several instances (`instancesCount`): drop each
     // one at a different position.
     const instancesCount = trigger.instancesCount || 1;
@@ -376,7 +398,7 @@ const performStepAction = async ({
       // Move in several small steps so that drag events are properly emitted.
       await page.mouse.move(
         canvasBox.x + canvasBox.width * dropFractionX,
-        canvasBox.y + canvasBox.height / 2,
+        canvasBox.y + canvasBox.height * 0.3,
         { steps: 20 }
       );
       await page.waitForTimeout(200);
@@ -606,6 +628,34 @@ const playTutorial = async ({ page, context, tutorial, log = () => {} }) => {
     }
 
     const advanced = await waitForStepChange(page, state.stepIndex);
+    if (
+      !advanced &&
+      attemptsForCurrentStep === 1 &&
+      (step.nextStepTrigger || {}).presenceOfElement
+    ) {
+      // The expected element may be in a virtualized list that is too short
+      // to contain it on small screens: search for it like a user would,
+      // using the bold text of the tooltip.
+      const textToType = extractTextToType(step);
+      // Prefer the search input of the open dialog, if any (there can be
+      // several search inputs on screen, e.g. behind the dialog).
+      let searchInput = page
+        .locator('[role="dialog"] input[placeholder*="earch" i]')
+        .filter({ visible: true })
+        .first();
+      if (!(await searchInput.isVisible().catch(() => false))) {
+        searchInput = page
+          .locator('input[placeholder*="earch" i]')
+          .filter({ visible: true })
+          .first();
+      }
+      if (textToType && (await searchInput.isVisible().catch(() => false))) {
+        log(`Searching for "${textToType}" to reveal the expected element.`);
+        await searchInput.fill(textToType).catch(() => {});
+        await waitForStepChange(page, state.stepIndex);
+        continue;
+      }
+    }
     if (!advanced) {
       // An unexpected dialog (e.g. an error alert) may have opened above the
       // current one, blocking the step: dismiss any dialog that does not
