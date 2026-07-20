@@ -30,8 +30,11 @@ referencing elements that no longer exist in the editor, without running it.
 The `.github/workflows/test-in-app-tutorials.yml` workflow runs the static
 selector check and plays every tutorial on each push (currently on the
 `automatic-tests` branch, against the `automatic-tests` branch of GDevelop). A
-video of each tutorial being played is uploaded as an artifact
-(`tutorial-videos-and-traces`), for passing and failing runs alike.
+video of each tutorial being played (converted to mp4, playable natively on
+macOS) is uploaded as the `tutorial-videos` artifact, for passing and failing
+runs alike. Playwright traces of failed tests are uploaded separately as
+`test-traces` (they are heavy — ~50MB per failed test); inspect one with
+`npx playwright show-trace trace.zip`.
 
 Known broken tutorials are listed in `KNOWN_BROKEN_TUTORIAL_IDS`
 (`e2e/in-app-tutorials.spec.js`) and in the `--ignore` flag of the selector

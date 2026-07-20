@@ -57,11 +57,35 @@ jobs:
       - name: Play all in-app tutorials
         run: npm run test-in-app-tutorials
 
-      - name: Upload videos, screenshots and traces
+      # Playwright records webm, which does not play natively on macOS:
+      # convert to mp4 (H.264) so the videos open with QuickTime/Quick Look.
+      - name: Convert videos to mp4
+        if: always()
+        run: |
+          find test-results -name "*.webm" -print0 | while IFS= read -r -d '' file; do
+            ffmpeg -y -loglevel error -i "$file" -c:v libx264 -preset veryfast -crf 28 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -movflags +faststart "${file%.webm}.mp4" && rm "$file"
+          done
+
+      - name: Upload videos and screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: tutorial-videos-and-traces
-          path: test-results/
+          name: tutorial-videos
+          path: |
+            test-results/**/*.mp4
+            test-results/**/*.png
+            test-results/**/error-context.md
           retention-days: 14
           if-no-files-found: warn
+
+      # Traces are heavy (~50MB per failed test, with a DOM snapshot of every
+      # action): uploaded separately so downloading the videos stays fast.
+      # Inspect with: npx playwright show-trace trace.zip
+      - name: Upload traces (failures only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-traces
+          path: test-results/**/trace.zip
+          retention-days: 14
+          if-no-files-found: ignore
