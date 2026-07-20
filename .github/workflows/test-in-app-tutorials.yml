@@ -3,14 +3,17 @@
 # tutorial being played is uploaded as an artifact, for passing and failing
 # runs alike.
 #
-# Runs on every push (a tutorial change should not break the tutorials) and
-# every 6 hours (a change in GDevelop master should not either). The schedule
-# only runs from the default branch (main).
+# Runs on every push to main (a tutorial change should not break the
+# tutorials) and every 6 hours (a change in GDevelop master should not
+# either). The schedule only runs from the default branch (main).
+# On pull requests, only the modified tutorials are played (all of them if the
+# test harness itself was modified).
 name: Test in-app tutorials
 
 on:
   push:
     branches: [main, automatic-tests]
+  pull_request:
   schedule:
     # Every 6 hours: GDevelop pushes do not trigger this workflow, the
     # schedule catches editor changes that break tutorials.
@@ -31,6 +34,9 @@ jobs:
     steps:
       - name: Checkout tutorials
         uses: actions/checkout@v4
+        with:
+          # Full history, to diff against the base branch on pull requests.
+          fetch-depth: 0
 
       - name: Checkout GDevelop
         uses: actions/checkout@v4
@@ -65,9 +71,31 @@ jobs:
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
 
-      # Starts the editor dev server (from ./GDevelop) and plays every
-      # tutorial. Known broken tutorials are expected to fail.
-      - name: Play all in-app tutorials
+      # On pull requests, only play the tutorials whose json was modified —
+      # or all of them if the test harness itself was modified, and none if
+      # the changes concern neither.
+      - name: Determine which tutorials to play
+        id: scope
+        if: github.event_name == 'pull_request'
+        run: |
+          changed=$(git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD)
+          echo "Changed files:"; echo "$changed"
+          ids=$(echo "$changed" | grep -E '^tutorials/in-app/[^/]+\.json$' | xargs -rn1 basename | sed 's/\.json$//' | paste -sd, -)
+          if [ -n "$ids" ]; then
+            echo "ids=$ids" >> "$GITHUB_OUTPUT"
+            echo "mode=modified-tutorials" >> "$GITHUB_OUTPUT"
+          elif echo "$changed" | grep -qE '^(e2e/|scripts/|package(-lock)?\.json|\.github/workflows/)'; then
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Starts the editor dev server (from ./GDevelop) and plays the
+      # tutorials. Known broken tutorials are expected to fail.
+      - name: Play in-app tutorials
+        if: steps.scope.outputs.mode != 'none'
+        env:
+          TUTORIAL_IDS: ${{ steps.scope.outputs.ids }}
         run: npm run test-in-app-tutorials -- --project=${{ matrix.project }}
 
       # Playwright records webm, which does not play natively on macOS:
@@ -75,6 +103,7 @@ jobs:
       - name: Convert videos to mp4
         if: always()
         run: |
+          [ -d test-results ] || exit 0
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           find test-results -name "*.webm" -print0 | while IFS= read -r -d '' file; do
             ffmpeg -nostdin -y -loglevel error -i "$file" -c:v libx264 -preset veryfast -crf 28 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -movflags +faststart "${file%.webm}.mp4" && rm "$file"

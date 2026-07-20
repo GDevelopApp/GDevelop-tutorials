@@ -29,8 +29,10 @@ referencing elements that no longer exist in the editor, without running it.
 
 The `.github/workflows/test-in-app-tutorials.yml` workflow runs the static
 selector check and plays every tutorial against GDevelop `master`, on each
-push and every 6 hours (the schedule catches GDevelop changes that break
-tutorials, since GDevelop pushes do not trigger this workflow).
+push to `main` and every 6 hours (the schedule catches GDevelop changes that
+break tutorials, since GDevelop pushes do not trigger this workflow). On pull
+requests, only the modified tutorials are played (all of them if the test
+harness itself was modified).
 The tutorials are played on the three editor layouts in parallel jobs —
 desktop (1600×900), tablet (1024×768) and mobile (844×390 landscape), matching
 the editor's responsive thresholds. A video of each tutorial being played
