@@ -5,7 +5,10 @@
  * orchestrator advances to the next step. If it does not, the tutorial is
  * considered broken at this step.
  */
-const { getTutorialState } = require('./gdevelopEditor');
+const {
+  getTutorialState,
+  completeLoginDialogIfPresent,
+} = require('./gdevelopEditor');
 
 /** How long to wait for the orchestrator to advance after performing an action.
  * The orchestrator polls the DOM/project every 0.5-1s, so this includes at
@@ -47,6 +50,36 @@ const extractTextToType = (step) => {
 const extractAllBoldTexts = (step) => {
   const description = getEnglishMessage((step.tooltip || {}).description);
   return [...description.matchAll(/\*\*(.+?)\*\*/g)].map((match) => match[1]);
+};
+
+/**
+ * Clicks the menu items matching the bold texts of the step tooltip, in
+ * order, in the menus that are open. Menus and submenus can take a moment to
+ * render, so each item is waited for (bold texts that are not menu items,
+ * e.g. "down arrow", are skipped after the wait times out). The clicks are
+ * dispatched directly (no mouse movement): a submenu closes 75ms after the
+ * pointer leaves its parent menu item, so moving the mouse to the submenu
+ * item can close it on slow machines. A CSS locator is used as menus can be
+ * aria-hidden when a dialog is open.
+ * @param {import('@playwright/test').Page} page
+ * @param {any} step
+ */
+const followBoldTextsThroughMenus = async (page, step) => {
+  for (const boldText of extractAllBoldTexts(step)) {
+    const menuItem = page
+      .locator('[role="menuitem"]')
+      .filter({ hasText: boldText.replace(/(\.|…)+$/, '') })
+      .filter({ visible: true })
+      .first();
+    try {
+      await menuItem.waitFor({ state: 'visible', timeout: 8000 });
+      await menuItem.evaluate((node) => node.click(), undefined, {
+        timeout: 5000,
+      });
+    } catch (error) {
+      // Not a menu item: ignore.
+    }
+  }
 };
 
 /**
@@ -176,6 +209,16 @@ const fillField = async (page, selector, value, { anyValue = false } = {}) => {
     return;
   }
   await input.fill(value);
+  // Some fields are uncontrolled inputs that the editor can reset when
+  // another field commits its pending change (e.g. the variables list):
+  // verify the value stuck, and retype it like a user would otherwise.
+  await page.waitForTimeout(400);
+  const currentValue = await input.inputValue().catch(() => null);
+  if (currentValue !== null && currentValue !== value) {
+    await input.click();
+    await input.press('ControlOrMeta+a');
+    await input.pressSequentially(value, { delay: 30 });
+  }
 };
 
 /**
@@ -269,28 +312,8 @@ const performStepAction = async ({
       .click({ timeout: 10 * 1000 });
     // Some steps target a split/menu button (e.g. "Launch preview in... >
     // 2 previews in 2 windows"): follow the bold texts of the tooltip through
-    // the menus that opened. Menus and submenus can take a moment to render,
-    // so wait for each item (not all bold texts are menu items, e.g. "down
-    // arrow": those are skipped after the wait times out). The clicks are
-    // dispatched directly (no mouse movement): a submenu closes 75ms after
-    // the pointer leaves its parent menu item, so moving the mouse to the
-    // submenu item can close it on slow machines. A CSS locator is used as
-    // menus can be aria-hidden when a dialog is open.
-    for (const boldText of extractAllBoldTexts(step)) {
-      const menuItem = page
-        .locator('[role="menuitem"]')
-        .filter({ hasText: boldText.replace(/(\.|…)+$/, '') })
-        .filter({ visible: true })
-        .first();
-      try {
-        await menuItem.waitFor({ state: 'visible', timeout: 8000 });
-        await menuItem.evaluate((node) => node.click(), undefined, {
-          timeout: 5000,
-        });
-      } catch (error) {
-        // Not a menu item: ignore.
-      }
-    }
+    // the menus that opened.
+    await followBoldTextsThroughMenus(page, step);
     // The preview opens in a new page: keep it open (the trigger fires when
     // the launch resolves), it is closed by the caller once the step advanced.
     await popupPromise;
@@ -339,19 +362,27 @@ const performStepAction = async ({
     if (!sourceBox || !canvasBox) {
       throw new Error('Could not find the drag source or the scene canvas.');
     }
-    await page.mouse.move(
-      sourceBox.x + sourceBox.width / 2,
-      sourceBox.y + sourceBox.height / 2
-    );
-    await page.mouse.down();
-    // Move in several small steps so that drag events are properly emitted.
-    await page.mouse.move(
-      canvasBox.x + canvasBox.width / 2,
-      canvasBox.y + canvasBox.height / 2,
-      { steps: 20 }
-    );
-    await page.waitForTimeout(200);
-    await page.mouse.up();
+    // The step can require several instances (`instancesCount`): drop each
+    // one at a different position.
+    const instancesCount = trigger.instancesCount || 1;
+    for (let index = 0; index < instancesCount; index++) {
+      const dropFractionX =
+        0.3 + (0.4 * index) / Math.max(instancesCount - 1, 1);
+      await page.mouse.move(
+        sourceBox.x + sourceBox.width / 2,
+        sourceBox.y + sourceBox.height / 2
+      );
+      await page.mouse.down();
+      // Move in several small steps so that drag events are properly emitted.
+      await page.mouse.move(
+        canvasBox.x + canvasBox.width * dropFractionX,
+        canvasBox.y + canvasBox.height / 2,
+        { steps: 20 }
+      );
+      await page.waitForTimeout(200);
+      await page.mouse.up();
+      await page.waitForTimeout(300);
+    }
     return;
   }
 
@@ -362,6 +393,15 @@ const performStepAction = async ({
   if (highlightedElementSelector) {
     const element = page.locator(highlightedElementSelector).first();
     await element.waitFor({ state: 'visible', timeout: 10 * 1000 });
+    // Steps like "Right click on GameScene and select Edit scene variables":
+    // open the context menu and follow the bold texts through it.
+    if (
+      /right.?click/i.test(getEnglishMessage((step.tooltip || {}).description))
+    ) {
+      await element.click({ button: 'right', timeout: 10 * 1000 });
+      await followBoldTextsThroughMenus(page, step);
+      return;
+    }
     const isTextInput = await element.evaluate((node) => {
       const input =
         node.tagName === 'INPUT' || node.tagName === 'TEXTAREA'
@@ -421,9 +461,24 @@ const performStepAction = async ({
     return;
   }
 
-  if (trigger.absenceOfElement || trigger.presenceOfElement) {
-    // No element to interact with: the expected change may happen on its own
-    // (or cannot be automated, e.g. a login): just wait.
+  if (trigger.absenceOfElement) {
+    // No element highlighted, and an element must disappear: if it is there,
+    // click it — that is the natural interaction to make it go away (e.g.
+    // plinkoMultiplier's "#login-now" button, which opens the login dialog).
+    const target = page.locator(trigger.absenceOfElement).first();
+    if (await target.isVisible().catch(() => false)) {
+      await target.click({ timeout: 10 * 1000 });
+      if (await completeLoginDialogIfPresent(page)) {
+        log('Logged in with the test account.');
+      }
+      return;
+    }
+    log('Element to make disappear is already absent: waiting.');
+    return;
+  }
+
+  if (trigger.presenceOfElement) {
+    // No element to interact with: the expected change may happen on its own.
     log('No element to highlight: waiting for the trigger to be satisfied.');
     return;
   }
@@ -548,41 +603,39 @@ const playTutorial = async ({ page, context, tutorial, log = () => {} }) => {
     } catch (error) {
       actionError = error;
       log(`Action failed: ${error.message.split('\n')[0]}`);
-      if (error.message.includes('intercepts pointer events')) {
-        // An unexpected dialog (e.g. an error alert) opened above the current
-        // one and blocks the click: dismiss any dialog that does not contain
-        // the element the tutorial points to, like a user would.
-        const dismissedDialogs = await page
-          .evaluate((selector) => {
-            const target = selector ? document.querySelector(selector) : null;
-            const dismissed = [];
-            for (const dialog of document.querySelectorAll('[role="dialog"]')) {
-              if (target && dialog.contains(target)) continue;
-              const closeButton = [...dialog.querySelectorAll('button')].find(
-                (button) =>
-                  /^(close|ok|cancel|got it)$/i.test(
-                    (button.textContent || '').trim()
-                  )
-              );
-              if (closeButton) {
-                dismissed.push((dialog.textContent || '').trim().slice(0, 120));
-                closeButton.click();
-              }
-            }
-            return dismissed;
-          }, state.elementToHighlightId || null)
-          .catch(() => []);
-        if (dismissedDialogs.length) {
-          log(
-            `Dismissed unexpected dialog(s): ${JSON.stringify(
-              dismissedDialogs
-            )}`
-          );
-        }
-      }
     }
 
     const advanced = await waitForStepChange(page, state.stepIndex);
+    if (!advanced) {
+      // An unexpected dialog (e.g. an error alert) may have opened above the
+      // current one, blocking the step: dismiss any dialog that does not
+      // contain the element the tutorial points to, like a user would.
+      const dismissedDialogs = await page
+        .evaluate((selector) => {
+          const target = selector ? document.querySelector(selector) : null;
+          const dismissed = [];
+          for (const dialog of document.querySelectorAll('[role="dialog"]')) {
+            if (target && dialog.contains(target)) continue;
+            const closeButton = [...dialog.querySelectorAll('button')].find(
+              (button) =>
+                /^(close|ok|cancel|got it|abandon)$/i.test(
+                  (button.textContent || '').trim()
+                )
+            );
+            if (closeButton) {
+              dismissed.push((dialog.textContent || '').trim().slice(0, 120));
+              closeButton.click();
+            }
+          }
+          return dismissed;
+        }, state.elementToHighlightId || null)
+        .catch(() => []);
+      if (dismissedDialogs.length) {
+        log(
+          `Dismissed unexpected dialog(s): ${JSON.stringify(dismissedDialogs)}`
+        );
+      }
+    }
     if (!advanced && attemptsForCurrentStep >= MAX_ATTEMPTS_PER_STEP) {
       // The tutorial tooltip/highlighter hides itself in some situations
       // (error boundary displayed, another dialog opened above): include

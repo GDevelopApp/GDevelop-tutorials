@@ -41,6 +41,15 @@ Known broken tutorials are listed in `KNOWN_BROKEN_TUTORIAL_IDS`
 check step: they are still played and recorded, but expected to fail. When
 fixing one, remove it from both places.
 
+## Known dev-environment behaviors
+
+- When opening a template that uses leaderboards (plinkoMultiplier) with a
+  logged-in user, the leaderboard auto-creation fails with a 404: template
+  leaderboards only exist in production. This is expected on dev — the player
+  dismisses the error dialog ("Abandon") and the tutorial continues.
+- The test account (see `TEST_ACCOUNT` in `e2e/lib/gdevelopEditor.js`) is a
+  dev-environment account: it contains no secret.
+
 ## Running locally
 
 Requirements: a GDevelop checkout with `npm install` ran in `newIDE/app`,

@@ -55,6 +55,43 @@ const serveLocalTutorials = async (context, tutorials) => {
 };
 
 /**
+ * Test account used for the tutorials that require an authenticated user
+ * (leaderboards...). This is a dev-environment account (the tests run against
+ * api-dev.gdevelop.io): no secret here.
+ */
+const TEST_ACCOUNT = {
+  email:
+    process.env.GDEVELOP_TEST_ACCOUNT_EMAIL || 'clement+playwright@gdevelop.io',
+  password: process.env.GDEVELOP_TEST_ACCOUNT_PASSWORD || 'gdevelop',
+};
+
+/**
+ * If the login dialog is (or becomes) visible, fills it with the test account
+ * and submits it, like a user would. Returns true if a login was performed.
+ * @param {import('@playwright/test').Page} page
+ * @returns {Promise<boolean>}
+ */
+const completeLoginDialogIfPresent = async (page) => {
+  const loginDialog = page.locator('#login-dialog');
+  try {
+    await loginDialog.waitFor({ state: 'visible', timeout: 5 * 1000 });
+  } catch (error) {
+    return false;
+  }
+  await loginDialog
+    .locator('input:not([type="password"])')
+    .first()
+    .fill(TEST_ACCOUNT.email);
+  await loginDialog
+    .locator('input[type="password"]')
+    .first()
+    .fill(TEST_ACCOUNT.password);
+  await page.locator('#login-button').click();
+  await loginDialog.waitFor({ state: 'hidden', timeout: 60 * 1000 });
+  return true;
+};
+
+/**
  * Opens the editor and starts the given tutorial through the same flow as a
  * user clicking a lesson card: the start dialog is opened via the
  * `initial-dialog=guided-lesson` URL argument, and the dialog's primary button
@@ -87,6 +124,7 @@ const getTutorialState = async (page) => {
 module.exports = {
   loadAllTutorials,
   serveLocalTutorials,
+  completeLoginDialogIfPresent,
   startTutorial,
   getTutorialState,
 };
