@@ -12,13 +12,19 @@ name: Test in-app tutorials
 
 on:
   push:
-    branches: [main, automatic-tests]
+    branches: [main]
   pull_request:
   schedule:
     # Every 6 hours: GDevelop pushes do not trigger this workflow, the
     # schedule catches editor changes that break tutorials.
     - cron: '17 */6 * * *'
   workflow_dispatch:
+
+# A new push cancels the still-running workflow of the same pull request or
+# branch (scheduled runs are grouped separately and never cancel them).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test-in-app-tutorials:
