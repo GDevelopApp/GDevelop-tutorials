@@ -1,15 +1,20 @@
-# Plays every in-app tutorial against the GDevelop editor (web build) and
-# fails if a tutorial step cannot be completed. A video of each tutorial being
-# played is uploaded as an artifact, for passing and failing runs alike.
+# Plays every in-app tutorial against the GDevelop editor (web build, master
+# branch) and fails if a tutorial step cannot be completed. A video of each
+# tutorial being played is uploaded as an artifact, for passing and failing
+# runs alike.
 #
-# For the moment this runs on the automatic-tests branch only, against the
-# automatic-tests branch of GDevelop (which contains the orchestrator test
-# hook). Once merged, switch both refs and add a schedule (hourly cron).
+# Runs on every push (a tutorial change should not break the tutorials) and
+# every hour (a change in GDevelop master should not either). The hourly
+# schedule only runs from the default branch (main).
 name: Test in-app tutorials
 
 on:
   push:
-    branches: [automatic-tests]
+    branches: [main, automatic-tests]
+  schedule:
+    # Every hour: GDevelop pushes do not trigger this workflow, the schedule
+    # catches editor changes that break tutorials.
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -31,7 +36,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 4ian/GDevelop
-          ref: automatic-tests
+          ref: master
           path: GDevelop
 
       - uses: actions/setup-node@v4
@@ -84,7 +89,8 @@ jobs:
             test-results/**/*.mp4
             test-results/**/*.png
             test-results/**/error-context.md
-          retention-days: 14
+          # Hourly runs would accumulate a lot of videos: keep them shorter.
+          retention-days: ${{ github.event_name == 'schedule' && 3 || 14 }}
           if-no-files-found: warn
 
       # Traces are heavy (~50MB per failed test, with a DOM snapshot of every
@@ -96,5 +102,21 @@ jobs:
         with:
           name: test-traces-${{ matrix.project }}
           path: test-results/**/trace.zip
-          retention-days: 14
+          retention-days: ${{ github.event_name == 'schedule' && 3 || 14 }}
           if-no-files-found: ignore
+
+      # Ping the team when tutorials are broken. Requires the
+      # TUTORIALS_CI_DISCORD_WEBHOOK secret (a Discord webhook URL) to be set
+      # on the repository; does nothing otherwise.
+      - name: Notify failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.TUTORIALS_CI_DISCORD_WEBHOOK }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          PROJECT: ${{ matrix.project }}
+        run: |
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            curl -sS -H "Content-Type: application/json" \
+              -d "{\"content\": \"❌ In-app tutorials are broken on the $PROJECT layout: $RUN_URL\"}" \
+              "$DISCORD_WEBHOOK_URL"
+          fi

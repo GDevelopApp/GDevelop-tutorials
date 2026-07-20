@@ -28,8 +28,9 @@ referencing elements that no longer exist in the editor, without running it.
 ## CI
 
 The `.github/workflows/test-in-app-tutorials.yml` workflow runs the static
-selector check and plays every tutorial on each push (currently on the
-`automatic-tests` branch, against the `automatic-tests` branch of GDevelop).
+selector check and plays every tutorial against GDevelop `master`, on each
+push and every hour (the hourly schedule catches GDevelop changes that break
+tutorials, since GDevelop pushes do not trigger this workflow).
 The tutorials are played on the three editor layouts in parallel jobs —
 desktop (1600×900), tablet (1024×768) and mobile (844×390 landscape), matching
 the editor's responsive thresholds. A video of each tutorial being played
@@ -41,10 +42,14 @@ with `npx playwright show-trace trace.zip`.
 
 Run a single layout locally with `--project=desktop|tablet|mobile`.
 
-Known broken tutorials are listed in `KNOWN_BROKEN_TUTORIAL_IDS`
-(`e2e/in-app-tutorials.spec.js`) and in the `--ignore` flag of the selector
-check step: they are still played and recorded, but expected to fail. When
-fixing one, remove it from both places.
+Untested tutorials are listed in `SKIPPED_TUTORIAL_IDS`
+(`e2e/in-app-tutorials.spec.js`, currently flingGame — no plan to fix it) and
+in the `--ignore` flag of the selector check step. Tutorials broken on a
+single layout are in `KNOWN_BROKEN_ON_MOBILE_TUTORIAL_IDS`: they are still
+played and recorded, but expected to fail there.
+
+Failures ping Discord if the `TUTORIALS_CI_DISCORD_WEBHOOK` secret (a Discord
+webhook URL) is set on the repository.
 
 ## Known dev-environment behaviors
 

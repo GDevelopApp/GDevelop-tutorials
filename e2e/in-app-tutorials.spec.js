@@ -15,14 +15,11 @@ const {
 const { playTutorial } = require('./lib/tutorialPlayer');
 
 /**
- * Tutorials that are currently known to be broken (see the findings of
- * `npm run check-in-app-tutorial-selectors`). They are still played (and
- * recorded) but are expected to fail. Remove a tutorial from this list once it
- * is fixed — the test will then fail with "unexpectedly passed" as a reminder.
+ * Tutorials that are not tested at all.
  * - flingGame: references removed editor elements (#layer-name,
- *   [data-default]).
+ *   [data-default]) and there is no plan to fix it.
  */
-const KNOWN_BROKEN_TUTORIAL_IDS = ['flingGame'];
+const SKIPPED_TUTORIAL_IDS = ['flingGame'];
 
 /**
  * Tutorials known to be broken on the mobile layout only.
@@ -46,11 +43,14 @@ for (const tutorial of tutorials) {
     page,
     context,
   }, testInfo) => {
+    test.skip(
+      SKIPPED_TUTORIAL_IDS.includes(tutorial.id),
+      'This tutorial is not tested.'
+    );
     test.fail(
-      KNOWN_BROKEN_TUTORIAL_IDS.includes(tutorial.id) ||
-        (testInfo.project.name === 'mobile' &&
-          KNOWN_BROKEN_ON_MOBILE_TUTORIAL_IDS.includes(tutorial.id)),
-      'This tutorial is known to be broken.'
+      testInfo.project.name === 'mobile' &&
+        KNOWN_BROKEN_ON_MOBILE_TUTORIAL_IDS.includes(tutorial.id),
+      'This tutorial is known to be broken on this layout.'
     );
     await serveLocalTutorials(context, allTutorials);
     await startTutorial(page, tutorial.id);
