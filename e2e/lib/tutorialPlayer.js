@@ -547,7 +547,39 @@ const playTutorial = async ({ page, context, tutorial, log = () => {} }) => {
       });
     } catch (error) {
       actionError = error;
-      log(`Action failed: ${error.message}`);
+      log(`Action failed: ${error.message.split('\n')[0]}`);
+      if (error.message.includes('intercepts pointer events')) {
+        // An unexpected dialog (e.g. an error alert) opened above the current
+        // one and blocks the click: dismiss any dialog that does not contain
+        // the element the tutorial points to, like a user would.
+        const dismissedDialogs = await page
+          .evaluate((selector) => {
+            const target = selector ? document.querySelector(selector) : null;
+            const dismissed = [];
+            for (const dialog of document.querySelectorAll('[role="dialog"]')) {
+              if (target && dialog.contains(target)) continue;
+              const closeButton = [...dialog.querySelectorAll('button')].find(
+                (button) =>
+                  /^(close|ok|cancel|got it)$/i.test(
+                    (button.textContent || '').trim()
+                  )
+              );
+              if (closeButton) {
+                dismissed.push((dialog.textContent || '').trim().slice(0, 120));
+                closeButton.click();
+              }
+            }
+            return dismissed;
+          }, state.elementToHighlightId || null)
+          .catch(() => []);
+        if (dismissedDialogs.length) {
+          log(
+            `Dismissed unexpected dialog(s): ${JSON.stringify(
+              dismissedDialogs
+            )}`
+          );
+        }
+      }
     }
 
     const advanced = await waitForStepChange(page, state.stepIndex);
