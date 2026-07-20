@@ -29,7 +29,7 @@ referencing elements that no longer exist in the editor, without running it.
 
 The `.github/workflows/test-in-app-tutorials.yml` workflow runs the static
 selector check and plays every tutorial against GDevelop `master`, on each
-push and every hour (the hourly schedule catches GDevelop changes that break
+push and every 6 hours (the schedule catches GDevelop changes that break
 tutorials, since GDevelop pushes do not trigger this workflow).
 The tutorials are played on the three editor layouts in parallel jobs —
 desktop (1600×900), tablet (1024×768) and mobile (844×390 landscape), matching
@@ -47,9 +47,6 @@ Untested tutorials are listed in `SKIPPED_TUTORIAL_IDS`
 in the `--ignore` flag of the selector check step. Tutorials broken on a
 single layout are in `KNOWN_BROKEN_ON_MOBILE_TUTORIAL_IDS`: they are still
 played and recorded, but expected to fail there.
-
-Failures ping Discord if the `TUTORIALS_CI_DISCORD_WEBHOOK` secret (a Discord
-webhook URL) is set on the repository.
 
 ## Known dev-environment behaviors
 

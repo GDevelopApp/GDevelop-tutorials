@@ -4,17 +4,17 @@
 # runs alike.
 #
 # Runs on every push (a tutorial change should not break the tutorials) and
-# every hour (a change in GDevelop master should not either). The hourly
-# schedule only runs from the default branch (main).
+# every 6 hours (a change in GDevelop master should not either). The schedule
+# only runs from the default branch (main).
 name: Test in-app tutorials
 
 on:
   push:
     branches: [main, automatic-tests]
   schedule:
-    # Every hour: GDevelop pushes do not trigger this workflow, the schedule
-    # catches editor changes that break tutorials.
-    - cron: '17 * * * *'
+    # Every 6 hours: GDevelop pushes do not trigger this workflow, the
+    # schedule catches editor changes that break tutorials.
+    - cron: '17 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -104,19 +104,3 @@ jobs:
           path: test-results/**/trace.zip
           retention-days: ${{ github.event_name == 'schedule' && 3 || 14 }}
           if-no-files-found: ignore
-
-      # Ping the team when tutorials are broken. Requires the
-      # TUTORIALS_CI_DISCORD_WEBHOOK secret (a Discord webhook URL) to be set
-      # on the repository; does nothing otherwise.
-      - name: Notify failure
-        if: failure()
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.TUTORIALS_CI_DISCORD_WEBHOOK }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          PROJECT: ${{ matrix.project }}
-        run: |
-          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
-            curl -sS -H "Content-Type: application/json" \
-              -d "{\"content\": \"❌ In-app tutorials are broken on the $PROJECT layout: $RUN_URL\"}" \
-              "$DISCORD_WEBHOOK_URL"
-          fi
