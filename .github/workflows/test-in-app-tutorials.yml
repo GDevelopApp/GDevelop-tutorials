@@ -62,6 +62,7 @@ jobs:
       - name: Convert videos to mp4
         if: always()
         run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           find test-results -name "*.webm" -print0 | while IFS= read -r -d '' file; do
             ffmpeg -y -loglevel error -i "$file" -c:v libx264 -preset veryfast -crf 28 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -movflags +faststart "${file%.webm}.mp4" && rm "$file"
           done
