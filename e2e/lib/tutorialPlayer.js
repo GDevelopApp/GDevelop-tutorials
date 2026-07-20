@@ -271,16 +271,22 @@ const performStepAction = async ({
     // 2 previews in 2 windows"): follow the bold texts of the tooltip through
     // the menus that opened. Menus and submenus can take a moment to render,
     // so wait for each item (not all bold texts are menu items, e.g. "down
-    // arrow": those are skipped after the wait times out).
+    // arrow": those are skipped after the wait times out). The clicks are
+    // dispatched directly (no mouse movement): a submenu closes 75ms after
+    // the pointer leaves its parent menu item, so moving the mouse to the
+    // submenu item can close it on slow machines. A CSS locator is used as
+    // menus can be aria-hidden when a dialog is open.
     for (const boldText of extractAllBoldTexts(step)) {
       const menuItem = page
-        .getByRole('menuitem', {
-          name: boldText.replace(/(\.|…)+$/, ''),
-        })
+        .locator('[role="menuitem"]')
+        .filter({ hasText: boldText.replace(/(\.|…)+$/, '') })
+        .filter({ visible: true })
         .first();
       try {
         await menuItem.waitFor({ state: 'visible', timeout: 8000 });
-        await menuItem.click({ timeout: 5000 });
+        await menuItem.evaluate((node) => node.click(), undefined, {
+          timeout: 5000,
+        });
       } catch (error) {
         // Not a menu item: ignore.
       }
