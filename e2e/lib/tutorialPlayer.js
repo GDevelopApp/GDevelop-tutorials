@@ -202,12 +202,14 @@ const performStepAction = async ({
 
   if (trigger.clickOnTooltipButton) {
     const buttonLabel = getEnglishMessage(trigger.clickOnTooltipButton);
-    // There can be several tooltip poppers in the DOM (a previous step's
-    // tooltip whose exit transition did not complete keeps the same id):
-    // only consider the visible button.
+    // A CSS locator is used (not getByRole): when a modal dialog is open,
+    // Material UI sets aria-hidden on the other root containers including the
+    // tutorial popper, removing the (visible) button from the accessibility
+    // tree. Also only consider the visible button: several poppers with the
+    // same id can coexist in the DOM.
     const button = page
-      .locator('[id="in-app-tutorial-tooltip-displayer"]')
-      .getByRole('button', { name: buttonLabel })
+      .locator('[id="in-app-tutorial-tooltip-displayer"] button')
+      .filter({ hasText: buttonLabel })
       .filter({ visible: true })
       .first();
     // The tooltip is often anchored to the bouncing avatar: it never stops
@@ -277,7 +279,7 @@ const performStepAction = async ({
         })
         .first();
       try {
-        await menuItem.waitFor({ state: 'visible', timeout: 4000 });
+        await menuItem.waitFor({ state: 'visible', timeout: 8000 });
         await menuItem.click({ timeout: 5000 });
       } catch (error) {
         // Not a menu item: ignore.
