@@ -85,6 +85,15 @@ describe('checkCssSelector', () => {
     expect(checkCssSelector('[id="Z Order"]', sourceBlob)).toEqual([]);
   });
 
+  it('accepts drawer close buttons built from the drawer id', () => {
+    const blobWithDrawer =
+      sourceBlob + '\nid={`${props.id}-close`}\nid="my-drawer"';
+    expect(checkCssSelector('#my-drawer-close', blobWithDrawer)).toEqual([]);
+    expect(checkCssSelector('#other-drawer-close', blobWithDrawer)[0]).toMatch(
+      /other-drawer-close/
+    );
+  });
+
   it('accepts known camelCase dataset attributes', () => {
     expect(
       checkCssSelector(

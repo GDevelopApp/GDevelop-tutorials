@@ -531,7 +531,7 @@
         "objectAddedInLayout": true
       },
       "mapProjectData": {
-        "joystick": "sceneLastObjectName:level"
+        "joystick": "sceneLastObjectName:gameScene"
       },
       "tooltip": {
         "description": {

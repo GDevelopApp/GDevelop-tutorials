@@ -22,8 +22,8 @@ const { playTutorial } = require('./lib/tutorialPlayer');
  * - flingGame: references removed editor elements (#layer-name,
  *   [data-default]) and requires a logged-in user for its leaderboard steps.
  * - plinkoMultiplier: first step requires a logged-in user
- *   (absenceOfElement: #login-now), and it references the removed
- *   #project-manager-drawer-close element.
+ *   (absenceOfElement: #login-now) — remove once the tests use a test
+ *   account.
  */
 const KNOWN_BROKEN_TUTORIAL_IDS = ['flingGame', 'plinkoMultiplier'];
 

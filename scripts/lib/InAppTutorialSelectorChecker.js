@@ -179,6 +179,17 @@ const checkId = (id, sourceBlob) => {
   // `#FollowOnY`, `#playerNumber`, `[id="Z Order"]`) and cannot be checked
   // statically.
   if (/^[A-Z]/.test(id) || (/[A-Z]/.test(id) && !id.includes('-'))) return null;
+  // DrawerTopBar builds its buttons ids from its own id
+  // (`${props.id}-close` / `${props.id}-icon`): accept them when the base id
+  // still exists.
+  const drawerButtonMatch = id.match(/^(.+)-(close|icon)$/);
+  if (
+    drawerButtonMatch &&
+    sourceBlob.includes('${props.id}-' + drawerButtonMatch[2]) &&
+    sourceBlob.includes(drawerButtonMatch[1])
+  ) {
+    return null;
+  }
   for (const family of DYNAMIC_ID_FAMILIES) {
     if (family.pattern.test(id)) {
       const missingNeedles = family.needles.filter(

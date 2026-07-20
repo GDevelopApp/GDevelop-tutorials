@@ -47,7 +47,7 @@ jobs:
       # remove them from --ignore (and from KNOWN_BROKEN_TUTORIAL_IDS in
       # e2e/in-app-tutorials.spec.js) once fixed.
       - name: Check tutorial selectors against the editor sources
-        run: npm run check-in-app-tutorial-selectors -- --gdevelop-root-path ./GDevelop --ignore flingGame,plinkoMultiplier,joystick
+        run: npm run check-in-app-tutorial-selectors -- --gdevelop-root-path ./GDevelop --ignore flingGame
 
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
