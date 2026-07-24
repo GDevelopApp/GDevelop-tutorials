@@ -2,3 +2,5 @@
 .DS_Store
 /dist
 *.autosave
+/test-results
+/playwright-report

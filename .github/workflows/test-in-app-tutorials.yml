@@ -1,0 +1,142 @@
+# Plays every in-app tutorial against the GDevelop editor (web build, master
+# branch) and fails if a tutorial step cannot be completed. A video of each
+# tutorial being played is uploaded as an artifact, for passing and failing
+# runs alike.
+#
+# Runs on every push to main (a tutorial change should not break the
+# tutorials) and every 6 hours (a change in GDevelop master should not
+# either). The schedule only runs from the default branch (main).
+# On pull requests, only the modified tutorials are played (all of them if the
+# test harness itself was modified).
+name: Test in-app tutorials
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Every 6 hours: GDevelop pushes do not trigger this workflow, the
+    # schedule catches editor changes that break tutorials.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+# A new push cancels the still-running workflow of the same pull request or
+# branch (scheduled runs are grouped separately and never cancel them).
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-in-app-tutorials:
+    # One job per editor layout (see the projects in e2e/playwright.config.js):
+    # they run in parallel and each uploads its own videos.
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [desktop, tablet, mobile]
+    name: test-in-app-tutorials (${{ matrix.project }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout tutorials
+        uses: actions/checkout@v4
+        with:
+          # Full history, to diff against the base branch on pull requests.
+          fetch-depth: 0
+
+      - name: Checkout GDevelop
+        uses: actions/checkout@v4
+        with:
+          repository: 4ian/GDevelop
+          ref: master
+          path: GDevelop
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            GDevelop/newIDE/app/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install GDevelop editor dependencies
+        run: npm ci
+        working-directory: GDevelop/newIDE/app
+
+      # Fast static check: every selector used by the tutorials must still
+      # exist in the editor sources. Known broken tutorials are skipped —
+      # remove them from --ignore (and from KNOWN_BROKEN_TUTORIAL_IDS in
+      # e2e/in-app-tutorials.spec.js) once fixed.
+      - name: Check tutorial selectors against the editor sources
+        if: matrix.project == 'desktop'
+        run: npm run check-in-app-tutorial-selectors -- --gdevelop-root-path ./GDevelop --ignore flingGame
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      # On pull requests, only play the tutorials whose json was modified —
+      # or all of them if the test harness itself was modified, and none if
+      # the changes concern neither.
+      - name: Determine which tutorials to play
+        id: scope
+        if: github.event_name == 'pull_request'
+        run: |
+          changed=$(git diff --name-only "origin/$GITHUB_BASE_REF"...HEAD)
+          echo "Changed files:"; echo "$changed"
+          ids=$(echo "$changed" | grep -E '^tutorials/in-app/[^/]+\.json$' | xargs -rn1 basename | sed 's/\.json$//' | paste -sd, -)
+          if echo "$changed" | grep -qE '^(e2e/|scripts/|package(-lock)?\.json|\.github/workflows/)'; then
+            # The harness itself changed: play everything.
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+          elif [ -n "$ids" ]; then
+            echo "ids=$ids" >> "$GITHUB_OUTPUT"
+            echo "mode=modified-tutorials" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Starts the editor dev server (from ./GDevelop) and plays the
+      # tutorials. Known broken tutorials are expected to fail.
+      - name: Play in-app tutorials
+        if: steps.scope.outputs.mode != 'none'
+        env:
+          TUTORIAL_IDS: ${{ steps.scope.outputs.ids }}
+        run: npm run test-in-app-tutorials -- --project=${{ matrix.project }}
+
+      # Playwright records webm, which does not play natively on macOS:
+      # convert to mp4 (H.264) so the videos open with QuickTime/Quick Look.
+      - name: Convert videos to mp4
+        if: always()
+        run: |
+          [ -d test-results ] || exit 0
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          find test-results -name "*.webm" -print0 | while IFS= read -r -d '' file; do
+            ffmpeg -nostdin -y -loglevel error -i "$file" -c:v libx264 -preset veryfast -crf 28 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2" -movflags +faststart "${file%.webm}.mp4" && rm "$file"
+          done
+
+      - name: Upload videos and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tutorial-videos-${{ matrix.project }}
+          path: |
+            test-results/**/*.mp4
+            test-results/**/*.png
+            test-results/**/error-context.md
+          # Hourly runs would accumulate a lot of videos: keep them shorter.
+          retention-days: ${{ github.event_name == 'schedule' && 3 || 14 }}
+          if-no-files-found: warn
+
+      # Traces are heavy (~50MB per failed test, with a DOM snapshot of every
+      # action): uploaded separately so downloading the videos stays fast.
+      # Inspect with: npx playwright show-trace trace.zip
+      - name: Upload traces (failures only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-traces-${{ matrix.project }}
+          path: test-results/**/trace.zip
+          retention-days: ${{ github.event_name == 'schedule' && 3 || 14 }}
+          if-no-files-found: ignore
