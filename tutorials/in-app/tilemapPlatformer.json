@@ -663,7 +663,7 @@
     {
       "elementToHighlightId": "objectInObjectOrResourceSelector:tilemap",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-TileMap--SimpleTileMap--TileIdAtPosition"
+        "presenceOfElement": "#instruction-item-TileMap--TileMapBehavior--TileIdAtPosition"
       },
       "tooltip": {
         "description": {
@@ -692,7 +692,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-TileMap--SimpleTileMap--TileIdAtPosition",
+      "elementToHighlightId": "#instruction-item-TileMap--TileMapBehavior--TileIdAtPosition",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
@@ -724,7 +724,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-2-expression-field",
+      "elementToHighlightId": "#parameter-3-expression-field",
       "nextStepTrigger": {
         "valueEquals": "13"
       },
@@ -756,7 +756,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-3-expression-field",
+      "elementToHighlightId": "#parameter-4-expression-field",
       "nextStepTrigger": {
         "valueEquals": "Slime.CenterX()"
       },
@@ -788,7 +788,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-4-expression-field",
+      "elementToHighlightId": "#parameter-5-expression-field",
       "nextStepTrigger": {
         "valueEquals": "Slime.CenterY()"
       },
@@ -883,7 +883,7 @@
     {
       "elementToHighlightId": "objectInObjectOrResourceSelector:tilemap",
       "nextStepTrigger": {
-        "presenceOfElement": "#instruction-item-TileMap--RemoveTileAtPosition"
+        "presenceOfElement": "#instruction-item-TileMap--TileMapBehavior--RemoveTileAtPosition"
       },
       "tooltip": {
         "description": {
@@ -912,7 +912,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#instruction-item-TileMap--RemoveTileAtPosition",
+      "elementToHighlightId": "#instruction-item-TileMap--TileMapBehavior--RemoveTileAtPosition",
       "nextStepTrigger": {
         "presenceOfElement": "#instruction-parameters-container"
       },
@@ -944,7 +944,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-1-expression-field",
+      "elementToHighlightId": "#parameter-2-expression-field",
       "nextStepTrigger": {
         "valueEquals": "Slime.CenterX()"
       },
@@ -976,7 +976,7 @@
       "isOnClosableDialog": true
     },
     {
-      "elementToHighlightId": "#parameter-2-expression-field",
+      "elementToHighlightId": "#parameter-3-expression-field",
       "nextStepTrigger": {
         "valueEquals": "Slime.CenterY()"
       },
