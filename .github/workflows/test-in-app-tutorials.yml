@@ -4,7 +4,7 @@
 # runs alike.
 #
 # Runs on every push to main (a tutorial change should not break the
-# tutorials) and every 6 hours (a change in GDevelop master should not
+# tutorials) and every 14 hours (a change in GDevelop master should not
 # either). The schedule only runs from the default branch (main).
 # On pull requests, only the modified tutorials are played (all of them if the
 # test harness itself was modified).
@@ -17,7 +17,7 @@ on:
   schedule:
     # Every 6 hours: GDevelop pushes do not trigger this workflow, the
     # schedule catches editor changes that break tutorials.
-    - cron: '17 */6 * * *'
+    - cron: '17 */14 * * *'
   workflow_dispatch:
 
 # A new push cancels the still-running workflow of the same pull request or
